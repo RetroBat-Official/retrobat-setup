@@ -1,0 +1,3 @@
+[submodule "bios"]
+	path = bios
+	url = https://github.com/RetroBat-Official/retrobat-bios
