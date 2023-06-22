@@ -79,8 +79,10 @@
 \system\templates\roms\ports\craft.libretro|\roms\ports\2048.libretro
 \system\templates\roms\ports\craft.libretro|\roms\ports\craft.libretro
 \system\templates\roms\ports\craft.libretro|\roms\ports\mrboom.libretro
+\system\templates\roms\ports\craft.libretro|\roms\ports\xrick.libretro
 \system\templates\roms\ports\gamelist.xml|\roms\ports\gamelist.xml
 \system\templates\roms\ports\images.zip|\roms\ports
+\system\templates\roms\ports\xrick.zip|\roms\ports
 \system\templates\roms\ps3\example-to-edit.m3u.txt|\roms\ps3\example-to-edit.m3u.txt
 \system\templates\roms\wiiu\example-to-edit.m3u.txt|\roms\wiiu\example-to-edit.m3u.txt
 \system\templates\rpcs3\GuiConfigs\CurrentSettings.ini|\emulators\rpcs3\GuiConfigs\CurrentSettings.ini

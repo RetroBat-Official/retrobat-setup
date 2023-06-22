@@ -18,4 +18,10 @@
 <desc>Bomberman clone.</desc>
 <image>./images/mrboom.png</image>
 </game>
+<game>
+<path>./xrick.libretro</path>
+<name>XRick</name>
+<desc>Rick Dangerous clone.</desc>
+<image>./images/xrick.png</image>
+</game>
 </gameList>
