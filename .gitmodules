@@ -1,3 +1,6 @@
 [submodule "bios"]
 	path = bios
 	url = https://github.com/RetroBat-Official/retrobat-bios
+[submodule "system/decorations"]
+	path = system/decorations
+	url = https://github.com/RetroBat-Official/retrobat-bezels
