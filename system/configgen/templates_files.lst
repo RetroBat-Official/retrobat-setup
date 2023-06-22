@@ -27,6 +27,7 @@
 \system\templates\emulationstation\es_input.cfg|\emulationstation\.emulationstation\es_input.cfg
 \system\templates\emulationstation\es_padtokey.cfg|\emulationstation\.emulationstation\es_padtokey.cfg
 \system\templates\emulationstation\es_settings.cfg|\emulationstation\.emulationstation\es_settings.cfg
+\system\templates\flycast\emu.cfg|\emulators\flycast\emu.cfg
 \system\templates\hypseus\hypinput.ini|\emulators\hypseus\hypinput.ini
 \system\templates\infos\portable.txt|\emulators\cemu\portable.txt
 \system\templates\infos\portable.txt|\emulators\citra\portable.txt
