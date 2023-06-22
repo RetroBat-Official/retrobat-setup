@@ -19,11 +19,11 @@ Unicode true
 !define PRODUCT_PUBLISHER "RetroBat Team"
 !define PRODUCT_WEB_SITE "https://www.retrobat.org/"
 
-!define BASE_SOURCE ".\build"
+!define BASE_SOURCE ".\..\build"
 !define BASE_TARGET "$(^Name)"
-!define RESOURCES_PATH "${BASE_SOURCE}\system\resources"
+!define RESOURCES_PATH ".\resources"
 
-!define SETUP_VERSION "5.1.0.0"
+!define SETUP_VERSION "6.0.0.0"
 
 VIAddVersionKey "ProductName" "${PRODUCT}"
 VIAddVersionKey "CompanyName" "${PRODUCT}"
@@ -53,7 +53,7 @@ SpaceTexts none
 !define MUI_HEADERIMAGE_BITMAP_STRETCH "FitControl"
 !define MUI_HEADER_TRANSPARENT_TEXT
 !define MUI_ICON "${RESOURCES_PATH}\retrobat-icon-white.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "${RESOURCES_PATH}\retrobat_wizard.bmp"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "${RESOURCES_PATH}\retrobat_wizard_old.bmp"
 !define MUI_FINISHPAGE_SHOWREADME
 !define MUI_FINISHPAGE_SHOWREADME_TEXT "Create Desktop Shortcut"
 !define MUI_FINISHPAGE_SHOWREADME_FUNCTION CreateDesktopShortCut
@@ -63,7 +63,7 @@ SpaceTexts none
 !define MUI_LANGDLL_REGISTRY_VALUENAME "NSIS:Language"
 
 !insertmacro MUI_PAGE_WELCOME
-!insertmacro MUI_PAGE_LICENSE "license.txt"
+!insertmacro MUI_PAGE_LICENSE ".\..\license.txt"
 !insertmacro MUI_PAGE_DIRECTORY
 !insertmacro MUI_PAGE_INSTFILES
 !insertmacro MUI_PAGE_FINISH
@@ -181,7 +181,7 @@ Section "install"
   SetOutPath "$INSTDIR"
   File ${BASE_SOURCE}\${FILENAME}.exe
   File ${BASE_SOURCE}\${FILENAME}.dat
-  File ${BASE_SOURCE}\readme.txt
+  File .\readme.txt
   File ${BASE_SOURCE}\license.txt
   File /r /x ${BASE_SOURCE}\emulationstation\.emulationstation\es_settings.cfg /x ${BASE_SOURCE}\emulationstation\.emulationstation\es_input.cfg ${BASE_SOURCE}\*.*
   

@@ -12,8 +12,8 @@ to set the default configuration and to build the setup from sources.
 
 :: ---- BUILDER OPTION ----
 
-set retrobat_version=5.1.0
-set retroarch_version=1.10.3
+set retrobat_version=6.0.0
+set retroarch_version=1.15.0
 
 set get_batgui=0
 set get_batocera_ports=1
@@ -40,8 +40,8 @@ set archive_compression=3
 :: ---- LOOP LIST ----
 
 set deps_list=(git makensis 7za strip wget)
-set submodules_list=(bios default_theme decorations system)
-set packages_list=(retrobat_binaries batgui emulationstation batocera_ports mega_bezels retroarch roms wiimotegun)
+set submodules_list=(bios decorations system)
+set packages_list=(retrobat_binaries batgui emulationstation default_theme batocera_ports mega_bezels retroarch roms wiimotegun)
 set legacy_cores_list=(4do emuscv imageviewer mame2014 mame2016 px68k)
 set emulators_black_list=(3dsen pico8 retroarch ryujinx steam teknoparrot yuzu yuzu-early-access)
 
@@ -50,7 +50,7 @@ set emulators_black_list=(3dsen pico8 retroarch ryujinx steam teknoparrot yuzu y
 set script_type=builder
 set user_choice=0
 set git_branch=master
-set branch=stable
+set branch=beta
 set release_version=null
 set log_file=build.log
 set exit_timeout=0
@@ -376,6 +376,7 @@ for %%i in %packages_list% do (
 		if "!package_name!"=="batocera_ports" (set package_file=batocera-ports.zip)
 		if "!package_name!"=="retroarch" (set package_file=RetroArch.7z)
 		if "!package_name!"=="wiimotegun" (set package_file=WiimoteGun.zip)
+		if "!package_name!"=="default_theme" (set package_file=master.zip)
 		
 		call :download
 		call :hash_file
@@ -497,7 +498,7 @@ set package_file=%name%-v%release_version%-setup.exe
 
 if not exist "!build_path!\%package_file%" (
 
-	"!buildtools_path!\..\nsis\makensis.exe" /V4 /DRELEASE_VERSION=%release_version%  "!root_path!\setup.nsi"
+	"!buildtools_path!\..\nsis\makensis.exe" /V4 /DRELEASE_VERSION=%release_version%  "!root_path!\installer\setup.nsi"
 )
 
 timeout/t 2 >nul
@@ -505,7 +506,7 @@ timeout/t 2 >nul
 if exist "!root_path!\%package_file%" (
 
 	(set/A exit_code=0)
-	move /Y "!root_path!\%package_file%" "!build_path!"
+	move /Y "!root_path!\installer\%package_file%" "!build_path!"
 	(echo %date% %time% [INFO] Build "%package_file%" in "!build_path!")>> "!root_path!\%log_file%"
 )
 
