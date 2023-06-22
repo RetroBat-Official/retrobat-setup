@@ -136,6 +136,23 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
+    <game>
+		<path>./flycast.menu</path>
+		<name>Flycast (Dreamcast, Naomi, Atomiswave)</name>
+		<desc>Run Flycast.</desc>
+		<image>./media/flycast-logo.png</image>
+		<marquee>./media/flycast-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>FlyingHead</developer>
+		<publisher>FlyingHead</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
 	<game>
 		<path>./m2emulator.menu</path>
 		<name>M2Emulator (Model 2)</name>

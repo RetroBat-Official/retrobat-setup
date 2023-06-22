@@ -102,6 +102,8 @@ emulators\dolphin-triforce\User\Config
 emulators\dolphin-triforce\User\GameSettings
 emulators\dosbox
 emulators\duckstation
+emulators\flycast
+emulators\flycast\mappings
 emulators\fpinball
 emulators\gsplus
 emulators\hypseus
@@ -223,6 +225,7 @@ screenshots\citra
 screenshots\duckstation
 screenshots\pcsx2
 screenshots\winuae
+screenshots\xemu
 screenshots\yuzu
 sounds
 sounds\retroachievements
