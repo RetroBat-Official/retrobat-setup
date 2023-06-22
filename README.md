@@ -29,34 +29,11 @@ RetroBat can also run in Portable Mode. This means you can play games from an ex
 |   |[DirectX](https://www.microsoft.com/download/details.aspx?id=35)|
 |**Controllers:**|Xinput controllers hightly recommanded. Test your controller [HERE](https://gamepad-tester.com)|
 
-## 🎮 Supported Machines
-
-![Supported Machines](https://raw.githubusercontent.com/kaylh/RetroBat/master/system/resources/marques.png)
-
-**RetroBat will never provide copyrighted/commercial ROMs or BIOS files.**
-
-## 🧰 Build Instructions
-
-<!--<img src="https://www.retrobat.ovh/img/under-construction.png" width="240" alt="under-construction" class="center">-->
-
-The batch script `build.bat` will download all the softwares required, set the config files and build the RetroBat Setup from `setup.nsi` sources script.
-
-- Download and install [Git for Windows](https://gitforwindows.org/) (follow default setup settings).
-
-- Open CMD Windows Terminal and run the following commands to clone recursively the RetroBat git with its submodules and run build.bat to launch the build routine:
-```
-git clone --recursive https://github.com/kaylh/RetroBat.git
-```
-```
-cd RetroBat
-build.bat
-```
-- Once the build process is done, you will find the RetroBat Setup in the build directory.
 
 ## 🦇 RetroBat Team
 
-- Adrien Chalard "Kayl" - creator of the project, developer
-- Lorenzolamas - community management, graphics (former active)
+- Adrien Chalard "Kayl" - co-founder, developer
+- Lorenzolamas - co-founder, community, graphics
 - Fabrice Caruso - lead developer, theme creation
 - GetUpOr - community, support
 - RetroBoy - community, support
@@ -70,7 +47,7 @@ build.bat
 
 ## ⚖ Licence
 
-RetroBat (c) 2017-2023 Adrien Chalard "Kayl" and The RetroBat Team.
+RetroBat (c) Adrien Chalard and the RetroBat Team.
 
 RetroBat is a free and open source project. It should not be used for commercial purposes.
 It is done by a team of enthusiasts in their free time mainly for fun.
