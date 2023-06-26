@@ -169,6 +169,21 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./melonds.menu</path>
+		<name>MelonDS (NDS)</name>
+		<desc>Run MelonDS (NDS).</desc>
+		<image>./media/melonds-logo.png</image>
+		<marquee>./media/melonds-logo.png</marquee>
+		<developer>Arisotura</developer>
+		<publisher>Unknown</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./mesen.menu</path>
 		<name>Mesen (FDS, NES)</name>
 		<desc>Run Mesen (FDS, NES).</desc>

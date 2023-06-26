@@ -49,6 +49,7 @@ bios\same_cdi\bios
 cheats
 cheats\duckstation
 cheats\mame
+cheats\melonds
 cheats\pcsx2
 cheats\pcsx2\cheats
 cheats\pcsx2\cheats_ni
@@ -194,6 +195,9 @@ saves\mastersystem\kega-fusion
 saves\megadrive
 saves\megadrive\kega-fusion
 saves\mesen
+saves\nds
+saves\nds\melonds
+saves\nds\melonds\sstates
 saves\ps2
 saves\ps2\pcsx2
 saves\ps2\pcsx2-16
