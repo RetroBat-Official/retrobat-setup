@@ -8,6 +8,10 @@ bios\fba
 bios\fba\samples
 bios\fbneo
 bios\fbneo\samples
+bios\hbmame
+bios\hbmame\cfg
+bios\hbmame\hash
+bios\hbmame\ini
 bios\HdPacks
 bios\mame
 bios\mame\artwork

@@ -658,6 +658,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./hbmame.menu</path>
+		<name>HBMAME (HomeBrew Arcade Games)</name>
+		<desc>Run HBMAME (HomeBrew Arcade Games).</desc>
+		<image>./media/hbmame-logo.png</image>
+		<marquee>./media/hbmame-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>HBMAME Team</developer>
+		<publisher>HBMAME Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./ryujinx.menu</path>
 		<name>Ryujinx (Switch)</name>
 		<desc>Run Ryujinx (Switch). This software is not provided by RetroBat. You can download it here: https://ryujinx.org/download</desc>
