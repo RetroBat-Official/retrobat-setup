@@ -2,44 +2,53 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "RetroBat"
-#define MyAppVersion "6.0"
+;#define MyAppVersion "6.0"
 #define MyAppPublisher "The RetroBat Team"
 #define MyAppURL "https://retrobat.org"
 #define MyAppExeName "retrobat.exe"
+;#define MyAppArchitecture "x64"
+;#define SourceDir ".\..\build"
+;#define InstallRootUrl "http://www.retrobat.ovh/repo/win64"
+#define public Dependency_NoExampleSetup
+
+#include "CodeDependencies.iss"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
+;PrivilegesRequiredOverridesAllowed=dialog
+AllowCancelDuringInstall=False
 AppId={{043F867E-BDFC-4305-AB2D-AFE933BE6AFA} 
 AppName={#MyAppName}
-AppVersion={#MyAppVersion}
-;AppVerName={#MyAppName} {#MyAppVersion}
 AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-ArchitecturesAllowed=x64
+AppVerName={#MyAppName} {#MyAppVersion}
+AppVersion={#MyAppVersion}
+ArchitecturesAllowed={#MyAppArchitecture}
+ArchitecturesInstallIn64BitMode=x64
+Compression=lzma
 DefaultDirName=C:\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
-LicenseFile=.\..\license.txt
+DisableReadyPage=True
 InfoBeforeFile=".\readme.txt"
-; Remove the following line to run in administrative install mode (install for all users.)
-PrivilegesRequired=poweruser
-OutputDir=".\..\build"
+LicenseFile=.\..\license.txt
+MinVersion=0,6.1sp1
 OutputBaseFilename={#MyAppName}-v{#MyAppVersion}-setup
+OutputDir={#SourceDir}
+OutputManifestFile={#MyAppName}-v{#MyAppVersion}-setup_Manifest.txt
+PrivilegesRequired=lowest
 SetupIconFile=".\resources\launcher.ico"
-Compression=lzma
+ShowLanguageDialog=auto
 SolidCompression=yes
+Uninstallable=no
 VersionInfoCopyright={#MyAppPublisher}
-WizardStyle=modern
+VersionInfoVersion=1.0.0.0
 WizardImageFile=".\resources\retrobat_wizard_old.bmp"
 WizardImageStretch=yes
 WizardSmallImageFile=".\resources\WizardSmall.bmp"
-MinVersion=0,6.1
-DisableReadyPage=True
-AllowCancelDuringInstall=False
-Uninstallable=no
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -73,13 +82,32 @@ Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\RetroBat\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-; NOTE: Don't use "Flags: ignoreversion" on any shared system files
+;Source: "{#SourceDir}\{#MyAppExeName}"; DestDir: "{app}"
+Source: "{#SourceDir}\*"; DestDir: "{app}"; Flags: createallsubdirs recursesubdirs
+
+#ifdef UseDirectX
+Source: ".\redist\dxwebsetup.exe"; Flags: dontcopy noencryption
+#endif
 
 [Icons]
-Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
+;Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
 
 [Registry]
-Root: "HKCU64"; Subkey: "Software\RetroBat"; ValueType: string; ValueName: "InstallRootUrl"; ValueData: "http://www.retrobat.ovh/repo/win64"; Flags: createvalueifdoesntexist; MinVersion: 0,6.2; Check: IsWin64
-Root: "HKCU32"; Subkey: "Software\RetroBat"; ValueType: string; ValueName: "InstallRootUrl"; ValueData: "http://www.retrobat.ovh/repo/win32"; Flags: createvalueifdoesntexist; MinVersion: 0,6.2
+Root: "HKCU"; Subkey: "Software\RetroBat"; ValueType: string; ValueName: "LatestKnownInstallPath"; ValueData: "{app}"; Flags: createvalueifdoesntexist; MinVersion: 0,6.2;
+Root: "HKCU64"; Subkey: "Software\RetroBat"; ValueType: string; ValueName: "InstallRootUrl"; ValueData: "{#InstallRootUrl}"; Flags: createvalueifdoesntexist; MinVersion: 0,6.2; Check: IsWin64
+Root: "HKCU32"; Subkey: "Software\RetroBat"; ValueType: string; ValueName: "InstallRootUrl"; ValueData: "{#InstallRootUrl}"; Flags: createvalueifdoesntexist; MinVersion: 0,6.2; Check: not IsWin64
+
+[Code]
+function InitializeSetup: Boolean;
+begin
+  Dependency_AddDirectX;
+  Dependency_ForceX86 := True;
+  Dependency_AddVC2010;
+  Dependency_AddVC2015To2022;
+  Dependency_ForceX86 := False;
+  Dependency_AddVC2010;
+  Dependency_AddVC2015To2022;
+
+  Result := True;
+end;

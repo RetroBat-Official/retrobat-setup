@@ -3,7 +3,7 @@ patch/
 *.log
 retrobat.ini
 *.bak
-*.exe
+./*.exe
 butler_push.txt
 *.001
 system/templates/emulationstation/es_features.locale/it/es-features.mo
