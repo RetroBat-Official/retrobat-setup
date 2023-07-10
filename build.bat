@@ -39,7 +39,9 @@ set archive_compression=3
 
 :: ---- LOOP LIST ----
 
-set deps_list=(git makensis 7za strip wget)
+set setup_compiler=ISCC
+
+set deps_list=(git !setup_compiler! 7za wget curl)
 set submodules_list=(bios decorations system)
 set packages_list=(retrobat_binaries batgui emulationstation default_theme batocera_ports mega_bezels retroarch roms wiimotegun)
 set legacy_cores_list=(4do emuscv imageviewer mame2014 mame2016 px68k)
@@ -287,10 +289,11 @@ for %%i in %deps_list% do (
 	(set/A found_%%i=0)
 	(set/A found_total=!found_total!+1)
 	(set package_name=%%i)
-	(set buildtools_path=!root_path!\buildtools\msys)
+	(set buildtools_path=!root_path!\system\tools)
 	
 	if "!package_name!"=="git" (set buildtools_path=!git_path!)
-	if "!package_name!"=="makensis" (set buildtools_path=!root_path!\buildtools\nsis)
+	if "!package_name!"=="makensis" (set "buildtools_path=%ProgramFiles(x86)%\NSIS" & set "compiler_path=!buildtools_path!")
+	if "!package_name!"=="ISCC" (set "buildtools_path=%ProgramFiles(x86)%\Inno Setup 6" & set "compiler_path=!buildtools_path!")
 	
 	if exist "!buildtools_path!\!package_name!.exe" (
 	
@@ -498,12 +501,14 @@ set package_file=%name%-v%release_version%-setup.exe
 
 if not exist "!build_path!\%package_file%" (
 
-	"!buildtools_path!\..\nsis\makensis.exe" /V4 /DRELEASE_VERSION=%release_version%  "!root_path!\installer\setup.nsi"
+	if "%setup_compiler%"=="makensis" ("!compiler_path!\makensis.exe" /V4 /DRELEASE_VERSION=%release_version%  "!root_path!\installer\setup.nsi")
+	if "%setup_compiler%"=="ISCC" if "%archx%"=="x86_64" ("!compiler_path!\ISCC.exe" /DMyAppVersion=%release_version% /DMyAppArchitecture=x64 /DSourceDir="!build_path!" /DInstallRootUrl="%installroot_url%/repo/%arch%" "!root_path!\installer\installer.iss")
+	if "%setup_compiler%"=="ISCC" if "%archx%"=="x86" ("!compiler_path!\ISCC.exe" /DMyAppVersion=%release_version% /DMyAppArchitecture=x86 /DSourceDir="!build_path!" /DInstallRootUrl="%installroot_url%/repo/%arch%" "!root_path!\installer\installer.iss")
 )
 
 timeout/t 2 >nul
  
-if exist "!root_path!\%package_file%" (
+if exist "!root_path!\installer\%package_file%" (
 
 	(set/A exit_code=0)
 	move /Y "!root_path!\installer\%package_file%" "!build_path!"
