@@ -169,6 +169,21 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./melonds.menu</path>
+		<name>MelonDS (NDS)</name>
+		<desc>Run MelonDS (NDS).</desc>
+		<image>./media/melonds-logo.png</image>
+		<marquee>./media/melonds-logo.png</marquee>
+		<developer>Arisotura</developer>
+		<publisher>Unknown</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./mesen.menu</path>
 		<name>Mesen (FDS, NES)</name>
 		<desc>Run Mesen (FDS, NES).</desc>
@@ -635,6 +650,23 @@
 		<releasedate />
 		<developer>MAME Team</developer>
 		<publisher>MAME Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
+		<path>./hbmame.menu</path>
+		<name>HBMAME (HomeBrew Arcade Games)</name>
+		<desc>Run HBMAME (HomeBrew Arcade Games).</desc>
+		<image>./media/hbmame-logo.png</image>
+		<marquee>./media/hbmame-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>HBMAME Team</developer>
+		<publisher>HBMAME Team</publisher>
 		<genre>Emulator</genre>
 		<playcount />
 		<lastplayed />
