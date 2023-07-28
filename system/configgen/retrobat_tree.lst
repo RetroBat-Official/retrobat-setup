@@ -72,6 +72,7 @@ emulationstation\.emulationstation\scripts\wake
 emulationstation\.emulationstation\themes
 emulationstation\.emulationstation\themesettings
 emulationstation\.emulationstation\video
+emulationstation\es_features.locale
 emulationstation\resources
 emulators
 emulators\3dsen

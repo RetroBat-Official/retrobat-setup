@@ -23,7 +23,6 @@ set get_default_theme=1
 set get_emulationstation=1
 set get_emulators=0
 set get_lrcores=0
-set get_mega_bezels=0
 set get_retroarch=1
 set get_retrobat_binaries=1
 set get_system=1
@@ -463,6 +462,8 @@ if exist "!build_path!\retrobat.exe" (
 )
 
 if exist "!build_path!\retrobat.ini" del/Q "!build_path!\retrobat.ini"
+
+if exist "!system_path!\templates\emulationstation\es_features.locale\." xcopy "!system_path!\templates\emulationstation\es_features.locale" "!emulationstation_path!\es_features.locale\" /s /e /v /y
 
 if exist "!system_path!\resources\emulationstation\video\*.mp4" xcopy /v /y "!system_path!\resources\emulationstation\video\*.mp4" "!build_path!\emulationstation\.emulationstation\video"
 if exist "!system_path!\resources\emulationstation\music\*.ogg" xcopy /v /y "!system_path!\resources\emulationstation\music\*.ogg" "!build_path!\emulationstation\.emulationstation\music"
