@@ -21,6 +21,7 @@ default:
   solarus: ScanlinesAbs@scanlines-abs.fx
   redream: ScanlinesAbs@scanlines-abs.fx
   raine: ScanlinesAbs@scanlines-abs.fx
+  duckstation: ScanlinesAbs@scanlines-abs.fx
 n64:
   shader: interpolation/sharp-bilinear-scanlines
 gba:
