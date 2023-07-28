@@ -1,0 +1,5 @@
+## SINDENBORDER
+default:
+  # emulators using reshader 
+  supermodel: Border@border.fx
+  m2emulator: Border@border.fx
