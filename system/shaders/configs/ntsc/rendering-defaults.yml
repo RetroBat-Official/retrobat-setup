@@ -20,3 +20,4 @@ default:
   solarus: NTSC_MAME@ntsc.fx
   redream: NTSC_MAME@ntsc.fx
   raine: NTSC_MAME@ntsc.fx
+  duckstation: NTSC_MAME@ntsc.fx

@@ -20,3 +20,4 @@ default:
   solarus: NTSC_RetroArch@NTSC_RetroArch.fx
   redream: NTSC_RetroArch@NTSC_RetroArch.fx
   raine: NTSC_RetroArch@NTSC_RetroArch.fx
+  duckstation: NTSC_RetroArch@NTSC_RetroArch.fx

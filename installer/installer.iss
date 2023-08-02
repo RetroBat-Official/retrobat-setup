@@ -2,14 +2,26 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "RetroBat"
-;#define MyAppVersion "6.0"
 #define MyAppPublisher "The RetroBat Team"
 #define MyAppURL "https://retrobat.org"
 #define MyAppExeName "retrobat.exe"
-;#define MyAppArchitecture "x64"
-;#define SourceDir ".\..\build"
-;#define InstallRootUrl "http://www.retrobat.ovh/repo/win64"
 #define public Dependency_NoExampleSetup
+
+#ifndef MyAppVersion
+#define MyAppVersion "6.0"
+#endif
+
+#ifndef MyAppArchitecture
+#define MyAppArchitecture "x64"
+#endif
+
+#ifndef SourceDir
+#define SourceDir ".\..\build"
+#endif
+
+#ifndef InstallRootUrl
+#define InstallRootUrl "http://www.retrobat.ovh/repo/win64"
+#endif
 
 #include "CodeDependencies.iss"
 
@@ -79,11 +91,12 @@ Name: "turkish"; MessagesFile: "compiler:Languages\Turkish.isl"
 Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 
 [Tasks]
-Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
+Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
 
 [Files]
-;Source: "{#SourceDir}\{#MyAppExeName}"; DestDir: "{app}"
-Source: "{#SourceDir}\*"; DestDir: "{app}"; Flags: createallsubdirs recursesubdirs
+Source: "{#SourceDir}\*"; Excludes: "es_input.cfg,es_settings.cfg"; DestDir: "{app}"; Flags: ignoreversion createallsubdirs recursesubdirs
+Source: "{#SourceDir}\emulationstation\.emulationstation\es_settings.cfg"; DestDir: "{app}\emulationstation\.emulationstation\"; Flags: ignoreversion onlyifdoesntexist
+Source: "{#SourceDir}\emulationstation\.emulationstation\es_input.cfg"; DestDir: "{app}\emulationstation\.emulationstation\"; Flags: ignoreversion onlyifdoesntexist
 
 #ifdef UseDirectX
 Source: ".\redist\dxwebsetup.exe"; Flags: dontcopy noencryption
