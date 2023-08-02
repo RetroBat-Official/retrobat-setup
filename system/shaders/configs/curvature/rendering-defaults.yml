@@ -20,6 +20,7 @@ default:
   solarus: GeomCRT@CRTGeom.fx
   redream: GeomCRT@CRTGeom.fx
   raine: GeomCRT@CRTGeom.fx
+  duckstation: GeomCRT@CRTGeom.fx
 # per system overrides  
 gba:
   shader: handheld/lcd-grid-v2-gba-color

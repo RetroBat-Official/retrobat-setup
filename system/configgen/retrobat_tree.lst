@@ -12,6 +12,7 @@ bios\hbmame
 bios\hbmame\cfg
 bios\hbmame\hash
 bios\hbmame\ini
+bios\hbmame\samples
 bios\HdPacks
 bios\mame
 bios\mame\artwork
@@ -50,6 +51,7 @@ bios\same_cdi
 bios\same_cdi\bios
 cheats
 cheats\duckstation
+cheats\hbmame
 cheats\mame
 cheats\melonds
 cheats\pcsx2
@@ -187,6 +189,9 @@ saves\gamecube\User\GC\JAP
 saves\gamecube\User\GC\USA
 saves\gba
 saves\gba\mgba
+saves\hbmame
+saves\hbmame\artwork
+saves\hbmame\ctrlr
 saves\mame
 saves\mame\artwork
 saves\mame\ctrlr
