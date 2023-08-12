@@ -94,6 +94,10 @@
 \system\templates\rpcs3\config.yml|\emulators\rpcs3\config.yml
 \system\templates\ryujinx\portable\Config.json|\emulators\ryujinx\portable\Config.json
 \system\templates\scummvm\scummvm.ini|\emulators\scummvm\scummvm.ini
+\system\templates\simple64\input-profiles.ini|\emulators\simple64\input-profiles.ini
+\system\templates\simple64\input-settings.ini|\emulators\simple64\input-settings.ini
+\system\templates\simple64\mupen64plus.cfg|\emulators\simple64\mupen64plus.cfg
+\system\templates\simple64\simple64-gui.ini|\emulators\simple64\simple64-gui.ini
 \system\templates\snes9x\snes9x.conf|\emulators\snes9x\snes9x.conf
 \system\templates\ssf\SSF.ini|\emulators\ssf\SSF.ini
 \system\templates\steam\pinballfx3.cmd|\emulators\steam\pinballfx3.cmd

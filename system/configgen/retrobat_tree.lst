@@ -153,6 +153,7 @@ emulators\ryujinx
 emulators\ryujinx\portable
 emulators\scummvm
 emulators\simcoupe
+emulators\simple64
 emulators\snes9x
 emulators\solarus
 emulators\ssf
@@ -208,6 +209,9 @@ saves\megadrive\kega-fusion
 saves\megadrive\mednafen
 saves\megadrive\mednafen\sstates
 saves\mesen
+saves\n64
+saves\n64\games
+saves\n64\sstates
 saves\nes
 saves\nes\mednafen
 saves\nes\mednafen\sstates
@@ -259,7 +263,9 @@ screenshots
 screenshots\citra
 screenshots\duckstation
 screenshots\mednafen
+screenshots\Mupen64
 screenshots\pcsx2
+screenshots\Simple64
 screenshots\winuae
 screenshots\xemu
 screenshots\yuzu

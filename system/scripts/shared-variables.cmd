@@ -84,7 +84,7 @@ if not "%script_type%" == "builder" (
 
 	(echo batgui_url=%installroot_url%/repo/%arch%/%branch%)>> "%tmp_infos_file%"
 	(echo batocera_ports_url=https://github.com/RetroBat-Official/emulatorlauncher/releases/download/continuous)>> "%tmp_infos_file%"	
-	(echo emulationstation_url=https://github.com/RetroBat-Official/emulationstation/releases/download/continuous-stable)>> "%tmp_infos_file%"
+	(echo emulationstation_url=https://github.com/RetroBat-Official/emulationstation/releases/download/continuous-master)>> "%tmp_infos_file%"
 	(echo emulators_url=%installroot_url%/repo/%arch%/%branch%/emulators)>> "%tmp_infos_file%"
 	(echo lrcores_url=https://buildbot.libretro.com/nightly/windows/%archx%/latest)>> "%tmp_infos_file%"
 	(echo mega_bezels_url=%installroot_url%/repo/medias)>> "%tmp_infos_file%"

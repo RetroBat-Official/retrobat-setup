@@ -21,3 +21,4 @@ default:
   redream: NTSC_MAME@ntsc.fx
   raine: NTSC_MAME@ntsc.fx
   duckstation: NTSC_MAME@ntsc.fx
+  mupen64: NTSC_MAME@ntsc.fx

@@ -22,6 +22,7 @@ default:
   redream: EasymodeCRT@CRTEasymode.fx
   raine: EasymodeCRT@CRTEasymode.fx
   duckstation: EasymodeCRT@CRTEasymode.fx
+  mupen64: EasymodeCRT@CRTEasymode.fx
 # per system overrides  
 gba:
   shader: handheld/zfast-lcd

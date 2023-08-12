@@ -369,6 +369,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./simple64.menu</path>
+		<name>Simple64</name>
+		<desc>Run Simple64 (Nintendo 64).</desc>
+		<image>./media/simple64-logo.png</image>
+		<marquee>./media/simple64-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Logan McNaughton</developer>
+		<publisher />
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./ssf.menu</path>
 		<name>SSF (Saturn emulator)</name>
 		<desc>Run SSF (Saturn).</desc>

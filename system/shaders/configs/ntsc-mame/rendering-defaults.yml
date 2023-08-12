@@ -21,3 +21,4 @@ default:
   redream: NTSC_RetroArch@NTSC_RetroArch.fx
   raine: NTSC_RetroArch@NTSC_RetroArch.fx
   duckstation: NTSC_RetroArch@NTSC_RetroArch.fx
+  mupen64: NTSC_RetroArch@NTSC_RetroArch.fx
