@@ -81,6 +81,7 @@ emulators
 emulators\3dsen
 emulators\applewin
 emulators\arcadeflashweb
+emulators\ares
 emulators\bigpemu
 emulators\bigpemu\userdata
 emulators\cemu
@@ -260,6 +261,7 @@ saves\switch\load
 saves\switch\nand
 saves\switch\sdmc
 screenshots
+screenshots\ares
 screenshots\citra
 screenshots\duckstation
 screenshots\mednafen

@@ -18,6 +18,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./ares.menu</path>
+		<name>Ares (Multi Cores Emulator)</name>
+		<desc>Run Ares (Multi Cores Emulator).</desc>
+		<image>./media/ares-logo.png</image>
+		<marquee>./media/ares-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Luke Usher</developer>
+		<publisher>Ares Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./bigpemu.menu</path>
 		<name>BigPEmu (Jaguar)</name>
 		<desc>Run BigPEmu Emulator (Jaguar).</desc>
