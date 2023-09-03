@@ -59,23 +59,151 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "DECOMPRESSION"
+msgstr "DÉCOMPRESSION"
+
+msgctxt "game_options"
+msgid "Keep or delete games files once extracted (squashfs, 7z)"
+msgstr "Conserver ou supprimer les fichiers du jeu une fois décompressés (squashfs, 7z)"
+
+msgctxt "game_options"
+msgid "ALWAYS ASK"
+msgstr "TOUJOURS DEMANDER"
+
+msgctxt "game_options"
+msgid "KEEP"
+msgstr "CONSERVER"
+
+msgctxt "game_options"
+msgid "DELETE"
+msgstr "SUPPRIMER"
+
+msgctxt "game_options"
+msgid "RETROARCH OPTIONS"
+msgstr "OPTIONS RETROARCH"
+
+msgctxt "game_options"
+msgid "VIDEO"
+msgstr "VIDÉO"
+
+msgctxt "game_options"
+msgid "SCREEN ORIENTATION"
+msgstr "ORIENTATION DE L'ÉCRAN"
+
+msgctxt "game_options"
+msgid "MONITOR INDEX"
+msgstr "INDEX DE L'ÉCRAN"
+
+msgctxt "game_options"
+msgid "Games will be displayed on the monitor corresponding to the selected index."
+msgstr "Les jeux sont affichés sur l'écran correspondant à l'index sélectionné."
+
+msgctxt "game_options"
+msgid "GRAPHIC CARD INDEX"
+msgstr "INDEX DE LA CARTE GRAPHIQUE"
+
+msgctxt "game_options"
+msgid "Change this only if multiple GPU are used by your system."
+msgstr "À modifier uniquement si le système utilise plusieurs cartes graphiques."
+
+msgctxt "game_options"
+msgid "CRT SCREEN OUTPUT"
+msgstr "FRÉQUENCE DE L'ÉCRAN CRT"
+
+msgctxt "game_options"
+msgid "15KHz"
 msgstr ""
 
 msgctxt "game_options"
-msgid "Sets behaviour for decompressed folders (squashfs, 7z)"
+msgid "31KHz (Standard)"
 msgstr ""
 
 msgctxt "game_options"
-msgid "ASK"
+msgid "31KHz (120Hz)"
 msgstr ""
 
 msgctxt "game_options"
-msgid "KEEP UNCOMPRESSED FOLDERS"
+msgid "CRT SCREEN RESOLUTION"
+msgstr "RÉSOLUTION DE L'ÉCRAN CRT"
+
+msgctxt "game_options"
+msgid "Native"
 msgstr ""
 
 msgctxt "game_options"
-msgid "ALWAYS DELETE UNCOMPRESSED FOLDERS"
-msgstr ""
+msgid "Dynamic"
+msgstr "Dynamique"
+
+msgctxt "game_options"
+msgid "SCREEN SYNC"
+msgstr "SYNCHRONISATION VIDÉO"
+
+msgctxt "game_options"
+msgid "VERTICAL SYNC"
+msgstr "SYNCHRONISATION VERTICALE"
+
+msgctxt "game_options"
+msgid "no"
+msgstr "non"
+
+msgctxt "game_options"
+msgid "yes"
+msgstr "oui"
+
+msgctxt "game_options"
+msgid "adaptative"
+msgstr "adaptative"
+
+msgctxt "game_options"
+msgid "HARD SYNC"
+msgstr "SYNCHRONISATION MATÉRIELLE"
+
+msgctxt "game_options"
+msgid "Only compatible with OpenGL, hard-sync GPU and CPU. Reduce latency at the cost of inscreased performance requirements."
+msgstr "Uniquement compatible avec OpenGL, réduit la latence mais affecte les performances."
+
+msgctxt "game_options"
+msgid "0 frame"
+msgstr "0 image"
+
+msgctxt "game_options"
+msgid "1 frame"
+msgstr "1 image"
+
+msgctxt "game_options"
+msgid "2 frames"
+msgstr "2 images"
+
+msgctxt "game_options"
+msgid "3 frames"
+msgstr "3 images"
+
+msgctxt "game_options"
+msgid "4 frames"
+msgstr "4 images"
+
+msgctxt "game_options"
+msgid "SWAP INTERVAL"
+msgstr "INTERVALLE D'ÉCHANGE"
+
+msgctxt "game_options"
+msgid "Set this to effectively halve monitor refresh rate."
+msgstr "Réduit efficacement la fréquence de rafraîchissement par le facteur spécifié pour permettre une meilleure cadence d'images lors de l'exécution de contenu à une fréquence différente de celle du moniteur."
+
+msgctxt "game_options"
+msgid "BLACK FRAMES INSERTION"
+msgstr "INSERTION D'IMAGES NOIRES"
+
+msgctxt "game_options"
+msgid "Usefull on some high refresh rate screen to eliminate ghosting."
+msgstr "Permet d'éliminer la rémanence sur les écrans ayant une fréquence de rafraîchissement élevée."
+
+msgctxt "game_options"
+msgid "G-SYNC/FREESYNC COMPATIBILITY"
+msgstr "COMPATIBLITÉ G-SYNC/FREESYNC"
+
+msgctxt "game_options"
+msgid "Sync to exact content framerate. Only for G-Sync/FreeSync/HDMI-2.1-VRR compatible monitors."
+msgstr "Synchroniser la fréquence de rafraîchissement au contenu, uniquement sur les moniteurs compatibles G-Sync/FreeSync/HDMI-2.1-VRR."
 
 msgctxt "game_options"
 msgid "Full"
@@ -103,15 +231,27 @@ msgstr "REMBOBINAGE"
 
 msgctxt "game_options"
 msgid "On"
-msgstr "Oui"
+msgstr "Activé"
 
 msgctxt "game_options"
 msgid "Off"
-msgstr "Non"
+msgstr "Désactivé"
+
+msgctxt "game_options"
+msgid "ON"
+msgstr "Activé"
+
+msgctxt "game_options"
+msgid "OFF"
+msgstr "Désactivé"
 
 msgctxt "game_options"
 msgid "None"
 msgstr "Aucun"
+
+msgctxt "game_options"
+msgid "NONE"
+msgstr "AUCUN"
 
 msgctxt "game_options"
 msgid "ENABLE AI TRANSLATION SERVICE"
@@ -319,10 +459,6 @@ msgstr "2x-VBlank"
 msgctxt "game_options"
 msgid "ANISOTROPIC FILTERING"
 msgstr "FILTRAGE ANISOTROPE"
-
-msgctxt "game_options"
-msgid "SCREEN ORIENTATION"
-msgstr "ORIENTATION DE L'ÉCRAN"
 
 msgctxt "game_options"
 msgid "MODEL"
@@ -617,114 +753,6 @@ msgid "VIDEO ROTATION"
 msgstr ""
 
 msgctxt "game_options"
-msgid "MONITOR INDEX"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Games will be displayed on the monitor corresponding to the selected index."
-msgstr ""
-
-msgctxt "game_options"
-msgid "CRT SCREEN OUTPUT"
-msgstr ""
-
-msgctxt "game_options"
-msgid "15KHz"
-msgstr ""
-
-msgctxt "game_options"
-msgid "31KHz (Standard)"
-msgstr ""
-
-msgctxt "game_options"
-msgid "31KHz (120Hz)"
-msgstr ""
-
-msgctxt "game_options"
-msgid "CRT SCREEN RESOLUTION"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Native"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Dynamic"
-msgstr ""
-
-msgctxt "game_options"
-msgid "GRAPHIC CARD INDEX"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Change this only if multiple GPU are used by your system."
-msgstr ""
-
-msgctxt "game_options"
-msgid "VERTICAL SYNC"
-msgstr ""
-
-msgctxt "game_options"
-msgid "no"
-msgstr ""
-
-msgctxt "game_options"
-msgid "yes"
-msgstr ""
-
-msgctxt "game_options"
-msgid "adaptative"
-msgstr ""
-
-msgctxt "game_options"
-msgid "HARD SYNC"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Hard-sync GPU and CPU. Reduce latency at the cost of inscreased performance requirements."
-msgstr ""
-
-msgctxt "game_options"
-msgid "1 frame"
-msgstr ""
-
-msgctxt "game_options"
-msgid "2 frames"
-msgstr ""
-
-msgctxt "game_options"
-msgid "3 frames"
-msgstr ""
-
-msgctxt "game_options"
-msgid "4 frames"
-msgstr ""
-
-msgctxt "game_options"
-msgid "SWAP INTERVAL"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Set this to effectively halve monitor refresh rate."
-msgstr ""
-
-msgctxt "game_options"
-msgid "BLACK FRAMES INSERTION"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Usefull on some high refresh rate screen to eliminate ghosting."
-msgstr ""
-
-msgctxt "game_options"
-msgid "G-SYNC/FREESYNC COMPATIBILITY"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Sync to exact content framerate. Only for G-Sync/FreeSync/HDMI-2.1-VRR compatible monitors."
-msgstr ""
-
-msgctxt "game_options"
 msgid "RESAMPLER"
 msgstr ""
 
@@ -978,10 +1006,6 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "LIGHTGUN"
-msgstr ""
-
-msgctxt "game_options"
-msgid "VIDEO"
 msgstr ""
 
 msgctxt "game_options"
@@ -3127,6 +3151,10 @@ msgstr ""
 msgctxt "game_options"
 msgid "DRIVERS"
 msgstr ""
+
+msgctxt "game_options"
+msgid "INPUT"
+msgstr "MANETTES"
 
 msgctxt "game_options"
 msgid "OPENGL CS"

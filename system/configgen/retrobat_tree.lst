@@ -134,6 +134,8 @@ emulators\pcsx2-16\Plugins
 emulators\pcsx2-16\inis
 emulators\pcsx2\inis
 emulators\phoenix
+emulators\play
+emulators\play\Play Data Files
 emulators\ppsspp
 emulators\ppsspp\memstick
 emulators\ppsspp\memstick\PSP

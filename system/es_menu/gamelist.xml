@@ -266,6 +266,23 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
+    <game>
+		<path>./play.menu</path>
+		<name>PLAY (PlayStation 2)</name>
+		<desc>Run PLAY Emulator (PlayStation 2).</desc>
+		<image>./media/play-logo.png</image>
+		<marquee>./media/play-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Jean-Philip Desjardins</developer>
+		<publisher />
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
 	<game>
 		<path>./ppsspp.menu</path>
 		<name>PPSSPP (PSP, Homebrews)</name>
