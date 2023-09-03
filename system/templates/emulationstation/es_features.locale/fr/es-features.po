@@ -19,7 +19,7 @@ msgstr "OPTIONS GÉNÉRALES"
 
 msgctxt "game_options"
 msgid "SHADER SET"
-msgstr "FILTRES VIDÉO"
+msgstr "SHADERS"
 
 msgctxt "game_options"
 msgid "DECORATIONS"
