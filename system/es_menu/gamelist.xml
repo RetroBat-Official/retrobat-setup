@@ -352,6 +352,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./ruffle.menu</path>
+		<name>Ruffle (flash games)</name>
+		<desc>Run Ruffle (flash games).</desc>
+		<image>./media/ruffle-logo.png</image>
+		<marquee>./media/ruffle-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Ruffle Team</developer>
+		<publisher>Ruffle Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./rpcs3.menu</path>
 		<name>RPCS3 (PlayStation 3)</name>
 		<desc>Run RPCS3 (PlayStation 3).</desc>
