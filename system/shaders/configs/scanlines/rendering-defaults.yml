@@ -21,6 +21,7 @@ default:
   redream: ScanlinesAbs@scanlines-abs.fx
   raine: ScanlinesAbs@scanlines-abs.fx
   duckstation: ScanlinesAbs@scanlines-abs.fx
+  mupen64: ScanlinesAbs@scanlines-abs.fx
 n64:
   shader: interpolation/sharp-bilinear-scanlines
 gba:

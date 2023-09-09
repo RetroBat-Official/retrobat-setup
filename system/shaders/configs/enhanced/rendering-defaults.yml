@@ -22,6 +22,7 @@ default:
   redream: HQ4X@HQ4X.fx
   raine: HQ4X@HQ4X.fx
   duckstation: HQ4X@HQ4X.fx
+  mupen64: HQ4X@HQ4X.fx
 # per system overrides  
 n64:
   shader: anti-aliasing/fxaa

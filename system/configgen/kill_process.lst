@@ -2,6 +2,7 @@
 7za.exe
 AppleWin
 ArcadeFlashWeb.exe
+ares.exe
 BatGui.exe
 BatGuiMenu.exe
 Cemu.exe
@@ -69,6 +70,7 @@ raine32.exe
 redream.exe
 retroarch.exe
 rpcs3.exe
+ruffle.exe
 snes9x-x64.exe
 snes9x.exe
 solarus-launcher.exe

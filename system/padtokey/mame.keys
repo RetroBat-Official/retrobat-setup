@@ -1,0 +1,20 @@
+{
+    "actions_player1": [
+        {
+            "trigger": [
+                "r3",
+                "l3"
+            ],
+            "type": "key",
+            "target": "KEY_F2"
+        },
+        {
+            "trigger": [
+                "l3",
+                "hotkey"
+            ],
+            "type": "key",
+            "target": "KEY_TAB"
+        }
+    ]
+}

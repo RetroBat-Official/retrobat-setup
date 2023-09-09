@@ -13,6 +13,12 @@
 <image>./images/craft.png</image>
 </game>
 <game>
+<game>
+<path>./gong.libretro</path>
+<name>Gong</name>
+<desc>Pong clone.</desc>
+<image>./images/gong.png</image>
+</game>
 <path>./mrboom.libretro</path>
 <name>Mr Boom</name>
 <desc>Bomberman clone.</desc>
