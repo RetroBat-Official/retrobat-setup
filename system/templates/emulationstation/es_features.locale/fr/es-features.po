@@ -82,10 +82,6 @@ msgid "RETROARCH OPTIONS"
 msgstr "OPTIONS RETROARCH"
 
 msgctxt "game_options"
-msgid "VIDEO"
-msgstr "VIDÉO"
-
-msgctxt "game_options"
 msgid "SCREEN ORIENTATION"
 msgstr "ORIENTATION DE L'ÉCRAN"
 
@@ -206,8 +202,392 @@ msgid "Sync to exact content framerate. Only for G-Sync/FreeSync/HDMI-2.1-VRR co
 msgstr "Synchroniser la fréquence de rafraîchissement au contenu, uniquement sur les moniteurs compatibles G-Sync/FreeSync/HDMI-2.1-VRR."
 
 msgctxt "game_options"
+msgid "AUDIO"
+msgstr "AUDIO"
+
+msgctxt "game_options"
+msgid "RESAMPLER"
+msgstr "RÉ-ÉCHANTILLONEUR"
+
+msgctxt "game_options"
+msgid "sinc"
+msgstr ""
+
+msgctxt "game_options"
+msgid "CC"
+msgstr ""
+
+msgctxt "game_options"
+msgid "none"
+msgstr "aucun"
+
+msgctxt "game_options"
+msgid "NEAREST"
+msgstr "AU PLUS PROCHE"
+
+msgctxt "game_options"
+msgid "EMULATION"
+msgstr "ÉMULATION"
+
+msgctxt "game_options"
+msgid "REWIND"
+msgstr "REMBOBINAGE"
+
+msgctxt "game_options"
+msgid "LATENCY REDUCTION"
+msgstr "RÉDUCTION DE LA LATENCE"
+
+msgctxt "game_options"
+msgid "RUN-AHEAD FRAMES"
+msgstr "NOMBRE D'IMAGES EN AVANCE"
+
+msgctxt "game_options"
+msgid "RUN-AHEAD USE SECOND INSTANCE"
+msgstr "INSTANCE SECONDAIRE POUR L'ÉXECUTION EN AVANCE"
+
+msgctxt "game_options"
+msgid "USE PREEMPTIVE FRAMES"
+msgstr "EXÉCUTER DES IMAGES PRÉEMPTIVES"
+
+msgctxt "game_options"
+msgid "AUTOMATIC FRAME DELAY"
+msgstr "RETARD D'IMAGE AUTOMATIQUE"
+
+msgctxt "game_options"
+msgid "Automatically decrease frame delay temporarily to prevent frame drops. Turn off if this worsens audio/video stuttering."
+msgstr "Diminuer automatiquement le retard d'image pour éviter les pertes de fps. Désactiver ce paramètre si il aggrave les saccades audio\vidéo."
+
+msgctxt "game_options"
+msgid "AI GAME TRANSLATION"
+msgstr "TRADUCTION ASSISTÉE PAR IA"
+
+msgctxt "game_options"
+msgid "ENABLE AI TRANSLATION SERVICE"
+msgstr "ACTIVER LE SERVICE DE TRADUCTION PAR IA"
+
+msgctxt "game_options"
+msgid "TARGET LANGUAGE"
+msgstr "LANGUE CIBLE"
+
+msgctxt "game_options"
+msgid "AI TRANSLATION SERVICE URL"
+msgstr "URL DU SERVICE DE TRADUCTION IA"
+
+msgctxt "game_options"
+msgid "PAUSE ON TRANSLATED SCREEN"
+msgstr "PAUSE SUR L'ÉCRAN TRADUIT"
+
+msgctxt "game_options"
+msgid "Dansk"
+msgstr "Danois"
+
+msgctxt "game_options"
+msgid "Deutsch"
+msgstr "Allemand"
+
+msgctxt "game_options"
+msgid "Español"
+msgstr "Espagnol"
+
+msgctxt "game_options"
+msgid "Français"
+msgstr "Français"
+
+msgctxt "game_options"
+msgid "Hrvatski"
+msgstr "Croate"
+
+msgctxt "game_options"
+msgid "Italiano"
+msgstr "Italien"
+
+msgctxt "game_options"
+msgid "Magyar"
+msgstr "Hongrois"
+
+msgctxt "game_options"
+msgid "Nederlands"
+msgstr "Néerlandais"
+
+msgctxt "game_options"
+msgid "Norsk"
+msgstr "Norvégien"
+
+msgctxt "game_options"
+msgid "Polski"
+msgstr "Polonais"
+
+msgctxt "game_options"
+msgid "Português"
+msgstr "Portugais"
+
+msgctxt "game_options"
+msgid "Română"
+msgstr "Roumain"
+
+msgctxt "game_options"
+msgid "Svenska"
+msgstr "Suédois"
+
+msgctxt "game_options"
+msgid "Türkçe"
+msgstr "Turc"
+
+msgctxt "game_options"
+msgid "Čeština"
+msgstr "Tchèque"
+
+msgctxt "game_options"
+msgid "Ελληνικά (Greek)"
+msgstr "Grec"
+
+msgctxt "game_options"
+msgid "Русский (Russian)"
+msgstr "Russe"
+
+msgctxt "game_options"
+msgid "日本語 (Japanese)"
+msgstr "Japonais"
+
+msgctxt "game_options"
+msgid "简体中文 (Chinese)"
+msgstr "Chinois"
+
+msgctxt "game_options"
+msgid "한국어 (Korean)"
+msgstr "Coréen"
+
+msgctxt "game_options"
+msgid "USER INTERFACE"
+msgstr "INTERFACE UTILISATEUR"
+
+msgctxt "game_options"
+msgid "NOTIFICATIONS"
+msgstr "NOTIFICATIONS"
+
+msgctxt "game_options"
+msgid "Display or not on-screen notifications."
+msgstr "Afficher les notifications à l'écran."
+
+msgctxt "game_options"
+msgid "DRAW STATISTICS"
+msgstr "AFFICHER LES STATISTIQUES"
+
+msgctxt "game_options"
+msgid "Display different levels of informations about statistics of performance."
+msgstr "Afficher des éléments statistiques sur la performance."
+
+msgctxt "game_options"
+msgid "Display different level of information about performance statistics."
+msgstr "Afficher des éléments statistiques sur la performance."
+
+msgctxt "game_options"
+msgid "FPS ONLY"
+msgstr "UNIQUEMENT FPS"
+
+msgctxt "game_options"
+msgid "MEMORY USAGE ONLY"
+msgstr "UNIQUEMENT UTILISATION MÉMOIRE"
+
+msgctxt "game_options"
+msgid "FPS + MEMORY USAGE"
+msgstr "FPS ET UTILISATION MÉMOIRE"
+
+msgctxt "game_options"
+msgid "TECHNICAL STATS"
+msgstr "STATISTIQUES TECHNIQUES"
+
+msgctxt "game_options"
+msgid "PRESS HOTKEYS TWICE TO EXIT"
+msgstr "APPUYER DEUX FOIS SUR HOTKEY POUR QUITTER"
+
+msgctxt "game_options"
+msgid "SHOW MENU ELEMENTS"
+msgstr "AFFICHAGE DES ÉLÉMENTS DE MENU RETROARCH"
+
+msgctxt "game_options"
+msgid "Show or hide RetroArch settings. 'Auto' is the recommended setting."
+msgstr "Afficher ou masquer les menus de configuration RetroArch. "
+
+msgctxt "game_options"
+msgid "FULL"
+msgstr "COMPLET"
+
+msgctxt "game_options"
+msgid "MINIMAL"
+msgstr "MINIMAL"
+
+msgctxt "game_options"
 msgid "Full"
 msgstr "Complet"
+
+msgctxt "game_options"
+msgid "DRIVERS"
+msgstr "PILOTES"
+
+msgctxt "game_options"
+msgid "VIDEO"
+msgstr "VIDÉO"
+
+msgctxt "game_options"
+msgid "The driver 'vulkan' will generally offer better performance if hardware compatible. Some libretro cores will force the choosen driver."
+msgstr "'Vulkan' offre généralement de meilleures performances lorsque le matériel est compatible. Certains cores libretro forcent l'utilisation d'un pilote défini."
+
+msgctxt "game_options"
+msgid "Choose the audio driver compatible with the hardware."
+msgstr "Sélectionner le pilote audio compatible avec le matériel."
+
+msgctxt "game_options"
+msgid "Use 'vulkan' for the best performance if the hardware is compatible."
+msgstr "Utiliser 'Vulkan' pour la meilleure performance si le matériel est compatible."
+
+msgctxt "game_options"
+msgid "opengl"
+msgstr ""
+
+msgctxt "game_options"
+msgid "opengl core"
+msgstr ""
+
+msgctxt "game_options"
+msgid "directx 12"
+msgstr ""
+
+msgctxt "game_options"
+msgid "directx 11"
+msgstr ""
+
+msgctxt "game_options"
+msgid "directx 10"
+msgstr ""
+
+msgctxt "game_options"
+msgid "directx 9"
+msgstr ""
+
+msgctxt "game_options"
+msgid "vulkan"
+msgstr ""
+
+msgctxt "game_options"
+msgid "xaudio"
+msgstr ""
+
+msgctxt "game_options"
+msgid "directsound"
+msgstr ""
+
+msgctxt "game_options"
+msgid "wasapi"
+msgstr ""
+
+msgctxt "game_options"
+msgid "SDL"
+msgstr "SDL"
+
+msgctxt "game_options"
+msgid "CONTROLLERS"
+msgstr "CONTRÔLEURS"
+
+msgctxt "game_options"
+msgid "The driver 'xinput' will enable features like rumble effects. Choose 'sdl' for compatibility with a wide range of controllers."
+msgstr "Sélectionner 'SDL' pour une meilleure compatibilité avec une plus large gamme de matériel."
+
+msgctxt "game_options"
+msgid "XINPUT"
+msgstr "XINPUT"
+
+msgctxt "game_options"
+msgid "SAVESTATES"
+msgstr "SAUVEGARDES"
+
+msgctxt "game_options"
+msgid "AUTO SAVE/LOAD"
+msgstr "SAUVEGARDE/CHARGEMENT AUTO"
+
+msgctxt "game_options"
+msgid "INCREMENTAL SAVESTATES"
+msgstr "SAUVEGARDES INCRÉMENTALES"
+
+msgctxt "game_options"
+msgid "INCREMENT PER SAVE"
+msgstr "À CHAQUE SAUVEGARDE"
+
+msgctxt "game_options"
+msgid "Never overwrite old savestates, always make new ones."
+msgstr "Ne jamais enregistrer sur un emplacement existant, créer un nouvel emplacement à chaque sauvegarde."
+
+msgctxt "game_options"
+msgid "INCREMENT SLOT"
+msgstr "NOUVEL EMPLACEMENT"
+
+msgctxt "game_options"
+msgid "Increment slot on a new game."
+msgstr "Créé un nouvel emplacement de sauvegarde au lancement d'une partie."
+
+msgctxt "game_options"
+msgid "DO NOT INCREMENT"
+msgstr "EMPLACEMENT ACTUEL"
+
+msgctxt "game_options"
+msgid "Use current slot on a new game."
+msgstr "Utiliser le même emplacement pour une nouvelle partie (efface la sauvegarde existante)."
+
+msgctxt "game_options"
+msgid "INCREMENTAL SAVESTATES"
+msgstr "SAUVEGARDES INCRÉMENTALES"
+
+msgctxt "game_options"
+msgid "SHOW SAVESTATE MANAGER"
+msgstr "AFFICHER LE GESTIONNAIRE DE SAUVEGARDES"
+
+msgctxt "game_options"
+msgid "ALWAYS"
+msgstr "TOUJOURS"
+
+msgctxt "game_options"
+msgid "IF NOT EMPTY"
+msgstr "SI NON VIDE"
+
+msgctxt "game_options"
+msgid "Display savestate manager before launching a game."
+msgstr "Afficher le gestionnaire de sauvegardes avant le lancement du jeu."
+
+msgctxt "game_options"
+msgid "SYSTEM SETTINGS"
+msgstr "PARAMÈTRES SYSTÈME"
+
+msgctxt "game_options"
+msgid "PER SYSTEM ADVANCED CONFIGURATION"
+msgstr "CONFIGURATION AVANCÉE PAR SYSTÈME"
+
+msgctxt "game_options"
+msgid "RETROACHIEVEMENT SETTINGS"
+msgstr "PARAMÈTRES DES SUCCÈS RÉTRO"
+
+msgctxt "game_options"
+msgid "RETROACHIEVEMENTS"
+msgstr "SUCCÈS RÉTRO"
+
+msgctxt "game_options"
+msgid "USERNAME"
+msgstr "IDENTIFIANT"
+
+msgctxt "game_options"
+msgid "PASSWORD"
+msgstr "MOT DE PASSE"
+
+msgctxt "game_options"
+msgid "NETPLAY SETTINGS"
+msgstr "PARAMÈTRES DES PARTIES EN RÉSEAU"
+
+msgctxt "game_options"
+msgid "MISSING BIOS CHECK"
+msgstr "VÉRIFIER LES BIOS MANQUANTS"
+
+msgctxt "game_options"
+msgid "CHECK BIOS FILES BEFORE RUNNING A GAME"
+msgstr "VÉRIFIER LES BIOS AVANT DE LANCER UN JEU"
 
 msgctxt "game_options"
 msgid "Config"
@@ -224,10 +604,6 @@ msgstr "Option du core"
 msgctxt "game_options"
 msgid "Custom"
 msgstr "Personnalisé"
-
-msgctxt "game_options"
-msgid "REWIND"
-msgstr "REMBOBINAGE"
 
 msgctxt "game_options"
 msgid "On"
@@ -252,30 +628,6 @@ msgstr "Aucun"
 msgctxt "game_options"
 msgid "NONE"
 msgstr "AUCUN"
-
-msgctxt "game_options"
-msgid "ENABLE AI TRANSLATION SERVICE"
-msgstr "ACTIVER LE SERVICE DE TRADUCTION PAR IA"
-
-msgctxt "game_options"
-msgid "TARGET LANGUAGE"
-msgstr "LANGUE CIBLE"
-
-msgctxt "game_options"
-msgid "AI TRANSLATION SERVICE URL"
-msgstr "URL DU SERVICE DE TRADUCTION IA"
-
-msgctxt "game_options"
-msgid "PAUSE ON TRANSLATED SCREEN"
-msgstr "PAUSE SUR L'ÉCRAN DE TRADUCTION"
-
-msgctxt "game_options"
-msgid "LATENCY REDUCTION"
-msgstr "RÉDUCTION DE LA LATENCE"
-
-msgctxt "game_options"
-msgid "AUTOMATIC FRAME DELAY"
-msgstr "RETARD D'IMAGE AUTOMATIQUE"
 
 msgctxt "game_options"
 msgid "COLORIZATION"
@@ -374,7 +726,7 @@ msgstr "UK"
 
 msgctxt "game_options"
 msgid "Nearest"
-msgstr "La plus proche"
+msgstr "Au plus proche"
 
 msgctxt "game_options"
 msgid "Bilinear"
@@ -705,12 +1057,8 @@ msgid "INTEGER SCALING"
 msgstr "AGRANDISSEMENT ENTIER"
 
 msgctxt "game_options"
-msgid "SDL"
-msgstr "SDL"
-
-msgctxt "game_options"
 msgid "nearest"
-msgstr "la plus proche"
+msgstr "au plus proche"
 
 msgctxt "game_options"
 msgid "Composite"
@@ -750,22 +1098,6 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "VIDEO ROTATION"
-msgstr ""
-
-msgctxt "game_options"
-msgid "RESAMPLER"
-msgstr ""
-
-msgctxt "game_options"
-msgid "sinc"
-msgstr ""
-
-msgctxt "game_options"
-msgid "CC"
-msgstr ""
-
-msgctxt "game_options"
-msgid "none"
 msgstr ""
 
 msgctxt "game_options"
@@ -873,199 +1205,11 @@ msgid "WAHWAH"
 msgstr ""
 
 msgctxt "game_options"
-msgid "AUTO SAVE/LOAD"
-msgstr ""
-
-msgctxt "game_options"
-msgid "SHOW MENU ELEMENTS"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Show or hide RetroArch settings. 'Config' depends on ES interface mode."
-msgstr ""
-
-msgctxt "game_options"
-msgid "USER INTERFACE"
-msgstr ""
-
-msgctxt "game_options"
-msgid "minimal"
-msgstr ""
-
-msgctxt "game_options"
 msgid "recommended"
 msgstr ""
 
 msgctxt "game_options"
-msgid "full"
-msgstr ""
-
-msgctxt "game_options"
-msgid "NOTIFICATIONS"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Display or not on-screen notifications."
-msgstr ""
-
-msgctxt "game_options"
-msgid "PRESS HOTKEYS TWICE TO EXIT"
-msgstr ""
-
-msgctxt "game_options"
-msgid "RUN-AHEAD FRAMES"
-msgstr ""
-
-msgctxt "game_options"
-msgid "RUN-AHEAD USE SECOND INSTANCE"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Automatically decrease frame delay temporarily to prevent frame drops. Turn off if this worsens audio/video stuttering."
-msgstr ""
-
-msgctxt "game_options"
-msgid "Dansk"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Deutsch"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Español"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Français"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Hrvatski"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Italiano"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Magyar"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Nederlands"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Norsk"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Polski"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Português"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Română"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Svenska"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Türkçe"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Čeština"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Ελληνικά (Greek)"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Русский (Russian)"
-msgstr ""
-
-msgctxt "game_options"
-msgid "日本語 (Japanese)"
-msgstr ""
-
-msgctxt "game_options"
-msgid "简体中文 (Chinese)"
-msgstr ""
-
-msgctxt "game_options"
-msgid "한국어 (Korean)"
-msgstr ""
-
-msgctxt "game_options"
 msgid "LIGHTGUN"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Use 'vulkan' for the best performance if the hardware is compatible."
-msgstr ""
-
-msgctxt "game_options"
-msgid "opengl"
-msgstr ""
-
-msgctxt "game_options"
-msgid "opengl core"
-msgstr ""
-
-msgctxt "game_options"
-msgid "directx 12"
-msgstr ""
-
-msgctxt "game_options"
-msgid "directx 11"
-msgstr ""
-
-msgctxt "game_options"
-msgid "directx 10"
-msgstr ""
-
-msgctxt "game_options"
-msgid "directx 9"
-msgstr ""
-
-msgctxt "game_options"
-msgid "vulkan"
-msgstr ""
-
-msgctxt "game_options"
-msgid "AUDIO"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Choose the audio driver compatible with the hardware."
-msgstr ""
-
-msgctxt "game_options"
-msgid "xaudio"
-msgstr ""
-
-msgctxt "game_options"
-msgid "directsound"
-msgstr ""
-
-msgctxt "game_options"
-msgid "wasapi"
-msgstr ""
-
-msgctxt "game_options"
-msgid "CONTROLLERS"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Use 'xinput' for almost all modern controllers. Use 'sdl' for compatibility."
 msgstr ""
 
 msgctxt "game_options"
@@ -1082,10 +1226,6 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Choose which Atari system to emulate."
-msgstr ""
-
-msgctxt "game_options"
-msgid "EMULATION"
 msgstr ""
 
 msgctxt "game_options"
@@ -3149,10 +3289,6 @@ msgid "Change the renderer used by the core."
 msgstr ""
 
 msgctxt "game_options"
-msgid "DRIVERS"
-msgstr ""
-
-msgctxt "game_options"
 msgid "INPUT"
 msgstr "MANETTES"
 
@@ -3922,10 +4058,6 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "AGRESSIVE"
-msgstr ""
-
-msgctxt "game_options"
-msgid "DRAW STATISTICS"
 msgstr ""
 
 msgctxt "game_options"
