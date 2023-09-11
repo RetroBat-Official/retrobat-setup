@@ -945,4 +945,21 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
+	<game>
+		<path>./zesarux.menu</path>
+		<name>ZEsarUX (ZX Spectrum)</name>
+		<desc>Run ZEsarUX GUI.</desc>
+		<image>./media/zesarux-logo.jpg</image>
+		<marquee>./media/zesarux-logo.jpg</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>chernandezba</developer>
+		<publisher />
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
 </gameList>
