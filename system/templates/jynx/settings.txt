@@ -1,0 +1,12 @@
+FileVersion 4
+MachineType 0
+RenderStyle 1
+SoundEnable 1
+FullScreenEnable 1
+CyclesPerTimeslice 70000
+TapeSounds 0
+RemExtensions 0
+MaxSpeedCassette 1
+MaxSpeedConsole 0
+MaxSpeedAlways 0
+ColourSet 0
