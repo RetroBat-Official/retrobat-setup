@@ -170,6 +170,23 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
+    <game>
+		<path>./hatari.menu</path>
+		<name>Hatari (Atari ST)</name>
+		<desc>Run Hatari.</desc>
+		<image>./media/hatari-logo.png</image>
+		<marquee>./media/hatari-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>TuxFamily</developer>
+		<publisher>TuxFamily</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
 	<game>
 		<path>./jynx.menu</path>
 		<name>Jynx (Camputers Lynx)</name>
