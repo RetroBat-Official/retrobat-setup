@@ -29,6 +29,7 @@
 \system\templates\emulationstation\es_padtokey.cfg|\emulationstation\.emulationstation\es_padtokey.cfg
 \system\templates\emulationstation\es_settings.cfg|\emulationstation\.emulationstation\es_settings.cfg
 \system\templates\flycast\emu.cfg|\emulators\flycast\emu.cfg
+\system\templates\hatari\hatari.cfg|\emulators\hatari\hatari.cfg
 \system\templates\hbmame\ctrlr\ds4_ds5.cfg|\saves\hbmame\ctrlr\ds4_ds5.cfg
 \system\templates\hbmame\ctrlr\switch_pro.cfg|\saves\hbmame\ctrlr\switch_pro.cfg
 \system\templates\hbmame\ctrlr\xinput.cfg|\saves\hbmame\ctrlr\xinput.cfg
