@@ -13,7 +13,7 @@ to set the default configuration and to build the setup from sources.
 :: ---- BUILDER OPTION ----
 
 set retrobat_version=6.0.0
-set retroarch_version=1.15.0
+set retroarch_version=1.16.0
 
 set get_batgui=0
 set get_batocera_ports=1
