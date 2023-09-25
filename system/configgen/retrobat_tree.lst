@@ -114,9 +114,17 @@ emulators\flycast
 emulators\flycast\mappings
 emulators\fpinball
 emulators\gsplus
+emulators\hatari
 emulators\hypseus
+emulators\jynx
 emulators\kega-fusion
 emulators\m2emulator
+emulators\m2emulator\CFG
+emulators\m2emulator\NVDATA
+emulators\m2emulator\scripts
+emulators\m2emulator\templatescfg
+emulators\m2emulator\templatescfg\dinput
+emulators\m2emulator\templatescfg\xinput
 emulators\mame
 emulators\mame\cfg
 emulators\mame\ini
