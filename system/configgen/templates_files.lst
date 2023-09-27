@@ -58,7 +58,7 @@
 \system\templates\mame\ctrlr\switch_pro.cfg|\saves\mame\ctrlr\switch_pro.cfg
 \system\templates\mame\ctrlr\xinput.cfg|\saves\mame\ctrlr\xinput.cfg
 \system\templates\melonds\melonDS.ini|\emulators\melonds\melonDS.ini
-\system\templates\mesen\settings.xml|\emulators\mesen\settings.xml
+\system\templates\mesen\settings.json|\emulators\mesen\settings.json
 \system\templates\mgba\config.ini|\emulators\mgba\config.ini
 \system\templates\mupen64\Config\GLideN64.ini|\emulators\mupen64\Config\GLideN64.ini
 \system\templates\mupen64\Config\mupen64plus.cfg|\emulators\mupen64\Config\mupen64plus.cfg
