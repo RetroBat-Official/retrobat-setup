@@ -1,0 +1,8070 @@
+﻿{
+  "Version": "2.0.0",
+  "Video": {
+    "CustomAspectRatio": 1,
+    "VideoFilter": "None",
+    "AspectRatio": "Auto",
+    "UseBilinearInterpolation": false,
+    "UseSrgbTextureFormat": false,
+    "VerticalSync": true,
+    "IntegerFpsMode": false,
+    "Brightness": 0,
+    "Contrast": 0,
+    "Hue": 0,
+    "Saturation": 0,
+    "ScanlineIntensity": 0,
+    "NtscArtifacts": 0,
+    "NtscBleed": 0,
+    "NtscFringing": 0,
+    "NtscGamma": 0,
+    "NtscResolution": 0,
+    "NtscSharpness": 0,
+    "NtscMergeFields": false,
+    "NtscScale": "_2x",
+    "NtscYFilterLength": 0,
+    "NtscIFilterLength": 50,
+    "NtscQFilterLength": 50,
+    "FullscreenForceIntegerScale": false,
+    "UseExclusiveFullscreen": false,
+    "ExclusiveFullscreenRefreshRateNtsc": 60,
+    "ExclusiveFullscreenRefreshRatePal": 50,
+    "ExclusiveFullscreenResolution": "Default",
+    "ScreenRotation": "None"
+  },
+  "Audio": {
+    "AudioDevice": "",
+    "EnableAudio": true,
+    "DisableDynamicSampleRate": false,
+    "MasterVolume": 100,
+    "SampleRate": "_48000",
+    "AudioLatency": 60,
+    "MuteSoundInBackground": false,
+    "ReduceSoundInBackground": true,
+    "ReduceSoundInFastForward": false,
+    "VolumeReduction": 75,
+    "ReverbEnabled": false,
+    "ReverbStrength": 5,
+    "ReverbDelay": 10,
+    "CrossFeedEnabled": false,
+    "CrossFeedRatio": 0,
+    "EnableEqualizer": false,
+    "Band1Gain": 0,
+    "Band2Gain": 0,
+    "Band3Gain": 0,
+    "Band4Gain": 0,
+    "Band5Gain": 0,
+    "Band6Gain": 0,
+    "Band7Gain": 0,
+    "Band8Gain": 0,
+    "Band9Gain": 0,
+    "Band10Gain": 0,
+    "Band11Gain": 0,
+    "Band12Gain": 0,
+    "Band13Gain": 0,
+    "Band14Gain": 0,
+    "Band15Gain": 0,
+    "Band16Gain": 0,
+    "Band17Gain": 0,
+    "Band18Gain": 0,
+    "Band19Gain": 0,
+    "Band20Gain": 0,
+    "AudioPlayerEnableTrackLength": true,
+    "AudioPlayerTrackLength": 120,
+    "AudioPlayerAutoDetectSilence": true,
+    "AudioPlayerSilenceDelay": 3
+  },
+  "Input": {
+    "ControllerDeadzoneSize": 2,
+    "MouseSensitivity": 5,
+    "HidePointerForLightGuns": true,
+    "DisplayInputPosition": "BottomRight",
+    "DisplayInputPort1": false,
+    "DisplayInputPort2": false,
+    "DisplayInputPort3": false,
+    "DisplayInputPort4": false,
+    "DisplayInputPort5": false,
+    "DisplayInputPort6": false,
+    "DisplayInputPort7": false,
+    "DisplayInputPort8": false,
+    "DisplayInputHorizontally": true
+  },
+  "Emulation": {
+    "EmulationSpeed": 100,
+    "TurboSpeed": 300,
+    "RewindSpeed": 100,
+    "RunAheadFrames": 0
+  },
+  "Snes": {
+    "Port1": {
+      "Mapping1": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port2": {
+      "Mapping1": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1A": {
+      "Mapping1": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1B": {
+      "Mapping1": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1C": {
+      "Mapping1": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1D": {
+      "Mapping1": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port2A": {
+      "Mapping1": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port2B": {
+      "Mapping1": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port2C": {
+      "Mapping1": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port2D": {
+      "Mapping1": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "MouseButtons": null,
+        "SuperScopeButtons": null,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Region": "Auto",
+    "BlendHighResolutionModes": false,
+    "HideBgLayer1": false,
+    "HideBgLayer2": false,
+    "HideBgLayer3": false,
+    "HideBgLayer4": false,
+    "HideSprites": false,
+    "DisableFrameSkipping": false,
+    "ForceFixedResolution": false,
+    "Overscan": {
+      "Left": 0,
+      "Right": 0,
+      "Top": 7,
+      "Bottom": 8
+    },
+    "InterpolationType": "Gauss",
+    "Channel1Vol": 100,
+    "Channel2Vol": 100,
+    "Channel3Vol": 100,
+    "Channel4Vol": 100,
+    "Channel5Vol": 100,
+    "Channel6Vol": 100,
+    "Channel7Vol": 100,
+    "Channel8Vol": 100,
+    "EnableRandomPowerOnState": false,
+    "EnableStrictBoardMappings": false,
+    "RamPowerOnState": "Random",
+    "SpcClockSpeedAdjustment": 40,
+    "PpuExtraScanlinesBeforeNmi": 0,
+    "PpuExtraScanlinesAfterNmi": 0,
+    "GsuClockSpeed": 100,
+    "BsxUseCustomTime": false,
+    "BsxCustomDate": "1995-01-01T00:00:00+00:00",
+    "BsxCustomTime": "00:00:00"
+  },
+  "Nes": {
+    "Port1": {
+      "Mapping1": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 4110,
+        "B": 4109,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 4097,
+        "Down": 4098,
+        "Left": 4099,
+        "Right": 4100,
+        "Start": 4101,
+        "Select": 4102,
+        "TurboA": 4112,
+        "TurboB": 4111,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "NesController"
+    },
+    "Port2": {
+      "Mapping1": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "NesController"
+    },
+    "ExpPort": {
+      "Mapping1": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1A": {
+      "Mapping1": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1B": {
+      "Mapping1": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1C": {
+      "Mapping1": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1D": {
+      "Mapping1": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "ExpPortA": {
+      "Mapping1": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "ExpPortB": {
+      "Mapping1": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "ExpPortC": {
+      "Mapping1": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "ExpPortD": {
+      "Mapping1": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "MapperInput": {
+      "Mapping1": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "PowerPadButtons": null,
+        "FamilyBasicKeyboardButtons": null,
+        "PartyTapButtons": null,
+        "PachinkoButtons": null,
+        "ExcitingBoxingButtons": null,
+        "JissenMahjongButtons": null,
+        "SuborKeyboardButtons": null,
+        "BandaiMicrophoneButtons": null,
+        "VirtualBoyButtons": null,
+        "KonamiHyperShotButtons": null,
+        "ArkanoidButtons": null,
+        "ZapperButtons": null,
+        "MouseButtons": null,
+        "OekakidsButtons": null,
+        "BandaiHypershotButtons": null,
+        "Microphone": 0,
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "LightDetectionRadius": 0,
+    "AutoConfigureInput": true,
+    "Region": "Auto",
+    "EnableHdPacks": false,
+    "DisableGameDatabase": false,
+    "FdsAutoLoadDisk": true,
+    "FdsFastForwardOnLoad": false,
+    "FdsAutoInsertDisk": false,
+    "VsDualVideoOutput": "Both",
+    "VsDualAudioOutput": "Both",
+    "DisableSprites": false,
+    "DisableBackground": false,
+    "ForceBackgroundFirstColumn": false,
+    "ForceSpritesFirstColumn": false,
+    "RemoveSpriteLimit": false,
+    "AdaptiveSpriteLimit": false,
+    "EnablePalBorders": false,
+    "UseCustomVsPalette": false,
+    "NtscOverscan": {
+      "Left": 0,
+      "Right": 0,
+      "Top": 0,
+      "Bottom": 0
+    },
+    "PalOverscan": {
+      "Left": 0,
+      "Right": 0,
+      "Top": 0,
+      "Bottom": 0
+    },
+    "EnableOamDecay": false,
+    "EnablePpuOamRowCorruption": false,
+    "DisableOamAddrBug": false,
+    "DisablePaletteRead": false,
+    "DisablePpu2004Reads": false,
+    "EnablePpu2000ScrollGlitch": false,
+    "EnablePpu2006ScrollGlitch": false,
+    "RestrictPpuAccessOnFirstFrame": false,
+    "ConsoleType": "Nes001",
+    "DisablePpuReset": false,
+    "AllowInvalidInput": false,
+    "DisableGameGenieBusConflicts": false,
+    "DisableFlashSaves": false,
+    "RandomizeMapperPowerOnState": false,
+    "RandomizeCpuPpuAlignment": false,
+    "RamPowerOnState": "AllZeros",
+    "PpuExtraScanlinesBeforeNmi": 0,
+    "PpuExtraScanlinesAfterNmi": 0,
+    "DisableNoiseModeFlag": false,
+    "ReduceDmcPopping": false,
+    "SilenceTriangleHighFreq": false,
+    "SwapDutyCycles": false,
+    "Square1Volume": 100,
+    "Square2Volume": 100,
+    "TriangleVolume": 100,
+    "NoiseVolume": 100,
+    "DmcVolume": 100,
+    "FdsVolume": 100,
+    "Mmc5Volume": 100,
+    "Vrc6Volume": 100,
+    "Vrc7Volume": 100,
+    "Namco163Volume": 100,
+    "Sunsoft5bVolume": 100,
+    "Square1Panning": 0,
+    "Square2Panning": 0,
+    "TrianglePanning": 0,
+    "NoisePanning": 0,
+    "DmcPanning": 0,
+    "FdsPanning": 0,
+    "Mmc5Panning": 0,
+    "Vrc6Panning": 0,
+    "Vrc7Panning": 0,
+    "Namco163Panning": 0,
+    "Sunsoft5bPanning": 0,
+    "StereoFilter": "None",
+    "StereoDelay": 15,
+    "StereoPanningAngle": 15,
+    "StereoCombFilterDelay": 5,
+    "StereoCombFilterStrength": 100,
+    "BreakOnCrash": false,
+    "InputScanline": 241,
+    "UserPalette": [
+      4284900966,
+      4278200968,
+      4279505575,
+      4282056868,
+      4284219518,
+      4285399104,
+      4285269504,
+      4283833600,
+      4281545984,
+      4278929408,
+      4278211072,
+      4278210312,
+      4278206541,
+      4278190080,
+      4278190080,
+      4278190080,
+      4289572269,
+      4279590873,
+      4282532095,
+      4285868030,
+      4288682700,
+      4290190971,
+      4290064672,
+      4288237056,
+      4285230336,
+      4281894656,
+      4279014144,
+      4278226738,
+      4278221965,
+      4278190080,
+      4278190080,
+      4278190080,
+      4294967039,
+      4284788991,
+      4287795455,
+      4291196671,
+      4294142719,
+      4294864588,
+      4294869360,
+      4293565986,
+      4290559488,
+      4287158272,
+      4284277808,
+      4282769538,
+      4282961374,
+      4283387727,
+      4278190080,
+      4278190080,
+      4294967039,
+      4290830335,
+      4292072191,
+      4293445887,
+      4294689535,
+      4294886634,
+      4294888645,
+      4294432933,
+      4293191060,
+      4291817366,
+      4290639019,
+      4289983436,
+      4290112498,
+      4290295992,
+      4278190080,
+      4278190080
+    ]
+  },
+  "Gameboy": {
+    "Controller": {
+      "Mapping1": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Model": "AutoFavorGbc",
+    "UseSgb2": true,
+    "BlendFrames": true,
+    "GbcAdjustColors": true,
+    "DisableBackground": false,
+    "DisableSprites": false,
+    "HideSgbBorders": false,
+    "RamPowerOnState": "Random",
+    "AllowInvalidInput": false,
+    "BgColors": [
+      4294967295,
+      4289769648,
+      4285032552,
+      4278190080
+    ],
+    "Obj0Colors": [
+      4294967295,
+      4289769648,
+      4285032552,
+      4278190080
+    ],
+    "Obj1Colors": [
+      4294967295,
+      4289769648,
+      4285032552,
+      4278190080
+    ],
+    "Square1Vol": 100,
+    "Square2Vol": 100,
+    "NoiseVol": 100,
+    "WaveVol": 100
+  },
+  "PcEngine": {
+    "Port1": {
+      "Mapping1": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1A": {
+      "Mapping1": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1B": {
+      "Mapping1": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1C": {
+      "Mapping1": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1D": {
+      "Mapping1": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "Port1E": {
+      "Mapping1": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping2": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping3": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "Mapping4": {
+        "A": 0,
+        "B": 0,
+        "X": 0,
+        "Y": 0,
+        "L": 0,
+        "R": 0,
+        "Up": 0,
+        "Down": 0,
+        "Left": 0,
+        "Right": 0,
+        "Start": 0,
+        "Select": 0,
+        "TurboA": 0,
+        "TurboB": 0,
+        "TurboX": 0,
+        "TurboY": 0,
+        "TurboL": 0,
+        "TurboR": 0,
+        "TurboSelect": 0,
+        "TurboStart": 0
+      },
+      "TurboSpeed": 0,
+      "Type": "None"
+    },
+    "PreventSelectRunReset": true,
+    "ConsoleType": "Auto",
+    "CdRomType": "Arcade",
+    "EnableCdRomForHuCardGames": false,
+    "DisableCdRomSaveRamForHuCardGames": false,
+    "RamPowerOnState": "Random",
+    "EnableRandomPowerOnState": false,
+    "Channel1Vol": 100,
+    "Channel2Vol": 100,
+    "Channel3Vol": 100,
+    "Channel4Vol": 100,
+    "Channel5Vol": 100,
+    "Channel6Vol": 100,
+    "CdAudioVolume": 100,
+    "AdpcmVolume": 100,
+    "RemoveSpriteLimit": false,
+    "DisableSprites": false,
+    "DisableSpritesVdc2": false,
+    "DisableBackground": false,
+    "DisableBackgroundVdc2": false,
+    "DisableFrameSkipping": false,
+    "ForceFixedResolution": false,
+    "Overscan": {
+      "Left": 18,
+      "Right": 18,
+      "Top": 3,
+      "Bottom": 0
+    },
+    "Palette": [
+      4278190080,
+      4278190102,
+      4278452789,
+      4278255691,
+      4278649962,
+      4278518144,
+      4278912671,
+      4278780853,
+      4279894019,
+      4280288545,
+      4280156727,
+      4280551254,
+      4280419436,
+      4280813963,
+      4280616609,
+      4281011136,
+      4282189837,
+      4282058020,
+      4282387010,
+      4282255193,
+      4282649719,
+      4282517901,
+      4282912428,
+      4282715074,
+      4283894032,
+      4283761958,
+      4284156485,
+      4284024667,
+      4284353658,
+      4284221840,
+      4284616367,
+      4284484549,
+      4285663507,
+      4285992497,
+      4285860680,
+      4286255206,
+      4286123132,
+      4286517659,
+      4286320305,
+      4286714832,
+      4287893790,
+      4287761972,
+      4288156498,
+      4287959145,
+      4288353671,
+      4288221854,
+      4288616380,
+      4288484306,
+      4289597728,
+      4289465910,
+      4289860437,
+      4289728619,
+      4290123146,
+      4289925792,
+      4290320319,
+      4290188501,
+      4291367203,
+      4291761729,
+      4291564376,
+      4291958902,
+      4291827084,
+      4292221611,
+      4292089793,
+      4292484320,
+      4278789128,
+      4278657310,
+      4279051837,
+      4278854483,
+      4279249010,
+      4279117192,
+      4279511719,
+      4279314365,
+      4280493067,
+      4280361249,
+      4280755775,
+      4280623958,
+      4280952948,
+      4280821131,
+      4281215657,
+      4281083839,
+      4282262541,
+      4282591532,
+      4282459714,
+      4282854241,
+      4282722423,
+      4283116949,
+      4282919596,
+      4283314122,
+      4284492824,
+      4284361006,
+      4284755533,
+      4284558179,
+      4284952706,
+      4284820888,
+      4285215415,
+      4285083597,
+      4286197019,
+      4286064945,
+      4286459472,
+      4286327654,
+      4286722180,
+      4286524827,
+      4286919353,
+      4286787536,
+      4287966493,
+      4288361020,
+      4288163666,
+      4288558193,
+      4288426119,
+      4288820902,
+      4288688828,
+      4289083354,
+      4290196776,
+      4290064958,
+      4290459485,
+      4290327667,
+      4290722194,
+      4290524840,
+      4290919367,
+      4290787549,
+      4291966251,
+      4291768897,
+      4292163424,
+      4292031606,
+      4292426132,
+      4292294315,
+      4292623305,
+      4292491488,
+      4278861832,
+      4279190822,
+      4279059005,
+      4279453531,
+      4279321713,
+      4279716240,
+      4279518630,
+      4279913157,
+      4281092115,
+      4280960297,
+      4281354823,
+      4281157470,
+      4281551996,
+      4281420179,
+      4281288361,
+      4281682887,
+      4282796053,
+      4282664235,
+      4283058762,
+      4282926944,
+      4283321471,
+      4283124117,
+      4283518644,
+      4283386826,
+      4284565528,
+      4284960054,
+      4284762701,
+      4285157227,
+      4285025409,
+      4285419936,
+      4285288118,
+      4285682645,
+      4286796067,
+      4286663993,
+      4287058519,
+      4286926702,
+      4287321228,
+      4287123875,
+      4286992057,
+      4287386583,
+      4288565541,
+      4288367932,
+      4288762714,
+      4288630640,
+      4289025167,
+      4288893349,
+      4289222340,
+      4289090522,
+      4290269480,
+      4290664006,
+      4290532189,
+      4290861179,
+      4290729362,
+      4291123888,
+      4290991814,
+      4291386597,
+      4292499763,
+      4292367945,
+      4292762472,
+      4292630654,
+      4292433300,
+      4292827827,
+      4292696009,
+      4293090536,
+      4279395344,
+      4279263526,
+      4279658053,
+      4279525979,
+      4279920505,
+      4279723152,
+      4280117678,
+      4279985861,
+      4281164818,
+      4281559345,
+      4281361991,
+      4281756518,
+      4281624700,
+      4282019227,
+      4281887153,
+      4282281935,
+      4282868757,
+      4283263283,
+      4283131466,
+      4283525992,
+      4283328639,
+      4283723165,
+      4283591347,
+      4283985874,
+      4285164576,
+      4284967222,
+      4285361749,
+      4285229931,
+      4285624457,
+      4285492640,
+      4285821630,
+      4285689813,
+      4286868514,
+      4287263041,
+      4287131223,
+      4287460214,
+      4287328396,
+      4287722923,
+      4287591105,
+      4287985631,
+      4288572453,
+      4288966980,
+      4288835162,
+      4289229688,
+      4289097871,
+      4289426861,
+      4289295044,
+      4289689570,
+      4290868528,
+      4290671174,
+      4291065701,
+      4290933627,
+      4291328410,
+      4291196336,
+      4291590862,
+      4291393509,
+      4292572466,
+      4292966993,
+      4292835175,
+      4293229702,
+      4293032348,
+      4293426875,
+      4293295057,
+      4293689584,
+      4279467791,
+      4279862318,
+      4279730500,
+      4280125027,
+      4279927673,
+      4280322200,
+      4280190382,
+      4280584909,
+      4281763866,
+      4281566513,
+      4281961039,
+      4281828965,
+      4282223748,
+      4282091674,
+      4282486201,
+      4282288847,
+      4283467805,
+      4283862331,
+      4283730514,
+      4284059504,
+      4283927687,
+      4284322213,
+      4284190395,
+      4284584922,
+      4285171744,
+      4285566270,
+      4285434452,
+      4285828979,
+      4285697161,
+      4286026152,
+      4285894334,
+      4286288861,
+      4287467562,
+      4287335745,
+      4287664735,
+      4287532918,
+      4287927444,
+      4287795626,
+      4288190153,
+      4287992799,
+      4289171501,
+      4289566028,
+      4289434210,
+      4289828736,
+      4289631383,
+      4290025909,
+      4289894092,
+      4290288618,
+      4290875440,
+      4291270222,
+      4291138148,
+      4291532675,
+      4291400857,
+      4291795384,
+      4291598030,
+      4291992557,
+      4293171514,
+      4293039697,
+      4293434223,
+      4293236870,
+      4293631396,
+      4293499322,
+      4293893849,
+      4293762031,
+      4280066839,
+      4280461366,
+      4280329548,
+      4280724075,
+      4280526721,
+      4280921248,
+      4280789430,
+      4280657612,
+      4281770778,
+      4282165561,
+      4282033487,
+      4282428013,
+      4282296196,
+      4282625186,
+      4282493369,
+      4282887895,
+      4284066853,
+      4283935035,
+      4284264026,
+      4284132208,
+      4284526735,
+      4284394661,
+      4284789443,
+      4284591834,
+      4285770792,
+      4286165318,
+      4286033500,
+      4286428027,
+      4286230673,
+      4286098856,
+      4286493382,
+      4286361308,
+      4287474730,
+      4287869257,
+      4287737439,
+      4288131966,
+      4288000148,
+      4288394674,
+      4288197321,
+      4288591847,
+      4289770549,
+      4289638731,
+      4290033258,
+      4289835904,
+      4290230431,
+      4290098613,
+      4290493140,
+      4290361322,
+      4291474488,
+      4291869014,
+      4291737196,
+      4292131723,
+      4291999905,
+      4291802552,
+      4292197078,
+      4292065260,
+      4293244218,
+      4293638745,
+      4293441135,
+      4293835662,
+      4293703844,
+      4294098370,
+      4293966553,
+      4294295543,
+      4280665887,
+      4280534070,
+      4280863060,
+      4280731243,
+      4281125769,
+      4280993951,
+      4281388478,
+      4281191124,
+      4282369826,
+      4282238008,
+      4282632535,
+      4282435181,
+      4282829708,
+      4282697890,
+      4283092417,
+      4282960599,
+      4284074021,
+      4284468547,
+      4284336473,
+      4284731256,
+      4284599182,
+      4284993709,
+      4284796355,
+      4285190882,
+      4286369839,
+      4286238022,
+      4286632548,
+      4286435195,
+      4286829721,
+      4286697903,
+      4287092430,
+      4286960356,
+      4288073778,
+      4287941960,
+      4288336487,
+      4288204669,
+      4288599196,
+      4288401842,
+      4288796369,
+      4288664551,
+      4289843253,
+      4290237779,
+      4290040426,
+      4290434952,
+      4290303134,
+      4290697661,
+      4290565843,
+      4290894834,
+      4292073536,
+      4291941718,
+      4292336244,
+      4292204427,
+      4292533417,
+      4292401600,
+      4292796126,
+      4292664308,
+      4293843010,
+      4293645656,
+      4294040183,
+      4293908365,
+      4294302892,
+      4294105538,
+      4294500065,
+      4294368247,
+      4280673055,
+      4281067582,
+      4280935764,
+      4281330291,
+      4281198473,
+      4281592999,
+      4281395646,
+      4281790172,
+      4282968874,
+      4282837056,
+      4283231583,
+      4283034229,
+      4283428756,
+      4283296938,
+      4283691465,
+      4283559647,
+      4284673069,
+      4284540995,
+      4284935521,
+      4284803704,
+      4285198230,
+      4285000877,
+      4285395403,
+      4285263585,
+      4286442543,
+      4286837070,
+      4286639716,
+      4287034243,
+      4286902169,
+      4287296695,
+      4287164878,
+      4287493868,
+      4288672826,
+      4288541008,
+      4288935535,
+      4288803717,
+      4289132708,
+      4289000890,
+      4289395417,
+      4289263343,
+      4290442301,
+      4290244947,
+      4290639474,
+      4290507656,
+      4290902182,
+      4290770365,
+      4291099355,
+      4290967538,
+      4292146239,
+      4292540766,
+      4292343412,
+      4292737939,
+      4292606121,
+      4293000648,
+      4292868830,
+      4293263356,
+      4294376522,
+      4294244704,
+      4294639231,
+      4294507413,
+      4294901684,
+      4294704586,
+      4294967273,
+      4294967295
+    ]
+  },
+  "Preferences": {
+    "Theme": "Light",
+    "AutomaticallyCheckForUpdates": false,
+    "SingleInstance": true,
+    "AutoLoadPatches": true,
+    "PauseWhenInBackground": true,
+    "PauseWhenInMenusAndConfig": true,
+    "AllowBackgroundInput": true,
+    "PauseOnMovieEnd": true,
+    "ShowMovieIcons": true,
+    "ShowTurboRewindIcons": true,
+    "ConfirmExitResetPower": false,
+    "AssociateSnesRomFiles": false,
+    "AssociateSnesMusicFiles": false,
+    "AssociateNesRomFiles": false,
+    "AssociateNesMusicFiles": false,
+    "AssociateGbRomFiles": false,
+    "AssociateGbMusicFiles": false,
+    "AssociatePceRomFiles": false,
+    "AssociatePceMusicFiles": false,
+    "EnableAutoSaveState": false,
+    "AutoSaveStateDelay": 5,
+    "EnableRewind": false,
+    "RewindBufferSize": 300,
+    "AlwaysOnTop": false,
+    "AutoHideMenu": false,
+    "ShowFps": false,
+    "ShowFrameCounter": false,
+    "ShowGameTimer": false,
+    "ShowLagCounter": false,
+    "ShowTitleBarInfo": false,
+    "ShowDebugInfo": false,
+    "DisableOsd": true,
+    "HudSize": "Fixed",
+    "GameSelectionScreenMode": "ResumeState",
+    "FontAntialiasing": "SubPixelAntialias",
+    "MesenFont": {
+      "FontFamily": "Microsoft Sans Serif",
+      "FontSize": 11
+    },
+    "MesenMenuFont": {
+      "FontFamily": "Segoe UI",
+      "FontSize": 12
+    },
+    "ShortcutKeys": [
+      {
+        "Shortcut": "FastForward",
+        "KeyCombination": {
+          "Key1": 3,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 4114,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "Rewind",
+        "KeyCombination": {
+          "Key1": 2,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 4113,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "IncreaseSpeed",
+        "KeyCombination": {
+          "Key1": 141,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "DecreaseSpeed",
+        "KeyCombination": {
+          "Key1": 143,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "MaxSpeed",
+        "KeyCombination": {
+          "Key1": 98,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "IncreaseVolume",
+        "KeyCombination": {
+          "Key1": 118,
+          "Key2": 141,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "DecreaseVolume",
+        "KeyCombination": {
+          "Key1": 118,
+          "Key2": 143,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleFps",
+        "KeyCombination": {
+          "Key1": 99,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleFullscreen",
+        "KeyCombination": {
+          "Key1": 100,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "TakeScreenshot",
+        "KeyCombination": {
+          "Key1": 101,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "Reset",
+        "KeyCombination": {
+          "Key1": 118,
+          "Key2": 61,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "PowerCycle",
+        "KeyCombination": {
+          "Key1": 118,
+          "Key2": 63,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ReloadRom",
+        "KeyCombination": {
+          "Key1": 118,
+          "Key2": 116,
+          "Key3": 61
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "Pause",
+        "KeyCombination": {
+          "Key1": 13,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SetScale1x",
+        "KeyCombination": {
+          "Key1": 120,
+          "Key2": 35,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SetScale2x",
+        "KeyCombination": {
+          "Key1": 120,
+          "Key2": 36,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SetScale3x",
+        "KeyCombination": {
+          "Key1": 120,
+          "Key2": 37,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SetScale4x",
+        "KeyCombination": {
+          "Key1": 120,
+          "Key2": 38,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SetScale5x",
+        "KeyCombination": {
+          "Key1": 120,
+          "Key2": 39,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SetScale6x",
+        "KeyCombination": {
+          "Key1": 120,
+          "Key2": 40,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SetScale7x",
+        "KeyCombination": {
+          "Key1": 120,
+          "Key2": 41,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SetScale8x",
+        "KeyCombination": {
+          "Key1": 120,
+          "Key2": 42,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SetScale9x",
+        "KeyCombination": {
+          "Key1": 120,
+          "Key2": 43,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SetScale10x",
+        "KeyCombination": {
+          "Key1": 120,
+          "Key2": 34,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "OpenFile",
+        "KeyCombination": {
+          "Key1": 118,
+          "Key2": 58,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveStateSlot1",
+        "KeyCombination": {
+          "Key1": 116,
+          "Key2": 90,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveStateSlot2",
+        "KeyCombination": {
+          "Key1": 116,
+          "Key2": 91,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveStateSlot3",
+        "KeyCombination": {
+          "Key1": 116,
+          "Key2": 92,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveStateSlot4",
+        "KeyCombination": {
+          "Key1": 116,
+          "Key2": 93,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveStateSlot5",
+        "KeyCombination": {
+          "Key1": 116,
+          "Key2": 94,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveStateSlot6",
+        "KeyCombination": {
+          "Key1": 116,
+          "Key2": 95,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveStateSlot7",
+        "KeyCombination": {
+          "Key1": 116,
+          "Key2": 96,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveStateToFile",
+        "KeyCombination": {
+          "Key1": 118,
+          "Key2": 62,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateSlot1",
+        "KeyCombination": {
+          "Key1": 90,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateSlot2",
+        "KeyCombination": {
+          "Key1": 91,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateSlot3",
+        "KeyCombination": {
+          "Key1": 92,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateSlot4",
+        "KeyCombination": {
+          "Key1": 93,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateSlot5",
+        "KeyCombination": {
+          "Key1": 94,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateSlot6",
+        "KeyCombination": {
+          "Key1": 95,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateSlot7",
+        "KeyCombination": {
+          "Key1": 96,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateSlotAuto",
+        "KeyCombination": {
+          "Key1": 97,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateFromFile",
+        "KeyCombination": {
+          "Key1": 118,
+          "Key2": 55,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "RewindTenSecs",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "RewindOneMin",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SelectSaveSlot1",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SelectSaveSlot2",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SelectSaveSlot3",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SelectSaveSlot4",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SelectSaveSlot5",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SelectSaveSlot6",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SelectSaveSlot7",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SelectSaveSlot8",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SelectSaveSlot9",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SelectSaveSlot10",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "MoveToNextStateSlot",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "MoveToPreviousStateSlot",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveState",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadState",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleCheats",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleFastForward",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleRewind",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "RunSingleFrame",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleRecordVideo",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleRecordAudio",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleRecordMovie",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "PowerOff",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "Exit",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ExecReset",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ExecPowerCycle",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ExecReloadRom",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ExecPowerOff",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleGameTimer",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleFrameCounter",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleLagCounter",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleOsd",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleAlwaysOnTop",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleDebugInfo",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleAudio",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleBgLayer1",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleBgLayer2",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleBgLayer3",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleBgLayer4",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleSprites1",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ToggleSprites2",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "EnableAllLayers",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "ResetLagCounter",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveStateSlot8",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveStateSlot9",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveStateSlot10",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "SaveStateDialog",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateSlot8",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateSlot9",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateSlot10",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadStateDialog",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadLastSession",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "InputBarcode",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "LoadTape",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "RecordTape",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "StopRecordTape",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "FdsSwitchDiskSide",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "FdsEjectDisk",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "FdsInsertDiskNumber",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "FdsInsertNextDisk",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "VsServiceButton",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "VsServiceButton2",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "VsInsertCoin1",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "VsInsertCoin2",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "VsInsertCoin3",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "VsInsertCoin4",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "StartRecordHdPack",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      },
+      {
+        "Shortcut": "StopRecordHdPack",
+        "KeyCombination": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        },
+        "KeyCombination2": {
+          "Key1": 0,
+          "Key2": 0,
+          "Key3": 0
+        }
+      }
+    ],
+    "OverrideGameFolder": true,
+    "OverrideAviFolder": true,
+    "OverrideMovieFolder": false,
+    "OverrideSaveDataFolder": true,
+    "OverrideSaveStateFolder": true,
+    "OverrideScreenshotFolder": true,
+    "OverrideWaveFolder": false,
+    "GameFolder": "",
+    "AviFolder": "",
+    "MovieFolder": "",
+    "SaveDataFolder": "",
+    "SaveStateFolder": "",
+    "ScreenshotFolder": "",
+    "WaveFolder": ""
+  },
+  "AudioPlayer": {
+    "Volume": 100,
+    "Repeat": false,
+    "Shuffle": false
+  },
+  "Debug": {
+    "Shortcuts": {
+      "Shortcuts": [
+        {
+          "Shortcut": "GoToAddress",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "G"
+          }
+        },
+        {
+          "Shortcut": "Find",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "F"
+          }
+        },
+        {
+          "Shortcut": "FindNext",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F3"
+          }
+        },
+        {
+          "Shortcut": "FindPrev",
+          "KeyBinding": {
+            "Modifiers": "Shift",
+            "ShortcutKey": "F3"
+          }
+        },
+        {
+          "Shortcut": "Copy",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "C"
+          }
+        },
+        {
+          "Shortcut": "Paste",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "V"
+          }
+        },
+        {
+          "Shortcut": "SelectAll",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "A"
+          }
+        },
+        {
+          "Shortcut": "Refresh",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F5"
+          }
+        },
+        {
+          "Shortcut": "MarkAsCode",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "D1"
+          }
+        },
+        {
+          "Shortcut": "MarkAsData",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "D2"
+          }
+        },
+        {
+          "Shortcut": "MarkAsUnidentified",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "D3"
+          }
+        },
+        {
+          "Shortcut": "GoToAll",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "OemComma"
+          }
+        },
+        {
+          "Shortcut": "ZoomIn",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "OemPlus"
+          }
+        },
+        {
+          "Shortcut": "ZoomOut",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "OemMinus"
+          }
+        },
+        {
+          "Shortcut": "SaveAsPng",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "S"
+          }
+        },
+        {
+          "Shortcut": "ToggleSettingsPanel",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "Q"
+          }
+        },
+        {
+          "Shortcut": "OpenAssembler",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "U"
+          }
+        },
+        {
+          "Shortcut": "OpenDebugger",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "D"
+          }
+        },
+        {
+          "Shortcut": "OpenSpcDebugger",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "F"
+          }
+        },
+        {
+          "Shortcut": "OpenSa1Debugger",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "OpenGsuDebugger",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "OpenNecDspDebugger",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "OpenCx4Debugger",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "OpenGameboyDebugger",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "OpenEventViewer",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "E"
+          }
+        },
+        {
+          "Shortcut": "OpenMemoryTools",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "M"
+          }
+        },
+        {
+          "Shortcut": "OpenProfiler",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "Y"
+          }
+        },
+        {
+          "Shortcut": "OpenScriptWindow",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "N"
+          }
+        },
+        {
+          "Shortcut": "OpenWatchWindow",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "W"
+          }
+        },
+        {
+          "Shortcut": "OpenTraceLogger",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "J"
+          }
+        },
+        {
+          "Shortcut": "OpenMemorySearch",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "I"
+          }
+        },
+        {
+          "Shortcut": "OpenRegisterViewer",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "K"
+          }
+        },
+        {
+          "Shortcut": "OpenDebugLog",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "B"
+          }
+        },
+        {
+          "Shortcut": "OpenNesHeaderEditor",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "OpenDebugSettings",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "OpenTilemapViewer",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "D1"
+          }
+        },
+        {
+          "Shortcut": "OpenTileViewer",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "D2"
+          }
+        },
+        {
+          "Shortcut": "OpenSpriteViewer",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "D3"
+          }
+        },
+        {
+          "Shortcut": "OpenPaletteViewer",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "D4"
+          }
+        },
+        {
+          "Shortcut": "Reset",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "R"
+          }
+        },
+        {
+          "Shortcut": "PowerCycle",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "T"
+          }
+        },
+        {
+          "Shortcut": "ReloadRom",
+          "KeyBinding": {
+            "Modifiers": "Control, Shift",
+            "ShortcutKey": "R"
+          }
+        },
+        {
+          "Shortcut": "ToggleBreakContinue",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "Escape"
+          }
+        },
+        {
+          "Shortcut": "Continue",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F5"
+          }
+        },
+        {
+          "Shortcut": "Break",
+          "KeyBinding": {
+            "Modifiers": "Shift",
+            "ShortcutKey": "F5"
+          }
+        },
+        {
+          "Shortcut": "StepInto",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F11"
+          }
+        },
+        {
+          "Shortcut": "StepOver",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F10"
+          }
+        },
+        {
+          "Shortcut": "StepOut",
+          "KeyBinding": {
+            "Modifiers": "Shift",
+            "ShortcutKey": "F11"
+          }
+        },
+        {
+          "Shortcut": "StepBack",
+          "KeyBinding": {
+            "Modifiers": "Shift",
+            "ShortcutKey": "F10"
+          }
+        },
+        {
+          "Shortcut": "RunCpuCycle",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "RunPpuCycle",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F6"
+          }
+        },
+        {
+          "Shortcut": "RunPpuScanline",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F7"
+          }
+        },
+        {
+          "Shortcut": "RunPpuFrame",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F8"
+          }
+        },
+        {
+          "Shortcut": "RunToIrq",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "RunToNmi",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "BreakIn",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "B"
+          }
+        },
+        {
+          "Shortcut": "BreakOn",
+          "KeyBinding": {
+            "Modifiers": "Alt",
+            "ShortcutKey": "B"
+          }
+        },
+        {
+          "Shortcut": "FindOccurrences",
+          "KeyBinding": {
+            "Modifiers": "Control, Shift",
+            "ShortcutKey": "F"
+          }
+        },
+        {
+          "Shortcut": "GoToProgramCounter",
+          "KeyBinding": {
+            "Modifiers": "Alt",
+            "ShortcutKey": "Multiply"
+          }
+        },
+        {
+          "Shortcut": "GoToCpuVector1",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "GoToCpuVector2",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "GoToCpuVector3",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "GoToCpuVector4",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "GoToCpuVector5",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "CodeWindow_ViewInMemoryViewer",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F1"
+          }
+        },
+        {
+          "Shortcut": "CodeWindow_AddToWatch",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "CodeWindow_GoToLocation",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "CodeWindow_MoveProgramCounter",
+          "KeyBinding": {
+            "Modifiers": "Control, Shift",
+            "ShortcutKey": "F10"
+          }
+        },
+        {
+          "Shortcut": "CodeWindow_RunToLocation",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "F11"
+          }
+        },
+        {
+          "Shortcut": "CodeWindow_EditSelectedCode",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "CodeWindow_EditLabel",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F2"
+          }
+        },
+        {
+          "Shortcut": "CodeWindow_EditComment",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "OemSemicolon"
+          }
+        },
+        {
+          "Shortcut": "CodeWindow_ToggleBreakpoint",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F9"
+          }
+        },
+        {
+          "Shortcut": "CodeWindow_SwitchView",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "Q"
+          }
+        },
+        {
+          "Shortcut": "CodeWindow_NavigateBack",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "OemMinus"
+          }
+        },
+        {
+          "Shortcut": "CodeWindow_NavigateForward",
+          "KeyBinding": {
+            "Modifiers": "Control, Shift",
+            "ShortcutKey": "OemMinus"
+          }
+        },
+        {
+          "Shortcut": "LabelList_Add",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "Insert"
+          }
+        },
+        {
+          "Shortcut": "LabelList_Edit",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F2"
+          }
+        },
+        {
+          "Shortcut": "LabelList_Delete",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "Delete"
+          }
+        },
+        {
+          "Shortcut": "LabelList_ToggleBreakpoint",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "LabelList_AddToWatch",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "LabelList_FindOccurrences",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "LabelList_ViewInMemoryViewer",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "LabelList_GoToLocation",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "FunctionList_EditLabel",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F2"
+          }
+        },
+        {
+          "Shortcut": "FunctionList_ToggleBreakpoint",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "FunctionList_ViewInMemoryViewer",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "FunctionList_GoToLocation",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "FunctionList_FindOccurrences",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "BreakpointList_Add",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "Insert"
+          }
+        },
+        {
+          "Shortcut": "BreakpointList_Edit",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F2"
+          }
+        },
+        {
+          "Shortcut": "BreakpointList_GoToLocation",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "BreakpointList_ViewInMemoryViewer",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "BreakpointList_Delete",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "Delete"
+          }
+        },
+        {
+          "Shortcut": "BreakpointList_EnableBreakpoint",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "BreakpointList_DisableBreakpoint",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "WatchList_Delete",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "Delete"
+          }
+        },
+        {
+          "Shortcut": "WatchList_MoveUp",
+          "KeyBinding": {
+            "Modifiers": "Alt",
+            "ShortcutKey": "Up"
+          }
+        },
+        {
+          "Shortcut": "WatchList_MoveDown",
+          "KeyBinding": {
+            "Modifiers": "Alt",
+            "ShortcutKey": "Down"
+          }
+        },
+        {
+          "Shortcut": "CallStack_EditLabel",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F2"
+          }
+        },
+        {
+          "Shortcut": "CallStack_GoToLocation",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "FindResultList_AddWatch",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "FindResultList_GoToLocation",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "FindResultList_ToggleBreakpoint",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "SaveRom",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "SaveRomAs",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "SaveEditAsIps",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "ResetCdl",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "LoadCdl",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "SaveCdl",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "ImportLabels",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "ExportLabels",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "ImportWatchEntries",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "ExportWatchEntries",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "ResetWorkspace",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "TilemapViewer_ViewInMemoryViewer",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F1"
+          }
+        },
+        {
+          "Shortcut": "TilemapViewer_EditTile",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F2"
+          }
+        },
+        {
+          "Shortcut": "TilemapViewer_ViewInTileViewer",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F3"
+          }
+        },
+        {
+          "Shortcut": "TilemapViewer_EditTilemapBreakpoint",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F4"
+          }
+        },
+        {
+          "Shortcut": "TilemapViewer_EditAttributeBreakpoint",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "SpriteViewer_ViewInMemoryViewer",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F1"
+          }
+        },
+        {
+          "Shortcut": "SpriteViewer_ViewInTileViewer",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F3"
+          }
+        },
+        {
+          "Shortcut": "SpriteViewer_EditSprite",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F2"
+          }
+        },
+        {
+          "Shortcut": "TileViewer_ViewInMemoryViewer",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F1"
+          }
+        },
+        {
+          "Shortcut": "TileViewer_EditTile",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F2"
+          }
+        },
+        {
+          "Shortcut": "PaletteViewer_EditColor",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F2"
+          }
+        },
+        {
+          "Shortcut": "PaletteViewer_ViewInMemoryViewer",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F1"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_Freeze",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "Q"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_Unfreeze",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "W"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_AddToWatch",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_EditBreakpoint",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_EditLabel",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_Import",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "O"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_Export",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "S"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_ResetAccessCounters",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_ViewInMemoryType",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_ViewInDebugger",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_GoToPrevCode",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_GoToNextCode",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_GoToPrevData",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_GoToNextData",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_GoToPrevUnknown",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_GoToNextUnknown",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_GoToPrevRead",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_GoToNextRead",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_GoToPrevWrite",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_GoToNextWrite",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_GoToPrevExec",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "MemoryViewer_GoToNextExec",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "TraceLogger_EditBreakpoint",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "None"
+          }
+        },
+        {
+          "Shortcut": "TraceLogger_EditLabel",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F2"
+          }
+        },
+        {
+          "Shortcut": "TraceLogger_ViewInDebugger",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F3"
+          }
+        },
+        {
+          "Shortcut": "TraceLogger_ViewInMemoryViewer",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F1"
+          }
+        },
+        {
+          "Shortcut": "ScriptWindow_NewScript",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "N"
+          }
+        },
+        {
+          "Shortcut": "ScriptWindow_OpenScript",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "O"
+          }
+        },
+        {
+          "Shortcut": "ScriptWindow_SaveScript",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "S"
+          }
+        },
+        {
+          "Shortcut": "ScriptWindow_RunScript",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F5"
+          }
+        },
+        {
+          "Shortcut": "ScriptWindow_StopScript",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "Escape"
+          }
+        },
+        {
+          "Shortcut": "RegisterViewer_EditBreakpoint",
+          "KeyBinding": {
+            "Modifiers": "None",
+            "ShortcutKey": "F2"
+          }
+        },
+        {
+          "Shortcut": "TileEditor_RotateLeft",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "Left"
+          }
+        },
+        {
+          "Shortcut": "TileEditor_RotateRight",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "Right"
+          }
+        },
+        {
+          "Shortcut": "TileEditor_FlipHorizontal",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "Up"
+          }
+        },
+        {
+          "Shortcut": "TileEditor_FlipVertical",
+          "KeyBinding": {
+            "Modifiers": "Control",
+            "ShortcutKey": "Down"
+          }
+        },
+        {
+          "Shortcut": "TileEditor_TranslateLeft",
+          "KeyBinding": {
+            "Modifiers": "Shift",
+            "ShortcutKey": "Left"
+          }
+        },
+        {
+          "Shortcut": "TileEditor_TranslateRight",
+          "KeyBinding": {
+            "Modifiers": "Shift",
+            "ShortcutKey": "Right"
+          }
+        },
+        {
+          "Shortcut": "TileEditor_TranslateUp",
+          "KeyBinding": {
+            "Modifiers": "Shift",
+            "ShortcutKey": "Up"
+          }
+        },
+        {
+          "Shortcut": "TileEditor_TranslateDown",
+          "KeyBinding": {
+            "Modifiers": "Shift",
+            "ShortcutKey": "Down"
+          }
+        }
+      ]
+    },
+    "TraceLogger": {
+      "AutoRefresh": true,
+      "RefreshOnBreakPause": true,
+      "ShowToolbar": true,
+      "SnesConfig": {
+        "Enabled": true,
+        "ShowRegisters": true,
+        "ShowStatusFlags": true,
+        "StatusFormat": "Text",
+        "ShowEffectiveAddresses": true,
+        "ShowMemoryValues": true,
+        "ShowByteCode": false,
+        "ShowClockCounter": false,
+        "ShowFrameCounter": false,
+        "ShowFramePosition": true,
+        "UseLabels": true,
+        "IndentCode": false,
+        "UseCustomFormat": false,
+        "Format": "",
+        "Condition": ""
+      },
+      "SpcConfig": {
+        "Enabled": true,
+        "ShowRegisters": true,
+        "ShowStatusFlags": true,
+        "StatusFormat": "Text",
+        "ShowEffectiveAddresses": true,
+        "ShowMemoryValues": true,
+        "ShowByteCode": false,
+        "ShowClockCounter": false,
+        "ShowFrameCounter": false,
+        "ShowFramePosition": true,
+        "UseLabels": true,
+        "IndentCode": false,
+        "UseCustomFormat": false,
+        "Format": "",
+        "Condition": ""
+      },
+      "NecDspConfig": {
+        "Enabled": true,
+        "ShowRegisters": true,
+        "ShowStatusFlags": true,
+        "StatusFormat": "Text",
+        "ShowEffectiveAddresses": true,
+        "ShowMemoryValues": true,
+        "ShowByteCode": false,
+        "ShowClockCounter": false,
+        "ShowFrameCounter": false,
+        "ShowFramePosition": true,
+        "UseLabels": true,
+        "IndentCode": false,
+        "UseCustomFormat": false,
+        "Format": "",
+        "Condition": ""
+      },
+      "Sa1Config": {
+        "Enabled": true,
+        "ShowRegisters": true,
+        "ShowStatusFlags": true,
+        "StatusFormat": "Text",
+        "ShowEffectiveAddresses": true,
+        "ShowMemoryValues": true,
+        "ShowByteCode": false,
+        "ShowClockCounter": false,
+        "ShowFrameCounter": false,
+        "ShowFramePosition": true,
+        "UseLabels": true,
+        "IndentCode": false,
+        "UseCustomFormat": false,
+        "Format": "",
+        "Condition": ""
+      },
+      "GsuConfig": {
+        "Enabled": true,
+        "ShowRegisters": true,
+        "ShowStatusFlags": true,
+        "StatusFormat": "Text",
+        "ShowEffectiveAddresses": true,
+        "ShowMemoryValues": true,
+        "ShowByteCode": false,
+        "ShowClockCounter": false,
+        "ShowFrameCounter": false,
+        "ShowFramePosition": true,
+        "UseLabels": true,
+        "IndentCode": false,
+        "UseCustomFormat": false,
+        "Format": "",
+        "Condition": ""
+      },
+      "Cx4Config": {
+        "Enabled": true,
+        "ShowRegisters": true,
+        "ShowStatusFlags": true,
+        "StatusFormat": "Text",
+        "ShowEffectiveAddresses": true,
+        "ShowMemoryValues": true,
+        "ShowByteCode": false,
+        "ShowClockCounter": false,
+        "ShowFrameCounter": false,
+        "ShowFramePosition": true,
+        "UseLabels": true,
+        "IndentCode": false,
+        "UseCustomFormat": false,
+        "Format": "",
+        "Condition": ""
+      },
+      "GbConfig": {
+        "Enabled": true,
+        "ShowRegisters": true,
+        "ShowStatusFlags": true,
+        "StatusFormat": "Text",
+        "ShowEffectiveAddresses": true,
+        "ShowMemoryValues": true,
+        "ShowByteCode": false,
+        "ShowClockCounter": false,
+        "ShowFrameCounter": false,
+        "ShowFramePosition": true,
+        "UseLabels": true,
+        "IndentCode": false,
+        "UseCustomFormat": false,
+        "Format": "",
+        "Condition": ""
+      },
+      "NesConfig": {
+        "Enabled": true,
+        "ShowRegisters": true,
+        "ShowStatusFlags": true,
+        "StatusFormat": "Text",
+        "ShowEffectiveAddresses": true,
+        "ShowMemoryValues": true,
+        "ShowByteCode": false,
+        "ShowClockCounter": false,
+        "ShowFrameCounter": false,
+        "ShowFramePosition": true,
+        "UseLabels": true,
+        "IndentCode": false,
+        "UseCustomFormat": false,
+        "Format": "",
+        "Condition": ""
+      },
+      "PceConfig": {
+        "Enabled": true,
+        "ShowRegisters": true,
+        "ShowStatusFlags": true,
+        "StatusFormat": "Text",
+        "ShowEffectiveAddresses": true,
+        "ShowMemoryValues": true,
+        "ShowByteCode": false,
+        "ShowClockCounter": false,
+        "ShowFrameCounter": false,
+        "ShowFramePosition": true,
+        "UseLabels": true,
+        "IndentCode": false,
+        "UseCustomFormat": false,
+        "Format": "",
+        "Condition": ""
+      },
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "HexEditor": {
+      "ShowOptionPanel": true,
+      "AutoRefresh": true,
+      "IgnoreRedundantWrites": false,
+      "BytesPerRow": 16,
+      "HighDensityTextMode": false,
+      "ShowCharacters": true,
+      "ShowTooltips": true,
+      "HideUnusedBytes": false,
+      "HideReadBytes": false,
+      "HideWrittenBytes": false,
+      "HideExecutedBytes": false,
+      "FadeSpeed": "Normal",
+      "ReadHighlight": {
+        "Highlight": true,
+        "ColorCode": 4278190335
+      },
+      "WriteHighlight": {
+        "Highlight": true,
+        "ColorCode": 4294901760
+      },
+      "ExecHighlight": {
+        "Highlight": true,
+        "ColorCode": 4278222848
+      },
+      "LabelHighlight": {
+        "Highlight": false,
+        "ColorCode": 4294948545
+      },
+      "CodeHighlight": {
+        "Highlight": false,
+        "ColorCode": 4287609999
+      },
+      "DataHighlight": {
+        "Highlight": false,
+        "ColorCode": 4289774814
+      },
+      "FrozenHighlight": {
+        "Highlight": true,
+        "ColorCode": 4294902015
+      },
+      "NesPcmDataHighlight": {
+        "Highlight": false,
+        "ColorCode": 4293977740
+      },
+      "NesDrawnChrRomHighlight": {
+        "Highlight": false,
+        "ColorCode": 4292394968
+      },
+      "HighlightBreakpoints": false,
+      "MemoryType": "SnesMemory",
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "EventViewer": {
+      "ShowSettingsPanel": true,
+      "ImageScale": 1,
+      "RefreshOnBreakPause": true,
+      "AutoRefresh": true,
+      "RefreshTiming": {
+        "RefreshOnBreakPause": true,
+        "AutoRefresh": true,
+        "RefreshScanline": 240,
+        "RefreshCycle": 0
+      },
+      "ColumnWidths": [],
+      "ShowToolbar": true,
+      "ShowListView": true,
+      "ListViewHeight": 200,
+      "SnesConfig": {
+        "PpuRegisterCgramWrites": {
+          "Visible": true,
+          "Color": 4291373353
+        },
+        "PpuRegisterVramWrites": {
+          "Visible": true,
+          "Color": 4290018010
+        },
+        "PpuRegisterOamWrites": {
+          "Visible": true,
+          "Color": 4283684676
+        },
+        "PpuRegisterMode7Writes": {
+          "Visible": true,
+          "Color": 4294867067
+        },
+        "PpuRegisterBgOptionWrites": {
+          "Visible": true,
+          "Color": 4290740256
+        },
+        "PpuRegisterBgScrollWrites": {
+          "Visible": true,
+          "Color": 4283071705
+        },
+        "PpuRegisterWindowWrites": {
+          "Visible": true,
+          "Color": 4293022199
+        },
+        "PpuRegisterOtherWrites": {
+          "Visible": true,
+          "Color": 4291943746
+        },
+        "PpuRegisterReads": {
+          "Visible": true,
+          "Color": 4278220183
+        },
+        "CpuRegisterWrites": {
+          "Visible": true,
+          "Color": 4294925918
+        },
+        "CpuRegisterReads": {
+          "Visible": true,
+          "Color": 4279802084
+        },
+        "ApuRegisterWrites": {
+          "Visible": true,
+          "Color": 4288648134
+        },
+        "ApuRegisterReads": {
+          "Visible": true,
+          "Color": 4294573740
+        },
+        "WorkRamRegisterWrites": {
+          "Visible": true,
+          "Color": 4281270056
+        },
+        "WorkRamRegisterReads": {
+          "Visible": true,
+          "Color": 4287509503
+        },
+        "Nmi": {
+          "Visible": true,
+          "Color": 4289441196
+        },
+        "Irq": {
+          "Visible": true,
+          "Color": 4291097722
+        },
+        "MarkedBreakpoints": {
+          "Visible": true,
+          "Color": 4279802084
+        },
+        "ShowPreviousFrameEvents": true,
+        "ShowDmaChannel0": true,
+        "ShowDmaChannel1": true,
+        "ShowDmaChannel2": true,
+        "ShowDmaChannel3": true,
+        "ShowDmaChannel4": true,
+        "ShowDmaChannel5": true,
+        "ShowDmaChannel6": true,
+        "ShowDmaChannel7": true
+      },
+      "NesConfig": {
+        "MapperRegisterWrites": {
+          "Visible": true,
+          "Color": 4278218382
+        },
+        "MapperRegisterReads": {
+          "Visible": true,
+          "Color": 4286096818
+        },
+        "ApuRegisterWrites": {
+          "Visible": true,
+          "Color": 4288115968
+        },
+        "ApuRegisterReads": {
+          "Visible": true,
+          "Color": 4290226811
+        },
+        "ControlRegisterWrites": {
+          "Visible": true,
+          "Color": 4278639327
+        },
+        "ControlRegisterReads": {
+          "Visible": true,
+          "Color": 4288413662
+        },
+        "Ppu2000Write": {
+          "Visible": true,
+          "Color": 4288038213
+        },
+        "Ppu2001Write": {
+          "Visible": true,
+          "Color": 4287509503
+        },
+        "Ppu2003Write": {
+          "Visible": true,
+          "Color": 4294935776
+        },
+        "Ppu2004Write": {
+          "Visible": true,
+          "Color": 4294639417
+        },
+        "Ppu2005Write": {
+          "Visible": true,
+          "Color": 4281270056
+        },
+        "Ppu2006Write": {
+          "Visible": true,
+          "Color": 4282199551
+        },
+        "Ppu2007Write": {
+          "Visible": true,
+          "Color": 4294903309
+        },
+        "Ppu2002Read": {
+          "Visible": true,
+          "Color": 4294931466
+        },
+        "Ppu2004Read": {
+          "Visible": true,
+          "Color": 4294836147
+        },
+        "Ppu2007Read": {
+          "Visible": true,
+          "Color": 4294933885
+        },
+        "DmcDmaReads": {
+          "Visible": true,
+          "Color": 4291428349
+        },
+        "OtherDmaReads": {
+          "Visible": true,
+          "Color": 4294953469
+        },
+        "SpriteZeroHit": {
+          "Visible": true,
+          "Color": 4286870464
+        },
+        "Nmi": {
+          "Visible": true,
+          "Color": 4289441196
+        },
+        "Irq": {
+          "Visible": true,
+          "Color": 4291097722
+        },
+        "MarkedBreakpoints": {
+          "Visible": true,
+          "Color": 4279802084
+        },
+        "ShowPreviousFrameEvents": true,
+        "ShowNtscBorders": false
+      },
+      "GbConfig": {
+        "PpuRegisterCgramWrites": {
+          "Visible": true,
+          "Color": 4291373353
+        },
+        "PpuRegisterVramWrites": {
+          "Visible": true,
+          "Color": 4290018010
+        },
+        "PpuRegisterOamWrites": {
+          "Visible": true,
+          "Color": 4283684676
+        },
+        "PpuRegisterBgScrollWrites": {
+          "Visible": true,
+          "Color": 4283071705
+        },
+        "PpuRegisterWindowWrites": {
+          "Visible": true,
+          "Color": 4293022199
+        },
+        "PpuRegisterOtherWrites": {
+          "Visible": true,
+          "Color": 4291943746
+        },
+        "PpuRegisterReads": {
+          "Visible": true,
+          "Color": 4278220183
+        },
+        "CpuRegisterWrites": {
+          "Visible": true,
+          "Color": 4294925918
+        },
+        "CpuRegisterReads": {
+          "Visible": true,
+          "Color": 4279802084
+        },
+        "ApuRegisterWrites": {
+          "Visible": true,
+          "Color": 4288648134
+        },
+        "ApuRegisterReads": {
+          "Visible": true,
+          "Color": 4294573740
+        },
+        "Irq": {
+          "Visible": true,
+          "Color": 4291097722
+        },
+        "MarkedBreakpoints": {
+          "Visible": true,
+          "Color": 4279802084
+        },
+        "ShowPreviousFrameEvents": true
+      },
+      "PceConfig": {
+        "VdcStatusReads": {
+          "Visible": true,
+          "Color": 4280928713
+        },
+        "VdcVramWrites": {
+          "Visible": true,
+          "Color": 4288648134
+        },
+        "VdcVramReads": {
+          "Visible": true,
+          "Color": 4280928553
+        },
+        "VdcRegSelectWrites": {
+          "Visible": true,
+          "Color": 4280887753
+        },
+        "VdcControlWrites": {
+          "Visible": true,
+          "Color": 4280927891
+        },
+        "VdcRcrWrites": {
+          "Visible": true,
+          "Color": 4291207059
+        },
+        "VdcHvConfigWrites": {
+          "Visible": true,
+          "Color": 4287874719
+        },
+        "VdcMemoryWidthWrites": {
+          "Visible": true,
+          "Color": 4291176902
+        },
+        "VdcScrollWrites": {
+          "Visible": true,
+          "Color": 4291216937
+        },
+        "VdcDmaWrites": {
+          "Visible": true,
+          "Color": 4287834569
+        },
+        "CdRomWrites": {
+          "Visible": true,
+          "Color": 4292523130
+        },
+        "CdRomReads": {
+          "Visible": true,
+          "Color": 4282667991
+        },
+        "AdpcmWrites": {
+          "Visible": true,
+          "Color": 4292311770
+        },
+        "AdpcmReads": {
+          "Visible": true,
+          "Color": 4290007876
+        },
+        "VceWrites": {
+          "Visible": true,
+          "Color": 4290018010
+        },
+        "VceReads": {
+          "Visible": true,
+          "Color": 4283684676
+        },
+        "PsgWrites": {
+          "Visible": true,
+          "Color": 4293022199
+        },
+        "PsgReads": {
+          "Visible": true,
+          "Color": 4294573740
+        },
+        "TimerWrites": {
+          "Visible": true,
+          "Color": 4291943746
+        },
+        "TimerReads": {
+          "Visible": true,
+          "Color": 4278220183
+        },
+        "IoWrites": {
+          "Visible": true,
+          "Color": 4294925918
+        },
+        "IoReads": {
+          "Visible": true,
+          "Color": 4279802084
+        },
+        "IrqControlWrites": {
+          "Visible": true,
+          "Color": 4294926045
+        },
+        "IrqControlReads": {
+          "Visible": true,
+          "Color": 4293040356
+        },
+        "Irq": {
+          "Visible": true,
+          "Color": 4291097722
+        },
+        "MarkedBreakpoints": {
+          "Visible": true,
+          "Color": 4279802084
+        },
+        "ShowPreviousFrameEvents": true
+      },
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "Debugger": {
+      "SavedDockLayout": null,
+      "ShowSettingsPanel": true,
+      "ShowByteCode": false,
+      "ShowMemoryValues": true,
+      "UseLowerCaseDisassembly": false,
+      "ShowJumpLabels": false,
+      "AddressDisplayType": "CpuAddress",
+      "DrawPartialFrame": false,
+      "Snes": {
+        "BreakOnBrk": false,
+        "BreakOnCop": false,
+        "BreakOnWdm": false,
+        "BreakOnStp": false,
+        "UseAltSpcOpNames": false,
+        "IgnoreDspReadWrites": true
+      },
+      "Nes": {
+        "BreakOnBrk": false,
+        "BreakOnUnofficialOpCode": false,
+        "BreakOnCpuCrash": false,
+        "BreakOnBusConflict": false,
+        "BreakOnDecayedOamRead": false,
+        "BreakOnPpu2000ScrollGlitch": false,
+        "BreakOnPpu2006ScrollGlitch": false,
+        "NesBreakOnExtOutputMode": true
+      },
+      "Gameboy": {
+        "GbBreakOnInvalidOamAccess": false,
+        "GbBreakOnInvalidVramAccess": false,
+        "GbBreakOnDisableLcdOutsideVblank": false,
+        "GbBreakOnInvalidOpCode": false,
+        "GbBreakOnNopLoad": false,
+        "GbBreakOnOamCorruption": false
+      },
+      "Pce": {
+        "BreakOnBrk": false,
+        "BreakOnUnofficialOpCode": false,
+        "BreakOnInvalidVramAddress": false
+      },
+      "BreakOnUninitRead": false,
+      "BreakOnOpen": true,
+      "BreakOnPowerCycleReset": true,
+      "AutoResetCdl": true,
+      "DisableDefaultLabels": false,
+      "UsePredictiveBreakpoints": true,
+      "SingleBreakpointPerInstruction": true,
+      "CopyAddresses": true,
+      "CopyByteCode": true,
+      "CopyComments": true,
+      "CopyBlockHeaders": true,
+      "KeepActiveStatementInCenter": false,
+      "ShowMemoryMappings": true,
+      "RefreshWhileRunning": false,
+      "BringToFrontOnBreak": true,
+      "BringToFrontOnPause": false,
+      "UnidentifiedBlockDisplay": "Hide",
+      "VerifiedDataDisplay": "Hide",
+      "BreakOnValue": 0,
+      "BreakInCount": 1,
+      "BreakInMetric": "CpuInstructions",
+      "ShowSelectionLength": false,
+      "WatchFormat": "Hex",
+      "CodeOpcodeColor": 4279641381,
+      "CodeLabelDefinitionColor": 4278190335,
+      "CodeImmediateColor": 4291979550,
+      "CodeAddressColor": 4287299584,
+      "CodeCommentColor": 4278222848,
+      "CodeEffectiveAddressColor": 4282811060,
+      "CodeVerifiedDataColor": 4294966508,
+      "CodeUnidentifiedDataColor": 4294963954,
+      "CodeUnexecutedCodeColor": 4292998372,
+      "CodeExecBreakpointColor": 4287375400,
+      "CodeWriteBreakpointColor": 4280842320,
+      "CodeReadBreakpointColor": 4280821960,
+      "CodeActiveStatementColor": 4294967040,
+      "CodeActiveMidInstructionColor": 4294958120,
+      "LabelListColumnWidths": [],
+      "FunctionListColumnWidths": [],
+      "BreakpointListColumnWidths": [],
+      "WatchListColumnWidths": [],
+      "CallStackColumnWidths": [],
+      "FindResultColumnWidths": [],
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "TilemapViewer": {
+      "ShowSettingsPanel": true,
+      "ImageScale": 1,
+      "ShowGrid": false,
+      "ShowScrollOverlay": false,
+      "NesShowAttributeGrid": false,
+      "NesShowAttributeByteGrid": false,
+      "NesShowTilemapGrid": false,
+      "TileHighlightMode": "None",
+      "AttributeHighlightMode": "None",
+      "DisplayMode": "Default",
+      "RefreshTiming": {
+        "RefreshOnBreakPause": true,
+        "AutoRefresh": true,
+        "RefreshScanline": 240,
+        "RefreshCycle": 0
+      },
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "TileViewer": {
+      "ShowSettingsPanel": true,
+      "ImageScale": 3,
+      "ShowTileGrid": false,
+      "SelectedPreset": "PPU",
+      "Source": "SnesMemory",
+      "Format": "Bpp4",
+      "Layout": "Normal",
+      "Filter": "None",
+      "Background": "Default",
+      "RowCount": 64,
+      "ColumnCount": 32,
+      "StartAddress": 0,
+      "UseGrayscalePalette": false,
+      "RefreshTiming": {
+        "RefreshOnBreakPause": true,
+        "AutoRefresh": true,
+        "RefreshScanline": 240,
+        "RefreshCycle": 0
+      },
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "PaletteViewer": {
+      "ShowSettingsPanel": true,
+      "ShowPaletteIndexes": false,
+      "Zoom": 3,
+      "RefreshTiming": {
+        "RefreshOnBreakPause": true,
+        "AutoRefresh": true,
+        "RefreshScanline": 240,
+        "RefreshCycle": 0
+      },
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "TileEditor": {
+      "ImageScale": 8,
+      "ShowGrid": false,
+      "Background": "Transparent",
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "RegisterViewer": {
+      "ColumnWidths": [],
+      "RefreshTiming": {
+        "RefreshOnBreakPause": true,
+        "AutoRefresh": true,
+        "RefreshScanline": 240,
+        "RefreshCycle": 0
+      },
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "SpriteViewer": {
+      "ShowSettingsPanel": true,
+      "ShowOutline": false,
+      "ShowOffscreenRegions": false,
+      "Background": "Gray",
+      "Source": "SpriteRam",
+      "SourceOffset": 0,
+      "ShowListView": false,
+      "ListViewHeight": 100,
+      "ColumnWidths": [],
+      "ImageScale": 2,
+      "RefreshTiming": {
+        "RefreshOnBreakPause": true,
+        "AutoRefresh": true,
+        "RefreshScanline": 240,
+        "RefreshCycle": 0
+      },
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "Integration": {
+      "AutoLoadDbgFiles": true,
+      "AutoLoadMlbFiles": true,
+      "AutoLoadCdlFiles": false,
+      "AutoLoadSymFiles": true,
+      "AutoLoadFnsFiles": true,
+      "ResetLabelsOnImport": true,
+      "ImportPrgRomLabels": true,
+      "ImportWorkRamLabels": true,
+      "ImportSaveRamLabels": true,
+      "ImportOtherLabels": true,
+      "ImportComments": true
+    },
+    "ScriptWindow": {
+      "RecentScripts": [],
+      "Zoom": 100,
+      "LogWindowHeight": 100,
+      "ScriptStartupBehavior": "ShowTutorial",
+      "SaveScriptBeforeRun": true,
+      "AutoStartScriptOnLoad": true,
+      "AutoReloadScriptWhenFileChanges": true,
+      "AutoRestartScriptAfterPowerCycle": true,
+      "AllowIoOsAccess": false,
+      "AllowNetworkAccess": false,
+      "ScriptTimeout": 1,
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "Profiler": {
+      "ColumnWidths": [],
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "MemorySearch": {
+      "ColumnWidths": [],
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "WatchWindow": {
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "Assembler": {
+      "Zoom": 100,
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "DebugLog": {
+      "WindowSize": {
+        "Width": 0,
+        "Height": 0
+      },
+      "WindowLocation": {
+        "X": 0,
+        "Y": 0
+      },
+      "WindowIsMaximized": false
+    },
+    "Fonts": {
+      "DisassemblyFont": {
+        "FontFamily": "Consolas",
+        "FontSize": 14
+      },
+      "MemoryViewerFont": {
+        "FontFamily": "Consolas",
+        "FontSize": 14
+      },
+      "AssemblerFont": {
+        "FontFamily": "Consolas",
+        "FontSize": 14
+      },
+      "ScriptWindowFont": {
+        "FontFamily": "Consolas",
+        "FontSize": 14
+      },
+      "OtherMonoFont": {
+        "FontFamily": "Consolas",
+        "FontSize": 12
+      }
+    }
+  },
+  "RecentFiles": {
+    "Items": [
+      {
+        "RomFile": {
+          "Path": "",
+          "InnerFile": "",
+          "InnerFileIndex": 0
+        },
+        "PatchFile": null
+      }
+    ]
+  },
+  "VideoRecord": {
+    "Codec": "CSCD",
+    "CompressionLevel": 6,
+    "RecordSystemHud": false,
+    "RecordInputHud": false
+  },
+  "MovieRecord": {
+    "RecordFrom": "CurrentState",
+    "Author": "",
+    "Description": ""
+  },
+  "HdPackBuilder": {
+    "FilterType": "Prescale",
+    "Scale": 1,
+    "ChrRamBankSize": 4096,
+    "UseLargeSprites": false,
+    "SortByUsageFrequency": true,
+    "GroupBlankTiles": true,
+    "IgnoreOverscan": false
+  },
+  "Cheats": {
+    "DisableAllCheats": false,
+    "ColumnWidths": [],
+    "WindowSize": {
+      "Width": 0,
+      "Height": 0
+    },
+    "WindowLocation": {
+      "X": 0,
+      "Y": 0
+    },
+    "WindowIsMaximized": false
+  },
+  "Netplay": {
+    "Host": "localhost",
+    "Port": 8888,
+    "Password": "",
+    "ServerPort": 8888,
+    "ServerPassword": ""
+  },
+  "HistoryViewer": {
+    "Volume": 100,
+    "WindowSize": {
+      "Width": 0,
+      "Height": 0
+    },
+    "WindowLocation": {
+      "X": 0,
+      "Y": 0
+    },
+    "WindowIsMaximized": false
+  },
+  "MainWindow": {
+    "WindowSize": {
+      "Width": 512,
+      "Height": 505
+    },
+    "WindowLocation": {
+      "X": 214,
+      "Y": 208
+    },
+    "WindowIsMaximized": false
+  },
+  "FirstRun": false,
+  "DefaultKeyMappings": "Xbox, ArrowKeys"
+}
