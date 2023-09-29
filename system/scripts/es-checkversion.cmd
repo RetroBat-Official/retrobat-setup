@@ -105,7 +105,7 @@ for %%i in %modules_list% do (
 	(set/A found_%%i=0)
 	(set/A found_total=!found_total!+1)
 	(set package_name=%%i)
-	(set modules_path=!root_path!\system\modules\rb_updater)
+	(set modules_path=!root_path!\system\tools)
 	
 	if exist "!modules_path!\!package_name!.exe" ((set/A found_%%i=!found_%%i!+1))
 	
