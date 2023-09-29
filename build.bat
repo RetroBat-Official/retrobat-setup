@@ -696,8 +696,8 @@ if exist "!hash_path!\!package_file!" (
 	)
 
 	if "!task!" == "get_packages" (
-		(echo !package_name!_sha256=!file_hash!)>> "!build_path!\hash_list.txt"
-		(echo %date% %time% [INFO] !package_name!_sha256=!file_hash! ^> "!build_path!\hash_list.txt")>> "!root_path!\%log_file%"
+REM		(echo !package_name!_sha256=!file_hash!)>> "!build_path!\hash_list.txt"
+REM		(echo %date% %time% [INFO] !package_name!_sha256=!file_hash! ^> "!build_path!\hash_list.txt")>> "!root_path!\%log_file%"
 	)
 	
 	if not "!task!" == "get_packages" (
