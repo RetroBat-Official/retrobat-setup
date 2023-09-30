@@ -86,6 +86,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./citra_canary.menu</path>
+		<name>Citra Canary(3DS)</name>
+		<desc>Run Citra Canary Emulator (Nintendo 3DS).</desc>
+		<image>./media/citra-logo.png</image>
+		<marquee>./media/citra-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Citra Team</developer>
+		<publisher>Citra Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./demul-old.menu</path>
 		<name>Demul Old DX11 Plugin (Gaelco)</name>
 		<desc>Run Demul Old DX11 Plugin (Gaelco).</desc>
