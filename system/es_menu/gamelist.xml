@@ -787,7 +787,24 @@
 		<developer>Ryujinx Team</developer>
 		<publisher>Ryujinx Team</publisher>
 		<genre>Emulator</genre>
-		<playcount>1</playcount>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
+		<path>./stella.menu</path>
+		<name>Stella (Atari 2600)</name>
+		<desc>Run Stella (Atari 2600).</desc>
+		<image>./media/stella-logo.png</image>
+		<marquee>./media/stella-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Bradford W. Mott, Stephen Anthony</developer>
+		<publisher>The Stella Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
 		<lastplayed />
 		<gametime />
 		<lang>en</lang>
