@@ -23,6 +23,7 @@ default:
   raine: HQ4X@HQ4X.fx
   duckstation: HQ4X@HQ4X.fx
   mupen64: HQ4X@HQ4X.fx
+  xemu: HQ4X@HQ4X.fx
 # per system overrides  
 n64:
   shader: anti-aliasing/fxaa
@@ -54,6 +55,7 @@ gamegear:
   shader: crt-guest-dr-venom-fast
 saturn:
   shader: anti-aliasing/fxaa
+  mednafen: HQ4X@HQ4X.fx
 # Arcade
 naomi:
   shader: anti-aliasing/fxaa
@@ -66,12 +68,16 @@ gw:
   shader: handheld/gameboy
 lynx:
   shader: crt-guest-dr-venom-fast
+  mednafen: HQ4X@HQ4X.fx
 wswan:
   shader: handheld/gameboy
+  mednafen: HQ4X@HQ4X.fx
 wswanc:
   shader: handheld/lcd-grid-v2-gbc-color
+  mednafen: HQ4X@HQ4X.fx
 psx:
   shader: anti-aliasing/fxaa
+  mednafen: HQ4X@HQ4X.fx
 ps2:
   shader: anti-aliasing/fxaa
 psp:

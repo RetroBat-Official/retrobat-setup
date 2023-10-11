@@ -22,3 +22,4 @@ default:
   raine: NTSC_RetroArch@NTSC_RetroArch.fx
   duckstation: NTSC_RetroArch@NTSC_RetroArch.fx
   mupen64: NTSC_RetroArch@NTSC_RetroArch.fx
+  xemu: NTSC_RetroArch@NTSC_RetroArch.fx

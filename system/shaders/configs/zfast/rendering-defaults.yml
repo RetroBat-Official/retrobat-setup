@@ -23,6 +23,7 @@ default:
   raine: EasymodeCRT@CRTEasymode.fx
   duckstation: EasymodeCRT@CRTEasymode.fx
   mupen64: EasymodeCRT@CRTEasymode.fx
+  xemu: EasymodeCRT@CRTEasymode.fx
 # per system overrides  
 gba:
   shader: handheld/zfast-lcd
@@ -46,7 +47,10 @@ ngpc:
   shader: handheld/zfast-lcd
 lynx:
   shader: handheld/zfast-lcd
+  mednafen: EasymodeCRT@CRTEasymode.fx
 wswan:
   shader: handheld/zfast-lcd
+  mednafen: EasymodeCRT@CRTEasymode.fx
 wswanc:
   shader: handheld/zfast-lcd
+  mednafen: EasymodeCRT@CRTEasymode.fx

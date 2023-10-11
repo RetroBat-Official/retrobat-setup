@@ -22,7 +22,15 @@ default:
   raine: GeomCRT@CRTGeom.fx
   duckstation: GeomCRT@CRTGeom.fx
   mupen64: GeomCRT@CRTGeom.fx
+  xemu: GeomCRT@CRTGeom.fx
 # per system overrides  
+3ds:
+  shader: handheld/lcd-shader
+dreamcast:
+  shader: crt/crt-hyllian-3d
+  redream: GeomCRT@CRTGeom.fx
+gamegear:
+  shader: crt-guest-dr-venom-fast
 gba:
   shader: handheld/lcd-grid-v2-gba-color
 gb:
@@ -33,36 +41,34 @@ gbc:
   shader: handheld/lcd-grid-v2-gbc-color
 gbc2players:
   shader: handheld/lcd-grid-v2-gbc-color
-nds:
-  shader: handheld/lcd-grid-v2-nds-color
-3ds:
-  shader: handheld/lcd-shader
-virtualboy:
-  shader: retro/sharp-bilinear-scanlines
 gc:
   shader: crt/crt-hyllian-3d
-wii:
-  shader: crt/crt-hyllian-3d
-dreamcast:
-  shader: crt/crt-hyllian-3d
-  redream: GeomCRT@CRTGeom.fx
-gamegear:
-  shader: crt-guest-dr-venom-fast
+lynx:
+  shader: crt/crt-guest-dr-venom-fast
+  mednafen: GeomCRT@CRTGeom.fx
+nds:
+  shader: handheld/lcd-grid-v2-nds-color
 ngp:
   shader: handheld/zfast-lcd
 ngpc:
   shader: handheld/zfast-lcd
-vectrex:
-  shader: retro/sharp-bilinear-scanlines
-lynx:
-  shader: crt/crt-guest-dr-venom-fast
-wswan:
-  shader: handheld/zfast-lcd
-wswanc:
-  shader: handheld/zfast-lcd
-psx:
-  shader: crt/crt-hyllian-3d
 ps2:
   shader: crt/crt-hyllian-3d
 psp:
   shader: handheld/lcd-grid-v2-psp-color
+psx:
+  shader: crt/crt-hyllian-3d
+  mednafen: GeomCRT@CRTGeom.fx
+vectrex:
+  shader: retro/sharp-bilinear-scanlines
+virtualboy:
+  shader: retro/sharp-bilinear-scanlines
+wii:
+  shader: crt/crt-hyllian-3d
+wswan:
+  shader: handheld/zfast-lcd
+  mednafen: GeomCRT@CRTGeom.fx
+wswanc:
+  shader: handheld/zfast-lcd
+  mednafen: GeomCRT@CRTGeom.fx
+
