@@ -522,6 +522,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./TheForceEngine.menu</path>
+		<name>The Force Engine (Dark Forces port)</name>
+		<desc>Run The Force Engine (Dark Forces port).</desc>
+		<image>./media/forceengine-logo.png</image>
+		<marquee>./media/forceengine-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Lucius DXL</developer>
+		<publisher />
+		<genre>Game Engine</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./xenia_canary.menu</path>
 		<name>Xenia Canary (XBOX 360)</name>
 		<desc>Run Xenia Canary (Xbox 360).</desc>
