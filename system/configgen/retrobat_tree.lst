@@ -8,6 +8,8 @@ bios\fba
 bios\fba\samples
 bios\fbneo
 bios\fbneo\samples
+bios\hatari
+bios\hatari\tos
 bios\hatarib
 bios\hbmame
 bios\hbmame\cfg
