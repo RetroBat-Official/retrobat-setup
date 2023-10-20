@@ -8,12 +8,16 @@ bios\fba
 bios\fba\samples
 bios\fbneo
 bios\fbneo\samples
+bios\hatari
+bios\hatari\tos
+bios\hatarib
 bios\hbmame
 bios\hbmame\cfg
 bios\hbmame\hash
 bios\hbmame\ini
 bios\hbmame\samples
 bios\HdPacks
+bios\kronos
 bios\mame
 bios\mame\artwork
 bios\mame\cfg
@@ -169,6 +173,7 @@ emulators\snes9x
 emulators\solarus
 emulators\ssf
 emulators\steam
+emulators\stella
 emulators\supermodel
 emulators\supermodel\Config
 emulators\vita3k

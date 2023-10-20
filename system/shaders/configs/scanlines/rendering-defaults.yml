@@ -22,6 +22,7 @@ default:
   raine: ScanlinesAbs@scanlines-abs.fx
   duckstation: ScanlinesAbs@scanlines-abs.fx
   mupen64: ScanlinesAbs@scanlines-abs.fx
+  xemu: ScanlinesAbs@scanlines-abs.fx
 n64:
   shader: interpolation/sharp-bilinear-scanlines
 gba:
@@ -57,9 +58,12 @@ gw:
   shader: handheld/lcd-grid-v2
 lynx:
   shader: handheld/lcd-grid-v2
+  mednafen: ScanlinesAbs@scanlines-abs.fx
 wswan:
   shader: handheld/lcd-grid-v2
+  mednafen: ScanlinesAbs@scanlines-abs.fx
 wswanc:
   shader: handheld/lcd-grid-v2
+  mednafen: ScanlinesAbs@scanlines-abs.fx
 psp:
   shader: handheld/lcd-grid-v2
