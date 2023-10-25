@@ -538,6 +538,10 @@ msgid "CONTROLLERS"
 msgstr "CONTRÔLEURS"
 
 msgctxt "game_options"
+msgid "CONTROLLER"
+msgstr "CONTRÔLEUR"
+
+msgctxt "game_options"
 msgid "The driver 'xinput' will enable features like rumble effects. Choose 'sdl' for compatibility with a wide range of controllers."
 msgstr "Sélectionner 'SDL' pour une meilleure compatibilité avec une plus large gamme de matériel."
 
@@ -1303,6 +1307,14 @@ msgstr "TYPE DE CONTRÔLEUR JOUEUR 3"
 msgctxt "game_options"
 msgid "PLAYER 4 CONTROLLER TYPE"
 msgstr "TYPE DE CONTRÔLEUR JOUEUR 4"
+
+msgctxt "game_options"
+msgid "KEYBOARD FOCUS"
+msgstr "FOCUS CLAVIER"
+
+msgctxt "game_options"
+msgid "Disable RetroArch keyboard shortcuts and give full access of Keyboard to the core. Toggle with 'Scroll Lock' key."
+msgstr "Active l'accès direct au clavier pour le core et désactive les raccourcis RetroArch. Le bouton 'ARRET DEFIL' permet de désactiver la fonction."
 
 msgctxt "game_options"
 msgid "recommended"
@@ -2182,11 +2194,43 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "ENABLE HISCORES"
-msgstr ""
+msgstr "ACTIVER HISCORES"
 
 msgctxt "game_options"
 msgid "Saves the hiscores in supported games."
-msgstr ""
+msgstr "Activer la sauvegarde et le chargement des hiscores pour les jeux supportés."
+
+msgctxt "game_options"
+msgid "READ INI FILE"
+msgstr "UTILISER LE FICHIER .INI"
+
+msgctxt "game_options"
+msgid "Read the ini file in 'bios\mame\ini' folder."
+msgstr "Charger le fichier .ini depuis le dossier 'bios\mame\ini'."msgctxt "game_options"
+
+msgctxt "game_options"
+msgid "FORCE SOFTLIST"
+msgstr "FORCER LA SOFTWARELIST"
+
+msgctxt "game_options"
+msgid "Force usage of a specific softlist, software list needs to be in 'bios\mame\hash' folder."
+msgstr "Active l'utilisation de la 'software list' Mame, le fichier .xml doit être présent dans le dossier 'bios\mame\hash'."
+
+msgctxt "game_options"
+msgid "MODEL TO EMULATE"
+msgstr "MODÈLE DE MACHINE ÉMULÉE"
+
+msgctxt "game_options"
+msgid "Type of APPLE II to emulate."
+msgstr "Type d'ordinateur AppleII à émuler."
+
+msgctxt "game_options"
+msgid "FORCE MEDIA TYPE"
+msgstr "FORCER LE TYPE DE MÉDIA"
+
+msgctxt "game_options"
+msgid "Type of ROM file"
+msgstr "Forcer le type de média inséré."
 
 msgctxt "game_options"
 msgid "CONTROLS TYPE"
@@ -2454,11 +2498,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "TOUCHSCREEN"
-msgstr ""
+msgstr "ÉCRAN TACTILE"
 
 msgctxt "game_options"
 msgid "SHOW LIGHTGUN CROSSHAIR"
-msgstr ""
+msgstr "AFFICHER CIBLE"
 
 msgctxt "game_options"
 msgid "Display crosshair if a lightgun is used."
@@ -2562,11 +2606,27 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "LIGHTGUN MODE"
-msgstr ""
+msgstr "MODE PISTOLET"
 
 msgctxt "game_options"
 msgid "4-WAYS JOYSTICK MODE"
-msgstr ""
+msgstr "MODE 4-DIRECTIONS"
+
+msgctxt "game_options"
+msgid "ENABLE PER GAME AUTO MAPPING"
+msgstr "ACTIVER LE MAPPING AUTOMATIQUE POUR LE JEU"
+
+msgctxt "game_options"
+msgid "Enable MAME option to automatically configure button layout per-game based on its internal database."
+msgstr "Assignation automatique des touches selon la base de données interne à MAME."
+
+msgctxt "game_options"
+msgid "JOYSTICK TYPE"
+msgstr "TYPE DE JOYSTICK"
+
+msgctxt "game_options"
+msgid "Type of joystick connected to the game port."
+msgstr "Définir le type de joystick connecté à la machine émulée."
 
 msgctxt "game_options"
 msgid "4WAY"
@@ -3363,6 +3423,78 @@ msgstr ""
 msgctxt "game_options"
 msgid "VIDEO FILTERS"
 msgstr "FILTRES VIDÉO"
+
+msgctxt "game_options"
+msgid "BGFX VIDEO FILTER"
+msgstr "FILTRE VIDÉO BGFX"
+
+msgctxt "game_options"
+msgid "BGFX VIDEO DRIVER"
+msgstr "PILOTE VIDÉO BGFX"
+
+msgctxt "game_options"
+msgid "Select the driver used for shaders when using bgfx video driver."
+msgstr "Sélectionner le pilote vidéo utilisé pour les filtres vidéos BGFX."
+
+msgctxt "game_options"
+msgid "Select shader to apply, only compatible with 'bgfx' video driver."
+msgstr "Choix du filtre vidéo à appliquer, uniquement compatible avec le pilote vidéo 'BGFX'."
+
+msgctxt "game_options"
+msgid "GLSL VIDEO FILTER"
+msgstr "FILTRE VIDÉO GLSL"
+
+msgctxt "game_options"
+msgid "Select shader to apply, only compatible with 'openGL' video driver."
+msgstr "Choix du filtre vidéo à appliquer, uniquement compatible avec le pilote vidéo 'OpenGL'."
+
+msgctxt "game_options"
+msgid "EFFECT"
+msgstr "EFFET VIDÉO"
+
+msgctxt "game_options"
+msgid "Select effect to apply, this has no effect when using shaders."
+msgstr "Choix d'un effet vidéo à appliquer, inactif si un filtre vidéo est utilisé."
+
+msgctxt "game_options"
+msgid "DISABLE ARTWORK"
+msgstr "DÉSACTIVER DÉCORATIONS"
+
+msgctxt "game_options"
+msgid "Disable the check of artworks in 'saves\mame\artwork' folder."
+msgstr "Désactive la recherche de décorations (artworks) dans le dossier 'saves\mame\artwork'."
+
+msgctxt "game_options"
+msgid "ADJUST BRIGHTNESS"
+msgstr "AJUSTER LA LUMINOSITÉ"
+
+msgctxt "game_options"
+msgid "Use this setting to decrease or increase brightness, not compatible with 'gdi' video driver."
+msgstr "Augmenter ou diminuer la luminosité, incompatible avec le pilote vidéo 'gdi'."
+
+msgctxt "game_options"
+msgid "ADJUST CONTRAST"
+msgstr "AJUSTER LE CONTRASTE"
+
+msgctxt "game_options"
+msgid "Use this setting to decrease or increase contrast, not compatible with 'gdi' video driver."
+msgstr "Augmenter ou diminuer le contraste, incompatible avec le pilote vidéo 'gdi'."
+
+msgctxt "game_options"
+msgid "ADJUST GAMMA"
+msgstr "AJUSTER LE GAMMA"
+
+msgctxt "game_options"
+msgid "Use this setting to decrease or increase gamma, not compatible with 'gdi' video driver."
+msgstr "Augmenter ou diminuer la courbe gamma, incompatible avec le pilote vidéo 'gdi'."
+
+msgctxt "game_options"
+msgid "DISABLE THROTTLE"
+msgstr "DÉSACTIVER LA LIMITE FPS"
+
+msgctxt "game_options"
+msgid "When throttling is disabled, MAME runs the emulation as fast as possible."
+msgstr "Supprime toutes les limites de fréquence de rendu, les jeux risquent de tourner trop vite (jeu en accéléré)."
 
 msgctxt "game_options"
 msgid "Enable blargg NTSC video filters"
