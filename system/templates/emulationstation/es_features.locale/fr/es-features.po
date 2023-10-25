@@ -122,6 +122,14 @@ msgid "GRAPHIC CARD INDEX"
 msgstr "INDEX DE LA CARTE GRAPHIQUE"
 
 msgctxt "game_options"
+msgid "GUN 1 INDEX"
+msgstr "INDEX DU 1ER PISTOLET"
+
+msgctxt "game_options"
+msgid "GUN 2 INDEX"
+msgstr "INDEX DU 2E PISTOLET"
+
+msgctxt "game_options"
 msgid "Change this only if multiple GPU are used by your system."
 msgstr "À modifier uniquement si le système utilise plusieurs cartes graphiques."
 
@@ -266,6 +274,14 @@ msgid "RUN-AHEAD FRAMES"
 msgstr "NOMBRE D'IMAGES EN AVANCE"
 
 msgctxt "game_options"
+msgid "ENABLE RUN-AHEAD"
+msgstr "ACTIVER LE SAUT D'IMAGE"
+
+msgctxt "game_options"
+msgid "Removes one frame of input lag, but doubles system requirements."
+msgstr "Saute une image pour diminuer la latence, impacte les performances."
+
+msgctxt "game_options"
 msgid "RUN-AHEAD USE SECOND INSTANCE"
 msgstr "INSTANCE SECONDAIRE POUR L'ÉXECUTION EN AVANCE"
 
@@ -300,6 +316,10 @@ msgstr "URL DU SERVICE DE TRADUCTION IA"
 msgctxt "game_options"
 msgid "PAUSE ON TRANSLATED SCREEN"
 msgstr "PAUSE SUR L'ÉCRAN TRADUIT"
+
+msgctxt "game_options"
+msgid "CONSOLE LANGUAGE"
+msgstr "LANGUE DE LA CONSOLE"
 
 msgctxt "game_options"
 msgid "Dansk"
@@ -511,7 +531,11 @@ msgstr "SDL"
 
 msgctxt "game_options"
 msgid "FORCE FULLSCREEN"
-msgstr "FORCER PLAIN ÉCRAN"
+msgstr "FORCER PLEIN ÉCRAN"
+
+msgctxt "game_options"
+msgid "FULLSCREEN"
+msgstr "PLEIN ÉCRAN"
 
 msgctxt "game_options"
 msgid "Force emulator in fullscreen even if RetroBat is windowed"
@@ -1101,6 +1125,14 @@ msgid "English"
 msgstr "Anglais"
 
 msgctxt "game_options"
+msgid "ENGLISH"
+msgstr "ANGLAIS"
+
+msgctxt "game_options"
+msgid "JAPANESE"
+msgstr "JAPONAIS"
+
+msgctxt "game_options"
 msgid "LANGUAGE"
 msgstr "LANGUE"
 
@@ -1293,6 +1325,10 @@ msgid "CONTROLLER TYPE"
 msgstr "TYPE DE CONTRÔLEUR"
 
 msgctxt "game_options"
+msgid "Classic uses right and left shoulder for strong kick and punch, modern uses right shoulder and right trigger."
+msgstr "En mode 'classique', les boutons R1 et L1 sont utilisés pour les coups forts. En mode 'modern', les boutons R1 et R2 sont utilisés."
+
+msgctxt "game_options"
 msgid "PLAYER 1 CONTROLLER TYPE"
 msgstr "TYPE DE CONTRÔLEUR JOUEUR 1"
 
@@ -1311,6 +1347,14 @@ msgstr "TYPE DE CONTRÔLEUR JOUEUR 4"
 msgctxt "game_options"
 msgid "KEYBOARD FOCUS"
 msgstr "FOCUS CLAVIER"
+
+msgctxt "game_options"
+msgid "POINTER DEVICE TYPE"
+msgstr "DISPOSITIF DE CONTRÔLE DU POINTEUR"
+
+msgctxt "game_options"
+msgid "Define the type of device used for pointer movement."
+msgstr "Définir le dispositif utilisé pour contrôler le mouvement du pointeur."
 
 msgctxt "game_options"
 msgid "Disable RetroArch keyboard shortcuts and give full access of Keyboard to the core. Toggle with 'Scroll Lock' key."
@@ -2158,11 +2202,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "AUTO ROTATE"
-msgstr ""
+msgstr "ROTATION AUTOMATIQUE"
 
 msgctxt "game_options"
 msgid "Automaticaly rotate display for vertical games."
-msgstr ""
+msgstr "Pivoter automatiquement l'affichage pour les jeux verticaux."
 
 msgctxt "game_options"
 msgid "CLOCKWISE"
@@ -2174,7 +2218,7 @@ msgstr "SENS ANTI-HORAIRE"
 
 msgctxt "game_options"
 msgid "Enables a low pass audio filter to soften the harsh sound of some games."
-msgstr ""
+msgstr "Activer un filtre passe-bas pour adoucir le son métallique de certains jeux."
 
 msgctxt "game_options"
 msgid "AUDIO FILTER LEVEL"
@@ -2418,7 +2462,27 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "OVERSCAN"
-msgstr ""
+msgstr "SURBALAYAGE"
+
+msgctxt "game_options"
+msgid "Shows extended PAL CRT lines, but these are usually blank in most games."
+msgstr "Affiche les lignes supplémentaires des écrans CRT PAL, ces zones sont vides dans la plupart des jeux."
+
+msgctxt "game_options"
+msgid "PIXEL ACCURACY"
+msgstr "PRÉCISION AU PIXEL"
+
+msgctxt "game_options"
+msgid "Use pixel-accurate emulation where available."
+msgstr "Activer l'émulation précise (pixel près) si disponible."
+
+msgctxt "game_options"
+msgid "PREFERRED REGION"
+msgstr "RÉGION PRÉFÉRÉE"
+
+msgctxt "game_options"
+msgid "FAST BOOT"
+msgstr "DÉMARRAGE RAPIDE"
 
 msgctxt "game_options"
 msgid "Display the overscan regions of the screen."
@@ -2482,7 +2546,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "START ORIGINAL BIOS"
-msgstr ""
+msgstr "DÉMARRER DEPUIS LE BIOS"
+
+msgctxt "game_options"
+msgid "DISPLAY MODE"
+msgstr "MODE D'AFFICHAGE"
+
+msgctxt "game_options"
+msgid "BORDERLESS WINDOW"
+msgstr "FENÊTRE SANS BORD"
+
+msgctxt "game_options"
+msgid "WINDOWED"
+msgstr "FENÊTRÉ"
 
 msgctxt "game_options"
 msgid "Use official BIOS and bootloader for emulated hardware."
@@ -2613,6 +2689,14 @@ msgid "4-WAYS JOYSTICK MODE"
 msgstr "MODE 4-DIRECTIONS"
 
 msgctxt "game_options"
+msgid "4 WAY JOYSTICK EMULATION"
+msgstr "MODE 4-DIRECTIONS"
+
+msgctxt "game_options"
+msgid "Improves issues with hitting diagonals when playing 4-way games."
+msgstr "Résout les problèmes liés à l'appui sur les diagonales pour les jeux utilisant 4 directions."
+
+msgctxt "game_options"
 msgid "ENABLE PER GAME AUTO MAPPING"
 msgstr "ACTIVER LE MAPPING AUTOMATIQUE POUR LE JEU"
 
@@ -2627,6 +2711,14 @@ msgstr "TYPE DE JOYSTICK"
 msgctxt "game_options"
 msgid "Type of joystick connected to the game port."
 msgstr "Définir le type de joystick connecté à la machine émulée."
+
+msgctxt "game_options"
+msgid "GUN RELOAD WITH BUTTON"
+msgstr "BOUTON POUR RECHARGER"
+
+msgctxt "game_options"
+msgid "Turn this on when using a lightgun that does not support offscreen reload."
+msgstr "Activer cette option pour les pistolets ne supportant pas les tirs hors écran."
 
 msgctxt "game_options"
 msgid "4WAY"
@@ -2650,23 +2742,35 @@ msgstr "ROTATION DE L'ÉCRAN"
 
 msgctxt "game_options"
 msgid "Skip frames to improve performance (smoothless)."
-msgstr ""
+msgstr "Sauter des images pour améliorer la performance."
 
 msgctxt "game_options"
 msgid "TATE MODE"
-msgstr ""
+msgstr "MODE TATÉ"
 
 msgctxt "game_options"
 msgid "Rotate display for vertical screen."
-msgstr ""
+msgstr "Pivoter l'affichage pour les écrans verticaux."
+
+msgctxt "game_options"
+msgid "Rotate display for vertical games, to enable for use with mega-bezels."
+msgstr "Pivoter l'affichage pour les jeux verticaux, à activer lors de l'utilisation de mega-bezels notamment."
+
+msgctxt "game_options"
+msgid "ALTERNATE"
+msgstr "ALTERNATIF"
+
+msgctxt "game_options"
+msgid "TATE ALTERNATE"
+msgstr "TATE ALTERNATIF"
 
 msgctxt "game_options"
 msgid "NEOGEO BIOS"
-msgstr ""
+msgstr "BIOS NEOGEO"
 
 msgctxt "game_options"
 msgid "Manually specify your choice of Neo Geo BIOS."
-msgstr ""
+msgstr "Forcer le bios de votre choix pour l'émulation NEO GEO."
 
 msgctxt "game_options"
 msgid "Arcade Universe BIOS 4.0"
@@ -2678,19 +2782,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "MAPPING"
-msgstr ""
+msgstr "MAPPING"
 
 msgctxt "game_options"
 msgid "Choose from Analog and Digital controller."
-msgstr ""
+msgstr "Définir le contrôleur cible, analogique ou digital."
 
 msgctxt "game_options"
 msgid "SOURCE"
-msgstr ""
+msgstr "PÉRIPHÉRIQUE SOURCE"
 
 msgctxt "game_options"
 msgid "Use input directly sends by keyboard to the core."
-msgstr ""
+msgstr "Choisir le RetroPad ou le clavier comme source d'entrée pour le core."
 
 msgctxt "game_options"
 msgid "retropad"
@@ -2698,11 +2802,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "keyboard"
-msgstr ""
+msgstr "clavier"
+
+msgctxt "game_options"
+msgid "KEYBOARD"
+msgstr "CLAVIER"
 
 msgctxt "game_options"
 msgid "simultaneous"
-msgstr ""
+msgstr "simultané"
+
+msgctxt "game_options"
+msgid "SIMULTANEOUS"
+msgstr "SIMULTANÉ"
 
 msgctxt "game_options"
 msgid "Show or crop overscan. 'Auto' will try to adapt to game, cropping empty areas."
@@ -2846,7 +2958,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "ANTI ALIASING"
-msgstr ""
+msgstr "ANTICRÉNELAGE"
+
+msgctxt "game_options"
+msgid "Set Anti Aliasing for rendered content."
+msgstr "Sélectionner la méthode d'anticrénelage."
+
+msgctxt "game_options"
+msgid "ENABLE JAGUAR GAME DRIVE"
+msgstr "ACTIVER LE GAME-DRIVE"
+
+msgctxt "game_options"
+msgid "Some games require the Game Drive extension."
+msgstr "Activer l'extension Game Drive pour les jeux compatibles."
 
 msgctxt "game_options"
 msgid "Set Multi-Sampled Anti Aliasing level for rendered content (Vulkan only)."
@@ -3310,7 +3434,99 @@ msgstr "MÉTHODE DE DÉSENTRELACEMENT"
 
 msgctxt "game_options"
 msgid "HORIZONTAL BLEND"
-msgstr "MÉTHODE DE DÉSENTRELACEMENT"
+msgstr "FILTRAGE HORIZONTAL(FLOU)"
+
+msgctxt "game_options"
+msgid "Enable horizontal blend (blur) filter."
+msgstr "Active un filtre horizontal (léger flou)."
+
+msgctxt "game_options"
+msgid "CONTROLLER PROFILE"
+msgstr "PROFIL DE CONFIGURATION DES MANETTES"
+
+msgctxt "game_options"
+msgid "BUILT-IN"
+msgstr "CONTRÔLEUR INTÉGRÉ"
+
+msgctxt "game_options"
+msgid "BUILT-IN (VERTICAL)"
+msgstr "CONTRÔLEUR INTÉGRÉ (VERTICAL)"
+
+msgctxt "game_options"
+msgid "The RetroBat team has prepared profiles for some common controllers, they are located in 'saves\mame\ctrlr' folder. CUSTOM can be used for saving one's own mappings."
+msgstr "RetroBat est fourni avec des profils 'standards' pour certains types de manettes, les valeurs 'CUSTOM' permettent de configurer des profils spécifiques utilisateur."
+
+msgctxt "game_options"
+msgid "MULTI-MOUSE"
+msgstr "MULTI-SOURIS"
+
+msgctxt "game_options"
+msgid "Turning this option on will enable MAME to report mouse movement and button presses on different mice independently."
+msgstr "Permet de gérer plusieurs souris indépendantes."
+
+msgctxt "game_options"
+msgid "DO NOT MAP LEFT STICK"
+msgstr "DÉSACTIVER LE STICK DROIT"
+
+msgctxt "game_options"
+msgid "MOUSE DEVICE"
+msgstr "PÉRIPHÉRIQUE ÉMULANT LA SOURIS"
+
+msgctxt "game_options"
+msgid "Define the connected device that emulates a mouse."
+msgstr "Définir le périphérique permettant d'émuler la souris."
+
+msgctxt "game_options"
+msgid "LIGHTGUN DEVICE"
+msgstr "PÉRIPHÉRIQUE ÉMULANT LE PISTOLET"
+
+msgctxt "game_options"
+msgid "Define the connected device that emulates a lightgun."
+msgstr "Définir le périphérique permettant d'émuler le pistolet."
+
+msgctxt "game_options"
+msgid "PADDLE DEVICE"
+msgstr "PÉRIPHÉRIQUE ÉMULANT LE PADDLE"
+
+msgctxt "game_options"
+msgid "Define the connected device that emulates a paddle."
+msgstr "Définir le périphérique permettant d'émuler le Paddle."
+
+msgctxt "game_options"
+msgid "ANALOG STICK DEVICE"
+msgstr "PÉRIPHÉRIQUE ÉMULANT LE STICK ANALOGIQUE"
+
+msgctxt "game_options"
+msgid "Define the connected device that emulates an Analog Directional Stick."
+msgstr "Définir le périphérique permettant d'émuler le Stick Analogique."
+
+msgctxt "game_options"
+msgid "POSITIONAL DEVICE"
+msgstr "PÉRIPHÉRIQUE ÉMULANT LE POSITIONAL DEVICE"
+
+msgctxt "game_options"
+msgid "Define the connected device that emulates a Positional device."
+msgstr "Définir le périphérique permettant d'émuler le Positional Device."
+
+msgctxt "game_options"
+msgid "TRACKBALL DEVICE"
+msgstr "PÉRIPHÉRIQUE ÉMULANT LE TRACKBALL"
+
+msgctxt "game_options"
+msgid "Define the connected device that emulates a Trackball."
+msgstr "Définir le périphérique permettant d'émuler le Trackball."
+
+msgctxt "game_options"
+msgid "DIAL DEVICE"
+msgstr "PÉRIPHÉRIQUE ÉMULANT LE DIAL DEVICE"
+
+msgctxt "game_options"
+msgid "Define the connected device that emulates a Dial device."
+msgstr "Définir le périphérique permettant d'émuler le 'Dial device'."
+
+msgctxt "game_options"
+msgid "Turn this off to map only the D-PAD for directions."
+msgstr "Activer uniquement le D-PAD pour les directions."
 
 msgctxt "game_options"
 msgid "Remove the n pixel borders at the top and bottom of the screen."
@@ -3390,7 +3606,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "mouse"
-msgstr ""
+msgstr "souris"
+
+msgctxt "game_options"
+msgid "MOUSE"
+msgstr "SOURIS"
 
 msgctxt "game_options"
 msgid "Use a mouse-controlled 'Lightgun' or 'Touchscreen' input."
@@ -3451,6 +3671,10 @@ msgstr "Choix du filtre vidéo à appliquer, uniquement compatible avec le pilot
 msgctxt "game_options"
 msgid "EFFECT"
 msgstr "EFFET VIDÉO"
+
+msgctxt "game_options"
+msgid "Select a BigPemu shader, only possible when RetroBat shaders is set to 'none'."
+msgstr "Utiliser un filtre vidéo fourni par l'émulateur, disponible uniquement si aucun filtre RetroBat n'est activé."
 
 msgctxt "game_options"
 msgid "Select effect to apply, this has no effect when using shaders."
@@ -4010,19 +4234,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Use the older and less compatible faster blitter"
-msgstr ""
+msgstr "Activer le 'fast blitter', certains jeux risquent de ne pas fonctionner (plus vieux et moins compatible)."
 
 msgctxt "game_options"
 msgid "Show animation when starting (Breaks some games)"
-msgstr ""
+msgstr "Afficher l'animation du bios au démarrage (incompatible avec certains jeux)."
 
 msgctxt "game_options"
 msgid "FIX DOOM RESOLUTION"
-msgstr ""
+msgstr "CORRECTIF DOOM(RÉSOLUTION)"
 
 msgctxt "game_options"
 msgid "Enable for Doom to run at its correct resolution"
-msgstr ""
+msgstr "Permet de jouer à DOOM avec la bonne résolution."
 
 msgctxt "game_options"
 msgid "Fit to the original ratio of the game."
@@ -4270,7 +4494,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "BOOT FROM BIOS"
-msgstr ""
+msgstr "DÉMARRER DEPUIS LE BIOS"
 
 msgctxt "game_options"
 msgid "Skip BIOS or not when booting a game."
@@ -4557,6 +4781,14 @@ msgid "Uses NTSC frame timings when the console is in PAL mode."
 msgstr ""
 
 msgctxt "game_options"
+msgid "PAL MODE"
+msgstr "MODE PAL"
+
+msgctxt "game_options"
+msgid "Forces console to PAL mode instead of NTSC, might feel sluggish."
+msgstr "Forcer la console en mode PAL au lieu de NTSC, peut affecter l'impression de fluidité."
+
+msgctxt "game_options"
 msgid "Smooths out the blockyness of magnified textures on 3D objects by using filtering."
 msgstr ""
 
@@ -4602,7 +4834,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "FASTBOOT"
-msgstr ""
+msgstr "CHARGEMENT RAPIDE"
 
 msgctxt "game_options"
 msgid "VIDEO DRIVER"
@@ -4720,3 +4952,46 @@ msgctxt "game_options"
 msgid "TV"
 msgstr ""
 
+msgctxt "game_options"
+msgid "DISABLE ADMIN RIGHTS"
+msgstr "DÉSACTIVER DROITS ADMIN."
+
+msgctxt "game_options"
+msgid "DISABLE FULLSCREEN"
+msgstr "DÉSACTIVER PLEIN ÉCRAN"
+
+msgctxt "game_options"
+msgid "JOYSTICK DEADZONE"
+msgstr "ZONE MORTE JOYSTICK"
+
+msgctxt "game_options"
+msgid "Use this only if the analog stick is drifting."
+msgstr "Utiliser ce paramètrage en cas de 'drift' du joystick analogique (joystick qui bouge sans appui)."
+
+msgctxt "game_options"
+msgid "This is helpful in driving games to make it less 'twitchy' when using a controller to steer."
+msgstr "Pour les jeux de conduite, permet un meilleur contrôle du volant en évitant les 'à-coup'."
+
+msgctxt "game_options"
+msgid "COLOR BLEED"
+msgstr "DÉBORDEMENT COULEURS"
+
+msgctxt "game_options"
+msgid "Blurs adjacent pixels for translucency effects."
+msgstr "'Flouter' les pixels pour corriger les effets de transparence."
+
+msgctxt "game_options"
+msgid "ACCURATE COLOR EMULATION"
+msgstr "ÉMULATION PRÉCISE DES COULEURS"
+
+msgctxt "game_options"
+msgid "Matches colors to how they look on real hardware."
+msgstr "Émuler les couleurs au plus proche du matériel original."
+
+msgctxt "game_options"
+msgid "INTERFRAME BLENDING"
+msgstr "MÉLANGE INTER-IMAGE"
+
+msgctxt "game_options"
+msgid "Emulates LCD translucency effects, but increase motion blur."
+msgstr "Émule les effets de transparence des écrans LCD, mais augmente le flou de mouvement."
