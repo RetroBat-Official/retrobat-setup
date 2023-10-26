@@ -965,6 +965,18 @@ msgid "REGION"
 msgstr "RÉGION"
 
 msgctxt "game_options"
+msgid "Force the game region frequency to avoid emulated speed issues, leave 'Auto' unless you notice speed issues."
+msgstr "Force la fréquence de la région pour corriger les problèmes de vitesse, laisser sur 'Auto' si aucun problème de vitesse."
+
+msgctxt "game_options"
+msgid "NO SPRITE LIMIT"
+msgstr "DÉSACTIVER LA LIMITE DE SPRITES"
+
+msgctxt "game_options"
+msgid "Remove the 4 sprite per line limit which can reduce or remove sprite flicker in some games."
+msgstr "Supprime la limite de 4 sprites par ligne. Permet de réduire ou supprimer le 'flickering' dans certains jeux."
+
+msgctxt "game_options"
 msgid "LCD GHOSTING FILTER"
 msgstr "FILTRE D'ECRAN LCD"
 
@@ -1325,6 +1337,10 @@ msgid "CONTROLLER TYPE"
 msgstr "TYPE DE CONTRÔLEUR"
 
 msgctxt "game_options"
+msgid "CONTROL TYPE"
+msgstr "TYPE DE CONTRÔLEUR"
+
+msgctxt "game_options"
 msgid "Classic uses right and left shoulder for strong kick and punch, modern uses right shoulder and right trigger."
 msgstr "En mode 'classique', les boutons R1 et L1 sont utilisés pour les coups forts. En mode 'modern', les boutons R1 et R2 sont utilisés."
 
@@ -1618,7 +1634,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "GAME ASPECT RATIO (CORE)"
-msgstr ""
+msgstr "RAPPORT D'ASPECT DU CORE"
 
 msgctxt "game_options"
 msgid "ORIGINAL"
@@ -1630,19 +1646,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "FORCE 60FPS"
-msgstr ""
+msgstr "FORCER 60 FPS"
 
 msgctxt "game_options"
 msgid "Use this if you encounter screen tearing or VSync issue."
-msgstr ""
+msgstr "Activer cette option en cas de 'tearing' ou de problèmes de synchronisation verticale."
 
 msgctxt "game_options"
 msgid "EMULATED GRAPHIC CHIP"
-msgstr ""
+msgstr "PROCESSEUR GRAPHIQUE ÉMULÉ"
 
 msgctxt "game_options"
 msgid "The type of emulated graphic chip."
-msgstr ""
+msgstr "Définir le type de puce graphique émulée."
 
 msgctxt "game_options"
 msgid "TANDY"
@@ -1658,11 +1674,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "SVGA MODE"
-msgstr ""
+msgstr "MODE SVGA"
 
 msgctxt "game_options"
 msgid "The SVGA variation that is being emulated."
-msgstr ""
+msgstr "Définir le type de module SVGA émulé."
 
 msgctxt "game_options"
 msgid "S3 TRIO64"
@@ -1690,99 +1706,99 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "CGA MODE"
-msgstr ""
+msgstr "MODE CGA"
 
 msgctxt "game_options"
 msgid "The CGA variation that is being emulated."
-msgstr ""
+msgstr "Définir le type de module CGA émulé."
 
 msgctxt "game_options"
 msgid "EARLY MODEL - COMPOSITE MODE AUTO"
-msgstr ""
+msgstr "ANCIEN MODÈLE - MODE COMPOSITE AUTO"
 
 msgctxt "game_options"
 msgid "EARLY MODEL - COMPOSITE MODE ON"
-msgstr ""
+msgstr "ANCIEN MODÈLE - MODE COMPOSITE ACTIVÉ"
 
 msgctxt "game_options"
 msgid "EARLY MODEL - COMPOSITE MODE OFF"
-msgstr ""
+msgstr "ANCIEN MODÈLE - MODE COMPOSITE DÉSACTIVÉ"
 
 msgctxt "game_options"
 msgid "LATE MODEL - COMPOSITE MODE AUTO"
-msgstr ""
+msgstr "MODÈLE RÉCENT - MODE COMPOSITE AUTO"
 
 msgctxt "game_options"
 msgid "LATE MODEL - COMPOSITE MODE ON"
-msgstr ""
+msgstr "MODÈLE RÉCENT - MODE COMPOSITE ACTIVÉ"
 
 msgctxt "game_options"
 msgid "LATE MODEL - COMPOSITE MODE OFF"
-msgstr ""
+msgstr "MODÈLE RÉCENT - MODE COMPOSITE DÉSACTIVÉ"
 
 msgctxt "game_options"
 msgid "HERCULES COLOR MODE"
-msgstr ""
+msgstr "MODE COULEUR HERCULES"
 
 msgctxt "game_options"
 msgid "The color scheme for Hercules emulation."
-msgstr ""
+msgstr "Définir la palette de couleur pour l'émulation Hercules."
 
 msgctxt "game_options"
 msgid "BLACK AND WHITE"
-msgstr ""
+msgstr "NOIR ET BLANC"
 
 msgctxt "game_options"
 msgid "BLACK AND AMBER"
-msgstr ""
+msgstr "NOIR ET AMBRE"
 
 msgctxt "game_options"
 msgid "BLACK AND GREEN"
-msgstr ""
+msgstr "NOIR ET VERT"
 
 msgctxt "game_options"
 msgid "3DFX VOODOO ACCELERATOR"
-msgstr ""
+msgstr "ACCÉLÉRATEUR 3DFX VOODOO"
 
 msgctxt "game_options"
 msgid "Enable certain games with support for the 3Dfx Voodoo accelerator."
-msgstr ""
+msgstr "Active l'accélération 3Dfx Voodoo pour les jeux compatibles."
 
 msgctxt "game_options"
 msgid "4MB Memory"
-msgstr ""
+msgstr "Mémoire 4MB"
 
 msgctxt "game_options"
 msgid "12MB Memory"
-msgstr ""
+msgstr "Mémoire 12MB"
 
 msgctxt "game_options"
 msgid "3DFX VOODOO PERFORMANCE"
-msgstr ""
+msgstr "PERFORMANCE 3DFX VOODOO"
 
 msgctxt "game_options"
 msgid "Tweak the behavior of the 3Dfx Voodoo emulation."
-msgstr ""
+msgstr "Ajuste la performance de l'émulation 3Dfx Voodoo."
 
 msgctxt "game_options"
 msgid "Multi-Threading"
-msgstr ""
+msgstr "Multi-Tâches"
 
 msgctxt "game_options"
 msgid "Multi-Threading (Low Quality)"
-msgstr ""
+msgstr "Multi-Tâches (Basse qualité)"
 
 msgctxt "game_options"
 msgid "Low Quality"
-msgstr ""
+msgstr "Basse-qualité"
 
 msgctxt "game_options"
 msgid "SOUNDBLASTER TYPE"
-msgstr ""
+msgstr "MODÈLE DE SOUNDBLASTER"
 
 msgctxt "game_options"
 msgid "Type of emulated SoundBlaster card."
-msgstr ""
+msgstr "Définir le modèle de la carte son SOundBlaster émulée."
 
 msgctxt "game_options"
 msgid "SOUNDBLASTER 16"
@@ -1810,11 +1826,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "SOUNDBLASTER SETTINGS"
-msgstr ""
+msgstr "PARAMÈTRES SOUNDBLASTER"
 
 msgctxt "game_options"
 msgid "Set the adress, interrupt, low 8 bit and high 16 bit DMA."
-msgstr ""
+msgstr "Définir les paramètres détaillées de la carte soundblaster (IRQ, address, DMA...)."
 
 msgctxt "game_options"
 msgid "Port 220 IRQ 7 DMA 1/5"
@@ -1858,11 +1874,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "SOUNDBLASTER ADLIB PROVIDER"
-msgstr ""
+msgstr "SOUNDBLASTER - FOURNISSEUR ADLIB"
 
 msgctxt "game_options"
 msgid "Provider for the Adlib emulation. DEFAULT has good quality and low perf requirements."
-msgstr ""
+msgstr "Définir le fournisseur Adlib. La valeur DEFAULT offre un bon compromis performance/qualité."
 
 msgctxt "game_options"
 msgid "HIGH QUALITY NUKED OPL3"
@@ -1870,11 +1886,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "SOUNDBLASTER FM MODE"
-msgstr ""
+msgstr "MODE FM SOUNDBLASTER"
 
 msgctxt "game_options"
 msgid "The SoundBlaster emulated FM synth mode."
-msgstr ""
+msgstr "Définir la méthode d'émulation du module FM."
 
 msgctxt "game_options"
 msgid "CMS"
@@ -1898,11 +1914,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "MIDI OUTPUT"
-msgstr ""
+msgstr "SORTIE MIDI"
 
 msgctxt "game_options"
 msgid "Select the soundfont file or interface used for MIDI output."
-msgstr ""
+msgstr "Définir l'interface utilisée par la sortie MIDI."
 
 msgctxt "game_options"
 msgid "ROLAND_SC-55"
@@ -1918,35 +1934,35 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Enable GUS emulation. Settings are fixed to port 240, IRQ 5, DMA 3."
-msgstr ""
+msgstr "Active l'émulation GUS. Les paramètres sont 'port 240, IRQ 5, DMA 3'."
 
 msgctxt "game_options"
 msgid "LOAD DOSBOX.CONF"
-msgstr ""
+msgstr "CHARGER DOSBOX.CONF"
 
 msgctxt "game_options"
 msgid "Try to use legacy dosbox.conf config file instead of core options."
-msgstr ""
+msgstr "Tente de charger le fichier dosbox.conf plutôt que les options du core libretro."
 
 msgctxt "game_options"
 msgid "dosbox.conf (in zip or folder)"
-msgstr ""
+msgstr "dosbox.conf (dans zip ou dossier)"
 
 msgctxt "game_options"
 msgid "*game_name*.conf (next to zip or folder)"
-msgstr ""
+msgstr "*nom_du_jeu*.conf (à côté du zip ou du dossier)"
 
 msgctxt "game_options"
 msgid "CPU CORE"
-msgstr ""
+msgstr "PROCESSEUR"
 
 msgctxt "game_options"
 msgid "Emulation method used. AUTO for mixed features with max performance and compatibility."
-msgstr ""
+msgstr "Type d'émulation du coeur du processeur. La valeur 'AUTO' offre le meilleur mix performance/compatibilité."
 
 msgctxt "game_options"
 msgid "386 (SLOW)"
-msgstr ""
+msgstr "386 (LENT)"
 
 msgctxt "game_options"
 msgid "386 (PREFETCH)"
@@ -1954,19 +1970,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "486 (SLOW)"
-msgstr ""
+msgstr "486 (LENT)"
 
 msgctxt "game_options"
 msgid "PENTIUM (SLOW)"
-msgstr ""
+msgstr "PENTIUM (LENT)"
 
 msgctxt "game_options"
 msgid "CPU CYCLES"
-msgstr ""
+msgstr "FRÉQUENCE CPU (CYCLES)"
 
 msgctxt "game_options"
 msgid "The raw performance to emulate."
-msgstr ""
+msgstr "Définir la performance du CPU émulé."
 
 msgctxt "game_options"
 msgid "MAX"
@@ -2018,7 +2034,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Emulated CPU type. AUTO is the fastest choice."
-msgstr ""
+msgstr "Type de processeur émulé. Laisser sur AUTO pour la meilleure performance."
 
 msgctxt "game_options"
 msgid "DYNAMIC RECOMPILATION"
@@ -2034,35 +2050,31 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "HIGH MEMORY"
-msgstr ""
+msgstr "HDRAM"
 
 msgctxt "game_options"
 msgid "The amount of high memory size the emulated machine has."
-msgstr ""
+msgstr "Définir la quantité de mémoire haute disponible sur la machine émulée."
 
 msgctxt "game_options"
 msgid "DISCARD DISK MODIFICATION"
-msgstr ""
+msgstr "NE PAS ENREGISTRER LES MODIFICATIONS DU LECTEUR"
 
 msgctxt "game_options"
 msgid "Modifications to the C: drive will not be saved permanently."
-msgstr ""
+msgstr "Les modifications apportées au disque C: ne seront pas sauvegardées."
 
 msgctxt "game_options"
 msgid "FORCE NORMAL CORE IN OS"
-msgstr ""
+msgstr "FORCER LE TYPE DE PROCESSEUR NORMAL DANS L'OS"
 
 msgctxt "game_options"
 msgid "The normal core can be more stable when running installed OS."
-msgstr ""
+msgstr "Le processeur 'normal' peut s'avérer plus stable pour utiliser le système d'installation émulé."
 
 msgctxt "game_options"
 msgid "CORE PERFORMANCE STATISTICS"
-msgstr ""
-
-msgctxt "game_options"
-msgid "Set the behavior of the start menu when autostarted game exit."
-msgstr ""
+msgstr "AFFICHER LES STATISTIQUES"
 
 msgctxt "game_options"
 msgid "SIMPLE"
@@ -2070,63 +2082,83 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "DETAILED"
-msgstr ""
+msgstr "DÉTAILLÉ"
 
 msgctxt "game_options"
 msgid "ON-SCREEN KEYBOARD"
-msgstr ""
+msgstr "CLAVIER VIRTUEL"
 
 msgctxt "game_options"
 msgid "Enable the On Screen Keyboard feature which can be activated with the L3 button."
-msgstr ""
+msgstr "Active la fonctionnalité 'clavier virtuel', appuyer sur L3 pour afficher le clavier."
 
 msgctxt "game_options"
 msgid "DOSBOX START MENU"
-msgstr ""
+msgstr "MENU DE DÉMARRAGE DOSBOX"
+
+msgctxt "game_options"
+msgid "Set the behavior of the start menu when autostarted game exit."
+msgstr "Définir le comportement du menu de démarrage DosBox."
 
 msgctxt "game_options"
 msgid "SHUTDOWN CORE IMMEDIATELY"
-msgstr ""
+msgstr "FERMER IMMÉDIATEMENT"
 
 msgctxt "game_options"
 msgid "SHUTDOWN CORE AFTER 3 SECS"
-msgstr ""
+msgstr "FERMER APRÈS 3 SECONDES"
 
 msgctxt "game_options"
 msgid "SHUTDOWN CORE AFTER 5 SECS"
-msgstr ""
+msgstr "FERMER APRÈS 5 SECONDES"
 
 msgctxt "game_options"
 msgid "IGNORE AUTOSTART"
-msgstr ""
+msgstr "NE PAS DÉMARRER AUTOMATIQUEMENT"
 
 msgctxt "game_options"
 msgid "KEYBOARD LAYOUT"
-msgstr ""
+msgstr "DISPOSITION CLAVIER"
 
 msgctxt "game_options"
 msgid "Select the keyboard layout."
-msgstr ""
+msgstr "Choisir le type de clavier (disposition)."
+
+msgctxt "game_options"
+msgid "GAMEPAD AUTO MAPPING"
+msgstr "MAPPING AUTOMATIQUE DE LA MANETTE"
+
+msgctxt "game_options"
+msgid "Try to detect the game and apply a controller mapping."
+msgstr "Activer pour laisser DosBox tenter de configurer automatiquement la manette."
+
+msgctxt "game_options"
+msgid "BIND UNUSED BUTTONS"
+msgstr "ASSIGNER LES BOUTONS INUTILISÉS"
+
+msgctxt "game_options"
+msgid "Bind all unused buttons to keyboard keys."
+msgstr "Assigner tous les boutons inutilisés à des touches du clavier."
 
 msgctxt "game_options"
 msgid "BRAZIL"
-msgstr ""
+msgstr "BRÉSIL"
 
 msgctxt "game_options"
 msgid "CROATIA"
-msgstr ""
+msgstr "CROATIE"
 
 msgctxt "game_options"
 msgid "CZECH REPUBLIC"
-msgstr ""
+msgstr "RÉPUBLIQUE TCHÈQUE"
 
 msgctxt "game_options"
 msgid "DENMARK"
-msgstr ""
+msgstr "DANEMARK"
 
 msgctxt "game_options"
 msgid "FINLAND"
-msgstr ""
+msgstr "FINLANDE"
 
 msgctxt "game_options"
 msgid "FRANCE"
@@ -2134,71 +2166,71 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "GERMANY"
-msgstr ""
+msgstr "ALLEMAGNE"
 
 msgctxt "game_options"
 msgid "GREECE"
-msgstr ""
+msgstr "GRÈCE"
 
 msgctxt "game_options"
 msgid "HUNGARY"
-msgstr ""
+msgstr "HONGRIE"
 
 msgctxt "game_options"
 msgid "ICELAND"
-msgstr ""
+msgstr "ISLANDE"
 
 msgctxt "game_options"
 msgid "ITALY"
-msgstr ""
+msgstr "ITALIE"
 
 msgctxt "game_options"
 msgid "NETHERLAND"
-msgstr ""
+msgstr "PAYS-BAS"
 
 msgctxt "game_options"
 msgid "NORWAY"
-msgstr ""
+msgstr "NORVÈGE"
 
 msgctxt "game_options"
 msgid "POLAND"
-msgstr ""
+msgstr "POLOGNE"
 
 msgctxt "game_options"
 msgid "PORTUGAL"
-msgstr ""
+msgstr "PORTUGAL"
 
 msgctxt "game_options"
 msgid "RUSSIA"
-msgstr ""
+msgstr "RUSSIE"
 
 msgctxt "game_options"
 msgid "SLOVAKIA"
-msgstr ""
+msgstr "SLOVAQUIE"
 
 msgctxt "game_options"
 msgid "SLOVENIA"
-msgstr ""
+msgstr "SLOVÉNIE"
 
 msgctxt "game_options"
 msgid "SPAIN"
-msgstr ""
+msgstr "ESPAGNE"
 
 msgctxt "game_options"
 msgid "SWEDEN"
-msgstr ""
+msgstr "SUÈDE"
 
 msgctxt "game_options"
 msgid "SWITZELAND (DE)"
-msgstr ""
+msgstr "SUISSE (DE)"
 
 msgctxt "game_options"
 msgid "SWITZELAND (FR)"
-msgstr ""
+msgstr "SUISSE (FR)"
 
 msgctxt "game_options"
 msgid "TURKEY"
-msgstr ""
+msgstr "TURQUIE"
 
 msgctxt "game_options"
 msgid "AUTO ROTATE"
@@ -2230,11 +2262,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "CPU OVERCLOCK"
-msgstr ""
+msgstr "OVERCLOCKING CPU"
 
 msgctxt "game_options"
 msgid "Force the frequency of the emulated CPU. Can reduce slowdown, but may cause glitches."
-msgstr ""
+msgstr "Force la fréquence du processeur émulé. Peut réduire les ralentissements, mais peut aussi rendre le système instable."
 
 msgctxt "game_options"
 msgid "ENABLE HISCORES"
@@ -2282,11 +2314,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Set default controler mapping."
-msgstr ""
+msgstr "Définir le schéma de mapping du contrôleur."
 
 msgctxt "game_options"
 msgid "gamepad"
-msgstr ""
+msgstr "manette"
 
 msgctxt "game_options"
 msgid "arcade"
@@ -2294,19 +2326,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "PLAYER 1 CONTROLS"
-msgstr ""
+msgstr "TYPE DE CONTRÔLES JOUEUR 1"
 
 msgctxt "game_options"
 msgid "Set default controler mapping for player 1."
-msgstr ""
+msgstr "Définir le schéma de mapping du contrôleur pour le joueur 1."
 
 msgctxt "game_options"
 msgid "PLAYER 1 LATERAL BUTTONS"
-msgstr ""
+msgstr "BOUTONS LATÉRAUX JOUEUR 1"
 
 msgctxt "game_options"
 msgid "Remap the lateral buttons scheme for player 1."
-msgstr ""
+msgstr "Définir les boutons latéraux à utiliser pour le joueur 1."
 
 msgctxt "game_options"
 msgid "L1/R1"
@@ -2318,19 +2350,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "PLAYER 2 CONTROLS"
-msgstr ""
+msgstr "TYPE DE CONTRÔLES JOUEUR 2"
 
 msgctxt "game_options"
 msgid "Set default controler mapping for player 2."
-msgstr ""
+msgstr "Définir le schéma de mapping du contrôleur pour le joueur 2."
 
 msgctxt "game_options"
 msgid "PLAYER 2 LATERAL BUTTONS"
-msgstr ""
+msgstr "BOUTONS LATÉRAUX JOUEUR 2"
 
 msgctxt "game_options"
 msgid "Remap the lateral buttons scheme for player 2."
-msgstr ""
+msgstr "Définir les boutons latéraux à utiliser pour le joueur 1."
 
 msgctxt "game_options"
 msgid "EMULATED VIDEO SIGNAL"
@@ -2581,8 +2613,12 @@ msgid "SHOW LIGHTGUN CROSSHAIR"
 msgstr "AFFICHER CIBLE"
 
 msgctxt "game_options"
+msgid "SHOW CROSSHAIR"
+msgstr "AFFICHER CIBLE"
+
+msgctxt "game_options"
 msgid "Display crosshair if a lightgun is used."
-msgstr ""
+msgstr "Affiche la cible pour les pistolets."
 
 msgctxt "game_options"
 msgid "Mimics the display characteristics of the Game Gear and Nomad LCD panels."
@@ -2717,7 +2753,15 @@ msgid "GUN RELOAD WITH BUTTON"
 msgstr "BOUTON POUR RECHARGER"
 
 msgctxt "game_options"
+msgid "RELOAD WITH BUTTON"
+msgstr "BOUTON POUR RECHARGER"
+
+msgctxt "game_options"
 msgid "Turn this on when using a lightgun that does not support offscreen reload."
+msgstr "Activer cette option pour les pistolets ne supportant pas les tirs hors écran."
+
+msgctxt "game_options"
+msgid "Use button to reload instead of offscreen-shot for guns that do not support offscreen shot."
 msgstr "Activer cette option pour les pistolets ne supportant pas les tirs hors écran."
 
 msgctxt "game_options"
