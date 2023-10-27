@@ -214,6 +214,46 @@ msgid "SWAP INTERVAL"
 msgstr "INTERVALLE D'ÉCHANGE"
 
 msgctxt "game_options"
+msgid "Select between the different controller layouts."
+msgstr "Choix de la disposition des boutons, notamment les boutons c-stick."
+
+msgctxt "game_options"
+msgid "Choose the extension attached to the controller."
+msgstr "Définir l'extension attachée au contrôleur."
+
+msgctxt "game_options"
+msgid "CONTROLLER LAYOUT P1"
+msgstr "DISPOSITION DES BOUTONS JOUEUR 1"
+
+msgctxt "game_options"
+msgid "CONTROLLER LAYOUT P2"
+msgstr "DISPOSITION DES BOUTONS JOUEUR 2"
+
+msgctxt "game_options"
+msgid "CONTROLLER LAYOUT P3"
+msgstr "DISPOSITION DES BOUTONS JOUEUR 3"
+
+msgctxt "game_options"
+msgid "CONTROLLER LAYOUT P4"
+msgstr "DISPOSITION DES BOUTONS JOUEUR 4"
+
+msgctxt "game_options"
+msgid "P1 CONTROLLER EXTENSION"
+msgstr "EXTENSION MANETTE 1"
+
+msgctxt "game_options"
+msgid "P2 CONTROLLER EXTENSION"
+msgstr "EXTENSION MANETTE 2"
+
+msgctxt "game_options"
+msgid "P3 CONTROLLER EXTENSION"
+msgstr "EXTENSION JOUEUR 3"
+
+msgctxt "game_options"
+msgid "P4 CONTROLLER EXTENSION"
+msgstr "EXTENSION MANETTE 4"
+
+msgctxt "game_options"
 msgid "Set this to effectively halve monitor refresh rate."
 msgstr "Réduit efficacement la fréquence de rafraîchissement par le facteur spécifié pour permettre une meilleure cadence d'images lors de l'exécution de contenu à une fréquence différente de celle du moniteur."
 
