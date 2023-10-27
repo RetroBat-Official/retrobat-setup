@@ -54,7 +54,7 @@ msgid "UPSCALE FILTER"
 msgstr "FILTRE DE MISE À L'ÉCHELLE"
 
 msgctxt "game_options"
-msgid "Specify filter to use for upscaling"
+msgid "Specify filter to use for upscaling."
 msgstr "Spécifier le filtre à utiliser pour la mise à l'échelle."
 
 msgctxt "game_options"
@@ -534,6 +534,18 @@ msgid "wasapi"
 msgstr ""
 
 msgctxt "game_options"
+msgid "WASAPI (fast)"
+msgstr "WASAPI (rapide)"
+
+msgctxt "game_options"
+msgid "WASAPI (SHARED)"
+msgstr "WASAPI (partagé)"
+
+msgctxt "game_options"
+msgid "WASAPI (EXCLUSIVE)"
+msgstr "WASAPI (exclusif)"
+
+msgctxt "game_options"
 msgid "SDL"
 msgstr "SDL"
 
@@ -846,7 +858,7 @@ msgstr "Bilinéaire"
 
 msgctxt "game_options"
 msgid "Zooms in to hide black borders. Borders are different per game."
-msgstr "Agrandir pour masquer les bordures noires. Les bordures sont différentes par match."
+msgstr "Effectue un zoom pour masquer les bordures noires."
 
 msgctxt "game_options"
 msgid "Digital Controller"
@@ -1009,8 +1021,16 @@ msgid "NO SPRITE LIMIT"
 msgstr "DÉSACTIVER LA LIMITE DE SPRITES"
 
 msgctxt "game_options"
-msgid "Remove the 4 sprite per line limit which can reduce or remove sprite flicker in some games."
+msgid "Remove the 4 sprites per line limit which can reduce or remove sprite flicker in some games."
 msgstr "Supprime la limite de 4 sprites par ligne. Permet de réduire ou supprimer le 'flickering' dans certains jeux."
+
+msgctxt "game_options"
+msgid "Remove the sprites per line limit which can reduce or remove sprite flicker in some games."
+msgstr "Supprime la limite de sprites par ligne. Permet de réduire ou supprimer le 'flickering' dans certains jeux."
+
+msgctxt "game_options"
+msgid "Remove the 8 sprites per line limit which can reduce or remove sprite flicker in some games."
+msgstr "Supprime la limite de 8 sprites par ligne. Permet de réduire ou supprimer le 'flickering' dans certains jeux."
 
 msgctxt "game_options"
 msgid "LCD GHOSTING FILTER"
@@ -1509,6 +1529,10 @@ msgid "LIGHTGUN"
 msgstr ""
 
 msgctxt "game_options"
+msgid "ENABLE GUN"
+msgstr "ACTIVER LES PISTOLETS"
+
+msgctxt "game_options"
 msgid "GUNS"
 msgstr "PISTOLETS"
 
@@ -1787,6 +1811,14 @@ msgstr "RAPPORT D'ASPECT DU CORE"
 msgctxt "game_options"
 msgid "FORCE PAL 60HZ"
 msgstr "FORCER PAL 60HZ"
+
+msgctxt "game_options"
+msgid "FORCE PAL 50HZ"
+msgstr "FORCER PAL 50HZ"
+
+msgctxt "game_options"
+msgid "Enable PAL(50Hz) NES emulation."
+msgstr "Force l'émulation de la NES PAL (50Hz)"
 
 msgctxt "game_options"
 msgid "ORIGINAL"
@@ -2522,7 +2554,11 @@ msgstr "Définir les boutons latéraux à utiliser pour le joueur 1."
 
 msgctxt "game_options"
 msgid "EMULATED VIDEO SIGNAL"
-msgstr ""
+msgstr "SIGNAL VIDÉO ÉMULÉ"
+
+msgctxt "game_options"
+msgid "BLARGG VIDEO FILTER"
+msgstr "FILTRE VIDÉO BLARGG"
 
 msgctxt "game_options"
 msgid "Apply a video filter to mimic various signals."
@@ -2531,6 +2567,14 @@ msgstr "Applique un filtre vidéo imitant le type de signal sélectionné."
 msgctxt "game_options"
 msgid "POWERVR2 POST-PROCESSING FILTER"
 msgstr "FILTRE POST-TRAITEMENT POWERVR2"
+
+msgctxt "game_options"
+msgid "NAMCO 106 SOUND EMULATION"
+msgstr "ÉMULATION NAMCO 106"
+
+msgctxt "game_options"
+msgid "Enable less-accurate, but better sounding, Namco 106(mapper 19) sound emulation."
+msgstr "Activer l'émulation de la puce sonore Namco 106 (mapper 19), moins précise mais de meilleure qualité."
 
 msgctxt "game_options"
 msgid "Simulate effects specific to the PowerVR2 GPU and analog video signals."
@@ -2574,6 +2618,10 @@ msgstr "Améliore la précision graphique en utilisant le niveau de mipmap appro
 
 msgctxt "game_options"
 msgid "EMULATED VIDEO FORMAT"
+msgstr "FORMAT VIDÉO ÉMULÉ"
+
+msgctxt "game_options"
+msgid "VIDEO FORMAT"
 msgstr "FORMAT VIDÉO ÉMULÉ"
 
 msgctxt "game_options"
@@ -2830,7 +2878,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Use a mouse-controlled Lightgun or Touchscreen input."
-msgstr ""
+msgstr "Utiliser la souris ou un touchscreen pour contrôler le lightgun."
 
 msgctxt "game_options"
 msgid "TOUCHSCREEN"
@@ -3381,12 +3429,36 @@ msgid "Can reduce input latency, but will inscrease CPU requirements."
 msgstr ""
 
 msgctxt "game_options"
+msgid "USE MULTITAP"
+msgstr "ADAPTATEUR MULTIJOUEURS"
+
+msgctxt "game_options"
 msgid "6 PLAYERS ADAPTOR"
-msgstr ""
+msgstr "ADAPTATEUR 6 JOUEURS"
 
 msgctxt "game_options"
 msgid "Enable multitap in port 1."
-msgstr ""
+msgstr "Simule la présence d'un adaptateur multijoueurs dans le port 1."
+
+msgctxt "game_options"
+msgid "Multitap must be set if more than 2 players intend to play."
+msgstr "Activer cette option pour jouer à plus de 2 joueurs."
+
+msgctxt "game_options"
+msgid "TURBO MODE"
+msgstr "MODE TURBO"
+
+msgctxt "game_options"
+msgid "TURBO ACTIVATION BUTTON"
+msgstr "BOUTON POUR ACTIVER LE MODE TURBO"
+
+msgctxt "game_options"
+msgid "Define which button activates the turbo mode, this is not the button that is made turbo."
+msgstr "Choisir le bouton permettant d'activer la fonctionnalité 'turbo', ne pas confondre avec le bouton cible pour lequel la fonction est activée."
+
+msgctxt "game_options"
+msgid "Use this setting to define a default target turbo button."
+msgstr "Choisir le bouton pour lequel la fonctionnalité 'turbo' est activée."
 
 msgctxt "game_options"
 msgid "BISQWIT (2X)"
@@ -3406,7 +3478,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "If Custom is selected it will use MesenPalette.pal as custom palette in bios directory."
-msgstr ""
+msgstr "L'option 'custom' utilise le fichier 'MesenPalette.pal' se situant dans le dossier '\bios'"
 
 msgctxt "game_options"
 msgid "COMPOSITE DIRECT"
@@ -3433,8 +3505,24 @@ msgid "RAW"
 msgstr ""
 
 msgctxt "game_options"
+msgid "CROP SIZE"
+msgstr "TAILLE DE LA ZONE ROGNÉE"
+
+msgctxt "game_options"
+msgid "Define the number of pixels to crop (20px and 24px only available for bottom/top)."
+msgstr "Définir le nombre de pixels à rogner (les valeurs 20px et 24px ne sont disponibles que pour le haut et le bas)."
+
+msgctxt "game_options"
+msgid "CROP AREA"
+msgstr "ZONE ROGNÉE"
+
+msgctxt "game_options"
+msgid "Define the area where to crop pixels around edge of screen."
+msgstr "Définir la zone de l'écran à rogner."
+
+msgctxt "game_options"
 msgid "Replaces game's sprites by HD pack available in HdPacks bios directory."
-msgstr ""
+msgstr "Remplace les textures du jeu par un pack de texture situé dans le dossier 'HdPacks' du dossier 'bios'."
 
 msgctxt "game_options"
 msgid "FORCE MONO"
@@ -3450,15 +3538,23 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "SHIFT A/B/X/Y CLOCKWISE"
-msgstr ""
+msgstr "TOURNER LES BOUTONS A/B/X/Y (SENS HORAIRE)"
+
+msgctxt "game_options"
+msgid "ROTATE BUTTONS CLOCKWISE"
+msgstr "TOURNER LES BOUTONS A/B/X/Y (SENS HORAIRE)"
+
+msgctxt "game_options"
+msgid "Use 'SOUTH' for A button and 'WEST' for B button."
+msgstr "Utiliser 'SUD' comme bouton A et 'OUEST' comme bouton B."
 
 msgctxt "game_options"
 msgid "This can help, depending on the controllers for better playability."
-msgstr ""
+msgstr "En fonction du système et de la manette utilisée, peut améliorer la jouabilité."
 
 msgctxt "game_options"
 msgid "OVERLAY SHOW MOUSE CURSOR"
-msgstr ""
+msgstr "AFFICHER LE CURSEUR DE LA SOURIS"
 
 msgctxt "game_options"
 msgid "PLAYER 1 CONTROLER DEVICE"
@@ -3482,7 +3578,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "INTERNAL RESOLUTION (WIDESCREEN)"
-msgstr ""
+msgstr "RÉSOLUTION INTERNE (ÉCRAN LARGE)"
 
 msgctxt "game_options"
 msgid "1280x720 (HD Ready)"
@@ -3530,7 +3626,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "BILINEAR FILTERING MODE"
-msgstr ""
+msgstr "MÉTHODE DE FILTRAGE BILINÉAIRE"
+
+msgctxt "game_options"
+msgid "BILINEAR FILTERING"
+msgstr "FILTRAGE BILINÉAIRE"
 
 msgctxt "game_options"
 msgid "Select a bilinear filtering method."
@@ -3958,7 +4058,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "CROP OVERSCAN"
-msgstr ""
+msgstr "ROGNER LES BORDURES"
 
 msgctxt "game_options"
 msgid "VIDEO FILTERS"
@@ -4042,7 +4142,11 @@ msgstr "Supprime toutes les limites de fréquence de rendu, les jeux risquent de
 
 msgctxt "game_options"
 msgid "Enable blargg NTSC video filters"
-msgstr ""
+msgstr "Active un filtre vidéo blargg NTSC."
+
+msgctxt "game_options"
+msgid "VIDEO FILTER (CORE)"
+msgstr "FILTRE VIDÉO (CORE)"
 
 msgctxt "game_options"
 msgid "Removes 8-sprites-per-scanline hardware limit"
@@ -4050,11 +4154,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "CORE SOUND QUALITY"
-msgstr ""
+msgstr "QUALITÉ DU SON"
 
 msgctxt "game_options"
 msgid "High sound quality for games using expansion audio"
-msgstr ""
+msgstr "Permet d'améliorer la qualité sonore pour les jeux utilisant une puce d'extension audio."
 
 msgctxt "game_options"
 msgid "SHOW LIGHTGUN CROSSHAIRS"
@@ -4238,7 +4342,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Choose which color palette is going to be used"
-msgstr ""
+msgstr "Définir la palette de couleurs à utiliser."
 
 msgctxt "game_options"
 msgid "Famicom"
@@ -4246,7 +4350,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Minimize ingame slowdowns of some games (Contra Force)"
-msgstr ""
+msgstr "Réduit les ralentissements dans certains jeux."
 
 msgctxt "game_options"
 msgid "LIGHTGUN CROSSHAIRS"
@@ -4254,7 +4358,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Manually select a 4 Player Adapter for some games"
-msgstr ""
+msgstr "Active l'adaptateur multijoueurs pour jouer à plus de 2 joueurs."
 
 msgctxt "game_options"
 msgid "FAMICOM"
@@ -4826,11 +4930,27 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "LINEAR FILTERING"
-msgstr ""
+msgstr "FILTRAGE LINÉAIRE"
+
+msgctxt "game_options"
+msgid "AUTOSAVE FREQUENCY"
+msgstr "FRÉQUENCE DE SAUVEGARDE AUTOMATIQUE"
+
+msgctxt "game_options"
+msgid "SHOW GAME TIME COUNTER"
+msgstr "AFFICHER L'INDICATEUR DE TEMPS DE JEU"
+
+msgctxt "game_options"
+msgid "Activate autosave feature and define delay between autosaves."
+msgstr "Activer la sauvegarde automatique et définir la fréquence de sauvegarde."
 
 msgctxt "game_options"
 msgid "Use bilinear filtering when upscaling/downscaling the image to the screen."
 msgstr "Active le filtrage bilinéaire en cas d'upscale/downscale de l'image."
+
+msgctxt "game_options"
+msgid "Use bilinear filtering to smooth the overall picture."
+msgstr "Active le filtrage bilinéaire pour adoucir l'image."
 
 msgctxt "game_options"
 msgid "ALLOW 8 BIT TEXTURES"
