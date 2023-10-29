@@ -46,8 +46,52 @@ msgid "GAME ASPECT RATIO CORRECTION"
 msgstr "CORRECTION DU RAPPORT D'ASPECT"
 
 msgctxt "game_options"
+msgid "ASPECT RATIO CORRECTION"
+msgstr "CORRECTION DU RAPPORT D'ASPECT"
+
+msgctxt "game_options"
 msgid "VIDEO SCALER"
 msgstr "FILTRE DE MISE À L'ÉCHELLE"
+
+msgctxt "game_options"
+msgid "STRETCH TO SCREEN"
+msgstr "ÉTIRER POUR REMPLIR L'ÉCRAN"
+
+msgctxt "game_options"
+msgid "ADAPT DISPLAY REFRESH RATE"
+msgstr "ADAPTER LE TAUX DE RAFRAÎCHISSEMENT AUTOMATIQUEMENT"
+
+msgctxt "game_options"
+msgid "Try to select best refresh rate for the ROM."
+msgstr "Laisse l'émulateur sélectionner le meilleur taux de rafraîchissement pour le jeu."
+
+msgctxt "game_options"
+msgid "Select a filter to apply."
+msgstr "Choisir un filtre vidéo."
+
+msgctxt "game_options"
+msgid "SCANLINES INTENSITY"
+msgstr "INTENSITÉ DES LIGNES DE BALAYAGE"
+
+msgctxt "game_options"
+msgid "NO SCANLINES"
+msgstr "PAS DE BALAYAGE"
+
+msgctxt "game_options"
+msgid "AUDIO QUALITY"
+msgstr "QUALITÉ AUDIO"
+
+msgctxt "game_options"
+msgid "FORCE STEREO"
+msgstr "FORCER LE SON STÉRÉO"
+
+msgctxt "game_options"
+msgid "SAVE ON EXIT"
+msgstr "SAUVEGARDER EN QUITTANT"
+
+msgctxt "game_options"
+msgid "Force stereo on all ROMs."
+msgstr "Forcer le son en stéréo même pour les jeux mono."
 
 msgctxt "game_options"
 msgid "UPSCALE FILTER"
@@ -716,6 +760,10 @@ msgstr "SAUVEGARDES INCRÉMENTALES"
 msgctxt "game_options"
 msgid "INCREMENT PER SAVE"
 msgstr "À CHAQUE SAUVEGARDE"
+
+msgctxt "game_options"
+msgid "NEVER"
+msgstr "JAMAIS"
 
 msgctxt "game_options"
 msgid "Never overwrite old savestates, always make new ones."
@@ -1805,6 +1853,14 @@ msgid "USE DIGITAL TRIGGERS"
 msgstr "UTILISER LES GÂCHETTES DIGITALES"
 
 msgctxt "game_options"
+msgid "USE DPAD"
+msgstr "UTILISER PAD DIRECTIONNEL"
+
+msgctxt "game_options"
+msgid "By default zinc maps the left stick for movement, use this option to switch to d-pad."
+msgstr "Utiliser le pad directionnel au lieu du stick analogique gauche pour les mouvements."
+
+msgctxt "game_options"
 msgid "Enable this if the controller does not have analog triggers."
 msgstr "Activer cette option si le contrôleur n'a pas de gâchettes analogiques."
 
@@ -2095,6 +2151,14 @@ msgstr "Ajuste la performance de l'émulation 3Dfx Voodoo."
 msgctxt "game_options"
 msgid "Multi-Threading"
 msgstr "Multi-Tâches"
+
+msgctxt "game_options"
+msgid "ENABLE MULTI-THREADING"
+msgstr "ACTIVER MULTITHREAD"
+
+msgctxt "game_options"
+msgid "FAST LOAD"
+msgstr "CHARGEMENT RAPIDE"
 
 msgctxt "game_options"
 msgid "Multi-Threading (Low Quality)"
@@ -3557,6 +3621,22 @@ msgid "Can reduce input latency, but will inscrease CPU requirements."
 msgstr ""
 
 msgctxt "game_options"
+msgid "CONTROLLER CONFIGURATION METHOD"
+msgstr "MÉTHODE DE CONFIGURATION DES MANETTES"
+
+msgctxt "game_options"
+msgid "'PRE-DEFINED' uses the config files located in the emulator 'cfg' folder, 'DYNAMIC' generates configuration based on profile selected in 'CONTROLS' advanced settings."
+msgstr "Choisir 'PRÉ-DÉFINI' pour utiliser les fichiers du dossier 'cfg' de l'émulateur, 'DYNAMIQUE' permet de laisser RetroBat configurer selon la valeur choisie dans la section 'CONTRÔLES'."
+
+msgctxt "game_options"
+msgid "PRE-DEFINED FILES"
+msgstr "PRÉ-DÉFINI(FICHIER)"
+
+msgctxt "game_options"
+msgid "DYNAMIC PROFILE"
+msgstr "PROFIL DYNAMIQUE"
+
+msgctxt "game_options"
 msgid "USE MULTITAP"
 msgstr "ADAPTATEUR MULTIJOUEURS"
 
@@ -3831,6 +3911,26 @@ msgstr ""
 msgctxt "game_options"
 msgid "DITHERING FILTER"
 msgstr ""
+
+msgctxt "game_options"
+msgid "CONTROL SCHEME"
+msgstr "SCHÉMA DE CONTRÔLES"
+
+msgctxt "game_options"
+msgid "Select controller layout to use when using 'Dynamic Profile' option."
+msgstr "Choisir le schéma de contrôles à configurer, compatible avec l'option 'Profil dynamique'."
+
+msgctxt "game_options"
+msgid "COLOR DEPTH"
+msgstr "PROFONDEUR DES COULEURS"
+
+msgctxt "game_options"
+msgid "BLACK"
+msgstr "NOIR"
+
+msgctxt "game_options"
+msgid "BRIGHT"
+msgstr "CLAIR"
 
 msgctxt "game_options"
 msgid "Recover significant color depth."
