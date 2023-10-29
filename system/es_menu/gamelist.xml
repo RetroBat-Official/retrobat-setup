@@ -52,6 +52,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./bizhawk.menu</path>
+		<name>BizHawk (Multi Cores Emulator)</name>
+		<desc>Run BizHawk (Multi Cores Emulator).</desc>
+		<image>./media/bizhawk-logo.png</image>
+		<marquee>./media/bizhawk-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>TASVideos</developer>
+		<publisher>TASVideos</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./cemu.menu</path>
 		<name>Cemu (Wii U)</name>
 		<desc>Run Cemu Emulator (Wii U).</desc>
