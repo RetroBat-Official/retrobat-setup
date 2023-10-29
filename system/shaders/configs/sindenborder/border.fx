@@ -23,7 +23,7 @@ uniform float2 border_width <
 	ui_type = "input";
 	ui_label = "Size";
 	ui_tooltip = "Measured in pixels. If this is set to zero then the ratio will be used instead.";
-> = float2(11.0, 11.0);
+> = float2(15.0, 15.0);
 */
 
 uniform float2 border_width <
@@ -32,7 +32,7 @@ uniform float2 border_width <
 	ui_tooltip = "Measured in pixels. If this is set to zero then the ratio will be used instead.";
 	ui_min = 0.0; ui_max = (BUFFER_WIDTH * 0.5);
 	ui_step = 1.0;
-	> = float2(11.0, 11.0);
+	> = float2(15.0, 15.0);
 
 uniform float border_ratio <
 	ui_type = "input";
