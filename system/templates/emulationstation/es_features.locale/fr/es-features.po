@@ -86,6 +86,18 @@ msgid "DECOMPRESSION"
 msgstr "DÉCOMPRESSION"
 
 msgctxt "game_options"
+msgid "ENABLE SUBTITLES"
+msgstr "ACTIVER LES SOUS-TITRES"
+
+msgctxt "game_options"
+msgid "ALLOW UNSUPPORTED GAMES"
+msgstr "AUTORISER LES JEUX NON SUPPORTÉS"
+
+msgctxt "game_options"
+msgid "Disable warning when running games that are not fully supported."
+msgstr "Désactiver l'avertissement qui apparaît lors du lancement de jeux non supportés."
+
+msgctxt "game_options"
 msgid "Keep or delete games files once extracted (squashfs, 7z)"
 msgstr "Conserver ou supprimer les fichiers du jeu une fois décompressés (squashfs, 7z)"
 
@@ -252,6 +264,26 @@ msgstr "EXTENSION JOUEUR 3"
 msgctxt "game_options"
 msgid "P4 CONTROLLER EXTENSION"
 msgstr "EXTENSION MANETTE 4"
+
+msgctxt "game_options"
+msgid "REFRESH RATE (FPS)"
+msgstr "TAUX DE RAFRAÎCHISSEMENT (FPS)"
+
+msgctxt "game_options"
+msgid "Configure the fps."
+msgstr "Définir le taux de fps cible."
+
+msgctxt "game_options"
+msgid "Choose the color palette."
+msgstr "Choisir la palette de couleurs."
+
+msgctxt "game_options"
+msgid "ALWAYS RUN"
+msgstr "TOUJOURS COURIR"
+
+msgctxt "game_options"
+msgid "RUN by default, use run button to walk."
+msgstr "Par défaut le personnage court, le bouton 'courir' permet de marcher."
 
 msgctxt "game_options"
 msgid "Set this to effectively halve monitor refresh rate."
@@ -620,6 +652,14 @@ msgstr "Activer le rendu CEL haute résolution."
 msgctxt "game_options"
 msgid "CONTROLLERS"
 msgstr "CONTRÔLEURS"
+
+msgctxt "game_options"
+msgid "INVERT VERTICAL AXIS"
+msgstr "INVERSER L'AXE VERTICAL"
+
+msgctxt "game_options"
+msgid "Invert the gamepad right analog stick's vertical axis."
+msgstr "Inverse l'axe vertical du stick analogique droit."
 
 msgctxt "game_options"
 msgid "CONTROLLER"
@@ -1745,12 +1785,56 @@ msgid "ANALOG DEADZONE"
 msgstr "ZONE MORTE ANALOGIQUE"
 
 msgctxt "game_options"
+msgid "ANALOG TRIGGER DEADZONE(CORE)"
+msgstr "ZONE MORTE DES GÂCHETTES ANALOGIQUE(CORE)"
+
+msgctxt "game_options"
+msgid "ANALOG SENSITIVITY"
+msgstr "SENSIBILITÉ ANALOGIQUE"
+
+msgctxt "game_options"
+msgid "Sets the sensitivity of the analog sticks."
+msgstr "Définir la sensibilité des sticks analogiques."
+
+msgctxt "game_options"
+msgid "ANALOG DEADZONE(CORE)"
+msgstr "ZONE MORTE ANALOGIQUE(CORE)"
+
+msgctxt "game_options"
+msgid "USE DIGITAL TRIGGERS"
+msgstr "UTILISER LES GÂCHETTES DIGITALES"
+
+msgctxt "game_options"
+msgid "Enable this if the controller does not have analog triggers."
+msgstr "Activer cette option si le contrôleur n'a pas de gâchettes analogiques."
+
+msgctxt "game_options"
+msgid "Sets the deadzone of the Gamepad analog sticks when the input device type is set to 'Gamepad Classic' or 'Gamepad Modern'."
+msgstr "Définir la zone morte analogique lorsque le type de contrôleur sélectionné est 'gamepad classic' ou 'gamepad modern'."
+
+msgctxt "game_options"
+msgid "Sets the deadzone of the Gamepad analog sticks."
+msgstr "Définir la zone morte des sticks analogique de la manette."
+
+msgctxt "game_options"
+msgid "Sets the deadzone of the Gamepad analog triggers."
+msgstr "Définir la zone morte des gâchettes analogique de la manette."
+
+msgctxt "game_options"
 msgid "Ignore analog stick movement below this threshold."
 msgstr "Ignore les mouvements du stick analogique sous le seuil indiqué."
 
 msgctxt "game_options"
+msgid "Enables joypad rumble."
+msgstr "Active les vibrations."
+
+msgctxt "game_options"
 msgid "Choose if the mouse input is active or not."
-msgstr ""
+msgstr "Choisir si la souris est activée ou non."
+
+msgctxt "game_options"
+msgid "Choose the core-provided aspect ratio. RetroArch's aspect ratio must be set to Core provided in the Video settings."
+msgstr "Choisir le rapport d'aspect du core. La configuration générale du rapport d'aspect de RetroArch doit être positionnée sur 'core provided'."
 
 msgctxt "game_options"
 msgid "COMPILE SHADERS BEFORE STARTING"
@@ -2653,6 +2737,10 @@ msgid "MIP MAPPING"
 msgstr "MIPMAPPING"
 
 msgctxt "game_options"
+msgid "COLOR CORRECTION"
+msgstr "CORRECTION DES COULEURS"
+
+msgctxt "game_options"
 msgid "Uses the proper mipmap levels. Enhance graphics accuracy."
 msgstr "Améliore la précision graphique en utilisant le niveau de mipmap approprié."
 
@@ -2790,7 +2878,7 @@ msgstr "MODE SERVICE"
 
 msgctxt "game_options"
 msgid "Enable Service button to enter settings."
-msgstr ""
+msgstr "Activer le bouton 'Service' pour accéder au menu des réglages."
 
 msgctxt "game_options"
 msgid "ENABLE SERVICE MENU"
@@ -4049,6 +4137,30 @@ msgid "LINEAR"
 msgstr "LINÉAIRE"
 
 msgctxt "game_options"
+msgid "QUADRATIC"
+msgstr "QUADRATIQUE"
+
+msgctxt "game_options"
+msgid "TEXT AND SPEECH"
+msgstr "PAROLES ET SOUS-TITRES"
+
+msgctxt "game_options"
+msgid "SPEECH"
+msgstr "PAROLES"
+
+msgctxt "game_options"
+msgid "SUBTITLES"
+msgstr "SOUS-TITRES"
+
+msgctxt "game_options"
+msgid "DISABLE RATIO CORRECTION"
+msgstr "DÉSACTIVER LA CORRECTION DU RAPPORT D'ASPECT"
+
+msgctxt "game_options"
+msgid "RENDER METHOD"
+msgstr "MÉTHODE DE RENDU"
+
+msgctxt "game_options"
 msgid "EMULATED SUPERFX OVERCLOCK"
 msgstr ""
 
@@ -4370,7 +4482,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "BOTH"
-msgstr ""
+msgstr "LES DEUX"
 
 msgctxt "game_options"
 msgid "NO SPRITES LIMIT"
@@ -5038,11 +5150,23 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "FORCE ENABLE (If issues on Auto)"
-msgstr ""
+msgstr "FORCER (si problèmes avec AUTO)"
 
 msgctxt "game_options"
 msgid "HALF PIXEL OFFSET (FIX)"
 msgstr ""
+
+msgctxt "game_options"
+msgid "ENABLE BLOOM"
+msgstr "FLOU LUMINEUX"
+
+msgctxt "game_options"
+msgid "GL-COLOR MODE"
+msgstr "GL-MODE COULEUR"
+
+msgctxt "game_options"
+msgid "GL-SKY RENDER MODE"
+msgstr "GL-MODE DE RENDU DU CIEL"
 
 msgctxt "game_options"
 msgid "Might fix some misaligned fog, bloom or blend effect."
@@ -5354,7 +5478,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "ENABLE BACKGLASS"
-msgstr ""
+msgstr "ACTIVER BACKGLASS"
 
 msgctxt "game_options"
 msgid "SHADER"
@@ -5370,11 +5494,11 @@ msgstr "BILINÉAIRE"
 
 msgctxt "game_options"
 msgid "FORCE 60 HZ"
-msgstr ""
+msgstr "FORCER 60 HZ"
 
 msgctxt "game_options"
 msgid "Uses NTSC frame timings when the console is in PAL mode."
-msgstr ""
+msgstr "Force l'utilisation du timing NTSC même lorsque la console est en mode PAL."
 
 msgctxt "game_options"
 msgid "PAL MODE"
@@ -5413,6 +5537,26 @@ msgid "SCALED DITHERING"
 msgstr ""
 
 msgctxt "game_options"
+msgid "SOUND MODE"
+msgstr "MODE SON"
+
+msgctxt "game_options"
+msgid "PC SPEAKER"
+msgstr "HAUT-PARLEUR PC"
+
+msgctxt "game_options"
+msgid "NO SOUND"
+msgstr "PAS DE SON"
+
+msgctxt "game_options"
+msgid "MIDI SOUNDFRONT"
+msgstr "MODULE DE SON MIDI"
+
+msgctxt "game_options"
+msgid "ANALOG CURSOR RESPONSE"
+msgstr "TYPE DE RÉPONSE DU CURSEUR ANALOGIQUE"
+
+msgctxt "game_options"
 msgid "Scales the dithern pattern to the resolution scale of the emulated GPU."
 msgstr ""
 
@@ -5422,7 +5566,39 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "TRUE COLORS - 24 BITS"
-msgstr ""
+msgstr "COULEURS RÉELLES - 24 BITS"
+
+msgctxt "game_options"
+msgid "TRUE COLOR"
+msgstr "COULEURS RÉELLES"
+
+msgctxt "game_options"
+msgid "8-BIT (CLASSIC)"
+msgstr "8-BIT (CLASSIQUE)"
+
+msgctxt "game_options"
+msgid "8-BIT INTERPOLATED"
+msgstr "8-BIT INTERPOLÉ"
+
+msgctxt "game_options"
+msgid "DISABLE AUTOAIM"
+msgstr "DÉSACTIVER L'AIDE À LA VISÉE"
+
+msgctxt "game_options"
+msgid "DISABLE CROSSHAIR"
+msgstr "DÉSACTIVER LA CIBLE"
+
+msgctxt "game_options"
+msgid "SHOW SUBTITLES"
+msgstr "AFFICHER LES SOUS-TITRES"
+
+msgctxt "game_options"
+msgid "CUTSCENES ONLY"
+msgstr "CINÉMATIQUES UNIQUEMENT"
+
+msgctxt "game_options"
+msgid "GAMEPLAY ONLY"
+msgstr "EN JEU UNIQUEMENT"
 
 msgctxt "game_options"
 msgid "Forces the precision of colours output to the console's framebuffer."
