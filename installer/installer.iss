@@ -58,7 +58,7 @@ SolidCompression=yes
 Uninstallable=no
 VersionInfoCopyright={#MyAppPublisher}
 VersionInfoVersion=1.0.0.0
-WizardImageFile=".\resources\retrobat_wizard_old.bmp"
+WizardImageFile=".\resources\retrobat_wizard.bmp"
 WizardImageStretch=yes
 WizardSmallImageFile=".\resources\WizardSmall.bmp"
 
