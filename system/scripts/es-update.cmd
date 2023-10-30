@@ -55,6 +55,7 @@ set/A progress_percent=0
 set folder_list=(bios cheats decorations emulators library records roms saves screenshots sounds system)
 set file_list=(exe dat txt)
 set modules_list=(7za wget)
+set license_trusted_md5=91bd67de13479a57781336500d27541c
 
 if "%extract_pkg%"=="es" (
 	call :set_root
@@ -82,6 +83,7 @@ if !task_total! GTR 0 ((set/A task_computing=0))
 if %task_computing% EQU 0 (
 
 	call :set_root
+	call :check_license
 	call :set_modules
 	call :set_install
 
@@ -125,8 +127,8 @@ echo !progress_text!... ^>^>^> !progress_percent!%%
 
 if not exist "!download_path!\." md "!download_path!"
 	
-"%system_path%\modules\rb_updater\wget" --continue --no-check-certificate --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t %download_retry% -P "%download_path%" %download_url%/%package_file% -q >nul
-"%system_path%\modules\rb_updater\wget" --continue --no-check-certificate --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t %download_retry% -P "!download_path!" %download_url%/%package_file%.sha256.txt -q >nul
+"%modules_path%\wget" --continue --no-check-certificate --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t %download_retry% -P "%download_path%" %download_url%/%package_file% -q >nul
+"%modules_path%\wget" --continue --no-check-certificate --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t %download_retry% -P "!download_path!" %download_url%/%package_file%.sha256.txt -q >nul
 
 if not exist "!download_path!\!package_file!.sha256.txt" (
 
@@ -146,6 +148,42 @@ if not exist "!download_path!\!package_file!" (
 
 (set/A task_count+=1)
 call :progress
+
+goto :eof
+
+:: ---- CHECK LICENSE ----
+
+:check_license
+
+((echo %date% %time% [INFO] License trusted MD5: %license_trusted_md5%)>> "!root_path!\emulationstation\%log_file%")
+
+if not exist "!root_path!\license.txt" (
+
+	(set/A exit_code=2)
+	(set exit_msg=license file is missing!)
+	call :exit_door
+	goto :eof
+
+)
+
+set "firstline=1"
+for /f "skip=1 delims=" %%i in ('certutil -hashfile "!root_path!\license.txt" md5') do (
+	if [!firstline!]==[1] (
+		(set license_current_md5=%%i)
+		(set "firstline=0")
+	)
+)
+
+((echo %date% %time% [INFO] License current MD5: %license_current_md5%)>> "!root_path!\emulationstation\%log_file%")
+
+if not "%license_current_md5%" == "%license_trusted_md5%" (
+
+	(set/A exit_code=2)
+	(set exit_msg=license file is corrupted!)
+	call :exit_door
+	goto :eof
+
+)
 
 goto :eof
 
@@ -238,28 +276,7 @@ if exist "!download_path!\!package_file!" (
 		for %%i in (DEV9Hosts.ini GS.ini PAD.ini PCSX2_ui.ini PCSX2_vm.ini SPU2.ini) do (
 	
 		if exist "%system_path%\templates\pcsx2\inis\%%i" del/Q "%system_path%\templates\pcsx2\inis\%%i" >nul
-		)
-	)
-	
-	if "!version_local!" == "5.0.0-stable-win64" (
-	
-		if exist "%emulators_path%\pcsx2\pcsx2x64.exe" ren "%emulators_path%\pcsx2" pcsx2-wxwidget-obsolete >nul
 		
-		if exist "%system_path%\configgen\*.list" del/Q "%system_path%\configgen\*.list"
-		
-		for %%i in (DEV9Hosts.ini GS.ini PAD.ini PCSX2_ui.ini PCSX2_vm.ini SPU2.ini) do (
-	
-		if exist "%system_path%\templates\pcsx2\inis\%%i" del/Q "%system_path%\templates\pcsx2\inis\%%i" >nul
-		)
-	)
-	
-	for %%i in (es-checkversion-test.exe es-update-test.exe) do (
-		
-		if exist "%emulationstation_path%\%%i" del/Q "%emulationstation_path%\%%i"
-	)
-	
-	if "!version_local!" == "5.0.0-stable-win64" (
-	
 		if exist "%emulationstation_path%\.emulationstation\es_input.cfg" (
 			copy "%emulationstation_path%\.emulationstation\es_input.cfg" "%emulationstation_path%\.emulationstation\es_input.cfg.old" /Y >nul
 			del/Q "%emulationstation_path%\.emulationstation\es_input.cfg" >nul
@@ -267,6 +284,8 @@ if exist "!download_path!\!package_file!" (
 		)
 		
 		if exist "%emulators_path%\duckstation\duckstation-*.exe" ren "%emulators_path%\duckstation" duckstation-old >nul
+		
+		)
 	)
 	
 	if "!version_local!" == "5.1.1-stable-win64" (
@@ -291,9 +310,18 @@ if exist "!download_path!\!package_file!" (
 		if exist "%emulators_path%\duckstation\duckstation-*.exe" ren "%emulators_path%\duckstation" duckstation-old >nul
 	)
 	
+	if "!version_local!" == "5.3.0-stable-win64" (
+	
+		if exist "%emulators_path%\retroarch\core\4do_libretro.dll" del/Q "%emulators_path%\retroarch\core\4do_libretro.dll" >nul
+		if exist "%emulators_path%\retroarch\platforms\*.dll" del/Q "%emulators_path%\retroarch\platforms\*.dll" >nul
+		if exist "%system_path%\modules\rb_launcher\*.dll" del/Q "%system_path%\modules\rb_launcher\*.dll"
+		if exist "%system_path%\modules\rb_launcher\*.ift" del/Q "%system_path%\modules\rb_launcher\*.ift"
+		if exist "%system_path%\modules\rb_launcher\*.mfx" del/Q "%system_path%\modules\rb_launcher\*.mfx"
+	)
+	
 	for %%i in %folder_list% do (
 	
-		"%system_path%\modules\rb_updater\7za.exe" -y x "!download_path!\!package_file!" -aoa -o"!extraction_path!" "%%i\*" >nul
+		"%modules_path%\7za.exe" -y x "!download_path!\!package_file!" -aoa -o"!extraction_path!" "%%i\*" >nul
 		if %enable_log% EQU 1 ((echo %date% %time% [INFO] !label! "%%i" from "!download_path!\!package_file!" to "!extraction_path!")>> "!root_path!\emulationstation\%log_file%")		
 		(set/A task_count+=1)
 		call :progress
@@ -301,7 +329,7 @@ if exist "!download_path!\!package_file!" (
 	
 	for %%i in %file_list% do (
 	
-		"%system_path%\modules\rb_updater\7za.exe" -y x "!download_path!\!package_file!" -aoa -o"!extraction_path!" "*.%%i" >nul
+		"%modules_path%\7za.exe" -y x "!download_path!\!package_file!" -aoa -o"!extraction_path!" "*.%%i" >nul
 		if %enable_log% EQU 1 ((echo %date% %time% [INFO] !label! "*.%%i" from "!download_path!\!package_file!" to "!extraction_path!")>> "!root_path!\emulationstation\%log_file%")	
 		(set/A task_count+=1)
 		call :progress
@@ -473,10 +501,12 @@ for %%i in %modules_list% do (
 	(set/A found_total=!found_total!+1)
 	(set package_name=%%i)
 	(set modules_path=!root_path!\system\modules\rb_updater)
+	rem (set modules_path=!root_path!\system\tools)
 	
 	if exist "!modules_path!\!package_name!.exe" ((set/A found_%%i=!found_%%i!+1))
 	
-	(set/A found_total=!found_total!-!found_%%i!)		
+	(set/A found_total=!found_total!-!found_%%i!)
+	((echo %date% %time% [INFO] !package_name! Path: "!modules_path!\!package_name!.exe")>> "!root_path!\emulationstation\%log_file%")
 )
 
 if !found_total! NEQ 0 (
@@ -580,7 +610,7 @@ copy "%system_path%\configgen\exclude_emulationstation_files.lst" "%system_path%
 if exist "%download_path%\%package_file%" (
 
 	if not exist "!extraction_path!\emulationstation\." md "!extraction_path!\emulationstation" >nul
-	"%system_path%\modules\rb_updater\7za.exe" -y x "!download_path!\!package_file!" -aoa -o"!extraction_path!" "emulationstation\*" >nul
+	"%modules_path%\7za.exe" -y x "!download_path!\!package_file!" -aoa -o"!extraction_path!" "emulationstation\*" >nul
 	set/A exit_code=%ERRORLEVEL%
 	if !exit_code! NEQ 0 (
 		(set exit_msg=failed to extract files)
@@ -612,15 +642,33 @@ if exist "%download_path%\%package_file%" (
 		copy "%system_path%\templates\emulationstation\es_input.cfg" "%emulationstation_path%\.emulationstation\es_input.cfg" /Y >nul
 	)
 	
+	if "!version_local!" == "5.3.0-stable-win64" (
+	
+		if exist "%system_path%\modules\rb_updater\." rmdir /s /q "%system_path%\modules\rb_updater" >nul
+		if exist "%emulationstation_path%\.emulationstation\themes\es-theme-carbon\." ren "%emulationstation_path%\.emulationstation\themes\es-theme-carbon" "es-theme-carbon-old" >nul"
+		if exist "%emulationstation_path%\.emulationstation\themes\es-theme-carbon-master\." ren "%emulationstation_path%\.emulationstation\themes\es-theme-carbon-master" "es-theme-carbon" >nul"
+	)
+	
 	if %enable_log% EQU 1 ((echo %date% %time% [INFO] !task! from "%extraction_path%\emulationstation" to "%root_path%\emulationstation")>> "%root_path%\emulationstation\%log_file%")
 
 	if !exit_code! EQU 0 (
 	
 		(set exit_msg=update complete!)
-		if exist "!download_path!\!package_file!" del/Q "!download_path!\!package_file!" >nul
-		if exist "!download_path!\!package_file!.sha256.txt" del/Q "!download_path!\!package_file!.sha256.txt" >nul
+		if exist "!download_path!\!package_file!" (
+			del/Q "!download_path!\!package_file!" >nul
+			((echo %date% %time% [INFO] deleted "!download_path!\!package_file!")>> "%root_path%\emulationstation\%log_file%")
+		)
+		if exist "!download_path!\!package_file!.sha256.txt" (
+			del/Q "!download_path!\!package_file!.sha256.txt" >nul
+			((echo %date% %time% [INFO] deleted "!download_path!\!package_file!.sha256.txt")>> "%root_path%\emulationstation\%log_file%")
+		)
 		if exist "!extraction_path!\" rd /S /Q "!extraction_path!" >nul
 		if exist "!system_path!\scripts\exclude.txt" del/Q "!system_path!\scripts\exclude.txt" >nul
+		
+		for %%i in (es-checkversion-test.exe es-update-test.exe) do (
+		
+			if exist "%emulationstation_path%\%%i" del/Q "%emulationstation_path%\%%i"
+		)
 	)
 )
 
@@ -639,8 +687,9 @@ if %progress_percent% EQU 100 (
 	
 	if exist "%system_path%\templates\emulationstation\es_features.cfg" del/Q "%system_path%\templates\emulationstation\es_features.cfg" >nul
 	if exist "%emulationstation_path%\.emulationstation\es_features.cfg" copy/Y "%emulationstation_path%\.emulationstation\es_features.cfg" "%system_path%\templates\emulationstation\es_features.cfg.default" >nul
+	if exist "%emulationstation_path%\*.1" del/Q "%emulationstation_path%\*.1"
 	
-	curl -X POST http://127.0.0.1:1234/messagebox -H "Content-Type: text/plain" -d "You need to close EmulationStation now and restart RetroBat to finish the update process. Open the menu and choose 'QUIT' or press ALT+F4, then run retrobat.exe."
+	curl -X POST http://127.0.0.1:1234/messagebox -H "Content-Type: text/plain" -d "Please close EmulationStation now and restart RetroBat to finish the update process. Open main menu and select 'QUIT' or press ALT+F4, then run retrobat.exe."
 	
 	(set/A exit_code=0)
 	(set exit_msg=update done!)
