@@ -45,12 +45,9 @@
 \system\templates\infos\portable.txt|\emulators\xenia\portable.txt
 \system\templates\jynx\settings.txt|\emulators\jynx\settings.txt
 \system\templates\kega-fusion\Fusion.ini|\emulators\kega-fusion\Fusion.ini
-\system\templates\m2emulator\d3d9.dll|\emulators\m2emulator\d3d9.dll
 \system\templates\m2emulator\dinput.zip|\emulators\m2emulator\templatescfg\dinput
 \system\templates\m2emulator\Emulator.ini|\emulators\m2emulator\Emulator.ini
 \system\templates\m2emulator\NVDATA.zip|\emulators\m2emulator\NVDATA
-\system\templates\m2emulator\ReShade.ini|\emulators\m2emulator\ReShade.ini
-\system\templates\m2emulator\ReShadePreset.ini|\emulators\m2emulator\ReShadePreset.ini
 \system\templates\m2emulator\scripts.zip|\emulators\m2emulator\scripts
 \system\templates\m2emulator\xinput.zip|\emulators\m2emulator\templatescfg\xinput
 \system\templates\mame\fmtownsux.ini|\emulators\mame\ini\fmtownsux.ini
