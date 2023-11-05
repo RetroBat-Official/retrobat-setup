@@ -1,28 +1,25 @@
 <?xml version="1.0"?>
 <gameList>
 	<game>
-		<game>
-			<path>./gong.libretro</path>
-			<name>Gong</name>
-			<desc>Pong clone.</desc>
-			<image>./images/gong.png</image>
-		</game>
 		<path>./mrboom.libretro</path>
 		<name>Mr Boom</name>
 		<desc>Bomberman clone.</desc>
 		<image>./images/mrboom.png</image>
+        <marquee>./images/mrboom-marquee.png</marquee>
 	</game>
 	<game>
 		<path>./xrick.libretro</path>
 		<name>XRick</name>
 		<desc>Rick Dangerous clone.</desc>
 		<image>./images/xrick.png</image>
+        <marquee>./images/xrick-marquee.png</marquee>
 	</game>
 	<game>
 		<path>./2048.libretro</path>
 		<name>2048</name>
 		<desc>2048 clone.</desc>
 		<image>./images/2048.png</image>
+        <marquee>./images/2048-marquee.png</marquee>
 		<lang>en</lang>
 	</game>
 	<game>
@@ -30,12 +27,15 @@
 		<name>craft</name>
 		<desc>Minecraft clone.</desc>
 		<image>./images/craft.png</image>
+        <marquee>./images/craft-marquee.png</marquee>
 		<lang>en</lang>
 	</game>
 	<game>
 		<path>./gong.libretro</path>
-		<name>gong</name>
+		<name>Gong</name>
+        <desc>Pong clone.</desc>
 		<image>./images/gong.png</image>
+        <marquee>./images/gong-marquee.png</marquee>
 		<lang>en</lang>
 	</game>
 </gameList>
