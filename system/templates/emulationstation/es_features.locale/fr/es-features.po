@@ -75,7 +75,7 @@ msgstr "Activer la mise à l'échelle AMD FidelityFX, uniquement compatible avec
 
 msgctxt "game_options"
 msgid "WRITE COLOR BUFFERS"
-msgstr ""
+msgstr "ÉCRIRE LE TAMPON CHROMATIQUE EN MÉMOIRE"
 
 msgctxt "game_options"
 msgid "Enable this option if you get missing graphics or broken lighting ingame."
@@ -91,7 +91,7 @@ msgstr "Peut améliorer les performances pour les cartes graphiques puissantes. 
 
 msgctxt "game_options"
 msgid "WRITE DEPTH BUFFERS"
-msgstr ""
+msgstr "ÉCRIRE LE TAMPON DE PROFONDEUR EN MÉMOIRE"
 
 msgctxt "game_options"
 msgid "Writes depth buffer values to vm memory. Default off."
@@ -99,7 +99,7 @@ msgstr "Copie les valeurs du tampon de profondeur dans la mémoire vidéo. Désa
 
 msgctxt "game_options"
 msgid "READ DEPTH BUFFERS"
-msgstr ""
+msgstr "LIRE LE TAMPON DE PROFONDEUR"
 
 msgctxt "game_options"
 msgid "Initializes render target memory using vm memory. Default off."
@@ -107,7 +107,7 @@ msgstr "Initialise le rendu des profondeurs depuis les valeurs en mémoire vidé
 
 msgctxt "game_options"
 msgid "READ COLOR BUFFERS"
-msgstr ""
+msgstr "LIRE LE TAMPON CHROMATIQUE"
 
 msgctxt "game_options"
 msgid "Initializes render target memory using vm memory. Default off."
@@ -124,6 +124,18 @@ msgstr "Force l'émulation des objets graphiques et la manipulation d'images par
 msgctxt "game_options"
 msgid "DISABLE ZCULL OCCLUSION QUERIES"
 msgstr "DÉSACTIVER LES REQUÊTES D'OCCLUSION ZCULL"
+
+msgctxt "game_options"
+msgid "Select a shader to apply."
+msgstr "Choisir un shader à appliquer."
+
+msgctxt "game_options"
+msgid "Performance boost, can also bring stability for some games like GT6."
+msgstr "Apporte des gains de performance, permet de stabiliser certains jeux tel que GT6."
+
+msgctxt "game_options"
+msgid "PPU LVM PRECOMPILATION"
+msgstr "PRÉCOMPILATION PPU LVM"
 
 msgctxt "game_options"
 msgid "Performance boost, can also bring stability for some games like GT6."
@@ -1229,6 +1241,10 @@ msgid "ANISOTROPIC FILTERING"
 msgstr "FILTRAGE ANISOTROPE"
 
 msgctxt "game_options"
+msgid "ANISOTROPIC FILTER"
+msgstr "FILTRAGE ANISOTROPE"
+
+msgctxt "game_options"
 msgid "Modern GPUs can handle this setting fine, even at 16x. Keep this on Auto if you want to use the original settings used by a real PS3."
 msgstr "Les GPUs modernes sont capables d'appliquer des valeurs élevées. Laisser sur AUTO pour utiliser la valeur originale d'une PS3."
 
@@ -1598,7 +1614,23 @@ msgstr "LANGUE"
 
 msgctxt "game_options"
 msgid "INTEGER SCALING"
-msgstr "AGRANDISSEMENT ENTIER"
+msgstr "MISE À L'ÉCHELLE (NOMBRE ENTIER)"
+
+msgctxt "game_options"
+msgid "FRAMESKIP TYPE"
+msgstr "TYPE DE SAUT D'IMAGES"
+
+msgctxt "game_options"
+msgid "Type of Frame skipping."
+msgstr "Définir la méthode utilisée pour calculer le saut d'images."
+
+msgctxt "game_options"
+msgid "NUMBER OF FRAMES"
+msgstr "NOMBRE D'IMAGES"
+
+msgctxt "game_options"
+msgid "PERCENT OF FPS"
+msgstr "POURCENTAGE DE FPS"
 
 msgctxt "game_options"
 msgid "nearest"
@@ -2214,11 +2246,11 @@ msgstr "SPÉCIALISÉ"
 
 msgctxt "game_options"
 msgid "HYBRID"
-msgstr "UBERSHADERS HYBRIDES"
+msgstr "HYBRIDE"
 
 msgctxt "game_options"
 msgid "EXCLUSIVE"
-msgstr "UBERSHADERS EXCLUSIFS"
+msgstr "EXCLUSIF"
 
 msgctxt "game_options"
 msgid "VERTEX ROUNDING"
@@ -3798,7 +3830,11 @@ msgstr "Activer l'extension Game Drive pour les jeux compatibles."
 
 msgctxt "game_options"
 msgid "Set Multi-Sampled Anti Aliasing level for rendered content (Vulkan only)."
-msgstr ""
+msgstr "Définir le niveau d'anticrénelage à utiliser (Vulkan uniquement)."
+
+msgctxt "game_options"
+msgid "Set Multi-Sampled Anti Aliasing level for rendered content."
+msgstr "Définir le niveau d'anticrénelage à utiliser."
 
 msgctxt "game_options"
 msgid "TEXTURES FILTERING"
@@ -4110,15 +4146,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "ANTI ALIASING (MSAA)"
-msgstr ""
+msgstr "ANTICRÉNELAGE (MSAA)"
 
 msgctxt "game_options"
 msgid "Multi-Sampling Anti Aliasing level."
 msgstr ""
 
 msgctxt "game_options"
+msgid "TEXTURE ENHANCEMENT"
+msgstr "AMÉLIORATION DES TEXTURES"
+
+msgctxt "game_options"
 msgid "Choose between various texture enhancement filters."
-msgstr ""
+msgstr "Choisir un filtre d'amélioration des textures"
 
 msgctxt "game_options"
 msgid "AS IS"
@@ -4126,7 +4166,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "TEXTURES FILTER"
-msgstr ""
+msgstr "FILTRAGE DES TEXTURES"
+
+msgctxt "game_options"
+msgid "TEXTURE FILTER"
+msgstr "FILTRAGE DES TEXTURES"
 
 msgctxt "game_options"
 msgid "TEXTURE FILTERING"
@@ -4138,7 +4182,7 @@ msgstr "Choisir la méthode de filtrage des textures."
 
 msgctxt "game_options"
 msgid "Select texture filtering mode."
-msgstr ""
+msgstr "Définir la méthode de filtrage des textures."
 
 msgctxt "game_options"
 msgid "BILINEAR FILTERING MODE"
@@ -4151,6 +4195,18 @@ msgstr "FILTRAGE BILINÉAIRE"
 msgctxt "game_options"
 msgid "Select a bilinear filtering method."
 msgstr ""
+
+msgctxt "game_options"
+msgid "USE MOUSE"
+msgstr "UTILISER LA SOURIS"
+
+msgctxt "game_options"
+msgid "USE O TO CONFIRM (EAST)"
+msgstr "UTILISER O POUR CONFIRMER (EST)"
+
+msgctxt "game_options"
+msgid "FORCE CONTROLLER INDEX"
+msgstr "FORCER L'INDEX DE LA MANETTE"
 
 msgctxt "game_options"
 msgid "3 POINT (ORIGINAL)"
@@ -4973,6 +5029,10 @@ msgid "hybrid"
 msgstr "hybride"
 
 msgctxt "game_options"
+msgid "Hybrid"
+msgstr "hybride"
+
+msgctxt "game_options"
 msgid "bicubic"
 msgstr "bicubique"
 
@@ -4981,12 +5041,24 @@ msgid "hybrid bicubic"
 msgstr "hybride bicubique"
 
 msgctxt "game_options"
+msgid "Hybrid + Bicubic"
+msgstr "hybride bicubique"
+
+msgctxt "game_options"
 msgid "TEXTURES SCALING"
-msgstr ""
+msgstr "UPSCALE DES TEXTURES"
+
+msgctxt "game_options"
+msgid "TEXTURE UPSCALING"
+msgstr "UPSCALE DES TEXTURES"
 
 msgctxt "game_options"
 msgid "UPSCALE TEXTURES"
 msgstr "UPSCALE DES TEXTURES"
+
+msgctxt "game_options"
+msgid "Choose level of textures scaling."
+msgstr "Définir le niveau d'amélioration des textures."
 
 msgctxt "game_options"
 msgid "Upscale textures with xBRZ algorythm, only on some 2D games and on fast computers."
@@ -5010,31 +5082,95 @@ msgstr "Copier les textures vers la VRAM, plus lent mais plus précis. Désactiv
 
 msgctxt "game_options"
 msgid "Select the textures scaling level."
-msgstr ""
+msgstr "Définir le niveau d'amélioration (upscale) des textures."
 
 msgctxt "game_options"
 msgid "TEXTURES DEPOSTERIZE"
-msgstr ""
+msgstr "DÉPOSTÉRISER LES TEXTURES"
+
+msgctxt "game_options"
+msgid "TEXTURE DEPOSTERIZE"
+msgstr "DÉPOSTÉRISER LES TEXTURES"
+
+msgctxt "game_options"
+msgid "GAME FIXES"
+msgstr "CORRECTIFS"
+
+msgctxt "game_options"
+msgid "BIGPICTURE MODE"
+msgstr "MODE BIG PICTURE"
+
+msgctxt "game_options"
+msgid "Enable performance statistics."
+msgstr "Affichage des statistiques de performance."
+
+msgctxt "game_options"
+msgid "Show notifications."
+msgstr "Afficher les notifications."
+
+msgctxt "game_options"
+msgid "PLAYER 1 GUN"
+msgstr "PISTOLET JOUEUR 1"
+
+msgctxt "game_options"
+msgid "GUNCON BUTTON MAPPING"
+msgstr "MAPPING DES BOUTONS GUNCON"
+
+msgctxt "game_options"
+msgid "KEYBOARD (MOUSE MIDDLE as START)"
+msgstr "CLAVIER (SOURIS MILIEU POUR START)"
+
+msgctxt "game_options"
+msgid "KEYBOARD (RETURN as START)"
+msgstr "CLAVIER (ENTRÉE MILIEUR POUR START)"
+
+msgctxt "game_options"
+msgid "KEYBOARD (VOL+ and VOL- as A/B)"
+msgstr "CLAVIER (VOL+ et VOL- pour A/B)"
+
+msgctxt "game_options"
+msgid "GAMEPAD"
+msgstr "MANETTE"
+
+msgctxt "game_options"
+msgid "Define how to map the guncon2 buttons."
+msgstr "Choix du mapping pour les boutons du guncon."
 
 msgctxt "game_options"
 msgid "Deposterize fixes small in-texture glitches that may happen when the texture is upscaled."
-msgstr ""
+msgstr "Permet de corriger les erreurs pouvant survenir lors de la mise à l'échelle des textures."
 
 msgctxt "game_options"
 msgid "Replace original textures with custom textures pack (\saves\psp\PSP\TEXTURES\%GAMEID%)."
 msgstr "Remplacer les textures originales par un pack de texture personnalisé (placé dans \saves\psp\PSP\TEXTURES\%GAMEID%)."
 
 msgctxt "game_options"
+msgid "CONFIRMATION BUTTON"
+msgstr "BOUTON POUR CONFIRMER"
+
+msgctxt "game_options"
+msgid "Select whether the cross input or the circle input is the confirmation button."
+msgstr "Définir si la validation s'effectue en appuyant sur croix ou rond."
+
+msgctxt "game_options"
+msgid "CROSS"
+msgstr "CROIX"
+
+msgctxt "game_options"
+msgid "CIRCLE"
+msgstr "CERCLE"
+
+msgctxt "game_options"
 msgid "IO TIMING METHOD"
-msgstr ""
+msgstr "MÉTHODE DE TIMING IO"
 
 msgctxt "game_options"
 msgid "Improves the data loading speed."
-msgstr ""
+msgstr "Peut améliorer le temps de chargement."
 
 msgctxt "game_options"
 msgid "Fast"
-msgstr ""
+msgstr "Rapide"
 
 msgctxt "game_options"
 msgid "Host (bug)"
@@ -5046,11 +5182,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "IGNORE BAD MEMORY ACCESS"
-msgstr ""
+msgstr "IGNORER LES ERREURS D'ACCÉS MÉMOIRE"
 
 msgctxt "game_options"
 msgid "Can fix bad memory access error with some games."
-msgstr ""
+msgstr "Peut corriger les erreurs d'accès mémoire pour certains jeux."
 
 msgctxt "game_options"
 msgid "Improves the emulation performance at the cost of accuracy."
@@ -5701,10 +5837,6 @@ msgid "Enable monitoring."
 msgstr ""
 
 msgctxt "game_options"
-msgid "Show notifications."
-msgstr ""
-
-msgctxt "game_options"
 msgid "STRETCHED"
 msgstr "ÉTIRÉ"
 
@@ -6070,7 +6202,35 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "CROSSHAIRS"
-msgstr ""
+msgstr "CIBLES"
+
+msgctxt "game_options"
+msgid "CROSSHAIR"
+msgstr "CIBLE"
+
+msgctxt "game_options"
+msgid "CALIBRATION BUTTON"
+msgstr "BOUTON DE CALIBRATION"
+
+msgctxt "game_options"
+msgid "By default, calibration is done with middle mouse button, this setting allows to set an alternative button for the calibration shot."
+msgstr "Le bouton du milieu de la souris est affecté par défaut, cette option permet de modifier le bouton."
+
+msgctxt "game_options"
+msgid "MIDDLE MOUSE"
+msgstr "SOURIS MILIEU"
+
+msgctxt "game_options"
+msgid "TRIGGER"
+msgstr "GÂCHETTE"
+
+msgctxt "game_options"
+msgid "KEYBOARD LEFT SHIFT"
+msgstr "CLAVIER MAJ GAUCHE"
+
+msgctxt "game_options"
+msgid "GAMEPAD R1"
+msgstr "MANETTE R1"
 
 msgctxt "game_options"
 msgid "Enable crosshairs in shooting games"
