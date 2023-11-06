@@ -2137,6 +2137,58 @@ msgid "Some SPU stages are sensitive to race conditions and allowing a limited n
 msgstr "Dans certains cas, réduire le nombre de tâches parallèles du SPU peut améliorer les performances."
 
 msgctxt "game_options"
+msgid "ENABLE SPU LOOP DETECTION"
+msgstr "DÉTECTION DES BOUCLES SPU"
+
+msgctxt "game_options"
+msgid "Try to detect loop conditions in SPU kernels and use them as scheduling hints. Default off"
+msgstr "Tente de détecter les boucles SPU et d'en déduire le séquencemment. Désactivé par défaut."
+
+msgctxt "game_options"
+msgid "SPU BLOCK SIZE"
+msgstr "TAILLE DES PAQUETS SPU"
+
+msgctxt "game_options"
+msgid "This option controls the SPU analyser, particularly the size of compiled units.Use the safe mode for maximum compatibility."
+msgstr "Contrôle la taille des unités de l'analyseur SPU. Utiliser le mode 'PRUDENT' pour une compatibilité maximale."
+
+msgctxt "game_options"
+msgid "ACCURATE RSX RESERVATION ACCESS"
+msgstr "RÉSERVATION D'ACCÈS RSX PRÉCISE"
+
+msgctxt "game_options"
+msgid "Improves stability in some games but reduces performance."
+msgstr "Améliore la stabilité de certains jeux au détriment des performances."
+
+msgctxt "game_options"
+msgid "ACCURATE XFLOAT"
+msgstr "PRÉCISION XFLOAT"
+
+msgctxt "game_options"
+msgid "Higher accuracy fixes bugs in some games at cost of performance. Only used if SPU decoder is set to Dynamic or LLVM."
+msgstr "Une précision plus élevée permet de corriger des bugs au détriment de la performance. Uniquement compatible avec le décodeur SPU 'Dynamique' ou 'LLVM'."
+
+msgctxt "game_options"
+msgid "FULL WIDTH AVX-512"
+msgstr "UTILISER LES INSTRUCTIONS AVX-512 COMPLÈTES"
+
+msgctxt "game_options"
+msgid "Enables the use of code with full width AVX-512.Only available with CPUs that support AVX-512."
+msgstr "Activer le code utilisant les instructions complètes AVX-512. Uniquement compatible avec les processeurs supportant ces instructions."
+
+msgctxt "game_options"
+msgid "ACCURATE PPU VECTOR NAN"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Respect Non-Java Mode bit values for vector ops in PPU backends. If unsure, do not modify this setting. Default off."
+msgstr "Ne pas modifier cette valeur si ce n'est pas nécessaire pour le jeu (voir wiki rpcs3)."
+
+msgctxt "game_options"
+msgid "SAFE"
+msgstr "PRUDENT"
+
+msgctxt "game_options"
 msgid "AUDIO CHANNELS"
 msgstr "NOMBRE DE CANAUX AUDIO"
 
@@ -2190,7 +2242,7 @@ msgstr "Améliore la qualité des textures."
 
 msgctxt "game_options"
 msgid "CUSTOM TEXTURES"
-msgstr ""
+msgstr "TEXTURES PERSONNALISÉES"
 
 msgctxt "game_options"
 msgid "Replace original textures with custom textures pack."
@@ -2202,11 +2254,11 @@ msgstr "METTRE EN CACHE LES TEXTURES PERSONNALISÉES"
 
 msgctxt "game_options"
 msgid "简化字 (Chinese - simplified)"
-msgstr ""
+msgstr "CHINOIS SIMPLIFIÉ"
 
 msgctxt "game_options"
 msgid "簡化字 (Chinese - traditional)"
-msgstr ""
+msgstr "CHINOIS TRADITIONNEL"
 
 msgctxt "game_options"
 msgid "Enable the effects of the chosen Action Replay and Gecko codes for a game."
@@ -2254,7 +2306,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "CORRECTED"
-msgstr ""
+msgstr "CORRIGÉ"
 
 msgctxt "game_options"
 msgid "FORCE 60FPS"
@@ -2506,7 +2558,7 @@ msgstr "Définir le fournisseur Adlib. La valeur DEFAULT offre un bon compromis 
 
 msgctxt "game_options"
 msgid "HIGH QUALITY NUKED OPL3"
-msgstr ""
+msgstr "NUKED OPL3 HAUTE QUALITÉ"
 
 msgctxt "game_options"
 msgid "SOUNDBLASTER FM MODE"
@@ -2662,15 +2714,15 @@ msgstr "Type de processeur émulé. Laisser sur AUTO pour la meilleure performan
 
 msgctxt "game_options"
 msgid "DYNAMIC RECOMPILATION"
-msgstr ""
+msgstr "RECOMPILATION DYNAMIQUE"
 
 msgctxt "game_options"
 msgid "NORMAL (INTERPRETER)"
-msgstr ""
+msgstr "NORMAL (INTERPRÉTEUR)"
 
 msgctxt "game_options"
 msgid "SIMPLE (INTERPRETER)"
-msgstr ""
+msgstr "SIMPLE (INTERPRÉTEUR)"
 
 msgctxt "game_options"
 msgid "HIGH MEMORY"
@@ -2882,11 +2934,11 @@ msgstr "Activer un filtre passe-bas pour adoucir le son métallique de certains 
 
 msgctxt "game_options"
 msgid "AUDIO FILTER LEVEL"
-msgstr ""
+msgstr "FRÉQUENCE DE COUPURE"
 
 msgctxt "game_options"
 msgid "Specifies the cut-off frequency of the low-pass audio filter."
-msgstr ""
+msgstr "Définir la fréquence de coupure du filtre passe-bas."
 
 msgctxt "game_options"
 msgid "CPU OVERCLOCK"
@@ -2938,7 +2990,7 @@ msgstr "Forcer le type de média inséré."
 
 msgctxt "game_options"
 msgid "CONTROLS TYPE"
-msgstr ""
+msgstr "TYPES DE CONTRÔLES"
 
 msgctxt "game_options"
 msgid "Set default controler mapping."
@@ -3106,15 +3158,15 @@ msgstr "TRI ALPHA"
 
 msgctxt "game_options"
 msgid "per-strip (fast, least accurate)"
-msgstr ""
+msgstr "par bande (rapide, moins précis)"
 
 msgctxt "game_options"
 msgid "per-triangle (normal)"
-msgstr ""
+msgstr "par triangle (normal)"
 
 msgctxt "game_options"
 msgid "per-pixel (accurate)"
-msgstr ""
+msgstr "par pixel (précis)"
 
 msgctxt "game_options"
 msgid "Replace original textures with custom textures pack in 'bios\dc\textures'."
@@ -3206,11 +3258,11 @@ msgstr "Activer cette option pour permettre l'accès au menu service avec les bo
 
 msgctxt "game_options"
 msgid "FREE PLAY"
-msgstr ""
+msgstr "JEU GRATUIT"
 
 msgctxt "game_options"
 msgid "Modify the coin setting to Free Play."
-msgstr ""
+msgstr "Jouer sans mettre de crédits."
 
 msgctxt "game_options"
 msgid "OVERSCAN"
@@ -3238,31 +3290,31 @@ msgstr "DÉMARRAGE RAPIDE"
 
 msgctxt "game_options"
 msgid "Display the overscan regions of the screen."
-msgstr ""
+msgstr "Afficher les zones de surbalayage."
 
 msgctxt "game_options"
 msgid "TOP/BOTTOM"
-msgstr ""
+msgstr "HAUT/BAS"
 
 msgctxt "game_options"
 msgid "LEFT/RIGHT"
-msgstr ""
+msgstr "GAUCHE/DROITE"
 
 msgctxt "game_options"
 msgid "INTERLACED OUTPUT MODE"
-msgstr ""
+msgstr "MODE DE SORTIE ENTRELACÉ"
 
 msgctxt "game_options"
 msgid "Single Field applies a de-interlacing filter, Double Field mimics the original hardware."
-msgstr ""
+msgstr "La valeur 'champ simple' permet d'appliquer un filtre de désentrelacement, la valeur 'champ double' reproduit le comportement du matériel original."
 
 msgctxt "game_options"
 msgid "SINGLE FIELD"
-msgstr ""
+msgstr "CHAMP SIMPLE"
 
 msgctxt "game_options"
 msgid "DOUBLE FIELD"
-msgstr ""
+msgstr "CHAMP DOUBLE"
 
 msgctxt "game_options"
 msgid "MONOCHROME"
@@ -3278,7 +3330,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "This should only be disabled when playing ROM hacks."
-msgstr ""
+msgstr "Ne désactiver que lors du lancement de ROM hacks."
 
 msgctxt "game_options"
 msgid "LOCK UPS"
@@ -3286,15 +3338,15 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "This should only be disabled when playing certain demos and homebrews for correct operation."
-msgstr ""
+msgstr "Cette option ne doit être désactivée que pour lancer certaines démos de jeu ou des 'homebrews'."
 
 msgctxt "game_options"
 msgid "SPRITE LIMIT"
-msgstr ""
+msgstr "LIMITE DE SPRITES"
 
 msgctxt "game_options"
 msgid "Remove the original sprites-per-scanline hardware limit."
-msgstr ""
+msgstr "Supprimer la limite de srpites par ligne du matériel original."
 
 msgctxt "game_options"
 msgid "START ORIGINAL BIOS"
@@ -3314,11 +3366,11 @@ msgstr "FENÊTRÉ"
 
 msgctxt "game_options"
 msgid "Use official BIOS and bootloader for emulated hardware."
-msgstr ""
+msgstr "Utiliser le BIOS officiel pour l'émulation."
 
 msgctxt "game_options"
 msgid "LIGHTGUN INPUT MODE"
-msgstr ""
+msgstr "MODE D'ENTRÉE DU LIGHTGUN"
 
 msgctxt "game_options"
 msgid "Use a mouse-controlled Lightgun or Touchscreen input."
@@ -3342,11 +3394,11 @@ msgstr "Affiche la cible pour les pistolets."
 
 msgctxt "game_options"
 msgid "Mimics the display characteristics of the Game Gear and Nomad LCD panels."
-msgstr ""
+msgstr "Imite les caractéristiques d'affichage de la Game Gear et des écrans LCD portables."
 
 msgctxt "game_options"
 msgid "Better simulate the characteristic sound of a Megadrive/Genesis 1."
-msgstr ""
+msgstr "Imite le son original de la Megadrive."
 
 msgctxt "game_options"
 msgid "MEGADRIVE/GENESIS FM"
@@ -3354,7 +3406,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Select method used to emulate the FM synthetiser."
-msgstr ""
+msgstr "Définir la méthode d'émulation du synthétiseur FM."
 
 msgctxt "game_options"
 msgid "MAME (YM2612)"
@@ -3366,7 +3418,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "MAME (ENHANCED YM3438)"
-msgstr ""
+msgstr "MAME (YM438 AMÉLIORÉ)"
 
 msgctxt "game_options"
 msgid "NUKED (YM2612)"
@@ -3378,11 +3430,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "CD ADD-ON"
-msgstr ""
+msgstr "PÉRIPHÉRIQUE CD"
 
 msgctxt "game_options"
 msgid "Specifies wich add-on to use for audio CD playback with patched MD games."
-msgstr ""
+msgstr "Définir le type de périphérique à utiliser pour la lecture CD des jeux patchés."
 
 msgctxt "game_options"
 msgid "Mega CD"
@@ -3394,11 +3446,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "CARTRIDGE LOCK-ON"
-msgstr ""
+msgstr "CARTOUCHE ADDITIONNELLE"
 
 msgctxt "game_options"
 msgid "This option specifies which lock-on cartridge to emulate."
-msgstr ""
+msgstr "Cette option permet de choisir le type de cartouche additionnelle à utiliser."
 
 msgctxt "game_options"
 msgid "GAME GENIE"
@@ -3414,15 +3466,15 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "WIDESCREEN - EXTRA COLUMNS TO DRAW"
-msgstr ""
+msgstr "ÉCRAN LARGE - NOMBRE DE COLONNES ADDITIONNELLES"
 
 msgctxt "game_options"
 msgid "Set the amount of extra columns to draw for widescreen."
-msgstr ""
+msgstr "Définir le nombre de colonnes additionnelles à afficher pour l'option 'écran large'."
 
 msgctxt "game_options"
 msgid "10 (DEFAULT)"
-msgstr ""
+msgstr "10 (Défaut)"
 
 msgctxt "game_options"
 msgid "BOOT FROM CLI"
@@ -3434,7 +3486,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "CHEATS"
-msgstr ""
+msgstr "CODES DE TRICHE"
 
 msgctxt "game_options"
 msgid "LIGHTGUN MODE"
@@ -3586,7 +3638,7 @@ msgstr "SIMULTANÉ"
 
 msgctxt "game_options"
 msgid "Show or crop overscan. 'Auto' will try to adapt to game, cropping empty areas."
-msgstr ""
+msgstr "Afficher ou rogner les zones de surbalayage. 'Auto' permet d'ajuster la fonction au jeu, en rognant les zones vides."
 
 msgctxt "game_options"
 msgid "Crop horizontal"
@@ -3598,27 +3650,27 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "EMULATED SIGNAL TYPE"
-msgstr ""
+msgstr "TYPE DE SIGNAL ÉMULÉ"
 
 msgctxt "game_options"
 msgid "Modify rendering resolution."
-msgstr ""
+msgstr "Modifier la résolution du rendu."
 
 msgctxt "game_options"
 msgid "PIXEL BLENDING"
-msgstr ""
+msgstr "MÉLANGER LES PIXELS"
 
 msgctxt "game_options"
 msgid "Blend pixel together when in hires mode. Higher values will blur the picture more."
-msgstr ""
+msgstr "Mélanger les pixels lorsqu'une haute résolution est utilisée. Plus la valeur est élevée, plus l'image sera floue."
 
 msgctxt "game_options"
 msgid "AUDIO CHIP"
-msgstr ""
+msgstr "PUCE AUDIO"
 
 msgctxt "game_options"
 msgid "Change the emulated audio chip model."
-msgstr ""
+msgstr "Modifier le modèle de puce audio émulée."
 
 msgctxt "game_options"
 msgid "HuC6280 (PC-Engine)"
@@ -3630,11 +3682,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "RESAMPLER QUALITY"
-msgstr ""
+msgstr "QUALITÉ DU RÉÉCHANTILLONAGE"
 
 msgctxt "game_options"
 msgid "Higher values give better signal noise ratio and preservation of higher frequencies."
-msgstr ""
+msgstr "Les valeurs plus élevées permettent de préserver les hautes fréquences et offrent un meilleur ratio signal/bruit."
 
 msgctxt "game_options"
 msgid "ADPCM PRECISION"
@@ -3642,15 +3694,15 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Full precision of 12-bit for the MCM5205 ADPCM can reduce whining noise during ADPCM playback."
-msgstr ""
+msgstr "Une précision complète (12-bits) peut réduire le pleurage lors de la lecture ADPCM."
 
 msgctxt "game_options"
 msgid "CD SOUND TRACK VOLUME"
-msgstr ""
+msgstr "VOLUME DES PISTES AUDIO CD"
 
 msgctxt "game_options"
 msgid "Setting this too high may cause sample clipping."
-msgstr ""
+msgstr "Une valeur trop élevée peut générer du clipping."
 
 msgctxt "game_options"
 msgid "BIOS"
@@ -3658,7 +3710,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "'Games Express' is needed for several unlicensed games."
-msgstr ""
+msgstr "La valeur 'Games Express' est nécessaire pour faire fonctionner certains jeux non officiels."
 
 msgctxt "game_options"
 msgid "GAMES EXPRESS"
@@ -3690,19 +3742,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "CD-ROM IMAGE CACHE"
-msgstr ""
+msgstr "METTRE EN CACHE L'IMAGE DISQUE"
 
 msgctxt "game_options"
 msgid "Keep the CD image in memory."
-msgstr ""
+msgstr "Permet de garder en mémoire l'image disque (CD) pour raccourcir les temps d'accès."
 
 msgctxt "game_options"
 msgid "CD-ROM READING SPEED"
-msgstr ""
+msgstr "VITESSE DE LECTURE CD-ROM"
 
 msgctxt "game_options"
 msgid "Faster loading times but can cause issues with some games."
-msgstr ""
+msgstr "Améliore les temps de chargement mais peut poser des problèmes pour certains jeux."
 
 msgctxt "game_options"
 msgid "NATIVE"
@@ -3710,19 +3762,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "FORCE NTSC TIMINGS"
-msgstr ""
+msgstr "FORCER LES TIMINGS NTSC"
 
 msgctxt "game_options"
 msgid "This option can be used to override PAL timings to run games with NTSC timings."
-msgstr ""
+msgstr "Utiliser cette option pour forcer l'utilisation des timings NTSC même pour les jeux PAL."
 
 msgctxt "game_options"
 msgid "GAME ASPECT RATIO (WIDESCREEN)"
-msgstr ""
+msgstr "RAPPORT D'ASPECT (ÉCRAN LARGE)"
 
 msgctxt "game_options"
 msgid "The aspect ratio that's used by the Widescreen Hack."
-msgstr ""
+msgstr "Définir le rapport d'aspect utilisé avec le hack 'écran large'."
 
 msgctxt "game_options"
 msgid "WIDESCREEN HACKS"
@@ -3750,11 +3802,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "TEXTURES FILTERING"
-msgstr ""
+msgstr "FILTRAGE DES TEXTURES"
 
 msgctxt "game_options"
 msgid "Nearest emulates original hardware. Others filters may improve texture or reduce pixelation."
-msgstr ""
+msgstr "La valeur 'au plus proche' est celle utilisée par le système original. Les autres filtres permettent de réduire la pixellisation ou d'améliorer les textures."
 
 msgctxt "game_options"
 msgid "3-Point"
@@ -3774,7 +3826,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "PERSPECTIVE CORRECTION"
-msgstr ""
+msgstr "CORRECTION DES PERSPECTIVES"
 
 msgctxt "game_options"
 msgid "Eliminates position-dependent distortion and warping of textures."
@@ -3790,7 +3842,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "FORCE ANALOG STICKS"
-msgstr ""
+msgstr "FORCER LES STICKS ANALOGIQUES"
 
 msgctxt "game_options"
 msgid "If disabled, DualShock can be toggled between DIGITAL/ANALOG with START+SELECT+L1+L2+R1+R2."
