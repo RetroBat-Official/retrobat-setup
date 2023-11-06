@@ -62,6 +62,110 @@ msgid "Overrides the aspect ratio and stretches the image to the full display ar
 msgstr "Étirer l'image pour remplir tout l'écran. Utile pour les jeux disposant d'un patch 'écran large'."
 
 msgctxt "game_options"
+msgid "ENABLE 3D"
+msgstr "ACTIVER LA 3D"
+
+msgctxt "game_options"
+msgid "FSR UPSCALING"
+msgstr "MISE À L'ÉCHELLE FSR"
+
+msgctxt "game_options"
+msgid "Enable AMD FidelityFX upscaling, only works with VULKAN and an AMD graphics card."
+msgstr "Activer la mise à l'échelle AMD FidelityFX, uniquement compatible avec les cartes graphiques AMD et le pilot Vulkan."
+
+msgctxt "game_options"
+msgid "WRITE COLOR BUFFERS"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Enable this option if you get missing graphics or broken lighting ingame."
+msgstr "Activer cette option en cas de problèmes graphiques dans le jeu (éclairages érronés, éléments manquants)."
+
+msgctxt "game_options"
+msgid "ASYNCHRONOUS TEXTURE STREAMING"
+msgstr "RENDU DES TEXTURES ASYNCHRONE"
+
+msgctxt "game_options"
+msgid "Can improve performance on more powerful GPUs that have spare headroom. Only works with Vulkan renderer."
+msgstr "Peut améliorer les performances pour les cartes graphiques puissantes. Uniquement compatible avec le pilot Vulkan."
+
+msgctxt "game_options"
+msgid "WRITE DEPTH BUFFERS"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Writes depth buffer values to vm memory. Default off."
+msgstr "Copie les valeurs du tampon de profondeur dans la mémoire vidéo. Désactivé par défaut."
+
+msgctxt "game_options"
+msgid "READ DEPTH BUFFERS"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Initializes render target memory using vm memory. Default off."
+msgstr "Initialise le rendu des profondeurs depuis les valeurs en mémoire vidéo. Désactivé par défaut."
+
+msgctxt "game_options"
+msgid "READ COLOR BUFFERS"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Initializes render target memory using vm memory. Default off."
+msgstr "Initialise le rendu des couleurs depuis les valeurs en mémoire vidéo. Désactivé par défaut."
+
+msgctxt "game_options"
+msgid "FORCE CPU BLIT EMULATION"
+msgstr "FORCER L'ÉMULATION GRAPHIQUE SUR LE CPU"
+
+msgctxt "game_options"
+msgid "Forces emulation of blit and image manipulation on the CPU, more accurate in some cases and required for games like GT6."
+msgstr "Force l'émulation des objets graphiques et la manipulation d'images par le CPU, plus précis dans certains cas et requis pour certains jeux tel que GT6."
+
+msgctxt "game_options"
+msgid "DISABLE ZCULL OCCLUSION QUERIES"
+msgstr "DÉSACTIVER LES REQUÊTES D'OCCLUSION ZCULL"
+
+msgctxt "game_options"
+msgid "Performance boost, can also bring stability for some games like GT6."
+msgstr "Apporte des gains de performance, permet de stabiliser certains jeux tel que GT6."
+
+msgctxt "game_options"
+msgid "DRIVER WAKE-UP DELAY"
+msgstr "DÉLAI D'ACTIVATION DU PILOTE"
+
+msgctxt "game_options"
+msgid "Change this setting when encountering unstable games. The higher value, the better stability it may provide. 200μs and 400μs are generally good for most games."
+msgstr "Modifier ce paramètre en cas d'instabilité. Plus la valeur est élevée, plus la stabilité peut être améliorée. Une valeur entre 200μs et 400μs est généralement recommandée."
+
+msgctxt "game_options"
+msgid "STRICT RENDERING MODE"
+msgstr "MODE DE RENDU STRICT"
+
+msgctxt "game_options"
+msgid "Enforces strict compliance to the API specification. Might result in degraded performance in some games. Can resolve rare cases of missing graphics and flickering."
+msgstr "Contraint l'émulateur à respecter les spécifications de l'API graphique. Peut dégrader les performances mais permet dans de rares cas de corriger des problèmes graphiques (éléments manquants ou scintillement)."
+
+msgctxt "game_options"
+msgid "DISABLE VERTEX CACHE"
+msgstr "DÉSACTIVER LE CACHE DE VERTEX"
+
+msgctxt "game_options"
+msgid "Disables the vertex cache. Might resolve missing or flickering graphics output. May degrade performance."
+msgstr "Permet de résoudre des problèmes graphiques dans certains cas (scintillement, éléments manquants). Peut dégrader les performances."
+
+msgctxt "game_options"
+msgid "MULTITHREADED RSX"
+msgstr "RSX MULTI-THREAD"
+
+msgctxt "game_options"
+msgid "May improve performance for some high-core processors. May cause slowdown in some situations due to the extra worker thread load."
+msgstr "Permet d'améliorer les performances pour les processeurs multi-coeurs. Peut également causer des ralentissements en cas de charge trop importante sur un coeur."
+
+msgctxt "game_options"
+msgid "Overrides the aspect ratio and stretches the image to the full display area. Useful for games that have an ultrawide (21:9 or 32:9) patch available."
+msgstr "Étirer l'image pour remplir tout l'écran. Utile pour les jeux disposant d'un patch 'écran large'."
+
+msgctxt "game_options"
 msgid "ADAPT DISPLAY REFRESH RATE"
 msgstr "ADAPTER LE TAUX DE RAFRAÎCHISSEMENT AUTOMATIQUEMENT"
 
@@ -1991,6 +2095,46 @@ msgstr "PRÉCISION ZCULL"
 msgctxt "game_options"
 msgid "Precise is the most accurate and relaxed can increase performance but break some games."
 msgstr "La valeur 'relaxed' peut améliorer les performances mais risque de générer des erreurs."
+
+msgctxt "game_options"
+msgid "PPU DECODER"
+msgstr "DÉCODEUR PPU"
+
+msgctxt "game_options"
+msgid "LLVM is fastest, use the Interpreter settings if there are issues."
+msgstr "LLVM est plus rapide, sélectionner 'Interpreteur' en cas de problèmes."
+
+msgctxt "game_options"
+msgid "PPU LVM RECOMPILATION"
+msgstr "RECOMPILATION LVM PPU"
+
+msgctxt "game_options"
+msgid "If disabled, these modules will only be compiled when needed. Depending on the game, this might interrupt the gameplay unexpectedly and possibly frequently."
+msgstr "SI désactivé, la recompilation est effectuée uniquement quand nécéssaire. Peut générer des micro-lags."
+
+msgctxt "game_options"
+msgid "SPU DECODER"
+msgstr "DÉCODEUR SPU"
+
+msgctxt "game_options"
+msgid "LLVM is the fastest option with very good compatibility. If you experience issues, use the ASMJIT Recompiler."
+msgstr "LLVM est plus rapide et offre une bonne compatibilité, sélectionner 'ASMJIT' en cas de problèmes."
+
+msgctxt "game_options"
+msgid "LOWER SPU THREAD PRIORITY"
+msgstr "DIMINUER LA PRIORITÉ DES THREADS SPU"
+
+msgctxt "game_options"
+msgid "Runs SPU threads with lower priority than PPU threads. Default off"
+msgstr "Traite les tâches SPU avec une priorité plus basse que les tâches PPU. Désactivé par défaut."
+
+msgctxt "game_options"
+msgid "PREFERRED SPU THREADS"
+msgstr "NOMBRE DE THREADS SPU"
+
+msgctxt "game_options"
+msgid "Some SPU stages are sensitive to race conditions and allowing a limited number at a time helps alleviate performance stalls. Setting this to a smaller value might improve performance and reduce stuttering in some games."
+msgstr "Dans certains cas, réduire le nombre de tâches parallèles du SPU peut améliorer les performances."
 
 msgctxt "game_options"
 msgid "AUDIO CHANNELS"
