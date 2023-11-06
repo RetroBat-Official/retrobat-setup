@@ -58,6 +58,10 @@ msgid "STRETCH TO SCREEN"
 msgstr "ÉTIRER POUR REMPLIR L'ÉCRAN"
 
 msgctxt "game_options"
+msgid "Overrides the aspect ratio and stretches the image to the full display area. Useful for games that have an ultrawide (21:9 or 32:9) patch available."
+msgstr "Étirer l'image pour remplir tout l'écran. Utile pour les jeux disposant d'un patch 'écran large'."
+
+msgctxt "game_options"
 msgid "ADAPT DISPLAY REFRESH RATE"
 msgstr "ADAPTER LE TAUX DE RAFRAÎCHISSEMENT AUTOMATIQUEMENT"
 
@@ -158,12 +162,28 @@ msgid "DELETE"
 msgstr "SUPPRIMER"
 
 msgctxt "game_options"
+msgid "SHOW FOLDERS FIRST"
+msgstr "AFFICHER LES DOSSIERS EN PREMIER"
+
+msgctxt "game_options"
+msgid "SHOW RETROACHIEVEMENTS ICON"
+msgstr "AFFICHER L'ICÔNE DE SUCCÈS RÉTRO"
+
+msgctxt "game_options"
 msgid "RETROARCH OPTIONS"
 msgstr "OPTIONS RETROARCH"
 
 msgctxt "game_options"
 msgid "SCREEN ORIENTATION"
 msgstr "ORIENTATION DE L'ÉCRAN"
+
+msgctxt "game_options"
+msgid "Intro Videos"
+msgstr "Vidéos d'intro"
+
+msgctxt "game_options"
+msgid "Games"
+msgstr "Jeux"
 
 msgctxt "game_options"
 msgid "MONITOR INDEX"
@@ -542,6 +562,22 @@ msgid "Display different level of information about performance statistics."
 msgstr "Afficher des éléments statistiques sur la performance."
 
 msgctxt "game_options"
+msgid "MODULES MANAGEMENT METHOD"
+msgstr "GESTION DES MODULES"
+
+msgctxt "game_options"
+msgid "Define how modules should be managed."
+msgstr "Définir la façon de gérer l'activation des modules."
+
+msgctxt "game_options"
+msgid "Required to fix Tales of Hearts R, only valid if modules are managed from Retrobat."
+msgstr "Nécessaire pour 'Tales of Hearts R'."
+
+msgctxt "game_options"
+msgid "Required to fix Street Fighter vs Tekken, only valid if modules are managed from Retrobat."
+msgstr "Nécessaire pour 'Street Fighter vs Tekken'."
+
+msgctxt "game_options"
 msgid "FPS ONLY"
 msgstr "UNIQUEMENT FPS"
 
@@ -688,6 +724,30 @@ msgstr "Activer le mode HDR pour les écrans compatibles."
 msgctxt "game_options"
 msgid "HIGH RESOLUTION"
 msgstr "HAUTE RÉSOLUTION"
+
+msgctxt "game_options"
+msgid "1280x720 (Recommended)"
+msgstr "1280x720 (Recommandé)"
+
+msgctxt "game_options"
+msgid "Leave this on 16:9 unless you have a 4:3 monitor."
+msgstr "Garder le ratio 16:9 sauf si l'écran est 4:3."
+
+msgctxt "game_options"
+msgid "FRAMELIMIT"
+msgstr "LIMITE DE FPS"
+
+msgctxt "game_options"
+msgid "Only use framelimiter if a game runs too fast without it. Some games may crash if the framerate is too high. If that happens, set value to anything other than Off."
+msgstr "N'utiliser le limiteur que si les jeux sont accélérés. Il est possible que certains jeux plantent si le nombre d'images par seconde est trop élevé."
+
+msgctxt "game_options"
+msgid "SHADER MODE"
+msgstr "MÉTHODE DE COMPILATION DES SHADERS"
+
+msgctxt "game_options"
+msgid "INFINITE"
+msgstr "ILLIMITÉ"
 
 msgctxt "game_options"
 msgid "Enables high resolution CEL rendering."
@@ -1065,6 +1125,10 @@ msgid "ANISOTROPIC FILTERING"
 msgstr "FILTRAGE ANISOTROPE"
 
 msgctxt "game_options"
+msgid "Modern GPUs can handle this setting fine, even at 16x. Keep this on Auto if you want to use the original settings used by a real PS3."
+msgstr "Les GPUs modernes sont capables d'appliquer des valeurs élevées. Laisser sur AUTO pour utiliser la valeur originale d'une PS3."
+
+msgctxt "game_options"
 msgid "MODEL"
 msgstr "MODÈLE"
 
@@ -1277,6 +1341,10 @@ msgid "Invert A/B and X/Y"
 msgstr "INVERSER LES BOUTONS A/B ET X/Y"
 
 msgctxt "game_options"
+msgid "Invert A/B and X/Y buttons."
+msgstr "Inverser les boutons A/B et X/Y."
+
+msgctxt "game_options"
 msgid "Invert A/B"
 msgstr "INVERSER LES BOUTONS A/B"
 
@@ -1387,6 +1455,10 @@ msgstr "VIBRATION"
 msgctxt "game_options"
 msgid "ANTI-ALIASING"
 msgstr "ANTICRÉNELAGE"
+
+msgctxt "game_options"
+msgid "Emulates PS3 multisampling layout. Can fix some visual artifacts in some games."
+msgstr "Émulation de la méthode de multi-échantillonage de la PS3. Permet de corriger des bugs graphiques dans certains jeux."
 
 msgctxt "game_options"
 msgid "ANTI-ALIASING MODE"
@@ -1903,6 +1975,38 @@ msgstr "Diminue le 'stuttering' en compilant les shaders avant le démarrage du 
 msgctxt "game_options"
 msgid "SHADERS COMPILATION METHOD"
 msgstr "MÉTHODE DE COMPILATION DES SHADERS"
+
+msgctxt "game_options"
+msgid "SHADER QUALITY"
+msgstr "QUALITÉ DES SHADERS"
+
+msgctxt "game_options"
+msgid "Low shader quality can improve performance but cause glitches."
+msgstr "Peut améliorer les performances au risque de générer des erreurs d'affichage."
+
+msgctxt "game_options"
+msgid "ZCULL ACCURACY"
+msgstr "PRÉCISION ZCULL"
+
+msgctxt "game_options"
+msgid "Precise is the most accurate and relaxed can increase performance but break some games."
+msgstr "La valeur 'relaxed' peut améliorer les performances mais risque de générer des erreurs."
+
+msgctxt "game_options"
+msgid "AUDIO CHANNELS"
+msgstr "NOMBRE DE CANAUX AUDIO"
+
+msgctxt "game_options"
+msgid "Configure this setting if you want to switch between stereo and surround sound."
+msgstr "Permet de choisir un format surround lorsque du matériel compatible est utilisé."
+
+msgctxt "game_options"
+msgid "TIME STRETCHING"
+msgstr "ÉTIREMENT TEMPOREL"
+
+msgctxt "game_options"
+msgid "Reduces crackle and stutter, but may cause a very noticeable reduction in audio quality on slower CPUs, leave AUTO to disable."
+msgstr "Permet de réduire le lag et les problèmes audio, au prix d'une baisse de qualité sonore. Laisser sur AUTO pour désactiver."
 
 msgctxt "game_options"
 msgid "Reduce stuttering a the cost of much longuer delay to start a game and high GPU usage."
@@ -2450,6 +2554,10 @@ msgstr "Le processeur 'normal' peut s'avérer plus stable pour utiliser le syst�
 
 msgctxt "game_options"
 msgid "CORE PERFORMANCE STATISTICS"
+msgstr "AFFICHER LES STATISTIQUES"
+
+msgctxt "game_options"
+msgid "PERFORMANCE STATISTICS"
 msgstr "AFFICHER LES STATISTIQUES"
 
 msgctxt "game_options"
@@ -3765,6 +3873,10 @@ msgid "OVERLAY SHOW MOUSE CURSOR"
 msgstr "AFFICHER LE CURSEUR DE LA SOURIS"
 
 msgctxt "game_options"
+msgid "SHOW MOUSE CURSOR"
+msgstr "AFFICHER LE CURSEUR DE LA SOURIS"
+
+msgctxt "game_options"
 msgid "PLAYER 1 CONTROLER DEVICE"
 msgstr ""
 
@@ -3949,6 +4061,22 @@ msgid "DIVOT FILTER"
 msgstr ""
 
 msgctxt "game_options"
+msgid "SHADER CACHE"
+msgstr "METTRE EN CACHE LES SHADERS"
+
+msgctxt "game_options"
+msgid "Pre-coompile shader cache at game startup, leave ON for less stuttering in game."
+msgstr "Permet de réduire les lags en pré-compilant les shaders au lancement du jeu."
+
+msgctxt "game_options"
+msgid "TEXTURE CACHE"
+msgstr "METTRE EN CACHE LES TEXTURES"
+
+msgctxt "game_options"
+msgid "Select NO to disable texture cache."
+msgstr "Choisir NON pour désactiver la mise en cache des textures."
+
+msgctxt "game_options"
 msgid "Cleans up stray black pixels."
 msgstr ""
 
@@ -4037,6 +4165,22 @@ msgid "LOW"
 msgstr "FAIBLE"
 
 msgctxt "game_options"
+msgid "DISABLE SURFACE SYNC"
+msgstr "DÉSACTIVER SYNCHRONISATION DE SURFACE"
+
+msgctxt "game_options"
+msgid "Speed hack but might not be compatible with some games."
+msgstr "Incompatible avec certains jeux, mais permet des gains de performance conséquents."
+
+msgctxt "game_options"
+msgid "CPU OPTIMIZATIONS"
+msgstr "OPTIMISATIONS CPU"
+
+msgctxt "game_options"
+msgid "Leave this ON by default to enable CPU JIT Optimizations."
+msgstr "Laisser activé pour activer les optimisations JIT CPU."
+
+msgctxt "game_options"
 msgid "HIGH"
 msgstr "HAUTE"
 
@@ -4045,11 +4189,11 @@ msgid "BEST"
 msgstr "LA MEILLEURE"
 
 msgctxt "game_options"
-msgid "8X AA LINEAR"
+msgid "8x AA LINEAR"
 msgstr "8X AA LINÉAIRE"
 
 msgctxt "game_options"
-msgid "16X AA LINEAR"
+msgid "16x AA LINEAR"
 msgstr "16X AA LINÉAIRE"
 
 msgctxt "game_options"
@@ -5535,6 +5679,10 @@ msgstr ""
 msgctxt "game_options"
 msgid "EMULATED WIIMOTES"
 msgstr ""
+
+msgctxt "game_options"
+msgid "SHOW TROPHIES"
+msgstr "AFFICHER LES TROPHÉES"
 
 msgctxt "game_options"
 msgid "WIIMOTE TYPE"
