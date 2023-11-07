@@ -3870,19 +3870,67 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "SKIP BIOS"
-msgstr ""
+msgstr "SAUTER LE BIOS"
+
+msgctxt "game_options"
+msgid "Improves color depth."
+msgstr "Améliore la profondeur des couleurs."
+
+msgctxt "game_options"
+msgid "START BIOS"
+msgstr "LANCER LE BIOS"
+
+msgctxt "game_options"
+msgid "This will run the PS2 BIOS instead of a game."
+msgstr "Démarre le BIOS au lieu du jeu sélectionné."
 
 msgctxt "game_options"
 msgid "Skips the PlayStation BIOS boot animation normally displayed when loading content."
-msgstr ""
+msgstr "Passer le logo et l'animation de démarrage de la Playstation."
+
+msgctxt "game_options"
+msgid "Skips the BIOS boot animation displayed when loading content."
+msgstr "Passer le logo et l'animation de démarrage de la console."
+
+msgctxt "game_options"
+msgid "Automatically loads and applies cheats on game start."
+msgstr "Active automatiquement les codes triches au lancement du jeu."
 
 msgctxt "game_options"
 msgid "FORCE ANALOG STICKS"
 msgstr "FORCER LES STICKS ANALOGIQUES"
 
 msgctxt "game_options"
+msgid "Skips drawing surfaces for the area defined left and right."
+msgstr "Désactive le dessin des surfaces pour la zone définie à gauche et à droite."
+
+msgctxt "game_options"
+msgid "MANUAL RENDERER FIXES"
+msgstr "CORRECTIFS MANUELS DU MOTEUR DE RENDU"
+
+msgctxt "game_options"
+msgid "Enable manual hacks below, otherwise hacks will be apllied automatically."
+msgstr "Désactive les paramètres automatique de l'émulateur, permet d'activer manuellement les hacks listés ci-dessous."
+
+msgctxt "game_options"
+msgid "DISABLE SAFE FEATURES"
+msgstr "DÉSACTIVER LES FONCTIONNALITÉS SÛRES"
+
+msgctxt "game_options"
+msgid "Disabling safe features can help various games such as Xenosaga, Kingdom Hearts..."
+msgstr "Nécéssaire pour certains jeux tel que Xenosaga, Kingdom Hearts..."
+
+msgctxt "game_options"
+msgid "DISABLE SAFE FEATURES"
+msgstr "DÉSACTIVER LES FONCTIONNALITÉS SÛRES"
+
+msgctxt "game_options"
+msgid "Disabling safe features can help various games such as Xenosaga, Kingdom Hearts..."
+msgstr "Nécéssaire pour certains jeux tel que Xenosaga, Kingdom Hearts..."
+
+msgctxt "game_options"
 msgid "If disabled, DualShock can be toggled between DIGITAL/ANALOG with START+SELECT+L1+L2+R1+R2."
-msgstr ""
+msgstr "Quand désactivé, permet de passer du mode analogique au mode digital de la Dualshock à l'aide d'une combinaison de touches."
 
 msgctxt "game_options"
 msgid "ENHANCED RESOLUTION"
@@ -4258,7 +4306,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "DEINTERLACING METHOD"
-msgstr ""
+msgstr "MÉTHODE DE DÉSENTRELACEMENT"
 
 msgctxt "game_options"
 msgid "'Weave' should only be used with 1x scaling factor and CRT shaders."
@@ -4270,11 +4318,151 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "WEAVE"
-msgstr ""
+msgstr "TRESSAGE"
+
+msgctxt "game_options"
+msgid "WEAVE (Top first)"
+msgstr "TRESSAGE (Trame du haut en premier)"
+
+msgctxt "game_options"
+msgid "WEAVE (Bottom first)"
+msgstr "TRESSAGE (Trame du bas en premier)"
+
+msgctxt "game_options"
+msgid "BOB (Top first)"
+msgstr "BOB (Trame du haut en premier)"
+
+msgctxt "game_options"
+msgid "BOB (Bottom first)"
+msgstr "BOB (Trame du bas en premier)"
+
+msgctxt "game_options"
+msgid "BLEND (Top first)"
+msgstr "BLEND (Trame du haut en premier)"
+
+msgctxt "game_options"
+msgid "BLEND (Bottom first)"
+msgstr "BLEND (Trame du bas en premier)"
+
+msgctxt "game_options"
+msgid "ADAPTATIVE (Top first)"
+msgstr "ADAPTATIF (Trame du haut en premier)"
+
+msgctxt "game_options"
+msgid "ADAPTATIVE (Bottom first)"
+msgstr "ADAPTATIF (Trame du bas en premier)"
+
+msgctxt "game_options"
+msgid "WIDESCREEN PATCHES"
+msgstr "PATCH ÉCRAN LARGE"
+
+msgctxt "game_options"
+msgid "Automatically load widescreen patches on game start-up, might cause issues."
+msgstr "Charger automatiquement les patchs écrans larges au démarrage du jeu."
+
+msgctxt "game_options"
+msgid "NO-INTERLACING PATCHES"
+msgstr "PATCH DE DÉSENTRELACEMENT"
+
+msgctxt "game_options"
+msgid "Automatically load no-interlacing patches on game start-up, might cause issues."
+msgstr "Charger automatiquement les patchs de désactivation de l'entrelacement au démarrage du jeu."
+
+msgctxt "game_options"
+msgid "Use this option if PCSX2 is not displaying on the correct monitor."
+msgstr "Utiliser cette option pour désactiver le plein écran, permet de bouger la fenêtre de l'émulateur sur un autre écran."
+
+msgctxt "game_options"
+msgid "TEXTURE PRELOADING"
+msgstr "PRÉ-CHARGEMENT DES TEXTURES"
+
+msgctxt "game_options"
+msgid "Upload all textures at once, can improve performance."
+msgstr "Permet de charger les textures au démarrage du jeu, peut améliorer les performances."
+
+msgctxt "game_options"
+msgid "TRILINEAR FILTERING"
+msgstr "FILTRAGE TRILINÉAIRE"
+
+msgctxt "game_options"
+msgid "Control the texture tri-filtering of the emulation."
+msgstr "Contrôle le filtrage trilinéaire des textures."
+
+msgctxt "game_options"
+msgid "TRILINEAR (PS2)"
+msgstr "TRILINÉAIRE (PS2)"
+
+msgctxt "game_options"
+msgid "TRILINEAR (FORCED)"
+msgstr "TRILINÉAIRE (FORCÉ)"
+
+msgctxt "game_options"
+msgid "BILINEAR (PS2)"
+msgstr "BILINÉAIRE (PS2)"
+
+msgctxt "game_options"
+msgid "BILINEAR (FORCED)"
+msgstr "BILINÉAIRE (FORCÉ)"
+
+msgctxt "game_options"
+msgid "BILINEAR (FORCED EXCLUDING SPRITE)"
+msgstr "BILINÉAIRE (FORCÉ SAUF POUR 2D)"
+
+msgctxt "game_options"
+msgid "YES (SMOOTH)"
+msgstr "OUI (DOUX)"
+
+msgctxt "game_options"
+msgid "YES (SHARP)"
+msgstr "OUI (NET)"
+
+msgctxt "game_options"
+msgid "PARTIAL"
+msgstr "PARTIEL"
+
+msgctxt "game_options"
+msgid "SCREEN OFFSETS"
+msgstr "DÉCALAGE DE L'ÉCRAN"
+
+msgctxt "game_options"
+msgid "Useful for games with screenshake effects such as Wipeout Fusion, can make the picture blurry."
+msgstr "Utile pour corriger les tremblements d'écran sur certains jeux (Wipeout Fusion), peut rendre l'image plus floue."
+
+msgctxt "game_options"
+msgid "ANTI BLUR"
+msgstr "ANTI-FLOU"
+
+msgctxt "game_options"
+msgid "Enables anti blur hack, less accurate but makes games less blurry."
+msgstr "Activer les hacks internes anti-flou, l'image est moins fidèle mais les jeux seront moins flous."
+
+msgctxt "game_options"
+msgid "Control the accuracy of the mipmapping emulation."
+msgstr "Contrôle le niveau de précision de l'émulation du mipmapping."
+
+msgctxt "game_options"
+msgid "BASIC"
+msgstr "BASIQUE"
+
+msgctxt "game_options"
+msgid "Control the accuracy level of GS blending unit. Higher values will emulate blending more accurately in the shader."
+msgstr "Plus la valeur est élevée, plus l'émulation du blending sera précise, mais la vitesse d'émulation sera pénalisée."
+
+msgctxt "game_options"
+msgid "BLENDING ACCURACY"
+msgstr "PRÉCISION DU BLENDING"
 
 msgctxt "game_options"
 msgid "DITHERING FILTER"
-msgstr ""
+msgstr "FILTRE DE DITHERING"
+
+msgctxt "game_options"
+msgid "UNSCALED"
+msgstr "TAILLE ORIGINALE"
+
+msgctxt "game_options"
+msgid "SCALED"
+msgstr "MIS À L'ÉCHELLE"
 
 msgctxt "game_options"
 msgid "CONTROL SCHEME"
@@ -5046,15 +5234,15 @@ msgstr "hybride bicubique"
 
 msgctxt "game_options"
 msgid "TEXTURES SCALING"
-msgstr "UPSCALE DES TEXTURES"
+msgstr "MISE À L'ÉCHELLE DES TEXTURES"
 
 msgctxt "game_options"
 msgid "TEXTURE UPSCALING"
-msgstr "UPSCALE DES TEXTURES"
+msgstr "MISE À L'ÉCHELLE DES TEXTURES"
 
 msgctxt "game_options"
 msgid "UPSCALE TEXTURES"
-msgstr "UPSCALE DES TEXTURES"
+msgstr "MISE À L'ÉCHELLE DES TEXTURES"
 
 msgctxt "game_options"
 msgid "Choose level of textures scaling."
@@ -5066,11 +5254,11 @@ msgstr "Augmente la résolution des textures (algorythme xBRZ) sur certains jeux
 
 msgctxt "game_options"
 msgid "THREADS FOR TEXTURE UPSCALING"
-msgstr "NOMBRE DE THREADS POUR L'UPSCALE DES TEXTURES"
+msgstr "NOMBRE DE THREADS POUR LA MISE À L'ÉCHELLE DES TEXTURES"
 
 msgctxt "game_options"
 msgid "Maximum number of CPU threads to use for texture upscaling. Use total number of threads minus 1."
-msgstr "Nombre maximum de tâches CPU utilisées pour l'upscale des textures."
+msgstr "Nombre maximum de tâches CPU utilisées pour la mise à l'échelle des textures."
 
 msgctxt "game_options"
 msgid "COPY TEXTURES TO VRAM"
@@ -5082,7 +5270,7 @@ msgstr "Copier les textures vers la VRAM, plus lent mais plus précis. Désactiv
 
 msgctxt "game_options"
 msgid "Select the textures scaling level."
-msgstr "Définir le niveau d'amélioration (upscale) des textures."
+msgstr "Définir le niveau de mise à l'échelle des textures."
 
 msgctxt "game_options"
 msgid "TEXTURES DEPOSTERIZE"
@@ -5095,6 +5283,14 @@ msgstr "DÉPOSTÉRISER LES TEXTURES"
 msgctxt "game_options"
 msgid "GAME FIXES"
 msgstr "CORRECTIFS"
+
+msgctxt "game_options"
+msgid "STRETCH FIT TO WINDOW"
+msgstr "ÉTIRÉ À LA TAILLE DE L'ÉCRAN"
+
+msgctxt "game_options"
+msgid "MANUAL HACKS"
+msgstr "HACKS MANUELS"
 
 msgctxt "game_options"
 msgid "BIGPICTURE MODE"
@@ -5638,11 +5834,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "FMV RATIO"
-msgstr ""
+msgstr "RATIO D'ÉCRAN FMV"
 
 msgctxt "game_options"
 msgid "Set the aspect ratio of the FMV cinematics."
-msgstr ""
+msgstr "Modifier le ratio d'écran pendant les cinématiques (FMV)."
 
 msgctxt "game_options"
 msgid "DEINTERLACE"
@@ -5650,7 +5846,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Force the rendering and display of frames to progressive mode."
-msgstr ""
+msgstr "Forcer l'utilisation du mode progressif pour le rendu."
 
 msgctxt "game_options"
 msgid "Set Anti Aliasing for rendered content."
@@ -5674,7 +5870,7 @@ msgstr "Activer la sauvegarde automatique et définir la fréquence de sauvegard
 
 msgctxt "game_options"
 msgid "Use bilinear filtering when upscaling/downscaling the image to the screen."
-msgstr "Active le filtrage bilinéaire en cas d'upscale/downscale de l'image."
+msgstr "Active le filtrage bilinéaire en cas de mise à l'échelle de l'image."
 
 msgctxt "game_options"
 msgid "Use bilinear filtering to smooth the overall picture."
@@ -5730,7 +5926,11 @@ msgstr "FORCER (si problèmes avec AUTO)"
 
 msgctxt "game_options"
 msgid "HALF PIXEL OFFSET (FIX)"
-msgstr ""
+msgstr "DÉCALAGE DEMI-PIXEL (FIX)"
+
+msgctxt "game_options"
+msgid "HALF PIXEL OFFSET"
+msgstr "DÉCALAGE DEMI-PIXEL"
 
 msgctxt "game_options"
 msgid "ENABLE BLOOM"
@@ -5746,7 +5946,7 @@ msgstr "GL-MODE DE RENDU DU CIEL"
 
 msgctxt "game_options"
 msgid "Might fix some misaligned fog, bloom or blend effect."
-msgstr ""
+msgstr "Permet de corriger des décalages sur les effets de brouillards ou d'éclairage."
 
 msgctxt "game_options"
 msgid "NORMAL (VERTEX)"
@@ -5762,11 +5962,15 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "ROUND SPRITE (FIX)"
-msgstr ""
+msgstr "ARRONDIR LES SPRITES (FIX)"
+
+msgctxt "game_options"
+msgid "ROUND SPRITE"
+msgstr "ARRONDIR LES SPRITES"
 
 msgctxt "game_options"
 msgid "Correct the sampling of 2D sprite textures when upscaling."
-msgstr ""
+msgstr "Corrige l'échantillonage des textures des images 2D lors de la mise à l'échelle."
 
 msgctxt "game_options"
 msgid "HALF"
@@ -5774,23 +5978,47 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "ALIGN SPRITE (FIX)"
-msgstr ""
+msgstr "ALIGNER LES SPRITES (FIX)"
+
+msgctxt "game_options"
+msgid "ALIGN SPRITE"
+msgstr "ALIGNER LES SPRITES"
 
 msgctxt "game_options"
 msgid "Fix issues with upscaling in Namco games (Ace Combat, Tekken, SoulCalibur...)."
-msgstr ""
+msgstr "Corrige les problèmes de mise à l'échelle pour les jeux Namco (Ace Combat, Tekken, SoulCalibur...)."
 
 msgctxt "game_options"
 msgid "MERGE SPRITE (FIX)"
-msgstr ""
+msgstr "FUSIONNER LES SPRITES (FIX)"
+
+msgctxt "game_options"
+msgid "MERGE SPRITE"
+msgstr "FUSIONNER LES SPRITES"
 
 msgctxt "game_options"
 msgid "Replaces post-processing multiple paving sprites by a single fat sprite."
-msgstr ""
+msgstr "Fusionne les sprites sur lesquels le post-traitement est appliqué. Cela permet de réduire les lignes visibles lors de la mise à l'échelle."
+
+msgctxt "game_options"
+msgid "WILD ARMS HACK"
+msgstr "HACK WILD ARMS"
+
+msgctxt "game_options"
+msgid "Lower the GS precision to avoid gap between pixels when upscaling. Fix Wild Arms text, SoulCalibur ghosting."
+msgstr "Diminue la précision du GS pour éviter les écarts entre les pixels lors de la mise à l'échelle, nécéssaire pour Wild Arms."
 
 msgctxt "game_options"
 msgid "TEXTURE OFFSETS (FIX)"
-msgstr ""
+msgstr "DÉCALAGE DE TEXTURES (FIX)"
+
+msgctxt "game_options"
+msgid "TEXTURE OFFSETS (HACK)"
+msgstr "DÉCALAGE DE TEXTURES (HACK)"
+
+msgctxt "game_options"
+msgid "Offset for the ST/UV texture coordinates."
+msgstr "Décalage des coordonnées ST/UV des textures. Peut corriger l'alignement de certains effets post-traitement."
 
 msgctxt "game_options"
 msgid "Offset for the ST/UV texture coordinates."
