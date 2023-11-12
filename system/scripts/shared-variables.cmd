@@ -48,6 +48,7 @@ if not "%script_type%" == "builder" (
 	(echo shaders_path=!root_path!\system\shaders)>> "%tmp_infos_file%"
 	(echo system_path=!root_path!\system)>> "%tmp_infos_file%"
 	(echo wiimotegun_path=!root_path!\emulationstation)>> "%tmp_infos_file%"
+	(echo modules_path=!root_path!\system\tools)>> "%tmp_infos_file%"
 
 ) else (
 
@@ -70,6 +71,7 @@ if not "%script_type%" == "builder" (
 	(echo shaders_path=!build_path!\system\shaders)>> "%tmp_infos_file%"
 	(echo system_path=!build_path!\system)>> "%tmp_infos_file%"
 	(echo wiimotegun_path=!build_path!\emulationstation)>> "%tmp_infos_file%"
+	(echo modules_path=!root_path!\system\tools)>> "%tmp_infos_file%"
 )
 	
 :: ---- URLS ----
@@ -108,11 +110,11 @@ if exist "%root_path%\emulationstation\%version_file_local%" (
 
 if not "%script_type%" == "builder" if not "%extract_pkg%" == "es" (
 
-	if exist "%root_path%\system\modules\rb_updater\%version_file_remote%" del/Q "%root_path%\system\modules\rb_updater\%version_file_remote%" >nul
-	if exist "%root_path%\system\modules\rb_updater\%version_file_remote%.*" del/Q "%root_path%\system\modules\rb_updater\%version_file_remote%.*" >nul
-	"%root_path%\system\modules\rb_updater\wget" --no-check-certificate --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t 3 -P "%root_path%\system\modules\rb_updater" %installroot_url%/repo/%arch%/%branch%/%version_local%/%version_file_remote% -q
+	if exist "%root_path%\system\tools\%version_file_remote%" del/Q "%root_path%\system\tools\%version_file_remote%" >nul
+	if exist "%root_path%\system\tools\%version_file_remote%.*" del/Q "%root_path%\system\tools\%version_file_remote%.*" >nul
+	"%root_path%\system\tools\wget" --no-check-certificate --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t 3 -P "%root_path%\system\tools" %installroot_url%/repo/%arch%/%branch%/%version_local%/%version_file_remote% -q
 
-	if not exist "%root_path%\system\modules\rb_updater\%version_file_remote%" (
+	if not exist "%root_path%\system\tools\%version_file_remote%" (
 	
 		(set exit_msg=error: missing version file)
 		(set/A exit_code=2)
@@ -124,9 +126,9 @@ if not "%script_type%" == "builder" if not "%extract_pkg%" == "es" (
 	)
 )
 
-if exist "%root_path%\system\modules\rb_updater\%version_file_remote%" (
+if exist "%root_path%\system\tools\%version_file_remote%" (
 	
-	set/P version_remote=<"%root_path%\system\modules\rb_updater\%version_file_remote%"
+	set/P version_remote=<"%root_path%\system\tools\%version_file_remote%"
 	(echo version_remote=!version_remote!)>> "%tmp_infos_file%"
 	
 )
