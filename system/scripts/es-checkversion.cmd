@@ -135,24 +135,7 @@ if not "%tmp_infos_file%" == "" if exist "%tmp_infos_file%" del/Q "%tmp_infos_fi
 
 :: ---- PING TEST ----
 
-set "reg_key=InstallRootUrl"
-reg query "HKCU\Software\RetroBat" /v "%reg_key%" >nul 2>&1
-if %ERRORLEVEL% EQU 0 (
-
-	for /f "tokens=2* skip=2" %%a in ('reg query %reg_path% /v %reg_key%') do (
-		
-		set "installrooturl=%reg_key%"
-	)
-
-) else (
-
-	(set/A exit_code=1)
-	(set exit_msg=install not found)
-	call :exit_door
-	goto :eof
-)
-
-ping %installroot_url% >nul
+ping www.retrobat.ovh >nul
 if %ERRORLEVEL% NEQ 0 (exit 1)
 
 :: ---- CALL SHARED VARIABLES SCRIPT ----
@@ -190,7 +173,7 @@ if exist "%tmp_infos_file%" (
 if not "%version_remote%"=="%version_local%" (
 
 	if exist "!root_path!\emulationstation\es-update.cmd" del/Q "!root_path!\emulationstation\es-update.cmd" >nul
-	"!root_path!\system\modules\rb_updater\wget" --no-check-certificate wget --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t 3 -P "%emulationstation_path%" %installroot_url%/repo/%arch%/%branch%/%version_local%/es-update.cmd -q >nul
+	"!root_path!\system\tools\wget" --no-check-certificate wget --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t 3 -P "%emulationstation_path%" %installroot_url%/repo/%arch%/%branch%/%version_local%/es-update.cmd -q >nul
 	echo %version_remote%
 	exit 0
 	
