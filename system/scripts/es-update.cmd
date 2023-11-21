@@ -319,6 +319,15 @@ if exist "!download_path!\!package_file!" (
 		if exist "%system_path%\modules\rb_launcher\*.mfx" del/Q "%system_path%\modules\rb_launcher\*.mfx"
 	)
 	
+	if "!version_local!" == "6.0.0-20231001-beta-win64" (
+	
+		if exist "%emulators_path%\retroarch\core\4do_libretro.dll" del/Q "%emulators_path%\retroarch\core\4do_libretro.dll" >nul
+		if exist "%emulators_path%\retroarch\platforms\*.dll" del/Q "%emulators_path%\retroarch\platforms\*.dll" >nul
+		if exist "%system_path%\modules\rb_launcher\*.dll" del/Q "%system_path%\modules\rb_launcher\*.dll"
+		if exist "%system_path%\modules\rb_launcher\*.ift" del/Q "%system_path%\modules\rb_launcher\*.ift"
+		if exist "%system_path%\modules\rb_launcher\*.mfx" del/Q "%system_path%\modules\rb_launcher\*.mfx"
+	)
+	
 	for %%i in %folder_list% do (
 	
 		"%modules_path%\7za.exe" -y x "!download_path!\!package_file!" -aoa -o"!extraction_path!" "%%i\*" >nul
@@ -500,8 +509,7 @@ for %%i in %modules_list% do (
 	(set/A found_%%i=0)
 	(set/A found_total=!found_total!+1)
 	(set package_name=%%i)
-	(set modules_path=!root_path!\system\modules\rb_updater)
-	rem (set modules_path=!root_path!\system\tools)
+	(set modules_path=!root_path!\system\tools)
 	
 	if exist "!modules_path!\!package_name!.exe" ((set/A found_%%i=!found_%%i!+1))
 	
@@ -643,6 +651,20 @@ if exist "%download_path%\%package_file%" (
 	)
 	
 	if "!version_local!" == "5.3.0-stable-win64" (
+	
+		if exist "%system_path%\modules\rb_updater\." rmdir /s /q "%system_path%\modules\rb_updater" >nul
+		if exist "%emulationstation_path%\.emulationstation\themes\es-theme-carbon\." ren "%emulationstation_path%\.emulationstation\themes\es-theme-carbon" "es-theme-carbon-old" >nul"
+		if exist "%emulationstation_path%\.emulationstation\themes\es-theme-carbon-master\." ren "%emulationstation_path%\.emulationstation\themes\es-theme-carbon-master" "es-theme-carbon" >nul"
+	)
+	
+	if "!version_local!" == "6.0.0-20231001-beta-win64" (
+	
+		if exist "%system_path%\modules\rb_updater\." rmdir /s /q "%system_path%\modules\rb_updater" >nul
+		if exist "%emulationstation_path%\.emulationstation\themes\es-theme-carbon\." ren "%emulationstation_path%\.emulationstation\themes\es-theme-carbon" "es-theme-carbon-old" >nul"
+		if exist "%emulationstation_path%\.emulationstation\themes\es-theme-carbon-master\." ren "%emulationstation_path%\.emulationstation\themes\es-theme-carbon-master" "es-theme-carbon" >nul"
+	)
+
+	if "!version_local!" == "6.0.0-20231030-beta-win64" (
 	
 		if exist "%system_path%\modules\rb_updater\." rmdir /s /q "%system_path%\modules\rb_updater" >nul
 		if exist "%emulationstation_path%\.emulationstation\themes\es-theme-carbon\." ren "%emulationstation_path%\.emulationstation\themes\es-theme-carbon" "es-theme-carbon-old" >nul"
