@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <gameList>
 	<game>
 		<path>./applewin.menu</path>
@@ -526,7 +526,7 @@
 		<name>DOSBox Pure Libretro (MS-DOS)</name>
 		<desc>Run DOSBox Pure Libretro.</desc>
 		<image>./media/dosbox_pure_libretro-logo.png</image>
-		<marquee>./media/dosbox_pure-logo.png</marquee>
+		<marquee>./media/dosbox_pure_libretro-logo.png</marquee>
 		<rating>0</rating>
 		<releasedate />
 		<developer>DOSBox Pure Team</developer>
@@ -659,8 +659,8 @@
 	</game>
     <game>
 		<path>./phoenix.menu</path>
-		<name>Phoenix (3DO & jaguar emulator)</name>
-		<desc>Run Phoenix  (3DO & jaguar Emulator).</desc>
+		<name>Phoenix (3DO &amp; jaguar emulator)</name>
+		<desc>Run Phoenix  (3DO &amp; jaguar Emulator).</desc>
 		<image>./media/phoenix.png</image>
 		<marquee>./media/phoenix.png</marquee>
 		<rating>0</rating>
