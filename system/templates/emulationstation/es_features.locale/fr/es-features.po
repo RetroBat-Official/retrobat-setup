@@ -942,6 +942,10 @@ msgid "NEVER"
 msgstr "JAMAIS"
 
 msgctxt "game_options"
+msgid "never"
+msgstr "jamais"
+
+msgctxt "game_options"
 msgid "Never overwrite old savestates, always make new ones."
 msgstr "Ne jamais enregistrer sur un emplacement existant, créer un nouvel emplacement à chaque sauvegarde."
 
@@ -970,8 +974,32 @@ msgid "SHOW SAVESTATE MANAGER"
 msgstr "AFFICHER LE GESTIONNAIRE DE SAUVEGARDES"
 
 msgctxt "game_options"
+msgid "GROUP CUSTOM COLLECTIONS"
+msgstr "GROUPER LES COLLECTIONS PERSONNALISÉES"
+
+msgctxt "game_options"
+msgid "RESET GAMELISTS USAGE DATA"
+msgstr "METTRE À ZÉRO LES STATISTIQUES DANS LES GAMELISTS"
+
+msgctxt "game_options"
+msgid "Reset values of GameTime, PlayCount and LastPlayed metadatas."
+msgstr "Mettre à zéro les métadonnées 'temps de jeu', 'compteur de jeu' et 'dernière partie'."
+
+msgctxt "game_options"
+msgid "Reset customized file extensions filters to default."
+msgstr "Mettre à zéro les filtres des extensions de fichier."
+
+msgctxt "game_options"
+msgid "Remove unused entries, and clean references to missing medias."
+msgstr "Supprimer les entrées inexistantes et nettoyer les références aux médias manquants."
+
+msgctxt "game_options"
 msgid "ALWAYS"
 msgstr "TOUJOURS"
+
+msgctxt "game_options"
+msgid "always"
+msgstr "toujours"
 
 msgctxt "game_options"
 msgid "IF NOT EMPTY"
