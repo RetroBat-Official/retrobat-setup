@@ -826,8 +826,20 @@ msgid "FULLSCREEN"
 msgstr "PLEIN ÉCRAN"
 
 msgctxt "game_options"
+msgid "DEVELOPER SETTINGS"
+msgstr "PARAMÈTRES DÉVELOPPEURS"
+
+msgctxt "game_options"
+msgid "AUTOCONFIGURE EMULATOR"
+msgstr "AUTOCONFIGURATION DE L'ÉMULATEUR"
+
+msgctxt "game_options"
 msgid "Force emulator in fullscreen even if RetroBat is windowed"
 msgstr "Forcer l'émulateur en plein écran même si RetroBat est fenêtré."
+
+msgctxt "game_options"
+msgid "Place custom 'crosshair.png' file in 'cross' subfolder of pcsx2 emulator."
+msgstr "Placer le fichier 'crosshair.png' dans le sous-dossier 'cross' de l'émulateur pcsx2."
 
 msgctxt "game_options"
 msgid "ENABLE HDR"
@@ -5341,20 +5353,24 @@ msgid "GUNCON BUTTON MAPPING"
 msgstr "MAPPING DES BOUTONS GUNCON"
 
 msgctxt "game_options"
-msgid "KEYBOARD (MOUSE MIDDLE as START)"
-msgstr "CLAVIER (SOURIS MILIEU POUR START)"
+msgid "KB & MOUSE (MOUSE MID\LEFT as START\A)"
+msgstr "CLAVIER\SOURIS (SOURIS MILIEU\GAUCHE POUR START\A)"
 
 msgctxt "game_options"
-msgid "KEYBOARD (RETURN as START)"
-msgstr "CLAVIER (ENTRÉE MILIEUR POUR START)"
+msgid "KB (RETURN as START)"
+msgstr "CLAVIER (ENTRÉE POUR START)"
 
 msgctxt "game_options"
-msgid "KEYBOARD (VOL+ and VOL- as A/B)"
+msgid "KB (VOL+ & VOL- as A/B)"
 msgstr "CLAVIER (VOL+ et VOL- pour A/B)"
 
 msgctxt "game_options"
 msgid "GAMEPAD"
 msgstr "MANETTE"
+
+msgctxt "game_options"
+msgid "PLAYER 1 GUN PORT"
+msgstr "PORT USB DU GUNCON"
 
 msgctxt "game_options"
 msgid "Define how to map the guncon2 buttons."
