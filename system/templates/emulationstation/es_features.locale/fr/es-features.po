@@ -2145,7 +2145,7 @@ msgid "COMPILE SHADERS BEFORE STARTING"
 msgstr "COMPILER LES SHADERS AU DÉMARRAGE"
 
 msgctxt "game_options"
-msgid "May reduce stuttering a the cost of longuer delay to start a game."
+msgid "May reduce stuttering a the cost of longer delay to start a game."
 msgstr "Diminue le 'stuttering' en compilant les shaders avant le démarrage du jeu, augmente le temps de chargement."
 
 msgctxt "game_options"
@@ -2277,7 +2277,7 @@ msgid "Reduces crackle and stutter, but may cause a very noticeable reduction in
 msgstr "Permet de réduire le lag et les problèmes audio, au prix d'une baisse de qualité sonore. Laisser sur AUTO pour désactiver."
 
 msgctxt "game_options"
-msgid "Reduce stuttering a the cost of much longuer delay to start a game and high GPU usage."
+msgid "Reduce stuttering a the cost of much longer delay to start a game and high GPU usage."
 msgstr "Définir la méthode de compilation des shaders, peut réduire les effets de 'stuterring' mais augmenter l'utilisation CPU."
 
 msgctxt "game_options"
