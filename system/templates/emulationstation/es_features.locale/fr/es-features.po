@@ -826,8 +826,20 @@ msgid "FULLSCREEN"
 msgstr "PLEIN ÉCRAN"
 
 msgctxt "game_options"
+msgid "DEVELOPER SETTINGS"
+msgstr "PARAMÈTRES DÉVELOPPEURS"
+
+msgctxt "game_options"
+msgid "AUTOCONFIGURE EMULATOR"
+msgstr "AUTOCONFIGURATION DE L'ÉMULATEUR"
+
+msgctxt "game_options"
 msgid "Force emulator in fullscreen even if RetroBat is windowed"
 msgstr "Forcer l'émulateur en plein écran même si RetroBat est fenêtré."
+
+msgctxt "game_options"
+msgid "Place custom 'crosshair.png' file in 'cross' subfolder of pcsx2 emulator."
+msgstr "Placer le fichier 'crosshair.png' dans le sous-dossier 'cross' de l'émulateur pcsx2."
 
 msgctxt "game_options"
 msgid "ENABLE HDR"
@@ -942,6 +954,10 @@ msgid "NEVER"
 msgstr "JAMAIS"
 
 msgctxt "game_options"
+msgid "never"
+msgstr "jamais"
+
+msgctxt "game_options"
 msgid "Never overwrite old savestates, always make new ones."
 msgstr "Ne jamais enregistrer sur un emplacement existant, créer un nouvel emplacement à chaque sauvegarde."
 
@@ -970,8 +986,32 @@ msgid "SHOW SAVESTATE MANAGER"
 msgstr "AFFICHER LE GESTIONNAIRE DE SAUVEGARDES"
 
 msgctxt "game_options"
+msgid "GROUP CUSTOM COLLECTIONS"
+msgstr "GROUPER LES COLLECTIONS PERSONNALISÉES"
+
+msgctxt "game_options"
+msgid "RESET GAMELISTS USAGE DATA"
+msgstr "METTRE À ZÉRO LES STATISTIQUES DANS LES GAMELISTS"
+
+msgctxt "game_options"
+msgid "Reset values of GameTime, PlayCount and LastPlayed metadatas."
+msgstr "Mettre à zéro les métadonnées 'temps de jeu', 'compteur de jeu' et 'dernière partie'."
+
+msgctxt "game_options"
+msgid "Reset customized file extensions filters to default."
+msgstr "Mettre à zéro les filtres des extensions de fichier."
+
+msgctxt "game_options"
+msgid "Remove unused entries, and clean references to missing medias."
+msgstr "Supprimer les entrées inexistantes et nettoyer les références aux médias manquants."
+
+msgctxt "game_options"
 msgid "ALWAYS"
 msgstr "TOUJOURS"
+
+msgctxt "game_options"
+msgid "always"
+msgstr "toujours"
 
 msgctxt "game_options"
 msgid "IF NOT EMPTY"
@@ -2105,7 +2145,7 @@ msgid "COMPILE SHADERS BEFORE STARTING"
 msgstr "COMPILER LES SHADERS AU DÉMARRAGE"
 
 msgctxt "game_options"
-msgid "May reduce stuttering a the cost of longuer delay to start a game."
+msgid "May reduce stuttering a the cost of longer delay to start a game."
 msgstr "Diminue le 'stuttering' en compilant les shaders avant le démarrage du jeu, augmente le temps de chargement."
 
 msgctxt "game_options"
@@ -2237,7 +2277,7 @@ msgid "Reduces crackle and stutter, but may cause a very noticeable reduction in
 msgstr "Permet de réduire le lag et les problèmes audio, au prix d'une baisse de qualité sonore. Laisser sur AUTO pour désactiver."
 
 msgctxt "game_options"
-msgid "Reduce stuttering a the cost of much longuer delay to start a game and high GPU usage."
+msgid "Reduce stuttering a the cost of much longer delay to start a game and high GPU usage."
 msgstr "Définir la méthode de compilation des shaders, peut réduire les effets de 'stuterring' mais augmenter l'utilisation CPU."
 
 msgctxt "game_options"
@@ -5313,20 +5353,24 @@ msgid "GUNCON BUTTON MAPPING"
 msgstr "MAPPING DES BOUTONS GUNCON"
 
 msgctxt "game_options"
-msgid "KEYBOARD (MOUSE MIDDLE as START)"
-msgstr "CLAVIER (SOURIS MILIEU POUR START)"
+msgid "KB & MOUSE (MOUSE MID\LEFT as START\A)"
+msgstr "CLAVIER\SOURIS (SOURIS MILIEU\GAUCHE POUR START\A)"
 
 msgctxt "game_options"
-msgid "KEYBOARD (RETURN as START)"
-msgstr "CLAVIER (ENTRÉE MILIEUR POUR START)"
+msgid "KB (RETURN as START)"
+msgstr "CLAVIER (ENTRÉE POUR START)"
 
 msgctxt "game_options"
-msgid "KEYBOARD (VOL+ and VOL- as A/B)"
+msgid "KB (VOL+ & VOL- as A/B)"
 msgstr "CLAVIER (VOL+ et VOL- pour A/B)"
 
 msgctxt "game_options"
 msgid "GAMEPAD"
 msgstr "MANETTE"
+
+msgctxt "game_options"
+msgid "PLAYER 1 GUN PORT"
+msgstr "PORT USB DU GUNCON"
 
 msgctxt "game_options"
 msgid "Define how to map the guncon2 buttons."
