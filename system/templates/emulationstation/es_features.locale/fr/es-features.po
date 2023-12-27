@@ -4157,6 +4157,22 @@ msgid "Define the area where to crop pixels around edge of screen."
 msgstr "Définir la zone de l'écran à rogner."
 
 msgctxt "game_options"
+msgid "CROP"
+msgstr "RECADRER"
+
+msgctxt "game_options"
+msgid "Crops the borders to show or hide border graphics."
+msgstr "Coupe les bords pour recadrer l'image."
+
+msgctxt "game_options"
+msgid "SMALL"
+msgstr "PETIT"
+
+msgctxt "game_options"
+msgid "Crop the picture from its native aspect ratio to 4:3 or 16:9"
+msgstr "Coupe les bords de l'image pour recadrer en 4:3 ou 16:9."
+
+msgctxt "game_options"
 msgid "Replaces game's sprites by HD pack available in HdPacks bios directory."
 msgstr "Remplace les textures du jeu par un pack de texture situé dans le dossier 'HdPacks' du dossier 'bios'."
 
@@ -6318,7 +6334,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "MEDIUM"
-msgstr ""
+msgstr "MOYEN"
 
 msgctxt "game_options"
 msgid "MIN"
