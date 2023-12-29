@@ -3921,7 +3921,7 @@ msgid "START BIOS"
 msgstr "LANCER LE BIOS"
 
 msgctxt "game_options"
-msgid "This will run the PS2 BIOS instead of a game."
+msgid "This will run the console BIOS instead of a game."
 msgstr "Démarre le BIOS au lieu du jeu sélectionné."
 
 msgctxt "game_options"

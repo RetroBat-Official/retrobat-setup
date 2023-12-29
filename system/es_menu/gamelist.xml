@@ -239,6 +239,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./kronos.menu</path>
+		<name>Kronos (Saturn)</name>
+		<desc>Run Kronos (Saturn).</desc>
+		<image>./media/kronos-logo.png</image>
+		<marquee>./media/kronos-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>François Caron</developer>
+		<publisher />
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./m2emulator.menu</path>
 		<name>M2Emulator (Model 2)</name>
 		<desc>Run M2Emulator (Model 2).</desc>
