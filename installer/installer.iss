@@ -93,10 +93,14 @@ Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
 
+[Components]
+Name: "program"; Description: "Required files"; Flags: fixed
+Name: "dependencies"; Description: "Required dependencies"
+
 [Files]
-Source: "{#SourceDir}\*"; Excludes: "es_input.cfg,es_settings.cfg"; DestDir: "{app}"; Flags: ignoreversion createallsubdirs recursesubdirs
-Source: "{#SourceDir}\emulationstation\.emulationstation\es_settings.cfg"; DestDir: "{app}\emulationstation\.emulationstation\"; Flags: ignoreversion onlyifdoesntexist
-Source: "{#SourceDir}\emulationstation\.emulationstation\es_input.cfg"; DestDir: "{app}\emulationstation\.emulationstation\"; Flags: ignoreversion onlyifdoesntexist
+Source: "{#SourceDir}\*"; Excludes: "es_input.cfg,es_settings.cfg"; DestDir: "{app}"; Flags: ignoreversion createallsubdirs recursesubdirs ; Components: program
+Source: "{#SourceDir}\emulationstation\.emulationstation\es_settings.cfg"; DestDir: "{app}\emulationstation\.emulationstation\"; Components: program; Flags: ignoreversion onlyifdoesntexist
+Source: "{#SourceDir}\emulationstation\.emulationstation\es_input.cfg"; DestDir: "{app}\emulationstation\.emulationstation\"; Components: program; Flags: ignoreversion onlyifdoesntexist
 
 #ifdef UseDirectX
 Source: ".\redist\dxwebsetup.exe"; Flags: dontcopy noencryption
@@ -112,8 +116,25 @@ Root: "HKCU64"; Subkey: "Software\RetroBat"; ValueType: string; ValueName: "Inst
 Root: "HKCU32"; Subkey: "Software\RetroBat"; ValueType: string; ValueName: "InstallRootUrl"; ValueData: "{#InstallRootUrl}"; Flags: createvalueifdoesntexist; MinVersion: 0,6.2; Check: not IsWin64
 
 [Code]
+
+begin 
+if WizardIsComponentSelected('dependencies') then
+  function InitializeSetup: Boolean;
+  begin
+    Dependency_AddDirectX;
+    Dependency_ForceX86 := True;
+    Dependency_AddVC2010;
+    Dependency_AddVC2015To2022;
+    Dependency_ForceX86 := False;
+    Dependency_AddVC2010;
+    Dependency_AddVC2015To2022;
+    Result := True;
+  end;
+end;
+
 function InitializeSetup: Boolean;
 begin
+  if WizardIsComponentSelected('dependencies') then
   Dependency_AddDirectX;
   Dependency_ForceX86 := True;
   Dependency_AddVC2010;
@@ -121,6 +142,5 @@ begin
   Dependency_ForceX86 := False;
   Dependency_AddVC2010;
   Dependency_AddVC2015To2022;
-
   Result := True;
 end;
