@@ -238,7 +238,7 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
-	<game>
+	<!--<game>
 		<path>./kronos.menu</path>
 		<name>Kronos (Saturn)</name>
 		<desc>Run Kronos (Saturn).</desc>
@@ -254,7 +254,7 @@
 		<gametime />
 		<lang>en</lang>
 		<region>wr</region>
-	</game>
+	</game>-->
 	<game>
 		<path>./m2emulator.menu</path>
 		<name>M2Emulator (Model 2)</name>
