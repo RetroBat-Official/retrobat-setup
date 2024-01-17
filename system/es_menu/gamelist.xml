@@ -318,6 +318,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./openmsx.menu</path>
+		<name>OpenMSX (MSX)</name>
+		<desc>Run OpenMSX (MSX).</desc>
+		<image>./media/openmsx-logo.png</image>
+		<marquee>./media/openmsx-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>openMSX Team</developer>
+		<publisher>openMSX Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./pcsx2-16.menu</path>
 		<name>PCSX2 (v1.6) (PlayStation 2)</name>
 		<desc>Run PCSX2 Emulator (v1.6) (PlayStation 2).</desc>
