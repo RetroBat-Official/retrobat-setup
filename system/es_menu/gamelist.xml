@@ -238,7 +238,7 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
-	<game>
+	<!--<game>
 		<path>./kronos.menu</path>
 		<name>Kronos (Saturn)</name>
 		<desc>Run Kronos (Saturn).</desc>
@@ -254,7 +254,7 @@
 		<gametime />
 		<lang>en</lang>
 		<region>wr</region>
-	</game>
+	</game>-->
 	<game>
 		<path>./m2emulator.menu</path>
 		<name>M2Emulator (Model 2)</name>
@@ -310,6 +310,23 @@
 		<releasedate />
 		<developer>mGBA Team</developer>
 		<publisher>mGBA Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
+		<path>./openmsx.menu</path>
+		<name>OpenMSX (MSX)</name>
+		<desc>Run OpenMSX (MSX).</desc>
+		<image>./media/openmsx-logo.png</image>
+		<marquee>./media/openmsx-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>openMSX Team</developer>
+		<publisher>openMSX Team</publisher>
 		<genre>Emulator</genre>
 		<playcount />
 		<lastplayed />
