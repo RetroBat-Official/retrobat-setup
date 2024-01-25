@@ -1,5 +1,7 @@
 # Game Controller DB for SDL in 2.0.16 format
 # Source: https://github.com/gabomdq/SDL_GameControllerDB
+# RetroBat specifics
+030000006d0400004fc2000000000000,Logitech G HUB G29 Driving Force Racing Wheel USB,a:b0,b:b2,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b5,leftstick:b9,lefttrigger:a5,leftx:a0,rightshoulder:b4,rightstick:b10,righttrigger:a1,start:b24,x:b3,y:b1,platform:Windows,
 # Windows
 03000000300f00000a01000000000000,3 In 1 Conversion Box,a:b2,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a3,righty:a2,start:b8,x:b3,y:b0,platform:Windows,
 03000000fa2d00000100000000000000,3dRudder Foot Motion Controller,leftx:a0,lefty:a1,rightx:a5,righty:a2,platform:Windows,
@@ -313,6 +315,7 @@
 03000000242e00000b20000000000000,Hyperkin Admiral N64 Controller,+rightx:b11,+righty:b13,-rightx:b8,-righty:b12,a:b1,b:b0,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,lefttrigger:b14,leftx:a0,lefty:a1,rightshoulder:b5,start:b9,platform:Windows,
 03000000242e0000ff0b000000000000,Hyperkin N64 Adapter,a:b1,b:b2,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightx:a2,righty:a3,start:b9,platform:Windows,
 03000000790000004e95000000000000,Hyperkin N64 Controller Adapter,a:b1,b:b2,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b7,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b5,rightx:a5,righty:a2,start:b9,platform:Windows,
+03000000242e00006a48000000000000,Hyperkin RetroN Sq,a:b3,b:b7,x:b2,y:b6,back:b5,start:b4,leftshoulder:b0,rightshoulder:b1,dpup:-a4,dpdown:+a4,dpleft:-a0,dpright:+a0,platform:Windows,
 03000000242e00006a38000000000000,Hyperkin Trooper 2,a:b0,b:b1,back:b4,leftshoulder:b2,leftx:a0,lefty:a1,rightshoulder:b3,start:b5,platform:Windows,
 03000000d81d00000e00000000000000,iBuffalo AC02 Arcade Joystick,a:b0,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b7,leftx:a0,lefty:a1,rightshoulder:b2,rightstick:b11,righttrigger:b3,rightx:a2,righty:a5,start:b8,x:b4,y:b5,platform:Windows,
 03000000d81d00000f00000000000000,iBuffalo BSGP1204 Series,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b9,x:b3,y:b0,platform:Windows,
@@ -356,7 +359,6 @@
 030000006d0400001ec2000000000000,Logitech F510,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b8,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Windows,
 030000006d04000019c2000000000000,Logitech F710,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,platform:Windows,
 030000006d0400001fc2000000000000,Logitech F710,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b8,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b9,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Windows,
-030000006d0400004fc2000000000000,Logitech G HUB G29 Driving Force Racing Wheel USB,a:b0,b:b2,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b5,leftstick:b9,lefttrigger:a5,leftx:a0,rightshoulder:b4,rightstick:b10,righttrigger:a1,start:b24,x:b3,y:b1,platform:Windows,
 030000006d0400001ac2000000000000,Logitech Precision,a:b1,b:b2,back:b8,dpdown:+a1,dpleft:-a0,dpright:+a0,dpup:-a1,leftshoulder:b4,lefttrigger:b6,rightshoulder:b5,righttrigger:b7,start:b9,x:b0,y:b3,platform:Windows,
 030000006d04000009c2000000000000,Logitech WingMan,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,lefttrigger:b7,leftx:a0,lefty:a1,rightshoulder:b5,righttrigger:b2,start:b8,x:b3,y:b4,platform:Windows,
 030000006d0400000bc2000000000000,Logitech WingMan Action Pad,a:b0,b:b1,back:b2,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b8,lefttrigger:a5~,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b5,righttrigger:a2~,start:b8,x:b3,y:b4,platform:Windows,
@@ -679,6 +681,7 @@
 03000000457500002211000000000000,Szmy Power PC Gamepad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,platform:Windows,
 030000004f0400000ab1000000000000,T16000M,a:b0,b:b1,back:b12,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b11,leftshoulder:b4,lefttrigger:b9,leftx:a0,lefty:a1,rightshoulder:b6,righttrigger:b7,start:b10,x:b2,y:b3,platform:Windows,
 030000000d0f00007b00000000000000,TAC GEAR,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a5,start:b9,x:b0,y:b3,platform:Windows,
+03000000e40a00000307000000000000,Taito Egret II Mini Control Panel,a:b4,b:b2,back:b6,guide:b9,leftx:a0,lefty:a1,rightshoulder:b0,righttrigger:b1,start:b7,x:b8,y:b3,platform:Windows,
 03000000e40a00000207000000000000,Taito Egret II Mini Controller,a:b4,b:b2,back:b6,dpdown:+a1,dpleft:-a0,dpright:+a0,dpup:-a1,guide:b9,rightshoulder:b0,righttrigger:b1,start:b7,x:b8,y:b3,platform:Windows,
 03000000d814000001a0000000000000,TE Kitty,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,platform:Windows,
 03000000fa1900000706000000000000,Team 5,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,platform:Windows,
