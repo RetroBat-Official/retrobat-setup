@@ -151,6 +151,7 @@ emulators\pcsx2\inis
 emulators\phoenix
 emulators\play
 emulators\play\Play Data Files
+emulators\play\Play Data Files\inputprofiles
 emulators\ppsspp
 emulators\ppsspp\memstick
 emulators\ppsspp\memstick\PSP
