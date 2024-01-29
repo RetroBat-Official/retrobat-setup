@@ -77,6 +77,7 @@
 \system\templates\pcsx2\portable.ini|\emulators\pcsx2\portable.ini
 \system\templates\phoenix\phoenix.config.xml|\emulators\phoenix\phoenix.config.xml
 \system\templates\play\config.xml|\emulators\play\Play Data Files\config.xml
+\system\templates\play\inputprofiles\Retrobat.xml|\emulators\play\Play Data Files\inputprofiles\Retrobat.xml
 \system\templates\ppsspp\ppsspp.ini|\emulators\ppsspp\memstick\PSP\SYSTEM\ppsspp.ini
 \system\templates\project64\Project64.cfg|\emulators\project64\Config\Project64.cfg
 \system\templates\raine\raine32_sdl.cfg|\emulators\raine\config\raine32_sdl.cfg
