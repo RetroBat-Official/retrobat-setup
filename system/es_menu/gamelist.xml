@@ -271,6 +271,21 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./magicengine.menu</path>
+		<name>Magic Engine (PC Engine)</name>
+		<desc>Run Magic Engine (PC Engine).</desc>
+		<image>./media/magicengine-logo.png</image>
+		<marquee>./media/magicengine-logo.png</marquee>
+		<developer>David / Cédric Michel</developer>
+		<publisher />
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./melonds.menu</path>
 		<name>MelonDS (NDS)</name>
 		<desc>Run MelonDS (NDS).</desc>

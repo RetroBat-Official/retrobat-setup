@@ -44,7 +44,7 @@ set deps_list=(git !setup_compiler! 7za wget curl)
 set submodules_list=(bios decorations system)
 set packages_list=(retrobat_binaries batgui emulationstation default_theme batocera_ports mega_bezels retroarch roms wiimotegun)
 set legacy_cores_list=(4do emuscv fake08 hatarib imageviewer mame2014 mame2016)
-set emulators_black_list=(3dsen pico8 retroarch ryujinx steam teknoparrot yuzu yuzu-early-access)
+set emulators_black_list=(3dsen magicengine pico8 retroarch ryujinx steam teknoparrot yuzu yuzu-early-access)
 
 :: ---- GET STARTED ----
 
