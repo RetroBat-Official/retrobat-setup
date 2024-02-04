@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
+  <variables>
+    <baseColor>c6297c</baseColor>
+    <gradientEndColor>7e297c</gradientEndColor>
+    <backgroundColor>252525</backgroundColor>
+    <centerFadeColor>8b000050</centerFadeColor>
+  </variables>
   <view name="splash">
     <splash name="splash">
-      <backgroundColor>000000FF</backgroundColor>
+      <backgroundColor>1b0020</backgroundColor>
     </splash>
     <image name="progressbar">
       <origin>0 0</origin>
@@ -16,15 +22,15 @@
     <image name="progressbar:active">
       <tile>true</tile>
       <path>./progress.png</path>
-      <color>30508b</color>
-      <colorEnd>00205b</colorEnd>
+      <color>${baseColor}</color>
+      <colorEnd>${gradientEndColor}</colorEnd>
     </image>
     <image name="background">
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
 	  <linearSmooth>true</linearSmooth>
       <maxSize>0.5 0.5</maxSize>
-      <path>./splash_retrobat.svg</path>
+      <path>./splash_retrobat.png</path>
     </image>
     <text name="label">
       <color>FFFFFFFF</color>

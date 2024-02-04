@@ -53,7 +53,7 @@ OutputDir={#SourceDir}
 OutputManifestFile={#MyAppName}-v{#MyAppVersion}-setup_Manifest.txt
 PrivilegesRequired=lowest
 SetupIconFile=".\resources\launcher.ico"
-ShowLanguageDialog=auto
+ShowLanguageDialog=yes
 SolidCompression=yes
 Uninstallable=no
 VersionInfoCopyright={#MyAppPublisher}
@@ -61,6 +61,7 @@ VersionInfoVersion=1.0.0.0
 WizardImageFile=".\resources\retrobat_wizard.bmp"
 WizardImageStretch=yes
 WizardSmallImageFile=".\resources\WizardSmall.bmp"
+WizardStyle=modern
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"

@@ -1,7 +1,8 @@
 \system\resources\emulationstation\notice.pdf|\emulationstation\.emulationstation\notice.pdf
 \system\resources\emulationstation\progress.png|\emulationstation\resources\progress.png
 \system\resources\emulationstation\splash.xml|\emulationstation\resources\splash.xml
-\system\resources\retrobat_logo.svg|\emulationstation\resources\splash_retrobat.svg
+\system\resources\retrobat_logo.png|\emulationstation\resources\splash_retrobat.png
+\system\resources\retrobat_logo_old.svg|\emulationstation\resources\splash_retrobat.svg
 \system\templates\ares\settings.bml|\emulators\ares\settings.bml
 \system\templates\bigpemu\userdata\BigPEmuConfig.bigpcfg|\emulators\bigpemu\userdata\BigPEmuConfig.bigpcfg
 \system\templates\bizhawk\config.ini|\emulators\bizhawk\config.ini
