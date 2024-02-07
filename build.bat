@@ -382,7 +382,7 @@ for %%i in %packages_list% do (
 		
 		call :download
 		call :hash_file
-		call :extract		
+		call :extract
 	)
 )
 
