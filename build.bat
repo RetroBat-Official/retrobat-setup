@@ -123,11 +123,11 @@ echo  (1) - full compilation
 echo  (2) - download, configure
 echo  (3) - build setup executable
 echo  (4) - archive
-if exist "!root_path!\butler_push.txt" echo  (5) - push
+if exist "!buildtools_path!\butler.exe" echo  (5) - push
 echo  (Q) - Quit
 echo +===========================================================+
-if not exist "!root_path!\butler_push.txt" choice /C 1234Q /N /T 20 /D 1 /M "Please type your choice here: "
-if exist "!root_path!\butler_push.txt" choice /C 12345Q /N /T 20 /D 1 /M "Please type your choice here: "
+if not exist "!buildtools_path\butler.exe" choice /C 1234Q /N /T 20 /D 1 /M "Please type your choice here: "
+if exist "!buildtools_path\butler.exe" choice /C 12345Q /N /T 20 /D 1 /M "Please type your choice here: "
 echo +===========================================================+
 set user_choice=%ERRORLEVEL%
 
@@ -163,21 +163,21 @@ if %user_choice% EQU 4 (
 	goto :eof
 )
 
-if not exist "!root_path!\butler_push.txt" if %user_choice% EQU 5 (
+if not exist "!buildtools_path\butler.exe" if %user_choice% EQU 5 (
 
 	(set exit_code=0)
 	call :exit_door
 	goto :eof
 )
 
-if exist "!root_path!\butler_push.txt" if %user_choice% EQU 5 (
+if exist "!buildtools_path\butler.exe" if %user_choice% EQU 5 (
 
 	call :butler_push
 	call :exit_door
 	goto :eof
 )
 
-if exist "!root_path!\butler_push.txt" if %user_choice% EQU 6 (
+if exist "!buildtools_path\butler.exe" if %user_choice% EQU 6 (
 
 	(set exit_code=0)
 	call :exit_door
@@ -341,7 +341,7 @@ if %ERRORLEVEL% NEQ 0 (
 
 if "%get_retrobat_binaries%"=="1" (
 	for %%i in (txt) do (xcopy "!root_path!\*.%%i" "!build_path!" /v /y)
-	if exist "!build_path!\butler_push.txt" del/Q "!build_path!\butler_push.txt"
+	if exist "!build_path!\butler.exe" del/Q "!build_path!\butler.exe"
 	
 	(echo %date% %time% [INFO] retrobat_binaries copied to "!build_path!")>> "!root_path!\%log_file%"
 )
@@ -555,21 +555,32 @@ goto :eof
 
 :: ---- BUTLER PUSH ----
 
-:: need butler installed and dummy butler_push.txt
+:: need butler installed
 
 :butler_push
 
 set task=butler_push
 (echo %date% %time% [LABEL] :!task!)>> "!root_path!\%log_file%"
 
-echo :: PUSHING BUTLER...
+echo :: Butler push...
 
 call :check_version
 
 if exist "!build_path!\system\version.info" (
-	butler push "!build_path!\%name%-v%release_version%-setup.exe" retrobatofficial/retrobat:%arch%-%branch% --userversion-file "!build_path!\system\version.info"
-	butler push --ignore "!build_path!\%name%-v%release_version%-setup.exe" --ignore "!build_path!\%name%-v%release_version%-setup.exe.sha256" --ignore "%name%-v%release_version%.%archive_format%" --ignore "%name%-v%release_version%.%archive_format%.sha256" --ignore "!build_path!\*.log" --ignore "!build_path!\hash_list.txt" --ignore "!build_path!\emulationstation\.emulationstation\es_settings.cfg" "!build_path!\" retrobatofficial/retrobat:%arch%-%branch% --userversion-file "!build_path!\system\version.info"
-	(set/A exit_code=%ERRORLEVEL%)
+
+	if exist "!build_path!\%name%-v%release_version%-setup.exe" (
+
+		"!buildtools_path\butler.exe" push "!build_path!\%name%-v%release_version%-setup.exe" retrobatofficial/retrobat:%arch%-%branch% --userversion-file "!build_path!\system\version.info"
+		rem "!buildtools_path\butler.exe" butler push --ignore "!build_path!\%name%-v%release_version%-setup.exe" --ignore "!build_path!\%name%-v%release_version%-setup.exe.sha256.txt" --ignore "%name%-v%release_version%.%archive_format%" --ignore "%name%-v%release_version%.%archive_format%.sha256" --ignore "!build_path!\*.log" --ignore "!build_path!\hash_list.txt" --ignore "!build_path!\emulationstation\.emulationstation\es_settings.cfg" "!build_path!\" retrobatofficial/retrobat:%arch%-%branch% --userversion-file "!build_path!\system\version.info"
+		(set/A exit_code=%ERRORLEVEL%)
+	)
+	
+	if exist "!build_path!\%name%-v%release_version%-full-setup.exe" (
+
+		"!buildtools_path\butler.exe" push "!build_path!\%name%-v%release_version%-full-setup.exe" retrobatofficial/retrobat:%arch%-%branch% --userversion-file "!build_path!\system\version.info"
+		rem "!buildtools_path\butler.exe" push --ignore "!build_path!\%name%-v%release_version%-full-setup.exe" --ignore "!build_path!\%name%-v%release_version%-full-setup.exe.sha256.txt" --ignore "%name%-v%release_version%.%archive_format%" --ignore "%name%-v%release_version%.%archive_format%.sha256" --ignore "!build_path!\*.log" --ignore "!build_path!\hash_list.txt" --ignore "!build_path!\emulationstation\.emulationstation\es_settings.cfg" "!build_path!\" retrobatofficial/retrobat:%arch%-%branch% --userversion-file "!build_path!\system\version.info"
+		(set/A exit_code=%ERRORLEVEL%)
+	)
 )
 
 if %exit_code% EQU 0 ((echo %date% %time% [INFO] Pushed "%name%-v%release_version%")>> "!root_path!\%log_file%")
