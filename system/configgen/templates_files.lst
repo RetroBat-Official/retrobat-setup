@@ -49,7 +49,6 @@
 \system\templates\kega-fusion\Fusion.ini|\emulators\kega-fusion\Fusion.ini
 \system\templates\m2emulator\dinput.zip|\emulators\m2emulator\templatescfg\dinput
 \system\templates\m2emulator\Emulator.ini|\emulators\m2emulator\Emulator.ini
-\system\templates\m2emulator\NVDATA.zip|\emulators\m2emulator\NVDATA
 \system\templates\m2emulator\scripts.zip|\emulators\m2emulator\scripts
 \system\templates\m2emulator\xinput.zip|\emulators\m2emulator\templatescfg\xinput
 \system\templates\mame\fmtownsux.ini|\emulators\mame\ini\fmtownsux.ini
