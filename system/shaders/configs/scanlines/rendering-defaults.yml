@@ -24,7 +24,8 @@ default:
   mupen64: ScanlinesAbs@scanlines-abs.fx
   xemu: ScanlinesAbs@scanlines-abs.fx
 n64:
-  shader: interpolation/sharp-bilinear-scanlines
+  shaderGL: interpolation/sharp-bilinear-scanlines
+  shader: pixel-art-scaling/sharp-bilinear-scanlines
 gba:
   shader: handheld/lcd-grid-v2
 gb:
@@ -40,7 +41,8 @@ nds:
 3ds:
   shader: handheld/lcd-shader
 virtualboy:
-  shader: retro/sharp-bilinear-scanlines
+  shaderGL: interpolation/sharp-bilinear-scanlines
+  shader: pixel-art-scaling/sharp-bilinear-scanlines
 gc:
   shader: anti-aliasing/fxaa
 wii:
