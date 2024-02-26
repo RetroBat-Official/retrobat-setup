@@ -1,5 +1,6 @@
 default:
-  shader: scalehq/2xScaleHQ
+  shaderGL: scalehq/2xScaleHQ
+  shader: edge-smoothing/scalehq/2xScaleHQ
 # Reshader  
 model2:
   shader: disabled

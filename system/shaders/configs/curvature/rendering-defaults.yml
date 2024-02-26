@@ -30,7 +30,8 @@ dreamcast:
   shader: crt/crt-hyllian-3d
   redream: GeomCRT@CRTGeom.fx
 gamegear:
-  shader: crt-guest-dr-venom-fast
+  shaderGL: crt/crt-guest-dr-venom-fast
+  shader: crt/crt-guest-advanced-fast
 gba:
   shader: handheld/lcd-grid-v2-gba-color
 gb:
@@ -44,7 +45,8 @@ gbc2players:
 gc:
   shader: crt/crt-hyllian-3d
 lynx:
-  shader: crt/crt-guest-dr-venom-fast
+  shaderGL: crt/crt-guest-dr-venom-fast
+  shader: crt/crt-guest-advanced-fast
   mednafen: GeomCRT@CRTGeom.fx
 nds:
   shader: handheld/lcd-grid-v2-nds-color
@@ -60,9 +62,11 @@ psx:
   shader: crt/crt-hyllian-3d
   mednafen: GeomCRT@CRTGeom.fx
 vectrex:
-  shader: retro/sharp-bilinear-scanlines
+  shaderGL: interpolation/sharp-bilinear-scanlines
+  shader: pixel-art-scaling/sharp-bilinear-scanlines
 virtualboy:
-  shader: retro/sharp-bilinear-scanlines
+  shaderGL: interpolation/sharp-bilinear-scanlines
+  shader: pixel-art-scaling/sharp-bilinear-scanlines
 wii:
   shader: crt/crt-hyllian-3d
 wswan:

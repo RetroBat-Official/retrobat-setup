@@ -187,7 +187,24 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
-    <game>
+	<game>
+		<path>./eka2l1.menu</path>
+		<name>EKA2L1 (Symbian OS/N-Gage emulator)</name>
+		<desc>Run EKA2L1 (Symbian OS/N-Gage emulator).</desc>
+		<image>./media/eka2l1-logo.png</image>
+		<marquee>./media/eka2l1-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>EKA2L1 Team</developer>
+		<publisher>EKA2L1 Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./flycast.menu</path>
 		<name>Flycast (Dreamcast, Naomi, Atomiswave)</name>
 		<desc>Run Flycast.</desc>

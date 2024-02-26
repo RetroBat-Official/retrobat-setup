@@ -1,7 +1,8 @@
 ## ENHANCED
 default:
   # libretro
-  shader: hqx/hq2x
+  shaderGL: hqx/hq2x
+  shader: edge-smoothing/hqx/hq2x
   # emulators using reshader 
   mednafen: HQ4X@HQ4X.fx
   m2emulator: HQ4X@HQ4X.fx
@@ -42,17 +43,19 @@ nds:
 3ds:
   shader: handheld/lcd-shader
 virtualboy:
-  shader: retro/sharp-bilinear-scanlines
+  shaderGL: interpolation/sharp-bilinear-scanlines
+  shader: pixel-art-scaling/sharp-bilinear-scanlines
 gc:
   shader: anti-aliasing/fxaa
 wii:
   shader: anti-aliasing/fxaa
 # Sega
 dreamcast:
-  shader: anti-aliasing/enhanced-fxaa-tvout
+  shader: anti-aliasing/fxaa
   redream: HQ4X@HQ4X.fx
 gamegear:
-  shader: crt-guest-dr-venom-fast
+  shaderGL: crt/crt-guest-dr-venom-fast
+  shader: crt/crt-guest-advanced-fast
 saturn:
   shader: anti-aliasing/fxaa
   mednafen: HQ4X@HQ4X.fx
@@ -67,7 +70,8 @@ ngpc:
 gw:
   shader: handheld/gameboy
 lynx:
-  shader: crt-guest-dr-venom-fast
+  shaderGL: crt/crt-guest-dr-venom-fast
+  shader: crt/crt-guest-advanced-fast
   mednafen: HQ4X@HQ4X.fx
 wswan:
   shader: handheld/gameboy

@@ -25,6 +25,8 @@
 \system\templates\dolphin\Hotkeys.ini|\emulators\dolphin-emu\User\Config\Hotkeys.ini
 \system\templates\dosbox\run.dosbox|\emulators\dosbox\run.dosbox
 \system\templates\duckstation\settings.ini|\emulators\duckstation\settings.ini
+\system\templates\eka2l1\config.yml|\emulators\eka2l1\config.yml
+\system\templates\eka2l1\data.zip|\bios\eka2l1\data
 \system\templates\emulationstation\batocera-store.cfg|\emulationstation\batocera-store.cfg
 \system\templates\emulationstation\emulatorLauncher.cfg|\emulationstation\emulatorLauncher.cfg
 \system\templates\emulationstation\es_input.cfg|\emulationstation\.emulationstation\es_input.cfg
@@ -49,7 +51,6 @@
 \system\templates\kega-fusion\Fusion.ini|\emulators\kega-fusion\Fusion.ini
 \system\templates\m2emulator\dinput.zip|\emulators\m2emulator\templatescfg\dinput
 \system\templates\m2emulator\Emulator.ini|\emulators\m2emulator\Emulator.ini
-\system\templates\m2emulator\NVDATA.zip|\emulators\m2emulator\NVDATA
 \system\templates\m2emulator\scripts.zip|\emulators\m2emulator\scripts
 \system\templates\m2emulator\xinput.zip|\emulators\m2emulator\templatescfg\xinput
 \system\templates\mame\fmtownsux.ini|\emulators\mame\ini\fmtownsux.ini
