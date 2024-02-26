@@ -4,6 +4,9 @@ bios\dc\textures
 bios\dolphin-emu
 bios\dolphin-emu\Load
 bios\dolphin-emu\Load\ResourcePacks
+bios\eka2l1
+bios\eka2l1\data
+bios\eka2l1\data\roms
 bios\fba
 bios\fba\samples
 bios\fbneo
@@ -116,6 +119,8 @@ emulators\dolphin-triforce\User\Config
 emulators\dolphin-triforce\User\GameSettings
 emulators\dosbox
 emulators\duckstation
+emulators\eka2l1
+emulators\eka2l1\compat
 emulators\flycast
 emulators\flycast\mappings
 emulators\fpinball

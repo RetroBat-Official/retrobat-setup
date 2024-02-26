@@ -25,6 +25,8 @@
 \system\templates\dolphin\Hotkeys.ini|\emulators\dolphin-emu\User\Config\Hotkeys.ini
 \system\templates\dosbox\run.dosbox|\emulators\dosbox\run.dosbox
 \system\templates\duckstation\settings.ini|\emulators\duckstation\settings.ini
+\system\templates\eka2l1\config.yml|\emulators\eka2l1\config.yml
+\system\templates\eka2l1\data.zip|\bios\eka2l1\data
 \system\templates\emulationstation\batocera-store.cfg|\emulationstation\batocera-store.cfg
 \system\templates\emulationstation\emulatorLauncher.cfg|\emulationstation\emulatorLauncher.cfg
 \system\templates\emulationstation\es_input.cfg|\emulationstation\.emulationstation\es_input.cfg
