@@ -7,6 +7,7 @@ bios\dolphin-emu\Load\ResourcePacks
 bios\eka2l1
 bios\eka2l1\data
 bios\eka2l1\data\roms
+bios\eka2l1\data\roms\NEM-4
 bios\fba
 bios\fba\samples
 bios\fbneo

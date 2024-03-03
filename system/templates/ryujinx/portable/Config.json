@@ -1,11 +1,14 @@
 {
-  "version": 41,
+  "version": 49,
   "enable_file_log": true,
   "backend_threading": "Auto",
   "res_scale": 1,
   "res_scale_custom": 1,
   "max_anisotropy": -1,
   "aspect_ratio": "Fixed16x9",
+  "anti_aliasing": "None",
+  "scaling_filter": "Bilinear",
+  "scaling_filter_level": 80,
   "graphics_shaders_dump_path": "",
   "logging_enable_debug": false,
   "logging_enable_stub": true,
@@ -25,10 +28,12 @@
   "enable_discord_integration": false,
   "check_updates_on_start": false,
   "show_confirm_exit": false,
-  "hide_cursor_on_idle": false,
+  "hide_cursor": 2,
   "enable_vsync": true,
   "enable_shader_cache": true,
   "enable_texture_recompression": false,
+  "enable_macro_hle": true,
+  "enable_color_space_passthrough": false,
   "enable_ptc": true,
   "enable_internet_access": false,
   "enable_fs_integrity_checks": true,
@@ -57,8 +62,23 @@
   "game_dirs": [
     "..\\..\\roms\\switch"
   ],
+  "shown_file_types": {
+    "nsp": true,
+    "pfs0": true,
+    "xci": true,
+    "nca": true,
+    "nro": true,
+    "nso": true
+  },
+  "window_startup": {
+    "window_size_width": 1280,
+    "window_size_height": 720,
+    "window_position_x": 32,
+    "window_position_y": 26,
+    "window_maximized": false
+  },
   "language_code": "en_US",
-  "enable_custom_theme": false,
+  "enable_custom_theme": true,
   "custom_theme_path": "",
   "base_style": "Dark",
   "game_list_view_mode": 0,
@@ -71,7 +91,7 @@
   "enable_keyboard": false,
   "enable_mouse": false,
   "hotkeys": {
-    "toggle_vsync": "Tab",
+    "toggle_vsync": "F1",
     "screenshot": "F8",
     "show_ui": "F4",
     "pause": "F5",
@@ -129,5 +149,7 @@
     }
   ],
   "graphics_backend": "Vulkan",
-  "preferred_gpu": "0x10DE_0x2206"
+  "multiplayer_mode": 0,
+  "multiplayer_lan_interface_id": "0",
+  "use_hypervisor": true
 }
