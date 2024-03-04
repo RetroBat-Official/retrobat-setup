@@ -155,8 +155,8 @@
 	</game>
 	<game>
 		<path>./dolphin-triforce.menu</path>
-		<name>DolphinWX (Triforce)</name>
-		<desc>Run DolphinWX Emulator (Triforce).</desc>
+		<name>Dolphin Triforce</name>
+		<desc>Run Dolphin Emulator (Triforce).</desc>
 		<image>./media/dolphin-logo.png</image>
 		<marquee>./media/dolphin-logo.png</marquee>
 		<rating>0</rating>
