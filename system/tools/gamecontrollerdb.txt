@@ -9,6 +9,7 @@
 030000006d0400006ec2000000000000,Logitech G HUB G923 Racing Wheel for XBox One and PC USB,a:b0,b:b1,back:b7,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b5,leftstick:b9,leftx:a0,rightshoulder:b4,rightstick:b8,start:b6,x:b2,y:b3,throttle:a1,brake:a2,volplus:b18,volminus:b19,return:b22,guide:b10,platform:WindowsWheel,
 030000005e0400003400000000000000,Microsoft SideWinder Wheel,a:b0,b:b1,start:b2,back:b5,x:b3,y:b4,leftshoulder:b6,rightshoulder:b7,leftx:a0,throttle:a1,brake:a2,platform:WindowsWheel,
 030000007e0500000920000000000000,Nintendo Switch Pro Controller,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,misc1:b13,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a3,righty:a4,start:b9,x:b2,y:b3,platform:Windows,
+030000004f0400006eb6000000000000,Thrustmaster T300RS Racing Wheel,a:b5,b:b4,back:b6,dpdown:b14,dpleft:b15,dpright:b16,dpup:b13,leftshoulder:b0,leftstick:b10,lefttrigger:b9,leftx:a0,rightshoulder:b1,rightstick:b11,righttrigger:b8,start:b7,x:b3,y:b2,guide:b12,throttle:a3,brake:a1,clutch:a2,platform:WindowsWheel,
 # Original
 03000000300f00000a01000000000000,3 In 1 Conversion Box,a:b2,b:b1,back:b9,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a3,righty:a2,start:b8,x:b3,y:b0,platform:Windows,
 03000000fa2d00000100000000000000,3dRudder Foot Motion Controller,leftx:a0,lefty:a1,rightx:a5,righty:a2,platform:Windows,
