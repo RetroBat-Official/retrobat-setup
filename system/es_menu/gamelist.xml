@@ -860,6 +860,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./psxmame.menu</path>
+		<name>PSXMAME (Playstation-based Arcade)</name>
+		<desc>Run PSXMAME (Playstation-based Arcade).</desc>
+		<image>./media/zinc-logo.png</image>
+		<marquee>./media/zinc-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>MAME Team</developer>
+		<publisher>MAME Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./hbmame.menu</path>
 		<name>HBMAME (HomeBrew Arcade Games)</name>
 		<desc>Run HBMAME (HomeBrew Arcade Games).</desc>
