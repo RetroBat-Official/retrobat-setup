@@ -155,8 +155,8 @@
 	</game>
 	<game>
 		<path>./dolphin-triforce.menu</path>
-		<name>DolphinWX (Triforce)</name>
-		<desc>Run DolphinWX Emulator (Triforce).</desc>
+		<name>Dolphin Triforce</name>
+		<desc>Run Dolphin Emulator (Triforce).</desc>
 		<image>./media/dolphin-logo.png</image>
 		<marquee>./media/dolphin-logo.png</marquee>
 		<rating>0</rating>
@@ -848,6 +848,23 @@
 		<desc>Run MAME (Multiple Arcade Machine Emulator).</desc>
 		<image>./media/mame-logo.png</image>
 		<marquee>./media/mame-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>MAME Team</developer>
+		<publisher>MAME Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
+		<path>./psxmame.menu</path>
+		<name>PSXMAME (Playstation-based Arcade)</name>
+		<desc>Run PSXMAME (Playstation-based Arcade).</desc>
+		<image>./media/zinc-logo.png</image>
+		<marquee>./media/zinc-logo.png</marquee>
 		<rating>0</rating>
 		<releasedate />
 		<developer>MAME Team</developer>

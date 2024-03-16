@@ -52,6 +52,8 @@ bios\openmsx\share
 bios\pcsx2
 bios\pcsx2\bios
 bios\pcsx2\textures
+bios\psxmame
+bios\psxmame\bios
 bios\quasi88
 bios\raine
 bios\raine\artwork
@@ -68,6 +70,7 @@ cheats\pcsx2
 cheats\pcsx2\cheats
 cheats\pcsx2\cheats_ni
 cheats\pcsx2\cheats_ws
+cheats\psxmame
 cheats\retroarch
 decorations
 emulationstation
@@ -164,6 +167,10 @@ emulators\ppsspp\memstick\PSP
 emulators\ppsspp\memstick\PSP\SYSTEM
 emulators\project64
 emulators\project64\Config
+emulators\psxmame
+emulators\psxmame\cfg
+emulators\psxmame\ctrlr
+emulators\psxmame\ini
 emulators\raine
 emulators\raine\config
 emulators\redream
@@ -267,6 +274,10 @@ saves\psx\duckstation\memcards
 saves\psx\duckstation\sstates
 saves\psx\mednafen
 saves\psx\mednafen\sstates
+saves\psxmame
+saves\psxmame\artwork
+saves\psxmame\nvram
+saves\psxmame\states
 saves\saturn
 saves\saturn\kronos
 saves\saturn\mednafen
