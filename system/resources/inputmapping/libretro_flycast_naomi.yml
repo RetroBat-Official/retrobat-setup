@@ -1,0 +1,7 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate input remaps for Retroarch for a specific core/system combination
+# Each container must be named exactly the same as your game rom file (without the extension)
+# The elements listed are the buttons for which you want the function to be remapped
+# The key represents the RetroArch button code
+# The value represents the original button ID for the specific system/game
+# you can use the -1 value to unmap a button

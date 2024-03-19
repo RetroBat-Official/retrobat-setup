@@ -1,0 +1,151 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate input remaps for Retroarch for a specific core/system combination
+# Each container must be named exactly the same as your game rom file (without the extension)
+# The elements listed are the buttons for which you want the function to be remapped
+# The key represents the RetroArch button code
+# The value represents the original button ID for the specific system/game
+# you can use the -1 value to unmap a button
+anmlbskt:
+  btn_a: 1
+  btn_b: 8
+  btn_y: 0
+anmlbskta:
+  btn_a: 1
+  btn_b: 8
+  btn_y: 0
+demofist:
+  analog_dpad_mode: 3
+  btn_a: 0
+  btn_b: 1
+  btn_x: 0
+  btn_y: 8
+dirtypig:
+  analog_dpad_mode: 3
+  btn_b: 1
+  btn_x: 8
+  btn_y: 0
+dolphin:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_x: 1
+  btn_y: 0
+fotns:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 1
+  btn_x: 8
+  btn_y: 0
+ftspeed:
+  btn_a: 5
+  btn_y: 4
+ggisuka:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_l: 11
+  btn_x: 8
+  btn_y: 9
+ggx15:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_x: 8
+  btn_y: 9
+kofnw:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 1
+  btn_x: 8
+  btn_y: 0
+kofnwj:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 1
+  btn_x: 8
+  btn_y: 0
+kofxi:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 1
+  btn_x: 8
+  btn_y: 0
+kov7sprt:
+  analog_dpad_mode: 3
+  btn_b: 1
+  btn_x: 8
+  btn_y: 0
+maxspeed:
+  btn_a: 5
+  btn_y: 4
+mslug6:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_y: 0
+ngbc:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 1
+  btn_x: 8
+  btn_y: 0
+ngbcj:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 1
+  btn_x: 8
+  btn_y: 0
+rumblef:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 1
+  btn_x: 8
+  btn_y: 0
+rumblefp:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 1
+  btn_x: 8
+  btn_y: 0
+rumblef2:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 1
+  btn_x: 8
+  btn_y: 0
+rumblef2p:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 1
+  btn_x: 8
+  btn_y: 0
+samsptk:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 9
+  btn_l: 11
+  btn_x: 8
+  btn_y: 0
+sushibar:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_y: 0

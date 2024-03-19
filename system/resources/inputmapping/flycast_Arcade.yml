@@ -1,3 +1,9 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate specific input mappings in Flycast for Arcade games
+# Each container must be named exactly the same as your game rom file (without the extension)
+# The elements listed are the buttons that will be mapped in the emulator (for Arcade)
+# The key represents the controller button
+# The value represents the Flycast button code
 18wheelr:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
