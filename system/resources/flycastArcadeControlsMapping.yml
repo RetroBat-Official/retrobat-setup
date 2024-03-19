@@ -9,7 +9,62 @@
   north: btn_dpad1_down
   select: btn_d
   start: btn_start
+18wheelro:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_a
+  east: btn_c
+  west: btn_b
+  north: btn_dpad1_down
+  select: btn_d
+  start: btn_start
+18wheelrt:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_a
+  east: btn_c
+  west: btn_b
+  north: btn_dpad1_down
+  select: btn_d
+  start: btn_start
+18wheels:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_a
+  east: btn_c
+  west: btn_b
+  north: btn_dpad1_down
+  select: btn_d
+  start: btn_start
+18wheelu:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_a
+  east: btn_c
+  west: btn_b
+  north: btn_dpad1_down
+  select: btn_d
+  start: btn_start
 alienfnt:
+  leftanalogleft: btn_x
+  leftanalogright: btn_b
+  leftanalogup: btn_trigger_right
+  leftanalogdown: btn_trigger_left
+  rightanalogleft: btn_analog_left
+  rightanalogright: btn_analog_right
+  l2: btn_a
+  r2: btn_c
+  select: btn_d
+  start: btn_start
+alienfnta:
   leftanalogleft: btn_x
   leftanalogright: btn_b
   leftanalogup: btn_trigger_right
@@ -34,7 +89,35 @@ alpilot:
   north: btn_b
   select: btn_d
   start: btn_start
+alpilotj:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  rightanalogleft: axis2_right
+  rightanalogright: axis2_left
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_a
+  west: btn_c
+  north: btn_b
+  select: btn_d
+  start: btn_start
 asndynmt:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+asndynmto:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -89,6 +172,36 @@ bdrdown:
   left: btn_dpad1_left
   right: btn_dpad1_right
 capsnk:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_x
+  east: btn_y
+  west: btn_a
+  north: btn_b
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+capsnka:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_x
+  east: btn_y
+  west: btn_a
+  north: btn_b
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+capsnkb:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -185,6 +298,19 @@ csmash:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+csmasho:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  west: btn_a
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 cspike:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
@@ -202,6 +328,23 @@ cspike:
   left: btn_dpad1_left
   right: btn_dpad1_right
 cvs2:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_x
+  east: btn_y
+  west: btn_a
+  north: btn_b
+  l1: btn_c
+  r1: btn_z
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+cvs2mf:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -242,7 +385,39 @@ deathcox:
   west: reload
   select: btn_d
   start: btn_start
+deathcoxj:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  south: btn_a
+  west: reload
+  select: btn_d
+  start: btn_start
+deathcoxo:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  south: btn_a
+  west: reload
+  select: btn_d
+  start: btn_start
 doa2:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_c
+  east: btn_a
+  west: btn_b
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+doa2a:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -297,6 +472,13 @@ dygolf:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+dygolfp:
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 f355:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
@@ -312,7 +494,37 @@ f355:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+f355p:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  rightanalogleft: axis2_left
+  rightanalogright: axis2_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_a
+  west: btn_b
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 f355twin:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  rightanalogleft: axis2_left
+  rightanalogright: axis2_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_a
+  west: btn_b
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+f355twinp:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
   rightanalogleft: axis2_left
@@ -439,6 +651,22 @@ ggxxac:
   left: btn_dpad1_left
   right: btn_dpad1_right
 ggxxrl:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_a
+  east: btn_c
+  west: btn_x
+  north: btn_b
+  r1: btn_z
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+ggxxrlo:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -601,6 +829,57 @@ hotd2:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+hotd2e:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  rightanalogleft: axis2_left
+  rightanalogright: axis2_right
+  rightanalogup: axis2_up
+  rightanalogdown: axis2_down
+  south: btn_a
+  west: btn_b
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+hotd2o:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  rightanalogleft: axis2_left
+  rightanalogright: axis2_right
+  rightanalogup: axis2_up
+  rightanalogdown: axis2_down
+  south: btn_a
+  west: btn_b
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+hotd2p:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  rightanalogleft: axis2_left
+  rightanalogright: axis2_right
+  rightanalogup: axis2_up
+  rightanalogdown: axis2_down
+  south: btn_a
+  west: btn_b
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 ikaruga:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
@@ -700,6 +979,15 @@ lupinsho:
   west: reload
   select: btn_d
   start: btn_start
+lupinshoo:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  south: btn_a
+  west: reload
+  select: btn_d
+  start: btn_start
 mamonoro:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
@@ -737,7 +1025,41 @@ mazan:
   west: reload
   select: btn_d
   start: btn_start
+mazanj:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  south: btn_a
+  west: reload
+  select: btn_d
+  start: btn_start
+mazanu:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  south: btn_a
+  west: reload
+  select: btn_d
+  start: btn_start
 mbaa:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  north: btn_x
+  r1: btn_z
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+mbaao:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -785,6 +1107,38 @@ meltybld:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+meltyblo:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  north: btn_x
+  r1: btn_z
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+meltybo:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  north: btn_x
+  r1: btn_z
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 mok:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
@@ -808,6 +1162,13 @@ mushik2e:
   l1: insert_card
   select: btn_d
   start: btn_start
+mushik2k:
+  south: btn_c
+  west: btn_b
+  north: btn_a
+  l1: insert_card
+  select: btn_d
+  start: btn_start
 mushik4e:
   south: btn_c
   west: btn_b
@@ -815,7 +1176,35 @@ mushik4e:
   l1: insert_card
   select: btn_d
   start: btn_start
+mushikc:
+  south: btn_c
+  west: btn_b
+  north: btn_a
+  l1: insert_card
+  select: btn_d
+  start: btn_start
 mushike:
+  south: btn_c
+  west: btn_b
+  north: btn_a
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+mushikeo:
+  south: btn_c
+  west: btn_b
+  north: btn_a
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+mushikep:
+  south: btn_c
+  west: btn_b
+  north: btn_a
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+mushikk:
   south: btn_c
   west: btn_b
   north: btn_a
@@ -839,7 +1228,57 @@ mvsc2:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+mvsc2u:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_x
+  east: btn_y
+  west: btn_a
+  north: btn_b
+  l1: btn_c
+  r1: btn_z
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 ninjaslt:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  select: btn_d
+  start: btn_start
+  south: btn_a
+  west: reload
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+ninjaslta:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  select: btn_d
+  start: btn_start
+  south: btn_a
+  west: reload
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+ninjasltj:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  select: btn_d
+  start: btn_start
+  south: btn_a
+  west: reload
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+ninjasltu:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
   leftanalogup: btn_analog_up
@@ -874,6 +1313,21 @@ pjustic:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+pjustica:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  select: btn_d
+  start: btn_start
+  south: btn_x
+  east: btn_y
+  west: btn_a
+  north: btn_b
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 pstone:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
@@ -889,6 +1343,21 @@ pstone:
   left: btn_dpad1_left
   right: btn_dpad1_right
 pstone2:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  select: btn_d
+  start: btn_start
+  south: btn_c
+  east: btn_b
+  west: btn_a
+  north: btn_d
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+pstone2b:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -941,6 +1410,32 @@ puyofev:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+puyofevj:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  select: btn_d
+  start: btn_start
+  south: btn_b
+  west: btn_a
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+puyofevp:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  select: btn_d
+  start: btn_start
+  south: btn_b
+  west: btn_a
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 radirgy:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
@@ -956,6 +1451,20 @@ radirgy:
   left: btn_dpad1_left
   right: btn_dpad1_right
 radirgyn:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  select: btn_d
+  start: btn_start
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+radirgyo:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -990,7 +1499,41 @@ ringout:
   select: btn_d
   start: btn_start
   south: btn_a
+ringouto:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_b
+  r2: btn_trigger_right
+  select: btn_d
+  start: btn_start
+  south: btn_a
 samba:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  rightanalogleft: axis2_left
+  rightanalogright: axis2_right
+  rightanalogup: axis2_up
+  rightanalogdown: axis2_down
+  l2: btn_a
+  r2: btn_b
+  select: btn_d
+  start: btn_start
+sambaa:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  rightanalogleft: axis2_left
+  rightanalogright: axis2_right
+  rightanalogup: axis2_up
+  rightanalogdown: axis2_down
+  l2: btn_a
+  r2: btn_b
+  select: btn_d
+  start: btn_start
+sambap:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
   leftanalogup: btn_analog_up
@@ -1017,6 +1560,20 @@ samba2k:
   select: btn_d
   start: btn_start
 senko:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  select: btn_d
+  start: btn_start
+  south: btn_a
+  east: btn_c
+  west: btn_b
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+senkoo:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -1156,6 +1713,17 @@ shootplm:
   north: btn_a
   up: btn_dpad1_up
   down: btn_dpad1_down
+shootplmp:  
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  select: btn_d
+  south: btn_start
+  west: btn_b
+  north: btn_a
+  up: btn_dpad1_up
+  down: btn_dpad1_down
 sl2007:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
@@ -1280,7 +1848,35 @@ ss2005:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+ss2005o:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 sstrkfgt:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  l2: btn_c
+  r2: btn_trigger_right
+  south: btn_b
+  west: btn_a
+  north: btn_x
+  r1: axis2_right
+  l1: axis2_left
+  select: btn_d
+  start: btn_start
+sstrkfgta:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
   leftanalogup: btn_analog_up
@@ -1413,6 +2009,20 @@ trgheart:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+trghearto:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 trizeal:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
@@ -1454,7 +2064,60 @@ vathlete:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+vathletep:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_c
+  east: btn_b
+  west: btn_a
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 virnba:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  west: btn_a
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+virnbao:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  west: btn_a
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+virnbap:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  west: btn_a
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+virnbapa:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -1484,6 +2147,20 @@ vonot:
   select: btn_d
   start: btn_start
 vs2_2k:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_a
+  east: btn_b
+  west: btn_c
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+vs2_2ko:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -1559,7 +2236,58 @@ wldkicks:
   north: btn_x
   select: btn_d
   start: btn_start
+wldkicksj:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  r2: btn_trigger_right
+  south: btn_a
+  north: btn_x
+  select: btn_d
+  start: btn_start
+wldkickspj:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  r2: btn_trigger_right
+  south: btn_a
+  north: btn_x
+  select: btn_d
+  start: btn_start
+wldkickspw:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  r2: btn_trigger_right
+  south: btn_a
+  north: btn_x
+  select: btn_d
+  start: btn_start
+wldkicksu:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  r2: btn_trigger_right
+  south: btn_a
+  north: btn_x
+  select: btn_d
+  start: btn_start
 wrungp:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: axis2_up
+  leftanalogdown: axis2_down
+  rightanalogleft: axis2_left
+  rightanalogright: axis2_right
+  r2: btn_trigger_right
+  north: btn_dpad1_up
+  select: btn_d
+  start: btn_start
+wrungpo:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
   leftanalogup: axis2_up
@@ -1613,6 +2341,26 @@ zombrvn:
   west: btn_b
   select: btn_d
   start: btn_start
+zombrvne:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  south: btn_a
+  east: btn_c
+  west: btn_b
+  select: btn_d
+  start: btn_start
+zombrvno:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  south: btn_a
+  east: btn_c
+  west: btn_b
+  select: btn_d
+  start: btn_start
 zunou:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
@@ -1628,7 +2376,32 @@ anmlbskt:
   west: btn_a
   select: btn_d
   start: btn_start
+anmlbskta:
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  select: btn_d
+  start: btn_start
 basschal:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  leftanalogup: btn_analog_up
+  leftanalogdown: btn_analog_down
+  rightanalogleft: axis2_left
+  rightanalogright: axis2_right
+  rightanalogup: axis2_up
+  rightanalogdown: axis2_down
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_a
+  east: btn_b
+  west: btn_c
+  north: btn_x
+  l1: btn_z
+  r1: btn_y
+  select: btn_d
+  start: btn_start
+basschalo:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
   leftanalogup: btn_analog_up
@@ -1749,6 +2522,23 @@ kofnw:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+kofnwj:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_x
+  east: btn_y
+  west: btn_a
+  north: btn_b
+  l1: btn_z
+  r1: btn_c
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 kofxi:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
@@ -1823,6 +2613,23 @@ ngbc:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+ngbcj:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_x
+  east: btn_y
+  west: btn_a
+  north: btn_b
+  l1: btn_z
+  r1: btn_c
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 rangrmsn:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
@@ -1849,7 +2656,41 @@ rumblef:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+rumblefp:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_x
+  east: btn_y
+  west: btn_a
+  north: btn_b
+  l1: btn_z
+  r1: btn_c
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 rumblef2:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_x
+  east: btn_y
+  west: btn_a
+  north: btn_b
+  l1: btn_z
+  r1: btn_c
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+rumblf2p:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -1960,6 +2801,26 @@ clubk2k3:
   l1: insert_card
   select: btn_d
   start: btn_start
+clubk2kp:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_b
+  north: btn_dpad1_down
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+clubk2kpa:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_b
+  north: btn_dpad1_down
+  l1: insert_card
+  select: btn_d
+  start: btn_start
 clubkprz:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
@@ -1980,7 +2841,47 @@ clubkpzb:
   l1: insert_card
   select: btn_d
   start: btn_start
+clubkpzbp:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_b
+  north: btn_dpad1_down
+  l1: insert_card
+  select: btn_d
+  start: btn_start
 clubkrt:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_b
+  north: btn_dpad1_down
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+clubkrta:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_b
+  north: btn_dpad1_down
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+clubkrtc:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_b
+  north: btn_dpad1_down
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+clubkrto:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
   l2: btn_trigger_left
@@ -2002,6 +2903,17 @@ initd:
   select: btn_d
   start: btn_start
 initdexp:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_b
+  west: btn_a
+  north: btn_dpad1_down
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+initdexpo:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
   l2: btn_trigger_left
@@ -2034,6 +2946,28 @@ initdv2j:
   l1: insert_card
   select: btn_d
   start: btn_start
+initdv2ja:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_b
+  west: btn_a
+  north: btn_dpad1_down
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+initdv2jo:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_b
+  west: btn_a
+  north: btn_dpad1_down
+  l1: insert_card
+  select: btn_d
+  start: btn_start
 initdv3e:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
@@ -2045,7 +2979,41 @@ initdv3e:
   l1: insert_card
   select: btn_d
   start: btn_start
+initdv3j:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_b
+  west: btn_a
+  north: btn_dpad1_down
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+initdv3jb:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_b
+  west: btn_a
+  north: btn_dpad1_down
+  l1: insert_card
+  select: btn_d
+  start: btn_start
 kingrt66:
+  leftanalogleft: btn_analog_left
+  leftanalogright: btn_analog_right
+  l2: btn_trigger_left
+  r2: btn_trigger_right
+  south: btn_c
+  east: btn_b
+  west: btn_x
+  north: btn_a
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_down
+kingrt66p:
   leftanalogleft: btn_analog_left
   leftanalogright: btn_analog_right
   l2: btn_trigger_left
@@ -2069,6 +3037,36 @@ soulsurf:
   left: btn_dpad1_left
   right: btn_dpad1_right
 vf4:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+vf4b:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+vf4o:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
@@ -2113,6 +3111,36 @@ vf4evo:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+vf4evoa:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+vf4evob:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 vf4evoct:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
@@ -2143,6 +3171,36 @@ vf4tuned:
   down: btn_dpad1_down
   left: btn_dpad1_left
   right: btn_dpad1_right
+vf4tuneda:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+vf4tunedd:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_b
+  east: btn_c
+  west: btn_a
+  l1: insert_card
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
 vstrik3:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
@@ -2158,6 +3216,20 @@ vstrik3:
   left: btn_dpad1_left
   right: btn_dpad1_right
 vstrik3c:
+  leftanalogleft: btn_dpad1_left
+  leftanalogright: btn_dpad1_right
+  leftanalogup: btn_dpad1_up
+  leftanalogdown: btn_dpad1_down
+  south: btn_a
+  east: btn_b
+  west: btn_c
+  select: btn_d
+  start: btn_start
+  up: btn_dpad1_up
+  down: btn_dpad1_down
+  left: btn_dpad1_left
+  right: btn_dpad1_right
+vstrik3co:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
   leftanalogup: btn_dpad1_up
