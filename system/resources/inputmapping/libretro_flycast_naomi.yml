@@ -1,0 +1,1390 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate input remaps for Retroarch for a specific core/system combination
+# Each container must be named exactly the same as your game rom file (without the extension)
+# The elements listed are the buttons for which you want the function to be remapped
+# The key represents the RetroArch button code
+# The value represents the original button ID for the specific system/game
+# you can use the -1 value to unmap a button
+18wheelr:
+  btn_a: 9
+  btn_b: 8
+  btn_x: 5
+  btn_y: 0
+18wheelro:
+  btn_a: 9
+  btn_b: 8
+  btn_x: 5
+  btn_y: 0
+18wheelrt:
+  btn_a: 9
+  btn_b: 8
+  btn_x: 5
+  btn_y: 0
+18wheels:
+  btn_a: 9
+  btn_b: 8
+  btn_x: 5
+  btn_y: 0
+18wheelu:
+  btn_a: 9
+  btn_b: 8
+  btn_x: 5
+  btn_y: 0
+alienfnt:
+  btn_l2: 0
+  btn_r2: 1
+  stk_l_x+: 8
+  stk_l_x-: 9
+  stk_l_y+: 12
+  stk_l_y-: 13
+  stk_r_x+: 16
+  stk_r_x-: 17
+alienfnta:
+  btn_l2: 0
+  btn_r2: 1
+  stk_l_x+: 8
+  stk_l_x-: 9
+  stk_l_y+: 12
+  stk_l_y-: 13
+  stk_r_x+: 16
+  stk_r_x-: 17
+alpilot:
+  btn_a: -1
+  btn_x: 8
+alpilotj:
+  btn_a: -1
+  btn_x: 8
+asndynmto:
+  analog_dpad_mode: 3
+  btn_b: 1
+  btn_x: 8
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+asndynmt:
+  analog_dpad_mode: 3
+  btn_b: 1
+  btn_x: 8
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+ausfache:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_x: 1
+  btn_y: 0
+azumanga:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_l: -1
+  btn_l2: -1
+  btn_r2: -1
+  btn_r: -1
+  btn_x: -1
+  btn_y: -1
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+bdrdown:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_r: 1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+capsnk:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_r: -1
+  btn_x: 8
+  btn_y: 0
+capsnka:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_r: -1
+  btn_x: 8
+  btn_y: 0
+capsnkb:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_r: -1
+  btn_x: 8
+  btn_y: 0
+cfield:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r2: -1
+  btn_r: -1
+  btn_x: 1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+chocomk:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r2: -1
+  btn_r: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+cleoftp:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+crzytaxi:
+  btn_b: 4
+  btn_down: -1
+  btn_up: -1
+  btn_x: 5
+csmash:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r2: -1
+  btn_r: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+csmasho:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r2: -1
+  btn_r: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+cspike:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_r: 1
+  btn_l: -1
+  btn_x: -1
+  btn_y: 0
+cvs2:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_r: 10
+  btn_l: 1
+  btn_x: 8
+  btn_y: 0
+cvs2mf:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_r: 10
+  btn_l: 1
+  btn_x: 8
+  btn_y: 0
+cvsgd:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_r: -1
+  btn_x: 8
+  btn_y: 0
+doa2:
+  analog_dpad_mode: 3
+  btn_a: 0
+  btn_b: 1
+  btn_x: 0
+  btn_y: 8
+doa2a:
+  analog_dpad_mode: 3
+  btn_a: 0
+  btn_b: 1
+  btn_x: 0
+  btn_y: 8
+doa2m:
+  analog_dpad_mode: 3
+  btn_a: 0
+  btn_b: 1
+  btn_x: 0
+  btn_y: 8
+dybb99:
+  btn_a: -1
+  btn_b: 8
+  btn_y: 0
+dybbnao:
+  btn_a: -1
+  btn_b: 8
+  btn_y: 0
+ggram2:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_y: 0
+ggx:
+  analog_dpad_mode: 3
+  btn_a: 9
+  btn_b: 8
+  btn_x: 1
+  btn_y: 0
+ggxx:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_r: 10
+  btn_x: 8
+  btn_y: 9
+ggxxac:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_r: 10
+  btn_x: 8
+  btn_y: 9
+ggxxrl:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_r: 10
+  btn_x: 8
+  btn_y: 9
+ggxxrlo:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_r: 10
+  btn_x: 8
+  btn_y: 9
+ggxxsla:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_r: 10
+  btn_x: 8
+  btn_y: 9
+gram2000:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_y: 0
+gundmxgd:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 1
+  btn_l2: 9
+  btn_r2: 0
+  btn_x: -1
+  btn_y: 8
+gunsur2:
+  btn_a: -1
+  btn_l2: -1
+  btn_r2: 8
+  stk_l_x+: 20
+  stk_l_x-: 21
+  stk_r_x+: 16
+  stk_r_x-: 17
+gunsur2j:
+  btn_a: -1
+  btn_l2: -1
+  btn_r2: 8
+  stk_l_x+: 20
+  stk_l_x-: 21
+  stk_r_x+: 16
+  stk_r_x-: 17
+gwing2:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_y: 0
+hmgeo:
+  analog_dpad_mode: 3
+  btn_b: 1
+  btn_y: 0
+ikaruga:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r2: -1
+  btn_r: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+illvelo:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r2: -1
+  btn_r: -1
+  btn_x: 1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+jambo:
+  btn_a: -1
+  btn_y: 8
+jingystm:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 1
+  btn_l: -1
+  btn_l2: -1
+  btn_r2: -1
+  btn_r: -1
+  btn_x: 0
+  btn_y: 8
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+karous:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: 1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+kurucham:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: 1
+  btn_y: 0
+mamonoro:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_y: 0
+marstv:
+  btn_a: 4
+  btn_b: 6
+  btn_down: -1
+  btn_l: -1
+  btn_l2: -1
+  btn_left: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_right: -1
+  btn_up: -1
+  btn_x: -1
+  btn_y: 7
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+mbaa:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: 9
+  btn_r: 10
+  btn_y: 0
+mbaao:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: 9
+  btn_r: 10
+  btn_y: 0
+meltyb:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: 9
+  btn_l2: 9
+  btn_r: 10
+  btn_r2: -1
+  btn_y: 0
+meltybo:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: 9
+  btn_l2: 9
+  btn_r: 10
+  btn_r2: -1
+  btn_y: 0
+meltybld:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: 9
+  btn_r: 10
+  btn_y: 0
+meltyblo:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: 9
+  btn_r: 10
+  btn_y: 0
+mvsc2:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 10
+  btn_x: 8
+  btn_y: 0
+mvsc2u:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 10
+  btn_x: 8
+  btn_y: 0
+pjustic:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_r: -1
+  btn_x: 8
+  btn_y: 0
+pjustica:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_r: -1
+  btn_x: 8
+  btn_y: 0
+pstone:
+  analog_dpad_mode: 3
+  btn_b: 1
+  btn_x: 8
+  btn_y: 0
+pstone2:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_x: 1
+  btn_y: 0
+pstone2b:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_x: 1
+  btn_y: 0
+psyvar2:
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+puyoda:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: -1
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+puyofev:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+puyofevj:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+puyofevp:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+radirgy:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: 1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+radirgyn:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_x: 1
+  btn_y: 0
+radirgyo:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: 1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+rhytngk:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+ringout:
+  btn_a: -1
+  btn_l2: 8
+ringouto:
+  btn_a: -1
+  btn_l2: 8
+samba:
+  btn_a: -1
+  btn_b: -1
+  btn_l: 8
+  btn_l2: 8
+  btn_r: 0
+  btn_r2: 0
+  stk_l_x+: 20
+  stk_l_x-: 21
+  stk_l_y+: 22
+  stk_l_y-: 23
+  stk_r_x+: 16
+  stk_r_x-: 17
+  stk_r_y+: 18
+  stk_r_y-: 19
+sambaa:
+  btn_a: -1
+  btn_b: -1
+  btn_l: 8
+  btn_l2: 8
+  btn_r: 0
+  btn_r2: 0
+  stk_l_x+: 20
+  stk_l_x-: 21
+  stk_l_y+: 22
+  stk_l_y-: 23
+  stk_r_x+: 16
+  stk_r_x-: 17
+  stk_r_y+: 18
+  stk_r_y-: 19
+sambap:
+  btn_a: -1
+  btn_b: -1
+  btn_l: 8
+  btn_l2: 8
+  btn_r: 0
+  btn_r2: 0
+  stk_l_x+: 20
+  stk_l_x-: 21
+  stk_l_y+: 22
+  stk_l_y-: 23
+  stk_r_x+: 16
+  stk_r_x-: 17
+  stk_r_y+: 18
+  stk_r_y-: 19
+samba2k:
+  btn_a: -1
+  btn_b: -1
+  btn_l: 8
+  btn_l2: 8
+  btn_r: 0
+  btn_r2: 0
+  stk_l_x+: 20
+  stk_l_x-: 21
+  stk_l_y+: 22
+  stk_l_y-: 23
+  stk_r_x+: 16
+  stk_r_x-: 17
+  stk_r_y+: 18
+  stk_r_y-: 19
+senkosp:
+  analog_dpad_mode: 3
+  btn_b: 9
+  btn_l: -1
+  btn_r: 10
+  btn_r2: -1
+  btn_x: 1
+  btn_y: 0
+sfz3ugd:
+  analog_dpad_mode: 3
+  btn_a: 11
+  btn_b: 9
+  btn_l: 1
+  btn_r: 10
+  btn_x: 8
+  btn_y: 0
+sgtetris:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+shaktam:
+  btn_a: -1
+  btn_b: 5
+  btn_down: 6
+  btn_l: -1
+  btn_l2: -1
+  btn_left: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_right: -1
+  btn_up: 7
+  btn_x: -1
+  btn_y: 0
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+shaktamb:
+  btn_a: -1
+  btn_b: 5
+  btn_down: 6
+  btn_l: -1
+  btn_l2: -1
+  btn_left: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_right: -1
+  btn_up: 7
+  btn_x: -1
+  btn_y: 0
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+shaktmsp:
+  btn_a: -1
+  btn_b: 5
+  btn_down: 6
+  btn_l: -1
+  btn_l2: -1
+  btn_left: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_right: -1
+  btn_up: 7
+  btn_x: -1
+  btn_y: 0
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+shikgam2:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: 1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+sl2007:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: 1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+slasho:
+  analog_dpad_mode: 3
+  btn_b: 1
+  btn_r: 9
+  btn_x: 8
+  btn_y: 0
+slashout:
+  analog_dpad_mode: 3
+  btn_b: 1
+  btn_r: 9
+  btn_x: 8
+  btn_y: 0
+smarinef:
+  btn_b: 3
+  btn_up: -1
+  btn_y: 4
+smlg99:
+  btn_a: -1
+  btn_b: 8
+  btn_x: -1
+  btn_y: 0
+spawn:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l2: 9
+  btn_r2: 0
+  btn_x: 1
+  btn_y: 0
+spkrbtl:
+  analog_dpad_mode: 3
+  btn_a: 9
+  btn_l: -1
+  btn_l2: -1
+  btn_r: 9
+  btn_r2: -1
+  btn_x: 1
+  btn_y: 8
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+sprtjam:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_x: -1
+  btn_y: 0
+sstrkfgt:
+  btn_a: -1
+  btn_b: 8
+  btn_l: 20
+  btn_l2: 1
+  btn_r: 21
+  btn_y: 0
+  stk_r_x+: -1
+  stk_r_x-: -1
+sstrkfgta:
+  btn_a: -1
+  btn_b: 8
+  btn_l: 20
+  btn_l2: 1
+  btn_r: 21
+  btn_y: 0
+  stk_r_x+: -1
+  stk_r_x-: -1
+starseek:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+takoron:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+tetkiwam:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+tokyobus:
+  btn_b: 1
+  btn_down: 7
+  btn_l: 11
+  btn_left: -1
+  btn_r: 10
+  btn_right: -1
+  btn_up: 6
+  btn_x: 5
+  btn_y: 0
+toukon4:
+  analog_dpad_mode: 3
+  btn_b: 9
+  btn_l: -1
+  btn_r: 1
+  btn_x: 0
+  btn_y: 10
+toyfight:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_x: 1
+  btn_y: 0
+undefeat:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+vathlete:
+  analog_dpad_mode: 3
+  btn_b: 1
+  btn_l: 1
+  btn_l2: -1
+  btn_r: 0
+  btn_r2: -1
+  btn_x: 8
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+vathletep:
+  analog_dpad_mode: 3
+  btn_b: 1
+  btn_l: 1
+  btn_l2: -1
+  btn_r: 0
+  btn_r2: -1
+  btn_x: 8
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+virnba:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+virnbao:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+virnbap:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+virnbapa:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+vonot:
+  btn_a: 9
+  btn_b: -1
+  btn_l: -1
+  btn_down: -1
+  btn_l: -1
+  btn_l2: 0
+  btn_r: -1
+  btn_r2: 1
+  btn_right: -1
+  btn_up: -1
+  btn_x: -1
+  btn_y: 8
+  stk_l_x+: 7
+  stk_l_x-: 6
+  stk_l_y+: 5
+  stk_l_y-: 4
+  stk_r_x+: 12
+  stk_r_x-: 13
+  stk_r_y+: 10
+  stk_r_y-: 11
+vs2_2k:
+  analog_dpad_mode: 3
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+vs2_2ko:
+  analog_dpad_mode: 3
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+vtennis:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_y: 0
+vtennisg:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_y: 0
+vtennis2:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+vtennis2c:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+wldkicks:
+  btn_a: -1
+  btn_l: -1
+  btn_l2: -1
+  btn_left: -1
+  btn_r: -1
+  btn_right: -1
+  btn_y: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+wldkicksj:
+  btn_a: -1
+  btn_l: -1
+  btn_l2: -1
+  btn_left: -1
+  btn_r: -1
+  btn_right: -1
+  btn_y: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+wldkickspj:
+  btn_a: -1
+  btn_l: -1
+  btn_l2: -1
+  btn_left: -1
+  btn_r: -1
+  btn_right: -1
+  btn_y: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+wldkickspw:
+  btn_a: -1
+  btn_l: -1
+  btn_l2: -1
+  btn_left: -1
+  btn_r: -1
+  btn_right: -1
+  btn_y: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+wldkicksu:
+  btn_a: -1
+  btn_l: -1
+  btn_l2: -1
+  btn_left: -1
+  btn_r: -1
+  btn_right: -1
+  btn_y: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+wrungp:
+  btn_up: -1
+  btn_x: 4
+  stk_l_y+: 22
+  stk_l_y-: 23
+  stk_r_y+: -1
+  stk_r_y-: -1
+wrungpo:
+  btn_up: -1
+  btn_x: 4
+  stk_l_y+: 22
+  stk_l_y-: 23
+  stk_r_y+: -1
+  stk_r_y-: -1
+wsbbgd:
+  btn_a: -1
+  btn_b: 8
+  btn_y: 0
+wwfroyal:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: 1
+  btn_y: 8
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+zerogu2:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_y: 0
+zombrvn:
+  btn_a: -1
+  btn_x: 1
+  btn_y: 8
+zombrvne:
+  btn_a: -1
+  btn_x: 1
+  btn_y: 8
+zombrvno:
+  btn_a: -1
+  btn_x: 1
+  btn_y: 8
