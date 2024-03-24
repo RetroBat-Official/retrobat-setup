@@ -23,6 +23,7 @@ default:
   duckstation: GeomCRT@CRTGeom.fx
   mupen64: GeomCRT@CRTGeom.fx
   xemu: GeomCRT@CRTGeom.fx
+  ikemen: GeomCRT@CRTGeom.fx
 # per system overrides  
 3ds:
   shader: handheld/lcd-shader

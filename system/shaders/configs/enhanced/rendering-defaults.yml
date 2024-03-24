@@ -25,6 +25,7 @@ default:
   duckstation: HQ4X@HQ4X.fx
   mupen64: HQ4X@HQ4X.fx
   xemu: HQ4X@HQ4X.fx
+  ikemen: HQ4X@HQ4X.fx
 # per system overrides  
 n64:
   shader: anti-aliasing/fxaa
