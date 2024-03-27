@@ -7,10 +7,10 @@
 \system\templates\bigpemu\userdata\BigPEmuConfig.bigpcfg|\emulators\bigpemu\userdata\BigPEmuConfig.bigpcfg
 \system\templates\bizhawk\config.ini|\emulators\bizhawk\config.ini
 \system\templates\cemu\settings.xml|\emulators\cemu\settings.xml
-\system\templates\citra\portable.txt|\emulators\citra\portable.txt
-\system\templates\citra\qt-config.ini|\emulators\citra\user\config\qt-config.ini
 \system\templates\citra-canary\portable.txt|\emulators\citra-canary\portable.txt
 \system\templates\citra-canary\qt-config.ini|\emulators\citra-canary\user\config\qt-config.ini
+\system\templates\citra\portable.txt|\emulators\citra\portable.txt
+\system\templates\citra\qt-config.ini|\emulators\citra\user\config\qt-config.ini
 \system\templates\cxbx-reloaded\settings.ini|\emulators\cxbx-reloaded\settings.ini
 \system\templates\daphne\config.xml|\emulators\daphne\config.xml
 \system\templates\demul-old\Demul.ini|\emulators\demul-old\Demul.ini
@@ -32,6 +32,7 @@
 \system\templates\emulationstation\es_padtokey.cfg|\emulationstation\.emulationstation\es_padtokey.cfg
 \system\templates\emulationstation\es_settings.cfg|\emulationstation\.emulationstation\es_settings.cfg
 \system\templates\flycast\emu.cfg|\emulators\flycast\emu.cfg
+\system\templates\gemrb\gemrb.cfg|\emulators\gemrb\gemrb.cfg
 \system\templates\gzdoom\gzdoom_portable.ini|\emulators\gzdoom\gzdoom_portable.ini
 \system\templates\hatari\hatari.cfg|\emulators\hatari\hatari.cfg
 \system\templates\hbmame\ctrlr\ds4_ds5.cfg|\saves\hbmame\ctrlr\ds4_ds5.cfg
@@ -48,12 +49,12 @@
 \system\templates\infos\portable.txt|\emulators\xenia\portable.txt
 \system\templates\jynx\settings.txt|\emulators\jynx\settings.txt
 \system\templates\kega-fusion\Fusion.ini|\emulators\kega-fusion\Fusion.ini
-\system\templates\m2emulator\dinput.zip|\emulators\m2emulator\templatescfg\dinput
 \system\templates\m2emulator\Emulator.ini|\emulators\m2emulator\Emulator.ini
+\system\templates\m2emulator\dinput.zip|\emulators\m2emulator\templatescfg\dinput
 \system\templates\m2emulator\scripts.zip|\emulators\m2emulator\scripts
 \system\templates\m2emulator\xinput.zip|\emulators\m2emulator\templatescfg\xinput
-\system\templates\mame\fmtownsux.ini|\emulators\mame\ini\fmtownsux.ini
 \system\templates\mame\blank.fmtowns|\saves\mame\fmtowns\blank.fmtowns
+\system\templates\mame\fmtownsux.ini|\emulators\mame\ini\fmtownsux.ini
 \system\templates\melonds\melonDS.ini|\emulators\melonds\melonDS.ini
 \system\templates\mesen\settings.json|\emulators\mesen\settings.json
 \system\templates\mgba\config.ini|\emulators\mgba\config.ini
@@ -61,6 +62,7 @@
 \system\templates\mupen64\Config\mupen64plus.cfg|\emulators\mupen64\Config\mupen64plus.cfg
 \system\templates\nosgba\NO$GBA.INI|\emulators\nosgba\NO$GBA.INI
 \system\templates\oricutron\oricutron.cfg|\emulators\oricutron\oricutron.cfg
+\system\templates\pcsx2-16\Plugins\nuvee_ps2_usb.dll|\emulators\pcsx2-16\Plugins\nuvee_ps2_usb.dll
 \system\templates\pcsx2-16\inis\Dev9null.ini|\emulators\pcsx2-16\inis\Dev9null.ini
 \system\templates\pcsx2-16\inis\FWnull.ini|\emulators\pcsx2-16\inis\FWnull.ini
 \system\templates\pcsx2-16\inis\GSdx.ini|\emulators\pcsx2-16\inis\GSdx.ini
@@ -69,7 +71,6 @@
 \system\templates\pcsx2-16\inis\PCSX2_vm.ini|\emulators\pcsx2-16\inis\PCSX2_vm.ini
 \system\templates\pcsx2-16\inis\SPU2-X.ini|\emulators\pcsx2-16\inis\SPU2-X.ini
 \system\templates\pcsx2-16\inis\USBnull.ini|\emulators\pcsx2-16\inis\USBnull.ini
-\system\templates\pcsx2-16\Plugins\nuvee_ps2_usb.dll|\emulators\pcsx2-16\Plugins\nuvee_ps2_usb.dll
 \system\templates\pcsx2-16\portable.ini|\emulators\pcsx2-16\portable.ini
 \system\templates\pcsx2\inis\PCSX2.ini|\emulators\pcsx2\inis\PCSX2.ini
 \system\templates\pcsx2\portable.ini|\emulators\pcsx2\portable.ini
@@ -115,8 +116,8 @@
 \system\templates\xenia-canary\gamecontrollerdb.txt|\emulators\xenia-canary\gamecontrollerdb.txt
 \system\templates\xenia-canary\xenia-canary.config.toml|\emulators\xenia-canary\xenia-canary.config.toml
 \system\templates\xenia\gamecontrollerdb.txt|\emulators\xenia\gamecontrollerdb.txt
-\system\templates\xm6pro\XM6.ini|\emulators\xm6pro\XM6.ini
 \system\templates\xenia\xenia.config.toml|\emulators\xenia\xenia.config.toml
+\system\templates\xm6pro\XM6.ini|\emulators\xm6pro\XM6.ini
 \system\templates\yuzu\qt-config.ini|\emulators\yuzu-early-access\user\config\qt-config.ini
 \system\templates\yuzu\qt-config.ini|\emulators\yuzu\user\config\qt-config.ini
 \system\templates\zinc\renderer.cfg|\emulators\zinc\renderer.cfg
