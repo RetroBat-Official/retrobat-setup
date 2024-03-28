@@ -205,6 +205,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./fbneo.menu</path>
+		<name>FBNEO (Multi-System emulator)</name>
+		<desc>Run FBNEO.</desc>
+		<image>./media/fbneo-logo.png</image>
+		<marquee>./media/fbneo-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Team FBNeo</developer>
+		<publisher>Team FBNeo</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./flycast.menu</path>
 		<name>Flycast (Dreamcast, Naomi, Atomiswave)</name>
 		<desc>Run Flycast.</desc>
@@ -221,7 +238,7 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
-    <game>
+	<game>
 		<path>./hatari.menu</path>
 		<name>Hatari (Atari ST)</name>
 		<desc>Run Hatari.</desc>
