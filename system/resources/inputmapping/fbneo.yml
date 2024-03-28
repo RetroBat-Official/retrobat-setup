@@ -21,12 +21,16 @@
 # The value represents the dinput button name (refer to retrobat\system\tools\gamecontrollerdb file, the list is the following
 # lefty_up (left stick up)
 # lefty_down (left stick down)
+# lefty_axis (left stick axis)
 # leftx_left (left stick left)
 # leftx_right (left stick right)
+# leftx_axis (left stick axis)
 # righty_up (right stick up)
 # righty_down (right stick down)
+# righty_axis (right stick axis)
 # rightx_left (right stick left)
 # rightx_right (right stick right)
+# rightx_axis (right stick axis)
 # dpup (d-pad up)
 # dpdown (d-pad down)
 # dpleft (d-pad left)
@@ -44,7 +48,8 @@
 # back (select)
 # start
 #
-sfiii3:
+# CPS-3
+sfiii:
   Coin: back
   Start: start
   Up: dpup
@@ -59,3 +64,78 @@ sfiii3:
   Strong Kick: rightshoulder
   Diagnostic: rightstick
   Service: leftstick
+jojo:
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Weak Attack: x
+  Medium Attack: a
+  Strong Attack: b
+  Stand: y
+  All Attacks (Fake): leftshoulder
+  Diagnostic: rightstick
+  Service: leftstick
+redearth:
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Weak Punch: x
+  Medium Punch: y
+  Strong Punch: leftshoulder
+  Weak Kick: a
+  Medium Kick: b
+  Strong Kick: rightshoulder
+  Diagnostic: rightstick
+  Service: leftstick
+warzard:
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Weak Punch: x
+  Medium Punch: y
+  Strong Punch: leftshoulder
+  Weak Kick: a
+  Medium Kick: b
+  Strong Kick: rightshoulder
+  Diagnostic: rightstick
+  Service: leftstick
+# ATARI
+akkaarrh:
+  Coin 1: back
+  Coin 2: back
+  Coin 3: back
+  Start 1: start
+  Start 2: start
+  Fire: a
+  Power Blaster: righttrigger
+  Zoom: lefttrigger
+  Trackball X: leftx_axis
+  Trackball Y: lefty_axis
+gaunt:
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+vindctr2:
+  Coin: back
+  Start: start
+  Left Stick Up: lefty_up
+  Left Stick Down: lefty_down
+  Left Stick Fire: lefttrigger
+  Left Stick Thumb: leftshoulder
+  Right Stick Up: righty_up
+  Right Stick Down: righty_down
+  Right Stick Fire: righttrigger
+  Right Stick Thumb: rightshoulder
