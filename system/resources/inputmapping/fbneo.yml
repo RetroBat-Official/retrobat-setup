@@ -1,0 +1,61 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate specific game input mappings in fbneo emulator (standalone)
+# Each container must be named exactly the same as your game rom file (without the extension)
+# The elements listed are the buttons that will be mapped in the emulator, per game .ini mapping can be found in the \emulators\fbneo\config\games folder of your RetroBat installation
+#
+# --------------- KEY ---------------------------
+# The key represents the fbneo arcade button name
+# example of ini file:
+# input  "P1 Coin"          switch 0x4086
+# input  "P1 Start"         switch 0x4087
+# input  "P1 Up"            switch 0x4012
+# input  "Service"          switch 0x4013
+# 
+# in this example the keys should be:
+# Coin
+# Start
+# Up
+# Service
+#
+# -------------- VALUE ----------------------------------
+# The value represents the dinput button name (refer to retrobat\system\tools\gamecontrollerdb file, the list is the following
+# lefty_up (left stick up)
+# lefty_down (left stick down)
+# leftx_left (left stick left)
+# leftx_right (left stick right)
+# righty_up (right stick up)
+# righty_down (right stick down)
+# rightx_left (right stick left)
+# rightx_right (right stick right)
+# dpup (d-pad up)
+# dpdown (d-pad down)
+# dpleft (d-pad left)
+# dpright (d-pad right)
+# a (SOUTH face button)
+# b (EAST face button)
+# x (WEST face button)
+# y (NORTH face button)
+# leftshoulder
+# rightshoulder
+# lefttrigger
+# righttrigger
+# leftstick (left stick click)
+# rightstick (right stick click)
+# back (select)
+# start
+#
+sfiii3:
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Weak Punch: x
+  Medium Punch: y
+  Strong Punch: leftshoulder
+  Weak Kick: a
+  Medium Kick: b
+  Strong Kick: rightshoulder
+  Diagnostic: rightstick
+  Service: leftstick

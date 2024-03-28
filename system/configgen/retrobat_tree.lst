@@ -125,6 +125,9 @@ emulators\dosbox
 emulators\duckstation
 emulators\eka2l1
 emulators\eka2l1\compat
+emulators\fbneo
+emulators\fbneo\config
+emulators\fbneo\config\games
 emulators\flycast
 emulators\flycast\mappings
 emulators\fpinball
