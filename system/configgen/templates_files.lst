@@ -33,7 +33,7 @@
 \system\templates\emulationstation\es_settings.cfg|\emulationstation\.emulationstation\es_settings.cfg
 \system\templates\fbneo\config\fbneo64.ini|\emulators\fbneo\config\fbneo64.ini
 \system\templates\flycast\emu.cfg|\emulators\flycast\emu.cfg
-\system\templates\gemrb\gemrb.cfg|\emulators\gemrb\gemrb.cfg
+\system\templates\gemrb\GemRB.cfg|\emulators\gemrb\GemRB.cfg
 \system\templates\gzdoom\gzdoom_portable.ini|\emulators\gzdoom\gzdoom_portable.ini
 \system\templates\hatari\hatari.cfg|\emulators\hatari\hatari.cfg
 \system\templates\hbmame\ctrlr\ds4_ds5.cfg|\saves\hbmame\ctrlr\ds4_ds5.cfg
