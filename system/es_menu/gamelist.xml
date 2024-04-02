@@ -290,6 +290,23 @@
 		<region>wr</region>
 	</game>-->
 	<game>
+		<path>./lemonade.menu</path>
+		<name>Lemonade (3DS)</name>
+		<desc>Run Lemonade Emulator (Nintendo 3DS).</desc>
+		<image>./media/lemonade-logo.png</image>
+		<marquee>./media/lemonade-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Lemonade Team</developer>
+		<publisher>Lemonade Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./m2emulator.menu</path>
 		<name>M2Emulator (Model 2)</name>
 		<desc>Run M2Emulator (Model 2).</desc>
@@ -945,6 +962,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./suyu.menu</path>
+		<name>Suyu (Switch)</name>
+		<desc>Run Suyu (Switch). This software is not provided by RetroBat.</desc>
+		<image>./media/suyu-logo.png</image>
+		<marquee>./media/suyu-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Suyu Team</developer>
+		<publisher>Suyu Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./xemu.menu</path>
 		<name>Xemu (Xbox, Chihiro)</name>
 		<desc>Run Xemu (Xbox, Chihiro).</desc>
@@ -964,7 +998,7 @@
 	<game>
 		<path>./yuzu.menu</path>
 		<name>Yuzu (Switch)</name>
-		<desc>Run Yuzu (Switch). This software is not provided by RetroBat. You can download it here: https://yuzu-emu.org/downloads/</desc>
+		<desc>Run Yuzu (Switch). This software is not provided by RetroBat.</desc>
 		<image>./media/yuzu-logo.png</image>
 		<marquee>./media/yuzu-logo.png</marquee>
 		<rating>0</rating>
