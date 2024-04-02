@@ -137,6 +137,9 @@ emulators\hatari
 emulators\hypseus
 emulators\jynx
 emulators\kega-fusion
+emulators\lemonade
+emulators\lemonade\user
+emulators\lemonade\user\config
 emulators\m2emulator
 emulators\m2emulator\CFG
 emulators\m2emulator\NVDATA
@@ -196,6 +199,9 @@ emulators\steam
 emulators\stella
 emulators\supermodel
 emulators\supermodel\Config
+emulators\suyu
+emulators\suyu\user
+emulators\suyu\user\config
 emulators\vita3k
 emulators\vita3k\ux0
 emulators\vita3k\ux0\user
