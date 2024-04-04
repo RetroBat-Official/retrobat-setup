@@ -194,6 +194,8 @@ emulators\simcoupe
 emulators\simple64
 emulators\snes9x
 emulators\solarus
+emulators\sonic3air
+emulators\sonic3air\savedata
 emulators\ssf
 emulators\steam
 emulators\stella
