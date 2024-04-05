@@ -225,6 +225,9 @@ records\config
 records\output
 roms
 roms\sonicmania
+roms\sonicretro
+roms\sonicretro\sonic1
+roms\sonicretro\sonic2
 saves
 saves\amiga
 saves\amiga\winuae
