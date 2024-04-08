@@ -1,5 +1,6 @@
 default:
   shader: presets/tvout/tvout
+  ares: presets/tvout/tvout
 # Reshader  
 model2:
   shader: disabled

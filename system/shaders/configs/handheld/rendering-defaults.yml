@@ -2,6 +2,8 @@
 default:
   # shader affects retroarch shaders
   shader: crt/GritsScanlines
+  # shader affects retroarch shaders
+  ares: crt/GritsScanlines
   # scanline affect fba2x
   scanline: true
 # Reshader  
@@ -11,12 +13,15 @@ model3:
   shader: disabled
 gba:
   shader: handheld/lcd-grid-v2-gba-color
+  ares: handheld/lcd-grid-v2-gba-color
 gb:
   shader: handheld/gameboy
+  ares: handheld/gameboy
 gb2players:
   shader: handheld/gameboy
 gbc:
   shader: handheld/lcd-grid-v2-gbc-color
+  ares: handheld/lcd-grid-v2-gbc-color
 gbc2players:
   shader: handheld/lcd-grid-v2-gbc-color
 nds:
@@ -29,10 +34,13 @@ virtualboy:
 gamegear:
   shaderGL: crt/crt-guest-dr-venom-fast
   shader: crt/crt-guest-advanced-fast
+  ares: crt/crt-guest-advanced-fast
 ngp:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
 ngpc:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
 gw:
   shader: crt/crt-geom
 lynx:
@@ -40,7 +48,9 @@ lynx:
   shader: crt/crt-guest-advanced-fast
 wswan:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
 wswanc:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
 psp:
   shader: handheld/lcd-grid-v2-psp-color

@@ -2,6 +2,8 @@
 default:
   # libretro
   shader: crt/crt-geom
+  # ares
+  ares: crt/crt-geom
   # emulators using reshader 
   mednafen: GeomCRT@CRTGeom.fx
   m2emulator: GeomCRT@CRTGeom.fx
@@ -23,7 +25,6 @@ default:
   duckstation: GeomCRT@CRTGeom.fx
   mupen64: GeomCRT@CRTGeom.fx
   xemu: GeomCRT@CRTGeom.fx
-  ikemen: GeomCRT@CRTGeom.fx
 # per system overrides  
 3ds:
   shader: handheld/lcd-shader
@@ -33,14 +34,18 @@ dreamcast:
 gamegear:
   shaderGL: crt/crt-guest-dr-venom-fast
   shader: crt/crt-guest-advanced-fast
+  ares: crt/crt-guest-advanced-fast
 gba:
   shader: handheld/lcd-grid-v2-gba-color
+  ares: handheld/lcd-grid-v2-gba-color
 gb:
   shader: handheld/gameboy
+  ares: handheld/gameboy
 gb2players:
   shader: handheld/gameboy
 gbc:
   shader: handheld/lcd-grid-v2-gbc-color
+  ares: handheld/lcd-grid-v2-gbc-color
 gbc2players:
   shader: handheld/lcd-grid-v2-gbc-color
 gc:
@@ -53,14 +58,17 @@ nds:
   shader: handheld/lcd-grid-v2-nds-color
 ngp:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
 ngpc:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
 ps2:
   shader: crt/crt-hyllian-3d
 psp:
   shader: handheld/lcd-grid-v2-psp-color
 psx:
   shader: crt/crt-hyllian-3d
+  ares: crt/crt-hyllian-3d
   mednafen: GeomCRT@CRTGeom.fx
 vectrex:
   shaderGL: interpolation/sharp-bilinear-scanlines
@@ -72,8 +80,10 @@ wii:
   shader: crt/crt-hyllian-3d
 wswan:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
   mednafen: GeomCRT@CRTGeom.fx
 wswanc:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
   mednafen: GeomCRT@CRTGeom.fx
 

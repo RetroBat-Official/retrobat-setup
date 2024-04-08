@@ -2,6 +2,8 @@
 default:
   # libretro
   shader: crt/zfast-crt
+  # ares
+  ares: crt/zfast-crt
   # emulators using reshader 
   mednafen: EasymodeCRT@CRTEasymode.fx
   m2emulator: EasymodeCRT@CRTEasymode.fx
@@ -28,12 +30,15 @@ default:
 # per system overrides  
 gba:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
 gb:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
 gb2players:
   shader: handheld/zfast-lcd
 gbc:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
 gbc2players:
   shader: handheld/zfast-lcd
 3ds:
@@ -42,16 +47,21 @@ nds:
   shader: handheld/zfast-lcd
 gamegear:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
 ngp:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
 ngpc:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
 lynx:
   shader: handheld/zfast-lcd
   mednafen: EasymodeCRT@CRTEasymode.fx
 wswan:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
   mednafen: EasymodeCRT@CRTEasymode.fx
 wswanc:
   shader: handheld/zfast-lcd
+  ares: handheld/zfast-lcd
   mednafen: EasymodeCRT@CRTEasymode.fx
