@@ -3,6 +3,8 @@ default:
   # libretro
   shaderGL: ntsc/ntsc
   shader: ntsc/ntsc-simple
+  # ares
+  ares: ntsc/ntsc-simple
   # emulators using reshader 
   m2emulator: NTSC_MAME@ntsc.fx
   supermodel: NTSC_MAME@ntsc.fx

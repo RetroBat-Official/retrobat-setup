@@ -2,6 +2,8 @@
 default:
   # shader affects retroarch shaders
   shader: blurs/kawase_glow
+  # ares
+  ares: blurs/kawase_glow
   # scanline affect fba2x
   scanline: true
 # Reshader  
@@ -12,12 +14,15 @@ model3:
 # Nintendo
 gba:
   shader: handheld/simpletex_lcd+gba-color
+  ares: handheld/simpletex_lcd+gba-color
 gb:
   shader: handheld/simpletex_lcd
+  ares: handheld/simpletex_lcd
 gb2players:
   shader: handheld/simpletex_lcd
 gbc:
   shader: handheld/simpletex_lcd+gbc-color
+  ares: handheld/simpletex_lcd+gbc-color
 gbc2players:
   shader: handheld/simpletex_lcd+gbc-color
 3ds:
@@ -30,16 +35,21 @@ virtualboy:
 # Sega
 gamegear:
   shader: handheld/simpletex_lcd+gbc-color
+  ares: handheld/simpletex_lcd+gbc-color
 #
 ngp:
   shader: handheld/simpletex_lcd
+  ares: handheld/simpletex_lcd
 ngpc:
-  shader: handheld/simpletex_lcd
+  shader: handheld/simpletex_lcd+gbc-color
+  ares: handheld/simpletex_lcd+gbc-color
 lynx:
   shader: handheld/simpletex_lcd+gbc-color
 wswan:
   shader: handheld/simpletex_lcd
+  ares: handheld/simpletex_lcd
 wswanc:
   shader: handheld/simpletex_lcd+gbc-color
+  ares: handheld/simpletex_lcd+gbc-color
 psp:
   shader: handheld/lcd-grid-v2-psp-color

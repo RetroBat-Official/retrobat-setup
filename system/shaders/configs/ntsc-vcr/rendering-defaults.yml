@@ -1,5 +1,6 @@
 default:
   shader: vhs/ntsc-vcr
+  ares: vhs/ntsc-vcr
 # Reshader  
 model2:
   shader: disabled

@@ -1,5 +1,6 @@
 default:
   shader: vhs/vhs
+  ares: vhs/vhs
 # Reshader  
 model2:
   shader: disabled

@@ -1,6 +1,7 @@
 default:
   shaderGL: ntsc/ntsc-320px
   shader: ntsc/ntsc-320px-composite
+  ares: ntsc/ntsc-320px-composite
 # Reshader  
 model2:
   shader: disabled

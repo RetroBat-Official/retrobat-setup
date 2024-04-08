@@ -2,6 +2,8 @@
 default:
   # libretro
   shader: crt/GritsScanlines
+  # ares
+  ares: crt/GritsScanlines
   # emulators using reshader 
   m2emulator: ScanlinesAbs@scanlines-abs.fx
   supermodel: ScanlinesAbs@scanlines-abs.fx
@@ -27,14 +29,18 @@ default:
 n64:
   shaderGL: interpolation/sharp-bilinear-scanlines
   shader: pixel-art-scaling/sharp-bilinear-scanlines
+  ares: pixel-art-scaling/sharp-bilinear-scanlines
 gba:
   shader: handheld/lcd-grid-v2
+  ares: handheld/lcd-grid-v2
 gb:
   shader: handheld/lcd-grid-v2
+  ares: handheld/lcd-grid-v2
 gb2players:
   shader: handheld/lcd-grid-v2
 gbc:
   shader: handheld/lcd-grid-v2
+  ares: handheld/lcd-grid-v2
 gbc2players:
   shader: handheld/lcd-grid-v2
 nds:
@@ -53,10 +59,13 @@ dreamcast:
   redream: ScanlinesAbs@scanlines-abs.fx
 gamegear:
   shader: handheld/lcd-grid-v2
+  ares: handheld/lcd-grid-v2
 ngp:
   shader: handheld/lcd-grid-v2
+  ares: handheld/lcd-grid-v2
 ngpc:
   shader: handheld/lcd-grid-v2
+  ares: handheld/lcd-grid-v2
 gw:
   shader: handheld/lcd-grid-v2
 lynx:
@@ -64,9 +73,11 @@ lynx:
   mednafen: ScanlinesAbs@scanlines-abs.fx
 wswan:
   shader: handheld/lcd-grid-v2
+  ares: handheld/lcd-grid-v2
   mednafen: ScanlinesAbs@scanlines-abs.fx
 wswanc:
   shader: handheld/lcd-grid-v2
+  ares: handheld/lcd-grid-v2
   mednafen: ScanlinesAbs@scanlines-abs.fx
 psp:
   shader: handheld/lcd-grid-v2

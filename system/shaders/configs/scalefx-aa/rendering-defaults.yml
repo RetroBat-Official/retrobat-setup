@@ -1,5 +1,6 @@
 default:
   shader: presets/scalefx-aa
+  ares: presets/scalefx-aa
 # Reshader  
 model2:
   shader: disabled

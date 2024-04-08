@@ -3,6 +3,8 @@ default:
   # libretro
   shaderGL: hqx/hq2x
   shader: edge-smoothing/hqx/hq2x
+  # ares
+  ares: edge-smoothing/hqx/hq2x
   # emulators using reshader 
   mednafen: HQ4X@HQ4X.fx
   m2emulator: HQ4X@HQ4X.fx
@@ -25,18 +27,21 @@ default:
   duckstation: HQ4X@HQ4X.fx
   mupen64: HQ4X@HQ4X.fx
   xemu: HQ4X@HQ4X.fx
-  ikemen: HQ4X@HQ4X.fx
 # per system overrides  
 n64:
   shader: anti-aliasing/fxaa
+  ares: anti-aliasing/fxaa
 gba:
   shader: handheld/lcd-grid-v2-gba-color
+  ares: handheld/lcd-grid-v2-gba-color
 gb:
   shader: handheld/gameboy
+  ares: handheld/gameboy
 gb2players:
   shader: handheld/gameboy
 gbc:
   shader: handheld/lcd-grid-v2-gbc-color
+  ares: handheld/lcd-grid-v2-gbc-color
 gbc2players:
   shader: handheld/lcd-grid-v2-gbc-color
 nds:
@@ -57,6 +62,7 @@ dreamcast:
 gamegear:
   shaderGL: crt/crt-guest-dr-venom-fast
   shader: crt/crt-guest-advanced-fast
+  ares: crt/crt-guest-advanced-fast
 saturn:
   shader: anti-aliasing/fxaa
   mednafen: HQ4X@HQ4X.fx
@@ -66,8 +72,10 @@ naomi:
 # Misc
 ngp:
   shader: handheld/gameboy
+  ares: handheld/gameboy
 ngpc:
   shader: handheld/lcd-grid-v2-gbc-color
+  ares: handheld/lcd-grid-v2-gbc-color
 gw:
   shader: handheld/gameboy
 lynx:
@@ -76,12 +84,15 @@ lynx:
   mednafen: HQ4X@HQ4X.fx
 wswan:
   shader: handheld/gameboy
+  ares: handheld/gameboy
   mednafen: HQ4X@HQ4X.fx
 wswanc:
   shader: handheld/lcd-grid-v2-gbc-color
+  ares: handheld/lcd-grid-v2-gbc-color
   mednafen: HQ4X@HQ4X.fx
 psx:
   shader: anti-aliasing/fxaa
+  ares: anti-aliasing/fxaa
   mednafen: HQ4X@HQ4X.fx
 ps2:
   shader: anti-aliasing/fxaa
