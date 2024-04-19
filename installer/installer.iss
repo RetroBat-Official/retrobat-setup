@@ -15,8 +15,16 @@
 #define MyAppArchitecture "x64"
 #endif
 
-#ifndef SourceDir
-#define SourceDir ".\..\build"
+#ifndef MyAppArchitecture
+#define MyAppArchitecture "x64"
+#endif
+
+#ifndef InstallerCompressionType
+#define InstallerCompressionType "lzma2/normal"
+#endif
+
+#ifndef EnableDiskSpanning
+#define EnableDiskSpanning "no"
 #endif
 
 #ifndef InstallRootUrl
@@ -40,11 +48,12 @@ AppVerName={#MyAppName} {#MyAppVersion}
 AppVersion={#MyAppVersion}
 ArchitecturesAllowed={#MyAppArchitecture}
 ArchitecturesInstallIn64BitMode=x64
-Compression=lzma
+Compression={#InstallerCompressionType}
 DefaultDirName=C:\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
 DisableWelcomePage=no
+DiskSpanning={#EnableDiskSpanning}
 InfoBeforeFile=".\readme.txt"
 LicenseFile=.\..\license.txt
 MinVersion=0,6.1sp1
@@ -54,6 +63,8 @@ OutputManifestFile={#MyAppName}-v{#MyAppVersion}-setup_Manifest.txt
 PrivilegesRequired=lowest
 SetupIconFile=".\resources\launcher.ico"
 ShowLanguageDialog=yes
+SlicesPerDisk=3
+DiskSliceSize=1566000000
 SolidCompression=yes
 Uninstallable=no
 VersionInfoCopyright={#MyAppPublisher}
