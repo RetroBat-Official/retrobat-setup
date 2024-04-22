@@ -137,6 +137,9 @@ emulators\hatari
 emulators\hypseus
 emulators\jynx
 emulators\kega-fusion
+emulators\lime3ds
+emulators\lime3ds\user
+emulators\lime3ds\user\config
 emulators\m2emulator
 emulators\m2emulator\CFG
 emulators\m2emulator\NVDATA
@@ -230,6 +233,13 @@ roms\sonicretro\sonic1
 roms\sonicretro\sonic2
 roms\sonicretro\soniccd
 saves
+saves\3ds
+saves\3ds\Citra
+saves\3ds\Citra\nand
+saves\3ds\Citra\sdmc
+saves\3ds\lime3ds
+saves\3ds\lime3ds\nand
+saves\3ds\lime3ds\sdmc
 saves\amiga
 saves\amiga\winuae
 saves\apple2\mednafen
@@ -318,6 +328,7 @@ screenshots
 screenshots\ares
 screenshots\citra
 screenshots\duckstation
+screenshots\lime3ds
 screenshots\mednafen
 screenshots\Mupen64
 screenshots\pcsx2

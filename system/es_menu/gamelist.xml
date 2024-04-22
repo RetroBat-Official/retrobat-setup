@@ -290,6 +290,23 @@
 		<region>wr</region>
 	</game>-->
 	<game>
+		<path>./lime3ds.menu</path>
+		<name>Lime (3DS)</name>
+		<desc>Run Lime Emulator (Nintendo 3DS).</desc>
+		<image>./media/lime3ds-logo.svg</image>
+		<marquee>./media/lime3ds-logo.svg</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Lime Team</developer>
+		<publisher>Lime Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./m2emulator.menu</path>
 		<name>M2Emulator (Model 2)</name>
 		<desc>Run M2Emulator (Model 2).</desc>
