@@ -199,6 +199,9 @@ emulators\sonic3air\savedata
 emulators\ssf
 emulators\steam
 emulators\stella
+emulators\sudachi
+emulators\sudachi\user
+emulators\sudachi\user\config
 emulators\supermodel
 emulators\supermodel\Config
 emulators\suyu
@@ -322,6 +325,8 @@ screenshots\mednafen
 screenshots\Mupen64
 screenshots\pcsx2
 screenshots\Simple64
+screenshots\sudachi
+screenshots\suyu
 screenshots\winuae
 screenshots\xemu
 screenshots\yuzu

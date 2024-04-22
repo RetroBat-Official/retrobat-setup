@@ -116,6 +116,7 @@
 \system\templates\ssf\SSF.ini|\emulators\ssf\SSF.ini
 \system\templates\steam\pinballfx3.cmd|\emulators\steam\pinballfx3.cmd
 \system\templates\stella\stella.sqlite3|\emulators\stella\stella.sqlite3
+\system\templates\sudachi\qt-config.ini|\emulators\sudachi\user\config\qt-config.ini
 \system\templates\supermodel\Supermodel.ini|\emulators\supermodel\Config\Supermodel.ini
 \system\templates\suyu\qt-config.ini|\emulators\suyu\user\config\qt-config.ini
 \system\templates\vita3k\config.yml|\emulators\vita3k\config.yml
