@@ -290,15 +290,15 @@
 		<region>wr</region>
 	</game>-->
 	<game>
-		<path>./lemonade.menu</path>
-		<name>Lemonade (3DS)</name>
-		<desc>Run Lemonade Emulator (Nintendo 3DS).</desc>
-		<image>./media/lemonade-logo.png</image>
-		<marquee>./media/lemonade-logo.png</marquee>
+		<path>./lime3ds.menu</path>
+		<name>Lime (3DS)</name>
+		<desc>Run Lime Emulator (Nintendo 3DS).</desc>
+		<image>./media/lime3ds-logo.svg</image>
+		<marquee>./media/lime3ds-logo.svg</marquee>
 		<rating>0</rating>
 		<releasedate />
-		<developer>Lemonade Team</developer>
-		<publisher>Lemonade Team</publisher>
+		<developer>Lime Team</developer>
+		<publisher>Lime Team</publisher>
 		<genre>Emulator</genre>
 		<playcount />
 		<lastplayed />
@@ -954,6 +954,23 @@
 		<releasedate />
 		<developer>Bradford W. Mott, Stephen Anthony</developer>
 		<publisher>The Stella Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
+		<path>./sudachi.menu</path>
+		<name>Sudachi (Switch)</name>
+		<desc>Run Sudachi (Switch). This software is not provided by RetroBat.</desc>
+		<image>./media/sudachi-logo.jpg</image>
+		<marquee>./media/sudachi-logo.jpg</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Jarrod Norwell</developer>
+		<publisher>Sudachi</publisher>
 		<genre>Emulator</genre>
 		<playcount />
 		<lastplayed />
