@@ -1486,7 +1486,7 @@ msgstr "Définir le positionnement de la Sensor Bar (au-dessus ou en-dessous de 
 
 msgctxt "game_options"
 msgid "USE GAMECUBE CONTROLLERS"
-msgstr "UTILISER DES MANETTES GAMECUBE (ADAPTATEUR)"
+msgstr "UTILISER DES MANETTES GAMECUBE"
 
 msgctxt "game_options"
 msgid "Select when controller is a real Gamecube pad connected to a gamecube adapter."
