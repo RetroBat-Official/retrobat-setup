@@ -290,23 +290,6 @@
 		<region>wr</region>
 	</game>-->
 	<game>
-		<path>./lemonade.menu</path>
-		<name>Lemonade (3DS)</name>
-		<desc>Run Lemonade Emulator (Nintendo 3DS).</desc>
-		<image>./media/lemonade-logo.png</image>
-		<marquee>./media/lemonade-logo.png</marquee>
-		<rating>0</rating>
-		<releasedate />
-		<developer>Lemonade Team</developer>
-		<publisher>Lemonade Team</publisher>
-		<genre>Emulator</genre>
-		<playcount />
-		<lastplayed />
-		<gametime />
-		<lang>en</lang>
-		<region>wr</region>
-	</game>
-	<game>
 		<path>./m2emulator.menu</path>
 		<name>M2Emulator (Model 2)</name>
 		<desc>Run M2Emulator (Model 2).</desc>

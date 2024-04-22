@@ -137,9 +137,6 @@ emulators\hatari
 emulators\hypseus
 emulators\jynx
 emulators\kega-fusion
-emulators\lemonade
-emulators\lemonade\user
-emulators\lemonade\user\config
 emulators\m2emulator
 emulators\m2emulator\CFG
 emulators\m2emulator\NVDATA
