@@ -21,7 +21,7 @@ set get_bios=1
 set get_decorations=1
 set get_default_theme=1
 set get_emulationstation=1
-set get_emulators=1
+set get_emulators=0
 set get_lrcores=1
 set get_retroarch=1
 set get_retrobat_binaries=1
@@ -30,7 +30,7 @@ set get_wiimotegun=1
 
 :: ---- INNO OPTIONS ----
 
-:: installer_compression_type: See Inno Setup documentation to "[Setup]: Compression"
+:: installer_compression_type: See Inno Setup documentation at "[Setup]: Compression"
 :: disk_spanning: Should not be modified here. Script calculate if build folder total size need disk spanning.
 
 set installer_compression_type=lzma2/normal
