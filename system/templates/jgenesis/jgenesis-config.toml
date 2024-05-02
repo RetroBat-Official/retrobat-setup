@@ -1,0 +1,210 @@
+rom_search_dirs = []
+recent_opens = []
+
+[common]
+audio_sync = true
+audio_device_queue_size = 512
+internal_audio_buffer_size = 64
+audio_sync_threshold = 8192
+audio_gain_db = 0.0
+launch_in_fullscreen = false
+wgpu_backend = "Auto"
+vsync_mode = "Enabled"
+auto_prescale = false
+prescale_factor = 3
+scanlines = "None"
+force_integer_height_scaling = false
+filter_mode = "Linear"
+preprocess_shader = "None"
+fast_forward_multiplier = 2
+rewind_buffer_length_seconds = 10
+hide_cursor_over_window = false
+
+[smsgg]
+remove_sprite_limit = false
+sms_aspect_ratio = "Ntsc"
+gg_aspect_ratio = "GgLcd"
+sms_region = "International"
+sms_timing_mode = "Ntsc"
+sms_model = "Sms2"
+sms_crop_vertical_border = false
+sms_crop_left_border = false
+fm_sound_unit_enabled = true
+overclock_z80 = false
+
+[genesis]
+aspect_ratio = "Ntsc"
+adjust_aspect_ratio_in_2x_resolution = true
+remove_sprite_limits = false
+emulate_non_linear_vdp_dac = false
+render_vertical_border = false
+render_horizontal_border = false
+quantize_ym2612_output = true
+
+[sega_cd]
+enable_ram_cartridge = true
+load_disc_into_ram = false
+
+[nes]
+aspect_ratio = "Ntsc"
+remove_sprite_limit = false
+pal_black_border = false
+silence_ultrasonic_triangle_output = false
+audio_60hz_hack = true
+allow_opposing_joypad_inputs = false
+
+[nes.overscan]
+top = 0
+bottom = 0
+left = 0
+right = 0
+
+[snes]
+aspect_ratio = "Ntsc"
+audio_60hz_hack = true
+gsu_overclock_factor = 1
+
+[game_boy]
+force_dmg_mode = false
+pretend_to_be_gba = false
+aspect_ratio = "SquarePixels"
+gb_palette = "GreenTint"
+gbc_color_correction = "GbcLcd"
+audio_60hz_hack = false
+
+[inputs]
+genesis_p1_type = "SixButton"
+genesis_p2_type = "SixButton"
+snes_p2_type = "Gamepad"
+axis_deadzone = 8000
+
+[inputs.smsgg_keyboard]
+pause = "Return"
+
+[inputs.smsgg_keyboard.p1]
+up = "Up"
+left = "Left"
+right = "Right"
+down = "Down"
+button1 = "S"
+button2 = "A"
+
+[inputs.smsgg_keyboard.p2]
+
+[inputs.smsgg_joystick.p1]
+
+[inputs.smsgg_joystick.p2]
+
+[inputs.genesis_keyboard.p1]
+up = "Up"
+left = "Left"
+right = "Right"
+down = "Down"
+a = "A"
+b = "S"
+c = "D"
+x = "Q"
+y = "W"
+z = "E"
+start = "Return"
+mode = "Right Shift"
+
+[inputs.genesis_keyboard.p2]
+
+[inputs.genesis_joystick.p1]
+
+[inputs.genesis_joystick.p2]
+
+[inputs.nes_keyboard.p1]
+up = "Up"
+left = "Left"
+right = "Right"
+down = "Down"
+a = "A"
+b = "S"
+start = "Return"
+select = "Right Shift"
+
+[inputs.nes_keyboard.p2]
+
+[inputs.nes_joystick.p1]
+
+[inputs.nes_joystick.p2]
+
+[inputs.snes_keyboard.p1]
+up = "Up"
+left = "Left"
+right = "Right"
+down = "Down"
+a = "S"
+b = "X"
+x = "A"
+y = "Z"
+l = "D"
+r = "C"
+start = "Return"
+select = "Right Shift"
+
+[inputs.snes_keyboard.p2]
+
+[inputs.snes_keyboard.super_scope]
+fire = "MouseLeft"
+cursor = "MouseRight"
+pause = "MouseMiddle"
+
+[inputs.snes_keyboard.super_scope.turbo_toggle]
+Keyboard = "T"
+
+[inputs.snes_joystick.p1]
+
+[inputs.snes_joystick.p2]
+
+[inputs.snes_joystick.super_scope]
+fire = "MouseLeft"
+cursor = "MouseRight"
+pause = "MouseMiddle"
+
+[inputs.snes_joystick.super_scope.turbo_toggle]
+Keyboard = "T"
+
+[inputs.snes_super_scope]
+fire = "MouseLeft"
+cursor = "MouseRight"
+pause = "MouseMiddle"
+
+[inputs.snes_super_scope.turbo_toggle]
+Keyboard = "T"
+
+[inputs.gb_keyboard]
+up = "Up"
+left = "Left"
+right = "Right"
+down = "Down"
+a = "A"
+b = "S"
+start = "Return"
+select = "Right Shift"
+
+[inputs.gb_joystick]
+
+[inputs.hotkeys]
+quit = "Escape"
+toggle_fullscreen = "F9"
+save_state = "F5"
+load_state = "F6"
+soft_reset = "F1"
+hard_reset = "F2"
+pause = "P"
+step_frame = "N"
+fast_forward = "Tab"
+rewind = "`"
+open_debugger = "'"
+
+[list_filters]
+master_system = true
+game_gear = true
+genesis = true
+sega_cd = true
+nes = true
+snes = true
+game_boy = true
