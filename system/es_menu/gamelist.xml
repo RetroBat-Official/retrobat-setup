@@ -255,7 +255,7 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
-	<game>
+	<!--<game>
 		<path>./jgenesis.menu</path>
 		<name>jgenesis (Multi-System)</name>
 		<desc>Run jgenesis (Multi-System).</desc>
@@ -271,7 +271,7 @@
 		<gametime />
 		<lang>en</lang>
 		<region>wr</region>
-	</game>
+	</game>-->
 	<game>
 		<path>./jynx.menu</path>
 		<name>Jynx (Camputers Lynx)</name>
