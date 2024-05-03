@@ -170,6 +170,10 @@ msgid "MULTITHREADED RSX"
 msgstr "RSX MULTI-THREAD"
 
 msgctxt "game_options"
+msgid "AUDIO SYNC"
+msgstr "SYNCHRONISATION AUDIO"
+
+msgctxt "game_options"
 msgid "May improve performance for some high-core processors. May cause slowdown in some situations due to the extra worker thread load."
 msgstr "Permet d'améliorer les performances pour les processeurs multi-coeurs. Peut également causer des ralentissements en cas de charge trop importante sur un coeur."
 
@@ -414,6 +418,10 @@ msgid "Choose the extension attached to the controller."
 msgstr "Définir l'extension attachée au contrôleur."
 
 msgctxt "game_options"
+msgid "CONTROLLER LAYOUT"
+msgstr "DISPOSITION DES BOUTONS"
+
+msgctxt "game_options"
 msgid "CONTROLLER LAYOUT P1"
 msgstr "DISPOSITION DES BOUTONS JOUEUR 1"
 
@@ -532,6 +540,10 @@ msgstr "ACTIVER LE SAUT D'IMAGE"
 msgctxt "game_options"
 msgid "Removes one frame of input lag, but doubles system requirements."
 msgstr "Saute une image pour diminuer la latence, impacte les performances."
+
+msgctxt "game_options"
+msgid "Enable run-ahead mode for the reduction of input lag."
+msgstr "Activer le saut d'images pour diminuer la latence, impacte les performances."
 
 msgctxt "game_options"
 msgid "RUN-AHEAD USE SECOND INSTANCE"
@@ -718,6 +730,22 @@ msgid "SHOW MENU ELEMENTS"
 msgstr "AFFICHAGE DES ÉLÉMENTS DE MENU RETROARCH"
 
 msgctxt "game_options"
+msgid "RETROACHIEVEMENTS HARDCORE MODE"
+msgstr "RETROACHIEVEMENTS MODE HARDCORE"
+
+msgctxt "game_options"
+msgid "SOFTWARE (APPROX)"
+msgstr "LOGICIEL (APPROXIMATIF)"
+
+msgctxt "game_options"
+msgid "SOFTWARE (ORIGINAL)"
+msgstr "LOGICIEL (ORIGINAL)"
+
+msgctxt "game_options"
+msgid "HARDWARE (EXPERIMENTAL)"
+msgstr "MATÉRIEL (EXPÉRIMENTAL)"
+
+msgctxt "game_options"
 msgid "Show or hide RetroArch settings. 'Auto' is the recommended setting."
 msgstr "Afficher ou masquer les menus de configuration RetroArch. "
 
@@ -732,6 +760,10 @@ msgstr "MINIMAL"
 msgctxt "game_options"
 msgid "Full"
 msgstr "Complet"
+
+msgctxt "game_options"
+msgid "full"
+msgstr "complet"
 
 msgctxt "game_options"
 msgid "DRIVERS"
@@ -1525,8 +1557,52 @@ msgid "FORCE SDL DRIVER"
 msgstr "FORCER LE PILOTE SDL"
 
 msgctxt "game_options"
+msgid "FORCE SDL DRIVER FOR GAMEPAD"
+msgstr "FORCER LE PILOTE SDL POUR LES MANETTES"
+
+msgctxt "game_options"
+msgid "Can fix some issues with XBOX controllers."
+msgstr "Peur régler certains problèmes avec les contrôleurs XBOX."
+
+msgctxt "game_options"
 msgid "Force usage of SDL driver for controllers, set this if more than 4 controllers are used, as XInput limits to 4 players."
 msgstr "Force les manettes à être configurées en utilisant le pilote SDL, à activer si plus de 4 manettes sont connectées (XInput est limité à 4 manettes)."
+
+msgctxt "game_options"
+msgid "Force usage of SDL or DInput driver for controllers, set this if more than 4 controllers are used, as XInput limits to 4 players."
+msgstr "Désactive le pilote XInput et force l'utilisation du driver sélectionné pour toutes les manettes connectées, à activer si plus de 4 manettes sont connectées (XInput est limité à 4 manettes)."
+
+msgctxt "game_options"
+msgid "SMART 2D TEXTURE FILTER"
+msgstr "FILTRE TEXTURE 2D INTELLIGENT"
+
+msgctxt "game_options"
+msgid "Enhance the quality of 2D textures."
+msgstr "Améliore la qualité des textures 2D."
+
+msgctxt "game_options"
+msgid "DISABLE RUMBLE"
+msgstr "DÉSACTIVER LES VIBRATIONS"
+
+msgctxt "game_options"
+msgid "RUMBLE STRENGTH"
+msgstr "PUISSANCE DES VIBRATIONS"
+
+msgctxt "game_options"
+msgid "TRIGGERS DEADZONE"
+msgstr "ZONE MORTE DES GÂCHETTES"
+
+msgctxt "game_options"
+msgid "Force the emulator to use a specific BIOS file."
+msgstr "Forcer le choix du BIOS à utiliser pour l'émulation."
+
+msgctxt "game_options"
+msgid "RetroBat will use by default psxonpsp BIOS, enable this option to force usage of legacy SCPH550X bios file."
+msgstr "RetroBat utilise par défaut le bios psxonpsp, cette option permet de forcer l'utilisation du bios SCPH550X."
+
+msgctxt "game_options"
+msgid "FORCE BIOS"
+msgstr "FORCER LE FIRMWARE"
 
 msgctxt "game_options"
 msgid "Videopac G7000 (European)"
@@ -1651,6 +1727,10 @@ msgstr "JAPONAIS"
 msgctxt "game_options"
 msgid "LANGUAGE"
 msgstr "LANGUE"
+
+msgctxt "game_options"
+msgid "Language games should display text in."
+msgstr "Langue du jeu."
 
 msgctxt "game_options"
 msgid "INTEGER SCALING"
@@ -1842,7 +1922,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "LATE"
-msgstr "TARDIVE"
+msgstr "TARDIF"
 
 msgctxt "game_options"
 msgid "NUMBER OF DEVICES"
@@ -2075,6 +2155,18 @@ msgstr "CONTRÔLES"
 msgctxt "game_options"
 msgid "PAUSE ON DISCONNECT"
 msgstr "METTRE EN PAUSE SI DÉCONNEXION"
+
+msgctxt "game_options"
+msgid "Higher multiplier will make lines appear more linear."
+msgstr "Une résolution plus élevée améliore le rendu des lignes."
+
+msgctxt "game_options"
+msgid "INVERT UP AND DOWN"
+msgstr "INVERSER AXE VERTICAL"
+
+msgctxt "game_options"
+msgid "Use this setting for flight games."
+msgstr "Peut être activé pour les simulateurs de vol."
 
 msgctxt "game_options"
 msgid "ANALOG DEADZONE"
@@ -2369,6 +2461,10 @@ msgid "FORCE PAL 50HZ"
 msgstr "FORCER PAL 50HZ"
 
 msgctxt "game_options"
+msgid "FORCE PAL"
+msgstr "FORCER PAL"
+
+msgctxt "game_options"
 msgid "Enable PAL(50Hz) NES emulation."
 msgstr "Force l'émulation de la NES PAL (50Hz)"
 
@@ -2501,8 +2597,20 @@ msgid "3DFX VOODOO ACCELERATOR"
 msgstr "ACCÉLÉRATEUR 3DFX VOODOO"
 
 msgctxt "game_options"
+msgid "RENDERER ACCURACY"
+msgstr "PRÉCISION DE RENDU"
+
+msgctxt "game_options"
 msgid "Enable certain games with support for the 3Dfx Voodoo accelerator."
 msgstr "Active l'accélération 3Dfx Voodoo pour les jeux compatibles."
+
+msgctxt "game_options"
+msgid "FPS HACK"
+msgstr "HACK FPS"
+
+msgctxt "game_options"
+msgid "Allow some 30fps games to run at 60fps."
+msgstr "Permet de restituer certains jeux en 60fps au lieu des 30fps natifs."
 
 msgctxt "game_options"
 msgid "4MB Memory"
@@ -3445,6 +3553,18 @@ msgid "LIGHTGUN INPUT MODE"
 msgstr "MODE D'ENTRÉE DU LIGHTGUN"
 
 msgctxt "game_options"
+msgid "LIGHT"
+msgstr "LÉGER"
+
+msgctxt "game_options"
+msgid "MODERATE"
+msgstr "MODÉRÉ"
+
+msgctxt "game_options"
+msgid "VERY INTENSE"
+msgstr "TRÈS INTENSE"
+
+msgctxt "game_options"
 msgid "Use a mouse-controlled Lightgun or Touchscreen input."
 msgstr "Utiliser la souris ou un touchscreen pour contrôler le lightgun."
 
@@ -3553,12 +3673,148 @@ msgid "BOOT FROM CLI"
 msgstr ""
 
 msgctxt "game_options"
+msgid "OUTPUT GAME DATA"
+msgstr "SORTIR DES DONNÉES DE JEU"
+
+msgctxt "game_options"
+msgid "TO WINDOWS"
+msgstr "VERS FENÊTRE"
+
+msgctxt "game_options"
+msgid "TO NETWORK"
+msgstr "VERS RÉSEAU"
+
+msgctxt "game_options"
+msgid "Enable this option when using mamehooker with LEDs, solenoids, rumble..."
+msgstr "Permet de sortir des informations de jeu à utiliser avec mamehooker pour les LEDs, solénoïdes, ..."
+
+msgctxt "game_options"
+msgid "Type of Computer to emulate."
+msgstr "Type d'ordinateur à émuler."
+
+msgctxt "game_options"
 msgid "BOOT TO OSD"
 msgstr ""
 
 msgctxt "game_options"
+msgid "FORCE RAW INPUT"
+msgstr "FORCER RAW INPUT"
+
+msgctxt "game_options"
+msgid "Forces raw input driver when using devices such as trackball and spinners."
+msgstr "Force le driver à 'raw input', utile pour les trackball, spinners et les pistolets."
+
+msgctxt "game_options"
+msgid "DISABLE MOUSE"
+msgstr "DÉSACTIVER LA SOURIS"
+
+msgctxt "game_options"
+msgid "FORCE ROTATE LEFT"
+msgstr "FORCER À GAUCHE"
+
+msgctxt "game_options"
+msgid "FORCE ROTATE RIGHT"
+msgstr "FORCER À DROITE"
+
+msgctxt "game_options"
 msgid "CHEATS"
 msgstr "CODES DE TRICHE"
+
+msgctxt "game_options"
+msgid "DISABLE FLOPPY SOUND"
+msgstr "DÉSACTIVER LE SON DU LECTEUR DE DISQUETTE"
+
+msgctxt "game_options"
+msgid "MONITOR TYPE"
+msgstr "TYPE DE MONITEUR"
+
+msgctxt "game_options"
+msgid "MONITOR INTENSITY"
+msgstr "INTENSITÉ DU MONITEUR"
+
+msgctxt "game_options"
+msgid "8 (DEFAULT)"
+msgstr "8 (défaut)"
+
+msgctxt "game_options"
+msgid "5 (DARKEST)"
+msgstr "5 (très sombre)"
+
+msgctxt "game_options"
+msgid "7 (SLIGHTLY DARKER)"
+msgstr "7 (légèrement assombri)"
+
+msgctxt "game_options"
+msgid "10 (SLIGHTLY BRIGHTER)"
+msgstr "10 (légèrement plus lumineux)"
+
+msgctxt "game_options"
+msgid "12 (BRIGHTER)"
+msgstr "12 (lumineux)"
+
+msgctxt "game_options"
+msgid "15 (BRIGHTEST)"
+msgstr "15 (très lumineux)"
+
+msgctxt "game_options"
+msgid "Define the type of monitor, will change colors."
+msgstr "choix du type de moniteur, modifie les couleurs."
+
+msgctxt "game_options"
+msgid "RAM SIZE"
+msgstr "TAILLE DE LA MÉMOIRE RAM"
+
+msgctxt "game_options"
+msgid "CPC physical RAM size in kB."
+msgstr "Taille de la mémoire RAM de l'ordinateur en kB."
+
+msgctxt "game_options"
+msgid "Choose between english, french or spanish keyboard layout."
+msgstr "Choisir la disposition de clavier : anglais, français ou espagnol."
+
+msgctxt "game_options"
+msgid "GUN TYPE"
+msgstr "TYPE DE PISTOLET"
+
+msgctxt "game_options"
+msgid "MODEL TYPE"
+msgstr "MODÈLE DE MACHINE ÉMULÉE"
+
+msgctxt "game_options"
+msgid "Define model type and region."
+msgstr "Definir le modèle et la région de la machine émulée."
+
+msgctxt "game_options"
+msgid "Define model, default to Spectrum 6128+ for GX4000."
+msgstr "Definir le modèle de la machine émulée (par défaut Spectrum 6128+ pour le GX4000)."
+
+msgctxt "game_options"
+msgid "Force RetroBat pre-configuration for the specified gun-type."
+msgstr "Appliquer automatiquement une pré-configuration par RetroBat pour le modèle de pistolet sélectionné."
+
+msgctxt "game_options"
+msgid "Type of BBC micro to emulate, default to MODEL B."
+msgstr "Modèle de BBC micro à émuler, par défaut MODEL B."
+
+msgctxt "game_options"
+msgid "IGNORE INI FILE"
+msgstr "IGNORER LES FICHIERS INI"
+
+msgctxt "game_options"
+msgid "Ignore existing ini files in 'bios\mame\ini' folder."
+msgstr "Ignore les fichiers de configuration présents dans le dossier 'bios\mame\ini'."
+
+msgctxt "game_options"
+msgid "Cheats need to be placed in 'cheats\psxmame' folder."
+msgstr "Les fichiers contenant les codes de triche doivent être placés dans le dossier 'cheats\psxmame'."
+
+msgctxt "game_options"
+msgid "Cheats need to be placed in 'cheats\mame' folder."
+msgstr "Les fichiers contenant les codes de triche doivent être placés dans le dossier 'cheats\mame'."
+
+msgctxt "game_options"
+msgid "Select which joystick to emulate (not compatible with MASTER COMPACT)."
+msgstr "Définir le joystick à émuler (incompatible avec le modèle BBC MASTER COMPACT)."
 
 msgctxt "game_options"
 msgid "LIGHTGUN MODE"
@@ -3575,6 +3831,22 @@ msgstr "MODE 4-DIRECTIONS"
 msgctxt "game_options"
 msgid "Improves issues with hitting diagonals when playing 4-way games."
 msgstr "Résout les problèmes liés à l'appui sur les diagonales pour les jeux utilisant 4 directions."
+
+msgctxt "game_options"
+msgid "VERTICAL MONITOR INDEX"
+msgstr "INDEX DE L'ÉCRAN VERTICAL"
+
+msgctxt "game_options"
+msgid "Vertical games will be displayed on the monitor corresponding to the selected index."
+msgstr "Les jeux verticaux seront affichés sur l'écran correspondant à l'index."
+
+msgctxt "game_options"
+msgid "FORCE 60HZ"
+msgstr "FORCER 60HZ"
+
+msgctxt "game_options"
+msgid "Forces 60Hz refresh rate."
+msgstr "Forcé le taux de rafraîchissement à 60hz."
 
 msgctxt "game_options"
 msgid "ENABLE PER GAME AUTO MAPPING"
@@ -5246,7 +5518,15 @@ msgstr "Réduit les ralentissements dans certains jeux."
 
 msgctxt "game_options"
 msgid "LIGHTGUN CROSSHAIRS"
-msgstr ""
+msgstr "CIBLES"
+
+msgctxt "game_options"
+msgid "MEDIUM SIZE"
+msgstr "TAILLE MOYENNE"
+
+msgctxt "game_options"
+msgid "BIG SIZE"
+msgstr "GRANDE TAILLE"
 
 msgctxt "game_options"
 msgid "Manually select a 4 Player Adapter for some games"
@@ -5909,10 +6189,6 @@ msgid "Force the rendering and display of frames to progressive mode."
 msgstr "Forcer l'utilisation du mode progressif pour le rendu."
 
 msgctxt "game_options"
-msgid "Set Anti Aliasing for rendered content."
-msgstr ""
-
-msgctxt "game_options"
 msgid "LINEAR FILTERING"
 msgstr "FILTRAGE LINÉAIRE"
 
@@ -6481,12 +6757,20 @@ msgid "VIDEO DRIVER"
 msgstr ""
 
 msgctxt "game_options"
-msgid "Enable widescreen may cause rendering issues"
-msgstr ""
+msgid "NEW 3D ENGINE"
+msgstr "NOUVEAU MOTEUR 3D"
+
+msgctxt "game_options"
+msgid "Default is ON, setting to OFF might fix compatibility for older GPU."
+msgstr "Désactiver pour résoudre les problèmes de compatibilité avec les anciens processeurs graphiques."
+
+msgctxt "game_options"
+msgid "Enable widescreen may cause rendering issues."
+msgstr "Peut causer des erreurs de rendu."
 
 msgctxt "game_options"
 msgid "Enable proper quad rendering. For higher end systems."
-msgstr ""
+msgstr "Activer le rendu quadruple, pour les systèmes puissants."
 
 msgctxt "game_options"
 msgid "CROSSHAIRS"
@@ -6521,16 +6805,24 @@ msgid "GAMEPAD R1"
 msgstr "MANETTE R1"
 
 msgctxt "game_options"
-msgid "Enable crosshairs in shooting games"
-msgstr ""
+msgid "Enable crosshairs in shooting games."
+msgstr "Activer les cibles pour les jeux de tir."
 
 msgctxt "game_options"
 msgid "ENABLE FORCE FEEDBACK"
-msgstr ""
+msgstr "ACTIVER LE RETOUR DE FORCE"
 
 msgctxt "game_options"
-msgid "Enable force feedback for supported controllers"
-msgstr ""
+msgid "MULTIGUN (RAW INPUT)"
+msgstr "MULTI-PISTOLETS (RAW INPUT)"
+
+msgctxt "game_options"
+msgid "When using multiple guns, set this on to switch driver to 'rawinput'."
+msgstr "Pour l'utilisation de plusieurs pistolets, permet de forcer le pilote d'entrée à 'raw input'"
+
+msgctxt "game_options"
+msgid "Enable force feedback for supported controllers."
+msgstr "Activer le retour de force pour les contrôleurs compatibles."
 
 msgctxt "game_options"
 msgid "center"
@@ -6550,7 +6842,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "SCALING FILTER"
-msgstr ""
+msgstr "FILTRE DE MISE À L'ÉCHELLE"
 
 msgctxt "game_options"
 msgid "SCANLINE INTENSITY"
@@ -6562,7 +6854,7 @@ msgstr "Lorsque le filtre 'balayage' est utilisé, cette option permet de régle
 
 msgctxt "game_options"
 msgid "Set scaling filter for rendered content."
-msgstr ""
+msgstr "Définir le filtre de mise à l'échelle à appliquer."
 
 msgctxt "game_options"
 msgid "Bicubic"
@@ -6663,3 +6955,215 @@ msgstr "MÉLANGE INTER-IMAGE"
 msgctxt "game_options"
 msgid "Emulates LCD translucency effects, but increase motion blur."
 msgstr "Émule les effets de transparence des écrans LCD, mais augmente le flou de mouvement."
+
+msgctxt "game_options"
+msgid "APM3ID (REQUIRE ONLINE PROFILE)"
+msgstr "APM3ID (NÉCESSITE UN PROFIL EN LIGNE)"
+
+msgctxt "game_options"
+msgid "HIDE TEKNOPARROT ON STARTUP"
+msgstr "MASQUER TEKNOPARROT AU DÉMARRAGE DU JEU"
+
+msgctxt "game_options"
+msgid "Hidden by default, for few games can cause problem."
+msgstr "La fenêtre Teknoparrot est masquée par défaut, à désactiver si cela pose problème."
+
+msgctxt "game_options"
+msgid "GPU RENDERING PLUGIN"
+msgstr "PLUGIN DE RENDU"
+
+msgctxt "game_options"
+msgid "Select the GPU plugin, RetroBat options will not work on non-default plugin, they can be configured from emulators folder with config.exe."
+msgstr "Choix du plugin de rendu (GPU), les options RetroBat ne fonctionnent qu'avec le plugin de base."
+
+msgctxt "game_options"
+msgid "Enable antialiasing, smooth polygons edges."
+msgstr "Activer l'antialiasing permet de lisser les bords des polygônes."
+
+msgctxt "game_options"
+msgid "Enable full screen antialiasing in Direct3D, smooth polygons edges."
+msgstr "Activer l'antialiasing permet de lisser les bords des polygônes."
+
+msgctxt "game_options"
+msgid "ENABLE SCANLINES"
+msgstr "BALAYAGE"
+
+msgctxt "game_options"
+msgid "BLACK SCANLINES"
+msgstr "LIGNES SOMBRES"
+
+msgctxt "game_options"
+msgid "BRIGHT SCANLINES"
+msgstr "LIGNES CLAIRES"
+
+msgctxt "game_options"
+msgid "Can cause glitches."
+msgstr "Peut provoquer des problèmes."
+
+msgctxt "game_options"
+msgid "SAMPLE RATE"
+msgstr "TAUX D'ÉCHANTILLONAGE"
+
+msgctxt "game_options"
+msgid "THROTTLE"
+msgstr "LIMITER LES FPS"
+
+msgctxt "game_options"
+msgid "Default is ON, use this setting to remove the 60hz limit, might break games."
+msgstr "Activé par défaut, désactiver la limite peut causer des problèmes sur certains jeux."
+
+msgctxt "game_options"
+msgid "POWERPC FREQUENCY"
+msgstr "FRÉQUENCE DU PROCESSEUR POWERPC"
+
+msgctxt "game_options"
+msgid "Sets the PowerPC frequency in MHz. The default is 50."
+msgstr "Définir la fréquence du processeur en MHz (défaut 50)."
+
+msgctxt "game_options"
+msgid "DISABLE MULTITHREADING"
+msgstr "DÉSACTIVER LE MULTI-THREAD"
+
+msgctxt "game_options"
+msgid "Force input driver."
+msgstr "Forcer le pilote des contrôleurs."
+
+msgctxt "game_options"
+msgid "Useful for single-threaded processors."
+msgstr "Activer pour les processeurs mono-coeurs."
+
+msgctxt "game_options"
+msgid "Select 'game specific' to use game specific cfg file located in emulators\psxmame\ctrlr folder."
+msgstr "La valeur 'game specific' permet d'utiliser les fichiers de configuration par jeu disponibles dans le dossier 'emulators\psxmame\ctrlr'."
+
+msgctxt "game_options"
+msgid "ANALOG TO D-PAD"
+msgstr "STICK ANALOGIQUE VERS D-PAD"
+
+msgctxt "game_options"
+msgid "Use left stick as d-pad."
+msgstr "Utiliser le stick analogique gauche pour contrôler la croix directionnelle."
+
+msgctxt "game_options"
+msgid "WHEELS"
+msgstr "VOLANTS DE COURSE"
+
+msgctxt "game_options"
+msgid "ENABLE WHEEL"
+msgstr "ACTIVER LES VOLANTS"
+
+msgctxt "game_options"
+msgid "WHEEL TYPE PLAYER 1"
+msgstr "TYPE DE VOLANT JOUEUR 1"
+
+msgctxt "game_options"
+msgid "WHEEL TYPE PLAYER 2"
+msgstr "TYPE DE VOLANT JOUEUR 2"
+
+msgctxt "game_options"
+msgid "FORCE WHEEL 1 INDEX"
+msgstr "FORCER L'INDEX DU VOLANT 1"
+
+msgctxt "game_options"
+msgid "FORCE WHEEL 2 INDEX"
+msgstr "FORCER L'INDEX DU VOLANT 2"
+
+msgctxt "game_options"
+msgid "Force wheel index, can be useful if RetroBat sets wrong index."
+msgstr "Permet de forcer l'index du volant si RetroBat ne le définit pas correctement."
+
+msgctxt "game_options"
+msgid "INVERT TRIGGER AND SECONDARY BUTTON"
+msgstr "INVERSER GÂCHETTE ET BOUTON SECONDAIRE"
+
+msgctxt "game_options"
+msgid "GUN MAPPING A/B"
+msgstr "MAPPING DES BOUTONS A/B"
+
+msgctxt "game_options"
+msgid "Define how to map A and B buttons of the GunCon, this is useful for games like Time Crisis."
+msgstr "Définir le mapping des boutons A et B du pistolet, utile pour Time Crisis par exemple."
+
+msgctxt "game_options"
+msgid "MAP GUN TO PLAYER 2"
+msgstr "AFFECTER LE PISTOLET AU JOUEUR 2"
+
+msgctxt "game_options"
+msgid "Plug the GunCon in port 2, to use for Die Hard Trilogy."
+msgstr "Brancher le pistolet dans le port du joueur 2, nécessaire pour Die Hard Trilogy par exemple."
+
+msgctxt "game_options"
+msgid "SWITCH GUN INDEX"
+msgstr "INVERSER LES INDEX DES PISTOLETS"
+
+msgctxt "game_options"
+msgid "Switch this to use lightgun 1 for player 2 and lightgun 2 for player 1."
+msgstr "Utiliser le pistolet 1 pour le joueur 2 et inversement."
+
+msgctxt "game_options"
+msgid "USE RACING CONTROLLER"
+msgstr "UTILISER LE RACING CONTROLLER"
+
+msgctxt "game_options"
+msgid "Map controller to Racing Controller, games that were not compatible with Racing Wheel will not work."
+msgstr "Mapper la manette avec le Racing Controller, les jeux incompatibles avec ce type de contrôleur ne fonctionneront pas."
+
+msgctxt "game_options"
+msgid "WHEEL BUTTON LAYOUT"
+msgstr "DISPOSITION DES BOUTONS DU VOLANT"
+
+msgctxt "game_options"
+msgid "Change this setting depending on the game's controls, left of the / sign is the original game button for acceleration and brakes, right for gears."
+msgstr "À définir en fonction des contrôles du jeu original, la partie gauche précise le mapping pour l'accélération et le freinage, la partie droite celui pour les vitesses."
+
+msgctxt "game_options"
+msgid "USE R1 AND L1"
+msgstr "UTILISER R1 ET L1"
+
+msgctxt "game_options"
+msgid "Use shoulder buttons instead of triggers."
+msgstr "Utiliser les boutons 'épaules' à la place des gâchettes analogiques."
+
+msgctxt "game_options"
+msgid "PER GAME VMU"
+msgstr "VMU PAR JEU"
+
+msgctxt "game_options"
+msgid "When enabled, each game will have its own VMU in port 1."
+msgstr "Activer pour gérer une VMU par jeu."
+
+msgctxt "game_options"
+msgid "FORCE PLAYER 1 PAD INDEX"
+msgstr "FORCER L'INDEX DE LA MANETTE DU JOUEUR 1"
+
+msgctxt "game_options"
+msgid "Force P1 pad index, can be useful when using a controller on an arcade machine."
+msgstr "Forcer l'index de la manette pour le joueur 1, peut être utile pour les bornes d'arcade."
+
+msgctxt "game_options"
+msgid "FORCE PLAYER 2 PAD INDEX"
+msgstr "FORCER L'INDEX DE LA MANETTE DU JOUEUR 2"
+
+msgctxt "game_options"
+msgid "Force P2 pad index, can be useful when using a controller on an arcade machine."
+msgstr "Forcer l'index de la manette pour le joueur 2, peut être utile pour les bornes d'arcade."
+
+msgctxt "game_options"
+msgid "FORCE WHEEL INDEX"
+msgstr "FORCER L'INDEX DU VOLANT"
+
+msgctxt "game_options"
+msgid "Use this option when using a wheel without manual gear stick."
+msgstr "Activer cette option lors de l'utilisation d'un volant ne possédant pas de levier de vitesse."
+
+msgctxt "game_options"
+msgid "DISABLE GEAR STICK"
+msgstr "DÉSACTIVER LE LEVIER DE VITESSE"
+
+msgctxt "game_options"
+msgid "Some gear stick are connected to computer with a different device id than the wheel, for example Thrustmaster sticks."
+msgstr "Certains leviers de vitesse sont rattachés directement au PC et ont un 'ID' différent du volant, c'est le cas pour les leviers Thrustmaster."
+
+msgctxt "game_options"
+msgid "FORCE GEARSTICK DEVICE ID"
+msgstr "FORCER L'ID DU LEVIER DE VITESSE"
