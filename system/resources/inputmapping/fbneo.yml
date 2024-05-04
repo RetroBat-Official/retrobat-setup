@@ -17,6 +17,9 @@
 # Up
 # Service
 #
+# the "players" key is used to specify the number of players for the game
+# the "noplayer" key, if set to 1, will tell RetroBat not to write the player index in front of the line in the config file for all buttons
+#
 # -------------- VALUE ----------------------------------
 # The value represents the dinput button name (refer to retrobat\system\tools\gamecontrollerdb file, the list is the following
 # lefty_up (left stick up)
@@ -47,6 +50,10 @@
 # rightstick (right stick click)
 # back (select)
 # start
+#
+# Specific cases:
+# "noplayer_" value : to use if the fbneo config file does not have "P1 or P2 before the label for the specific button"
+# "_or_" value : to use if the value of the input must be different depending on whether the game is played with 2 players or 1 player
 #
 # ATARI
 akkaarrh:
@@ -3644,3 +3651,2470 @@ kuhga:
   Button 1: x
   Button 2: a
 # GALAXIAN
+ad2083:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Service: rightstick
+amidar:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+amigo:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+triplep:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+knockout:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+anteater:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+atlantis:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+cavelon:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+mimonscr:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+scorpion:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+armorcar:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+mimonkey:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+mimonsco:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+harem:
+  players: 1
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+namenayo:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+azurian:
+  players: 2
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+bagmanmc:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+bagmanm2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+batman2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+blkhole:
+  players: 2
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+bongo:
+  players: 2
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+calipso:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+checkmanj:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+checkman:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1/P1 Fire 1: start
+  Start 2/P1 Fire 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+ckongg:
+  players: 2
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+ckongs:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+dambustr:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Fire 3: b
+darkplnt:
+  players: 1
+  Coin 1: back
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Fire 3: b
+devilfsh:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+newsin7:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+dingo:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+dkongjrm:
+  players: 2
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+donight:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+drivfrc:
+  players: 1
+  Coin 1: back
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+explorer:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+fantastc:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+4in1:
+  players: 2
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire (Cocktail): x
+frogg:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+frogger:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Service: rightstick
+frogf:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Service: rightstick
+froggrs:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Service: rightstick
+froggermc:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Service: rightstick
+victoryc:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+victorycb:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+galaxian:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+moonaln:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+superg:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galturbo:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galapx:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galap1:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galap2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galap4:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+swarm:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+astrians:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+zerotime:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaktron:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galkamika:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+zerotimed:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+zerotimemc:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+zerotimeu:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxcirsa:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+starfght:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxbsf:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxbsf2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxianbl:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxianbl2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxianbl3:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+kamakazi3:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+supergx:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+tst_galx:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxrf:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxianem:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxianrp:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxyx:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxrfgg:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxrcgg:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galaxianiii:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+redufo:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+redufob:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+redufob2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+redufob3:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+uniwars:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+uniwarsa:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+mltiwars:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+gteikoku:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+gteikokub3:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+spacbatt:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+spacbat2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+spacempr:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+skyraidr:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galemp:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+asideral:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+pajaroes:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+vueloesp:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+moonal2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+moonal2b:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+galactica2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+vpool:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+gmgalax:
+  players: 2
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+hotshock:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Service: rightstick
+hotshockb:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Service: rightstick
+conquer:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Service: rightstick
+hunchbkg:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 2: start
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+hunchbks:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+hncholms:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+hustler:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+billiard:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+hustlerb:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+jumpbug:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+jumpbugb:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+olibug:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+kingball:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+kingballj:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+ckongmc:
+  players: 2
+  Coin 1: back
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+kong:
+  players: 1
+  Coin 1: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+ladybugg:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+levers:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+losttomb:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Left Up: lefty_up
+  Left Down: lefty_down
+  Left Left: leftx_left
+  Left Right: leftx_right
+  Fire 1: x
+  Right Up: righty_up
+  Right Down: righty_down
+  Right Left: rightx_left
+  Right Right: rightx_right
+luctoday:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+chewing:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+mars:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left Stick Up: lefty_up
+  Left Stick Down: lefty_down
+  Left Stick Left: leftx_left
+  Left Stick Right: leftx_right
+  Rght Stick Up: righty_up
+  Rght Stick Down: righty_down
+  Rght Stick Left: rightx_left
+  Rght Stick Right: rightx_right
+  Service: rightstick
+moonwar:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Coctail): dpleft
+  Right (Coctail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Fire 3 (Cocktail): b
+  Hyper Flip (P1) / Fire 2 (Cocktail): y_or_a
+moonwara:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Coctail): dpleft
+  Right (Coctail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Fire 3 (Cocktail): b
+  Hyper Flip (P1) / Fire 2 (Cocktail): y_or_a
+mrkougar:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+  Service: rightstick
+mrkougb:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+  Service: rightstick
+mshuttle:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+catacomb:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+omegab:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+exodus:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+omni:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+supershp:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+gteikokub:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+gteikokub2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrst:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrstuk:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrstuku:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrstu:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrstuu:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrsto:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrstg:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrsb:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrs2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrs3:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrs4:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrs5:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+fantazia:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+eagle:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+eagle2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+eagle3:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+spctbird:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mouncrst:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+sstarcrs:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncmw:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+starfgmc:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncreg:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncreg2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrsl:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrecm:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+mooncrgx:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+moonqsr:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail: x
+orbitron:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+ozon1:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+pacmanbl:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+phoenxp2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+atlantisb:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+pisces:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+piscesb:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+porter:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+racknrol:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+hexpool:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+rescue:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Left Stick Up: lefty_up
+  Left Stick Down: lefty_down
+  Left Stick Left: leftx_left
+  Left Stick Right: leftx_right
+  Rght Stick Up: righty_up
+  Rght Stick Down: righty_down
+  Rght Stick Left: rightx_left
+  Rght Stick Right: rightx_right
+  Fire 1: noplayer_x
+aponow:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Left Stick Up: lefty_up
+  Left Stick Down: lefty_down
+  Left Stick Left: leftx_left
+  Left Stick Right: leftx_right
+  Rght Stick Up: righty_up
+  Rght Stick Down: righty_down
+  Rght Stick Left: rightx_left
+  Rght Stick Right: rightx_right
+  Fire 1: noplayer_x
+minefld:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Left Stick Up: lefty_up
+  Left Stick Down: lefty_down
+  Left Stick Left: leftx_left
+  Left Stick Right: leftx_right
+  Rght Stick Up: righty_up
+  Rght Stick Down: righty_down
+  Rght Stick Left: rightx_left
+  Rght Stick Right: rightx_right
+  Fire 1: noplayer_x
+rockclim:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left Stick Up: lefty_up
+  Left Stick Down: lefty_down
+  Left Stick Left: leftx_left
+  Left Stick Right: leftx_right
+  Rght Stick Up: righty_up
+  Rght Stick Down: righty_down
+  Rght Stick Left: rightx_left
+  Rght Stick Right: rightx_right
+scorpionmc:
+  players: 2
+  Coin 1: back
+  Start 1 / Fire 1: start
+  Start 2 / Fire 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+aracnis:
+  players: 1
+  Coin 1: back
+  Start 1: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+scramb2:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+scramblb:
+  players: 2
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+scramble:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+scrambp:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+spctrek:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+scramce:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+scrampt:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+scramrf:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+offensiv:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+scramblebb:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+kamikazesp:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+strfbomb:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+bomber:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+spcmission:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+mariner:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+800fath:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+scrambler:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+sfx:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service: rightstick
+skelagon:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service: rightstick
+monsterz:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service: rightstick
+scobra:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service: rightstick
+suprheli:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service: rightstick
+skybase:
+  players: 2
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+smooncrs:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+mooncrstso:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+mooncptc:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+sirio2:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+ataqandr:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+spcdrag:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+floritas:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+floritasm:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+stera:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+spdcoin:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Left: dpleft
+  Right: dpright
+stratgyx:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Fire 3 (Cocktail): b
+  Service: rightstick
+stratgys:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Fire 3 (Cocktail): b
+  Service: rightstick
+strongx:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Fire 3 (Cocktail): b
+  Service: rightstick
+streakng:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+streaknga:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+ghostmun:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+superbon:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+tazmania:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+tazmani2:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+tazzmang:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1 / Fire 2: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+tazzmang2:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1 / Fire 2: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+tdpgal:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Service: rightstick
+theend:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+theends:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+theendss:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: rightstick
+thepitm:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+timefgtr:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+turtles:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+turpin:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+600:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+turpins:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Service: rightstick
+warofbug:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+warofbugg:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+warofbugu:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+zigzagb:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+zigzagb2:
+  players: 2
+  noplayer: 1
+  Coin 1: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+#IREM
