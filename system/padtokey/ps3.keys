@@ -1,9 +1,0 @@
-{
-    "actions_player1": [
-        {
-            "trigger": "pagedown",
-            "type": "key",
-            "target": "BTN_MIDDLE"
-        }
-    ]
-}
