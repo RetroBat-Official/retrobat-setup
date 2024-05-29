@@ -158,6 +158,15 @@ emulators\mupen64
 emulators\mupen64\Config
 emulators\nosgba
 emulators\openbor
+emulators\opengoal
+emulators\opengoal\config
+emulators\opengoal\config\OpenGOAL
+emulators\opengoal\config\OpenGOAL\jak1
+emulators\opengoal\config\OpenGOAL\jak1\misc
+emulators\opengoal\config\OpenGOAL\jak1\settings
+emulators\opengoal\config\OpenGOAL\jak2
+emulators\opengoal\config\OpenGOAL\jak2\misc
+emulators\opengoal\config\OpenGOAL\jak2\settings
 emulators\oricutron
 emulators\pcsx2
 emulators\pcsx2-16
