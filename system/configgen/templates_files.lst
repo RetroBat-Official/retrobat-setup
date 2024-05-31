@@ -55,6 +55,7 @@
 \system\templates\lime3ds\qt-config.ini|\emulators\lime3ds\user\config\qt-config.ini
 \system\templates\m2emulator\Emulator.ini|\emulators\m2emulator\Emulator.ini
 \system\templates\m2emulator\dinput.zip|\emulators\m2emulator\templatescfg\dinput
+\system\templates\m2emulator\NVDATA.zip|\emulators\m2emulator\NVDATA
 \system\templates\m2emulator\scripts.zip|\emulators\m2emulator\scripts
 \system\templates\m2emulator\xinput.zip|\emulators\m2emulator\templatescfg\xinput
 \system\templates\mame\blank.fmtowns|\saves\mame\fmtowns\blank.fmtowns
@@ -124,6 +125,7 @@
 \system\templates\steam\pinballfx3.cmd|\emulators\steam\pinballfx3.cmd
 \system\templates\stella\stella.sqlite3|\emulators\stella\stella.sqlite3
 \system\templates\sudachi\qt-config.ini|\emulators\sudachi\user\config\qt-config.ini
+\system\templates\supermodel\NVRAM.zip|\emulators\supermodel\NVRAM
 \system\templates\supermodel\Supermodel.ini|\emulators\supermodel\Config\Supermodel.ini
 \system\templates\suyu\qt-config.ini|\emulators\suyu\user\config\qt-config.ini
 \system\templates\vita3k\config.yml|\emulators\vita3k\config.yml

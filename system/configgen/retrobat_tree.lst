@@ -214,6 +214,7 @@ emulators\sudachi\user
 emulators\sudachi\user\config
 emulators\supermodel
 emulators\supermodel\Config
+emulators\supermodel\NVRAM
 emulators\suyu
 emulators\suyu\user
 emulators\suyu\user\config
