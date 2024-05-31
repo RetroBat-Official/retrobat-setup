@@ -59,6 +59,7 @@
 \system\templates\m2emulator\xinput.zip|\emulators\m2emulator\templatescfg\xinput
 \system\templates\mame\blank.fmtowns|\saves\mame\fmtowns\blank.fmtowns
 \system\templates\mame\fmtownsux.ini|\emulators\mame\ini\fmtownsux.ini
+\system\templates\mame\nvram.zip|\saves\mame\nvram
 \system\templates\melonds\melonDS.ini|\emulators\melonds\melonDS.ini
 \system\templates\mesen\settings.json|\emulators\mesen\settings.json
 \system\templates\mgba\config.ini|\emulators\mgba\config.ini
