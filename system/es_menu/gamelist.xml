@@ -69,6 +69,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./capriceforever.menu</path>
+		<name>Caprice Forever (Amstrad CPC)</name>
+		<desc>Run Caprice Forever (Amstrad CPC).</desc>
+		<image>./media/capriceforever-logo.png</image>
+		<marquee>./media/capriceforever-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Frederic Coste (Fredouille)</developer>
+		<publisher>CPC-Power</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>fr</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./cemu.menu</path>
 		<name>Cemu (Wii U)</name>
 		<desc>Run Cemu Emulator (Wii U).</desc>
