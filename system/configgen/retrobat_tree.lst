@@ -61,6 +61,7 @@ bios\raine\emudx
 bios\same_cdi
 bios\same_cdi\bios
 cheats
+cheats\capriceforever
 cheats\duckstation
 cheats\hbmame
 cheats\mame
@@ -253,6 +254,7 @@ saves\3ds\lime3ds\nand
 saves\3ds\lime3ds\sdmc
 saves\amiga
 saves\amiga\winuae
+saves\amstradcpc\capriceforever
 saves\apple2\mednafen
 saves\apple2\mednafen\sstates
 saves\gamecube
@@ -337,6 +339,7 @@ saves\switch\nand
 saves\switch\sdmc
 screenshots
 screenshots\ares
+screenshots\capriceforever
 screenshots\citra
 screenshots\duckstation
 screenshots\lime3ds
