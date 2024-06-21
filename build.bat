@@ -12,8 +12,8 @@ setlocal EnableDelayedExpansion
 
 :: ---- BUILDER OPTION ----
 
-set retrobat_version=6.1.0
-set retroarch_version=1.17.0
+set retrobat_version=6.3.0
+set retroarch_version=1.19.1
 
 set get_batgui=0
 set get_batocera_ports=1
