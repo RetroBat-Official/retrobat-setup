@@ -1,30 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Config>
-	<Preference Name="audio.enableoutput" Type="boolean" Value="true" />
-	<Preference Name="audio.spublockcount" Type="integer" Value="100" />
-	<Preference Name="input.pad1.profile" Type="string" Value="default" />
-	<Preference Name="iop.fileio.stdlogging" Type="boolean" Value="false" />
-	<Preference Name="log.showprints" Type="boolean" Value="false" />
-	<Preference Name="ps2.arcaderoms.directory" Type="path" Value="Play Data Files\arcaderoms" />
-	<Preference Name="ps2.cdrom0.path.v2" Type="path" Value="" />
-	<Preference Name="ps2.hdd.directory" Type="path" Value="Play Data Files\vfs/hdd" />
-	<Preference Name="ps2.host.directory.v2" Type="path" Value="Play Data Files\vfs/host" />
-	<Preference Name="ps2.limitframerate" Type="boolean" Value="true" />
-	<Preference Name="ps2.mc0.directory.v2" Type="path" Value="Play Data Files\vfs/mc0" />
-	<Preference Name="ps2.mc1.directory.v2" Type="path" Value="Play Data Files\vfs/mc1" />
-	<Preference Name="ps2.rom0.directory.v2" Type="path" Value="Play Data Files\vfs/rom0" />
-	<Preference Name="renderer.opengl.forcebilineartextures" Type="boolean" Value="false" />
-	<Preference Name="renderer.opengl.resfactor" Type="integer" Value="1" />
-	<Preference Name="renderer.presentationmode" Type="integer" Value="1" />
-	<Preference Name="renderer.ramreads.enabled" Type="boolean" Value="true" />
-	<Preference Name="renderer.vulkan.deviceid" Type="integer" Value="" />
-	<Preference Name="renderer.vulkan.vendorid" Type="integer" Value="" />
-	<Preference Name="renderer.widescreen" Type="boolean" Value="false" />
-	<Preference Name="s3.objectstream.accesskeyid" Type="string" Value="" />
-	<Preference Name="s3.objectstream.secretaccesskey" Type="string" Value="" />
-	<Preference Name="system.language" Type="integer" Value="0" />
-	<Preference Name="ui.pausewhenfocuslost" Type="boolean" Value="true" />
-	<Preference Name="ui.showeecpuusage" Type="boolean" Value="false" />
-	<Preference Name="ui.showexitconfirmation" Type="boolean" Value="false" />
-	<Preference Name="ui.sortmethod" Type="integer" Value="2" />
-	<Preference Name="video.gshandler" Type="integer" Value="0" />
+    <Preference Name="audio.enableoutput" Type="boolean" Value="true" />
+    <Preference Name="audio.spublockcount" Type="integer" Value="100" />
+    <Preference Name="input.pad1.profile" Type="string" Value="default" />
+    <Preference Name="iop.fileio.stdlogging" Type="boolean" Value="false" />
+    <Preference Name="log.showprints" Type="boolean" Value="false" />
+    <Preference Name="ps2.arcaderoms.directory" Type="path" Value="Play Data Files\arcaderoms" />
+    <Preference Name="ps2.cdrom0.path.v2" Type="path" Value="" />
+    <Preference Name="ps2.hdd.directory" Type="path" Value="Play Data Files\vfs/hdd" />
+    <Preference Name="ps2.host.directory.v2" Type="path" Value="Play Data Files\vfs/host" />
+    <Preference Name="ps2.limitframerate" Type="boolean" Value="true" />
+    <Preference Name="ps2.mc0.directory.v2" Type="path" Value="Play Data Files\vfs/mc0" />
+    <Preference Name="ps2.mc1.directory.v2" Type="path" Value="Play Data Files\vfs/mc1" />
+    <Preference Name="ps2.rom0.directory.v2" Type="path" Value="Play Data Files\vfs/rom0" />
+    <Preference Name="renderer.opengl.forcebilineartextures" Type="boolean" Value="false" />
+    <Preference Name="renderer.opengl.resfactor" Type="integer" Value="1" />
+    <Preference Name="renderer.presentationmode" Type="integer" Value="1" />
+    <Preference Name="renderer.ramreads.enabled" Type="boolean" Value="true" />
+    <Preference Name="renderer.vulkan.deviceid" Type="integer" Value="" />
+    <Preference Name="renderer.vulkan.vendorid" Type="integer" Value="" />
+    <Preference Name="renderer.widescreen" Type="boolean" Value="false" />
+    <Preference Name="s3.objectstream.accesskeyid" Type="string" Value="" />
+    <Preference Name="s3.objectstream.secretaccesskey" Type="string" Value="" />
+    <Preference Name="system.language" Type="integer" Value="0" />
+    <Preference Name="ui.pausewhenfocuslost" Type="boolean" Value="true" />
+    <Preference Name="ui.showeecpuusage" Type="boolean" Value="false" />
+    <Preference Name="ui.showexitconfirmation" Type="boolean" Value="false" />
+    <Preference Name="ui.sortmethod" Type="integer" Value="2" />
+    <Preference Name="video.gshandler" Type="integer" Value="0" />
 </Config>
