@@ -239,7 +239,7 @@ msgstr "AUTOCONFIGURER LES MANETTES"
 
 msgctxt "game_options"
 msgid "DISCORD RICH PRESENCE"
-msgstr "NOTIFICATION DISCORD"
+msgstr "NOTIFICATIONS DISCORD"
 
 msgctxt "game_options"
 msgid "Enable Discord Rich Presence service, this will update Discord status to show the games being played."
@@ -3345,6 +3345,14 @@ msgid "MIP MAPPING"
 msgstr "MIPMAPPING"
 
 msgctxt "game_options"
+msgid "Mipmapping is necessary for some games."
+msgstr "Le mipmapping est nécessaire pour certains jeux."
+
+msgctxt "game_options"
+msgid "Boost emulation during boot."
+msgstr "Accélérer le boot système."
+
+msgctxt "game_options"
 msgid "COLOR CORRECTION"
 msgstr "CORRECTION DES COULEURS"
 
@@ -5083,6 +5091,10 @@ msgstr "MULTI-SOURIS"
 msgctxt "game_options"
 msgid "Turning this option on will enable MAME to report mouse movement and button presses on different mice independently."
 msgstr "Permet de gérer plusieurs souris indépendantes."
+
+msgctxt "game_options"
+msgid "Read mouse through Rawinput, allowing 2 mice."
+msgstr "Permet de gérer plusieurs souris indépendantes en activant raw input."
 
 msgctxt "game_options"
 msgid "DO NOT MAP LEFT STICK"
@@ -6985,6 +6997,10 @@ msgid "JOYSTICK DEADZONE"
 msgstr "ZONE MORTE JOYSTICK"
 
 msgctxt "game_options"
+msgid "STICK DEADZONE"
+msgstr "ZONE MORTE JOYSTICK"
+
+msgctxt "game_options"
 msgid "Use this only if the analog stick is drifting."
 msgstr "Utiliser ce paramètrage en cas de 'drift' du joystick analogique (joystick qui bouge sans appui)."
 
@@ -7243,3 +7259,411 @@ msgstr "Type d'anti-crénelage à appliquer au rendu du jeu."
 msgctxt "game_options"
 msgid "Allow using variable refresh rate on displays supporting it. On displays not supporting VRR, screen tearing may occur in certain cases."
 msgstr "Activer le taux de rafraîchissement variable. Peut générer du 'tearing' sur les écrans incompatibles."
+
+msgctxt "game_options"
+msgid "Define how the game fits or scales into the window."
+msgstr "Définir le placement et la taille de l'image de jeu."
+
+msgctxt "game_options"
+msgid "MEMORY"
+msgstr "MÉMOIRE"
+
+msgctxt "game_options"
+msgid "The maximum RAM memory available for the system."
+msgstr "Taille de la mémoire système disponible."
+
+msgctxt "game_options"
+msgid "SKIP BOOT"
+msgstr "PASSER L'ANIMATION"
+
+msgctxt "game_options"
+msgid "Default is on, disable to show XBOX boot animation."
+msgstr "Animation de boot désactivée par défaut, modifier cette option pour l'afficher."
+
+msgctxt "game_options"
+msgid "SHOW MENU BAR"
+msgstr "AFFICHER LE MENU"
+
+msgctxt "game_options"
+msgid "SHOW NOTIFICATIONS"
+msgstr "AFFICHER LES NOTIFICATIONS"
+
+msgctxt "game_options"
+msgid "DISABLE XBE SIGNATURE CHECK"
+msgstr "NE PAS VÉRIFIER LA SIGNATURE XBE"
+
+msgctxt "game_options"
+msgid "Disable XBE signature check when using homebrew games."
+msgstr "Activer cette option pour les jeux 'homebrew'."
+
+msgctxt "game_options"
+msgid "DISABLE PIXEL SHADERS"
+msgstr "DÉSACTIVER LES SHADERS DE PIXEL"
+
+msgctxt "game_options"
+msgid "Disable pixel shaders can fix some games crashing, do not activate unless the game needs it."
+msgstr "Permet de résoudre des problèmes de crash sur certains jeux, n'activer que si le jeu le nécessite."
+
+msgctxt "game_options"
+msgid "USE ALL CORES"
+msgstr "UTILISER TOUS LES COEURS"
+
+msgctxt "game_options"
+msgid "Will run the XBOX process on multiple CPU threads, can improve performance but might break some games."
+msgstr "Force l'utilisation de plusieurs coeurs du processeur, améliore les performances mais peut générer des crashs."
+
+msgctxt "game_options"
+msgid "SKIP RDTSC PATCHING"
+msgstr "NE PAS PATCHER RDTSC"
+
+msgctxt "game_options"
+msgid "KILL LAUNCHER WHEN EXIT"
+msgstr "FERMER LE LAUNCHER EN QUITTANT"
+
+msgctxt "game_options"
+msgid "Set this to 'ON' to quit steam or Epic Game Launcher when quitting game."
+msgstr "Fermer Epic, Steam, EA ou Amazon games en fin de partie."
+
+msgctxt "game_options"
+msgid "ENABLE MULTITAP"
+msgstr "ACTIVER LE MULTITAP"
+
+msgctxt "game_options"
+msgid "USE LEFT STICK"
+msgstr "UTILISER LE STICK GAUCHE"
+
+msgctxt "game_options"
+msgid "Use analog stick instead of dpad."
+msgstr "Utiliser le stick analogique au lieu du pad directionnel."
+
+msgctxt "game_options"
+msgid "USE ALTERNATE INDEX"
+msgstr "INDEX DE MANETTE ALTERNATIF"
+
+msgctxt "game_options"
+msgid "SHOW GUI"
+msgstr "AFFICHER LE GUI"
+
+msgctxt "game_options"
+msgid "Show emulator GUI."
+msgstr "Afficher le menu de l'émulateur."
+
+msgctxt "game_options"
+msgid "SHOW SHADER COMPILATION INFO"
+msgstr "INFORMATIONS DE COMPILATION DES SHADERS"
+
+msgctxt "game_options"
+msgid "Show information about shader compilation."
+msgstr "Afficher les notifications lors de la compilation des shaders."
+
+msgctxt "game_options"
+msgid "ENABLE PER GAME SAVE"
+msgstr "ACTIVER LES SAUVEGARDES PAR JEU"
+
+msgctxt "game_options"
+msgid "This will create a dedicated .ps2 file with the name of the game rom in slot 1."
+msgstr "Créer un fichier de sauvegarde spécifique à chaque jeu (avec le nom de la rom du jeu)."
+
+msgctxt "game_options"
+msgid "Use this option if duckstation is not displaying on the correct monitor."
+msgstr "Utiliser cette option si Duckstation ne s'affiche pas sur le bon écran."
+
+msgctxt "game_options"
+msgid "DEINTERLACING MODE"
+msgstr "MÉTHODE DE DÉSENTRELACEMENT"
+
+msgctxt "game_options"
+msgid "Some game might require interlaced rendering."
+msgstr "Certains jeux nécessitent de désactiver le désentrelacement."
+
+msgctxt "game_options"
+msgid "Smooths out the blockyness of magnified textures on 3D objects by using filtering."
+msgstr "Permet d'arrondir les bords des textures des objets 3D."
+
+msgctxt "game_options"
+msgid "Enable this to use Duckstation's provided shaders."
+msgstr "Activer cette option pour utiliser les filtres fournis avec Duckstation."
+
+msgctxt "game_options"
+msgid "TEXTURE CORRECTION"
+msgstr "CORRECTION DES TEXTURES"
+
+msgctxt "game_options"
+msgid "Eliminates distortion and warping of textures when upscaling."
+msgstr "Permet d'éliminer la distortion des textures lors de la mise à l'échelle."
+
+msgctxt "game_options"
+msgid "SCALED DITHERING"
+msgstr "AJUSTEMENT DU DITHERING"
+
+msgctxt "game_options"
+msgid "Scales the dithern pattern to the resolution scale of the emulated GPU."
+msgstr "Ajuste le dithering à la résolution du GPU émulé."
+
+msgctxt "game_options"
+msgid "Forces the precision of colours output to the console's framebuffer."
+msgstr "Force la précision des couleurs sorties vers le framebuffer de la console."
+
+msgctxt "game_options"
+msgid "OPTIMAL FRAME PACING"
+msgstr "OPTIMISER LA VITESSE D'AFFICHAGE"
+
+msgctxt "game_options"
+msgid "Enable this if you have a gsync/freesync monitor, can cause audio glitches."
+msgstr "Activer cette option pour les moniteurs gsync/freesync, peut causer des bugs audio."
+
+msgctxt "game_options"
+msgid "Show performance statistics overlay in-game."
+msgstr "Afficher les statistiques de performance."
+
+msgctxt "game_options"
+msgid "OSD MESSAGES"
+msgstr "NOTIFICATIONS"
+
+msgctxt "game_options"
+msgid "Show emulator notifications."
+msgstr "Activer les notifications de l'émulateur."
+
+msgctxt "game_options"
+msgid "CPU DECODER"
+msgstr "MODE CPU"
+
+msgctxt "game_options"
+msgid "Recompiler is fastest, Interpreter is more accurate."
+msgstr "Choisir 'Recompiler' pour les performances, 'Interpreter' pour la précision."
+
+msgctxt "game_options"
+msgid "MEMORY CARD TYPE"
+msgstr "TYPE DE CARTE MÉMOIRE"
+
+msgctxt "game_options"
+msgid "DISABLE ALL ENHANCEMENTS"
+msgstr "DÉSACTIVER TOUTES LES AMÉLIORATIONS"
+
+msgctxt "game_options"
+msgid "This will run game without any selected graphical or cpu enhancement."
+msgstr "Lancer le jeu sans aucune amélioration graphique ou cpu."
+
+msgctxt "game_options"
+msgid "ENABLE 8MB RAM"
+msgstr "ACTIVER L'EXTENSION RAM 8MB"
+
+msgctxt "game_options"
+msgid "Enable additional developer ram, might break games."
+msgstr "Activer l'option développeur de ram additionnelle, peut causer des soucis."
+
+msgctxt "game_options"
+msgid "USE TRIGGERS TO BRAKE/ACCELERATE"
+msgstr "UTILISER LES GÂCHETTES POUR LES JEUX DE COURSE"
+
+msgctxt "game_options"
+msgid "Can be useful for Gran Turismo, triggers will be mapped to right analog stick."
+msgstr "Utile pour Gran Turismo, permet de mapper les gâchettes au lieu du stick analogique droit pour accélérer et freiner."
+
+msgctxt "game_options"
+msgid "EMULATED MEMCARDS"
+msgstr "NOMBRE DE CARTES MÉMOIRES"
+
+msgctxt "game_options"
+msgid "Define the number of memory cards to emulate."
+msgstr "Permet d'émuler plusieurs cartes mémoires."
+
+msgctxt "game_options"
+msgid "USE SCPH LEGACY BIOS"
+msgstr "UTILISER LES BIOS SCPH (LEGACY)"
+
+msgctxt "game_options"
+msgid "RetroBat will use by default psxonpsp BIOS, enable this option to force usage of legacy SCPH550X bios file."
+msgstr "Par défaut RetroBat utilise le bios psxonpsp, cette option permet de forcer l'utilisation des bios SCPH550x."
+
+msgctxt "game_options"
+msgid "ANALOG TOGGLE COMBO"
+msgstr "MAPPING DU BOUTON ANALOG"
+
+msgctxt "game_options"
+msgid "Define the button combo to hold to toggle dualshock controller between analog and digital mode."
+msgstr "Définir le combo à utiliser pour simuler un appui sur le bouton 'analog' de la manette analogique."
+
+msgctxt "game_options"
+msgid "Fit to the original ratio of the game."
+msgstr "Garder le ratio original du jeu."
+
+msgctxt "game_options"
+msgid "KEEP ASPECT RATIO"
+msgstr "MAINTENIR LE RATIO D'AFFICHAGE"
+
+msgctxt "game_options"
+msgid "The Neo Geo bios used by the emulator. UNIVERSE BIOS generally offer the best compatibility."
+msgstr "'UNIVERSE BIOS' offre en général une meilleure compatibilité."
+
+msgctxt "game_options"
+msgid "USE HAT AND STICK"
+msgstr "UTILISER LE PAD DIRECTIONNEL"
+
+msgctxt "game_options"
+msgid "Use hat for movement in addition to joystick."
+msgstr "Utiliser le pad directionnel en supplément du stick analogique pour les mouvements."
+
+msgctxt "game_options"
+msgid "SPRITE PER LINE LIMIT (HACK)"
+msgstr "LIMITE DE SPRITES PAR LIGNE (HACK)"
+
+msgctxt "game_options"
+msgid "Increasing the value can cause glitches."
+msgstr "Une valeur élevée peut causer des bugs."
+
+msgctxt "game_options"
+msgid "SHOW ROM MENU"
+msgstr "AFFICHER LE MENU DU JEU"
+
+msgctxt "game_options"
+msgid "Bring up the system ROM menu at boot of arcade systems."
+msgstr "Afficher le menu système du jeu au lancement du jeu (arcade)."
+
+msgctxt "game_options"
+msgid "4-PLAYER MODE"
+msgstr "MODE 4-JOUEURS"
+
+msgctxt "game_options"
+msgid "Only compatible with ASIA/JAPAN MVS system."
+msgstr "Uniquement compatible avec les systèmes MVS ASIE/JAPON."
+
+msgctxt "game_options"
+msgid "SYSTEM TYPE"
+msgstr "TYPE DE SYSTÈME"
+
+msgctxt "game_options"
+msgid "Play MVS games without the need to insert coins."
+msgstr "Jouer aux jeux MVS sans insérer de crédits."
+
+msgctxt "game_options"
+msgid "OVERCLOCK"
+msgstr "OVERCLOCKING"
+
+msgctxt "game_options"
+msgid "Can cause various glitches."
+msgstr "Peut causer des bugs."
+
+msgctxt "game_options"
+msgid "Shows performance statistics."
+msgstr "Afficher les statistiques sur la performance d'émulation."
+
+msgctxt "game_options"
+msgid "ONLY FPS"
+msgstr "UNIQUEMENT FPS"
+
+msgctxt "game_options"
+msgid "FULL STATISTICS"
+msgstr "STATISTIQUES COMPLÈTES"
+
+msgctxt "game_options"
+msgid "Requires a Redream key."
+msgstr "Nécessite une clé de licence Redream."
+
+msgctxt "game_options"
+msgid "USE EXTERNAL BIOS"
+msgstr "UTILISER LE BIOS EXTERNE"
+
+msgctxt "game_options"
+msgid "Use saturn_bios file located in BIOS folder, can improve compatibility."
+msgstr "Utiliser le fichier 'saturn_bios' du dossier BIOS, peut améliorer la compatibilité."
+
+msgctxt "game_options"
+msgid "USE OWN GAME SETTING FILE"
+msgstr "UTILISER LE BIOS EXTERNE"
+
+msgctxt "game_options"
+msgid "By default RetroBat will generate it's own config file, enable this option to use your own game setting file located in 'emulators\ssf\Setting' folder."
+msgstr "RetroBat génère un fichier de configuration automatiquement, cette option permet de forcer l'utilisationd'un fichier personnel depuis le dossier 'emulators\ssf\Setting'."
+
+msgctxt "game_options"
+msgid "USE LEFT JOYSTICK"
+msgstr "UTILISER LE STICK GAUCHE"
+
+msgctxt "game_options"
+msgid "Use left analog stick instead of D-PAD."
+msgstr "Utiliser le joystick gauche au lieu de la croix directionnelle."
+
+msgctxt "game_options"
+msgid "BUTTON LAYOUT"
+msgstr "DISPOSITION DES BOUTONS"
+
+msgctxt "game_options"
+msgid "L/R as Z/C"
+msgstr "L/R pour Z/C"
+
+msgctxt "game_options"
+msgid "L/R as Y/Z"
+msgstr "L/R pour Y/Z"
+
+msgctxt "game_options"
+msgid "L/R as X/Z"
+msgstr "L/R pour X/Z"
+
+msgctxt "game_options"
+msgid "FORCE MANAGED TEXTURES"
+msgstr "FORCÉ LA GESTION DES TEXTURES"
+
+msgctxt "game_options"
+msgid "Use this if the emulator crashes after loading or doesn't show anything."
+msgstr "Activer cette option si l'émulateur crash au lancement ou n'affiche rien."
+
+msgctxt "game_options"
+msgid "AUTO MIPMAP"
+msgstr "MIPMAPPING AUTO"
+
+msgctxt "game_options"
+msgid "Enables Direct3D Automipmap generation."
+msgstr "Activer le mipmapping Direct3D automatique."
+
+msgctxt "game_options"
+msgid "Enable R3 as Service button to enter settings."
+msgstr "Active l'accès au menu service avec le bouton R3."
+
+msgctxt "game_options"
+msgid "TYPE OF AUTOCONFIGURATION"
+msgstr "MÉTHODE DE CONFIGURATION DES CONTRÔLES"
+
+msgctxt "game_options"
+msgid "'Templates' option copies files located in 'emulators\m2emulator\templatescfg' folder instead of performing dynamic autoconfiguration."
+msgstr "'Template' utilise une copie du fichier situé dans 'emulators\m2emulator\templatescfg' au lieu de configurer automatiquement les contrôles."
+
+msgctxt "game_options"
+msgid "USE CONTROLLER TO START GAME"
+msgstr "UTILISER LA MANETTE POUR START ET COIN"
+
+msgctxt "game_options"
+msgid "Enable this to use controller for start and coin instead of keyboard."
+msgstr "Désactiver cette option pour utiliser le clavier uniquement pour démarrer le jeu et insérer les crédits."
+
+msgctxt "game_options"
+msgid "P1 MOUSE INDEX"
+msgstr "INDEX SOURIS JOUEUR 1"
+
+msgctxt "game_options"
+msgid "Define mouse index to use for player 1."
+msgstr "Forcer l'index souris pour le pistolet du joueur 1."
+
+msgctxt "game_options"
+msgid "P2 MOUSE INDEX"
+msgstr "INDEX SOURIS JOUEUR 2"
+
+msgctxt "game_options"
+msgid "Define mouse index to use for player 2."
+msgstr "Forcer l'index souris pour le pistolet du joueur 2."
+
+msgctxt "game_options"
+msgid "HOLD GEARS"
+msgstr "GARDER LES VITESSES"
+
+msgctxt "game_options"
+msgid "Set to YES to return to Neutral in driving games when the gear shift key is released."
+msgstr "'OUI' permet de revenir automatiquement au point mort lorsque le bouton est relâché."
+
+msgctxt "game_options"
+msgid "USE SHOULDER BUTTONS FOR RACING GAMES"
+msgstr "UTILISER R1/L1 POUR LES JEUX DE COURSE"
+
+msgctxt "game_options"
+msgid "Use R1 and L1 to accelerate and brake in racing games, only compatible with 'auto' gear shifting."
+msgstr "Utiliser R1 et L1 pour accélérer et freiner dans les jeux de course."
