@@ -182,6 +182,7 @@ mrt_edram_used_range_clamp_to_min = true          	# With host render targets, i
 native_2x_msaa = true                             	# Use host 2x MSAA when available. Can be disabled for scalability testing on host GPU APIs where 2x is not mandatory, in this case, 2 samples of 4x MSAA will be used instead (with similar or worse quality and higher memory usage).
 native_stencil_value_output = true                	# Use pixel shader stencil reference output where available for purposes like copying between render targets. Can be disabled for scalability testing, in this case, much more expensive drawing of 8 quads will be done.
 native_stencil_value_output_d3d12_intel = false   	# Allow stencil reference output usage on Direct3D 12 on Intel GPUs - not working on UHD Graphics 630 as of March 2021 (driver 27.20.0100.8336).
+non_seamless_cube_map = true                      	# Disable filtering between cube map faces near edges where possible (Vulkan with VK_EXT_non_seamless_cube_map) to reproduce the Direct3D 9 behavior.
 primitive_processor_cache_min_indices = 4096      	# Smallest number of guest indices to store in the cache to try reusing later in the same frame if processing (such as primitive type conversion or reset index replacement) is performed.
                                                   	# Setting this to a very high value may result in excessive CPU processing, while a very low value may result in excessive locking and lookups.
                                                   	# Negative values disable caching.
@@ -232,7 +233,7 @@ vsync = true                                      	# Enable VSYNC.
 
 [General]
 debug = false                                     	# Allow debugging and retain debug information.
-discord = false                                    	# Enable Discord rich presence
+discord = true                                    	# Enable Discord rich presence
 enable_console = false                            	# Open a console window with the main window
 launch_module = ""                                	# Executable to launch from the .iso or the package instead of default.xex or the module specified by the game. Leave blank to launch the default module.
 time_scalar = 1.0                                 	# Scalar used to speed or slow time (1x, 2x, 1/2x, etc).
@@ -305,7 +306,7 @@ mappings_file = "gamecontrollerdb.txt"            	# Filename of a database with
 
 [Storage]
 cache_root = ""                                   	# Root path for files used to speed up certain parts of the emulator or the game. These files may be persistent, but they can be deleted without major side effects such as progress loss. If empty, the cache folder under the storage root, or, if available, the cache directory preferred for the OS, will be used.
-content_root = "../../saves/xbox360/xenia"          # Root path for guest content storage (saves, etc.), or empty to use the content folder under the storage root.
+content_root = ""                                 	# Root path for guest content storage (saves, etc.), or empty to use the content folder under the storage root.
 mount_cache = false                               	# Enable cache mount
 mount_scratch = false                             	# Enable scratch mount
 storage_root = ""                                 	# Root path for persistent internal data storage (config, etc.), or empty to use the path preferred for the OS, such as the documents folder, or the emulator executable directory if portable.txt is present in it.
