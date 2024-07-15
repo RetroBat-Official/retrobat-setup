@@ -1,8 +1,10 @@
 [APU]
 apu = "any"                                       	# Audio system. Use: [any, nop, sdl, xaudio2]
+apu_max_queued_frames = 64                        	# Allows changing max buffered audio frames to reduce audio delay. Minimum is 16.
 ffmpeg_verbose = false                            	# Verbose FFmpeg output (debug and above)
-max_queued_frames = 64                            	# Allows changing max buffered audio frames to reduce audio delay.
 mute = false                                      	# Mutes all audio output.
+use_dedicated_xma_thread = true                   	# Enables XMA decoding on separate thread. Disabled should produce better results, but decrease performance a bit.
+use_new_decoder = false                           	# Enables usage of new experimental XMA audio decoder.
 
 
 [CPU]
@@ -19,21 +21,21 @@ clock_source_raw = false                          	# Use the RDTSC instruction a
 cpu = "any"                                       	# CPU backend [any, x64].
 debug_symbol_loader = false                       	# Enable dbghelp debug logging and validation.
 debugprint_trap_log = false                       	# Log debugprint traps to the active debugger
-disable_early_precompilation = false              	# Disables pre-compiling guest functions that we know we've called/that we've recognized as being functions via simple heuristics.
-disable_global_lock = false                       	# Disables global lock usage in guest code. Does not affect host code.
 disable_instruction_infocache = false             	# Disables caching records of called instructions/mmio accesses.
 disable_prefetch_and_cachecontrol = true          	# Disables translating ppc prefetch/cache flush instructions to host prefetch/cacheflush instructions. This may improve performance as these instructions were written with the Xbox 360's cache in mind, and modern processors do their own automatic prefetching.
 disassemble_functions = false                     	# Disassemble functions during generation.
+dump_translated_hir_functions = false             	# dumps translated hir
 elide_e0_check = false                            	# Eliminate e0 check on some memory accesses, like to r13(tls) or r1(sp)
 emit_mmio_aware_stores_for_recorded_exception_addresses = true	# Uses info gathered via record_mmio_access_exceptions to emit special stores that are faster than trapping the exception
 emit_source_annotations = false                   	# Add extra movs and nops to make disassembly easier to read.
-emit_useless_fpscr_updates = false                	# Emit useless fpscr update instructions (pre-10/30/2022 behavior). 
+enable_early_precompilation = false               	# Enable pre-compiling guest functions that we know we've called/that we've recognized as being functions via simple heuristics, good for error finding/stress testing with the JIT
 full_optimization_even_with_debug = false         	# For developer use to analyze the quality of the generated code, not intended for actual debugging of the code
 ignore_trap_instructions = true                   	# Generate no code for powerpc trap instructions, can result in better performance in games that aggressively check with trap.
 ignore_undefined_externs = true                   	# Don't exit when an undefined extern is called.
 inline_loadclock = false                          	# Directly read cached guest clock without calling the LoadClock method (it gets repeatedly updated by calls from other threads)
 inline_mmio_access = true                         	# Inline constant MMIO loads and stores.
 load_module_map = ""                              	# Loads a .map for symbol names and to diff with the generated symbol database.
+no_reserved_ops = false                           	# For testing whether a game may have races with a broken reserved load/store impl
 no_round_to_single = false                        	# Not for users, breaks games. Skip rounding double values to single precision and back
 permit_float_constant_evaluation = false          	# Allow float constant evaluation, may produce incorrect results and break games math
 pvr = 7407360                                     	# Processor version and revision number.
@@ -41,7 +43,6 @@ pvr = 7407360                                     	# Processor version and revis
                                                   	# Bits 16 to 31 are the revision number.
                                                   	# Note: Some XEXs (such as mfgbootlauncher.xex) may check for a value that's less than 0x710700.
 
-record_mmio_access_exceptions = true              	# For guest addresses records whether we caught any mmio accesses for them. This info can then be used on a subsequent run to instruct the recompiler to emit checks
 store_all_context_values = false                  	# Don't strip dead context stores to aid in debugging.
 trace_function_coverage = false                   	# Generate tracing for function instruction coverage statistics.
 trace_function_data = false                       	# Generate tracing for function result data.
@@ -50,6 +51,7 @@ trace_function_references = false                 	# Generate tracing for functi
 trace_functions = false                           	# Generate tracing for function statistics.
 use_fast_dot_product = false                      	# Experimental optimization, much shorter sequence on dot products, treating inf as overflow instead of using mcxsrfour insn dotprod
 validate_hir = false                              	# Perform validation checks on the HIR during compilation.
+writable_code_segments = false                    	# Enables a program to write to its own code segments in memory.
 
 
 [Config]
@@ -71,7 +73,6 @@ d3d12_allow_variable_refresh_rate_and_tearing = true	# In fullscreen, allow usin
 d3d12_bindless = true                             	# Use bindless resources where available - may improve performance, but may make debugging more complicated.
 d3d12_break_on_error = false                      	# Break on Direct3D 12 validation errors.
 d3d12_break_on_warning = false                    	# Break on Direct3D 12 validation warnings.
-d3d12_clear_memory_page_state = false             	# Refresh state of memory pages to enable gpu written data. (Use for 'Team Ninja' Games to fix missing character models)
 d3d12_debug = false                               	# Enable Direct3D 12 and DXGI debug layer.
 d3d12_dxbc_disasm = false                         	# Disassemble DXBC shaders after generation.
 d3d12_dxbc_disasm_dxilconv = false                	# Disassemble DXBC shaders after conversion to DXIL, if DXIL shaders are supported by the OS, and DirectX Shader Compiler DLLs available at https://github.com/microsoft/DirectXShaderCompiler/releases are present.
@@ -88,24 +89,6 @@ d3d12_tiled_shared_memory = true                  	# Enable tiled resources for 
 [Display]
 fullscreen = false                                	# Whether to launch the emulator in fullscreen.
 host_present_from_non_ui_thread = true            	# Allow the GPU emulation thread to present the guest output to the host surface directly instead of requesting the UI thread to do so through the host window system.
-internal_display_resolution = 8                   	# Allow game that support different resolutions to be rendered in specific resolution.   0=640x480
-                                                  	#    1=640x576
-                                                  	#    2=720x480
-                                                  	#    3=720x576
-                                                  	#    4=800x600
-                                                  	#    5=848x480
-                                                  	#    6=1024x768
-                                                  	#    7=1152x864
-                                                  	#    8=1280x720 (Default)
-                                                  	#    9=1280x768
-                                                  	#    10=1280x960
-                                                  	#    11=1280x1024
-                                                  	#    12=1360x768
-                                                  	#    13=1440x900
-                                                  	#    14=1680x1050
-                                                  	#    15=1920x540
-                                                  	#    16=1920x1080
-
 postprocess_antialiasing = ""                     	# Post-processing anti-aliasing effect to apply to the image output of the game.
                                                   	# Using post-process anti-aliasing is heavily recommended when AMD FidelityFX Contrast Adaptive Sharpening or Super Resolution 1.0 is active.
                                                   	# Use: [none, fxaa, fxaa_extreme]
@@ -119,7 +102,7 @@ postprocess_antialiasing = ""                     	# Post-processing anti-aliasi
 postprocess_dither = true                         	# Dither the final image output from the internal precision to 8 bits per channel so gradients are smoother.
                                                   	# On a 10bpc display, the lower 2 bits will still be kept, but noise will be added to them - disabling may be recommended for 10bpc, but it depends on the 10bpc displaying capabilities of the actual display used.
 
-postprocess_ffx_cas_additional_sharpness = 0.0    	# Additional sharpness for AMD FidelityFX Contrast Adaptive Sharpening (CAS), from 0 to 1.
+postprocess_ffx_cas_additional_sharpness = 0      	# Additional sharpness for AMD FidelityFX Contrast Adaptive Sharpening (CAS), from 0 to 1.
                                                   	# Higher is sharper.
 
 postprocess_ffx_fsr_max_upsampling_passes = 4     	# Maximum number of upsampling passes performed in AMD FidelityFX Super Resolution 1.0 (FSR) before falling back to bilinear stretching after the final pass.
@@ -142,11 +125,12 @@ postprocess_scaling_and_sharpening = ""           	# Post-processing effect to u
 
 present_letterbox = true                          	# Maintain aspect ratio when stretching by displaying bars around the image when there's no more overscan area to crop out.
 present_render_pass_clear = true                  	# On graphics backends where this is supported, use the clear render pass load operation in presentation instead of clear commands clearing only the letterbox area.
-present_safe_area_x = 90                          	# Percentage of the image width that can be kept when presenting to maintain aspect ratio without letterboxing or stretching.
-present_safe_area_y = 90                          	# Percentage of the image height that can be kept when presenting to maintain aspect ratio without letterboxing or stretching.
+present_safe_area_x = 100                         	# Percentage of the image width that can be kept when presenting to maintain aspect ratio without letterboxing or stretching.
+present_safe_area_y = 100                         	# Percentage of the image height that can be kept when presenting to maintain aspect ratio without letterboxing or stretching.
 
 
 [GPU]
+clear_memory_page_state = false                   	# Refresh state of memory pages to enable gpu written data. (Use for 'Team Ninja' Games to fix missing character models)
 depth_float24_convert_in_pixel_shader = false     	# Whether to convert the depth values to 24-bit floating-point (20e4) from the host precision (32-bit floating point) directly in the pixel shaders of guest draws when using a host depth buffer.
                                                   	# This prevents visual artifacts (interleaved stripes of parts of surfaces rendered and parts not rendered, having either the same width in case of the "greater or equal" depth test function, or the former being much thinner than the latter with the "equal" function) if the full host precision depth data is lost.
                                                   	# This issue may happen if the game reloads the depth data previously evicted from the EDRAM to the RAM back to the EDRAM, but the EDRAM region that previously contained that depth buffer was overwritten by another depth buffer, or the game loads it to a different location in the EDRAM than it was previously placed at, thus Xenia is unable to restore the depth data with the original precision, and instead falls back to converting the lower-precision values, so in subsequent rendering passes for the same geometry, the actual depth values of the surfaces don't match those stored in the depth buffer anymore.
@@ -178,6 +162,7 @@ depth_float24_round = false                       	# Whether to round to the nea
 depth_transfer_not_equal_test = true              	# When transferring data between depth render targets, use the "not equal" test to avoid writing rewriting depth via shader depth output if it's the same as the one currently in the depth buffer in case of round trips of the data.
                                                   	# Settings this to true may make transfer round trips more friendly to depth compression depending on how the GPU implements it (as arbitrary depth output may result in it being disabled completely), which is beneficial to subsequent rendering, while setting this to false may reduce bandwidth usage during transfers as the previous depth won't need to be read.
 
+disassemble_pm4 = false                           	# Only does anything in debug builds, if set will disassemble and log all PM4 packets sent to the CP.
 draw_resolution_scale_x = 1                       	# Integer pixel width scale used for scaling the rendering resolution opaquely to the game.
                                                   	# 1, 2 and 3 may be supported, but support of anything above 1 depends on the device properties, such as whether it supports sparse binding / tiled resources, the number of virtual address bits per resource, and other factors.
                                                   	# Various effects and parts of game rendering pipelines may work incorrectly as pixels become ambiguous from the game's perspective and because half-pixel offset (which normally doesn't affect coverage when MSAA isn't used) becomes full-pixel.
@@ -204,11 +189,16 @@ force_convert_quad_lists_to_triangle_lists = false	# For host graphics API downl
                                                   	# May also be useful for graphics debugging when the debugger doesn't display the geometry generated by geometry shaders properly.
 
 force_convert_triangle_fans_to_lists = false      	# For host graphics API downlevel support testing only, force CPU conversion of triangle fans to triangle lists even if the host supports triangle fan primitives natively.
+framerate_limit = 60                              	# Maximum frames per second. 0 = Unlimited frames.
+                                                  	# Defaults to 60, when set to 0, and VSYNC is enabled.
+
 gamma_render_target_as_srgb = false               	# When the host can't write piecewise linear gamma directly with correct blending, use sRGB output on the host for conceptually correct blending in linear color space while having slightly different precision distribution in the render target and severely incorrect values if the game accesses the resulting colors directly as raw data.
 gpu = "any"                                       	# Graphics system. Use: [any, d3d12, vulkan, null]
-gpu_allow_invalid_fetch_constants = false         	# Allow texture and vertex fetch constants with invalid type - generally unsafe because the constant may contain completely invalid values, but may be used to bypass fetch constant type errors in certain games until the real reason why they're invalid is found.
+gpu_allow_invalid_fetch_constants = true          	# Allow texture and vertex fetch constants with invalid type - generally unsafe because the constant may contain completely invalid values, but may be used to bypass fetch constant type errors in certain games until the real reason why they're invalid is found.
 half_pixel_offset = true                          	# Enable support of vertex half-pixel offset (D3D9 PA_SU_VTX_CNTL PIX_CENTER). Generally games are aware of the half-pixel offset, and having this enabled is the correct behavior (disabling this may significantly break post-processing in some games), but in certain games it might have been ignored, resulting in slight blurriness of UI textures, for instance, when they are read between texels rather than at texel centers, or the leftmost/topmost pixels may not be fully covered when MSAA is used with fullscreen passes.
 ignore_32bit_vertex_index_support = false         	# For host graphics API downlevel testing only (useful only for Qualcomm Adreno 4xx-level host GPU testing), force indirection or pre-masking and pre-swapping of 32-bit vertex indices as if the host only supports 24-bit indices.
+log_guest_driven_gpu_register_written_values = false	# Only does anything in debug builds, if set will log every write to a gpu register done by a guest. Does not log writes that are done by the CP on its own, just ones the guest makes or instructs it to make.
+log_ringbuffer_kickoff_initiator_bts = false      	# Only does anything in debug builds, if set will log the pseudo-stacktrace of the guest thread that wrote the new read position.
 mrt_edram_used_range_clamp_to_min = true          	# With host render targets, if multiple render targets are bound, estimate the EDRAM range modified in any of them to be not bigger than the distance between any two render targets in the EDRAM, rather than allowing the last one claim the rest of the EDRAM.
                                                   	# Has effect primarily on draws without viewport clipping.
                                                   	# Setting this to false results in higher accuracy in rare cases, but may increase the amount of copying that needs to be done sometimes.
@@ -216,6 +206,8 @@ mrt_edram_used_range_clamp_to_min = true          	# With host render targets, i
 native_2x_msaa = true                             	# Use host 2x MSAA when available. Can be disabled for scalability testing on host GPU APIs where 2x is not mandatory, in this case, 2 samples of 4x MSAA will be used instead (with similar or worse quality and higher memory usage).
 native_stencil_value_output = true                	# Use pixel shader stencil reference output where available for purposes like copying between render targets. Can be disabled for scalability testing, in this case, much more expensive drawing of 8 quads will be done.
 native_stencil_value_output_d3d12_intel = false   	# Allow stencil reference output usage on Direct3D 12 on Intel GPUs - not working on UHD Graphics 630 as of March 2021 (driver 27.20.0100.8336).
+no_discard_stencil_in_transfer_pipelines = false  	# bleh
+non_seamless_cube_map = true                      	# Disable filtering between cube map faces near edges where possible (Vulkan with VK_EXT_non_seamless_cube_map) to reproduce the Direct3D 9 behavior.
 primitive_processor_cache_min_indices = 4096      	# Smallest number of guest indices to store in the cache to try reusing later in the same frame if processing (such as primitive type conversion or reset index replacement) is performed.
                                                   	# Setting this to a very high value may result in excessive CPU processing, while a very low value may result in excessive locking and lookups.
                                                   	# Negative values disable caching.
@@ -253,31 +245,42 @@ render_target_path_vulkan = ""                    	# Render target emulation pat
 resolve_resolution_scale_fill_half_pixel_offset = true	# When using resolution scaling, apply the hack that stretches the first surely covered host pixel in the left and top sides of render target resolve areas to eliminate the gap caused by the half-pixel offset (this is necessary for certain games to display the scene graphics).
 snorm16_render_target_full_range = true           	# When the host can only support 16_16 and 16_16_16_16 render targets as -1...1, remap -32...32 to -1...1 to use the full possible range of values, at the expense of multiplicative blending correctness.
 store_shaders = true                              	# Store shaders persistently and load them when loading games to avoid runtime spikes and freezes when playing the game not for the first time.
+target_trace_file = ""                            	# Specifies the trace file to load.
 texture_cache_memory_limit_hard = 768             	# Maximum host texture memory usage (in megabytes) above which textures will be destroyed as soon as possible.
 texture_cache_memory_limit_render_to_texture = 24 	# Part of the host texture memory budget (in megabytes) that will be scaled by the current drawing resolution scale.
                                                   	# If texture_cache_memory_limit_soft, for instance, is 384, and this is 24, it will be assumed that the game will be using roughly 24 MB of render-to-texture (resolve) targets and 384 - 24 = 360 MB of regular textures - so with 2x2 resolution scaling, the soft limit will be 360 + 96 MB, and with 3x3, it will be 360 + 216 MB.
 
 texture_cache_memory_limit_soft = 384             	# Maximum host texture memory usage (in megabytes) above which old textures will be destroyed.
 texture_cache_memory_limit_soft_lifetime = 30     	# Seconds a texture should be unused to be considered old enough to be deleted if texture memory usage exceeds texture_cache_memory_limit_soft.
+trace_dump_path = ""                              	# Output path for dumped files.
 trace_gpu_prefix = "scratch/gpu/"                 	# Prefix path for GPU trace files.
 trace_gpu_stream = false                          	# Trace all GPU packets.
+use_fuzzy_alpha_epsilon = false                   	# Use approximate compare for alpha values to prevent flickering on NVIDIA graphics cards
 vsync = true                                      	# Enable VSYNC.
-vsync_interval = 16                               	# VSYNC interval. Value is frametime in milliseconds.
 
 
 [General]
 allow_game_relative_writes = false                	# Not useful to non-developers. Allows code to write to paths relative to game://. Used for generating test data to compare with original hardware. 
+allow_plugins = false                             	# Allows loading of plugins/trainers from plugins\title_id\plugin.xex. Plugin are homebrew xex modules which can be used for making mods. This feature is experimental.
 apply_patches = true                              	# Enables custom patching functionality
+controller_hotkeys = false                        	# Hotkeys for Xbox and PS controllers.
 debug = false                                     	# Allow debugging and retain debug information.
-discord = false                                    	# Enable Discord rich presence
-enable_console = false                            	# Open a console window with the main window
+discord = true                                    	# Enable Discord rich presence
 launch_module = ""                                	# Executable to launch from the .iso or the package instead of default.xex or the module specified by the game. Leave blank to launch the default module.
-time_scalar = 1.0                                 	# Scalar used to speed or slow time (1x, 2x, 1/2x, etc).
+notification_sound_path = ""                      	# Path (including filename) to selected notification sound. Sound MUST be in wav format!
+recent_titles_entry_amount = 10                   	# Allows user to define how many titles is saved in list of recently played titles.
+time_scalar = 1                                   	# Scalar used to speed or slow time (1x, 2x, 1/2x, etc).
+
+
+[HACKS]
+ac6_ground_fix = false                            	# This fixes(hide) issues with black ground in AC6. Use only in AC6. Might cause issues in other titles.
 
 
 [HID]
-guide_button = false                              	# Forward guide button presses to guest.
+guide_button = true                               	# Forward guide button presses to guest.
 hid = "any"                                       	# Input system. Use: [any, nop, sdl, winkey, xinput]
+left_stick_deadzone_percentage = 0                	# Defines deadzone level for left stick. Allowed range [0.0-1.0].
+right_stick_deadzone_percentage = 0               	# Defines deadzone level for right stick. Allowed range [0.0-1.0].
 vibration = true                                  	# Toggle controller vibration.
 
 
@@ -289,6 +292,7 @@ keybind_dpad_down = "^S"                          	# List of keys to bind to DPA
 keybind_dpad_left = "^A"                          	# List of keys to bind to DPAD_LEFT, separated by spaces
 keybind_dpad_right = "^D"                         	# List of keys to bind to DPAD_RIGHT, separated by spaces
 keybind_dpad_up = "^W"                            	# List of keys to bind to DPAD_UP, separated by spaces
+keybind_guide = "0x08"                            	# List of keys to bind to GUIDE, separated by spaces
 keybind_left_shoulder = "1"                       	# List of keys to bind to LEFT_SHOULDER, separated by spaces
 keybind_left_thumb = "F"                          	# List of keys to bind to LEFT_THUMB_PRESSED, separated by spaces
 keybind_left_thumb_down = "_S"                    	# List of keys to bind to LEFT_THUMB_DOWN, separated by spaces
@@ -306,6 +310,7 @@ keybind_right_trigger = "E O"                     	# List of keys to bind to RIG
 keybind_start = "X"                               	# List of keys to bind to START, separated by spaces
 keybind_x = "L"                                   	# List of keys to bind to X, separated by spaces
 keybind_y = "P"                                   	# List of keys to bind to Y, separated by spaces
+keyboard_user_index = 0                           	# Controller port that keyboard emulates
 
 
 [Kernel]
@@ -313,24 +318,29 @@ apply_title_update = true                         	# Apply title updates.
 cl = ""                                           	# Specify additional command-line provided to guest.
 ignore_thread_affinities = true                   	# Ignores game-specified thread affinities.
 ignore_thread_priorities = true                   	# Ignores game-specified thread priorities.
+kernel_build_version = 1888                       	# Define current kernel version
 kernel_cert_monitor = false                       	# Enable cert monitor.
 kernel_debug_monitor = false                      	# Enable debug monitor.
 kernel_display_gamma_power = 2.22222233           	# Display gamma to use with kernel_display_gamma_type 3.
 kernel_display_gamma_type = 2                     	# Display gamma type: 0 - linear, 1 - sRGB (CRT), 2 - BT.709 (HDTV), 3 - power specified via kernel_display_gamma_power.
 kernel_pix = false                                	# Enable PIX.
 log_high_frequency_kernel_calls = false           	# Log kernel calls with the kHighFrequency tag.
+max_signed_profiles = 4                           	# Limits how many profiles can be assigned. Possible values: 1-4
 
 
 [Logging]
+enable_console = false                            	# Open a console window with the main window
 flush_log = true                                  	# Flush log file after each log line batch.
 log_file = ""                                     	# Logs are written to the given file
 log_level = 2                                     	# Maximum level to be logged. (0=error, 1=warning, 2=info, 3=debug)
+log_mask = 0                                      	# Disables specific categorizes for more granular debug logging. Kernel = 1, Apu = 2, Cpu = 4.
 log_string_format_kernel_calls = false            	# Log kernel calls with the kHighFrequency tag.
 log_to_debugprint = false                         	# Dump the log to DebugPrint.
 log_to_stdout = true                              	# Write log output to stdout
 
 
 [Memory]
+ignore_offset_for_ranged_allocations = false      	# Allows to ignore 4k offset for physical allocations with provided range. Certain titles check if result matches provided lower range.
 protect_on_release = false                        	# Protect released memory to prevent accesses.
 protect_zero = true                               	# Protect the zero page from reads and writes.
 scribble_heap = false                             	# Scribble 0xCD into all allocated heap memory.
@@ -343,21 +353,62 @@ mappings_file = "gamecontrollerdb.txt"            	# Filename of a database with
 
 [Storage]
 cache_root = ""                                   	# Root path for files used to speed up certain parts of the emulator or the game. These files may be persistent, but they can be deleted without major side effects such as progress loss. If empty, the cache folder under the storage root, or, if available, the cache directory preferred for the OS, will be used.
-content_root = "../../saves/xbox360/xenia"          # Root path for guest content storage (saves, etc.), or empty to use the content folder under the storage root.
+content_root = ""                                 	# Root path for guest content storage (saves, etc.), or empty to use the content folder under the storage root.
 mount_cache = false                               	# Enable cache mount
 mount_scratch = false                             	# Enable scratch mount
 storage_root = ""                                 	# Root path for persistent internal data storage (config, etc.), or empty to use the path preferred for the OS, such as the documents folder, or the emulator executable directory if portable.txt is present in it.
 
 
 [UI]
+custom_font_path = ""                             	# Allows user to load custom font and use it instead of default one.
+font_size = 12                                    	# Allows user to set custom font size.
 headless = false                                  	# Don't display any UI, using defaults for prompts as needed.
 imgui_debug = false                               	# Show ImGui debugging tools.
 profiler_dpi_scaling = false                      	# Apply window DPI scaling to the profiler.
+show_achievement_notification = false             	# Show achievement notification on screen.
 show_profiler = false                             	# Show profiling UI by default.
+storage_selection_dialog = false                  	# Show storage device selection dialog when the game requests it.
 
 
 [Video]
 avpack = 8                                        	# Video modes
+                                                  	#  0 = PAL-60 Component (SD)
+                                                  	#  1 = Unused
+                                                  	#  2 = PAL-60 SCART
+                                                  	#  3 = 480p Component (HD)
+                                                  	#  4 = HDMI+A
+                                                  	#  5 = PAL-60 Composite/S-Video
+                                                  	#  6 = VGA
+                                                  	#  7 = TV PAL-60
+                                                  	#  8 = HDMI (default)
+
+interlaced = false                                	# Toggles interlaced mode.
+internal_display_resolution = 8                   	# Allow game that support different resolutions to be rendered in specific resolution.
+                                                  	#    0=640x480
+                                                  	#    1=640x576
+                                                  	#    2=720x480
+                                                  	#    3=720x576
+                                                  	#    4=800x600
+                                                  	#    5=848x480
+                                                  	#    6=1024x768
+                                                  	#    7=1152x864
+                                                  	#    8=1280x720 (Default)
+                                                  	#    9=1280x768
+                                                  	#    10=1280x960
+                                                  	#    11=1280x1024
+                                                  	#    12=1360x768
+                                                  	#    13=1440x900
+                                                  	#    14=1680x1050
+                                                  	#    15=1920x540
+                                                  	#    16=1920x1080
+
+use_50Hz_mode = false                             	# Enables usage of PAL-50 mode.
+video_standard = 1                                	# Enables switching between different video signals.
+                                                  	#    1=NTSC
+                                                  	#    2=NTSC-J
+                                                  	#    3=PAL
+
+widescreen = true                                 	# Toggles between 16:9 and 4:3 aspect ratio.
 
 
 [Vulkan]
@@ -373,6 +424,7 @@ vulkan_validation = false                         	# Enable Vulkan validation (V
 
 
 [Win32]
+enable_rdrand_ntdll_patch = true                  	# Hot-patches ntdll at the start of the process to not use rdrand as part of the RNG for heap randomization. Can reduce CPU usage significantly, but is untested on all Windows versions.
 win32_high_resolution_timer = true                	# Requests high-resolution timer from the NT kernel
 win32_mmcss = true                                	# Opt in the Multimedia Class Scheduler Service (MMCSS) scheduling for prioritized access to CPU resources
 
@@ -400,9 +452,12 @@ user_language = 1                                 	# User language ID.
 [x64]
 align_all_basic_blocks = 0                        	# Aligns the start of all basic blocks to N bytes. Only specify a power of 2, 16 is the recommended value. Results in larger icache usage, but potentially faster loops
 delay_via_maybeyield = false                      	# implement the db16cyc instruction via MaybeYield, may improve scheduling of guest threads
+enable_host_guest_stack_synchronization = true    	# Records entries for guest/host stack mappings at function starts and checks for reentry at return sites. Has slight performance impact, but fixes crashes in games that use setjmp/longjmp.
 enable_incorrect_roundingmode_behavior = false    	# Disables the FPU/VMX MXCSR sharing workaround, potentially causing incorrect rounding behavior and denormal handling in VMX code. The workaround may cause reduced CPU performance but is a more accurate emulation
 enable_rmw_context_merging = false                	# Permit merging read-modify-write HIR instr sequences together into x86 instructions that use a memory operand.
 instrument_call_times = false                     	# Compute time taken for functions, for profiling guest code
+max_stackpoints = 65536                           	# Max number of host->guest stack mappings we can record.
+record_mmio_access_exceptions = true              	# For guest addresses records whether we caught any mmio accesses for them. This info can then be used on a subsequent run to instruct the recompiler to emit checks
 x64_extension_mask = -1                           	# Allow the detection and utilization of specific instruction set features.
                                                   	#     0 = x86_64 + AVX1
                                                   	#     1 = AVX2
@@ -417,6 +472,7 @@ x64_extension_mask = -1                           	# Allow the detection and uti
                                                   	#   512 = AVX512VL
                                                   	#  1024 = AVX512BW
                                                   	#  2048 = AVX512DQ
+                                                  	#  4096 = AVX512VBMI
                                                   	#    -1 = Detect and utilize all possible processor features
 
 xop_arithmetic_right_shifts = false               	# sar via xop
