@@ -494,6 +494,66 @@ msgid "Sync to exact content framerate. Only for G-Sync/FreeSync/HDMI-2.1-VRR co
 msgstr "Synchroniser la fréquence de rafraîchissement au contenu, uniquement sur les moniteurs compatibles G-Sync/FreeSync/HDMI-2.1-VRR."
 
 msgctxt "game_options"
+msgid "NETWORK"
+msgstr "RÉSEAU"
+
+msgctxt "game_options"
+msgid "NETWORK TYPE"
+msgstr "MODE RÉSEAU"
+
+msgctxt "game_options"
+msgid "HOST GAME"
+msgstr "MODE HÔTE"
+
+msgctxt "game_options"
+msgid "Act as player 1 and host the game."
+msgstr "Se connecter en tant qu'hôte, joueur 1."
+
+msgctxt "game_options"
+msgid "UDP PORT"
+msgstr "PORT UDP"
+
+msgctxt "game_options"
+msgid "Allow game that support different resolutions to be rendered in specific resolution."
+msgstr "Modifier la résolution du jeu pour les jeux le permettant."
+
+msgctxt "game_options"
+msgid "Use winkey for keyboard, xinput if you have a XBOX controller, sdl for other type of controllers."
+msgstr "Utiliser winkey pour un clavier, Xinput pour une manette XBOX, sdl pour les autres types de manettes."
+
+msgctxt "game_options"
+msgid "ENABLE UPNP"
+msgstr "ACTIVER UPNP"
+
+msgctxt "game_options"
+msgid "BROADCAST DIGITAL OUTPUTS"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Broadcast input feedback on TCP port 8000."
+msgstr "Diffuse le retour de saisie sur le port TCP 8000."
+
+msgctxt "game_options"
+msgid "DUPLICATE FRAMES"
+msgstr "DUPLIQUER LES IMAGES"
+
+msgctxt "game_options"
+msgid "Rotate display for vertical games."
+msgstr "Tourner l'affichage pour les jeux verticaux."
+
+msgctxt "game_options"
+msgid "Enable 32MB Ram mod for dreamcast, may affect compatibility."
+msgstr "Activer le mod RAM 32MB pour la Dreamcast, peut affecter la compatibilité des jeux."
+
+msgctxt "game_options"
+msgid "USE HLE BIOS"
+msgstr "UTILISER LE BIOS HLE"
+
+msgctxt "game_options"
+msgid "Use interpreter for best compatibility, dynarec for performance."
+msgstr "Utiliser 'interpreter' pour une meilleure compatibilité, 'dynarec' pour une meilleure performance."
+
+msgctxt "game_options"
 msgid "AUDIO"
 msgstr "AUDIO"
 
@@ -7167,3 +7227,19 @@ msgstr "Certains leviers de vitesse sont rattachés directement au PC et ont un 
 msgctxt "game_options"
 msgid "FORCE GEARSTICK DEVICE ID"
 msgstr "FORCER L'ID DU LEVIER DE VITESSE"
+
+msgctxt "game_options"
+msgid "LICENCE MASK"
+msgstr "MASQUE DE LICENCE"
+
+msgctxt "game_options"
+msgid "Set license mask for activated content (ALL LICENCES is Generally a bad idea, could lead to undefined behavior)."
+msgstr "Définir la licence pour le contenu téléchargé ('ALL LICENCES' n'est pas recommandé)."
+
+msgctxt "game_options"
+msgid "Post-processing anti-aliasing effect to apply to the image output of the game."
+msgstr "Type d'anti-crénelage à appliquer au rendu du jeu."
+
+msgctxt "game_options"
+msgid "Allow using variable refresh rate on displays supporting it. On displays not supporting VRR, screen tearing may occur in certain cases."
+msgstr "Activer le taux de rafraîchissement variable. Peut générer du 'tearing' sur les écrans incompatibles."
