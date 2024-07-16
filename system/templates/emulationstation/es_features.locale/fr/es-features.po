@@ -86,6 +86,26 @@ msgid "ASYNCHRONOUS TEXTURE STREAMING"
 msgstr "RENDU DES TEXTURES ASYNCHRONE"
 
 msgctxt "game_options"
+msgid "ASYNCHRONOUS"
+msgstr "ASYNCHRONE"
+
+msgctxt "game_options"
+msgid "SYNCHRONOUS"
+msgstr "SYNCHRONE"
+
+msgctxt "game_options"
+msgid "ANALOG/DIGITAL TOGGLE COMBO"
+msgstr "COMBO DE BOUTONS ANALOG/DIGITAL"
+
+msgctxt "game_options"
+msgid "PERSPECTIVE CORRECTION (PGXP)"
+msgstr "CORRECTION DE PERSPECTIVE(PGXP)"
+
+msgctxt "game_options"
+msgid "If disabled, DualShock can be toggled between DIGITAL/ANALOG with a toggle combo."
+msgstr "Désactiver cette option permet de passer du mode digital au mode analogique de la manette à l'aide d'une combinaison de touches."
+
+msgctxt "game_options"
 msgid "Can improve performance on more powerful GPUs that have spare headroom. Only works with Vulkan renderer."
 msgstr "Peut améliorer les performances pour les cartes graphiques puissantes. Uniquement compatible avec le pilot Vulkan."
 
@@ -910,8 +930,24 @@ msgid "SDL"
 msgstr "SDL"
 
 msgctxt "game_options"
+msgid "SHARED"
+msgstr "PARTAGÉ"
+
+msgctxt "game_options"
+msgid "SEPARATE PER GAME CODE"
+msgstr "SÉPARÉ PAR JEU (CODE)"
+
+msgctxt "game_options"
+msgid "SEPARATE PER GAME TITLE"
+msgstr "SÉPARÉ PAR JEU (TITRE)"
+
+msgctxt "game_options"
 msgid "FORCE FULLSCREEN"
 msgstr "FORCER PLEIN ÉCRAN"
+
+msgctxt "game_options"
+msgid "If Off, disables the dithering pattern the PSX applies to combat color banding."
+msgstr "Désactiver le tramage appliqué par la console permettant de réduire l'apparition de bandes de couleurs."
 
 msgctxt "game_options"
 msgid "FULLSCREEN"
@@ -1653,8 +1689,60 @@ msgid "TRIGGERS DEADZONE"
 msgstr "ZONE MORTE DES GÂCHETTES"
 
 msgctxt "game_options"
+msgid "ENABLE 60fps PATCH"
+msgstr "ACTIVER LE PATCH 60FPS"
+
+msgctxt "game_options"
+msgid "SPEED HACKS PRESET"
+msgstr "PRÉRÉGLAGE (SPEED HACK)"
+
+msgctxt "game_options"
+msgid "Presets that control the balance between accuracy and speed, anything above 'aggressive' might cause issues in games."
+msgstr "Choisir un préréglage pour contrôler la performance, une valeur supérieure à 'aggressif' peut causer des problèmes."
+
+msgctxt "game_options"
+msgid "SAFE (default)"
+msgstr "SÛR (défaut)"
+
+msgctxt "game_options"
+msgid "SAFEST (no hacks)"
+msgstr "LE PLUS SÛR (aucun hack)"
+
+msgctxt "game_options"
+msgid "BALANCED"
+msgstr "BALANCÉ"
+
+msgctxt "game_options"
+msgid "AGGRESSIVE"
+msgstr "AGGRESSIF"
+
+msgctxt "game_options"
+msgid "VERY AGGRESSIVE"
+msgstr "TRÈS AGGRESSIF"
+
+msgctxt "game_options"
+msgid "MOSTLY HARMFUL"
+msgstr "DANGEREUX"
+
+msgctxt "game_options"
+msgid "TRIGGERS AS RIGHT STICK"
+msgstr "SIMULER LE STICK DROIT"
+
+msgctxt "game_options"
+msgid "TRIGGERS AS LEFT STICK"
+msgstr "SIMULER LE STICK GAUCHE"
+
+msgctxt "game_options"
+msgid "SIMULATE WHEEL WITH GAMEPAD"
+msgstr "SIMULER LE VOLANT AVEC LA MANETTE"
+
+msgctxt "game_options"
 msgid "Force the emulator to use a specific BIOS file."
 msgstr "Forcer le choix du BIOS à utiliser pour l'émulation."
+
+msgctxt "game_options"
+msgid "Cheats must be placed in the \cheats\pcsx2\cheats folder."
+msgstr "Placer les codes de triches dans le dossier 'cheats\pcsx2\cheats'"
 
 msgctxt "game_options"
 msgid "RetroBat will use by default psxonpsp BIOS, enable this option to force usage of legacy SCPH550X bios file."
@@ -2001,6 +2089,14 @@ msgid "CONTROL TYPE"
 msgstr "TYPE DE CONTRÔLEUR"
 
 msgctxt "game_options"
+msgid "CLASSIC"
+msgstr "CLASSIQUE"
+
+msgctxt "game_options"
+msgid "MODERN"
+msgstr "MODERNE"
+
+msgctxt "game_options"
 msgid "Classic uses right and left shoulder for strong kick and punch, modern uses right shoulder and right trigger."
 msgstr "En mode 'classique', les boutons R1 et L1 sont utilisés pour les coups forts. En mode 'modern', les boutons R1 et R2 sont utilisés."
 
@@ -2278,11 +2374,31 @@ msgstr "Définir la zone morte des gâchettes analogique de la manette."
 
 msgctxt "game_options"
 msgid "Ignore analog stick movement below this threshold."
-msgstr "Ignore les mouvements du stick analogique sous le seuil indiqué."
+msgstr "Ignorer les mouvements du stick analogique sous le seuil indiqué."
 
 msgctxt "game_options"
 msgid "Enables joypad rumble."
 msgstr "Active les vibrations."
+
+msgctxt "game_options"
+msgid "Force the console region."
+msgstr "Forcer la région de la console."
+
+msgctxt "game_options"
+msgid "Skip the BIOS bootlogo."
+msgstr "Passer la séquence de boot de la console (logo)."
+
+msgctxt "game_options"
+msgid "Apply fix for some games."
+msgstr "Activer des correctifs pour certains jeux."
+
+msgctxt "game_options"
+msgid "INSTRUCTION CACHE EMULATION (COMPATIBILITY HACK)"
+msgstr "ÉMULATION DU CACHE D'INSTRUCTIONS (HACK DE COMPATIBILITÉ)"
+
+msgctxt "game_options"
+msgid "Required for Formula One games."
+msgstr "Requis pour les jeux 'Formula One'."
 
 msgctxt "game_options"
 msgid "Choose if the mouse input is active or not."
@@ -2402,7 +2518,7 @@ msgstr "Activer le code utilisant les instructions complètes AVX-512. Uniquemen
 
 msgctxt "game_options"
 msgid "ACCURATE PPU VECTOR NAN"
-msgstr ""
+msgstr "PPU VECTOR NAN PRÉCIS"
 
 msgctxt "game_options"
 msgid "Respect Non-Java Mode bit values for vector ops in PPU backends. If unsure, do not modify this setting. Default off."
@@ -3509,8 +3625,20 @@ msgid "FREE PLAY"
 msgstr "JEU GRATUIT"
 
 msgctxt "game_options"
+msgid "ENABLE FREE PLAY"
+msgstr "JEU GRATUIT"
+
+msgctxt "game_options"
 msgid "Modify the coin setting to Free Play."
 msgstr "Jouer sans mettre de crédits."
+
+msgctxt "game_options"
+msgid "DIAGNOSTIC MENU INPUT"
+msgstr "ACCÈS AU MENU DIAGNOSTIQUE"
+
+msgctxt "game_options"
+msgid "Define the key combination to enter the diagnostic menu."
+msgstr "Combinaison de touches à utiliser pour accéder au menu diagnostique."
 
 msgctxt "game_options"
 msgid "OVERSCAN"
@@ -3621,6 +3749,26 @@ msgid "LIGHTGUN INPUT MODE"
 msgstr "MODE D'ENTRÉE DU LIGHTGUN"
 
 msgctxt "game_options"
+msgid "GUN IN PORT 2"
+msgstr "PISTOLET DANS LE PORT 2"
+
+msgctxt "game_options"
+msgid "Set this to plug GunCon to port 2, used for certain versions of Die Hard."
+msgstr "Brancher le pistolet dans le 2e port manette, utile pour Die Hard."
+
+msgctxt "game_options"
+msgid "Can be used to improve framerate but might break speed for some games."
+msgstr "Peut améliorer les performances mais risque de casser la compatibilité de certains jeux."
+
+msgctxt "game_options"
+msgid "Can be used to improve performance of 3D rendering on some games."
+msgstr "Peut améliorer les performances de rendu 3D sur certains jeux."
+
+msgctxt "game_options"
+msgid "GTE OVERCLOCK"
+msgstr "OVERCLOCKING GTE"
+
+msgctxt "game_options"
 msgid "LIGHT"
 msgstr "LÉGER"
 
@@ -3635,6 +3783,14 @@ msgstr "TRÈS INTENSE"
 msgctxt "game_options"
 msgid "Use a mouse-controlled Lightgun or Touchscreen input."
 msgstr "Utiliser la souris ou un touchscreen pour contrôler le lightgun."
+
+msgctxt "game_options"
+msgid "CD ACCESS METHOD""
+msgstr "MÉTHODE D'ACCÈS CD"
+
+msgctxt "game_options"
+msgid "Method used to read data from the disk, sync mimics original hardware, async can reduce stuttering, pre-cache loads full image at the cost of initial delay."
+msgstr "'Sync' simule le comportement original, 'async' permet de réduire le stuttering, 'pré-cache' charge l'intégralité du disque en mémoire avant lancement."
 
 msgctxt "game_options"
 msgid "TOUCHSCREEN"
@@ -3826,7 +3982,7 @@ msgstr "15 (très lumineux)"
 
 msgctxt "game_options"
 msgid "Define the type of monitor, will change colors."
-msgstr "choix du type de moniteur, modifie les couleurs."
+msgstr "Type de moniteur, modifie les couleurs."
 
 msgctxt "game_options"
 msgid "RAM SIZE"
@@ -3835,6 +3991,18 @@ msgstr "TAILLE DE LA MÉMOIRE RAM"
 msgctxt "game_options"
 msgid "CPC physical RAM size in kB."
 msgstr "Taille de la mémoire RAM de l'ordinateur en kB."
+
+msgctxt "game_options"
+msgid "Choose between english, french or spanish keyboard layout."
+msgstr "Choisir la disposition de clavier : anglais, français ou espagnol."
+
+msgctxt "game_options"
+msgid "FRENCH"
+msgstr "FRANÇAIS"
+
+msgctxt "game_options"
+msgid "SPANISH"
+msgstr "ESPAGNOL"
 
 msgctxt "game_options"
 msgid "Choose between english, french or spanish keyboard layout."
@@ -4201,6 +4369,22 @@ msgid "Set Anti Aliasing for rendered content."
 msgstr "Sélectionner la méthode d'anticrénelage."
 
 msgctxt "game_options"
+msgid "CROP MODE"
+msgstr "MÉTHODE DE ROGNAGE"
+
+msgctxt "game_options"
+msgid "Crop out the potentially video output that would have been hidden by the bezel."
+msgstr "Supprimer les zones d'affichage masquées par les décorations."
+
+msgctxt "game_options"
+msgid "Disable dithering and use the full 8 bits per channel color information."
+msgstr "Restituer une colorimétrie de 8 bits par pixel."
+
+msgctxt "game_options"
+msgid "Set Anti Aliasing level for rendered content."
+msgstr "Définir le niveau d'anticrénelage à appliquer."
+
+msgctxt "game_options"
 msgid "ENABLE JAGUAR GAME DRIVE"
 msgstr "ACTIVER LE GAME-DRIVE"
 
@@ -4211,6 +4395,26 @@ msgstr "Activer l'extension Game Drive pour les jeux compatibles."
 msgctxt "game_options"
 msgid "Set Multi-Sampled Anti Aliasing level for rendered content (Vulkan only)."
 msgstr "Définir le niveau d'anticrénelage à utiliser (Vulkan uniquement)."
+
+msgctxt "game_options"
+msgid "BUFFERED FRAMES"
+msgstr "MISE EN TAMPON DES IMAGES"
+
+msgctxt "game_options"
+msgid "NO BUFFER"
+msgstr "PAS DE TAMPON"
+
+msgctxt "game_options"
+msgid "UP TO 1"
+msgstr "JUSQU'À 1 IMAGE"
+
+msgctxt "game_options"
+msgid "UP TO 2"
+msgstr "JUSQU'À 2 IMAGES"
+
+msgctxt "game_options"
+msgid "Vulkan only, slower but less lag."
+msgstr "Plus lent mais moins de lag (Vulkan uniquement)."
 
 msgctxt "game_options"
 msgid "Set Multi-Sampled Anti Aliasing level for rendered content."
@@ -4234,11 +4438,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "DITHERING PATTERN"
-msgstr ""
+msgstr "MOTIF DE TRAMAGE"
 
 msgctxt "game_options"
 msgid "Enabling this will downsampling to native color depth. Disabling enable output at higher color depth."
-msgstr ""
+msgstr "Désactiver cette option permet de sortir le signal en utilisant une plus grande profondeur de couleurs."
 
 msgctxt "game_options"
 msgid "PERSPECTIVE CORRECTION"
@@ -4246,7 +4450,7 @@ msgstr "CORRECTION DES PERSPECTIVES"
 
 msgctxt "game_options"
 msgid "Eliminates position-dependent distortion and warping of textures."
-msgstr ""
+msgstr "Permet d'éliminer la distortion des textures et les effets de warping."
 
 msgctxt "game_options"
 msgid "SKIP BIOS"
@@ -4255,6 +4459,10 @@ msgstr "SAUTER LE BIOS"
 msgctxt "game_options"
 msgid "Improves color depth."
 msgstr "Améliore la profondeur des couleurs."
+
+msgctxt "game_options"
+msgid "The aspect ratio that's used by the core."
+msgstr "Le ratio d'aspect utilisé par le core."
 
 msgctxt "game_options"
 msgid "START BIOS"
@@ -4354,11 +4562,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "ADD-ON CARTRIDGE"
-msgstr ""
+msgstr "CARTOUCHE ADDITIONNELLE"
 
 msgctxt "game_options"
 msgid "Certain games require an external cartridge to run."
-msgstr ""
+msgstr "Certains jeux nécessitent une cartouche additionnelle pour fonctionner."
 
 msgctxt "game_options"
 msgid "BACKUP RAM"
@@ -4954,7 +5162,19 @@ msgstr "MODE PERFORMANCE"
 
 msgctxt "game_options"
 msgid "CPU MODE"
-msgstr "MODE CPU"
+msgstr "MODE D'ÉXECUTION CPU"
+
+msgctxt "game_options"
+msgid "CPU EXECUTION MODE"
+msgstr "MODE D'ÉXECUTION CPU"
+
+msgctxt "game_options"
+msgid "MEMORY CARD 1 TYPE"
+msgstr "TYPE DE CARTE MÉMOIRE 1"
+
+msgctxt "game_options"
+msgid "MEMORY CARD 2 TYPE"
+msgstr "TYPE DE CARTE MÉMOIRE 2"
 
 msgctxt "game_options"
 msgid "DREAMCAST REGION"
@@ -5203,6 +5423,10 @@ msgstr ""
 msgctxt "game_options"
 msgid "Apply an audio filter. 'Gaussian' reproduce the bass-heavy sound of the original hardware."
 msgstr ""
+
+msgctxt "game_options"
+msgid "Apply an audio filter. Modify sound interpolation."
+msgstr "Appliquer un filtre audio pour modifier la restitution."
 
 msgctxt "game_options"
 msgid "GAUSSIAN"
@@ -5506,11 +5730,15 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "VIDEO CORE RENDERER"
-msgstr ""
+msgstr "PILOTE VIDÉO DU CORE"
 
 msgctxt "game_options"
 msgid "Change the renderer used by the core."
-msgstr ""
+msgstr "Modifier le moteur de rendu utilisé par le coeur."
+
+msgctxt "game_options"
+msgid "Boot into the BIOS menu without loading the game."
+msgstr "Lancer directement le BIOS au lieu du jeu."
 
 msgctxt "game_options"
 msgid "INPUT"
@@ -5522,7 +5750,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "The Neo Geo CD bios used by the emulator."
-msgstr ""
+msgstr "Le BIOS Neo-geo utilisé par l'émulateur."
 
 msgctxt "game_options"
 msgid "FRONT LOADER"
@@ -5753,8 +5981,28 @@ msgid "Replace original textures with custom textures pack (\saves\psp\PSP\TEXTU
 msgstr "Remplacer les textures originales par un pack de texture personnalisé (placé dans \saves\psp\PSP\TEXTURES\%GAMEID%)."
 
 msgctxt "game_options"
+msgid "Replace original textures with custom textures pack (\saves\psp\TEXTURES\%GAMEID%)."
+msgstr "Remplacer les textures originales par un pack de texture personnalisé (placé dans \saves\psp\TEXTURES\%GAMEID%)."
+
+msgctxt "game_options"
 msgid "CONFIRMATION BUTTON"
 msgstr "BOUTON POUR CONFIRMER"
+
+msgctxt "game_options"
+msgid "Use patch"
+msgstr "Utiliser un patch"
+
+msgctxt "game_options"
+msgid "Can remove blur on some games."
+msgstr "Permet de supprimer le brouillard dans certains jeux."
+
+msgctxt "game_options"
+msgid "Disabling dithering can remove some noise and pixelate effects."
+msgstr "Permet de supprimer des effets de pixellisation et du 'bruit' dans le rendu."
+
+msgctxt "game_options"
+msgid "Enable widescreen hack to render certain games in true 16:9 without stretching the display."
+msgstr "Active le hack widescreen disponible sur certains jeux, permet de passer en 16:9 sans étirer l'image."
 
 msgctxt "game_options"
 msgid "Select whether the cross input or the circle input is the confirmation button."
@@ -6254,7 +6502,7 @@ msgstr "Modifier le ratio d'écran pendant les cinématiques (FMV)."
 
 msgctxt "game_options"
 msgid "DEINTERLACE"
-msgstr ""
+msgstr "DÉSENTRELACEMENT"
 
 msgctxt "game_options"
 msgid "Force the rendering and display of frames to progressive mode."
@@ -6271,6 +6519,14 @@ msgstr "FRÉQUENCE DE SAUVEGARDE AUTOMATIQUE"
 msgctxt "game_options"
 msgid "SHOW GAME TIME COUNTER"
 msgstr "AFFICHER L'INDICATEUR DE TEMPS DE JEU"
+
+msgctxt "game_options"
+msgid "USE DIGITAL CONTROLLERS"
+msgstr "CONTRÔLEUR DIGITAL"
+
+msgctxt "game_options"
+msgid "Set this to use original PSX Gamepad instead of Dualshock."
+msgstr "Émuler une manette originale (numérique) au lieu d'une dualshock."
 
 msgctxt "game_options"
 msgid "Activate autosave feature and define delay between autosaves."
@@ -7667,3 +7923,307 @@ msgstr "UTILISER R1/L1 POUR LES JEUX DE COURSE"
 msgctxt "game_options"
 msgid "Use R1 and L1 to accelerate and brake in racing games, only compatible with 'auto' gear shifting."
 msgstr "Utiliser R1 et L1 pour accélérer et freiner dans les jeux de course."
+
+msgctxt "game_options"
+msgid "Pegasus with RAM expansion"
+msgstr "Pegasus avec extension RAM"
+
+msgctxt "game_options"
+msgid "MODEL B (default)"
+msgstr "MODEL B (défaut)"
+
+msgctxt "game_options"
+msgid "Cartridge"
+msgstr "Cartouche"
+
+msgctxt "game_options"
+msgid "Type of Archimedes computer to emulate."
+msgstr "Type d'ordinateur Archimedes émulé."
+
+msgctxt "game_options"
+msgid "PLAYCITY EXTENSION"
+msgstr "EXTENSION PLAYCITY"
+
+msgctxt "game_options"
+msgid "DIGIBLASTER EXTENSION"
+msgstr "EXTENSION DIGIBLASTER"
+
+msgctxt "game_options"
+msgid "SPEECH SYNTHESIZER"
+msgstr "SYNTHÉTISEUR VOCAL"
+
+msgctxt "game_options"
+msgid "AMSTRAD MODEL"
+msgstr "MODÈLE D'AMSTRAD"
+
+msgctxt "game_options"
+msgid "Select Amstrad model to emulate."
+msgstr "Choix du modèle d'Amstrad à émuler."
+
+msgctxt "game_options"
+msgid "TURBO SPEED"
+msgstr "VITESSE TURBO"
+
+msgctxt "game_options"
+msgid "COMPUTER BRAND"
+msgstr "MARQUE DE LA MACHINE"
+
+msgctxt "game_options"
+msgid "256K MEMORY EXTENSION"
+msgstr "EXTENSION MÉMOIRE 256K"
+
+msgctxt "game_options"
+msgid "256K SILICON DISC"
+msgstr "DISQUE SILICON 256K"
+
+msgctxt "game_options"
+msgid "4MB MEMORY EXPANSION"
+msgstr "EXTENSION MÉMOIRE 4MB"
+
+msgctxt "game_options"
+msgid "CRTC TYPE"
+msgstr "MODÈLE DE CRTC"
+
+msgctxt "game_options"
+msgid "Select Amstrad Cathode Ray Tube Controller type."
+msgstr "Choix du type de contrôleur cathodique."
+
+msgctxt "game_options"
+msgid "MAPPING PROFILE"
+msgstr "TYPE DE CONFIGURATION"
+
+msgctxt "game_options"
+msgid "Use 'per game' if you have saved a profile for the game in capriceforever\Profiles folder."
+msgstr "La valeur 'par jeu' force l'utilisation d'un profil dans le dossier capriceforever\Profiles."
+
+msgctxt "game_options"
+msgid "PER GAME"
+msgstr "PAR JEU"
+
+msgctxt "game_options"
+msgid "KEYBOARD AS JOYSTICK"
+msgstr "SIMULER JOYSTICK AVEC CLAVIER"
+
+msgctxt "game_options"
+msgid "Enables arrows, CTRL and ALT key to act as joystick and fire buttons."
+msgstr "Les flèches directionnelles et les touches CTRL et ALT simulent des appuis joystick."
+
+msgctxt "game_options"
+msgid "EXPANSION SLOTS"
+msgstr "SLOTS D'EXTENSION"
+
+msgctxt "game_options"
+msgid "6850 MIDI card"
+msgstr "CARTE MIDI 6850"
+
+msgctxt "game_options"
+msgid "4play Joystick Card"
+msgstr "Adaptateur joystick 4Play"
+
+msgctxt "game_options"
+msgid "Sweet Micro Systems Mockingboard Sound/Speech I"
+msgstr "Carte son Mockingboard I"
+
+msgctxt "game_options"
+msgid "SKIP 1 FRAME OUT OF 2"
+msgstr "SAUTER 1 IMAGE SUR 2"
+
+msgctxt "game_options"
+msgid "SKIP 2 FRAMES OUT OF 3"
+msgstr "SAUTER 2 IMAGES SUR 3"
+
+msgctxt "game_options"
+msgid "SKIP 3 FRAMES OUT OF 4"
+msgstr "SAUTER 3 IMAGES SUR 4"
+
+msgctxt "game_options"
+msgid "SKIP 4 FRAMES OUT OF 5"
+msgstr "SAUTER 4 IMAGES SUR 5"
+
+msgctxt "game_options"
+msgid "SKIP 5 FRAMES OUT OF 6"
+msgstr "SAUTER 5 IMAGES SUR 6"
+
+msgctxt "game_options"
+msgid "LOWPASS FILTER"
+msgstr "FILTRE PASSE-BAS"
+
+msgctxt "game_options"
+msgid "CLASSIC"
+msgstr "CLASSIQUE"
+
+msgctxt "game_options"
+msgid "TOGGLE"
+msgstr "BASCULE"
+
+msgctxt "game_options"
+msgid "HOLD"
+msgstr "MAINTENIR"
+
+msgctxt "game_options"
+msgid "LEFT TRIGGER (L2)"
+msgstr "GÂCHETTE GAUCHE (L2)"
+
+msgctxt "game_options"
+msgid "RIGHT TRIGGER (R2)"
+msgstr "GÂCHETTE DROITE (R2)"
+
+msgctxt "game_options"
+msgid "LEFT SHOULDER (L1)"
+msgstr "ÉPAULE GAUCHE (L1)"
+
+msgctxt "game_options"
+msgid "RIGHT SHOULDER (R1)"
+msgstr "ÉPAULE DROITE (R1)"
+
+msgctxt "game_options"
+msgid "SOUTH (B)"
+msgstr "SUD (B)"
+
+msgctxt "game_options"
+msgid "WEST (Y)"
+msgstr "OUEST (Y)"
+
+msgctxt "game_options"
+msgid "EAST (A)"
+msgstr "EST (A)"
+
+msgctxt "game_options"
+msgid "NORTH (X)"
+msgstr "NORD (X)"
+
+msgctxt "game_options"
+msgid "GAME SPECIFIC"
+msgstr "PAR JEU"
+
+msgctxt "game_options"
+msgid "NEOGEO MODE"
+msgstr "MODE NEO-GEO"
+
+msgctxt "game_options"
+msgid "The Neo Geo mode. UNIVERSE BIOS generally offer the best compatibility."
+msgstr "'UNIVERSE BIOS' offre généralement le meilleur niveau de compatibilité."
+
+msgctxt "game_options"
+msgid "SHOW DEBUG CONSOLE"
+msgstr "AFFICHER LA CONSOLE (DEBUG)"
+
+msgctxt "game_options"
+msgid "FORCE GAMEPAD INDEX"
+msgstr "FORCER L'INDEX MANETTE"
+
+msgctxt "game_options"
+msgid "FORCE INDEX"
+msgstr "FORCER L'INDEX"
+
+msgctxt "game_options"
+msgid "Blur emulated display."
+msgstr "Ajoute un effet de flou à l'affichage."
+
+msgctxt "game_options"
+msgid "HIGH QUALITY / MEDIUM LAG"
+msgstr "HAUTE QUALITÉ / LAG MOYEN"
+
+msgctxt "game_options"
+msgid "LOW QUALITY / MEDIUM LAG"
+msgstr "BASSE QUALITÉ / LAG MOYEN"
+
+msgctxt "game_options"
+msgid "HIGH QUALITY / LOW LAG"
+msgstr "HAUTE QUALITÉ / LAG BAS"
+
+msgctxt "game_options"
+msgid "ULTRA QUALITY / MINIMAL LAG"
+msgstr "ULTRA QUALITÉ / LAG MINIMUM"
+
+msgctxt "game_options"
+msgid "USE MOUSE AS CONTROLLER"
+msgstr "UTILISER LA SOURIS COMME CONTRÔLEUR"
+
+msgctxt "game_options"
+msgid "FOR ANALOG DEVICES ONLY"
+msgstr "UNIQUEMENT POUR LES PÉRIPHÉRIQUES ANALOGIQUES"
+
+msgctxt "game_options"
+msgid "IN UI ONLY"
+msgstr "UNIQUEMENT DANS LE MENU"
+
+msgctxt "game_options"
+msgid "4 WAY JOYSTICK"
+msgstr "JOYSTICK 4-VOIES"
+
+msgctxt "game_options"
+msgid "AUTOFIRE"
+msgstr "TIR AUTOMATIQUE"
+
+msgctxt "game_options"
+msgid "SHOW UI MESSAGES"
+msgstr "AFFICHER LES NOTIFICATIONS"
+
+msgctxt "game_options"
+msgid "DIFFICULTY SWITCH"
+msgstr "DIFFICULTÉ"
+
+msgctxt "game_options"
+msgid "BEGINNER"
+msgstr "DÉBUTANT"
+
+msgctxt "game_options"
+msgid "Set the Atari 2600 difficulty switch."
+msgstr "Définir la position du switch de difficulté de la console."
+
+msgctxt "game_options"
+msgid "SUPERFX CHIP OVERCLOCK"
+msgstr "OVERCLOCK PUCE SUPERFX"
+
+msgctxt "game_options"
+msgid "Can improve framerate or cause timing error."
+msgstr "Permet d'améliorer les performances mais peut causer des erreurs de timing."
+
+msgctxt "game_options"
+msgid "BLOCK INVALID VRAM ACCESS"
+msgstr "BLOQUER LES ACCÈS VRAM INVALIDES"
+
+msgctxt "game_options"
+msgid "Some homebrew or roms hacks need this option to be disabled."
+msgstr "Doit être désactivé pour certains jeux 'homebrew'."
+
+msgctxt "game_options"
+msgid "Remove n pixels borders at the top and bottom of the screen."
+msgstr "Supprimer n pixels en haut et en bas de l'écran."
+
+msgctxt "game_options"
+msgid "Required for certain games that use hi-res mode to produce transparency effects."
+msgstr "Requis pour les jeux utilisant le mode hi-res pour gérer les effets de transparence."
+
+msgctxt "game_options"
+msgid "AUDIO INTERPOLATION"
+msgstr "INTERPOLATION AUDIO"
+
+msgctxt "game_options"
+msgid "Apply an audio filter. 'Gaussian' reproduce the bass-heavy sound of the original hardware."
+msgstr "Appliquer un filtre audio. 'Gaussian' permet de reproduire le son 'bass-heavy' du matériel original."
+
+msgctxt "game_options"
+msgid "ENABLE HOTFIXES"
+msgstr "ACTIVER LES HOTFIX"
+
+msgctxt "game_options"
+msgid "Can fix some bugs that happened even on original hardware."
+msgstr "Permet de corriger certains bugs présents sur la console originale."
+
+msgctxt "game_options"
+msgid "ENABLE FAST CPU CALCULATION"
+msgstr "ACTIVER LE CALCUL CPU RAPIDE"
+
+msgctxt "game_options"
+msgid "Required to run some old rom hacks, leave off for commercial games."
+msgstr "Nécessaire pour certains romhacks anciens, désactiver pour les jeux commerciaux."
+
+msgctxt "game_options"
+msgid "Overclock CPU, SA-1 chip and Super-FX chip, can reduce slowdowns but might generate issues with some games."
+msgstr "Overclock du CPU, des puces SA-1 et SuperFX, permet d'améliorer les performances mais peut causer des instabilités."
+
+msgctxt "game_options"
+msgid "ENABLE AUDIO BUFFER"
+msgstr "ACTIVER LE TAMPON AUDIO"
