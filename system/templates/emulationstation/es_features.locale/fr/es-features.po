@@ -86,6 +86,10 @@ msgid "ASYNCHRONOUS TEXTURE STREAMING"
 msgstr "RENDU DES TEXTURES ASYNCHRONE"
 
 msgctxt "game_options"
+msgid "ASYNCHRONOUS TEXTURE COMPILATION"
+msgstr "COMPILATION DES TEXTURES ASYNCHRONE"
+
+msgctxt "game_options"
 msgid "ASYNCHRONOUS"
 msgstr "ASYNCHRONE"
 
@@ -188,6 +192,62 @@ msgstr "Permet de résoudre des problèmes graphiques dans certains cas (scintil
 msgctxt "game_options"
 msgid "MULTITHREADED RSX"
 msgstr "RSX MULTI-THREAD"
+
+msgctxt "game_options"
+msgid "THREADED RENDERING"
+msgstr "RENDU MULTI-THREAD"
+
+msgctxt "game_options"
+msgid "BIT DEPTH"
+msgstr "PROFONDEUR DE BITS"
+
+msgctxt "game_options"
+msgid "Default to 10-bits for DS and 16-bits for DSi."
+msgstr "Défaut: 10-bits pour la DS et 16-bits pour la DSi"
+
+msgctxt "game_options"
+msgid "Interpolates audio output for improved quality."
+msgstr "Activer l'interpolation audio pour améliorer la qualité."
+
+msgctxt "game_options"
+msgid "CURSOR MODE"
+msgstr "MODE D'AFFICHAGE DU CURSEUR"
+
+msgctxt "game_options"
+msgid "WHILE TOUCHING"
+msgstr "AU TOUCHER"
+
+msgctxt "game_options"
+msgid "UNTIL TIMEOUT"
+msgstr "DISPARAÎT APRÈS DÉLAI"
+
+msgctxt "game_options"
+msgid "TOUCH MODE"
+msgstr "ÉMULATION DE L'ÉCRAN TACTILE"
+
+msgctxt "game_options"
+msgid "Define how touchscreen is emulated."
+msgstr "Choix de la méthode d'émulation de l'écran tactile."
+
+msgctxt "game_options"
+msgid "POINTER"
+msgstr "POINTEUR"
+
+msgctxt "game_options"
+msgid "Define how the cursor should appear on bottom screen."
+msgstr "Définir comment le curseur apparaît sur l'écran du bas."
+
+msgctxt "game_options"
+msgid "CONSOLE TYPE"
+msgstr "TYPE DE CONSOLE"
+
+msgctxt "game_options"
+msgid "Use DSI for DSI games like DSI Ware."
+msgstr "Choisir DSi pour les jeux DSI Ware."
+
+msgctxt "game_options"
+msgid "Only compatible with Software video driver."
+msgstr "Compatible uniquement avec le pilote vidéo logiciel."
 
 msgctxt "game_options"
 msgid "AUDIO SYNC"
@@ -2214,7 +2274,7 @@ msgstr "POSITIONNEMENT DES ÉCRANS"
 
 msgctxt "game_options"
 msgid "Choose the disposition of the emulated screens."
-msgstr ""
+msgstr "Définir la disposition des écrans."
 
 msgctxt "game_options"
 msgid "TOP-BOTTOM SCREEN"
@@ -3593,6 +3653,50 @@ msgid "BOOT TO BIOS"
 msgstr "DÉMARRER DANS LE BIOS"
 
 msgctxt "game_options"
+msgid "Boot to the console BIOS menu."
+msgstr "Démarrer dans le menu BIOS de la console."
+
+msgctxt "game_options"
+msgid "USE BUILT-IN BIOS"
+msgstr "UTILISER LE BIOS INTERNE"
+
+msgctxt "game_options"
+msgid "SMOOTH TEXTURES"
+msgstr "LISSER LES TEXTURES"
+
+msgctxt "game_options"
+msgid "USE OPENGL (CORE)"
+msgstr "UTILISER OPENGL (CORE)"
+
+msgctxt "game_options"
+msgid "EMULATE STYLUS WITH RIGHT STICK"
+msgstr "ÉMULER LE STYLET AVEC LE STICK DROIT"
+
+msgctxt "game_options"
+msgid "Enable OpenGL renderer, RetroArch driver must be set to OpenGL."
+msgstr "Utiliser le pilote vidéo OpenGL, le pilote RetroArch doit également être réglé sur OpenGL."
+
+msgctxt "game_options"
+msgid "OpenGL only."
+msgstr "Compatible uniquement avec le pilote vidéo OpenGL."
+
+msgctxt "game_options"
+msgid "Choose xBRZ texture enhancement level."
+msgstr "Choisir le filtre xBRZ d'amélioration des textures à utiliser."
+
+msgctxt "game_options"
+msgid "Enable MelonDS emulated bios instead of firmwares available in bios folder."
+msgstr "Utiliser le bios interne de l'émulateur au lieu du firmware placé dans le dossier \bios de RetroBat."
+
+msgctxt "game_options"
+msgid "JIT RECOMPILER"
+msgstr "RECOMPILATEUR JIT"
+
+msgctxt "game_options"
+msgid "Improves performance."
+msgstr "Permet une amélioration des performances."
+
+msgctxt "game_options"
 msgid "Boot directly into the Dreamcast BIOS menu."
 msgstr "Charge le menu (BIOS) de la console."
 
@@ -3939,6 +4043,18 @@ msgstr "FORCER À GAUCHE"
 msgctxt "game_options"
 msgid "FORCE ROTATE RIGHT"
 msgstr "FORCER À DROITE"
+
+msgctxt "game_options"
+msgid "ROTATE LEFT"
+msgstr "INCLINER À GAUCHE"
+
+msgctxt "game_options"
+msgid "ROTATE RIGHT"
+msgstr "INCLINER À DROITE"
+
+msgctxt "game_options"
+msgid "UPSIDE DOWN"
+msgstr "INVERSER"
 
 msgctxt "game_options"
 msgid "CHEATS"
@@ -7158,11 +7274,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "The maximum RAM memory available for the system."
-msgstr ""
+msgstr "Définir la taille de la mémoire RAM du système."
 
 msgctxt "game_options"
 msgid "Improve fidelity of 3D models at the cost of increased performance requirements."
-msgstr ""
+msgstr "Améliorer la résolution du rendu, augmente la consommation de ressources."
 
 msgctxt "game_options"
 msgid "FXAA"
@@ -8077,6 +8193,18 @@ msgid "RIGHT SHOULDER (R1)"
 msgstr "ÉPAULE DROITE (R1)"
 
 msgctxt "game_options"
+msgid "RIGHT STICK BUTTON"
+msgstr "BOUTON STICK DROIT (R3)"
+
+msgctxt "game_options"
+msgid "LEFT STICK BUTTON"
+msgstr "BOUTON STICK GAUCHE (L3)"
+
+msgctxt "game_options"
+msgid "SELECT BUTTON"
+msgstr "SELECT"
+
+msgctxt "game_options"
 msgid "SOUTH (B)"
 msgstr "SUD (B)"
 
@@ -8227,3 +8355,435 @@ msgstr "Overclock du CPU, des puces SA-1 et SuperFX, permet d'améliorer les per
 msgctxt "game_options"
 msgid "ENABLE AUDIO BUFFER"
 msgstr "ACTIVER LE TAMPON AUDIO"
+
+msgctxt "game_options"
+msgid "GRAPHICS BACKEND MULTITHREADING"
+msgstr "THREAD SÉPARÉ POUR LE RENDU"
+
+msgctxt "game_options"
+msgid "Executes Graphics backend on second thread, improves performance, reduces stutter and speeds up shader compilation."
+msgstr "Éxécute le rendu visuel sur un thread séparé, améliore les performances, réduit le stuttering et accélère la compilation des shaders."
+
+msgctxt "game_options"
+msgid "TEXTURE RECOMPRESSION"
+msgstr "RECOMPRESSION DES TEXTURES"
+
+msgctxt "game_options"
+msgid "Reduces VRAM usage at the cost of quality, may increase stuttering."
+msgstr "Permet de réduire l'utilisation de la mémoire vidéo mais affecte la qualité du rendu."
+
+msgctxt "game_options"
+msgid "USE UNDOCKED MODE"
+msgstr "MODE PORTABLE"
+
+msgctxt "game_options"
+msgid "Can increase performance on some lower-end systems."
+msgstr "Simule le mode portable, peut améliorer la performance."
+
+msgctxt "game_options"
+msgid "ENABLE PPTC"
+msgstr "ACTIVER PPTC"
+
+msgctxt "game_options"
+msgid "Reduces stuttering and speeds up boot after first boot."
+msgstr "Permet de diminuer le stuttering après le premier chargement."
+
+msgctxt "game_options"
+msgid "FS INTEGRITY CHECKS"
+msgstr "VÉRIFER L'INTÉGRITÉ DES FICHIERS"
+
+msgctxt "game_options"
+msgid "Checks for corrupt files when booting a game."
+msgstr "Vérifier l'intégrité des fichiers du jeu au lancement."
+
+msgctxt "game_options"
+msgid "MEMORY MANAGER MODE"
+msgstr "MODE DE GESTION DE LA MÉMOIRE"
+
+msgctxt "game_options"
+msgid "Greatly affects CPU performance."
+msgstr "Affecte les performances du CPU."
+
+msgctxt "game_options"
+msgid "EXPAND DRAM"
+msgstr "DRAM ÉTENDUE"
+
+msgctxt "game_options"
+msgid "Increase DRAM size from 4GB to 6GB, only needed for 4K or hires texture packs."
+msgstr "Augmente la quantité de DRAM de 4GB à 6GB, à activer uniquement lors de l'utilisation de packs de textures 4K."
+
+msgctxt "game_options"
+msgid "IGNORE MISSING SERVICES"
+msgstr "IGNORER LES SERVICES MANQUANTS"
+
+msgctxt "game_options"
+msgid "Ignore Horizon OS Services, can solve crashes on some games."
+msgstr "Ignorer les services Horizon OS, résout les problèmes de crash sur quelques jeux."
+
+msgctxt "game_options"
+msgid "Sets the player controller type."
+msgstr "Choix du type de manette émulée."
+
+msgctxt "game_options"
+msgid "MOTION CONTROL"
+msgstr "DÉTECTION DES MOUVEMENTS"
+
+msgctxt "game_options"
+msgid "Can only be used if the controller is compatible with motion control."
+msgstr "Le motion control ne fonctionne qu'avec les manettes compatibles."
+
+msgctxt "game_options"
+msgid "FORCE NUMBER OF PLAYERS"
+msgstr "FORCER LE NOMBRE DE JOUEURS"
+
+msgctxt "game_options"
+msgid "By default RetroBat configures as many players as connected controllers, use this to override."
+msgstr "RetroBat configure automatiquement autant de joueurs qu'il y a de manettes connectées, cette option permet de forcer un nombre défini de joueurs."
+
+msgctxt "game_options"
+msgid "MULTIPLAYER MODE"
+msgstr "MODE MULTI-JOUEURS"
+
+msgctxt "game_options"
+msgid "GPU ACCURACY"
+msgstr "PRÉCISION GPU"
+
+msgctxt "game_options"
+msgid "Default is 'HIGH', set to 'NORMAL' to increase performance at the cost of accuracy."
+msgstr "Passer en 'NORMAL' pour améliorer les performances au détriment de la qualité."
+
+msgctxt "game_options"
+msgid "USE ASYNCHRONOUS SHADER COMPILATION"
+msgstr "COMPILATION DES SHADERS ASYNCHRONE"
+
+msgctxt "game_options"
+msgid "Can reduce lags when compiling shaders, experimental."
+msgstr "Permet de réduire le lag lors de la compilation des shaders, expérimental."
+
+msgctxt "game_options"
+msgid "ASTC RECOMPRESSION"
+msgstr "RECOMPRESSION DES TEXTURES"
+
+msgctxt "game_options"
+msgid "For games using ASTC textures, switch to medium when using 6GB VRAM GPU and low when using 4GB-2GB VRAM GPU."
+msgstr "Permet d'améliorer les performances en compressant les textures pour consommer moins de VRAM, passer en 'low' pour les GPU avec 2GB de VRAM."
+
+msgctxt "game_options"
+msgid "CPU ACCURACY"
+msgstr "PRÉCISION CPU"
+
+msgctxt "game_options"
+msgid "Leave AUTO as default except the game requires specific setting."
+msgstr "Laisser sur AUTO sauf si le jeu nécessite une valeur différente."
+
+msgctxt "game_options"
+msgid "MULTICORE CPU EMULATION"
+msgstr "ÉMULATION CPU MULTICOEUR"
+
+msgctxt "game_options"
+msgid "DISABLE CONTROLLER APPLET"
+msgstr "DÉSACTIVER L'APPLET DES CONTRÔLEURS"
+
+msgctxt "game_options"
+msgid "Disable the controller applet that appears in multiplayer games to select the connected controllers."
+msgstr "Désactiver l'applet apparaissant sur les jeux multi-joueurs pour confirmer le type de manettes."
+
+msgctxt "game_options"
+msgid "ACCURATE TEXTURE SYNC"
+msgstr "SYNCHRONISATION PRÉCISE DES TEXTURES"
+
+msgctxt "game_options"
+msgid "More accurate behavior but may cause lower performance. ON by default."
+msgstr "Plus précis mais impacte les performances, activé par défaut."
+
+msgctxt "game_options"
+msgid "Specify filter to use for upscaling. BICUBIC by default."
+msgstr "Spécifier le filtre de mise à l'échelle à utiliser, par défaut BICUBIQUE."
+
+msgctxt "game_options"
+msgid "DOWNSCALE FILTER"
+msgstr "FILTRE DE RÉDUCTION D'ÉCHELLE"
+
+msgctxt "game_options"
+msgid "Specify filter to use for downscaling. BILINEAR by default."
+msgstr "Spécifier le filtre de réduction d'échelle à appliquer, par défaut BILINÉAIRE."
+
+msgctxt "game_options"
+msgid "'XINPUT' will force usage of XInput api for compatible controllers."
+msgstr "Utiliser 'XINPUT' pour forcer l'utilisation du pilote XInput pour les manettes compatibles au lieu de sdl."
+
+msgctxt "game_options"
+msgid "Turn on emulator notifications : connected controllers and shader compilation messages."
+msgstr "Activer les notifications lors de la compilation des shaders ou de la connexion des manettes."
+
+msgctxt "game_options"
+msgid "Default to WIIU Gamepad, change this for games that do not accept WIIU Gamepad in multiplayer mode."
+msgstr "Par défaut : WIIU Gamepad, modifier cette valeur pour les jeux n'acceptant pas le gamepad WIIU en multi-joueurs."
+
+msgctxt "game_options"
+msgid "Default to Pro Controller."
+msgstr "Défaut : Pro Controller."
+
+msgctxt "game_options"
+msgid "REAL WIIMOTES"
+msgstr "UTILISER DES WIIMOTES"
+
+msgctxt "game_options"
+msgid "Play with real wiimotes only, other controllers will not work."
+msgstr "Permet de jouer avec de vraies Wiimotes."
+
+msgctxt "game_options"
+msgid "WIIMOTE 1 TYPE"
+msgstr "TYPE DE WIIMOTE 1"
+
+msgctxt "game_options"
+msgid "WIIMOTE 2 TYPE"
+msgstr "TYPE DE WIIMOTE 2"
+
+msgctxt "game_options"
+msgid "WIIMOTE 3 TYPE"
+msgstr "TYPE DE WIIMOTE 3"
+
+msgctxt "game_options"
+msgid "WIIMOTE 4 TYPE"
+msgstr "TYPE DE WIIMOTE 4"
+
+msgctxt "game_options"
+msgid "When using real Wiimotes, define the type of Wiimote."
+msgstr "Définir le type de wiimote connectée."
+
+msgctxt "game_options"
+msgid "DISPLAY GAMEPAD SCREEN"
+msgstr "AFFICHER L'ÉCRAN DU GAMEPAD"
+
+msgctxt "game_options"
+msgid "Define button to display Gamepad screen, default if none."
+msgstr "Définir le bouton à utiliser pour afficher l'écran du Gamepad WIIU, désactivé par défaut."
+
+msgctxt "game_options"
+msgid "Enable motion control (gyro) either with mouse or with compatible controller."
+msgstr "Activer le 'motion control' (gyroscope) avec la souris ou avec une manette compatible."
+
+msgctxt "game_options"
+msgid "USE HARDWARE RENDERER"
+msgstr "ACTIVER LE RENDU MATÉRIEL"
+
+msgctxt "game_options"
+msgid "Enable hardware renderer, might brake compatibility."
+msgstr "Activer le rendu matériel, peut casser la compatibilité."
+
+msgctxt "game_options"
+msgid "RIGHT STICK FUNCTION"
+msgstr "FONCTION DU STICK DE DROITE"
+
+msgctxt "game_options"
+msgid "Define the function of the right joystick."
+msgstr "Définir la fonction du stick analogique de droite."
+
+msgctxt "game_options"
+msgid "C-STICK AND TOUCHSCREEN POINTER"
+msgstr "C-STICK ET POINTEUR"
+
+msgctxt "game_options"
+msgid "TOUCHSCREEN POINTER"
+msgstr "POINTEUR"
+
+msgctxt "game_options"
+msgid "C-STICK"
+msgstr "C-STICK"
+
+msgctxt "game_options"
+msgid "SHOW TOUCHSCREEN POINTER"
+msgstr "AFFICHER LE POINTEUR"
+
+msgctxt "game_options"
+msgid "Display a small pointer on touchscreen."
+msgstr "Afficher un pointeur sur l'écran tactile émulé."
+
+msgctxt "game_options"
+msgid "ENABLE VIRTUAL SD CARD"
+msgstr "CARTE SD VIRTUELLE"
+
+msgctxt "game_options"
+msgid "WII ASPECT RATIO"
+msgstr "ASPECT D'ÉCRAN WII"
+
+msgctxt "game_options"
+msgid "Set the aspect ratio in the wii NAND."
+msgstr "Permet de définir le ratio d'écran dans la mémoire de la Wii."
+
+msgctxt "game_options"
+msgid "ENABLE MODS"
+msgstr "ACTIVER LES MODS"
+
+msgctxt "game_options"
+msgid "Load mods from User\Load\GraphicsMods folder."
+msgstr "Charger les mods depuis le dossier 'User\Load\GraphicsMods'"
+
+msgctxt "game_options"
+msgid "HIDE WIIMOTE POINTER"
+msgstr "MASQUER LE POINTEUR WIIMOTE"
+
+msgctxt "game_options"
+msgid "RELATIVE IR CURSOR"
+msgstr "CURSEUR IR RELATIF"
+
+msgctxt "game_options"
+msgid "Disable this option to center the IR pointer when the stick is released."
+msgstr "Si désactivé, le pointeur IR retourne au centre lorsque le stick est relâché."
+
+msgctxt "game_options"
+msgid "BALANCE BOARD"
+msgstr "BALANCE BOARD"
+
+msgctxt "game_options"
+msgid "Set this option only when using a real balance board."
+msgstr "Activer cette option si une vraie Balance Board est connectée."
+
+msgctxt "game_options"
+msgid "Resolution can only be changed when using OpenGL video driver."
+msgstr "Seul le pilote OpenGL permet de modifier la résolution."
+
+msgctxt "game_options"
+msgid "Only compatible with OpenGL driver."
+msgstr "Compatible uniquement avec le pilote vidéo OpenGL."
+
+msgctxt "game_options"
+msgid "GAME ASPECT RATIO TOP SCREEN"
+msgstr "RAPPORT D'ASPECT ÉCRAN DU HAUT"
+
+msgctxt "game_options"
+msgid "Change aspect ratio for top screen."
+msgstr "Modifier le ratio de l'écran supérieur."
+
+msgctxt "game_options"
+msgid "GAME ASPECT RATIO BOTTOM SCREEN"
+msgstr "RAPPORT D'ASPECT ÉCRAN DU BAS"
+
+msgctxt "game_options"
+msgid "Change aspect ratio for bottom screen."
+msgstr "Modifier le ratio de l'écran inférieur."
+
+msgctxt "game_options"
+msgid "SCREEN SIZING"
+msgstr "TAILLE DES ÉCRANS"
+
+msgctxt "game_options"
+msgid "EVEN (SAME SIZE)"
+msgstr "IDENTIQUE"
+
+msgctxt "game_options"
+msgid "EMPHASIZE TOP"
+msgstr "ACCENTUER ÉCRAN HAUT"
+
+msgctxt "game_options"
+msgid "EMPHASIZE BOTTOM"
+msgstr "ACCENTUER ÉCRAN BAS"
+
+msgctxt "game_options"
+msgid "TOP ONLY"
+msgstr "UNIQUEMENT ÉCRAN HAUT"
+
+msgctxt "game_options"
+msgid "BOTTOM ONLY"
+msgstr "UNIQUEMENT ÉCRAN BAS"
+
+msgctxt "game_options"
+msgid "SCREEN GAP"
+msgstr "ÉCART ENTRE LES ÉCRANS"
+
+msgctxt "game_options"
+msgid "Configure gap between both screens in pixels."
+msgstr "Écart en pixels entre les 2 écrans."
+
+msgctxt "game_options"
+msgid "NO GAP"
+msgstr "AUCUN ÉCART"
+
+msgctxt "game_options"
+msgid "180 DEGREES"
+msgstr "180 DEGRÉS"
+
+msgctxt "game_options"
+msgid "90 DEGREES CLOCKWISE"
+msgstr "90 DEGRÉS (SENS HORAIRE)"
+
+msgctxt "game_options"
+msgid "270 DEGREES CLOCKWISE"
+msgstr "270 DEGRÉS (SENS HORAIRE)"
+
+msgctxt "game_options"
+msgid "GL - IMPROVE POLYGON RENDERING"
+msgstr "GL - AMÉLIORER LE RENDU DES POLYGÔNES"
+
+msgctxt "game_options"
+msgid "Improve polygon rendering when using OpenGL renderer."
+msgstr "Améliorer le rendu des polygônes, uniquement pour le pilote OpenGL."
+
+msgctxt "game_options"
+msgid "GL - TEXTURE FILTER"
+msgstr "GL - FILTRAGE DES TEXTURES"
+
+msgctxt "game_options"
+msgid "Use the BIOS located in RetroBat 'bios' folder, Required to boot to BIOS."
+msgstr "Utiliser le BIOS du dossier \bios de RetroBat, nécessaire si l'option 'Démarrer dans le bios' est activée."
+
+msgctxt "game_options"
+msgid "DesMumME has an internal BIOS, select this option to use the firmware from the RetroBat folder."
+msgstr "DesMuME utilise un bios interne, cette option permet d'utiliser le firmware placé dans le dossier \bios de RetroBat."
+
+msgctxt "game_options"
+msgid "Interpreter has better compatibility than JIT Dynamic Recompiler, JIT is faster."
+msgstr "'Interpreter' offre une meilleure compatibilité, 'JIT' est plus rapide."
+
+msgctxt "game_options"
+msgid "Boot directly into the DS BIOS menu, needs external bios to be activated."
+msgstr "Démarrer dans le menu de la console, nécessite l'activation du BIOS externe."
+
+msgctxt "game_options"
+msgid "USE ANALOG STICK"
+msgstr "UTILISER LE STICK ANALOGIQUE"
+
+msgctxt "game_options"
+msgid "Use Left analog stick instead of D-PAD for controls."
+msgstr "Utiliser le stick analogique gauche au lieu de la croix directionnel."
+
+msgctxt "game_options"
+msgid "HYBRID RATIO"
+msgstr "MODE HYBRIDE : RATIO DES ÉCRANS"
+
+msgctxt "game_options"
+msgid "Size of the largest screen when using a hybrid screen layout."
+msgstr "Définir le rapport de taille entre les écrans quand la disposition est réglée sur 'hybride'."
+
+msgctxt "game_options"
+msgid "HYBRID SMALL SCREEN MODE"
+msgstr "MODE HYBRIDE : PETIT ÉCRAN"
+
+msgctxt "game_options"
+msgid "Select which screen will be shown when using hybrid layout."
+msgstr "Sélectionner les écrans à afficher quand la disposition est réglée sur 'hybride'."
+
+msgctxt "game_options"
+msgid "SHOW BOTH"
+msgstr "AFFICHER LES DEUX ÉCRANS"
+
+msgctxt "game_options"
+msgid "SHOW OPPOSITE"
+msgstr "AFFICHER L'ÉCRAN OPPOSÉ"
+
+msgctxt "game_options"
+msgid "BOTTOM/TOP"
+msgstr "BAS/HAUT"
+
+msgctxt "game_options"
+msgid "RIGHT/LEFT"
+msgstr "DROITE/GAUCHE"
+
+msgctxt "game_options"
+msgid "HYBRID FOCUS TOP"
+msgstr "HYBRID FOCUS HAUT"
+
+msgctxt "game_options"
+msgid "HYBRID FOCUS BOTTOM"
+msgstr "HYBRID FOCUS BAS"
