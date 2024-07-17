@@ -5213,7 +5213,7 @@ msgid "WIDESCREEN PATCHES"
 msgstr "PATCH ÉCRAN LARGE"
 
 msgctxt "game_options"
-msgid "Automatically load widescreen patches on game start-up, might cause issues."
+msgid "Automatically load widescreen patches on game start-up."
 msgstr "Charger automatiquement les patchs écrans larges au démarrage du jeu."
 
 msgctxt "game_options"
@@ -5221,7 +5221,7 @@ msgid "NO-INTERLACING PATCHES"
 msgstr "PATCH DE DÉSENTRELACEMENT"
 
 msgctxt "game_options"
-msgid "Automatically load no-interlacing patches on game start-up, might cause issues."
+msgid "Automatically load no-interlacing patches on game start-up."
 msgstr "Charger automatiquement les patchs de désactivation de l'entrelacement au démarrage du jeu."
 
 msgctxt "game_options"
@@ -5281,8 +5281,24 @@ msgid "SCREEN OFFSETS"
 msgstr "DÉCALAGE DE L'ÉCRAN"
 
 msgctxt "game_options"
-msgid "Useful for games with screenshake effects such as Wipeout Fusion, can make the picture blurry."
+msgid "Useful for games with screenshake effects such as Wipeout Fusion, can make the picture blury."
 msgstr "Utile pour corriger les tremblements d'écran sur certains jeux (Wipeout Fusion), peut rendre l'image plus floue."
+
+msgctxt "game_options"
+msgid "CONTRAST ADAPTATIVE SHARPENING"
+msgstr "NETTETÉ ADAPTATIVE (FIDELITY FX)"
+
+msgctxt "game_options"
+msgid "Enable FidelityFX contrast adaptative sharpening."
+msgstr "Activer la netteté adaptative Fidelity FX."
+
+msgctxt "game_options"
+msgid "SHARPEN ONLY"
+msgstr "NETTETÉ UNIQUEMENT"
+
+msgctxt "game_options"
+msgid "SHARPEN AND SCALE"
+msgstr "NETTETÉ ET MISE À L'ÉCHELLE"
 
 msgctxt "game_options"
 msgid "ANTI BLUR"
@@ -6854,7 +6870,7 @@ msgstr "DÉSENTRELACEMENT"
 
 msgctxt "game_options"
 msgid "Force the rendering and display of frames to progressive mode."
-msgstr "Forcer l'utilisation du mode progressif pour le rendu."
+msgstr "Forcer l'utilisation du mode progressif pour le rendu, laisser désactivé par défaut."
 
 msgctxt "game_options"
 msgid "LINEAR FILTERING"
@@ -9275,3 +9291,11 @@ msgstr "Forcer l'extension si l'autodétection ne fonctionne pas."
 msgctxt "game_options"
 msgid "EXPANSION CARTRIDGE"
 msgstr "CARTE D'EXTENSION"
+
+msgctxt "game_options"
+msgid "Switching this on when using a dedicated deinterlace mode can help reduce blur."
+msgstr "Activer cette option lors de l'utilisation d'une méthode de désentrelacement peut réduire le flou."
+
+msgctxt "game_options"
+msgid "DISABLE INTERLACE OFFSET"
+msgstr "DÉSACTIVER LE DÉCALAGE D'ENTRELACEMENT"
