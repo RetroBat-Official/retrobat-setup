@@ -123,6 +123,7 @@ emulators\fbneo
 emulators\fbneo\config
 emulators\fbneo\config\games
 emulators\flycast
+emulators\flycast\data
 emulators\flycast\mappings
 emulators\fpinball
 emulators\gsplus
