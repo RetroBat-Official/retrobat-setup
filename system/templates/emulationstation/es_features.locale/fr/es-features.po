@@ -2310,15 +2310,15 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Remove odd composite green/blue artifacting that appears on real hardware."
-msgstr ""
+msgstr "Supprimer les artefacts vert/bleu existants sur le matériel original."
 
 msgctxt "game_options"
 msgid "Choose which Atari system to emulate."
-msgstr ""
+msgstr "Choix de la machine Atari à émuler."
 
 msgctxt "game_options"
 msgid "Improve data transfert of emulated SIO port."
-msgstr ""
+msgstr "Améliorer le transfert de données des ports SIO émulés."
 
 msgctxt "game_options"
 msgid "SCREEN LAYOUT POSITIONING"
@@ -2362,7 +2362,7 @@ msgstr "RENDU VISUEL"
 
 msgctxt "game_options"
 msgid "NATIVE (400x240)"
-msgstr ""
+msgstr "NATIF (400x240)"
 
 msgctxt "game_options"
 msgid "6X (ULTRA HD)"
@@ -2402,11 +2402,11 @@ msgstr "Fréquence du processeur de la machine émulée."
 
 msgctxt "game_options"
 msgid "AUSTRALIA"
-msgstr ""
+msgstr "AUSTRALIE"
 
 msgctxt "game_options"
 msgid "CHINA"
-msgstr ""
+msgstr "CHINE"
 
 msgctxt "game_options"
 msgid "EUROPE"
@@ -2414,11 +2414,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "JAPAN"
-msgstr ""
+msgstr "JAPON"
 
 msgctxt "game_options"
 msgid "KOREA"
-msgstr ""
+msgstr "CORÉE"
 
 msgctxt "game_options"
 msgid "TAIWAN"
@@ -2426,11 +2426,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "SHOW MOUSE POINTER"
-msgstr ""
+msgstr "AFFICHER LE POINTEUR"
 
 msgctxt "game_options"
 msgid "Show the mouse pointer on the emulated touchscreen."
-msgstr ""
+msgstr "Afficher le pointeur de la souris sur l'écran émulé."
 
 msgctxt "game_options"
 msgid "CONTROLS"
@@ -5878,7 +5878,7 @@ msgstr "FILTRE VIDÉO (CORE)"
 
 msgctxt "game_options"
 msgid "Removes 8-sprites-per-scanline hardware limit"
-msgstr ""
+msgstr "Supprimer la limite matérielle de 8 sprites par ligne."
 
 msgctxt "game_options"
 msgid "CORE SOUND QUALITY"
@@ -5890,15 +5890,15 @@ msgstr "Permet d'améliorer la qualité sonore pour les jeux utilisant une puce 
 
 msgctxt "game_options"
 msgid "SHOW LIGHTGUN CROSSHAIRS"
-msgstr ""
+msgstr "AFFICHER LES CIBLES"
 
 msgctxt "game_options"
 msgid "Select palette for colorizing GB games when COLORIZATION is set to 'internal'."
-msgstr ""
+msgstr "Choisir la palette de couleurs pour la GameBoy lorsque l'option est définie sur 'interne'."
 
 msgctxt "game_options"
 msgid "Enable colorization of Game Boy games."
-msgstr ""
+msgstr "Permet de colorer certains jeux GameBoy."
 
 msgctxt "game_options"
 msgid "GAMEBOY COLOR"
@@ -5910,27 +5910,27 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "INTERNAL"
-msgstr ""
+msgstr "INTERNE"
 
 msgctxt "game_options"
 msgid "INTERFRAME BLENDING"
-msgstr ""
+msgstr "MÉLANGE INTERFRAME"
 
 msgctxt "game_options"
 msgid "Blend pixels from multiple successive frames to simulate LCD ghosting."
-msgstr ""
+msgstr "Mélanger les pixels de plusieurs images successives pour simuler du ghosting."
 
 msgctxt "game_options"
 msgid "ACCURATE"
-msgstr ""
+msgstr "PRÉCIS"
 
 msgctxt "game_options"
 msgid "EMULATED HARDWARE"
-msgstr ""
+msgstr "MACHINE ÉMULÉE"
 
 msgctxt "game_options"
 msgid "Selecting GBA unlocks extra features in certain GBA enhanced GBC games."
-msgstr ""
+msgstr "'GBA' permet de débloquer des fonctionnalités disponibles dans certains jeux GBC amélioré."
 
 msgctxt "game_options"
 msgid "GBA"
@@ -5954,11 +5954,11 @@ msgstr "Définir la méthode d'application des textures sur les polygônes."
 
 msgctxt "game_options"
 msgid "GPU TESSELATION"
-msgstr ""
+msgstr "TESSELATION GPU"
 
 msgctxt "game_options"
 msgid "CPU TESSELATION"
-msgstr ""
+msgstr "TESSELATION CPU"
 
 msgctxt "game_options"
 msgid "IMPROVED MESH"
@@ -6002,7 +6002,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "16M EXTENDED RAM"
-msgstr ""
+msgstr "RAM ÉTENDUE 16M"
 
 msgctxt "game_options"
 msgid "VIDEO CORE RENDERER"
@@ -6094,11 +6094,11 @@ msgstr "LES DEUX"
 
 msgctxt "game_options"
 msgid "NO SPRITES LIMIT"
-msgstr ""
+msgstr "DÉSACTIVER LIMITE DE SPRITES"
 
 msgctxt "game_options"
 msgid "Removes 8-sprites-per-scanline hardware limit. Reduce sprite flickering"
-msgstr ""
+msgstr "Supprimer la limite matérielle de 8 sprites par ligne."
 
 msgctxt "game_options"
 msgid "VIDEO PRESETS"
@@ -6394,11 +6394,11 @@ msgstr "Rapide"
 
 msgctxt "game_options"
 msgid "Host (bug)"
-msgstr ""
+msgstr "Hôte (bug)"
 
 msgctxt "game_options"
 msgid "Simulate UMD delays"
-msgstr ""
+msgstr "Simuler les délais UMD"
 
 msgctxt "game_options"
 msgid "IGNORE BAD MEMORY ACCESS"
@@ -6410,15 +6410,15 @@ msgstr "Peut corriger les erreurs d'accès mémoire pour certains jeux."
 
 msgctxt "game_options"
 msgid "Improves the emulation performance at the cost of accuracy."
-msgstr ""
+msgstr "Améliore la performance, réduit la précision."
 
 msgctxt "game_options"
 msgid "Balanced"
-msgstr ""
+msgstr "Équilibré"
 
 msgctxt "game_options"
 msgid "Accurate"
-msgstr ""
+msgstr "Précis"
 
 msgctxt "game_options"
 msgid "ntsc auto"
@@ -6434,15 +6434,15 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "ZOOM MODE"
-msgstr ""
+msgstr "MODE DE ZOOM"
 
 msgctxt "game_options"
 msgid "Crop borders to fit various host screens."
-msgstr ""
+msgstr "Rogner les bords pour ajuster l'affichage à l'écran."
 
 msgctxt "game_options"
 msgid "Some games have graphic and/or speed issues without Cycle-exact."
-msgstr ""
+msgstr "Certains jeux peuvent poser problème avec l'option 'Cycle-exact' activée."
 
 msgctxt "game_options"
 msgid "normal"
@@ -6450,7 +6450,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "more compatible"
-msgstr ""
+msgstr "plus compatible"
 
 msgctxt "game_options"
 msgid "cycle exact"
@@ -6458,11 +6458,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "CPU CYCLE-EXACT SPEED"
-msgstr ""
+msgstr "VITESSE CPU CYCLE-EXACT"
 
 msgctxt "game_options"
 msgid "CPU frequency multiplier. Applies only with Cycle-exact."
-msgstr ""
+msgstr "Multiplicateur de fréquence du CPU, uniquement compatible avec Cycle-exact."
 
 msgctxt "game_options"
 msgid "3.546895Mhz"
@@ -6494,11 +6494,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "KICKSTART ROM"
-msgstr ""
+msgstr "ROM KICKSTART"
 
 msgctxt "game_options"
 msgid "'Auto' defaults to the most compatible version for the model."
-msgstr ""
+msgstr "La valeur 'Auto' permet d'utiliser la version offrant le plus de compatibilité."
 
 msgctxt "game_options"
 msgid "AROS"
@@ -6542,7 +6542,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Specify the Amiga system model to emulate."
-msgstr ""
+msgstr "Choix du modèle d'Amiga à émuler."
 
 msgctxt "game_options"
 msgid "A500 (v1.2, 0.5M Chip)"
@@ -6566,7 +6566,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "'Auto' is the default floppy speed (300RPM). 'Turbo' removes disk rotation emulation."
-msgstr ""
+msgstr "la valeur 'Auto' correspond à la vitesse par défaut (300RPM). 'Turbo' supprime l'émulation de la rotation du disque."
 
 msgctxt "game_options"
 msgid "Turbo"
@@ -6574,31 +6574,31 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "FLOPPY SOUND"
-msgstr ""
+msgstr "SON DISQUETTE"
 
 msgctxt "game_options"
 msgid "Set the volume of the emulated floppy sound."
-msgstr ""
+msgstr "Définir le volume du son des disquettes émulées."
 
 msgctxt "game_options"
 msgid "WHDLOAD SPLASH SCREEN"
-msgstr ""
+msgstr "ÉCRAN D'ACCUEIL WHDLOAD"
 
 msgctxt "game_options"
 msgid "Space/Enter/Fire works as WHDLoad start button."
-msgstr ""
+msgstr "Les boutons 'espace', 'entrée' et 'tir' agissent comme bouton START WHDLOAD."
 
 msgctxt "game_options"
 msgid "Show if available"
-msgstr ""
+msgstr "Afficher si disponible"
 
 msgctxt "game_options"
 msgid "Show briefly"
-msgstr ""
+msgstr "Afficher brièvement"
 
 msgctxt "game_options"
 msgid "Wait for user input"
-msgstr ""
+msgstr "Attendre l'appui utilisateur"
 
 msgctxt "game_options"
 msgid "A1200 (v3.1, 2M Chip)"
@@ -6626,7 +6626,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "FAST BLITTER"
-msgstr ""
+msgstr "BLITTER RAPIDE"
 
 msgctxt "game_options"
 msgid "Use the older and less compatible faster blitter"
@@ -6654,7 +6654,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "GAME SPECIFIC"
-msgstr ""
+msgstr "SPÉCIFIQUE AU JEU"
 
 msgctxt "game_options"
 msgid "Efficient graphics filters improving the rendering of games."
@@ -6678,7 +6678,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "INTEGER SCALE"
-msgstr ""
+msgstr "MISE À L'ÉCHELLE PAR NOMBRE ENTIER"
 
 msgctxt "game_options"
 msgid "PHOSPHORE"
@@ -6686,11 +6686,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "PIXELLATE SCANLINE"
-msgstr ""
+msgstr "BALAYAGE PIXELISÉE"
 
 msgctxt "game_options"
 msgid "PIXELLATE"
-msgstr ""
+msgstr "PIXELISER"
 
 msgctxt "game_options"
 msgid "SCALE 2X"
@@ -6726,19 +6726,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "ASIA MVS V3"
-msgstr ""
+msgstr "ASIE MVS V3"
 
 msgctxt "game_options"
 msgid "JAPAN MVS V3"
-msgstr ""
+msgstr "JAPON MVS V3"
 
 msgctxt "game_options"
 msgid "ASIA AES"
-msgstr ""
+msgstr "ASIE AES"
 
 msgctxt "game_options"
 msgid "JAPAN AES"
-msgstr ""
+msgstr "JAPON AES"
 
 msgctxt "game_options"
 msgid "CD MUSIC VOLUME"
@@ -6786,11 +6786,11 @@ msgstr "ETIRÉ"
 
 msgctxt "game_options"
 msgid "ADAPTATIVE"
-msgstr ""
+msgstr "ADAPTATIF"
 
 msgctxt "game_options"
 msgid "NATIVE (PS2)"
-msgstr ""
+msgstr "NATIF (PS2)"
 
 msgctxt "game_options"
 msgid "Select which graphics API to use internally. Software mode disable graphics enhancements."
@@ -6822,11 +6822,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "GRAPHICS PLUGINS"
-msgstr ""
+msgstr "PLUGINS GRAPHIQUES"
 
 msgctxt "game_options"
 msgid "Select the graphics plugin used by the emulator. Depends on hardware compatibility."
-msgstr ""
+msgstr "Choix du plugin graphique utilisé par l'émulateur. Dépend de la compatibilité du hardware."
 
 msgctxt "game_options"
 msgid "AVX2"
@@ -6922,7 +6922,7 @@ msgstr "AUTORISER LES TEXTURES 8 BITS"
 
 msgctxt "game_options"
 msgid "When disabled the CPU will convert directly the texture to 32 bit. Basically a trade off GPU/CPU."
-msgstr ""
+msgstr "Lorsque l'option est désactivée, le CPU convertit directement les textures en 32 bits, sans passer par le GPU."
 
 msgctxt "game_options"
 msgid "BOOT FROM BIOS"
@@ -6930,7 +6930,7 @@ msgstr "DÉMARRER DEPUIS LE BIOS"
 
 msgctxt "game_options"
 msgid "Skip BIOS or not when booting a game."
-msgstr ""
+msgstr "Passer le bios lors du démarrage du jeu."
 
 msgctxt "game_options"
 msgid "SPEED HACKS"
@@ -6946,7 +6946,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Avoid gap between pixels when upscaling. Fix Wild Arms text, SoulCalibur ghosting."
-msgstr ""
+msgstr "Éliminer les gaps entre les pixels lors de la mise à l'échelle. Corrige le texte dans Wild Arms et le ghosting dans SoulCalibur."
 
 msgctxt "game_options"
 msgid "HALF-SCREEN (FIX)"
@@ -6958,7 +6958,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "FORCE DISABLE (For Xenosaga games)"
-msgstr ""
+msgstr "FORCER LA DÉSACTIVATION (pour Xenosaga)"
 
 msgctxt "game_options"
 msgid "FORCE ENABLE (If issues on Auto)"
@@ -7062,7 +7062,7 @@ msgstr "Décalage des coordonnées ST/UV des textures. Peut corriger l'alignemen
 
 msgctxt "game_options"
 msgid "Offset for the ST/UV texture coordinates."
-msgstr ""
+msgstr "Décalage pour les textures ST/UV."
 
 msgctxt "game_options"
 msgid "X:0500 Y:0500 (Persona 3, Haunting Ground)"
@@ -7078,7 +7078,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Disabling safe features can help various games such as Xenosaga, Kingdom Hearts..."
-msgstr ""
+msgstr "La désactivation permet de résoudre des bugs sur certains jeux (Xenosaga, Kingdom Hearts...) "
 
 msgctxt "game_options"
 msgid "SKIPDRAW (FIX)"
@@ -7086,7 +7086,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "A shadows and colors fix needed for some games such as Tony Hawk Proving Ground."
-msgstr ""
+msgstr "Permet de corriger les ombres et les couleurs de certains jeux comme Tony Hawk Proving Ground."
 
 msgctxt "game_options"
 msgid "CRC LEVEL"
@@ -7094,15 +7094,15 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Controls the number of Auto-CRC fixes and hacks applied to games."
-msgstr ""
+msgstr "Contrôle la quantité de corrections et hacks CRC à appliquer au jeu."
 
 msgctxt "game_options"
 msgid "AGRESSIVE"
-msgstr ""
+msgstr "AGRESSIF"
 
 msgctxt "game_options"
 msgid "Enable monitoring."
-msgstr ""
+msgstr "Activer le monitoring."
 
 msgctxt "game_options"
 msgid "STRETCHED"
@@ -7214,7 +7214,7 @@ msgstr "Améliore la performance au détriment de la précision d'émulation."
 
 msgctxt "game_options"
 msgid "Greatly inscrease the quality of textures generated using render-to-texture effects. Enabled by default. Disabling it may avoid crashes for games using custom textures."
-msgstr ""
+msgstr "Améliore grandement la qualité des textures. Activé par défaut. Désactiver cette option peut éviter des crashs dans certains jeux utilisant des textures personnalisées."
 
 msgctxt "game_options"
 msgid "FORCE TEXTURES FILTERING"
@@ -7230,11 +7230,11 @@ msgstr "TEXTURES PERSONNALISÉES"
 
 msgctxt "game_options"
 msgid "CONTROLLER BUTTONS"
-msgstr ""
+msgstr "DISPOSITION DES BOUTONS"
 
 msgctxt "game_options"
 msgid "Set the button position convention."
-msgstr ""
+msgstr "Définir le type de positionnement des boutons."
 
 msgctxt "game_options"
 msgid "ORGINAL"
@@ -7242,7 +7242,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "INVERTS A AND B"
-msgstr ""
+msgstr "INVERSER A ET B"
 
 msgctxt "game_options"
 msgid "SHOW FPS"
@@ -7274,7 +7274,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "EMULATED WIIMOTES"
-msgstr ""
+msgstr "WIIMOTES ÉMULÉES"
 
 msgctxt "game_options"
 msgid "SHOW TROPHIES"
@@ -7298,7 +7298,7 @@ msgstr "TYPE DE WIIMOTE ÉMULÉE"
 
 msgctxt "game_options"
 msgid "CHANGE SCREEN LAYOUT"
-msgstr ""
+msgstr "MODIFIER LA DISPOSITION DES ÉCRANS"
 
 msgctxt "game_options"
 msgid "1:1"
@@ -7306,11 +7306,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "FRAME SKIP"
-msgstr ""
+msgstr "SAUT D'IMAGE"
 
 msgctxt "game_options"
 msgid "PRESET"
-msgstr ""
+msgstr "PRÉRÉGLAGE"
 
 msgctxt "game_options"
 msgid "MEDIUM"
@@ -7354,7 +7354,7 @@ msgstr "Forcer la console en mode PAL au lieu de NTSC, peut affecter l'impressio
 
 msgctxt "game_options"
 msgid "Smooths out the blockyness of magnified textures on 3D objects by using filtering."
-msgstr ""
+msgstr "Adoucir les bords des textures des objets 3D en utilisant des filtres."
 
 msgctxt "game_options"
 msgid "Nearest Neighbor"
@@ -7366,15 +7366,15 @@ msgstr "PLUS PROCHE"
 
 msgctxt "game_options"
 msgid "Bilinear (No Edge Blending)"
-msgstr ""
+msgstr "Bilinéaire (sans fusion)"
 
 msgctxt "game_options"
 msgid "JINC2 (No Edge Blending)"
-msgstr ""
+msgstr "JINC2 (sans fusion)"
 
 msgctxt "game_options"
 msgid "xBR (No Edge Blending)"
-msgstr ""
+msgstr "xBR (sans fusion)"
 
 msgctxt "game_options"
 msgid "SCALED DITHERING"
@@ -7406,7 +7406,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Uses bilinear textures filtering when displaying console's framebuffer to the screen."
-msgstr ""
+msgstr "Activer le filtre de texture bilinéaire pour améliorer le rendu."
 
 msgctxt "game_options"
 msgid "TRUE COLORS - 24 BITS"
@@ -9299,3 +9299,35 @@ msgstr "Activer cette option lors de l'utilisation d'une méthode de désentrela
 msgctxt "game_options"
 msgid "DISABLE INTERLACE OFFSET"
 msgstr "DÉSACTIVER LE DÉCALAGE D'ENTRELACEMENT"
+
+msgctxt "game_options"
+msgid "CUSTOM RELAY SERVER"
+msgstr "SERVEUR RELAIS PERSONNALISÉ"
+
+msgctxt "game_options"
+msgid "ENABLE NETWORK"
+msgstr "ACTIVER RÉSEAU"
+
+msgctxt "game_options"
+msgid "DNS1 MODE"
+msgstr "MODE DNS1"
+
+msgctxt "game_options"
+msgid "DNS2 MODE"
+msgstr "MODE DNS2"
+
+msgctxt "game_options"
+msgid "AUTOMATIC"
+msgstr "AUTOMATIQUE"
+
+msgctxt "game_options"
+msgid "MANUAL ADRESS"
+msgstr "MANUEL"
+
+msgctxt "game_options"
+msgid "When an address is entered, the mode will automatically be set as 'MANUAL'."
+msgstr "Si une adresse est précisée, le mode DNS passe automatiquement en 'MANUEL'"
+
+msgctxt "game_options"
+msgid "When selecting 'MANUAL', specify an address in the next setting."
+msgstr "Si l'option 'MANUEL' est sélectionnée, préciser une adresse DNS."
