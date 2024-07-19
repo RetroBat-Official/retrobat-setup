@@ -1837,6 +1837,10 @@ msgid "MOSTLY HARMFUL"
 msgstr "DANGEREUX"
 
 msgctxt "game_options"
+msgid "TRIGGERS AS SQUARE AND CROSS"
+msgstr "SIMULER CARRÉ ET CROIX"
+
+msgctxt "game_options"
 msgid "TRIGGERS AS RIGHT STICK"
 msgstr "SIMULER LE STICK DROIT"
 
