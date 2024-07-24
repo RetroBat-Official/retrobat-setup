@@ -7122,7 +7122,7 @@ msgstr "Active l'anticrénelage. Activer cette option dans Dolphin est dangereux
 
 msgctxt "game_options"
 msgid "PREFETCH CUSTOM TEXTURES"
-msgstr "ÉCHANTILLONAGE MANUEL DES TEXTURES"
+msgstr "METTRE EN CACHE LES TEXTURES PERSONNALISÉES"
 
 msgctxt "game_options"
 msgid "Allow for correct emulation of texture wrapping, but comes at a cost of performance."
@@ -7130,7 +7130,7 @@ msgstr "Permet une émulation plus précise des textures et corrige les problèm
 
 msgctxt "game_options"
 msgid "MANUAL TEXTURE SAMPLING"
-msgstr "METTRE EN CACHE LES TEXTURES PERSONNALISÉES"
+msgstr "ÉCHANTILLONAGE MANUEL DES TEXTURES"
 
 msgctxt "game_options"
 msgid "Cache custom textures to system RAM on startup."
@@ -9335,3 +9335,11 @@ msgstr "Si une adresse est précisée, le mode DNS passe automatiquement en 'MAN
 msgctxt "game_options"
 msgid "When selecting 'MANUAL', specify an address in the next setting."
 msgstr "Si l'option 'MANUEL' est sélectionnée, préciser une adresse DNS."
+
+msgctxt "game_options"
+msgid "TRY TO AUTOBOOT"
+msgstr "DÉMARRAGE AUTO (TENTATIVE)"
+
+msgctxt "game_options"
+msgid "Let RetroBat try to retrieve the boot sequence from MAME hash file."
+msgstr "Tenter de démarrer automatiquement le jeu en cherchant la séquence de boot dans le fichier hash de MAME."
