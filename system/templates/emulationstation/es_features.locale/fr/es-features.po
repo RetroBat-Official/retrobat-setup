@@ -9343,3 +9343,11 @@ msgstr "DÉMARRAGE AUTO (TENTATIVE)"
 msgctxt "game_options"
 msgid "Let RetroBat try to retrieve the boot sequence from MAME hash file."
 msgstr "Tenter de démarrer automatiquement le jeu en cherchant la séquence de boot dans le fichier hash de MAME."
+
+msgctxt "game_options"
+msgid "PROGRESSIVE SCAN"
+msgstr "BALAYAGE PROGRESSIF"
+
+msgctxt "game_options"
+msgid "Enable progressive scan for compatible games."
+msgstr "Active l'affichage progressif, s'il est pris en charge par le logiciel émulé, laisser désactiver dans le doute."

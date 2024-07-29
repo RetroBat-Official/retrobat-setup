@@ -371,6 +371,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./mednafen.menu</path>
+		<name>Mednafen (Multi System Emulator)</name>
+		<desc>Run Mednafen (Multi System Emulator).</desc>
+		<image>./media/mednafen-logo.png</image>
+		<marquee>./media/mednafen-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Mednafen Team</developer>
+		<publisher>Mednafen Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./melonds.menu</path>
 		<name>MelonDS (NDS)</name>
 		<desc>Run MelonDS (NDS).</desc>
