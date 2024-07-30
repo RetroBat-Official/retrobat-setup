@@ -9350,4 +9350,12 @@ msgstr "BALAYAGE PROGRESSIF"
 
 msgctxt "game_options"
 msgid "Enable progressive scan for compatible games."
-msgstr "Active l'affichage progressif, s'il est pris en charge par le logiciel émulé, laisser désactiver dans le doute."
+msgstr "Active l'affichage progressif, s'il est pris en charge par le logiciel émulé. Laisser désactivé dans le doute."
+
+msgctxt "game_options"
+msgid "ENABLE D3D DEBUG LAYER"
+msgstr "ACTIVER LE DÉBOGAGE D3D"
+
+msgctxt "game_options"
+msgid "Hack needed for some games (Too Human)."
+msgstr "Hack nécessaire pour certains jeux (Too Human)."
