@@ -9359,3 +9359,11 @@ msgstr "ACTIVER LE DÉBOGAGE D3D"
 msgctxt "game_options"
 msgid "Hack needed for some games (Too Human)."
 msgstr "Hack nécessaire pour certains jeux (Too Human)."
+
+msgctxt "game_options"
+msgid "GAME WINDOW DOWNSCALE"
+msgstr "RÉDUIRE LA TAILLE DE L'ÉCRAN DE JEU"
+
+msgctxt "game_options"
+msgid "Only use this to downscale the window when using upscale in Windows settings."
+msgstr "Activer ce paramètre pour compenser la mise à l'échelle définie pour le bureau windows."
