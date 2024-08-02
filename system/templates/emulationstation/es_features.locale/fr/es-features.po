@@ -5653,6 +5653,10 @@ msgid "Turn this off to map only the D-PAD for directions."
 msgstr "Activer uniquement le D-PAD pour les directions."
 
 msgctxt "game_options"
+msgid "Define the mapping of the D-PAD."
+msgstr "Définir le mapping cible du pad directionnel."
+
+msgctxt "game_options"
 msgid "Remove the n pixel borders at the top and bottom of the screen."
 msgstr ""
 
@@ -5670,7 +5674,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Apply a video filter to mimic various TV signals."
-msgstr ""
+msgstr "Appliquer un filtre vidéo pour simuler divers signaux TV."
 
 msgctxt "game_options"
 msgid "RF"
@@ -5678,23 +5682,23 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Required for certain games that use hi-res mode to produce transparency effects."
-msgstr ""
+msgstr "Nécessaire pour reproduire les effets transparences dans certains jeux."
 
 msgctxt "game_options"
 msgid "MERGE"
-msgstr ""
+msgstr "FUSION"
 
 msgctxt "game_options"
 msgid "BLUR"
-msgstr ""
+msgstr "FLOU"
 
 msgctxt "game_options"
 msgid "AUDIO INTERPOLATION"
-msgstr ""
+msgstr "INTERPOLATION AUDIO"
 
 msgctxt "game_options"
 msgid "Apply an audio filter. 'Gaussian' reproduce the bass-heavy sound of the original hardware."
-msgstr ""
+msgstr "Applique un filtre audio. 'Gaussian' permet de rerpoduire le son lourd (basses) du matériel original."
 
 msgctxt "game_options"
 msgid "Apply an audio filter. Modify sound interpolation."
@@ -5702,15 +5706,15 @@ msgstr "Appliquer un filtre audio pour modifier la restitution."
 
 msgctxt "game_options"
 msgid "GAUSSIAN"
-msgstr ""
+msgstr "GAUSSIEN"
 
 msgctxt "game_options"
 msgid "CUBIC"
-msgstr ""
+msgstr "CUBIQUE"
 
 msgctxt "game_options"
 msgid "SYNC"
-msgstr ""
+msgstr "SYNC"
 
 msgctxt "game_options"
 msgid "LINEAR"
@@ -5742,19 +5746,19 @@ msgstr "MÉTHODE DE RENDU"
 
 msgctxt "game_options"
 msgid "EMULATED SUPERFX OVERCLOCK"
-msgstr ""
+msgstr "OVERCLOCKING SUPERFX"
 
 msgctxt "game_options"
 msgid "Can improve framerate or cause timing error."
-msgstr ""
+msgstr "Peut améliorer le framerate ou causer des erreurs de timing."
 
 msgctxt "game_options"
 msgid "BLOCK INVALID VRAM ACCESS"
-msgstr ""
+msgstr "BLOQUER LES ACCÈS VRAM INVALIDES"
 
 msgctxt "game_options"
 msgid "Some homebrew or roms hacks need this option to be disabled."
-msgstr ""
+msgstr "Désactiver pour certains homebrew ou hacks."
 
 msgctxt "game_options"
 msgid "mouse"
@@ -5766,11 +5770,11 @@ msgstr "SOURIS"
 
 msgctxt "game_options"
 msgid "Use a mouse-controlled 'Lightgun' or 'Touchscreen' input."
-msgstr ""
+msgstr "Utiliser un type d'entrée 'souris' ou 'écran tactile' pour les pistolets."
 
 msgctxt "game_options"
 msgid "The Neo Geo bios used by the emulator. UNIVERSE BIOS generally offer the best compatibility."
-msgstr ""
+msgstr "Le BIOS Neo Geo utilisé par l'émulateur, utiliser UNIVERSE BIOS pour une meilleure compatibilité."
 
 msgctxt "game_options"
 msgid "DIPSWITCH"
@@ -6610,11 +6614,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "A1200 (v3.1, 2M Chip + 8M Fast)"
-msgstr ""
+msgstr "A1200 (v3.1, 2M Chip + 8M Rapide)"
 
 msgctxt "game_options"
 msgid "A2000 (v1.2, 0.5M Chip + 0.5 Slow)"
-msgstr ""
+msgstr "A2000 (v1.2, 0.5M Chip + 0.5 Lent)"
 
 msgctxt "game_options"
 msgid "A2000 (v3.1, 1M Chip)"
@@ -6622,11 +6626,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "A4000/030 (v3.1, 2M Chip + 8M Fast)"
-msgstr ""
+msgstr "A4000/030 (v3.1, 2M Chip + 8M Rapide)"
 
 msgctxt "game_options"
 msgid "A4000/040 (v3.1, 2M Chip + 8M Fast)"
-msgstr ""
+msgstr "A4000/040 (v3.1, 2M Chip + 8M Rapide)"
 
 msgctxt "game_options"
 msgid "FAST BLITTER"
@@ -6650,7 +6654,7 @@ msgstr "Permet de jouer à DOOM avec la bonne résolution."
 
 msgctxt "game_options"
 msgid "Fit to the original ratio of the game."
-msgstr ""
+msgstr "Respecter le ratio original du jeu."
 
 msgctxt "game_options"
 msgid "GLOBAL"
@@ -6666,7 +6670,7 @@ msgstr "Sélection du filtre de mise à l'échelle pour améliorer le rendu des 
 
 msgctxt "game_options"
 msgid "CRT INTERLACED"
-msgstr ""
+msgstr "CRT ENTRELACÉ"
 
 msgctxt "game_options"
 msgid "CRT"
@@ -6674,7 +6678,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "CURVATURE"
-msgstr ""
+msgstr "COURBURE"
 
 msgctxt "game_options"
 msgid "HQ 2X"
@@ -6814,15 +6818,15 @@ msgstr "RÉSOLUTION DU BUREAU"
 
 msgctxt "game_options"
 msgid "1024x1024 (SQUARE)"
-msgstr ""
+msgstr "1024x1024 (CARRÉ)"
 
 msgctxt "game_options"
 msgid "2048x2048 (SQUARE)"
-msgstr ""
+msgstr "2048x2048 (CARRÉ)"
 
 msgctxt "game_options"
 msgid "4096x4096 (SQUARE)"
-msgstr ""
+msgstr "4096x4096 (CARRÉ)"
 
 msgctxt "game_options"
 msgid "GRAPHICS PLUGINS"
@@ -6846,19 +6850,19 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "OPENGL (HARDWARE)"
-msgstr ""
+msgstr "OPENGL (MATÉRIEL)"
 
 msgctxt "game_options"
 msgid "DIRECTX 11 (HARDWARE)"
-msgstr ""
+msgstr "DIRECTX 11 (MATÉRIEL)"
 
 msgctxt "game_options"
 msgid "OPENGL (SOFTWARE)"
-msgstr ""
+msgstr "OPENGL (LOGICIEL)"
 
 msgctxt "game_options"
 msgid "DIRECTX 11 (SOFTWARE)"
-msgstr ""
+msgstr "DIRECTX 11 (LOGICIEL)"
 
 msgctxt "game_options"
 msgid "FMV RATIO"
@@ -6958,7 +6962,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "'Auto' will controls the half-screen fix detection on texture shuffling."
-msgstr ""
+msgstr "'Auto' détecte automatiquement le fix à appliquer."
 
 msgctxt "game_options"
 msgid "FORCE DISABLE (For Xenosaga games)"
@@ -7406,7 +7410,7 @@ msgstr "TYPE DE RÉPONSE DU CURSEUR ANALOGIQUE"
 
 msgctxt "game_options"
 msgid "Scales the dithern pattern to the resolution scale of the emulated GPU."
-msgstr ""
+msgstr "Mise à l'échelle du tramage à la résolution émulée."
 
 msgctxt "game_options"
 msgid "Uses bilinear textures filtering when displaying console's framebuffer to the screen."
@@ -7450,7 +7454,7 @@ msgstr "EN JEU UNIQUEMENT"
 
 msgctxt "game_options"
 msgid "Forces the precision of colours output to the console's framebuffer."
-msgstr ""
+msgstr "Force la sortie des couleurs sur le tampon de la console."
 
 msgctxt "game_options"
 msgid "DINPUT"
@@ -7462,7 +7466,7 @@ msgstr "CHARGEMENT RAPIDE"
 
 msgctxt "game_options"
 msgid "VIDEO DRIVER"
-msgstr ""
+msgstr "PILOTE VIDÉO"
 
 msgctxt "game_options"
 msgid "NEW 3D ENGINE"
@@ -7534,7 +7538,7 @@ msgstr "Activer le retour de force pour les contrôleurs compatibles."
 
 msgctxt "game_options"
 msgid "center"
-msgstr ""
+msgstr "centre"
 
 msgctxt "game_options"
 msgid "The maximum RAM memory available for the system."
@@ -7574,7 +7578,7 @@ msgstr "BICUBIQUE"
 
 msgctxt "game_options"
 msgid "Gaussian"
-msgstr ""
+msgstr "Gaussien"
 
 msgctxt "game_options"
 msgid "ScaleForce"
