@@ -527,7 +527,7 @@ msgstr "EXTENSION MANETTE 2"
 
 msgctxt "game_options"
 msgid "P3 CONTROLLER EXTENSION"
-msgstr "EXTENSION JOUEUR 3"
+msgstr "EXTENSION MANETTE 3"
 
 msgctxt "game_options"
 msgid "P4 CONTROLLER EXTENSION"
