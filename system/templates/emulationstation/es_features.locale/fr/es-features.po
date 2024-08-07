@@ -527,7 +527,7 @@ msgstr "EXTENSION MANETTE 2"
 
 msgctxt "game_options"
 msgid "P3 CONTROLLER EXTENSION"
-msgstr "EXTENSION JOUEUR 3"
+msgstr "EXTENSION MANETTE 3"
 
 msgctxt "game_options"
 msgid "P4 CONTROLLER EXTENSION"
@@ -9371,3 +9371,27 @@ msgstr "RÉDUIRE LA TAILLE DE L'ÉCRAN DE JEU"
 msgctxt "game_options"
 msgid "Only use this to downscale the window when using upscale in Windows settings."
 msgstr "Activer ce paramètre pour compenser la mise à l'échelle définie pour le bureau windows."
+
+msgctxt "game_options"
+msgid "TATTOO"
+msgstr "TATOUAGE"
+
+msgctxt "game_options"
+msgid "RESIZE TATTOO"
+msgstr "REDIMENSIONNER LE TATOUAGE"
+
+msgctxt "game_options"
+msgid "SHOW TATTOO OVER BEZEL"
+msgstr "AFFICHER LE TATOUAGE"
+
+msgctxt "game_options"
+msgid "Shrink/expand tattoo to fit within the bezel's border."
+msgstr "Rétrécir/agrandir le tatouage pour l'adapter à la bordure de la décoration."
+
+msgctxt "game_options"
+msgid "Show a control image overlaid on top of the bezel."
+msgstr "Afficher une image des contrôles sur les décorations."
+
+msgctxt "game_options"
+msgid "Select corner of the screen where the tattoo will appear."
+msgstr "Définir le coin de l'écran pour le tatouage."
