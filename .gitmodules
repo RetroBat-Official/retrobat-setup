@@ -4,3 +4,6 @@
 [submodule "system/decorations"]
 	path = system/decorations
 	url = https://github.com/RetroBat-Official/retrobat-bezels
+[submodule "retrobat-tattoos"]
+	path = system/tattoos
+	url = https://github.com/RetroBat-Official/retrobat-tattoos
