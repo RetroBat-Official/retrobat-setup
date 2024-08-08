@@ -4885,6 +4885,10 @@ msgid "Multitap must be set if more than 2 players intend to play."
 msgstr "Activer cette option pour jouer à plus de 2 joueurs."
 
 msgctxt "game_options"
+msgid "ENABLE TURBO"
+msgstr "ACTIVER TURBO"
+
+msgctxt "game_options"
 msgid "TURBO MODE"
 msgstr "MODE TURBO"
 
@@ -5001,12 +5005,20 @@ msgid "ROTATE BUTTONS CLOCKWISE"
 msgstr "TOURNER LES BOUTONS A/B/X/Y (SENS HORAIRE)"
 
 msgctxt "game_options"
+msgid "ROTATE BUTTONS"
+msgstr "TOURNER LES BOUTONS A/B/X/Y"
+
+msgctxt "game_options"
 msgid "Use 'SOUTH' for A button and 'WEST' for B button."
 msgstr "Utiliser 'SUD' comme bouton A et 'OUEST' comme bouton B."
 
 msgctxt "game_options"
 msgid "This can help, depending on the controllers for better playability."
 msgstr "En fonction du système et de la manette utilisée, peut améliorer la jouabilité."
+
+msgctxt "game_options"
+msgid "Rotate face buttons to change layout."
+msgstr "Tourner les boutons dans le sens anti-horaire (A/B/X/Y)."
 
 msgctxt "game_options"
 msgid "OVERLAY SHOW MOUSE CURSOR"
