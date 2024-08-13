@@ -1777,11 +1777,11 @@ msgid "Enable controller's rumble effects."
 msgstr ""
 
 msgctxt "game_options"
-msgid "ANALOG TRIGGERS"
+msgid "DIGITAL TRIGGERS"
 msgstr ""
 
 msgctxt "game_options"
-msgid "Set this option to map R2 and L2 with analog triggers."
+msgid "Set this option to map R2 and L2 with digital triggers."
 msgstr ""
 
 msgctxt "game_options"

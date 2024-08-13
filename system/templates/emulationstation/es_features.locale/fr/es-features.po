@@ -2481,6 +2481,22 @@ msgid "USE DIGITAL TRIGGERS"
 msgstr "UTILISER LES GÂCHETTES DIGITALES"
 
 msgctxt "game_options"
+msgid "FACE BUTTON LAYOUT"
+msgstr "DISPOSITION DES BOUTONS"
+
+msgctxt "game_options"
+msgid "NINTENDO LAYOUT"
+msgstr "DISPOSITION NINTENDO"
+
+msgctxt "game_options"
+msgid "XBOX LAYOUT"
+msgstr "DISPOSITION XBOX"
+
+msgctxt "game_options"
+msgid "POSITIONAL"
+msgstr "POSITIONNEL"
+
+msgctxt "game_options"
 msgid "USE DPAD"
 msgstr "UTILISER PAD DIRECTIONNEL"
 
@@ -5571,6 +5587,10 @@ msgstr "UTILISER LA CONFIGURATION AUTOMATIQUE DE L'ÉMULATEUR"
 msgctxt "game_options"
 msgid "USE ANALOG TRIGGERS"
 msgstr "UTILISER LES GÂCHETTES ANALOGIQUES"
+
+msgctxt "game_options"
+msgid "Disable this to map R2 and L2 with L and R buttons (non-digital)."
+msgstr "Désactiver cette option pour utiliser les gâchettes comme boutons (non-analogique)."
 
 msgctxt "game_options"
 msgid "Disable this if the controller does not have analog triggers."
