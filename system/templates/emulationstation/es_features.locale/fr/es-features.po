@@ -9427,3 +9427,19 @@ msgstr "Afficher une image des contrôles sur les décorations."
 msgctxt "game_options"
 msgid "Select corner of the screen where the tattoo will appear."
 msgstr "Définir le coin de l'écran pour le tatouage."
+
+msgctxt "game_options"
+msgid "SLOT 1 MEMORY CARD"
+msgstr "TYPE DE CARTE MÉMOIRE SLOT 1"
+
+msgctxt "game_options"
+msgid "STANDARD MEMORY CARD"
+msgstr "CARTE MÉMOIRE STANDARD"
+
+msgctxt "game_options"
+msgid "FOLDER"
+msgstr "DOSSIER"
+
+msgctxt "game_options"
+msgid "PER GAME MEMORY CARD"
+msgstr "CARTE MÉMOIRE PAR JEU"
