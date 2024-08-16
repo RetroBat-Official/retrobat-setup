@@ -2783,7 +2783,7 @@ xtrmhunt:
   south: btn_a
   west: btn_b
   select: btn_d
-  start: 
+  start: btn_start
 beachspi:
   leftanalogleft: btn_dpad1_left
   leftanalogright: btn_dpad1_right
