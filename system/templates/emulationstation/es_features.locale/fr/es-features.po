@@ -2469,8 +2469,16 @@ msgid "ANALOG SENSITIVITY"
 msgstr "SENSIBILITÉ ANALOGIQUE"
 
 msgctxt "game_options"
+msgid "ANALOG STICK SENSITIVITY"
+msgstr "SENSIBILITÉ DU STICK ANALOGIQUE"
+
+msgctxt "game_options"
 msgid "Sets the sensitivity of the analog sticks."
 msgstr "Définir la sensibilité des sticks analogiques."
+
+msgctxt "game_options"
+msgid "Change the sensitivity of the analog stick."
+msgstr "Modifier la sensibilité du stick analogique."
 
 msgctxt "game_options"
 msgid "ANALOG DEADZONE(CORE)"
@@ -9443,3 +9451,23 @@ msgstr "DOSSIER"
 msgctxt "game_options"
 msgid "PER GAME MEMORY CARD"
 msgstr "CARTE MÉMOIRE PAR JEU"
+
+msgctxt "game_options"
+msgid "PAUSE ON FOCUS LOST"
+msgstr "METTRE EN PAUSE SI PERTE DE FOCUS"
+
+msgctxt "game_options"
+msgid "TRANSFER PACK SYSTEM"
+msgstr "SYSTÈME POUR TRANSFER PACK"
+
+msgctxt "game_options"
+msgid "Select the source system for the transfer pack between GB and GBC."
+msgstr "Système source pour le transfer pack : GB ou GBC."
+
+msgctxt "game_options"
+msgid "TRANSFER PACK ROM"
+msgstr "ROM POUR TRANSFER PACK"
+
+msgctxt "game_options"
+msgid "TRANSFER PACK SAVE FILE"
+msgstr "SAUVEGARDE POUR TRANSFER PACK"
