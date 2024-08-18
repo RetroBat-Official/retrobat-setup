@@ -9471,3 +9471,11 @@ msgstr "ROM POUR TRANSFER PACK"
 msgctxt "game_options"
 msgid "TRANSFER PACK SAVE FILE"
 msgstr "SAUVEGARDE POUR TRANSFER PACK"
+
+msgctxt "game_options"
+msgid "INVERT TRIGGERS AND SHOULDERS"
+msgstr "INVERSER GÂCHETTES ET ÉPAULES"
+
+msgctxt "game_options"
+msgid "Use shoulder buttons for L and R instead of triggers."
+msgstr "Utiliser les boutons épaules pour L et R à la place des gâchettes."
