@@ -1,0 +1,21 @@
+# This file is provided with RetroBat
+# It can be used to overwrite keyboard hotkeys per core or for all cores
+# Each container must be named by the core name to perform the overwrite only for specified core(s).
+# If no core container exists, the "default" container will be used.
+# The key represents the Retroarch config option
+# The value represents the keyboard key
+# Here are the default RetroBat values:
+#default:
+#  input_menu_toggle: f1
+#  input_save_state: f2
+#  input_load_state: f4
+#  input_desktop_menu_toggle: f5
+#  input_state_slot_decrease: f6
+#  input_state_slot_increase: f7
+#  input_screenshot: f8
+#  input_rewind: backspace
+#  input_hold_fast_forward: l
+#  input_shader_next: m
+#  input_shader_prev: n
+#  input_bind_hold: 2
+#  input_bind_timeout: 5
