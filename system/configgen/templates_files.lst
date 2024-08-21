@@ -111,6 +111,7 @@
 \system\templates\roms\wiiu\example-to-edit.m3u.txt|\roms\wiiu\example-to-edit.m3u.txt
 \system\templates\rpcs3\GuiConfigs\CurrentSettings.ini|\emulators\rpcs3\GuiConfigs\CurrentSettings.ini
 \system\templates\rpcs3\config.yml|\emulators\rpcs3\config.yml
+\system\templates\rpcs3\vfs.yml|\emulators\rpcs3\config\vfs.yml
 \system\templates\ryujinx\portable\Config.json|\emulators\ryujinx\portable\Config.json
 \system\templates\scummvm\scummvm.ini|\emulators\scummvm\scummvm.ini
 \system\templates\simple64\input-profiles.ini|\emulators\simple64\input-profiles.ini
@@ -132,7 +133,7 @@
 \system\templates\supermodel\Supermodel.ini|\emulators\supermodel\Config\Supermodel.ini
 \system\templates\suyu\qt-config.ini|\emulators\suyu\user\config\qt-config.ini
 \system\templates\vita3k\config.yml|\emulators\vita3k\config.yml
-\system\templates\vita3k\user.xml|\emulators\vita3k\ux0\user\00\user.xml
+\system\templates\vita3k\user.xml|\saves\psvita\vita3k\ux0\user\00\user.xml
 \system\templates\winuae\winuae.ini|\emulators\winuae\winuae.ini
 \system\templates\xemu\xemu.toml|\emulators\xemu\xemu.toml
 \system\templates\xenia-canary\gamecontrollerdb.txt|\emulators\xenia-canary\gamecontrollerdb.txt

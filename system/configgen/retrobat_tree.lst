@@ -96,7 +96,6 @@ emulators\bigpemu
 emulators\bigpemu\userdata
 emulators\bizhawk
 emulators\cemu
-emulators\cemu\mlc01
 emulators\citra
 emulators\citra\user
 emulators\citra\user\config
@@ -184,6 +183,7 @@ emulators\redream
 emulators\retroarch
 emulators\retroarch\shaders
 emulators\rpcs3
+emulators\rpcs3\config
 emulators\rpcs3\GuiConfigs
 emulators\ryujinx
 emulators\ryujinx\portable
@@ -206,10 +206,6 @@ emulators\supermodel\NVRAM
 emulators\suyu
 emulators\suyu\user
 emulators\suyu\user\config
-emulators\vita3k
-emulators\vita3k\ux0
-emulators\vita3k\ux0\user
-emulators\vita3k\ux0\user\00
 emulators\vpinball
 emulators\xemu
 emulators\xenia
@@ -302,6 +298,10 @@ saves\psp
 saves\psp\PSP
 saves\psp\PSP\SYSTEM
 saves\psp\PSP\TEXTURES
+saves\psvita\vita3k
+saves\psvita\vita3k\ux0
+saves\psvita\vita3k\ux0\user
+saves\psvita\vita3k\ux0\user\00
 saves\psx
 saves\psx\duckstation
 saves\psx\duckstation\memcards
@@ -330,6 +330,9 @@ saves\switch\dump
 saves\switch\load
 saves\switch\nand
 saves\switch\sdmc
+saves\wiiu
+saves\wiiu\cemu
+saves\wiiu\cemu\mlc01
 screenshots
 screenshots\ares
 screenshots\capriceforever
