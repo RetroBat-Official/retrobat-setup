@@ -113,6 +113,7 @@
 \system\templates\rpcs3\config.yml|\emulators\rpcs3\config.yml
 \system\templates\rpcs3\vfs.yml|\emulators\rpcs3\config\vfs.yml
 \system\templates\ryujinx\portable\Config.json|\emulators\ryujinx\portable\Config.json
+\system\templates\ryujinx\portable\Config.json|\saves\switch\ryujinx\portable\Config.json
 \system\templates\scummvm\scummvm.ini|\emulators\scummvm\scummvm.ini
 \system\templates\simple64\input-profiles.ini|\emulators\simple64\input-profiles.ini
 \system\templates\simple64\input-settings.ini|\emulators\simple64\input-settings.ini
