@@ -172,10 +172,6 @@ emulators\phoenix
 emulators\play
 emulators\play\Play Data Files
 emulators\play\Play Data Files\inputprofiles
-emulators\ppsspp
-emulators\ppsspp\memstick
-emulators\ppsspp\memstick\PSP
-emulators\ppsspp\memstick\PSP\SYSTEM
 emulators\project64
 emulators\project64\Config
 emulators\psxmame
@@ -304,6 +300,7 @@ saves\ps3\rpcs3\dev_hdd0\disc
 saves\ps3\rpcs3\dev_hdd0\game
 saves\psp
 saves\psp\PSP
+saves\psp\PSP\SYSTEM
 saves\psp\PSP\TEXTURES
 saves\psx
 saves\psx\duckstation
