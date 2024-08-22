@@ -96,7 +96,6 @@ emulators\bigpemu
 emulators\bigpemu\userdata
 emulators\bizhawk
 emulators\cemu
-emulators\cemu\mlc01
 emulators\citra
 emulators\citra\user
 emulators\citra\user\config
@@ -172,10 +171,6 @@ emulators\phoenix
 emulators\play
 emulators\play\Play Data Files
 emulators\play\Play Data Files\inputprofiles
-emulators\ppsspp
-emulators\ppsspp\memstick
-emulators\ppsspp\memstick\PSP
-emulators\ppsspp\memstick\PSP\SYSTEM
 emulators\project64
 emulators\project64\Config
 emulators\psxmame
@@ -188,10 +183,8 @@ emulators\redream
 emulators\retroarch
 emulators\retroarch\shaders
 emulators\rpcs3
+emulators\rpcs3\config
 emulators\rpcs3\GuiConfigs
-emulators\rpcs3\dev_hdd0
-emulators\rpcs3\dev_hdd0\disc
-emulators\rpcs3\dev_hdd0\game
 emulators\ryujinx
 emulators\ryujinx\portable
 emulators\scummvm
@@ -213,10 +206,6 @@ emulators\supermodel\NVRAM
 emulators\suyu
 emulators\suyu\user
 emulators\suyu\user\config
-emulators\vita3k
-emulators\vita3k\ux0
-emulators\vita3k\ux0\user
-emulators\vita3k\ux0\user\00
 emulators\vpinball
 emulators\xemu
 emulators\xenia
@@ -302,9 +291,17 @@ saves\ps2\pcsx2-16\sstates
 saves\ps2\pcsx2\covers
 saves\ps2\pcsx2\memcards
 saves\ps2\pcsx2\sstates
+saves\ps3\rpcs3\dev_hdd0
+saves\ps3\rpcs3\dev_hdd0\disc
+saves\ps3\rpcs3\dev_hdd0\game
 saves\psp
 saves\psp\PSP
+saves\psp\PSP\SYSTEM
 saves\psp\PSP\TEXTURES
+saves\psvita\vita3k
+saves\psvita\vita3k\ux0
+saves\psvita\vita3k\ux0\user
+saves\psvita\vita3k\ux0\user\00
 saves\psx
 saves\psx\duckstation
 saves\psx\duckstation\memcards
@@ -332,7 +329,14 @@ saves\switch
 saves\switch\dump
 saves\switch\load
 saves\switch\nand
+saves\switch\ryujinx
+saves\switch\ryujinx\portable
 saves\switch\sdmc
+saves\wiiu
+saves\wiiu\cemu
+saves\wiiu\cemu\mlc01
+saves\xbox360
+saves\xbox360\xenia
 screenshots
 screenshots\ares
 screenshots\capriceforever

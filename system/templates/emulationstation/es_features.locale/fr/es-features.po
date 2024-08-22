@@ -9479,3 +9479,11 @@ msgstr "INVERSER GÂCHETTES ET ÉPAULES"
 msgctxt "game_options"
 msgid "Use shoulder buttons for L and R instead of triggers."
 msgstr "Utiliser les boutons épaules pour L et R à la place des gâchettes."
+
+msgctxt "game_options"
+msgid "RUN WII MENU"
+msgstr "LANCER LE MENU WII"
+
+msgctxt "game_options"
+msgid "Starts the Wii Menu (menu must be installed in Dolphin)."
+msgstr "Démarrer sur le menu Wii (le menu doit être installé dans Dolphin)."
