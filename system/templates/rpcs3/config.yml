@@ -187,7 +187,6 @@ Input/Output:
   Buzz emulated controller: "Null"
   Turntable emulated controller: "Null"
   GHLtar emulated controller: "Null"
-  GameTablet emulated controller: Disabled
   Pad handler mode: Single-threaded
   Keep pads connected: false
   Pad handler sleep (microseconds): 1000
@@ -215,6 +214,7 @@ Net:
   IP swap list: ""
   UPNP Enabled: false
   PSN status: Disconnected
+  PSN Country: us
 Savestate:
   Start Paused: false
   Suspend Emulation Savestate Mode: false
@@ -230,6 +230,9 @@ Miscellaneous:
   Show trophy popups: true
   Show shader compilation hint: true
   Show PPU compilation hint: true
+  Show pressure intensity toggle hint: true
+  Show analog limiter toggle hint: true
+  Show mouse and keyboard toggle hint: true
   Use native user interface: true
   GDB Server: 127.0.0.1:2345
   Silence All Logs: false
