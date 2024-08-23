@@ -1,0 +1,7 @@
+## XBRZ-5X
+default:
+  # shader affects retroarch shaders
+  shaderGL: xbrz/5xbrz-linear
+  shader: edge-smoothing/xbrz/5xbrz-linear
+  # ares
+  ares: edge-smoothing/xbrz/5xbrz-linear
