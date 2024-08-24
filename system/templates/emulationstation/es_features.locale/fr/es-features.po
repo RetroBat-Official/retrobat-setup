@@ -9507,3 +9507,11 @@ msgstr "DOUBLE-TAMPON"
 msgctxt "game_options"
 msgid "TRIPLE-BUFFER"
 msgstr "TRIPLE-TAMPON"
+
+msgctxt "game_options"
+msgid "Disable to use mouse for touchscreen instead of right stick."
+msgstr "Désactiver pour utiliser la souris au lieu du stick droit pour simuler le touchscreen."
+
+msgctxt "game_options"
+msgid "MAINTAIN ASPECT RATIO"
+msgstr "GARDER RATIO ORIGINAL"
