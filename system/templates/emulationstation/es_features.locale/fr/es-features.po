@@ -9495,3 +9495,15 @@ msgstr "MASQUER INFORMATIONS DE COMPILATION"
 msgctxt "game_options"
 msgid "Hide shader and PPU compilation hints."
 msgstr "Masquer les informations de compilation des shaders et PPU."
+
+msgctxt "game_options"
+msgid "MATCH EMULATED CONTENT"
+msgstr "FAIRE CORRESPONDRE À L'ÉCRAN ÉMULÉ"
+
+msgctxt "game_options"
+msgid "DOUBLE-BUFFER"
+msgstr "DOUBLE-TAMPON"
+
+msgctxt "game_options"
+msgid "TRIPLE-BUFFER"
+msgstr "TRIPLE-TAMPON"
