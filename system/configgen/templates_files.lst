@@ -20,6 +20,7 @@
 \system\templates\demul\Demul.ini|\emulators\demul\Demul.ini
 \system\templates\demul\gpuDX11.ini|\emulators\demul\gpuDX11.ini
 \system\templates\dolphin-triforce\Dolphin.ini|\emulators\dolphin-triforce\User\Config\Dolphin.ini
+\system\templates\dolphin-triforce\GameSettings\GameSettings.zip|\emulators\dolphin-triforce\Sys\GameSettings
 \system\templates\dolphin-triforce\GCPadNew.ini|\emulators\dolphin-triforce\User\Config\GCPadNew.ini
 \system\templates\dolphin-triforce\GFX.ini|\emulators\dolphin-triforce\User\Config\GFX.ini
 \system\templates\dolphin\Dolphin.ini|\emulators\dolphin-emu\User\Config\Dolphin.ini

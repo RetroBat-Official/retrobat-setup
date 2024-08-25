@@ -111,6 +111,8 @@ emulators\dolphin-emu
 emulators\dolphin-emu\User
 emulators\dolphin-emu\User\Config
 emulators\dolphin-triforce
+emulators\dolphin-triforce\Sys
+emulators\dolphin-triforce\Sys\GameSettings
 emulators\dolphin-triforce\User
 emulators\dolphin-triforce\User\Config
 emulators\dolphin-triforce\User\GameSettings
