@@ -9487,3 +9487,31 @@ msgstr "LANCER LE MENU WII"
 msgctxt "game_options"
 msgid "Starts the Wii Menu (menu must be installed in Dolphin)."
 msgstr "Démarrer sur le menu Wii (le menu doit être installé dans Dolphin)."
+
+msgctxt "game_options"
+msgid "HIDE HINTS"
+msgstr "MASQUER INFORMATIONS DE COMPILATION"
+
+msgctxt "game_options"
+msgid "Hide shader and PPU compilation hints."
+msgstr "Masquer les informations de compilation des shaders et PPU."
+
+msgctxt "game_options"
+msgid "MATCH EMULATED CONTENT"
+msgstr "FAIRE CORRESPONDRE À L'ÉCRAN ÉMULÉ"
+
+msgctxt "game_options"
+msgid "DOUBLE-BUFFER"
+msgstr "DOUBLE-TAMPON"
+
+msgctxt "game_options"
+msgid "TRIPLE-BUFFER"
+msgstr "TRIPLE-TAMPON"
+
+msgctxt "game_options"
+msgid "Disable to use mouse for touchscreen instead of right stick."
+msgstr "Désactiver pour utiliser la souris au lieu du stick droit pour simuler le touchscreen."
+
+msgctxt "game_options"
+msgid "MAINTAIN ASPECT RATIO"
+msgstr "GARDER RATIO ORIGINAL"
