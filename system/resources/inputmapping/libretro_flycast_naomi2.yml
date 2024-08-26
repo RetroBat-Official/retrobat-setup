@@ -1,0 +1,154 @@
+# NAOMI2 INPUT REMAPS FOR RETROARCH
+#
+# This file is provided with RetroBat
+# based on the works of Warped Polygon
+#
+# It is used to automatically generate input remaps for Retroarch for Naomi2 games with Flycast core
+# Each container must be named exactly the same as your game rom file (without the extension)
+#
+# The elements listed are the buttons for which you want the function to be remapped
+# The key represents the RetroArch button code
+# The value represents the original button ID for the specific system/game
+# you can use the -1 value to unmap a button
+#
+beachspi:
+  analog_dpad_mode: 3
+  btn_a: -1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+clubk2k3:
+  analog_dpad_mode: 0
+  btn_down: -1
+  btn_x: 5
+clubkrt:
+  analog_dpad_mode: 0
+  btn_down: -1
+  btn_x: 5
+initdexp:
+  analog_dpad_mode: 0
+  btn_b: -1
+  btn_down: -1
+  btn_x: 5
+  btn_y: 0
+initdv2j:
+  analog_dpad_mode: 0
+  btn_b: -1
+  btn_down: -1
+  btn_x: 5
+  btn_y: 0
+initdv3e:
+  analog_dpad_mode: 0
+  btn_b: -1
+  btn_down: -1
+  btn_x: 5
+  btn_y: 0
+kingrt66:
+  analog_dpad_mode: 0
+  btn_a: 0
+  btn_b: 1
+  btn_down: -1
+  btn_r: -1
+  btn_x: 5
+  btn_y: 8
+soulsurf:
+  analog_dpad_mode: 0
+  btn_b: 18
+  btn_r: -1
+  btn_y: 11
+  stk_l_x+: 21
+  stk_l_x-: 20
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: 16
+  stk_r_x-: 17
+vf4cart:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: 1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+vf4evoct:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: 1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+vf4tuned:
+  analog_dpad_mode: 3
+  btn_a: 1
+  btn_b: 8
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: 1
+  btn_y: 0
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+vstrik3c:
+  analog_dpad_mode: 3
+  btn_l: -1
+  btn_l2: -1
+  btn_r: -1
+  btn_r2: -1
+  btn_x: -1
+  stk_l_x+: -1
+  stk_l_x-: -1
+  stk_l_y+: -1
+  stk_l_y-: -1
+  stk_r_x+: -1
+  stk_r_x-: -1
+  stk_r_y+: -1
+  stk_r_y-: -1
+wldrider:
+  analog_dpad_mode: 0
+  btn_b: 5
+  btn_down: -1
+  btn_up: -1
+  btn_x: 4
+  btn_y: 20
+  stk_r_x+: -1
+  stk_r_x-: -1
