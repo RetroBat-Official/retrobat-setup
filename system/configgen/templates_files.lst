@@ -9,6 +9,8 @@
 \system\templates\capriceforever\Caprice.ini|\emulators\capriceforever\Caprice.ini
 \system\templates\capriceforever\Device.ini|\emulators\capriceforever\Device.ini
 \system\templates\cemu\settings.xml|\emulators\cemu\settings.xml
+\system\templates\cemu\portable\GraphicPacks.zip|\emulators\cemu\portable\graphicPacks
+\system\templates\cemu\portable\settings.xml|\emulators\cemu\portable\settings.xml
 \system\templates\citra-canary\portable.txt|\emulators\citra-canary\portable.txt
 \system\templates\citra-canary\qt-config.ini|\emulators\citra-canary\user\config\qt-config.ini
 \system\templates\citra\portable.txt|\emulators\citra\portable.txt
@@ -36,6 +38,7 @@
 \system\templates\emulationstation\es_settings.cfg|\emulationstation\.emulationstation\es_settings.cfg
 \system\templates\fbneo\config\fbneo64.ini|\emulators\fbneo\config\fbneo64.ini
 \system\templates\flycast\emu.cfg|\emulators\flycast\emu.cfg
+\system\templates\flycast\nvmem.zip|\emulators\flycast\data
 \system\templates\gemrb\GemRB.cfg|\emulators\gemrb\GemRB.cfg
 \system\templates\gzdoom\gzdoom_portable.ini|\emulators\gzdoom\gzdoom_portable.ini
 \system\templates\hatari\hatari.cfg|\emulators\hatari\hatari.cfg
@@ -100,6 +103,9 @@
 \system\templates\retroarch\custom-shaders-presets.zip|\emulators\retroarch\shaders
 \system\templates\retroarch\retroarch-core-options.cfg|\emulators\retroarch\retroarch-core-options.cfg
 \system\templates\retroarch\retroarch.cfg|\emulators\retroarch\retroarch.cfg
+\system\templates\retroarch\saves\reicast\nvmem_atomiswave.zip|\saves\atomiswave\reicast
+\system\templates\retroarch\saves\reicast\nvmem_naomi.zip|\saves\naomi\reicast
+\system\templates\retroarch\saves\reicast\nvmem.naomi2.zip|\saves\naomi2\reicast
 \system\templates\roms\ports\craft.libretro|\roms\ports\2048.libretro
 \system\templates\roms\ports\craft.libretro|\roms\ports\craft.libretro
 \system\templates\roms\ports\craft.libretro|\roms\ports\gong.libretro

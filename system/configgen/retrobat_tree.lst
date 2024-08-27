@@ -96,6 +96,7 @@ emulators\bigpemu
 emulators\bigpemu\userdata
 emulators\bizhawk
 emulators\cemu
+emulators\cemu\portable
 emulators\citra
 emulators\citra\user
 emulators\citra\user\config
@@ -242,6 +243,8 @@ saves\amiga\winuae
 saves\amstradcpc\capriceforever
 saves\apple2\mednafen
 saves\apple2\mednafen\sstates
+saves\atomiswave
+saves\atomiswave\reicast
 saves\dolphin
 saves\dolphin\Load
 saves\dolphin\Load\ResourcePacks
@@ -273,6 +276,10 @@ saves\mesen
 saves\n64
 saves\n64\games
 saves\n64\sstates
+saves\naomi
+saves\naomi\reicast
+saves\naomi2
+saves\naomi2\reicast
 saves\nes
 saves\nes\mednafen
 saves\nes\mednafen\sstates
