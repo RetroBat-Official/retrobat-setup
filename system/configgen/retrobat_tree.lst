@@ -96,6 +96,7 @@ emulators\bigpemu
 emulators\bigpemu\userdata
 emulators\bizhawk
 emulators\cemu
+emulators\cemu\portable
 emulators\citra
 emulators\citra\user
 emulators\citra\user\config
