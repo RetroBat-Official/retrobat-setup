@@ -213,7 +213,10 @@ emulators\suyu\user\config
 emulators\vpinball
 emulators\xemu
 emulators\xenia
+emulators\xenia\config
 emulators\xenia-canary
+emulators\xenia-canary\config
+emulators\xenia-canary\patches
 emulators\yuzu
 emulators\yuzu-early-access
 emulators\yuzu-early-access\user
