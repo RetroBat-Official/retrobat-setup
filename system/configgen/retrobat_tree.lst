@@ -305,9 +305,8 @@ saves\ps3\rpcs3\dev_hdd0
 saves\ps3\rpcs3\dev_hdd0\disc
 saves\ps3\rpcs3\dev_hdd0\game
 saves\psp
-saves\psp\PSP
-saves\psp\PSP\SYSTEM
-saves\psp\PSP\TEXTURES
+saves\psp\SYSTEM
+saves\psp\TEXTURES
 saves\psvita\vita3k
 saves\psvita\vita3k\ux0
 saves\psvita\vita3k\ux0\user

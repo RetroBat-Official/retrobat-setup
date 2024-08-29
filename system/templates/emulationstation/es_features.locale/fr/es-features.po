@@ -6397,10 +6397,6 @@ msgid "Deposterize fixes small in-texture glitches that may happen when the text
 msgstr "Permet de corriger les erreurs pouvant survenir lors de la mise à l'échelle des textures."
 
 msgctxt "game_options"
-msgid "Replace original textures with custom textures pack (\saves\psp\PSP\TEXTURES\%GAMEID%)."
-msgstr "Remplacer les textures originales par un pack de texture personnalisé (placé dans \saves\psp\PSP\TEXTURES\%GAMEID%)."
-
-msgctxt "game_options"
 msgid "Replace original textures with custom textures pack (\saves\psp\TEXTURES\%GAMEID%)."
 msgstr "Remplacer les textures originales par un pack de texture personnalisé (placé dans \saves\psp\TEXTURES\%GAMEID%)."
 
