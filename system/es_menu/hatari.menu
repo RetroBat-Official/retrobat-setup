@@ -1,1 +1,2 @@
 \hatari\hatari.exe
+-c ".\hatari.cfg"
