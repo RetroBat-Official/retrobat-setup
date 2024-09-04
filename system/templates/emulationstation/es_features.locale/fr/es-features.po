@@ -2693,12 +2693,8 @@ msgid "Configure this setting if you want to switch between stereo and surround 
 msgstr "Permet de choisir un format surround lorsque du matériel compatible est utilisé."
 
 msgctxt "game_options"
-msgid "ENABLE TIME STRETCHING"
+msgid "TIME STRETCHING"
 msgstr "ÉTIREMENT TEMPOREL"
-
-msgctxt "game_options"
-msgid "TIME STRETCHING THRESHOLD"
-msgstr "SEUIL D'ÉTIREMENT TEMPOREL"
 
 msgctxt "game_options"
 msgid "Reduces crackle and stutter, but may cause a very noticeable reduction in audio quality on slower CPUs, leave AUTO to disable."
@@ -6755,10 +6751,6 @@ msgstr ""
 msgctxt "game_options"
 msgid "SCALE 4X"
 msgstr ""
-
-msgctxt "game_options"
-msgid "Base resolution of 100% is 1280x720."
-msgstr "La résolution de base (100%) est 1280x720."
 
 msgctxt "game_options"
 msgid "SCANLINE 3X"
