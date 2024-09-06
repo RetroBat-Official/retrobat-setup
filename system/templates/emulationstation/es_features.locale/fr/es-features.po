@@ -1354,6 +1354,10 @@ msgid "INTERNAL RESOLUTION"
 msgstr "RÉSOLUTION INTERNE"
 
 msgctxt "game_options"
+msgid "INTERNAL GAME RESOLUTION"
+msgstr "RÉSOLUTION INTERNE DU JEU"
+
+msgctxt "game_options"
 msgid "REDUCE SPRITE FLICKERING"
 msgstr "RÉDUIRE LE SCINTILLEMENT DES SPRITES"
 
