@@ -185,6 +185,8 @@ emulators\raine
 emulators\raine\config
 emulators\redream
 emulators\retroarch
+emulators\retroarch\config
+emulators\retroarch\config\MAME
 emulators\retroarch\shaders
 emulators\rpcs3
 emulators\rpcs3\config
