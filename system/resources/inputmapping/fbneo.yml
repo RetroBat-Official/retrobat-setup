@@ -8065,4 +8065,1664 @@ mtlchamp:
   Button 2: a
   Button 3: b
   Service 1: rightstick
-#KONAMI nemesis
+nemesis:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+bubsys:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+gradiusb:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+twinbeeb:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+salamand:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+lifefrce:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+lifefrcej:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+twinbee:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+gradius:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+gwarrior:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+kittenk:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+nyanpani:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+blkpnthr:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+citybomb:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+konamigt:
+  players: 1
+  Coin: back
+  Accelerator: righttrigger
+  Brake: lefttrigger
+  Gear Shift: rightshoulder
+  Wheel: leftx_axis
+  Service: rightstick
+rf2:
+  players: 1
+  Coin: back
+  Accelerator: righttrigger
+  Brake: lefttrigger
+  Gear Shift: rightshoulder
+  Wheel: leftx_axis
+  Service: rightstick
+hcrash:
+  players: 1
+  Coin: back
+  Start: start
+  Accelerator: righttrigger
+  Jump: x
+  Brake: lefttrigger
+  Wheel: leftx_axis
+  Service: rightstick
+pandoras:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Service: rightstick
+parodius:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+pingpong:
+  players: 2
+  Coin: back
+  Start: start
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+merlinmm:
+  players: 1
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+cashquiz:
+  players: 2
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Button 4: y
+  Button 5: leftshoulder
+pooyan:
+  players: 12
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Button: x
+  Service: rightstick
+pootan:
+  players: 12
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Button: x
+  Service: rightstick
+rockrage:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+rocnrope:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+ropeman:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+rollerg:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+sbasket:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+scotrsht:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Service: rightstick
+kicker:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+shaolins:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+shaolinb:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+simpsons:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+simpsons2p:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+spy:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+spyu:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+suratk:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+scontra:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+thunderx:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+timeplt:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Service: rightstick
+spaceplt:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Service: rightstick
+psurge:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Service: rightstick
+chkun:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Start: start
+  Button 1: x
+  Bet 1B: a
+  Bet 2B: b
+  Bet 3B: y
+  Bet HR: leftshoulder
+  Keyout: rightshoulder
+bikkuric:
+  players: 1
+  noplayer: 1
+  Coin 1: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: a
+  Keyout: b
+tmnt:
+  players: 4
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+tmht:
+  players: 4
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+tmht2p:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+tmnt2p:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+mia:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Fire 3: b
+  Service: rightstick
+mia2:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Fire 3: b
+  Service: rightstick
+cuebrick:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Fire 3: b
+  Service: rightstick
+blswhstl:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service: rightstick
+detatwin:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service: rightstick
+ssriders:
+  players: 4
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+tmnt2:
+  players: 4
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+ssridersebd:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+ssridersebc:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+ssridersubc:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+ssridersabd:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+ssridersjbd:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+tmnt22pu:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+tmnt24pu:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+tmht22pe:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+tmht24pe:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+ssridersuda:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+ssriderseaa:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+ssridersadd:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+ssridersb:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+tmnt2a:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+  Service 1: rightstick
+thndrx2:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+lgtnfght:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+trigon:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+qgakumon:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Button 4: y
+  Push: rightshoulder
+  Service: rightstick
+punkshot:
+  players: 4
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service 1: rightstick
+punkshot2:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+punkshotj:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+tp84:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+trackfld:
+  players: 4
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+trackfldc:
+  players: 4
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+trackfldu:
+  players: 4
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+hyprolym:
+  players: 4
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+hyprolyma:
+  players: 4
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+trackfldnz:
+  players: 4
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+hyprolymb:
+  players: 4
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+hyprolymba:
+  players: 4
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+hipoly:
+  players: 4
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+atlantol:
+  players: 4
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+yieartf:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+reaktor:
+  players: 1
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Service: rightstick
+wizzquiz:
+  players: 2
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Button 4: y
+  Button 5: leftshoulder
+  Service: rightstick
+mastkin:
+  players: 1
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+tutankhm:
+  players: 2
+  Coin: back
+  Start: start
+  Left Stick Up: lefty_up
+  Left Stick Down: lefty_down
+  Left Stick Left: leftx_left
+  Left Stick Right: leftx_right
+  Right Stick Left: rightx_left
+  Right Stick Right: rightx_right
+  Flash Bomb: a
+  Service: rightstick
+vulcan:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+vulcana:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+vulcanb:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+gradius2:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+devilw:
+  players: 2
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+majuu:
+  players: 2
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+darkadv:
+  players: 3
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service 1: rightstick
+ultraman:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+vendetta:
+  players: 4
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service 1: rightstick
+vendettar:
+  players: 4
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service 1: rightstick
+vendettaz:
+  players: 4
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service 1: rightstick
+vendettaun:
+  players: 4
+  Coin: back
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service 1: rightstick
+vendetta2p:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service: rightstick
+esckids:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service 1: rightstick
+esckidsj:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service 1: rightstick
+wecleman:
+  players: 1
+  Coin: back
+  Start: start
+  Steering: leftx_axis
+  Accelerator: righttrigger
+  Brake: lefttrigger
+  Gear Shift: rightshoulder
+  Service 1: rightstick
+hotchase:
+  players: 1
+  Coin: back
+  Start: start
+  Steering: leftx_axis
+  Accelerator: righttrigger
+  Brake: lefttrigger
+  Gear Shift: rightshoulder
+  Service 1: rightstick
+xexex:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service 1: rightstick
+orius:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Service 1: rightstick
+xmen:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+xmenu:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+xmenua:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+xmena:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+xmenaa:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+xmenj:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+xmenja:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+xmen2p:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service 1: rightstick
+xmen6p:
+  players: 6
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+yiear:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+kinst:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: a
+  Button 2: b
+  Button 3: x
+  Button 4: y
+  Button 5: leftshoulder
+  Button 6: rightshoulder
+  Service: rightstick
+mk:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: leftshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Block 2: rightshoulder
+  Service: rightstick
+mkr4:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: leftshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Block 2: rightshoulder
+  Service: rightstick
+mktturbo:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: leftshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Block 2: rightshoulder
+  Service: rightstick
+mk2:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: leftshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Block 2: rightshoulder
+  Service: rightstick
+mk2r3:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: leftshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Block 2: rightshoulder
+  Service: rightstick
+mk2r2:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: leftshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Block 2: rightshoulder
+  Service: rightstick
+mk2r1:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: leftshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Block 2: rightshoulder
+  Service: rightstick
+mk2r4:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: leftshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Block 2: rightshoulder
+  Service: rightstick
+mk2r9:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: leftshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Block 2: rightshoulder
+  Service: rightstick
+mk2chal:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: leftshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Block 2: rightshoulder
+  Service: rightstick
+mk2ute:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: leftshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Block 2: rightshoulder
+  Service: rightstick
+mk2p:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: leftshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Block 2: rightshoulder
+  Service: rightstick
+nbajam:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+jdreddp:
+  players: 3
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: a
+  Button 2: b
+  Button 3: x
+  Button 4: y
+  Service: rightstick
+mk3:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: rightshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Run: leftshoulder
+  Service: rightstick
+mk3r:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: rightshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Run: leftshoulder
+  Service: rightstick
+umk3:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: rightshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Run: leftshoulder
+  Service: rightstick
+mk3p:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  High Punch: y
+  Block: rightshoulder
+  High Kick: b
+  Low Punch: x
+  Low Kick: a
+  Run: leftshoulder
+  Service: rightstick
+openice:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+nbahang:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+nbamht:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+rmpgwt:
+  players: 3
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+wwfmania:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: a
+  Button 2: b
+  Button 3: x
+  Button 4: y
+  Button 5: rightshoulder
+  Service: rightstick
+wwfmanac:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: a
+  Button 2: b
+  Button 3: x
+  Button 4: y
+  Button 5: rightshoulder
+  Service: rightstick
+revx:
+  players: 3
+  Coin: back
+  Start: start
+  Button 1: x
+  Button 2: a
+  Gun X: mouseaxis 0
+  Gun Y: mouseaxis 1
+  Service: rightstick
+#midway d_yunit
