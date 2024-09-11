@@ -3709,6 +3709,10 @@ msgid "Automatically skip frames to improve performance (smoothless)."
 msgstr "Amélioration des performances en activant un saut d'image automatique."
 
 msgctxt "game_options"
+msgid "Increase the number of sprites that can be drawn simultaneously on screen."
+msgstr "Augmenter le nombre de sprites pouvant être dessinés simultanément à l'écran."
+
+msgctxt "game_options"
 msgid "WIDESCREEN CHEATS"
 msgstr "CODE ÉCRAN LARGE"
 
@@ -8637,8 +8641,12 @@ msgid "BLOCK INVALID VRAM ACCESS"
 msgstr "BLOQUER LES ACCÈS VRAM INVALIDES"
 
 msgctxt "game_options"
-msgid "Some homebrew or roms hacks need this option to be disabled."
-msgstr "Doit être désactivé pour certains jeux 'homebrew'."
+msgid "Some homebrew or roms hacks need this option to be enabled."
+msgstr "Activer pour certains homebrew ou hacks."
+
+msgctxt "game_options"
+msgid "ECHO BUFFER HACK"
+msgstr "HACK DU TAMPON ÉCHO"
 
 msgctxt "game_options"
 msgid "Remove n pixels borders at the top and bottom of the screen."
@@ -9539,3 +9547,11 @@ msgstr "MONTER LE CACHE"
 msgctxt "game_options"
 msgid "'Triple-buffer' and 'match emulated content' are only available with Vulkan video driver."
 msgstr "Les valeurs 'Triple-tampon' et 'Faire correspondre...' ne fonctionnent qu'avec le pilote graphique VULKAN."
+
+msgctxt "game_options"
+msgid "UNSAFE HACKS"
+msgstr "HACKS DANGEREUX"
+
+msgctxt "game_options"
+msgid "Disable core safety features in order to enable some homebrew games to launch."
+msgstr "Désactive les options de sécurité de l'émulateur pour faire tourner certains Homebrews.."
