@@ -2,6 +2,219 @@
   "Comments": "Do not use space but replace with '__'",
   "Controllers": [
     {
+        "Emulator": "ares",
+        "Name": "8BitDo M30 xinput",
+        "Guid": "030000005e040000e002000000007200",
+        "Driver": "SDL",
+        "Mapping": {
+            "Pad.Up": "0/1/Lo",
+            "Pad.Down": "0/1/Hi",
+            "Pad.Left": "0/0/Lo",
+            "Pad.Right": "0/0/Hi",
+            "Select": "3/6",
+            "Start": "3/7",
+            "A..South": "3/1",
+            "B..East": "0/5/Hi",
+            "X..West": "3/0",
+            "Y..North": "3/3",
+            "L-Bumper": "3/2",
+            "R-Bumper": "3/5"
+        }
+    },
+    {
+        "Emulator": "ares",
+        "Name": "8BitDo M30 dinput",
+        "Guid": "03000000c82d00005106000000000000",
+        "Driver": "SDL",
+        "Mapping": {
+            "Pad.Up": "0/1/Lo",
+            "Pad.Down": "0/1/Hi",
+            "Pad.Left": "0/0/Lo",
+            "Pad.Right": "0/0/Hi",
+            "Select": "3/10",
+            "Start": "3/11",
+            "A..South": "3/1",
+            "B..East": "3/7",
+            "X..West": "3/0",
+            "Y..North": "3/4",
+            "L-Bumper": "3/3",
+            "R-Bumper": "3/6"
+        }
+    },
+    {
+        "Emulator": "ares",
+        "Name": "8BitDo M30 switch",
+        "Guid": "030000007e0500000920000000006803",
+        "Driver": "SDL",
+        "Mapping": {
+            "Pad.Up": "0/1/Lo",
+            "Pad.Down": "0/1/Hi",
+            "Pad.Left": "0/0/Lo",
+            "Pad.Right": "0/0/Hi",
+            "Select": "3/4",
+            "Start": "3/6",
+            "A..South": "3/1",
+            "B..East": "3/10",
+            "X..West": "3/0",
+            "Y..North": "3/3",
+            "L-Bumper": "3/2",
+            "R-Bumper": "3/9"
+        }
+    },
+    {
+        "Emulator": "bizhawk",
+        "Name": "8BitDo M30 xinput",
+        "Guid": "030000005e040000e002000000007200",
+        "Mapping": {
+            "Up": "LStickUp",
+            "Down": "LStickDown",
+            "Left": "LStickLeft",
+            "Right": "LStickRight",
+            "A": "A",
+            "B": "B",
+            "C": "RightTrigger",
+            "Start": "Start",
+            "X": "X",
+            "Y": "Y",
+            "Z": "RightShoulder",
+            "Mode": "Back"
+        },
+        "ControllerInfo": {
+            "dinput": "false"
+        }
+    },
+    {
+        "Emulator": "bizhawk",
+        "Name": "8BitDo M30 dinput",
+        "Guid": "03000000c82d00005106000000000000",
+        "Mapping": {
+            "Up": "LStickUp",
+            "Down": "LStickDown",
+            "Left": "LStickLeft",
+            "Right": "LStickRight",
+            "A": "A",
+            "B": "B",
+            "C": "RightShoulder",
+            "Start": "Start",
+            "X": "X",
+            "Y": "Y",
+            "Z": "LeftShoulder",
+            "Mode": "Back"
+        },
+        "ControllerInfo": {
+            "dinput": "false"
+        }
+    },
+    {
+        "Emulator": "bizhawk",
+        "Name": "8BitDo M30 switch",
+        "Guid": "030000007e0500000920000000006803",
+        "Mapping": {
+            "Up": "LStickUp",
+            "Down": "LStickDown",
+            "Left": "LStickLeft",
+            "Right": "LStickRight",
+            "A": "A",
+            "B": "B",
+            "C": "RightShoulder",
+            "Start": "Start",
+            "X": "X",
+            "Y": "Y",
+            "Z": "LeftShoulder",
+            "Mode": "Back"
+        },
+        "ControllerInfo": {
+            "dinput": "false"
+        }
+    },
+    {
+        "Emulator": "jgenesis",
+        "Name": "8BitDo M30 xinput",
+        "Guid": "030000005e040000e002000000007200",
+        "Driver": "xinput",
+        "Mapping": {
+            "up": "Axis_1_Negative",
+            "left": "Axis_0_Negative",
+            "right": "Axis_0_Positive",
+            "down": "Axis_1_Positive",
+            "a": "Button_0",
+            "b": "Button_1",
+            "c": "Axis_5_Negative",
+            "x": "Button_2",
+            "y": "Button_3",
+            "z": "Button_5",
+            "start": "Button_7",
+            "mode": "Button_6"
+        }
+    },
+    {
+        "Emulator": "jgenesis",
+        "Name": "8BitDo M30 dinput",
+        "Guid": "03000000c82d00005106000000000000",
+        "Driver": "dinput",
+        "Mapping": {
+            "up": "Axis_1_Negative",
+            "left": "Axis_0_Negative",
+            "right": "Axis_0_Positive",
+            "down": "Axis_1_Positive",
+            "a": "Button_0",
+            "b": "Button_1",
+            "c": "Button_7",
+            "x": "Button_3",
+            "y": "Button_4",
+            "z": "Button_6",
+            "start": "Button_11",
+            "mode": "Button_10"
+        }
+    },
+    {
+        "Emulator": "jgenesis",
+        "Name": "8BitDo M30 switch",
+        "Guid": "030000007e0500000920000000006803",
+        "Driver": "sdl",
+        "Mapping": {
+            "up": "Axis_1_Negative",
+            "left": "Axis_0_Negative",
+            "right": "Axis_0_Positive",
+            "down": "Axis_1_Positive",
+            "a": "Button_0",
+            "b": "Button_1",
+            "c": "Button_10",
+            "x": "Button_2",
+            "y": "Button_3",
+            "z": "Button_9",
+            "start": "Button_6",
+            "mode": "Button_4"
+        }
+    },
+    {
+        "Emulator": "kega-fusion",
+        "Name": "8BitDo M30 xinput",
+        "Guid": "030000005e040000e002000000007200",
+        "Driver": "",
+        "Mapping": {
+            "buttons": "34,35,32,33,0,1,36,7,2,3,5,6,8,9,10,11"
+        }
+    },
+    {
+        "Emulator": "kega-fusion",
+        "Name": "8BitDo M30 dinput",
+        "Guid": "03000000c82d00005106000000000000",
+        "Driver": "",
+        "Mapping": {
+            "buttons": "34,35,32,33,0,1,7,11,3,4,6,10,8,9,10,11"
+        }
+    },
+    {
+        "Emulator": "kega-fusion",
+        "Name": "8BitDo M30 switch",
+        "Guid": "030000007e0500000920000000006803",
+        "Driver": "",
+        "Mapping": {
+            "buttons": "34,35,32,33,1,0,5,9,3,2,4,8,8,9,10,11"
+        }
+    },
+    {
         "Emulator": "mednafen",
         "Name": "8BitDo M30 xinput",
         "Guid": "030000005e040000e002000000007200",
