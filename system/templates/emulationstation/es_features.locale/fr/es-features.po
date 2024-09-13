@@ -9555,3 +9555,7 @@ msgstr "HACKS DANGEREUX"
 msgctxt "game_options"
 msgid "Disable core safety features in order to enable some homebrew games to launch."
 msgstr "Désactive les options de sécurité de l'émulateur pour faire tourner certains Homebrews.."
+
+msgctxt "game_options"
+msgid "USE GENESIS-LIKE CONTROLLER"
+msgstr "CONTRÔLEUR DE TYPE MEGADRIVE"
