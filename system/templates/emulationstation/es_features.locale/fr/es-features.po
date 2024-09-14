@@ -9559,3 +9559,7 @@ msgstr "Désactive les options de sécurité de l'émulateur pour faire tourner 
 msgctxt "game_options"
 msgid "USE GENESIS-LIKE CONTROLLER"
 msgstr "CONTRÔLEUR DE TYPE MEGADRIVE"
+
+msgctxt "game_options"
+msgid "USE SATURN-LIKE CONTROLLER"
+msgstr "CONTRÔLEUR DE TYPE SATURN"
