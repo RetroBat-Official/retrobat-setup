@@ -2421,6 +2421,10 @@ msgid "Use 8mhz for better compatibility."
 msgstr "Utiliser 8mhz pour une compatibilité optimale."
 
 msgctxt "game_options"
+msgid "CPU CLOCK SPEED"
+msgstr "FRÉQUENCE CPU"
+
+msgctxt "game_options"
 msgid "This option sets the CPU clock speed of the emulated PC."
 msgstr "Fréquence du processeur de la machine émulée."
 
@@ -2511,6 +2515,10 @@ msgstr "Modifier la sensibilité du stick analogique."
 msgctxt "game_options"
 msgid "ANALOG DEADZONE(CORE)"
 msgstr "ZONE MORTE ANALOGIQUE(CORE)"
+
+msgctxt "game_options"
+msgid "ANALOG MOUSE DEADZONE"
+msgstr "ZONE MORTE ANALOGIQUE SOURIS"
 
 msgctxt "game_options"
 msgid "USE DIGITAL TRIGGERS"
@@ -3535,6 +3543,10 @@ msgstr "OVERCLOCKING CPU"
 msgctxt "game_options"
 msgid "Force the frequency of the emulated CPU. Can reduce slowdown, but may cause glitches."
 msgstr "Force la fréquence du processeur émulé. Peut réduire les ralentissements, mais peut aussi rendre le système instable."
+
+msgctxt "game_options"
+msgid "Force the frequency of the emulated CPU. Can reduce slowdown, but may cause glitches. Default is 57%."
+msgstr "Force la fréquence du processeur émulé. Peut réduire les ralentissements, mais peut aussi rendre le système instable. 57% par défaut."
 
 msgctxt "game_options"
 msgid "ENABLE HISCORES"
@@ -5009,8 +5021,20 @@ msgid "CROP SIZE"
 msgstr "TAILLE DE LA ZONE ROGNÉE"
 
 msgctxt "game_options"
+msgid "CROP SIZE SIDES"
+msgstr "TAILLE DE LA ZONE ROGNÉE (CÔTÉS)"
+
+msgctxt "game_options"
+msgid "CROP SIZE TOP/BOTTOM"
+msgstr "TAILLE DE LA ZONE ROGNÉE (HAUT/BAS)"
+
+msgctxt "game_options"
 msgid "Define the number of pixels to crop (20px and 24px only available for bottom/top)."
 msgstr "Définir le nombre de pixels à rogner (les valeurs 20px et 24px ne sont disponibles que pour le haut et le bas)."
+
+msgctxt "game_options"
+msgid "Define the number of pixels to crop."
+msgstr "Définir le nombre de pixels à rogner."
 
 msgctxt "game_options"
 msgid "CROP AREA"
@@ -6659,6 +6683,10 @@ msgstr ""
 msgctxt "game_options"
 msgid "FLOPPY SOUND"
 msgstr "SON DISQUETTE"
+
+msgctxt "game_options"
+msgid "CPU MODEL"
+msgstr "MODÈLE de CPU"
 
 msgctxt "game_options"
 msgid "Set the volume of the emulated floppy sound."
@@ -9599,3 +9627,7 @@ msgstr "MODE7: DÉSACTIVER CORRECTION DE LA PERSPECTIVE"
 msgctxt "game_options"
 msgid "Enabled by default."
 msgstr "Activé par défaut."
+
+msgctxt "game_options"
+msgid "Disables joypad rumble, by default rumble is only enabled when game and controller are compatible."
+msgstr "Désactiver les vibrations, par défaut elles ne sont activées que lorsque le jeu est compatible."
