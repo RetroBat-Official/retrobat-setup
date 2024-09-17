@@ -730,6 +730,14 @@ msgid "RUN-AHEAD FRAMES"
 msgstr "NOMBRE D'IMAGES EN AVANCE"
 
 msgctxt "game_options"
+msgid "RUN-AHEAD FRAMES (CORE)"
+msgstr "NOMBRE D'IMAGES EN AVANCE (COEUR)"
+
+msgctxt "game_options"
+msgid "Use this setting to reduce input lag."
+msgstr "Permet de réduire l'input lag."
+
+msgctxt "game_options"
 msgid "ENABLE RUN-AHEAD"
 msgstr "ACTIVER LE SAUT D'IMAGE"
 
@@ -1306,6 +1314,10 @@ msgid "Config"
 msgstr "Configuration"
 
 msgctxt "game_options"
+msgid "Can be used to disable BIOS md5 check in case a custom bios is used."
+msgstr "Permet de désactiver la vérification de bios."
+
+msgctxt "game_options"
 msgid "Square pixel"
 msgstr "Pixel carré"
 
@@ -1350,8 +1362,8 @@ msgid "Autodetect"
 msgstr "Détection automatique"
 
 msgctxt "game_options"
-msgid "SIO ACCELERATION"
-msgstr "ACCÉLÉRATION SIO"
+msgid "DISABLE SIO ACCELERATION"
+msgstr "DÉSACTIVER L'ACCÉLÉRATION SIO"
 
 msgctxt "game_options"
 msgid "INTERNAL RESOLUTION"
@@ -2329,8 +2341,8 @@ msgid "Choose which Atari system to emulate."
 msgstr "Choix de la machine Atari à émuler."
 
 msgctxt "game_options"
-msgid "Improve data transfert of emulated SIO port."
-msgstr "Améliorer le transfert de données des ports SIO émulés."
+msgid "Enabled by default, improve data transfer of emulated SIO port."
+msgstr "Activé par défaut, améliore le transfert de données des ports SIO émulés."
 
 msgctxt "game_options"
 msgid "SCREEN LAYOUT POSITIONING"
@@ -2479,6 +2491,10 @@ msgstr "ZONE MORTE DES GÂCHETTES ANALOGIQUE"
 msgctxt "game_options"
 msgid "ANALOG SENSITIVITY"
 msgstr "SENSIBILITÉ ANALOGIQUE"
+
+msgctxt "game_options"
+msgid "ANALOG SENSITIVITY(CORE)"
+msgstr "SENSIBILITÉ ANALOGIQUE(CORE)"
 
 msgctxt "game_options"
 msgid "ANALOG STICK SENSITIVITY"
@@ -8901,8 +8917,20 @@ msgid "USE HARDWARE RENDERER"
 msgstr "ACTIVER LE RENDU MATÉRIEL"
 
 msgctxt "game_options"
+msgid "DISABLE HARDWARE RENDERER"
+msgstr "DÉSACTIVER LE RENDU MATÉRIEL"
+
+msgctxt "game_options"
+msgid "USE SOFTWARE RENDERER"
+msgstr "UTILISER LE RENDU LOGICIEL"
+
+msgctxt "game_options"
 msgid "Enable hardware renderer, might brake compatibility."
 msgstr "Activer le rendu matériel, peut casser la compatibilité."
+
+msgctxt "game_options"
+msgid "Disable hardware renderer, can increase compatibility."
+msgstr "Désactiver le rendu matériel, peut améliorer la compatibilité."
 
 msgctxt "game_options"
 msgid "RIGHT STICK FUNCTION"
@@ -8933,8 +8961,8 @@ msgid "Display a small pointer on touchscreen."
 msgstr "Afficher un pointeur sur l'écran tactile émulé."
 
 msgctxt "game_options"
-msgid "ENABLE VIRTUAL SD CARD"
-msgstr "CARTE SD VIRTUELLE"
+msgid "DISABLE VIRTUAL SD CARD"
+msgstr "DÉSACTIVER CARTE SD VIRTUELLE"
 
 msgctxt "game_options"
 msgid "WII ASPECT RATIO"
@@ -9559,3 +9587,15 @@ msgstr "Désactive les options de sécurité de l'émulateur pour faire tourner 
 msgctxt "game_options"
 msgid "USE GENESIS-LIKE CONTROLLER"
 msgstr "CONTRÔLEUR DE TYPE MEGADRIVE"
+
+msgctxt "game_options"
+msgid "USE SATURN-LIKE CONTROLLER"
+msgstr "CONTRÔLEUR DE TYPE SATURN"
+
+msgctxt "game_options"
+msgid "DISABLE MODE 7 PERSPECTIVE CORRECTION"
+msgstr "MODE7: DÉSACTIVER CORRECTION DE LA PERSPECTIVE"
+
+msgctxt "game_options"
+msgid "Enabled by default."
+msgstr "Activé par défaut."
