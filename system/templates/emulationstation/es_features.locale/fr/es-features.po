@@ -302,6 +302,10 @@ msgid "UPSCALE FILTER"
 msgstr "FILTRE DE MISE À L'ÉCHELLE"
 
 msgctxt "game_options"
+msgid "PRESCALING"
+msgstr "MISE À L'ÉCHELLE AMONT"
+
+msgctxt "game_options"
 msgid "Specify filter to use for upscaling."
 msgstr "Spécifier le filtre à utiliser pour la mise à l'échelle."
 
@@ -3541,6 +3545,10 @@ msgid "CPU OVERCLOCK"
 msgstr "OVERCLOCKING CPU"
 
 msgctxt "game_options"
+msgid "DOUBLE Z80 CPU SPEED"
+msgstr "DOUBLER LA FRÉQUENCE CPU Z80"
+
+msgctxt "game_options"
 msgid "Force the frequency of the emulated CPU. Can reduce slowdown, but may cause glitches."
 msgstr "Force la fréquence du processeur émulé. Peut réduire les ralentissements, mais peut aussi rendre le système instable."
 
@@ -5025,6 +5033,18 @@ msgid "CROP SIZE SIDES"
 msgstr "TAILLE DE LA ZONE ROGNÉE (CÔTÉS)"
 
 msgctxt "game_options"
+msgid "CROP LEFT"
+msgstr "ROGNER À GAUCHE"
+
+msgctxt "game_options"
+msgid "ADJUST ASPECT FOR DOUBLE-SCREEN GAMES"
+msgstr "AJUSTER L'ASPECT POUR LES JEUX DOUBLE-ÉCRAN"
+
+msgctxt "game_options"
+msgid "CROP VERTICAL"
+msgstr "ROGNER HAUT/BAS"
+
+msgctxt "game_options"
 msgid "CROP SIZE TOP/BOTTOM"
 msgstr "TAILLE DE LA ZONE ROGNÉE (HAUT/BAS)"
 
@@ -5969,6 +5989,14 @@ msgid "ADJUST GAMMA"
 msgstr "AJUSTER LE GAMMA"
 
 msgctxt "game_options"
+msgid "ADJUST LUMINANCE"
+msgstr "AJUSTER LA LUMINOSITÉ"
+
+msgctxt "game_options"
+msgid "ADJUST SATURATION"
+msgstr "AJUSTER LA SATURATION"
+
+msgctxt "game_options"
 msgid "Use this setting to decrease or increase gamma, not compatible with 'gdi' video driver."
 msgstr "Augmenter ou diminuer la courbe gamma, incompatible avec le pilote vidéo 'gdi'."
 
@@ -6693,6 +6721,10 @@ msgid "Set the volume of the emulated floppy sound."
 msgstr "Définir le volume du son des disquettes émulées."
 
 msgctxt "game_options"
+msgid "Disabling the 4MB expansion RAM pack may be necessary for some games."
+msgstr "L'extension mémoire doit être désactivée pour certains jeux."
+
+msgctxt "game_options"
 msgid "WHDLOAD SPLASH SCREEN"
 msgstr "ÉCRAN D'ACCUEIL WHDLOAD"
 
@@ -7315,6 +7347,10 @@ msgstr "La plupart des jeux n'ont besoin d'enregistrer les copies d'EFB que vers
 msgctxt "game_options"
 msgid "SCALED EFB COPY (HACK)"
 msgstr "COPIE À L'ÉCHELLE DE L'EFB (HACK)"
+
+msgctxt "game_options"
+msgid "ENABLE 4MB RAM PACK"
+msgstr "ACTIVER EXTENSION RAM 4MB"
 
 msgctxt "game_options"
 msgid "Greatly inscrease the quality of textures generated using render-to-texture effects. Enabled by default. Disabling it may avoid crashes for games using custom textures."
