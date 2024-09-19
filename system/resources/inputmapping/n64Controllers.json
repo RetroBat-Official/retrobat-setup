@@ -5,6 +5,7 @@
         "Emulator": "libretro",
         "Name": "Nintendo Switch Online N64 Controller",
         "Guid": "030000007e050000192000000000680c",
+        "Driver": "",
         "Mapping": {
             "analog_dpad_mode": "0",
             "b_btn": "1",
@@ -50,6 +51,7 @@
         "Emulator": "ares",
         "Name": "Nintendo Switch Online N64 Controller",
         "Guid": "030000007e050000192000000000680c",
+        "Driver": "",
         "Mapping": {
             "Pad.Up": "3/11",
             "Pad.Down": "3/12",
@@ -81,6 +83,7 @@
         "Emulator": "bizhawk",
         "Name": "Nintendo Switch Online N64 Controller",
         "Guid": "030000007e050000192000000000680c",
+        "Driver": "",
         "Mapping": {
             "A__Up": "X__AxisUp",
             "A__Down": "X__AxisDown",
@@ -111,6 +114,7 @@
         "Emulator": "mupen64",
         "Name": "Nintendo Switch Online N64 Controller",
         "Guid": "030000007e050000192000000000680c",
+        "Driver": "",
         "Mapping": {
             "A_InputType": "0",
             "A_Name": "a",
@@ -224,6 +228,7 @@
         "Emulator": "simple64",
         "Name": "Nintendo Switch Online N64 Controller",
         "Guid": "030000007e050000192000000000680c",
+        "Driver": "",
         "Mapping": {
             "A": "\"0,4\"",
             "B": "\"1,4\"",
@@ -249,6 +254,7 @@
         "Emulator": "libretro",
         "Name": "Mayflash N64 Adapter",
         "Guid": "03000000d620000010a7000000000000",
+        "Driver": "",
         "Mapping": {
             "b_btn": "1",
             "a_axis": "+3",
@@ -294,6 +300,7 @@
         "Emulator": "ares",
         "Name": "Mayflash N64 Adapter",
         "Guid": "03000000d620000010a7000000000000",
+        "Driver": "",
         "Mapping": {
             "Pad.Up": "1/1/Lo",
             "Pad.Down": "1/1/Hi",
@@ -325,6 +332,7 @@
         "Emulator": "bizhawk",
         "Name": "Mayflash N64 Adapter",
         "Guid": "03000000d620000010a7000000000000",
+        "Driver": "",
         "Mapping": {
             "A__Up": "X__AxisUp",
             "A__Down": "X__AxisDown",
@@ -355,6 +363,7 @@
         "Emulator": "mupen64",
         "Name": "Mayflash N64 Adapter",
         "Guid": "03000000d620000010a7000000000000",
+        "Driver": "",
         "Mapping": {
             "DeviceName": "Mayflash Magic NS",
             "A_InputType": "0",
@@ -469,6 +478,7 @@
         "Emulator": "simple64",
         "Name": "Mayflash N64 Adapter",
         "Guid": "03000000d620000010a7000000000000",
+        "Driver": "",
         "Mapping": {
             "A": "\"1,4\"",
             "B": "\"2,4\"",
@@ -494,6 +504,7 @@
         "Emulator": "libretro",
         "Name": "Raphnet N64 Adapter",
         "Guid": "030000009b2800006300000000000000,030000009b2800006100000000000000",
+        "Driver": "",
         "Mapping": {
             "a_btn": "7",
             "b_btn": "0",
@@ -537,6 +548,7 @@
         "Emulator": "ares",
         "Name": "Raphnet N64 Adapter",
         "Guid": "030000009b2800006300000000000000,030000009b2800006100000000000000",
+        "Driver": "",
         "Mapping": {
             "Pad.Up": "3/10",
             "Pad.Down": "3/11",
@@ -568,6 +580,7 @@
         "Emulator": "bizhawk",
         "Name": "Raphnet N64 Adapter",
         "Guid": "030000009b2800006300000000000000,030000009b2800006100000000000000",
+        "Driver": "",
         "Mapping": {
             "A__Up": "Y-",
             "A__Down": "Y+",
@@ -598,6 +611,7 @@
         "Emulator": "mupen64",
         "Name": "Raphnet N64 Adapter",
         "Guid": "030000009b2800006300000000000000,030000009b2800006100000000000000",
+        "Driver": "",
         "Mapping": {
             "DeviceName": "Raphnet N64 Adapter",
             "A_InputType": "0",
@@ -712,6 +726,7 @@
         "Emulator": "simple64",
         "Name": "Raphnet N64 Adapter",
         "Guid": "030000009b2800006300000000000000,030000009b2800006100000000000000",
+        "Driver": "",
         "Mapping": {
             "A": "\"0,4\"",
             "B": "\"1,4\"",
@@ -735,8 +750,9 @@
     },
     {
         "Emulator": "libretro",
-        "Name": "SWITCH CO.LTD. Usb Controller",
+        "Name": "SWITCH CO.LTD. Usb Controller sdl",
         "Guid": "030000006f0e00001311000000016800",
+        "Driver": "",
         "Mapping": {
             "analog_dpad_mode": "0",
             "b_btn": "2",
@@ -771,9 +787,170 @@
             "input_state_slot_increase_btn": "h0up",
             "input_rewind_btn": "h0left",
             "input_hold_fast_forward_btn": "h0right"
+        }
+    },
+    {
+        "Emulator": "libretro",
+        "Name": "SWITCH CO.LTD. Usb Controller xinput",
+        "Guid": "030000005e0400008e02000000007200",
+        "Driver": "xinput",
+        "Mapping": {
+            "analog_dpad_mode": "0",
+            "b_btn": "0",
+            "down_btn": "h0down",
+            "l2_btn": "nul",
+            "l2_axis": "+4",
+            "l_btn": "4",
+            "l_x_minus_axis": "+0",
+            "l_x_plus_axis": "-0",
+            "l_y_minus_axis": "+1",
+            "l_y_plus_axis": "-1",
+            "left_btn": "h0left",
+            "r_btn": "5",
+            "r_x_minus_btn": "3",
+            "r_x_plus_btn": "8",
+            "r_y_minus_btn": "9",
+            "r_y_plus_btn": "2",
+            "right_btn": "h0right",
+            "select_btn": "7",
+            "start_btn": "6",
+            "up_btn": "h0up",
+            "y_btn": "1"
+        },
+        "HotKeyMapping": {
+            "input_enable_hotkey_btn": "7",
+            "input_exit_emulator_btn": "6",
+            "input_pause_toggle_btn": "2",
+            "input_menu_toggle_btn": "0",
+            "input_load_state_btn": "3",
+            "input_save_state_btn": "1",
+            "input_ai_service_btn": "5",
+            "input_state_slot_decrease_btn": "h0down",
+            "input_state_slot_increase_btn": "h0up",
+            "input_rewind_btn": "h0left",
+            "input_hold_fast_forward_btn": "h0right"
         },
         "ControllerInfo": {
-            "input_joypad_driver": "sdl2"
+            "needActivationSwitch": "yes"
+        }
+    },
+    {
+        "Emulator": "libretro",
+        "Name": "SWITCH CO.LTD. Usb Controller xinput",
+        "Guid": "030000005e0400008e02000000007200",
+        "Driver": "dinput",
+        "Mapping": {
+            "analog_dpad_mode": "0",
+            "b_btn": "0",
+            "down_btn": "h0down",
+            "l2_btn": "nul",
+            "l2_axis": "+2",
+            "l_btn": "4",
+            "l_x_minus_axis": "-0",
+            "l_x_plus_axis": "+0",
+            "l_y_minus_axis": "-1",
+            "l_y_plus_axis": "+1",
+            "left_btn": "h0left",
+            "r_btn": "5",
+            "r_x_minus_btn": "3",
+            "r_x_plus_btn": "8",
+            "r_y_minus_btn": "9",
+            "r_y_plus_btn": "2",
+            "right_btn": "h0right",
+            "select_btn": "6",
+            "start_btn": "7",
+            "up_btn": "h0up",
+            "y_btn": "1"
+        },
+        "HotKeyMapping": {
+            "input_enable_hotkey_btn": "6",
+            "input_exit_emulator_btn": "7",
+            "input_pause_toggle_btn": "2",
+            "input_menu_toggle_btn": "0",
+            "input_load_state_btn": "3",
+            "input_save_state_btn": "1",
+            "input_ai_service_btn": "5",
+            "input_state_slot_decrease_btn": "h0down",
+            "input_state_slot_increase_btn": "h0up",
+            "input_rewind_btn": "h0left",
+            "input_hold_fast_forward_btn": "h0right"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes"
+        }
+    },
+    {
+        "Emulator": "libretro",
+        "Name": "SWITCH CO.LTD. Usb Controller xinput",
+        "Guid": "030000005e0400008e02000000007200",
+        "Driver": "sdl2",
+        "Mapping": {
+            "analog_dpad_mode": "0",
+            "b_btn": "0",
+            "down_btn": "12",
+            "l2_btn": "nul",
+            "l2_axis": "+4",
+            "l_btn": "9",
+            "l_x_minus_axis": "-0",
+            "l_x_plus_axis": "+0",
+            "l_y_minus_axis": "-1",
+            "l_y_plus_axis": "+1",
+            "left_btn": "13",
+            "r_btn": "10",
+            "r_x_minus_btn": "3",
+            "r_x_plus_btn": "7",
+            "r_y_minus_btn": "8",
+            "r_y_plus_btn": "2",
+            "right_btn": "14",
+            "select_btn": "4",
+            "start_btn": "6",
+            "up_btn": "11",
+            "y_btn": "1"
+        },
+        "HotKeyMapping": {
+            "input_enable_hotkey_btn": "4",
+            "input_exit_emulator_btn": "6",
+            "input_pause_toggle_btn": "2",
+            "input_menu_toggle_btn": "0",
+            "input_load_state_btn": "3",
+            "input_save_state_btn": "1",
+            "input_ai_service_btn": "10",
+            "input_state_slot_decrease_btn": "12",
+            "input_state_slot_increase_btn": "11",
+            "input_rewind_btn": "13",
+            "input_hold_fast_forward_btn": "14"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes"
+        }
+    },
+    {
+        "Emulator": "simple64",
+        "Name": "SWITCH CO.LTD. Usb Controller xinput",
+        "Guid": "030000005e0400008e02000000007200",
+        "Driver": "",
+        "Mapping": {
+            "A": "\"0,4\"",
+            "B": "\"1,4\"",
+            "Z": "\"4,5,-1\"",
+            "Start": "\"7,4\"",
+            "L": "\"4,4\"",
+            "R": "\"5,4\"",
+            "DPadL": "\"0,3,8\"",
+            "DPadR": "\"0,3,2\"",
+            "DPadU": "\"0,3,1\"",
+            "DPadD": "\"0,3,4\"",
+            "CLeft": "\"3,4\"",
+            "CRight": "\"8,4\"",
+            "CUp": "\"9,4\"",
+            "CDown": "\"2,4\"",
+            "AxisLeft": "\"0,5,-1\"",
+            "AxisRight": "\"0,5,1\"",
+            "AxisUp": "\"1,5,-1\"",
+            "AxisDown": "\"1,5,1\""
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes"
         }
     }
   ]
