@@ -9629,6 +9629,10 @@ msgid "Disable to use mouse for touchscreen instead of right stick."
 msgstr "Désactiver pour utiliser la souris au lieu du stick droit pour simuler le touchscreen."
 
 msgctxt "game_options"
+msgid "Enable the use of the mouse for touchscreen instead of right stick."
+msgstr "Activer pour utiliser la souris au lieu du stick droit pour simuler le touchscreen."
+
+msgctxt "game_options"
 msgid "MAINTAIN ASPECT RATIO"
 msgstr "GARDER RATIO ORIGINAL"
 
@@ -9651,6 +9655,10 @@ msgstr "Désactive les options de sécurité de l'émulateur pour faire tourner 
 msgctxt "game_options"
 msgid "USE GENESIS-LIKE CONTROLLER"
 msgstr "CONTRÔLEUR DE TYPE MEGADRIVE"
+
+msgctxt "game_options"
+msgid "USE N64-LIKE CONTROLLER"
+msgstr "CONTRÔLEUR DE TYPE N64"
 
 msgctxt "game_options"
 msgid "USE SATURN-LIKE CONTROLLER"

@@ -1,150 +1,7 @@
 {
   "Comments": "Do not use space but replace with '__'",
   "Controllers": [
-    {
-        "Emulator": "bizhawk",
-        "Name": "8BitDo M30 xinput",
-        "Guid": "030000005e040000e002000000007200",
-        "Mapping": {
-            "Up": "LStickUp",
-            "Down": "LStickDown",
-            "Left": "LStickLeft",
-            "Right": "LStickRight",
-            "Start": "Start",
-            "X": "X",
-            "Y": "Y",
-            "Z": "RightShoulder",
-            "A": "A",
-            "B": "B",
-            "C": "RightTrigger",
-            "L": "LeftShoulder",
-            "R": "LeftTrigger"
-        },
-        "ControllerInfo": {
-            "dinput": "false"
-        }
-    },
-    {
-        "Emulator": "bizhawk",
-        "Name": "8BitDo M30 dinput",
-        "Guid": "03000000c82d00005106000000000000",
-        "Mapping": {
-            "Up": "LStickUp",
-            "Down": "LStickDown",
-            "Left": "LStickLeft",
-            "Right": "LStickRight",
-            "Start": "Start",
-            "X": "X",
-            "Y": "Y",
-            "Z": "LeftShoulder",
-            "A": "A",
-            "B": "B",
-            "C": "RightShoulder",
-            "L": "LeftTrigger",
-            "R": "RightTrigger"
-        },
-        "ControllerInfo": {
-            "dinput": "false"
-        }
-    },
-    {
-        "Emulator": "bizhawk",
-        "Name": "8BitDo M30 switch",
-        "Guid": "030000007e0500000920000000006803",
-        "Mapping": {
-            "Up": "LStickUp",
-            "Down": "LStickDown",
-            "Left": "LStickLeft",
-            "Right": "LStickRight",
-            "Start": "Start",
-            "X": "X",
-            "Y": "Y",
-            "Z": "LeftShoulder",
-            "A": "A",
-            "B": "B",
-            "C": "RightShoulder",
-            "L": "LeftTrigger",
-            "R": "RightTrigger"
-        },
-        "ControllerInfo": {
-            "dinput": "false"
-        }
-    },
-    {
-        "Emulator": "mednafen",
-        "Name": "8BitDo M30 xinput",
-        "Guid": "030000005e040000e002000000007200",
-        "Driver": "xinput",
-        "Mapping": {
-            "a": "button_12",
-            "b": "button_13",
-            "c": "abs_5+",
-            "down": "abs_1-",
-            "left": "abs_0-",
-            "ls": "button_8",
-            "right": "abs_0+",
-            "rs": "abs_4+",
-            "start": "button_4",
-            "up": "abs_1+",
-            "x": "button_14",
-            "y": "button_15",
-            "z": "button_9"
-        },
-        "HotKeyMapping": {
-            "load_state": "button_5_and_button_15",
-            "save_state": "button_5_and_button_14",
-            "state_slot_dec": "button_5_and_abs_1-",
-            "state_slot_inc": "button_5_and_abs_1+",
-            "toggle_help": "button_5_and_button_12",
-            "select_disk": "button_5_and_abs_4+",
-            "take_snapshot": "button_5_and_button_8",
-            "fast_forward": "button_5_and_abs_0+",
-            "state_rewind": "button_5_and_abs_0-",
-            "pause": "button_5_and_button_13",
-            "exit": "button_5_and_button_4"
-        },
-        "ControllerInfo": {
-            "padType": "gamepad6"
-        }
-    },
-    {
-        "Emulator": "mednafen",
-        "Name": "8BitDo M30 dinput",
-        "Guid": "03000000c82d00005106000000000000",
-        "Driver": "dinput",
-        "Mapping": {
-            "a": "button_0",
-            "b": "button_1",
-            "c": "button_7",
-            "down": "abs_1+",
-            "left": "abs_0-",
-            "ls": "button_8",
-            "right": "abs_0+",
-            "rs": "button_9",
-            "start": "button_11",
-            "up": "abs_1-",
-            "x": "button_3",
-            "y": "button_4",
-            "z": "button_6"
-        },
-        "HotKeyMapping": {
-            "load_state": "button_10_and_button_4",
-            "save_state": "button_10_and_button_3",
-            "state_slot_dec": "button_10_and_abs_1+",
-            "state_slot_inc": "button_10_and_abs_1-",
-            "toggle_help": "button_10_and_button_0",
-            "select_disk": "button_10_and_button_9",
-            "take_snapshot": "button_10_and_button_8",
-            "fast_forward": "button_10_and_abs_0+",
-            "state_rewind": "button_10_and_abs_0-",
-            "pause": "button_10_and_button_1",
-            "exit": "button_10_and_button_11"
-        },
-        "ControllerInfo": {
-            "padType": "gamepad6"
-        }
-    },
-    {
+        {
         "Emulator": "libretro",
         "Name": "8BitDo M30 xinput",
         "Guid": "030000005e040000e002000000007200",
@@ -218,6 +75,9 @@
             "input_disk_next_btn": "nul",
             "input_disk_prev_axis": "nul",
             "input_disk_prev_btn": "9"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes"
         }
     },
     {
@@ -294,6 +154,9 @@
             "input_disk_next_btn": "nul",
             "input_disk_prev_axis": "nul",
             "input_disk_prev_btn": "4"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes"
         }
     },
     {
@@ -370,13 +233,90 @@
             "input_disk_next_btn": "nul",
             "input_disk_prev_axis": "nul",
             "input_disk_prev_btn": "4"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes"
+        }
+    },
+    {
+        "Emulator": "bizhawk",
+        "Name": "8BitDo M30 xinput",
+        "Guid": "030000005e040000e002000000007200",
+        "Mapping": {
+            "Up": "LStickUp",
+            "Down": "LStickDown",
+            "Left": "LStickLeft",
+            "Right": "LStickRight",
+            "Start": "Start",
+            "X": "X",
+            "Y": "Y",
+            "Z": "RightShoulder",
+            "A": "A",
+            "B": "B",
+            "C": "RightTrigger",
+            "L": "LeftShoulder",
+            "R": "LeftTrigger"
+        },
+        "ControllerInfo": {
+            "dinput": "false",
+            "needActivationSwitch": "yes"
+        }
+    },
+    {
+        "Emulator": "mednafen",
+        "Name": "8BitDo M30 xinput",
+        "Guid": "030000005e040000e002000000007200",
+        "Driver": "xinput",
+        "Mapping": {
+            "a": "button_12",
+            "b": "button_13",
+            "c": "abs_5+",
+            "down": "abs_1-",
+            "left": "abs_0-",
+            "ls": "button_8",
+            "right": "abs_0+",
+            "rs": "abs_4+",
+            "start": "button_4",
+            "up": "abs_1+",
+            "x": "button_14",
+            "y": "button_15",
+            "z": "button_9"
+        },
+        "HotKeyMapping": {
+            "load_state": "button_5_and_button_15",
+            "save_state": "button_5_and_button_14",
+            "state_slot_dec": "button_5_and_abs_1-",
+            "state_slot_inc": "button_5_and_abs_1+",
+            "toggle_help": "button_5_and_button_12",
+            "select_disk": "button_5_and_abs_4+",
+            "take_snapshot": "button_5_and_button_8",
+            "fast_forward": "button_5_and_abs_0+",
+            "state_rewind": "button_5_and_abs_0-",
+            "pause": "button_5_and_button_13",
+            "exit": "button_5_and_button_4"
+        },
+        "ControllerInfo": {
+            "padType": "gamepad6",
+            "needActivationSwitch": "yes"
+        }
+    },
+    {
+        "Emulator": "ssf",
+        "Name": "8BitDo M30 xinput",
+        "Guid": "030000005e040000e002000000007200",
+        "Driver": "",
+        "Mapping": {
+            "buttons": "1/33025/1/33026/1/32769/1/32770/1/0/1/256/1/33281/1/512/1/768/1/1280/1/1024/1/33282/1/1792/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes"
         }
     },
     {
         "Emulator": "libretro",
-        "Name": "8BitDo M30 dinput",
-        "Guid": "03000000c82d00005106000000000000",
-        "Driver": "xinput",
+        "Name": "8BitDo M30 switch",
+        "Guid": "030000007e0500000920000000006803",
+        "Driver": "sdl2",
         "Mapping": {
             "analog_dpad_mode": "0",
             "a_axis": "nul",
@@ -385,12 +325,12 @@
             "b_btn": "0",
             "down_axis": "+1",
             "down_btn": "nul",
-            "l2_axis": "nul",
-            "l2_btn": "8",
+            "l2_axis": "+4",
+            "l2_btn": "nul",
             "l3_axis": "nul",
             "l3_btn": "nul",
             "l_axis": "nul",
-            "l_btn": "6",
+            "l_btn": "9",
             "l_x_minus_btn": "nul",
             "l_x_plus_btn": "nul",
             "l_y_minus_btn": "nul",
@@ -401,12 +341,12 @@
             "l_y_plus_axis": "nul",
             "left_axis": "-0",
             "left_btn": "nul",
-            "r2_axis": "nul",
-            "r2_btn": "9",
+            "r2_axis": "+5",
+            "r2_btn": "nul",
             "r3_axis": "nul",
             "r3_btn": "nul",
             "r_axis": "nul",
-            "r_btn": "7",
+            "r_btn": "10",
             "r_x_minus_btn": "nul",
             "r_x_plus_btn": "nul",
             "r_y_minus_btn": "nul",
@@ -417,23 +357,23 @@
             "r_y_plus_axis": "nul",
             "right_axis": "+0",
             "right_btn": "nul",
-            "select_btn": "10",
-            "start_btn": "11",
+            "select_btn": "4",
+            "start_btn": "6",
             "up_axis": "-1",
             "up_btn": "nul",
             "x_axis": "nul",
-            "x_btn": "4",
+            "x_btn": "3",
             "y_axis": "nul",
-            "y_btn": "3"
+            "y_btn": "2"
         },
         "HotKeyMapping": {
-            "input_enable_hotkey_btn": "10",
-            "input_exit_emulator_btn": "11",
+            "input_enable_hotkey_btn": "4",
+            "input_exit_emulator_btn": "6",
             "input_pause_toggle_btn": "1",
             "input_menu_toggle_btn": "0",
-            "input_load_state_btn": "4",
-            "input_save_state_btn": "3",
-            "input_ai_service_btn": "6",
+            "input_load_state_btn": "3",
+            "input_save_state_btn": "2",
+            "input_ai_service_btn": "9",
             "input_state_slot_decrease_axis": "+1",
             "input_state_slot_decrease_btn": "nul",
             "input_state_slot_increase_axis": "-1",
@@ -442,10 +382,37 @@
             "input_rewind_btn": "nul",
             "input_hold_fast_forward_axis": "+0",
             "input_hold_fast_forward_btn": "nul",
-            "input_disk_next_axis": "nul",
-            "input_disk_next_btn": "9",
-            "input_disk_prev_axis": "nul",
-            "input_disk_prev_btn": "8"
+            "input_disk_next_axis": "+5",
+            "input_disk_next_btn": "nul",
+            "input_disk_prev_axis": "+4",
+            "input_disk_prev_btn": "nul"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes"
+        }
+    },
+    {
+        "Emulator": "bizhawk",
+        "Name": "8BitDo M30 switch",
+        "Guid": "030000007e0500000920000000006803",
+        "Mapping": {
+            "Up": "LStickUp",
+            "Down": "LStickDown",
+            "Left": "LStickLeft",
+            "Right": "LStickRight",
+            "Start": "Start",
+            "X": "X",
+            "Y": "Y",
+            "Z": "LeftShoulder",
+            "A": "A",
+            "B": "B",
+            "C": "RightShoulder",
+            "L": "LeftTrigger",
+            "R": "RightTrigger"
+        },
+        "ControllerInfo": {
+            "dinput": "false",
+            "needActivationSwitch": "yes"
         }
     },
     {
@@ -528,7 +495,7 @@
         "Emulator": "libretro",
         "Name": "8BitDo M30 dinput",
         "Guid": "03000000c82d00005106000000000000",
-        "Driver": "dinput",
+        "Driver": "xinput",
         "Mapping": {
             "analog_dpad_mode": "0",
             "a_axis": "nul",
@@ -602,9 +569,9 @@
     },
     {
         "Emulator": "libretro",
-        "Name": "8BitDo M30 switch",
-        "Guid": "030000007e0500000920000000006803",
-        "Driver": "sdl2",
+        "Name": "8BitDo M30 dinput",
+        "Guid": "03000000c82d00005106000000000000",
+        "Driver": "dinput",
         "Mapping": {
             "analog_dpad_mode": "0",
             "a_axis": "nul",
@@ -613,12 +580,12 @@
             "b_btn": "0",
             "down_axis": "+1",
             "down_btn": "nul",
-            "l2_axis": "+4",
-            "l2_btn": "nul",
+            "l2_axis": "nul",
+            "l2_btn": "8",
             "l3_axis": "nul",
             "l3_btn": "nul",
             "l_axis": "nul",
-            "l_btn": "9",
+            "l_btn": "6",
             "l_x_minus_btn": "nul",
             "l_x_plus_btn": "nul",
             "l_y_minus_btn": "nul",
@@ -629,12 +596,12 @@
             "l_y_plus_axis": "nul",
             "left_axis": "-0",
             "left_btn": "nul",
-            "r2_axis": "+5",
-            "r2_btn": "nul",
+            "r2_axis": "nul",
+            "r2_btn": "9",
             "r3_axis": "nul",
             "r3_btn": "nul",
             "r_axis": "nul",
-            "r_btn": "10",
+            "r_btn": "7",
             "r_x_minus_btn": "nul",
             "r_x_plus_btn": "nul",
             "r_y_minus_btn": "nul",
@@ -645,23 +612,23 @@
             "r_y_plus_axis": "nul",
             "right_axis": "+0",
             "right_btn": "nul",
-            "select_btn": "4",
-            "start_btn": "6",
+            "select_btn": "10",
+            "start_btn": "11",
             "up_axis": "-1",
             "up_btn": "nul",
             "x_axis": "nul",
-            "x_btn": "3",
+            "x_btn": "4",
             "y_axis": "nul",
-            "y_btn": "2"
+            "y_btn": "3"
         },
         "HotKeyMapping": {
-            "input_enable_hotkey_btn": "4",
-            "input_exit_emulator_btn": "6",
+            "input_enable_hotkey_btn": "10",
+            "input_exit_emulator_btn": "11",
             "input_pause_toggle_btn": "1",
             "input_menu_toggle_btn": "0",
-            "input_load_state_btn": "3",
-            "input_save_state_btn": "2",
-            "input_ai_service_btn": "9",
+            "input_load_state_btn": "4",
+            "input_save_state_btn": "3",
+            "input_ai_service_btn": "6",
             "input_state_slot_decrease_axis": "+1",
             "input_state_slot_decrease_btn": "nul",
             "input_state_slot_increase_axis": "-1",
@@ -670,19 +637,70 @@
             "input_rewind_btn": "nul",
             "input_hold_fast_forward_axis": "+0",
             "input_hold_fast_forward_btn": "nul",
-            "input_disk_next_axis": "+5",
-            "input_disk_next_btn": "nul",
-            "input_disk_prev_axis": "+4",
-            "input_disk_prev_btn": "nul"
+            "input_disk_next_axis": "nul",
+            "input_disk_next_btn": "9",
+            "input_disk_prev_axis": "nul",
+            "input_disk_prev_btn": "8"
         }
     },
     {
-        "Emulator": "ssf",
-        "Name": "8BitDo M30 xinput",
-        "Guid": "030000005e040000e002000000007200",
-        "Driver": "",
+        "Emulator": "bizhawk",
+        "Name": "8BitDo M30 dinput",
+        "Guid": "03000000c82d00005106000000000000",
         "Mapping": {
-            "buttons": "1/33025/1/33026/1/32769/1/32770/1/0/1/256/1/33281/1/512/1/768/1/1280/1/1024/1/33282/1/1792/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0"
+            "Up": "LStickUp",
+            "Down": "LStickDown",
+            "Left": "LStickLeft",
+            "Right": "LStickRight",
+            "Start": "Start",
+            "X": "X",
+            "Y": "Y",
+            "Z": "LeftShoulder",
+            "A": "A",
+            "B": "B",
+            "C": "RightShoulder",
+            "L": "LeftTrigger",
+            "R": "RightTrigger"
+        },
+        "ControllerInfo": {
+            "dinput": "false"
+        }
+    },
+    {
+        "Emulator": "mednafen",
+        "Name": "8BitDo M30 dinput",
+        "Guid": "03000000c82d00005106000000000000",
+        "Driver": "dinput",
+        "Mapping": {
+            "a": "button_0",
+            "b": "button_1",
+            "c": "button_7",
+            "down": "abs_1+",
+            "left": "abs_0-",
+            "ls": "button_8",
+            "right": "abs_0+",
+            "rs": "button_9",
+            "start": "button_11",
+            "up": "abs_1-",
+            "x": "button_3",
+            "y": "button_4",
+            "z": "button_6"
+        },
+        "HotKeyMapping": {
+            "load_state": "button_10_and_button_4",
+            "save_state": "button_10_and_button_3",
+            "state_slot_dec": "button_10_and_abs_1+",
+            "state_slot_inc": "button_10_and_abs_1-",
+            "toggle_help": "button_10_and_button_0",
+            "select_disk": "button_10_and_button_9",
+            "take_snapshot": "button_10_and_button_8",
+            "fast_forward": "button_10_and_abs_0+",
+            "state_rewind": "button_10_and_abs_0-",
+            "pause": "button_10_and_button_1",
+            "exit": "button_10_and_button_11"
+        },
+        "ControllerInfo": {
+            "padType": "gamepad6"
         }
     },
     {
