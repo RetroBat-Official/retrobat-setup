@@ -9653,6 +9653,10 @@ msgid "USE GENESIS-LIKE CONTROLLER"
 msgstr "CONTRÔLEUR DE TYPE MEGADRIVE"
 
 msgctxt "game_options"
+msgid "USE N64-LIKE CONTROLLER"
+msgstr "CONTRÔLEUR DE TYPE N64"
+
+msgctxt "game_options"
 msgid "USE SATURN-LIKE CONTROLLER"
 msgstr "CONTRÔLEUR DE TYPE SATURN"
 
