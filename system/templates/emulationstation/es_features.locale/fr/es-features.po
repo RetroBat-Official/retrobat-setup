@@ -3889,6 +3889,14 @@ msgid "JIT RECOMPILER"
 msgstr "RECOMPILATEUR JIT"
 
 msgctxt "game_options"
+msgid "DISABLE CPU JIT"
+msgstr "DÉSACTIVER JIT CPU"
+
+msgctxt "game_options"
+msgid "3DS MODEL"
+msgstr "MODÈLE DE CONSOLE"
+
+msgctxt "game_options"
 msgid "Improves performance."
 msgstr "Permet une amélioration des performances."
 
@@ -4391,6 +4399,10 @@ msgstr "Résout les problèmes liés à l'appui sur les diagonales pour les jeux
 msgctxt "game_options"
 msgid "VERTICAL MONITOR INDEX"
 msgstr "INDEX DE L'ÉCRAN VERTICAL"
+
+msgctxt "game_options"
+msgid "ROTATE SCREEN (VERTICAL)"
+msgstr "TOURNER L'ÉCRAN (VERTICAL)"
 
 msgctxt "game_options"
 msgid "Vertical games will be displayed on the monitor corresponding to the selected index."
@@ -9675,3 +9687,15 @@ msgstr "Activé par défaut."
 msgctxt "game_options"
 msgid "Disables joypad rumble, by default rumble is only enabled when game and controller are compatible."
 msgstr "Désactiver les vibrations, par défaut elles ne sont activées que lorsque le jeu est compatible."
+
+msgctxt "game_options"
+msgid "ENABLE LINEAR FILTERING"
+msgstr "FILTRAGE LINÉAIRE"
+
+msgctxt "game_options"
+msgid "RESOLUTION SCALE THRESHOLD"
+msgstr "SEUIL DE MISE À L'ÉCHELLE"
+
+msgctxt "game_options"
+msgid "Only framebuffer greater than this size will be upscaled, can fix some issues in certain games."
+msgstr "Ne pas mettre à l'échelle les trames inférieurs à cette valeur, certains jeux nécessitent une valeur plus élevée."
