@@ -9699,3 +9699,11 @@ msgstr "SEUIL DE MISE À L'ÉCHELLE"
 msgctxt "game_options"
 msgid "Only framebuffer greater than this size will be upscaled, can fix some issues in certain games."
 msgstr "Ne pas mettre à l'échelle les trames inférieurs à cette valeur, certains jeux nécessitent une valeur plus élevée."
+
+msgctxt "game_options"
+msgid "OUTPUT RESAMPLING"
+msgstr "RÉÉCHANTILLONAGE DE SORTIE"
+
+msgctxt "game_options"
+msgid "ZONE SAMPLING"
+msgstr "ÉCHANTILLONAGE DE ZONE"
