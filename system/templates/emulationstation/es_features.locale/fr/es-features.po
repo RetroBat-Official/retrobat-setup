@@ -106,6 +106,10 @@ msgid "PERSPECTIVE CORRECTION (PGXP)"
 msgstr "CORRECTION DE PERSPECTIVE(PGXP)"
 
 msgctxt "game_options"
+msgid "TEXTURE CORRECTION(PGXP)"
+msgstr "CORRECTION DES TEXTURES(PGXP)"
+
+msgctxt "game_options"
 msgid "If disabled, DualShock can be toggled between DIGITAL/ANALOG with a toggle combo."
 msgstr "Désactiver cette option permet de passer du mode digital au mode analogique de la manette à l'aide d'une combinaison de touches."
 
