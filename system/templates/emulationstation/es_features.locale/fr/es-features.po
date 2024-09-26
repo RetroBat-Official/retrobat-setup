@@ -106,6 +106,10 @@ msgid "PERSPECTIVE CORRECTION (PGXP)"
 msgstr "CORRECTION DE PERSPECTIVE(PGXP)"
 
 msgctxt "game_options"
+msgid "TEXTURE CORRECTION(PGXP)"
+msgstr "CORRECTION DES TEXTURES(PGXP)"
+
+msgctxt "game_options"
 msgid "If disabled, DualShock can be toggled between DIGITAL/ANALOG with a toggle combo."
 msgstr "Désactiver cette option permet de passer du mode digital au mode analogique de la manette à l'aide d'une combinaison de touches."
 
@@ -9699,3 +9703,11 @@ msgstr "SEUIL DE MISE À L'ÉCHELLE"
 msgctxt "game_options"
 msgid "Only framebuffer greater than this size will be upscaled, can fix some issues in certain games."
 msgstr "Ne pas mettre à l'échelle les trames inférieurs à cette valeur, certains jeux nécessitent une valeur plus élevée."
+
+msgctxt "game_options"
+msgid "OUTPUT RESAMPLING"
+msgstr "RÉÉCHANTILLONAGE DE SORTIE"
+
+msgctxt "game_options"
+msgid "ZONE SAMPLING"
+msgstr "ÉCHANTILLONAGE DE ZONE"
