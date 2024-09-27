@@ -1098,8 +1098,8 @@ msgid "Force emulator in fullscreen even if RetroBat is windowed"
 msgstr "Forcer l'émulateur en plein écran même si RetroBat est fenêtré."
 
 msgctxt "game_options"
-msgid "Place custom 'crosshair.png' file in 'cross' subfolder of pcsx2 emulator."
-msgstr "Placer le fichier 'crosshair.png' dans le sous-dossier 'cross' de l'émulateur pcsx2."
+msgid "Place custom 'crosshair.png' file in 'cross' subfolder of the emulator."
+msgstr "Placer le fichier 'crosshair.png' dans le sous-dossier 'cross' de l'émulateur."
 
 msgctxt "game_options"
 msgid "ENABLE HDR"
@@ -9711,3 +9711,15 @@ msgstr "RÉÉCHANTILLONAGE DE SORTIE"
 msgctxt "game_options"
 msgid "ZONE SAMPLING"
 msgstr "ÉCHANTILLONAGE DE ZONE"
+
+msgctxt "game_options"
+msgid "CUSTOM CROSSHAIR SIZE"
+msgstr "TAILLE DE LA CIBLE CUSTOM"
+
+msgctxt "game_options"
+msgid "CROSSHAIR SIZE"
+msgstr "TAILLE DE LA CIBLE"
+
+msgctxt "game_options"
+msgid "Values above 1.00 will increase size, values below will reduce."
+msgstr "Saisir une valeur inférieure à 1.00 pour réduire la taille et inversement."
