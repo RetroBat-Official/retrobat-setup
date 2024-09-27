@@ -9723,3 +9723,11 @@ msgstr "TAILLE DE LA CIBLE"
 msgctxt "game_options"
 msgid "Values above 1.00 will increase size, values below will reduce."
 msgstr "Saisir une valeur inférieure à 1.00 pour réduire la taille et inversement."
+
+msgctxt "game_options"
+msgid "DISC INDEX"
+msgstr "INDEX DISQUE"
+
+msgctxt "game_options"
+msgid "When using .m3u file, select disc index to run."
+msgstr "Sélectionner le disque à lancer pour les jeux multidisques (m3u)."
