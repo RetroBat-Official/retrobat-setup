@@ -11,6 +11,7 @@
 \system\templates\cemu\settings.xml|\emulators\cemu\settings.xml
 \system\templates\cemu\portable\GraphicPacks.zip|\emulators\cemu\portable\graphicPacks
 \system\templates\cemu\portable\settings.xml|\emulators\cemu\portable\settings.xml
+\system\templates\cgenius\cgenius.cfg|\emulators\cgenius\cgenius.cfg
 \system\templates\citra-canary\portable.txt|\emulators\citra-canary\portable.txt
 \system\templates\citra-canary\qt-config.ini|\emulators\citra-canary\user\config\qt-config.ini
 \system\templates\citra\portable.txt|\emulators\citra\portable.txt

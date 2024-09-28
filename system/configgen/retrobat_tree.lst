@@ -97,6 +97,7 @@ emulators\bigpemu\userdata
 emulators\bizhawk
 emulators\cemu
 emulators\cemu\portable
+emulators\cgenius
 emulators\citra
 emulators\citra\user
 emulators\citra\user\config
@@ -231,6 +232,8 @@ records
 records\config
 records\output
 roms
+roms\cgenius
+roms\cgenius\games
 roms\sonicmania
 roms\sonicretro
 roms\sonicretro\sonic1
