@@ -103,6 +103,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./cgenius.menu</path>
+		<name>Commander Genius</name>
+		<desc>Run Commander Genius.</desc>
+		<image>./media/cgenius.png</image>
+		<marquee>./media/cgenius.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>The Commander Genius Team</developer>
+		<publisher>The Commander Genius Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./citra.menu</path>
 		<name>Citra (3DS)</name>
 		<desc>Run Citra Emulator (Nintendo 3DS).</desc>

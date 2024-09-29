@@ -9731,3 +9731,11 @@ msgstr "INDEX DISQUE"
 msgctxt "game_options"
 msgid "When using .m3u file, select disc index to run."
 msgstr "Sélectionner le disque à lancer pour les jeux multidisques (m3u)."
+
+msgctxt "game_options"
+msgid "TARGET FPS"
+msgstr "FPS CIBLE"
+
+msgctxt "game_options"
+msgid "SHOW HUD"
+msgstr "AFFICHER ATH"
