@@ -133,11 +133,6 @@ set task=set_install
 set "tmp_infos_file=!root_path!\emulationstation\rb_infos.tmp"
 if not "%tmp_infos_file%" == "" if exist "%tmp_infos_file%" del/Q "%tmp_infos_file%" >nul
 
-:: ---- PING TEST ----
-
-ping www.retrobat.ovh >nul
-if %ERRORLEVEL% NEQ 0 (exit 1)
-
 :: ---- CALL SHARED VARIABLES SCRIPT ----
 
 if exist "!root_path!\system\scripts\shared-variables.cmd" (
