@@ -8933,6 +8933,10 @@ msgid "DOWNSCALE FILTER"
 msgstr "FILTRE DE RÉDUCTION D'ÉCHELLE"
 
 msgctxt "game_options"
+msgid "DOWNSCALE OUTPUT"
+msgstr "RÉDUCTION DE L'ÉCHELLE EN SORTIE"
+
+msgctxt "game_options"
 msgid "Specify filter to use for downscaling. BILINEAR by default."
 msgstr "Spécifier le filtre de réduction d'échelle à appliquer, par défaut BILINÉAIRE."
 
