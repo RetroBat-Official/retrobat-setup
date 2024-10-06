@@ -129,6 +129,7 @@
 \system\templates\simple64\mupen64plus.cfg|\emulators\simple64\mupen64plus.cfg
 \system\templates\simple64\simple64-gui.ini|\emulators\simple64\simple64-gui.ini
 \system\templates\snes9x\snes9x.conf|\emulators\snes9x\snes9x.conf
+\system\templates\soh\shipofharkinian.json|\emulators\soh\shipofharkinian.json
 \system\templates\sonic3air\savedata\settings.json|\emulators\sonic3air\savedata\settings.json
 \system\templates\sonic3air\savedata\settings_input.json|\emulators\sonic3air\savedata\settings_input.json
 \system\templates\sonicmania\Settings.ini|\roms\sonicmania\Settings.ini
@@ -155,3 +156,4 @@
 \system\templates\yuzu\qt-config.ini|\emulators\yuzu\user\config\qt-config.ini
 \system\templates\zinc\renderer.cfg|\emulators\zinc\renderer.cfg
 \system\templates\zinc\zinc.cfg|\emulators\zinc\zinc.cfg
+\system\tools\Newtonsoft.Json.dll|\emulationstation\Newtonsoft.Json.dll
