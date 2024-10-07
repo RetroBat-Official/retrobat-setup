@@ -1,5 +1,4 @@
 {
-  "Comments": "Do not use space but replace with '__'",
   "Controllers": [
         {
         "Emulator": "libretro",
