@@ -1,5 +1,6 @@
 rom_search_dirs = []
-recent_opens = []
+recent_open_list = []
+egui_theme = "SystemDefault"
 
 [common]
 audio_sync = true
@@ -7,6 +8,10 @@ audio_device_queue_size = 512
 internal_audio_buffer_size = 64
 audio_sync_threshold = 8192
 audio_gain_db = 0.0
+save_path = "Custom"
+custom_save_path = 'C:\RetroBat\saves\megadrive\jgenesis'
+state_path = "Custom"
+custom_state_path = 'C:\RetroBat\saves\megadrive\jgenesis\sstates'
 launch_in_fullscreen = false
 wgpu_backend = "Auto"
 vsync_mode = "Enabled"
@@ -29,6 +34,7 @@ sms_timing_mode = "Ntsc"
 sms_model = "Sms2"
 sms_crop_vertical_border = false
 sms_crop_left_border = false
+gg_use_sms_resolution = false
 fm_sound_unit_enabled = true
 overclock_z80 = false
 
@@ -40,11 +46,19 @@ emulate_non_linear_vdp_dac = false
 render_vertical_border = false
 render_horizontal_border = false
 quantize_ym2612_output = true
+emulate_ym2612_ladder_effect = true
+ym2612_enabled = true
+psg_enabled = true
 
 [sega_cd]
 enable_ram_cartridge = true
 load_disc_into_ram = false
+pcm_enabled = true
+cd_audio_enabled = true
 
+[sega_32x]
+video_out = "Combined"
+pwm_enabled = true
 [nes]
 aspect_ratio = "Ntsc"
 remove_sprite_limit = false
@@ -61,6 +75,7 @@ right = 0
 
 [snes]
 aspect_ratio = "Ntsc"
+audio_interpolation = "Gaussian"
 audio_60hz_hack = true
 gsu_overclock_factor = 1
 
@@ -75,6 +90,7 @@ audio_60hz_hack = false
 [inputs]
 genesis_p1_type = "SixButton"
 genesis_p2_type = "SixButton"
+nes_p2_type = "Gamepad"
 snes_p2_type = "Gamepad"
 axis_deadzone = 8000
 
@@ -114,7 +130,6 @@ mode = "Right Shift"
 [inputs.genesis_joystick.p1]
 
 [inputs.genesis_joystick.p2]
-
 [inputs.nes_keyboard.p1]
 up = "Up"
 left = "Left"
@@ -130,6 +145,10 @@ select = "Right Shift"
 [inputs.nes_joystick.p1]
 
 [inputs.nes_joystick.p2]
+
+[inputs.nes_zapper]
+fire = "MouseLeft"
+force_offscreen = "MouseRight"
 
 [inputs.snes_keyboard.p1]
 up = "Up"
@@ -189,22 +208,25 @@ select = "Right Shift"
 
 [inputs.hotkeys]
 quit = "Escape"
-toggle_fullscreen = "F9"
-save_state = "F5"
-load_state = "F6"
-soft_reset = "F1"
-hard_reset = "F2"
-pause = "P"
-step_frame = "N"
-fast_forward = "Tab"
-rewind = "`"
-open_debugger = "'"
+toggle_fullscreen = "Tab"
+save_state = "F1"
+load_state = "F2"
+next_save_state_slot = "F4"
+prev_save_state_slot = "F3"
+soft_reset = "F8"
+hard_reset = "F9"
+pause = "F5"
+step_frame = "F10"
+fast_forward = "F7"
+rewind = "F6"
+open_debugger = "F11"
 
 [list_filters]
 master_system = true
 game_gear = true
 genesis = true
 sega_cd = true
+sega_32x = true
 nes = true
 snes = true
 game_boy = true
