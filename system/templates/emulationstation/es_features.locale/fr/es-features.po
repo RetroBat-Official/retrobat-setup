@@ -9747,3 +9747,11 @@ msgstr "FPS CIBLE"
 msgctxt "game_options"
 msgid "SHOW HUD"
 msgstr "AFFICHER ATH"
+
+msgctxt "game_options"
+msgid "DISABLE JOYSTICK STICK"
+msgstr "DÉSACTIVER LE STICK ANALOGIQUE"
+
+msgctxt "game_options"
+msgid "Disable use of X-axis to nudge, Y-axis to plumb and Z-axis for plunger."
+msgstr "Désactiver l'utilisation des axes analogiques X, Y et Z."
