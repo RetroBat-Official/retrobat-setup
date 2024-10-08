@@ -7366,7 +7366,11 @@ msgstr "COPIE À L'ÉCHELLE DE L'EFB (HACK)"
 
 msgctxt "game_options"
 msgid "ENABLE 4MB RAM PACK"
-msgstr "ACTIVER EXTENSION RAM 4MB"
+msgstr "ACTIVER L'EXTENSION RAM 4MB"
+
+msgctxt "game_options"
+msgid "DISABLE 4MB RAM PACK"
+msgstr "DÉSACTIVER L'EXTENSION RAM 4MB"
 
 msgctxt "game_options"
 msgid "Greatly inscrease the quality of textures generated using render-to-texture effects. Enabled by default. Disabling it may avoid crashes for games using custom textures."
