@@ -193,7 +193,6 @@ emulators\rpcs3
 emulators\rpcs3\config
 emulators\rpcs3\GuiConfigs
 emulators\ryujinx
-emulators\ryujinx\portable
 emulators\scummvm
 emulators\simcoupe
 emulators\simple64
@@ -349,6 +348,7 @@ saves\switch\load
 saves\switch\nand
 saves\switch\ryujinx
 saves\switch\ryujinx\portable
+saves\switch\ryujinx\portable\system
 saves\switch\sdmc
 saves\wiiu
 saves\wiiu\cemu
