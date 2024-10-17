@@ -30,6 +30,10 @@ msgid "SHADER SET"
 msgstr "SHADERS"
 
 msgctxt "game_options"
+msgid "DISABLED"
+msgstr "DÉSACTIVÉ"
+
+msgctxt "game_options"
 msgid "DECORATIONS"
 msgstr "DÉCORATIONS"
 
@@ -5353,6 +5357,10 @@ msgid "Enables custom patching functionality."
 msgstr "Charger automatiquement les patchs."
 
 msgctxt "game_options"
+msgid "This setting will rotate your windows desktop, it will not be set back when exiting game."
+msgstr "Rotation du bureau windows, attention, l'orientation sera gardée à la sortie du jeu."
+
+msgctxt "game_options"
 msgid "Automatically load widescreen patches on game start-up."
 msgstr "Charger automatiquement les patchs écrans larges au démarrage du jeu."
 
@@ -9755,3 +9763,31 @@ msgstr "DÉSACTIVER LE STICK ANALOGIQUE"
 msgctxt "game_options"
 msgid "Disable use of X-axis to nudge, Y-axis to plumb and Z-axis for plunger."
 msgstr "Désactiver l'utilisation des axes analogiques X, Y et Z."
+
+msgctxt "game_options"
+msgid "SOFTPATCHING"
+msgstr "SOFTPATCHING"
+
+msgctxt "game_options"
+msgid "Define if patch should be applied and where patch files are located, 'AUTO' will apply patches if they are located near rom with same name as rom file."
+msgstr "Permet d'activer les patchs et de sélectionner leur emplacement, utiliser 'AUTO' pour appliquer les patchs ayant le même nom de fichier que la rom de jeu et localisés dans le même dossier."
+
+msgctxt "game_options"
+msgid "PATCH IN PATCH SUBFOLDER"
+msgstr "PATCH DANS UN DOSSIER PATCH"
+
+msgctxt "game_options"
+msgid "PATCH IN ROM SUBFOLDER"
+msgstr "PATCH DANS UN DOSSIER PAR JEU"
+
+msgctxt "game_options"
+msgid "Define whether the 'fast-forward' shortcuts acts as a toggle or needs to be held."
+msgstr "Sélectionner comment le raccourci 'avance rapide' fonctionne."
+
+msgctxt "game_options"
+msgid "FAST FORWARD RATIO"
+msgstr "VITESSE D'AVENCE RAPIDE"
+
+msgctxt "game_options"
+msgid "FAST FORWARD BEHAVIOR"
+msgstr "TYPE D'AVANCE RAPIDE"
