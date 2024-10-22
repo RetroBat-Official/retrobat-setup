@@ -9791,3 +9791,11 @@ msgstr "VITESSE D'AVENCE RAPIDE"
 msgctxt "game_options"
 msgid "FAST FORWARD BEHAVIOR"
 msgstr "TYPE D'AVANCE RAPIDE"
+
+msgctxt "game_options"
+msgid "SWITCH JOYPAD INDEX"
+msgstr "INVERSER LES INDEX MANETTES"
+
+msgctxt "game_options"
+msgid "When using XInput, this option will switch gamepads 1 and 2."
+msgstr "Uniquement pour le pilote XInput, cette option intervertit les index des 2 manettes."
