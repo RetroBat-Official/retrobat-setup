@@ -9799,3 +9799,11 @@ msgstr "INVERSER LES INDEX MANETTES"
 msgctxt "game_options"
 msgid "When using XInput, this option will switch gamepads 1 and 2."
 msgstr "Uniquement pour le pilote XInput, cette option intervertit les index des 2 manettes."
+
+msgctxt "game_options"
+msgid "WAIT TIME"
+msgstr "DÉLAI D'ATTENTE AVANT RETOUR"
+
+msgctxt "game_options"
+msgid "Default is 30 seconds, define time to wait for the game to launch before returning to RetroBat game list."
+msgstr "30 secondes par défaut, définit combien de temps RetroBat doit attendre le lancement du jeu avant de revenir à la liste de jeux."

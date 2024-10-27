@@ -79,6 +79,7 @@
 \system\templates\opengoal\config\OpenGOAL\jak1\settings\pc-settings.gc|\emulators\opengoal\config\OpenGOAL\jak1\settings\pc-settings.gc
 \system\templates\opengoal\config\OpenGOAL\jak2\misc\debug-settings.json|\emulators\opengoal\config\OpenGOAL\jak2\misc\debug-settings.json
 \system\templates\opengoal\config\OpenGOAL\jak2\settings\pc-settings.gc|\emulators\opengoal\config\OpenGOAL\jak2\settings\pc-settings.gc
+\system\templates\openjazz\openjazz.cfg|\emulators\openjazz\openjazz.cfg
 \system\templates\oricutron\oricutron.cfg|\emulators\oricutron\oricutron.cfg
 \system\templates\pcsx2-16\Plugins\nuvee_ps2_usb.dll|\emulators\pcsx2-16\Plugins\nuvee_ps2_usb.dll
 \system\templates\pcsx2-16\inis\Dev9null.ini|\emulators\pcsx2-16\inis\Dev9null.ini
