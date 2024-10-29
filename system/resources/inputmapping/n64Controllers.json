@@ -1033,6 +1033,9 @@
             "R-Down": "3/2",
             "R-Left": "3/3",
             "R-Right": "3/8"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes"
         }
     },
     {
@@ -1094,7 +1097,8 @@
         "ControllerInfo": {
             "XInvert": "false",
             "YInvert": "false",
-            "dinput": "true"
+            "dinput": "true",
+            "needActivationSwitch": "yes"
         }
     },
     {
@@ -1209,6 +1213,9 @@
             "Hotkey_LoadState_Name": "back;y",
             "Hotkey_LoadState_Data": "4;3",
             "Hotkey_LoadState_ExtraData": "0;0"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes"
         }
     },
     {
