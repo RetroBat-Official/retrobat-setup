@@ -9807,3 +9807,7 @@ msgstr "DÉLAI D'ATTENTE AVANT RETOUR"
 msgctxt "game_options"
 msgid "Default is 30 seconds, define time to wait for the game to launch before returning to RetroBat game list."
 msgstr "30 secondes par défaut, définit combien de temps RetroBat doit attendre le lancement du jeu avant de revenir à la liste de jeux."
+
+msgctxt "game_options"
+msgid "Break to the host debugger (or crash if no debugger attached) if an unimplemented PowerPC instruction is encountered."
+msgstr "Passer au débogueur hôte (ou planter en cas d'absence de débogueur) si une instruction PowerPC non implémentée est rencontrée."
