@@ -1,15 +1,17 @@
-D# This file can be used to send the correct GUID for some emulators, currently the following emulators support this function
-# - cemu
-# - citra
-# - lime3ds
-# - mednafen
-# - sudachi
-# - suyu
-# - yuzu
+# This file can be used to send the correct GUID or NAME for some emulators, currently the following emulators support this function
+# - cemu (to replace GUID)
+# - citra (to replace GUID)
+# - dolphin (to replace name)
+# - lime3ds (to replace GUID)
+# - mednafen (to replace GUID)
+# - sudachi (to replace GUID)
+# - suyu (to replace GUID)
+# - yuzu (to replace GUID)
 #
 # The root container is the guid from RetroBat, as found in es_input.cfg file
 # then create a container for the emulator you need replacement for
-# the target guid must be set after the guid key
+# the target guid must be set after the 'guid' key
+# the target name (dolphin) must be set after the 'name' key
 #
 03000000c82d00000631000000007200:
   name: (Ultimate Wireless Controller)
@@ -17,5 +19,3 @@ D# This file can be used to send the correct GUID for some emulators, currently 
     guid: 03000000c82d00000631000014017801
   mednafen:
     guid: 0x00000000000000000001000400000000
-030000005e0400008e02000000007200:
-  name: DS4 with DS4windows
