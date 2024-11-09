@@ -9819,3 +9819,7 @@ msgstr "Passer au débogueur hôte (ou planter en cas d'absence de débogueur) s
 msgctxt "game_options"
 msgid "BREAK ON UNIMPLEMENTED INSTRUCTIONS"
 msgstr "ARRÊT SI INSTRUCTION NON IMPLÉMENTÉE"
+
+msgctxt "game_options"
+msgid "EMULATION SPEED"
+msgstr "VITESSE D'ÉMULATION"
