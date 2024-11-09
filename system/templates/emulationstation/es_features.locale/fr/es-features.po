@@ -770,6 +770,10 @@ msgid "USE PREEMPTIVE FRAMES"
 msgstr "EXÉCUTER DES IMAGES PRÉEMPTIVES"
 
 msgctxt "game_options"
+msgid "Use preemptive frames instead of run-ahead, the run-ahead frame number applies."
+msgstr "Utiliser les images préemptives, le nombre d'image sélectionné pour le saut d'image est appliqué."
+
+msgctxt "game_options"
 msgid "AUTOMATIC FRAME DELAY"
 msgstr "RETARD D'IMAGE AUTOMATIQUE"
 
@@ -9815,3 +9819,7 @@ msgstr "Passer au débogueur hôte (ou planter en cas d'absence de débogueur) s
 msgctxt "game_options"
 msgid "BREAK ON UNIMPLEMENTED INSTRUCTIONS"
 msgstr "ARRÊT SI INSTRUCTION NON IMPLÉMENTÉE"
+
+msgctxt "game_options"
+msgid "EMULATION SPEED"
+msgstr "VITESSE D'ÉMULATION"
