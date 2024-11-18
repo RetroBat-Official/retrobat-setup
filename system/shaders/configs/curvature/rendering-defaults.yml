@@ -67,8 +67,8 @@ ps2:
 psp:
   shader: handheld/lcd-grid-v2-psp-color
 psx:
-  shader: crt/crt-hyllian-3d
-  ares: crt/crt-hyllian-3d
+  shader: crt/crt-geom
+  ares: crt/crt-geom
   mednafen: GeomCRT@CRTGeom.fx
 vectrex:
   shaderGL: interpolation/sharp-bilinear-scanlines
