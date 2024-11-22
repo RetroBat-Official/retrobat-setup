@@ -1233,6 +1233,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./yabasanshiro.menu</path>
+		<name>Yabasanshiro (Saturn)</name>
+		<desc>Run Yabasanshiro (Saturn).</desc>
+		<image>./media/yabasanshiro-logo.png</image>
+		<marquee>./media/yabasanshiro-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>devmiyax</developer>
+		<publisher />
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./zinc.menu</path>
 		<name>Zinc</name>
 		<desc>Run Zinc FE.</desc>
