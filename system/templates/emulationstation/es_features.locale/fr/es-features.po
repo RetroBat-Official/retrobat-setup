@@ -3853,7 +3853,7 @@ msgid "HLE BIOS"
 msgstr "BIOS HLE"
 
 msgctxt "game_options"
-msgid "Force use of hight-level BIOS emulation."
+msgid "Force use of high-level BIOS emulation."
 msgstr "Force l'émulation haut-niveau du BIOS."
 
 msgctxt "game_options"
