@@ -2545,6 +2545,14 @@ msgid "FACE BUTTON LAYOUT"
 msgstr "DISPOSITION DES BOUTONS"
 
 msgctxt "game_options"
+msgid "GAMECUBE FACE BUTTON LAYOUT"
+msgstr "DISPOSITION DES BOUTONS (MANETTE GAMECUBE)"
+
+msgctxt "game_options"
+msgid "This option only affects Gamecube controller."
+msgstr "Cette option n'affecte que la disposition des boutons pour la manette gamecube."
+
+msgctxt "game_options"
 msgid "NINTENDO LAYOUT"
 msgstr "DISPOSITION NINTENDO"
 
