@@ -323,7 +323,7 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
-	<!--<game>
+	<game>
 		<path>./kronos.menu</path>
 		<name>Kronos (Saturn)</name>
 		<desc>Run Kronos (Saturn).</desc>
@@ -339,7 +339,7 @@
 		<gametime />
 		<lang>en</lang>
 		<region>wr</region>
-	</game>-->
+	</game>
 	<game>
 		<path>./lime3ds.menu</path>
 		<name>Lime (3DS)</name>
