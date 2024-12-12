@@ -1,1 +1,1 @@
-..\..\saves\psp\PSP
+..\..\saves\psp
