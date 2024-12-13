@@ -104,6 +104,9 @@ emulators\citra\user\config
 emulators\citra-canary
 emulators\citra-canary\user
 emulators\citra-canary\user\config
+emulators\citron
+emulators\citron\user
+emulators\citron\user\config
 emulators\cxbx-reloaded
 emulators\cxbx-reloaded\EmuDisk
 emulators\daphne
@@ -361,6 +364,7 @@ screenshots
 screenshots\ares
 screenshots\capriceforever
 screenshots\citra
+screenshots\citron
 screenshots\duckstation
 screenshots\lime3ds
 screenshots\mednafen

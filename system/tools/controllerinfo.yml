@@ -1,6 +1,7 @@
 # This file can be used to send the correct GUID or NAME for some emulators, currently the following emulators support this function
 # - cemu (to replace GUID)
 # - citra (to replace GUID)
+# - citron (to replace GUID)
 # - dolphin (to replace name)
 # - lime3ds (to replace GUID)
 # - mednafen (to replace GUID)
