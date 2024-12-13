@@ -154,6 +154,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./citron.menu</path>
+		<name>Citron (Switch)</name>
+		<desc>Run Citron (Switch). This software is not provided by RetroBat.</desc>
+		<image>./media/citron-logo.png</image>
+		<marquee>./media/citron-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Zephyron</developer>
+		<publisher />
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./demul-old.menu</path>
 		<name>Demul Old DX11 Plugin (Gaelco)</name>
 		<desc>Run Demul Old DX11 Plugin (Gaelco).</desc>
