@@ -34,6 +34,10 @@ msgid "DISABLED"
 msgstr "DÉSACTIVÉ"
 
 msgctxt "game_options"
+msgid "disabled"
+msgstr "désactivé"
+
+msgctxt "game_options"
 msgid "DECORATIONS"
 msgstr "DÉCORATIONS"
 
@@ -214,6 +218,14 @@ msgid "Default to 10-bits for DS and 16-bits for DSi."
 msgstr "Défaut: 10-bits pour la DS et 16-bits pour la DSi"
 
 msgctxt "game_options"
+msgid "AUDIO OUTPUT"
+msgstr "SORTIE AUDIO"
+
+msgctxt "game_options"
+msgid "Define which Gameboy sound is output from the system."
+msgstr "Définir quelle console est audible."
+
+msgctxt "game_options"
 msgid "Interpolates audio output for improved quality."
 msgstr "Activer l'interpolation audio pour améliorer la qualité."
 
@@ -296,6 +308,10 @@ msgstr "QUALITÉ AUDIO"
 msgctxt "game_options"
 msgid "FORCE STEREO"
 msgstr "FORCER LE SON STÉRÉO"
+
+msgctxt "game_options"
+msgid "STEREO"
+msgstr "STÉRÉO"
 
 msgctxt "game_options"
 msgid "SAVE ON EXIT"
@@ -850,6 +866,14 @@ msgid "Português"
 msgstr "Portugais"
 
 msgctxt "game_options"
+msgid "Русский (Russian)"
+msgstr "Russe"
+
+msgctxt "game_options"
+msgid "한국어 (Korean)"
+msgstr "Coréen"
+
+msgctxt "game_options"
 msgid "Română"
 msgstr "Roumain"
 
@@ -882,8 +906,40 @@ msgid "简体中文 (Chinese)"
 msgstr "Chinois"
 
 msgctxt "game_options"
+msgid "Chinese"
+msgstr "Chinois"
+
+msgctxt "game_options"
+msgid "Taiwanese"
+msgstr "Taïwanais"
+
+msgctxt "game_options"
+msgid "British"
+msgstr "Anglais"
+
+msgctxt "game_options"
+msgid "French (Canadian)"
+msgstr "Français (Canadien)"
+
+msgctxt "game_options"
+msgid "Spanish (Latin America)"
+msgstr "Espagnol (Amérique Latine)"
+
+msgctxt "game_options"
+msgid "简化字 (Chinese - simplified)"
+msgstr "Chinois simplifié"
+
+msgctxt "game_options"
+msgid "簡化字 (Chinese - traditional)"
+msgstr "Chinois traditionnel"
+
+msgctxt "game_options"
 msgid "한국어 (Korean)"
 msgstr "Coréen"
+
+msgctxt "game_options"
+msgid "Português (Brazil)"
+msgstr "Portugais (Brésil)"
 
 msgctxt "game_options"
 msgid "USER INTERFACE"
@@ -1411,11 +1467,12 @@ msgstr "Très élevé"
 
 msgctxt "game_options"
 msgid "CONSOLE REGION"
-msgstr "REGION DE LA CONSOLE"
+msgstr "RÉGION DE LA CONSOLE"
 
 msgctxt "game_options"
 msgid "Dendy"
 msgstr "Dendy"
+
 msgctxt "game_options"
 msgid "NTSC FILTER"
 msgstr "FILTRE NTSC"
@@ -1475,6 +1532,10 @@ msgstr "Au plus proche"
 msgctxt "game_options"
 msgid "Bilinear"
 msgstr "Bilinéaire"
+
+msgctxt "game_options"
+msgid "Bilinear (forced excluding sprite)"
+msgstr "Bilinéaire (forcé sauf sprites)"
 
 msgctxt "game_options"
 msgid "Zooms in to hide black borders. Borders are different per game."
@@ -1717,6 +1778,14 @@ msgid "4 PLAYER ADAPTER"
 msgstr "ADAPTATEUR 4 JOUEURS"
 
 msgctxt "game_options"
+msgid "2x2 PLAYER LINK"
+msgstr "2 CÂBLES LINK"
+
+msgctxt "game_options"
+msgid "LINK CABLE EMULATION"
+msgstr "ÉMULATION DU CÂBLE DE LIAISON"
+
+msgctxt "game_options"
 msgid "Emulate a specific motion control. The '/' means the action for L-stick/R-stick."
 msgstr "Émule un type spécifique de contrôleur et/ou de mouvement. La barre de séparation '/' délimite l'action des sticks gauches et droits de la manette."
 
@@ -1899,6 +1968,14 @@ msgstr "Placer les codes de triches dans le dossier 'cheats\pcsx2\cheats'"
 msgctxt "game_options"
 msgid "RetroBat will use by default psxonpsp BIOS, enable this option to force usage of legacy SCPH550X bios file."
 msgstr "RetroBat utilise par défaut le bios psxonpsp, cette option permet de forcer l'utilisation du bios SCPH550X."
+
+msgctxt "game_options"
+msgid "GAME ENHANCEMENTS"
+msgstr "AMÉLIORATIONS DU JEU"
+
+msgctxt "game_options"
+msgid "Automatically apply game enhancements if they exist in the core database."
+msgstr "Appliquer automatiquement les améliorations selon la base de données de l'émulateur."
 
 msgctxt "game_options"
 msgid "FORCE BIOS"
@@ -2269,6 +2346,22 @@ msgid "PLAYER 4 CONTROLLER TYPE"
 msgstr "TYPE DE CONTRÔLEUR JOUEUR 4"
 
 msgctxt "game_options"
+msgid "DUAL JOYCON"
+msgstr "DOUBLE JOY-CON"
+
+msgctxt "game_options"
+msgid "RIGHT JOYCON"
+msgstr "JOY-CON DROIT"
+
+msgctxt "game_options"
+msgid "LEFT JOYCON"
+msgstr "JOY-CON GAUCHE"
+
+msgctxt "game_options"
+msgid "HANDHELD"
+msgstr "PORTABLE"
+
+msgctxt "game_options"
 msgid "KEYBOARD FOCUS"
 msgstr "FOCUS CLAVIER"
 
@@ -2369,6 +2462,10 @@ msgid "Choose the disposition of the emulated screens."
 msgstr "Définir la disposition des écrans."
 
 msgctxt "game_options"
+msgid "Choose the disposition of the emulated screens for multiplayer games."
+msgstr "Définir la disposition des écrans pour les jeux multi-joueurs."
+
+msgctxt "game_options"
 msgid "TOP-BOTTOM SCREEN"
 msgstr "HAUT-BAS"
 
@@ -2466,7 +2563,15 @@ msgstr "CORÉE"
 
 msgctxt "game_options"
 msgid "TAIWAN"
-msgstr ""
+msgstr "TAÏWAN"
+
+msgctxt "game_options"
+msgid "American English"
+msgstr "Anglais (Américain)"
+
+msgctxt "game_options"
+msgid "日本語 (Japanese)"
+msgstr "Japonais"
 
 msgctxt "game_options"
 msgid "SHOW MOUSE POINTER"
@@ -2511,6 +2616,10 @@ msgstr "ZONE MORTE DES GÂCHETTES ANALOGIQUE"
 msgctxt "game_options"
 msgid "ANALOG SENSITIVITY"
 msgstr "SENSIBILITÉ ANALOGIQUE"
+
+msgctxt "game_options"
+msgid "ANALOG SENSITIVITY (CORE)"
+msgstr "SENSIBILITÉ ANALOGIQUE(CORE)"
 
 msgctxt "game_options"
 msgid "ANALOG SENSITIVITY(CORE)"
@@ -2578,7 +2687,19 @@ msgstr "Activer cette option si le contrôleur n'a pas de gâchettes analogiques
 
 msgctxt "game_options"
 msgid "Sets the deadzone of the Gamepad analog sticks when the input device type is set to 'Gamepad Classic' or 'Gamepad Modern'."
-msgstr "Définir la zone morte analogique lorsque le type de contrôleur sélectionné est 'gamepad classic' ou 'gamepad modern'."
+msgstr "Définir la zone morte analogique lorsque le type de contrôleur sélectionné est 'manette classique' ou 'manette moderne'."
+
+msgctxt "game_options"
+msgid "GAMEPAD CLASSIC"
+msgstr "MANETTE CLASSIQUE"
+
+msgctxt "game_options"
+msgid "GAMEPAD MODERN"
+msgstr "MANETTE MODERNE"
+
+msgctxt "game_options"
+msgid "CONSOLE MODEL"
+msgstr "MODÈLE DE CONSOLE"
 
 msgctxt "game_options"
 msgid "Sets the deadzone of the Gamepad analog sticks."
@@ -3605,6 +3726,10 @@ msgid "MODEL TO EMULATE"
 msgstr "MODÈLE DE MACHINE ÉMULÉE"
 
 msgctxt "game_options"
+msgid "Select the machine to emulate."
+msgstr "Type de machine émulée."
+
+msgctxt "game_options"
 msgid "Type of APPLE II to emulate."
 msgstr "Type d'ordinateur AppleII à émuler."
 
@@ -4337,6 +4462,18 @@ msgid "RAM SIZE"
 msgstr "TAILLE DE LA MÉMOIRE RAM"
 
 msgctxt "game_options"
+msgid "4GB (Default)"
+msgstr "4GO (Défaut)"
+
+msgctxt "game_options"
+msgid "6GB (Unsafe)"
+msgstr "6GO (Dangereux)"
+
+msgctxt "game_options"
+msgid "8GB (Unsafe)"
+msgstr "8GO (Dangereux)"
+
+msgctxt "game_options"
 msgid "CPC physical RAM size in kB."
 msgstr "Taille de la mémoire RAM de l'ordinateur en kB."
 
@@ -4938,11 +5075,11 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "1M EXTENDED RAM"
-msgstr ""
+msgstr "EXTENSION RAM 1M"
 
 msgctxt "game_options"
 msgid "4M EXTENDED RAM"
-msgstr ""
+msgstr "EXTENSION RAM 4M"
 
 msgctxt "game_options"
 msgid "THE KING OF FIGHTERS 95"
@@ -5497,6 +5634,10 @@ msgid "SCALED"
 msgstr "MIS À L'ÉCHELLE"
 
 msgctxt "game_options"
+msgid "FORCE 32 BITS"
+msgstr "FORCÉ 32 BITS"
+
+msgctxt "game_options"
 msgid "CONTROL SCHEME"
 msgstr "SCHÉMA DE CONTRÔLES"
 
@@ -5667,6 +5808,10 @@ msgstr "Laisser activé pour activer les optimisations JIT CPU."
 msgctxt "game_options"
 msgid "HIGH"
 msgstr "HAUTE"
+
+msgctxt "game_options"
+msgid "EXTREME (VERY SLOW)"
+msgstr "EXTRÊME (TRÈS LENT)"
 
 msgctxt "game_options"
 msgid "BEST"
@@ -6861,6 +7006,10 @@ msgid "INTEGER SCALE"
 msgstr "MISE À L'ÉCHELLE PAR NOMBRE ENTIER"
 
 msgctxt "game_options"
+msgid "INTEGER SCALE (Fullscreen)"
+msgstr "NOMBRE ENTIER (Plein écran)"
+
+msgctxt "game_options"
 msgid "PHOSPHORE"
 msgstr ""
 
@@ -6869,24 +7018,28 @@ msgid "PIXELLATE SCANLINE"
 msgstr "BALAYAGE PIXELISÉE"
 
 msgctxt "game_options"
+msgid "SCANLINE"
+msgstr "BALAYAGE"
+
+msgctxt "game_options"
 msgid "PIXELLATE"
 msgstr "PIXELISER"
 
 msgctxt "game_options"
 msgid "SCALE 2X"
-msgstr ""
+msgstr "MISE À L'ÉCHELLE X2"
 
 msgctxt "game_options"
 msgid "SCALE 4X"
-msgstr ""
+msgstr "MISE À L'ÉCHELLE X4"
 
 msgctxt "game_options"
 msgid "SCANLINE 3X"
-msgstr ""
+msgstr "BALAYAGE X3"
 
 msgctxt "game_options"
 msgid "SCANLINE 4X"
-msgstr ""
+msgstr "BALAYAGE X4"
 
 msgctxt "game_options"
 msgid "UNIVERSE BIOS V4.0"
@@ -7349,6 +7502,18 @@ msgid "SKIP EFB ACCESS (HACK)"
 msgstr "IGNORER L'ACCÈS À L'EFB (HACK)"
 
 msgctxt "game_options"
+msgid "UNCAPPED FRAMERATE"
+msgstr "FRAMERATE DÉPLAFONNÉ"
+
+msgctxt "game_options"
+msgid "Uncaps the framerate of the game if a patch can be found in the internal database."
+msgstr "Désactive la limite de fps si un patch le permet."
+
+msgctxt "game_options"
+msgid "PAL TO NTSC (60FPS)"
+msgstr "PAL VERS NTSC (60FPS)"
+
+msgctxt "game_options"
 msgid "Improve performance in some games but can disable graphical effects and gameplay related features."
 msgstr "Améliore la performance dans certains jeux mais désactive tous les effets graphiques ou fonctionnalités de gameplay basés sur l'EFB." 
 
@@ -7555,6 +7720,14 @@ msgstr "PLUS PROCHE"
 msgctxt "game_options"
 msgid "Bilinear (No Edge Blending)"
 msgstr "Bilinéaire (sans fusion)"
+
+msgctxt "game_options"
+msgid "Bilinear (PS2 default)"
+msgstr "Bilinéaire (PS2 défaut)"
+
+msgctxt "game_options"
+msgid "Bilinear (forced)"
+msgstr "Bilinéaire (forcé)"
 
 msgctxt "game_options"
 msgid "JINC2 (No Edge Blending)"
@@ -7766,7 +7939,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "AMD's FidelityFX Super Resolution"
-msgstr ""
+msgstr "AMD FidelityFX Super Resolution"
 
 msgctxt "game_options"
 msgid "SCALER"
@@ -8153,6 +8326,18 @@ msgid "USE LEFT STICK"
 msgstr "UTILISER LE STICK GAUCHE"
 
 msgctxt "game_options"
+msgid "TWO BUTTON FIRE"
+msgstr "TIR DOUBLE (2 BOUTONS)"
+
+msgctxt "game_options"
+msgid "ANALOG MOVEMENT"
+msgstr "MOUVEMENTS AU STICK ANALOGIQUE"
+
+msgctxt "game_options"
+msgid "AUTO FIRE"
+msgstr "TIR AUTOMATIQUE"
+
+msgctxt "game_options"
 msgid "Use analog stick instead of dpad."
 msgstr "Utiliser le stick analogique au lieu du pad directionnel."
 
@@ -8191,6 +8376,18 @@ msgstr "Utiliser cette option si Duckstation ne s'affiche pas sur le bon écran.
 msgctxt "game_options"
 msgid "DEINTERLACING MODE"
 msgstr "MÉTHODE DE DÉSENTRELACEMENT"
+
+msgctxt "game_options"
+msgid "DEINTERLACING ADAPTATIVE"
+msgstr "DÉSENTRELACEMENT ADAPTATIF"
+
+msgctxt "game_options"
+msgid "DEBUG DEINTERLACING"
+msgstr "DÉSENTRELACEMENT DEBUG"
+
+msgctxt "game_options"
+msgid "BOB DEINTERLACING"
+msgstr "DÉSENTRELACEMENT BOB"
 
 msgctxt "game_options"
 msgid "Some game might require interlaced rendering."
@@ -8889,6 +9086,10 @@ msgid "FORCE NUMBER OF PLAYERS"
 msgstr "FORCER LE NOMBRE DE JOUEURS"
 
 msgctxt "game_options"
+msgid "NUMBER OF PLAYERS"
+msgstr "NOMBRE DE JOUEURS"
+
+msgctxt "game_options"
 msgid "By default RetroBat configures as many players as connected controllers, use this to override."
 msgstr "RetroBat configure automatiquement autant de joueurs qu'il y a de manettes connectées, cette option permet de forcer un nombre défini de joueurs."
 
@@ -8919,6 +9120,18 @@ msgstr "RECOMPRESSION DES TEXTURES"
 msgctxt "game_options"
 msgid "For games using ASTC textures, switch to medium when using 6GB VRAM GPU and low when using 4GB-2GB VRAM GPU."
 msgstr "Permet d'améliorer les performances en compressant les textures pour consommer moins de VRAM, passer en 'low' pour les GPU avec 2GB de VRAM."
+
+msgctxt "game_options"
+msgid "UNCOMPRESSED (default, best quality)"
+msgstr "NON COMPRESSÉ (MEILLEURE QUALITÉ)"
+
+msgctxt "game_options"
+msgid "MEDIUM QUALITY"
+msgstr "QUALITÉ MOYENNE"
+
+msgctxt "game_options"
+msgid "LOW QUALITY"
+msgstr "QUALITÉ FAIBLE"
 
 msgctxt "game_options"
 msgid "CPU ACCURACY"
@@ -9015,6 +9228,10 @@ msgstr "AFFICHER L'ÉCRAN DU GAMEPAD"
 msgctxt "game_options"
 msgid "Define button to display Gamepad screen, default if none."
 msgstr "Définir le bouton à utiliser pour afficher l'écran du Gamepad WIIU, désactivé par défaut."
+
+msgctxt "game_options"
+msgid "ENABLE MOTION"
+msgstr "ACTIVER LE MOTION CONTROL"
 
 msgctxt "game_options"
 msgid "Enable motion control (gyro) either with mouse or with compatible controller."
@@ -9697,6 +9914,14 @@ msgid "UNSAFE HACKS"
 msgstr "HACKS DANGEREUX"
 
 msgctxt "game_options"
+msgid "UNSAFE"
+msgstr "DANGEREUX"
+
+msgctxt "game_options"
+msgid "PARANOID"
+msgstr "PARANOÏAQUE"
+
+msgctxt "game_options"
 msgid "Disable core safety features in order to enable some homebrew games to launch."
 msgstr "Désactive les options de sécurité de l'émulateur pour faire tourner certains Homebrews.."
 
@@ -9705,12 +9930,28 @@ msgid "USE GENESIS-LIKE CONTROLLER"
 msgstr "CONTRÔLEUR DE TYPE MEGADRIVE"
 
 msgctxt "game_options"
+msgid "USE 3 BUTTON CONTROLLER"
+msgstr "MANETTE 3-BOUTONS"
+
+msgctxt "game_options"
+msgid "Default emulated pad is a 6-button pad."
+msgstr "La manette 6-boutons est émulée par défaut."
+
+msgctxt "game_options"
 msgid "USE N64-LIKE CONTROLLER"
 msgstr "CONTRÔLEUR DE TYPE N64"
 
 msgctxt "game_options"
 msgid "USE SATURN-LIKE CONTROLLER"
 msgstr "CONTRÔLEUR DE TYPE SATURN"
+
+msgctxt "game_options"
+msgid "YES(DPAD)"
+msgstr "OUI(MODE DPAD)"
+
+msgctxt "game_options"
+msgid "YES(ANALOG)"
+msgstr "OUI(MODE STICK ANALOGIQUE)"
 
 msgctxt "game_options"
 msgid "DISABLE MODE 7 PERSPECTIVE CORRECTION"
@@ -9835,3 +10076,75 @@ msgstr "ARRÊT SI INSTRUCTION NON IMPLÉMENTÉE"
 msgctxt "game_options"
 msgid "EMULATION SPEED"
 msgstr "VITESSE D'ÉMULATION"
+
+msgctxt "game_options"
+msgid "SPLIT SCREEN"
+msgstr "ÉCRAN SÉPARÉ (STANDARD)"
+
+msgctxt "game_options"
+msgid "TOP TO BOTTOM"
+msgstr "DE HAUT EN BAS"
+
+msgctxt "game_options"
+msgid "LEFT TO RIGHT"
+msgstr "DE GAUCHE À DROITE"
+
+msgctxt "game_options"
+msgid "LINK CABLE DEVICE"
+msgstr "TYPE DE CÂBLE MULTIJOUEURS"
+
+msgctxt "game_options"
+msgid "DEFAULT"
+msgstr "PAR DÉFAUT"
+
+msgctxt "game_options"
+msgid "Auto max quality"
+msgstr "Auto qualité max."
+
+msgctxt "game_options"
+msgid "Cartridge (Slot 1)"
+msgstr "Cartouche (slot 1)"
+
+msgctxt "game_options"
+msgid "Cartridge (Slot 2)"
+msgstr "Cartouche (slot 2)"
+
+msgctxt "game_options"
+msgid "Acorn Analogue Joysticks"
+msgstr "Joysticks analogiques Acorn"
+
+msgctxt "game_options"
+msgid "SWAP CONTROLLERS"
+msgstr "INVERSER LES MANETTES"
+
+msgctxt "game_options"
+msgid "Set this for games that require controller in port 2."
+msgstr "Activer pour les jeux nécessitant le contrôleur dans le second port."
+
+msgctxt "game_options"
+msgid "STANDARD (DISC)"
+msgstr "STANDARD (DISQUE)"
+
+msgctxt "game_options"
+msgid "ENABLED (16:9)"
+msgstr "ACTIVÉ (16:9)"
+
+msgctxt "game_options"
+msgid "ENABLED (16:10)"
+msgstr "ACTIVÉ (16:10)"
+
+msgctxt "game_options"
+msgid "ENABLED (21:9)"
+msgstr "ACTIVÉ (21:9)"
+
+msgctxt "game_options"
+msgid "ENABLED (32:9)"
+msgstr "ACTIVÉ (32:9)"
+
+msgctxt "game_options"
+msgid "SLOW MOTION BEHAVIOR"
+msgstr "ACTIVATION DU RALENTI"
+
+msgctxt "game_options"
+msgid "Define whether the 'slow-motion' shortcuts acts as a toggle or needs to be held."
+msgstr "Définir si le ralenti nécessite une pression ou le maintien du bouton de raccourci."
