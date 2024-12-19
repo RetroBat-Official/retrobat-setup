@@ -24,6 +24,8 @@
 \system\templates\demul-old\gpuDX11old.ini|\emulators\demul-old\gpuDX11old.ini
 \system\templates\demul\Demul.ini|\emulators\demul\Demul.ini
 \system\templates\demul\gpuDX11.ini|\emulators\demul\gpuDX11.ini
+\system\templates\dhewm3\base\dhewm.cfg|\emulators\dhewm3\base\dhewm.cfg
+\system\templates\dhewm3\d3xp\dhewm.cfg|\emulators\dhewm3\d3xp\dhewm.cfg
 \system\templates\dolphin-triforce\Dolphin.ini|\emulators\dolphin-triforce\User\Config\Dolphin.ini
 \system\templates\dolphin-triforce\GameSettings\GameSettings.zip|\emulators\dolphin-triforce\Sys\GameSettings
 \system\templates\dolphin-triforce\GCPadNew.ini|\emulators\dolphin-triforce\User\Config\GCPadNew.ini
