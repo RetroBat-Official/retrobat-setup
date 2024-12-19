@@ -112,6 +112,9 @@ emulators\cxbx-reloaded\EmuDisk
 emulators\daphne
 emulators\demul
 emulators\demul-old
+emulators\dhewm3
+emulators\dhewm3\base
+emulators\dhewm3\d3xp
 emulators\dolphin-emu
 emulators\dolphin-emu\User
 emulators\dolphin-emu\User\Config
@@ -268,6 +271,8 @@ saves\dolphin\User\GC\EUR
 saves\dolphin\User\GC\JAP
 saves\dolphin\User\GC\USA
 saves\dolphin\User\Wii
+saves\doom3
+saves\doom3\dhewm3
 saves\gba
 saves\gba\mgba
 saves\gemrb
