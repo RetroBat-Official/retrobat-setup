@@ -206,21 +206,6 @@ select = "Right Shift"
 
 [inputs.gb_joystick]
 
-[inputs.hotkeys]
-quit = "Escape"
-toggle_fullscreen = "Tab"
-save_state = "F1"
-load_state = "F2"
-next_save_state_slot = "F4"
-prev_save_state_slot = "F3"
-soft_reset = "F8"
-hard_reset = "F9"
-pause = "F5"
-step_frame = "F10"
-fast_forward = "F7"
-rewind = "F6"
-open_debugger = "F11"
-
 [list_filters]
 master_system = true
 game_gear = true
