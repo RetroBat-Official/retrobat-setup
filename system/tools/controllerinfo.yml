@@ -1,4 +1,5 @@
 # This file can be used to send the correct GUID or NAME for some emulators, currently the following emulators support this function
+# - bigpemu (to replace GUID)
 # - cemu (to replace GUID)
 # - citra (to replace GUID)
 # - citron (to replace GUID)
@@ -32,3 +33,9 @@
   name: (Xbox 360 USB for Windows)
   sudachi:
     guid: 030000005e0400008e02000014017801
+030000005e040000130b000009057200:
+  name: Xbox Series X Controller
+  bigpemu:
+    guid: 030056D05E040000130B000009057200
+  lime3ds:
+    guid: 030056d05e040000130b000009057200
