@@ -101,9 +101,6 @@ emulators\cgenius
 emulators\citra
 emulators\citra\user
 emulators\citra\user\config
-emulators\citra-canary
-emulators\citra-canary\user
-emulators\citra-canary\user\config
 emulators\citron
 emulators\citron\user
 emulators\citron\user\config
@@ -229,9 +226,6 @@ emulators\xenia-canary
 emulators\xenia-canary\config
 emulators\xenia-canary\patches
 emulators\yuzu
-emulators\yuzu-early-access
-emulators\yuzu-early-access\user
-emulators\yuzu-early-access\user\config
 emulators\yuzu\user
 emulators\yuzu\user\config
 emulators\zinc
