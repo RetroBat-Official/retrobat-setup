@@ -53,8 +53,10 @@ wait-for-debugger: false
 color-surface-debug: false
 show-touchpad-cursor: true
 performance-overlay: false
-perfomance-overlay-detail: 0
-perfomance-overlay-position: 0
+performance-overlay-detail: 0
+performance-overlay-position: 0
+screenshot-format: 1
+disable-motion: false
 keyboard-button-select: 229
 keyboard-button-start: 40
 keyboard-button-up: 82
