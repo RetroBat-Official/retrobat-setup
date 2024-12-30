@@ -775,6 +775,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./xenia-manager.menu</path>
+		<name>Xenia Manager (XBOX 360)</name>
+		<desc>Run Xenia Manager (Xbox 360).</desc>
+		<image>./media/xenia-manager-logo.png</image>
+		<marquee>./media/xenia-manager-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Shazzaam</developer>
+		<publisher />
+		<genre>Tool</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./daphne.menu</path>
 		<name>Daphne Loader (Laserdisc)</name>
 		<desc>Run Daphne Loader (Laserdisc).</desc>

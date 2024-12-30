@@ -35,8 +35,8 @@ Core:
   XFloat Accuracy: Approximate
   Accurate PPU 128-byte Reservation Op Max Length: 0
   Stub PPU Traps: 0
-  Full Width AVX-512: false
-  PPU LLVM Java Mode Handling: false
+  Full Width AVX-512: true
+  PPU LLVM Java Mode Handling: true
   Use Accurate DFMA: true
   PPU Set Saturation Bit: false
   PPU Accurate Non-Java Mode: false
@@ -76,7 +76,7 @@ Video:
   Second Frame Limit: 0
   MSAA: Auto
   Shader Mode: Async Shader Recompiler
-  Shader Precision: Auto
+  Shader Precision: High
   Write Color Buffers: false
   Write Depth Buffer: false
   Read Color Buffers: false
@@ -121,7 +121,8 @@ Video:
   DECR memory layout: false
   Allow Host GPU Labels: false
   Disable MSL Fast Math: false
-  Output Scaling Mode: Nearest
+  Disable Asynchronous Memory Manager: false
+  Output Scaling Mode: Bilinear
   Vulkan:
     Adapter: NVIDIA GeForce RTX 3080
     Force FIFO present mode: false
@@ -168,7 +169,7 @@ Audio:
   Audio Channel Layout: Automatic
   Audio Device: "@@@default@@@"
   Master Volume: 100
-  Enable Buffering: false
+  Enable Buffering: true
   Desired Audio Buffer Duration: 100
   Enable Time Stretching: false
   Disable Sampling Skip: false
@@ -192,16 +193,21 @@ Input/Output:
   Pad handler sleep (microseconds): 1000
   Background input enabled: true
   Show move cursor: false
+  Paint move spheres: false
+  Allow move hue set by game: false
   Lock overlay input to player one: false
-  Emulated Midi devices: Keyboardßßß@@@Keyboardßßß@@@Keyboardßßß@@@
+  Emulated Midi devices: ßßß@@@ßßß@@@ßßß@@@
   Load SDL GameController Mappings: true
+  IO Debug overlay: false
+  Fake Move Rotation Cone: 10
+  Fake Move Rotation Cone (Vertical): 10
 System:
   License Area: SCEE
   Language: English (US)
   Keyboard Type: English keyboard (US standard)
   Enter button assignment: Enter with cross
   Console time offset (s): 0
-  System Name: RPCS3-463
+  System Name: RPCS3-515
   PSID high: 0
   PSID low: 0
   HDD Model Name: ""
@@ -228,11 +234,13 @@ Miscellaneous:
   Start games in fullscreen mode: true
   Prevent display sleep while running games: true
   Show trophy popups: true
+  Show RPCN popups: true
   Show shader compilation hint: true
   Show PPU compilation hint: true
   Show pressure intensity toggle hint: true
   Show analog limiter toggle hint: true
   Show mouse and keyboard toggle hint: true
+  Show autosave/autoload hint: false
   Use native user interface: true
   GDB Server: 127.0.0.1:2345
   Silence All Logs: false
