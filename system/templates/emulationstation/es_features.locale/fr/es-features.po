@@ -10148,3 +10148,11 @@ msgstr "ACTIVATION DU RALENTI"
 msgctxt "game_options"
 msgid "Define whether the 'slow-motion' shortcuts acts as a toggle or needs to be held."
 msgstr "Définir si le ralenti nécessite une pression ou le maintien du bouton de raccourci."
+
+msgctxt "game_options"
+msgid "STORE XFB COPIES TO TEXTURE ONLY"
+msgstr "ENREGISTRER LES COPIES XFB VERS TEXTURE UNIQUEMENT"
+
+msgctxt "game_options"
+msgid "Default enabled, can be problematic for few games."
+msgstr "Activé par défaut, peut poser problème dans de rares jeux."
