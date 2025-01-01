@@ -60,6 +60,7 @@
 \system\templates\jgenesis\jgenesis-config.toml|\emulators\jgenesis\jgenesis-config.toml
 \system\templates\jynx\settings.txt|\emulators\jynx\settings.txt
 \system\templates\kega-fusion\Fusion.ini|\emulators\kega-fusion\Fusion.ini
+\system\templates\kronos\kronos.ini|\emulators\kronos\kronos.ini
 \system\templates\lime3ds\portable.txt|\emulators\lime3ds\portable.txt
 \system\templates\lime3ds\qt-config.ini|\emulators\lime3ds\user\config\qt-config.ini
 \system\templates\m2emulator\Emulator.ini|\emulators\m2emulator\Emulator.ini
