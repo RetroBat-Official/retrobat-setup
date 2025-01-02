@@ -95,6 +95,7 @@
 \system\templates\pcsx2-16\portable.ini|\emulators\pcsx2-16\portable.ini
 \system\templates\pcsx2\inis\PCSX2.ini|\emulators\pcsx2\inis\PCSX2.ini
 \system\templates\pcsx2\portable.ini|\emulators\pcsx2\portable.ini
+\system\templates\pdark\pd.ini|\emulators\pdark\pd.ini
 \system\templates\phoenix\phoenix.config.xml|\emulators\phoenix\phoenix.config.xml
 \system\templates\play\config.xml|\emulators\play\Play Data Files\config.xml
 \system\templates\play\inputprofiles\Retrobat.xml|\emulators\play\Play Data Files\inputprofiles\Retrobat.xml
