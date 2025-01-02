@@ -139,6 +139,7 @@ emulators\hypseus
 emulators\jgenesis
 emulators\jynx
 emulators\kega-fusion
+emulators\kronos
 emulators\lime3ds
 emulators\lime3ds\user
 emulators\lime3ds\user\config
@@ -175,6 +176,8 @@ emulators\pcsx2-16
 emulators\pcsx2-16\Plugins
 emulators\pcsx2-16\inis
 emulators\pcsx2\inis
+emulators\pdark
+emulators\pdark\data
 emulators\phoenix
 emulators\play
 emulators\play\Play Data Files

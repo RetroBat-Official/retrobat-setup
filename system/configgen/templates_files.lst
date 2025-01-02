@@ -60,6 +60,7 @@
 \system\templates\jgenesis\jgenesis-config.toml|\emulators\jgenesis\jgenesis-config.toml
 \system\templates\jynx\settings.txt|\emulators\jynx\settings.txt
 \system\templates\kega-fusion\Fusion.ini|\emulators\kega-fusion\Fusion.ini
+\system\templates\kronos\kronos.ini|\emulators\kronos\kronos.ini
 \system\templates\lime3ds\portable.txt|\emulators\lime3ds\portable.txt
 \system\templates\lime3ds\qt-config.ini|\emulators\lime3ds\user\config\qt-config.ini
 \system\templates\m2emulator\Emulator.ini|\emulators\m2emulator\Emulator.ini
@@ -94,6 +95,7 @@
 \system\templates\pcsx2-16\portable.ini|\emulators\pcsx2-16\portable.ini
 \system\templates\pcsx2\inis\PCSX2.ini|\emulators\pcsx2\inis\PCSX2.ini
 \system\templates\pcsx2\portable.ini|\emulators\pcsx2\portable.ini
+\system\templates\pdark\pd.ini|\emulators\pdark\pd.ini
 \system\templates\phoenix\phoenix.config.xml|\emulators\phoenix\phoenix.config.xml
 \system\templates\play\config.xml|\emulators\play\Play Data Files\config.xml
 \system\templates\play\inputprofiles\Retrobat.xml|\emulators\play\Play Data Files\inputprofiles\Retrobat.xml
