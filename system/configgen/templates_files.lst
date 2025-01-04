@@ -129,6 +129,7 @@
 \system\templates\ryujinx\Configure Ryujinx.bat|\emulators\ryujinx\Configure Ryujinx.bat
 \system\templates\ryujinx\portable\Config.json|\saves\switch\ryujinx\portable\Config.json
 \system\templates\scummvm\scummvm.ini|\emulators\scummvm\scummvm.ini
+\system\templates\shadps4\user\config.toml|\emulators\shadps4\user\config.toml
 \system\templates\simple64\input-profiles.ini|\emulators\simple64\input-profiles.ini
 \system\templates\simple64\input-settings.ini|\emulators\simple64\input-settings.ini
 \system\templates\simple64\mupen64plus.cfg|\emulators\simple64\mupen64plus.cfg
