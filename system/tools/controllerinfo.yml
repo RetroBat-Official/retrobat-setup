@@ -18,11 +18,11 @@
 # the target name (dolphin) must be set after the 'name' key
 #
 03000000c82d00000631000000007200:
-  name: (Ultimate Wireless Controller)
+  name: Ultimate Wireless Controller, 8BitDo Pro 2 USB
   sudachi:
     guid: 03000000c82d00000631000014017801
-  mednafen:
-    guid: 0x00000000000000000001000400000000
+  suyu:
+    guid: 03000000c82d00000631000014017801
 030000005e040000a102000000007200:
   name: (Xbox 360 Wireless Receiver for Windows)
   multiGuid: true
@@ -56,6 +56,5 @@
   lime3ds:
     guid: 030056D05E040000130B000021057200
 030000005e040000ff02000000007200:
-  name: Xbox One Controller (wired)
   citra:
     guid: 0300938d5e040000ff02000000007200
