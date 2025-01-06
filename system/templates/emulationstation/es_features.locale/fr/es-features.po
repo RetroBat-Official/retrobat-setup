@@ -7518,7 +7518,7 @@ msgid "Improve performance in some games but can disable graphical effects and g
 msgstr "Améliore la performance dans certains jeux mais désactive tous les effets graphiques ou fonctionnalités de gameplay basés sur l'EFB." 
 
 msgctxt "game_options"
-msgid "IGNORE EFB FORMAT (HACK)"
+msgid "IGNORE EFB FORMAT CHANGES(HACK)"
 msgstr "IGNORER LES CHANGEMENTS DE FORMAT (HACK)"
 
 msgctxt "game_options"
@@ -7558,16 +7558,12 @@ msgid "DISABLE 4MB RAM PACK"
 msgstr "DÉSACTIVER L'EXTENSION RAM 4MB"
 
 msgctxt "game_options"
-msgid "Greatly inscrease the quality of textures generated using render-to-texture effects. Enabled by default. Disabling it may avoid crashes for games using custom textures."
+msgid "Greatly increase the quality of textures generated using render-to-texture effects. Enabled by default. Disabling it may avoid crashes for games using custom textures."
 msgstr "Améliore grandement la qualité des textures. Activé par défaut. Peut poser des problèmes lors de l'utilisation de textures personnalisées."
 
 msgctxt "game_options"
 msgid "Improves the emulation performance at the cost of accuracy."
 msgstr "Améliore la performance au détriment de la précision d'émulation."
-
-msgctxt "game_options"
-msgid "Greatly inscrease the quality of textures generated using render-to-texture effects. Enabled by default. Disabling it may avoid crashes for games using custom textures."
-msgstr "Améliore grandement la qualité des textures. Activé par défaut. Désactiver cette option peut éviter des crashs dans certains jeux utilisant des textures personnalisées."
 
 msgctxt "game_options"
 msgid "FORCE TEXTURES FILTERING"
@@ -10150,9 +10146,17 @@ msgid "Define whether the 'slow-motion' shortcuts acts as a toggle or needs to b
 msgstr "Définir si le ralenti nécessite une pression ou le maintien du bouton de raccourci."
 
 msgctxt "game_options"
-msgid "STORE XFB COPIES TO TEXTURE ONLY"
-msgstr "ENREGISTRER LES COPIES XFB VERS TEXTURE UNIQUEMENT"
+msgid "STORE XFB COPIES TO TEXTURE ONLY(HACK)"
+msgstr "ENREGISTRER LES COPIES XFB VERS TEXTURE UNIQUEMENT(HACK)"
 
 msgctxt "game_options"
 msgid "Default enabled, can be problematic for few games."
 msgstr "Activé par défaut, peut poser problème dans de rares jeux."
+
+msgctxt "game_options"
+msgid "SKIP EFB ACCESS FROM CPU(HACK)"
+msgstr "IGNORER L'ACCÈS À L'EFB DEPUIS LE CPU(HACK)"
+
+msgctxt "game_options"
+msgid "Improves performance in some games but will skip all EFB-based effects."
+msgstr "Améliore la performance dans certains jeux mais désactive des effets visuels."

@@ -1,0 +1,47 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate specific input mappings in TeknoParrot for Arcade games
+# Each container must be named exactly the same as the .xml Game Profile file and put in lowercase(without the extension)
+# The elements listed are the <InputMapping> values for each game in Teknoparrot
+# The key represents the InputMapping value in TeknoParrot XML
+# The value represents the Button on the gamepad
+#
+# List of possible values:
+# r3
+# l3
+# select
+# start
+# righttrigger
+# lefttrigger
+# rightshoulder
+# leftshoulder
+# south
+# east
+# west
+# north
+# up
+# down
+# left
+# right
+# leftstickleft
+# leftstickright
+# leftstickup
+# leftstickdown
+# rightstickleft
+# rightstickright
+# rightstickup
+# rightstickdown
+#
+mkdx:
+  Test: l3
+  Service1: r3
+  Coin1: select
+  P1ButtonStart: start
+  Analog0: leftstickleft
+  Analog2: righttrigger
+  Analog4: lefttrigger
+  P1Button5: south
+  P1ButtonUp: up
+  P1ButtonDown: down
+  P1Button1: east
+  ExtensionOne2: west
+  P1Button2: north
