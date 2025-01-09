@@ -10,6 +10,7 @@
 # - simple64 (to replace name)
 # - sudachi (to replace GUID)
 # - suyu (to replace GUID)
+# - teknoparrot (to replace BindName of mouse/keyboards/guns)
 # - yuzu (to replace GUID)
 #
 # The root container is the guid from RetroBat, as found in es_input.cfg file
