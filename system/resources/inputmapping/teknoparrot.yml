@@ -1,0 +1,42 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate specific input mappings in TeknoParrot for Arcade games
+# Each container must be named exactly the same as the .xml Game Profile file and put in lowercase(without the extension)
+#
+# The elements listed are the <InputMapping> values for each game in Teknoparrot
+# The key represents the InputMapping value in TeknoParrot XML
+# The value represents the Button on the gamepad
+#
+# List of possible values:
+# r3, l3, select, start, righttrigger, lefttrigger, rightshoulder, leftshoulder, south, east, west, north, up, down, left, right, leftstickleft, leftstickright, leftstickup, leftstickdown, rightstickleft, rightstickright, rightstickup, rightstickdown
+#
+# For lightguns, usually they have 3 buttons recognized as mousebuttons, to declare mouse buttons, you need to use the button hereunder as key and the InputMapping as value
+# Look at the example for hotd4
+# List of possible values: 
+# mouseleft, mousemiddle, mouseright, button4, button5
+#
+# Other lightgun buttons are usually identified as keyboard buttons, in that case use:
+# kb_x where x equals to a keyboard key
+# kb_dy where y equals to a keyboard number key
+#
+mkdx:
+  Test: l3
+  Service1: r3
+  Coin1: select
+  P1ButtonStart: start
+  Analog0: leftstickleft
+  Analog2: righttrigger
+  Analog4: lefttrigger
+  P1Button5: south
+  P1ButtonUp: up
+  P1ButtonDown: down
+  P1Button1: east
+  ExtensionOne2: west
+  P1Button2: north
+hotd4:
+  Test: kb_T
+  Service1: kb_S
+  Coin1: kb_1
+  P1ButtonStart: kb_5
+  mouseleft: P1Button1
+  mousemiddle: P1Button3
+  mouseright: P1Button2

@@ -10,6 +10,7 @@
 # - simple64 (to replace name)
 # - sudachi (to replace GUID)
 # - suyu (to replace GUID)
+# - teknoparrot (to replace BindName of mouse/keyboards/guns)
 # - yuzu (to replace GUID)
 #
 # The root container is the guid from RetroBat, as found in es_input.cfg file
@@ -17,30 +18,27 @@
 # the target guid must be set after the 'guid' key
 # the target name (dolphin) must be set after the 'name' key
 #
+######### RETROBAT DEFAULT ################
 03000000c82d00000631000000007200:
-  name: (Ultimate Wireless Controller)
+  name: 8BitDo Pro 2 USB
   sudachi:
     guid: 03000000c82d00000631000014017801
-  mednafen:
-    guid: 0x00000000000000000001000400000000
-030000005e040000a102000000007200:
-  name: (Xbox 360 Wireless Receiver for Windows)
-  multiGuid: true
-  sudachi:
-    guid: 030000005e040000a102000010007801
-    guid2: 030000005e040000a102000005007801
+  suyu:
+    guid: 03000000c82d00000631000014017801
 030000005e0400008e02000000007200:
-  name: (Xbox 360 USB for Windows)
+  name: Microsoft Xbox 360 USB
   sudachi:
     guid: 030000005e0400008e02000014017801
+  suyu:
+    guid: 030000005e0400008e02000014017801
 030000005e040000130b000009057200:
-  name: Xbox Series X Controller
+  name: Microsoft Xbox Series X Controller
   bigpemu:
     guid: 030056D05E040000130B000009057200
   lime3ds:
     guid: 030056d05e040000130b000009057200
 030000005e040000200b000020057200:
-  name: Xbox One S Controller
+  name: Microsoft Xbox One S Controller
   bigpemu:
     guid: 030056D05E040000200B000020057200
   lime3ds:
@@ -50,12 +48,20 @@
   bigpemu:
     guid: 030044F05E040000E002000000007200
 030000005e040000130b000021057200:
-  name: Xbox Elite 2
+  name: Microsoft Xbox Elite 2
   bigpemu:
     guid: 030056D05E040000130B000021057200
   lime3ds:
     guid: 030056D05E040000130B000021057200
 030000005e040000ff02000000007200:
-  name: Xbox One Controller (wired)
+  name: Microsoft Xbox One
   citra:
     guid: 0300938d5e040000ff02000000007200
+#
+############## User Provided #####################
+030000005e040000a102000000007200:
+  name: (Xbox 360 Wireless Receiver for Windows)
+  multiGuid: true
+  sudachi:
+    guid: 030000005e040000a102000010007801
+    guid2: 030000005e040000a102000005007801
