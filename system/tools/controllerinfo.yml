@@ -65,3 +65,6 @@
   sudachi:
     guid: 030000005e040000a102000010007801
     guid2: 030000005e040000a102000005007801
+############## Teknoparrot devide name update (to use for lightguns to override keyboard and mouse names) #############
+#teknoparrotdevicenames:
+#  VID_0079&PID_1802: TEST
