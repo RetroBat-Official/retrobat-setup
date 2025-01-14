@@ -1,0 +1,130 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate Mapping automatically for your wheel in PCSX2
+# Each container must be named with the wheel type internal to RetroBat (see our wiki for the list)
+# The elements listed are the buttons that will be mapped in the emulator
+# The key represents the controller button
+# The value represents the PCSX code for the button
+# Wheeltype values = 0:DRIVING FORCE, 1:DRIVING FORCE PRO, 2:DRIVING FORCE PRO REV11.02, 3:GT FORCE
+# You can configure your wheel once in pcsx2 directly, note the values and share them with the RetroBat team
+#
+LogitechG29:
+  wheeltype: 2
+  driver: sdl
+  name: Logitech G HUB G29 Driving Force Racing Wheel USB
+  FFDevice: SDL
+  SteerLeft: -Axis6
+  SteerRight: +Axis6
+  Up: Hat0North
+  Down: Hat0South
+  Left: Hat0West
+  Right: Hat0East
+  Throttle: +Axis7~
+  Brake: +Axis8~
+  East: Button23
+  North: Button24
+  South: Button21
+  West: Button22
+  LeftShoulder: Button26
+  RightShoulder: Button25
+  LeftTrigger: Button28
+  RightTrigger: Button27
+  Select: Button30
+  Start: Button45
+  RightStick: Button31
+  LeftStick: Button32
+LogitechG923PS:
+  driver: sdl
+  name: Logitech G HUB G923 Racing Wheel for PlayStation 4 and PC USB
+  FFDevice: SDL
+  SteerLeft: -Axis6
+  SteerRight: +Axis6
+  Up: Hat0North
+  Down: Hat0South
+  Left: Hat0West
+  Right: Hat0East
+  Throttle: +Axis7~
+  Brake: +Axis8~
+  East: Button23
+  North: Button24
+  South: Button21
+  West: Button22
+  LeftShoulder: Button26
+  RightShoulder: Button25
+  LeftTrigger: Button28
+  RightTrigger: Button27
+  Select: Button29
+  Start: Button30
+  RightStick: Button31
+  LeftStick: Button32
+LogitechDrivingForceGT:
+  driver: sdl
+  name: Logitech Driving Force GT USB
+  FFDevice: SDL
+  SteerLeft: -Axis6
+  SteerRight: +Axis6
+  Up: Hat0North
+  Down: Hat0South
+  Left: Hat0West
+  Right: Hat0East
+  Throttle: +Axis7~
+  Brake: +Axis8~
+  East: Button23
+  North: Button24
+  South: Button21
+  West: Button22
+  LeftShoulder: Button26
+  RightShoulder: Button25
+  LeftTrigger: Button28
+  RightTrigger: Button27
+  Select: Button29
+  Start: Button30
+  RightStick: Button31
+  LeftStick: Button32
+ThrustmasterT300RSPS3:
+  driver: sdl
+  name: Thrustmaster T300RS Racing Wheel
+  FFDevice: SDL
+  SteerLeft: -Axis6
+  SteerRight: +Axis6
+  Up: Hat0North
+  Down: Hat0South
+  Left: Hat0West
+  Right: Hat0East
+  Throttle: +Axis8~
+  Brake: +Axis7~
+  East: Button25
+  North: Button23
+  South: Button26
+  West: Button24
+  LeftShoulder: Button21
+  RightShoulder: Button22
+  LeftTrigger: Button30
+  RightTrigger: Button29
+  Select: Button27
+  Start: Button28
+  RightStick: Button32
+  LeftStick: Button31
+MozaR5:
+  driver: sdl
+  name: SDL_MOZA R5 Base_
+  FFDevice: SDL
+  SteerLeft: -Axis6
+  SteerRight: +Axis6
+  Up: Button25
+  Down: Button27
+  Left: Button28
+  Right: Button26
+  Throttle: +Axis8~
+  Brake: +Axis11~
+  East: Button22
+  North: Button24
+  South: Button21
+  West: Button23
+  LeftShoulder: Button33
+  RightShoulder: Button34
+  LeftTrigger: Button39
+  RightTrigger: Button52
+  Select: Button58
+  Start: Button56
+  RightStick: Button44
+  LeftStick: Button57
