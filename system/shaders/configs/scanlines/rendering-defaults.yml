@@ -26,6 +26,7 @@ default:
   mupen64: ScanlinesAbs@scanlines-abs.fx
   xemu: ScanlinesAbs@scanlines-abs.fx
   ikemen: ScanlinesAbs@scanlines-abs.fx
+  teknoparrot: ScanlinesAbs@scanlines-abs.fx
 n64:
   shaderGL: interpolation/sharp-bilinear-scanlines
   shader: pixel-art-scaling/sharp-bilinear-scanlines

@@ -12,7 +12,7 @@ setlocal EnableDelayedExpansion
 
 :: ---- BUILDER OPTION ----
 
-set retrobat_version=6.4.0
+set retrobat_version=7.0.0
 set retroarch_version=1.19.1
 
 set get_batgui=0
@@ -59,7 +59,7 @@ set emulators_black_list=(3dsen lemonade pico8 retroarch ryujinx steam sudachi s
 set script_type=builder
 set user_choice=0
 set git_branch=master
-set branch=stable
+set branch=beta
 set release_version=null
 set log_file=build.log
 set exit_timeout=0

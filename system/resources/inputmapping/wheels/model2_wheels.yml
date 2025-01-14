@@ -1,0 +1,43 @@
+# This file is provided with RetroBat
+#
+# It can be used to automatically generate Mapping automatically for your wheel in Model2 emulator.
+# Each container must be named with the wheel type internal to RetroBat (see our wiki for the list)
+# The elements listed are the buttons that will be mapped in the emulator
+# The key represents the wheel button (with some exceptions) : use the LogitechG29 entry as example
+# The value represents the Model2 button code to put in the emulator .input file
+# Model 2 input file is a binary file, RetroBat will convert the button IDs and override the binary file
+#
+# Use the DeportedShifter value ONLY for some Thrustmaster devices where the Gear Stick is identified as a separate device.
+# 
+# If your throttle, brake or steering axis are reversed, you can use "axisinv" instead of axis before the axis ID, 
+# this will effectively reverse the axis in the mapping
+#
+# Usual values for most common wheels are:
+# axis0 for steering
+# axis1 and axis2 for throttle and brake
+# ButtonID vary greatly depending on the wheel model
+#
+LogitechG29:
+  DeportedShifter: false
+  Up: hatup
+  Down: hatdown
+  Left: hatleft
+  Right: hatright
+  Steer: axis0
+  Throttle: axis1
+  Brake: axis2
+  ShiftDown: button5
+  ShiftUp: button4
+  South: button0
+  East: button2
+  West: button1
+  North: button3
+  Start: button9
+  Select: button8
+  Gear1: button12
+  Gear2: button13
+  Gear3: button14
+  Gear4: button15
+  GearN: button18
+  Service: button10
+  Test: button11

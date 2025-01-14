@@ -8,3 +8,159 @@ HOTD4:
   path: tp_budgie
   platform: x86
   type: opengl
+AliensArmageddon:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+AliensExtermination:
+  path: aliens.exe
+  platform: x86
+  type: opengl
+AAA:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+BBHWorld:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+BBHPro:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+BBHHome:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+BlockKing:
+  path: game.exe
+  platform: x86
+  type: d3d9
+Castlevania:
+  path: HCV.exe
+  platform: x86
+  type: d3d9
+FarCryParadiseLost:
+  path: FarCry_r.exe
+  platform: x86
+  type: d3d9
+Friction:
+  path: Friction.exe
+  platform: x86
+  type: d3d9
+GaiaAttack4:
+  path: game.exe
+  platform: x86
+  type: d3d9
+HauntedMuseum:
+  path: game.exe
+  platform: x86
+  type: d3d9
+HauntedMuseumII:
+  path: game.exe
+  platform: x86
+  type: d3d9
+HOTDEX:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+HOTD4SP:
+  path: tp_budgie
+  platform: x86
+  type: opengl
+HOTDSD:
+  path: Hodzero-Win64-Shipping.exe
+  platform: x86
+  type: d3d11
+JurassicPark:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+LGI:
+  path: LGI.exe
+  platform: x86
+  type: d3d9
+LGI3D:
+  path: LGI.exe
+  platform: x86
+  type: d3d9
+LGJ:
+  path: tp_budgie
+  platform: x86
+  type: opengl
+LuigisMansion:
+  path: VACUUM.exe
+  platform: x86
+  type: d3d9
+MB:
+  path: Launcher.exe
+  platform: x86
+  type: opengl
+GundamSpiritsOfZeon:
+  path: game.exe
+  platform: x86
+  type: d3d9
+MusicGunGun2:
+  path: game.exe
+  platform: x86
+  type: d3d9
+OG:
+  path: gs2.exe
+  platform: x86
+  type: dxgi
+PointBlankX:
+  path: PBX100-2-NA-MPR0-A63.exe
+  platform: x86
+  type: d3d9
+Primevil:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+Rambo:
+  path: tp_budgie
+  platform: x86
+  type: opengl
+RabbidsHollywood:
+  path: Game.exe
+  platform: x86
+  type: d3d10
+SilentHill:
+  path: KSHG_no_cursor.exe
+  platform: x86
+  type: d3d9
+StarTrekVoyager:
+  path: tp_budgie
+  platform: x86
+  type: opengl
+TargetTerrorGold:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+Terminator:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+TC5:
+  path: TimeCrisisGame-Win64-Shipping.exe
+  platform: x86
+  type: d3d9
+TombRaider:
+  path: Game.exe
+  platform: x86
+  type: d3d11
+Transformers:
+  path: TR_Gun_R_Ring_dumped.exe 
+  platform: x86
+  type: d3d9
+TransformersShadowsRising:
+  path: Transformers2.exe
+  platform: x86
+  type: d3d9
+WalkingDead:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+WildWestShootout:
+  path: CowBoy.exe
+  platform: x86
+  type: d3d9

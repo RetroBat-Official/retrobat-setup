@@ -26,3 +26,4 @@ default:
   duckstation: NTSC_MAME@ntsc.fx
   mupen64: NTSC_MAME@ntsc.fx
   xemu: NTSC_MAME@ntsc.fx
+  teknoparrot: NTSC_MAME@ntsc.fx

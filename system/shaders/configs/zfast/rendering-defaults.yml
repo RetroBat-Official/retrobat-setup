@@ -27,6 +27,7 @@ default:
   mupen64: EasymodeCRT@CRTEasymode.fx
   xemu: EasymodeCRT@CRTEasymode.fx
   ikemen: EasymodeCRT@CRTEasymode.fx
+  teknoparrot: EasymodeCRT@CRTEasymode.fx
 # per system overrides  
 gba:
   shader: handheld/zfast-lcd
