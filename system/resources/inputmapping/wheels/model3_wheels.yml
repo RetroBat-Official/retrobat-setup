@@ -1,0 +1,39 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate Mapping automatically for your wheel in Supermodel for Model3.
+# Each container must be named with the wheel type internal to RetroBat (see our wiki for the list)
+# The elements listed are the buttons that will be mapped in the emulator
+# The key represents the Supermodel button (with some exceptions) : use the LogtechG29 entry as example.
+# The value represents the Supermodel button code to put in the supermodel.ini file.
+# Use the DeportedShifter value ONLY for some Thrustmaster devices where the Gear Stick is identified as a separate device.
+#
+LogitechG29:
+  DeportedShifter: false
+  InputSteeringLeft: XAXIS_NEG
+  InputSteeringRight: XAXIS_POS
+  InputSteering: XAXIS_INV
+  InputAccelerator: YAXIS_NEG
+  InputBrake: RZAXIS_NEG
+  InputGearShiftUp: BUTTON5
+  InputGearShiftDown: BUTTON6
+  Gear1: 
+  Gear2: 
+  Gear3: 
+  Gear4: 
+  GearN: 
+  StickGear1: BUTTON13
+  StickGear2: BUTTON14
+  StickGear3: BUTTON15
+  StickGear4: BUTTON16
+  StickGearN: BUTTON17
+  InputVR1: POV1_UP
+  InputVR2: POV1_RIGHT
+  InputVR3: POV1_DOWN
+  InputVR4: POV1_LEFT
+  InputViewChange: POV1_UP
+  InputHandBrake: POV1_DOWN
+  InputRearBrake: RZAXIS_NEG
+  InputMusicSelect: POV1_RIGHT
+  Start: BUTTON10
+  Coin: BUTTON9
+  Service: BUTTON32
+  Test: BUTTON21

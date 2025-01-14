@@ -144,6 +144,7 @@ emulators\lime3ds
 emulators\lime3ds\user
 emulators\lime3ds\user\config
 emulators\m2emulator
+emulators\m2emulator\artwork
 emulators\m2emulator\CFG
 emulators\m2emulator\NVDATA
 emulators\m2emulator\scripts

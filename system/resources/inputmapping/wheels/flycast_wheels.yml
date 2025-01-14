@@ -1,0 +1,226 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate Mapping automatically for your wheel in Flycast
+# Each container must be named with the wheel type internal to RetroBat (see our wiki for the list)
+# The elements listed are the buttons that will be mapped in the emulator
+# The key represents the controller button
+# The value represents the Flycast button code
+# If you have a separated stick for gears, use the "StickGear" values for the 4 gears
+# The Name is very important, as Flycast needs a file with the mapping of the exact name listed hereunder
+#
+LogitechG29:
+  driver: sdl
+  name: Logitech G HUB G29 Driving Force Racing Wheel USB
+  SteerLeft: 0-
+  SteerRight: 0+
+  Up: 256
+  Down: 257
+  Left: 258
+  Right: 259
+  Throttle: 1-
+  Brake: 2-
+  GearDown: 5
+  GearUp: 4
+  East: 2
+  North: 3
+  South: 0
+  West: 1
+  Gear1: 3
+  Gear2: 0
+  Gear3: 1
+  Gear4: 2
+  StickGear1: 12
+  StickGear2: 13
+  StickGear3: 14
+  StickGear4: 15
+  LeftTrigger: 7
+  RightTrigger: 6
+  Select: 8
+  Start: 9
+  RightStick: 10
+  LeftStick: 11
+LogitechG923PS:
+  driver: sdl
+  name: Logitech G HUB G923 Racing Wheel for PlayStation 4 and PC USB
+  SteerLeft: 0-
+  SteerRight: 0+
+  Up: 256
+  Down: 257
+  Left: 258
+  Right: 259
+  Throttle: 1-
+  Brake: 2-
+  GearDown: 5
+  GearUp: 4
+  East: 2
+  North: 3
+  South: 0
+  West: 1
+  Gear1: 3
+  Gear2: 0
+  Gear3: 1
+  Gear4: 2
+  StickGear1: 12
+  StickGear2: 13
+  StickGear3: 14
+  StickGear4: 15
+  LeftTrigger: 7
+  RightTrigger: 6
+  Select: 8
+  Start: 9
+  RightStick: 10
+  LeftStick: 11
+LogitechDrivingForceGT:
+  driver: sdl
+  name: Logitech Driving Force GT USB
+  SteerLeft: 0-
+  SteerRight: 0+
+  Up: 256
+  Down: 257
+  Left: 258
+  Right: 259
+  Throttle: 1-
+  Brake: 2-
+  GearDown: 12
+  GearUp: 13
+  East: 2
+  North: 3
+  South: 0
+  West: 1
+  Gear1: 3
+  Gear2: 0
+  Gear3: 1
+  Gear4: 2
+  StickGear1: nul
+  StickGear2: nul
+  StickGear3: nul
+  StickGear4: nul
+  LeftTrigger: 7
+  RightTrigger: 6
+  Select: 8
+  Start: 9
+  RightStick: 10
+  LeftStick: 11
+LogitechG920:
+  driver: sdl
+  name: Logitech G920 Driving Force Racing Wheel USB
+  SteerLeft: 0-
+  SteerRight: 0+
+  Up: 256
+  Down: 257
+  Left: 258
+  Right: 259
+  Throttle: 1-
+  Brake: 2-
+  GearDown: 5
+  GearUp: 4
+  East: 2
+  North: 3
+  South: 0
+  West: 1
+  Gear1: 3
+  Gear2: 0
+  Gear3: 1
+  Gear4: 2
+  StickGear1: nul
+  StickGear2: nul
+  StickGear3: nul
+  StickGear4: nul
+  LeftTrigger: nul
+  RightTrigger: nul
+  Select: 7
+  Start: 6
+  RightStick: 8
+  LeftStick: 9
+LogitechG923X:
+  driver: sdl
+  name: Logitech G HUB G923 Racing Wheel for XBox One and PC USB
+  SteerLeft: 0-
+  SteerRight: 0+
+  Up: 256
+  Down: 257
+  Left: 258
+  Right: 259
+  Throttle: 1-
+  Brake: 2-
+  GearDown: 5
+  GearUp: 4
+  East: 1
+  North: 3
+  South: 0
+  West: 2
+  Gear1: 3
+  Gear2: 0
+  Gear3: 2
+  Gear4: 1
+  StickGear1: 12
+  StickGear2: 13
+  StickGear3: 14
+  StickGear4: 15
+  LeftTrigger: nul
+  RightTrigger: nul
+  Select: 7
+  Start: 6
+  RightStick: 8
+  LeftStick: 9
+ThrustmasterT300RSPS3:
+  driver: sdl
+  name: Thrustmaster T300RS Racing Wheel
+  SteerLeft: 0-
+  SteerRight: 0+
+  Up: 256
+  Down: 257
+  Left: 258
+  Right: 259
+  Throttle: 2-
+  Brake: 1-
+  GearDown: 0
+  GearUp: 1
+  East: 4
+  North: 2
+  South: 5
+  West: 3
+  Gear1: 2
+  Gear2: 5
+  Gear3: 3
+  Gear4: 4
+  StickGear1: 0
+  StickGear2: 1
+  StickGear3: 2
+  StickGear4: 3
+  LeftTrigger: 9
+  RightTrigger: 8
+  Select: 6
+  Start: 7
+  RightStick: 11
+  LeftStick: 10
+MozaR5:
+  driver: sdl
+  name: SDL_MOZA R5 Base_
+  SteerLeft: 0-
+  SteerRight: 0+
+  Up: 4
+  Down: 6
+  Left: 7
+  Right: 5
+  Throttle: 2+
+  Brake: 5+
+  GearDown: 13
+  GearUp: 14
+  East: 1
+  North: 3
+  South: 0
+  West: 2
+  Gear1: 3
+  Gear2: 0
+  Gear3: 2
+  Gear4: 1
+  StickGear1: nul
+  StickGear2: nul
+  StickGear3: nul
+  StickGear4: nul
+  LeftTrigger: 20
+  RightTrigger: 33
+  Select: 37
+  Start: 35
+  RightStick: 34
+  LeftStick: 21

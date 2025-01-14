@@ -1,0 +1,10 @@
+# This file can be used to set reshade parameters for Teknoparrot in order to get the Sinden Border for gun games
+# path: put here the name of the executable that reshade must be applied to, the values tp_budgie and elf_budgie are used when BudgieLoader needs to be set
+# platform: x86 or x64
+# type: opengl, d3d9, d3d10, d3d11 or dxgi
+# Example working for HOTD4
+#
+HOTD4:
+  path: tp_budgie
+  platform: x86
+  type: opengl
