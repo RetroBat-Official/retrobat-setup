@@ -13,7 +13,7 @@ AliensArmageddon:
   platform: x86
   type: opengl
 AliensExtermination:
-  path: aliens.exe
+  path: aliens.exe;aliens dehasped.exe
   platform: x86
   type: opengl
 AAA:
