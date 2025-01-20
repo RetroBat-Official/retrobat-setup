@@ -3898,6 +3898,50 @@ msgid "TO NETWORK"
 msgstr "RED"
 
 msgctxt "game_options"
+msgid "OUTPUTS SETTINGS"
+msgstr "CONFIGURACIÓN DE SALIDAS"
+
+msgctxt "game_options"
+msgid "DEMULSHOOTER"
+msgstr "DEMULSHOOTER"
+
+msgctxt "game_options"
+msgid "USE DEMULSHOOTER"
+msgstr "USAR DEMULSHOOTER"
+
+msgctxt "game_options"
+msgid "Launch DemulShooter for gun games."
+msgstr "Iniciar DemulShooter para juegos de pistola."
+
+msgctxt "game_options"
+msgid "HIDE CROSSHAIR"
+msgstr "OCULTAR MIRA"
+
+msgctxt "game_options"
+msgid "Hide in-game crosshair (game dependant)."
+msgstr "Ocultar la mira del juego (según el juego)."
+
+msgctxt "game_options"
+msgid "VERBOSE MODE"
+msgstr "MODO DETALLADO"
+
+msgctxt "game_options"
+msgid "Enable verbose mode for debugging."
+msgstr "Activar el modo detallado para depuración."
+
+msgctxt "game_options"
+msgid "TO WINDOW"
+msgstr "A VENTANA"
+
+msgctxt "game_options"
+msgid "TO NETWORK"
+msgstr "A RED"
+
+msgctxt "game_options"
+msgid "TO BOTH"
+msgstr "AMBOS"
+
+msgctxt "game_options"
 msgid "4-WAYS JOYSTICK MODE"
 msgstr "MODO JOYSTICK DE 4 DIRECCIONES"
 

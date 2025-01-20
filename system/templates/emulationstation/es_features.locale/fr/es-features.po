@@ -666,6 +666,50 @@ msgid "NETWORK TYPE"
 msgstr "MODE RÉSEAU"
 
 msgctxt "game_options"
+msgid "OUTPUTS SETTINGS"
+msgstr "PARAMÈTRES DES SORTIES"
+
+msgctxt "game_options"
+msgid "DEMULSHOOTER"
+msgstr "DEMULSHOOTER"
+
+msgctxt "game_options"
+msgid "USE DEMULSHOOTER"
+msgstr "UTILISER DEMULSHOOTER"
+
+msgctxt "game_options"
+msgid "Launch DemulShooter for gun games."
+msgstr "Lancer DemulShooter pour les jeux de tir."
+
+msgctxt "game_options"
+msgid "HIDE CROSSHAIR"
+msgstr "MASQUER LE VISEUR"
+
+msgctxt "game_options"
+msgid "Hide in-game crosshair (game dependant)."
+msgstr "Masquer le viseur du jeu (selon compatibilité)."
+
+msgctxt "game_options"
+msgid "VERBOSE MODE"
+msgstr "MODE VERBEUX"
+
+msgctxt "game_options"
+msgid "Enable verbose mode for debugging."
+msgstr "Activer le mode verbeux pour le débogage."
+
+msgctxt "game_options"
+msgid "TO WINDOW"
+msgstr "VERS WINDOW"
+
+msgctxt "game_options"
+msgid "TO NETWORK"
+msgstr "VERS RÉSEAU"
+
+msgctxt "game_options"
+msgid "TO BOTH"
+msgstr "LES DEUX"
+
+msgctxt "game_options"
 msgid "HOST GAME"
 msgstr "MODE HÔTE"
 
@@ -4363,7 +4407,7 @@ msgstr "SORTIR DES DONNÉES DE JEU"
 
 msgctxt "game_options"
 msgid "TO WINDOWS"
-msgstr "VERS FENÊTRE"
+msgstr "VERS WINDOWS"
 
 msgctxt "game_options"
 msgid "TO NETWORK"
