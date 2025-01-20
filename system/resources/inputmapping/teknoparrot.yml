@@ -4938,13 +4938,15 @@ umifresh:
   Coin2: select # Coin 2
 
 2spicy_gun:
-  Test: kb_T # Test
-  Service1: kb_S # Service
   Coin1: kb_5 # Coin 1
-  P1ButtonStart: kb_1 # P1 Start
   mouseleft_1: P1Button1 # P1 Left Trigger
-  mouseright_1: P1Button2 # P1 Right Trigger
   mousemiddle_1: P1Button3 # P1 Grenades
+  mouseright_1: P1Button2 # P1 Right Trigger
+  P1ButtonLeft: kb_Left # Pedal Left
+  P1ButtonRight: kb_Right # Pedal Righ
+  P1ButtonStart: kb_1 # P1 Start
+  Service1: kb_S # Service
+  Test: kb_T # Test
 
 aaa:
   Coin1: select # Coin
@@ -4992,18 +4994,20 @@ afterdark2:
   Analog6: rightstickup # Player 2 Gun Y
 
 afterdark2_gun:
-  Test: kb_T # Test
-  Service1: kb_S # Service
   Coin1: kb_5 # Coin 1
-  P1ButtonStart: kb_1 # P1 Start
-  mouseleft_1: P1Button1 # P1 Left Trigger
-  mouseright_1: P1Button2 # P1 Right Trigger
-  mousemiddle_1: P1Button3 # P1 Grenades
   Coin2: kb_6 # Coin 2
-  P2ButtonStart: kb_2 # P2 Start
+  mouseleft_1: P1Button1 # P1 Left Trigger
   mouseleft_2: P2Button1 # P2 Left Trigger
-  mouseright_2: P2Button2 # P2 Right Trigger
+  mousemiddle_1: P1Button3 # P1 Grenades
   mousemiddle_2: P2Button3 # P2 Grenades
+  mouseright_1: P1Button2 # P1 Right Trigger
+  mouseright_2: P2Button2 # P2 Right Trigger
+  P1Button5: kb_Left # Wheel Left
+  P1Button6: kb_Right # Wheel Right
+  P1ButtonStart: kb_1 # P1 Start
+  P2ButtonStart: kb_2 # P2 Start
+  Service1: kb_S # Service
+  Test: kb_T # Test
 
 akuma:
   Test: l3 # Test
@@ -5933,18 +5937,16 @@ hotdex:
   Analog6: rightstickup # Player 2 Gun Y
 
 hotdex_gun:
-  Test: kb_T # Test
-  Service1: kb_S # Service
   Coin1: kb_5 # Coin 1
-  P1ButtonStart: kb_1 # P1 Start
-  mouseleft_1: P1Button1 # P1 Left Trigger
-  mouseright_1: P1Button2 # P1 Right Trigger
-  mousemiddle_1: P1Button3 # P1 Grenades
   Coin2: kb_6 # Coin 2
-  P2ButtonStart: kb_2 # P2 Start
+  mouseleft_1: P1Button1 # P1 Left Trigger
   mouseleft_2: P2Button1 # P2 Left Trigger
-  mouseright_2: P2Button2 # P2 Right Trigger
-  mousemiddle_2: P2Button3 # P2 Grenades
+  mouseright_1: P1ButtonLeft # P1 Right Trigger
+  mouseright_2: P1ButtonRight # P2 Right Trigger
+  P1ButtonStart: kb_1 # P1 Start
+  P2ButtonStart: kb_2 # P2 Start
+  Service1: kb_S # Service
+  Test: kb_T # Test
 
 hotdsd:
   Test: l3 # Test
@@ -6308,18 +6310,16 @@ musicgungun2:
   Analog6: rightstickup # Player 2 Gun Y
 
 musicgungun2_gun:
-  Test: kb_T # Test
+  ExtensionOne1: kb_5 # Coin
+  mouseleft_1: P2Button1 # P1 Left Trigger
+  mouseleft_2: P2Button3 # P2 Left Trigger
+  mouseright_1: P1Button3 # P1 Right Trigger
+  mouseright_2: P1Button4 # P2 Right Trigger
+  P1ButtonLeft: kb_Left # Direction Left
+  P1ButtonRight: kb_Right # Direction Right
+  P1ButtonStart: kb_1 # decision
   Service1: kb_S # Service
-  Coin1: kb_5 # Coin 1
-  P1ButtonStart: kb_1 # P1 Start
-  mouseleft_1: P1Button1 # P1 Left Trigger
-  mouseright_1: P1Button2 # P1 Right Trigger
-  mousemiddle_1: P1Button3 # P1 Grenades
-  Coin2: kb_6 # Coin 2
-  P2ButtonStart: kb_2 # P2 Start
-  mouseleft_2: P2Button1 # P2 Left Trigger
-  mouseright_2: P2Button2 # P2 Right Trigger
-  mousemiddle_2: P2Button3 # P2 Grenades
+  Test: kb_T # Test
 
 og:
   Test: l3 # Test
@@ -6743,18 +6743,14 @@ tc5:
   P2Button3: west # Enter Sw
 
 tc5_gun:
-  Test: kb_T # Test
-  Service1: kb_S # Service
   Coin1: kb_5 # Coin 1
-  P1ButtonStart: kb_1 # P1 Start
   mouseleft_1: P1Button1 # P1 Left Trigger
   mouseright_1: P1Button2 # P1 Right Trigger
-  mousemiddle_1: P1Button3 # P1 Grenades
-  Coin2: kb_6 # Coin 2
-  P2ButtonStart: kb_2 # P2 Start
-  mouseleft_2: P2Button1 # P2 Left Trigger
-  mouseright_2: P2Button2 # P2 Right Trigger
-  mousemiddle_2: P2Button3 # P2 Grenades
+  P1Button3: kb_Left # Left Pedal
+  P1Button4: kb_Right # Right Pedal
+  P1ButtonStart: kb_1 # P1 Start
+  Service1: kb_S # Service
+  Test: kb_T # Test
 
 terminator:
   Test: l3 # Test
