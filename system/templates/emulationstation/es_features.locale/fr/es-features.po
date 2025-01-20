@@ -4362,12 +4362,16 @@ msgid "OUTPUT GAME DATA"
 msgstr "SORTIR DES DONNÉES DE JEU"
 
 msgctxt "game_options"
-msgid "TO WINDOWS"
-msgstr "VERS FENÊTRE"
+msgid "TO WINDOW"
+msgstr "VERS WINDOW"
 
 msgctxt "game_options"
 msgid "TO NETWORK"
 msgstr "VERS RÉSEAU"
+
+msgctxt "game_options"
+msgid "TO BOTH"
+msgstr "LES DEUX"
 
 msgctxt "game_options"
 msgid "Enable this option when using mamehooker with LEDs, solenoids, rumble..."
@@ -8615,7 +8619,7 @@ msgstr "L/R pour X/Z"
 
 msgctxt "game_options"
 msgid "FORCE MANAGED TEXTURES"
-msgstr "FORCÉ LA GESTION DES TEXTURES"
+msgstr "FORCER LA GESTION DES TEXTURES"
 
 msgctxt "game_options"
 msgid "Use this if the emulator crashes after loading or doesn't show anything."
@@ -10160,3 +10164,215 @@ msgstr "IGNORER L'ACCÈS À L'EFB DEPUIS LE CPU(HACK)"
 msgctxt "game_options"
 msgid "Improves performance in some games but will skip all EFB-based effects."
 msgstr "Améliore la performance dans certains jeux mais désactive des effets visuels."
+
+msgctxt "game_options"
+msgid "OUTPUTS SETTINGS"
+msgstr "PARAMÈTRES DES SORTIES"
+
+msgctxt "game_options"
+msgid "DEMULSHOOTER"
+msgstr "DEMULSHOOTER"
+
+msgctxt "game_options"
+msgid "USE DEMULSHOOTER"
+msgstr "UTILISER DEMULSHOOTER"
+
+msgctxt "game_options"
+msgid "Launch DemulShooter for gun games."
+msgstr "Lancer DemulShooter pour les jeux de tir."
+
+msgctxt "game_options"
+msgid "HIDE CROSSHAIR"
+msgstr "MASQUER LE VISEUR"
+
+msgctxt "game_options"
+msgid "Hide in-game crosshair (game dependant)."
+msgstr "Masquer le viseur du jeu (selon compatibilité)."
+
+msgctxt "game_options"
+msgid "VERBOSE MODE"
+msgstr "MODE VERBEUX"
+
+msgctxt "game_options"
+msgid "Enable verbose mode for debugging."
+msgstr "Activer le mode verbeux pour le débogage."
+
+msgctxt "game_options"
+msgid "FULSCREEN MODE"
+msgstr "TYPE DE FULLSCREEN"
+
+msgctxt "game_options"
+msgid "FULSCREEN WINDOW"
+msgstr "PLEIN ÉCRAN FENÊTRÉ"
+
+msgctxt "game_options"
+msgid "TRUE FULLSCREEN"
+msgstr "VRAI PLEIN ÉCRAN"
+
+msgctxt "game_options"
+msgid "Force P1 pad index, can be useful if XInput devices or not odered right."
+msgstr "Forcer l'index de la manette, peut être utile avec Xinput si les manettes sont inversées."
+
+msgctxt "game_options"
+msgid "COIN\START BUTTONS"
+msgstr "BOUTONS CRÉDIT/START"
+
+msgctxt "game_options"
+msgid "Define where the the coin and start buttons are located."
+msgstr "Définir quel périphérique utiliser pour les boutons crédit et start."
+
+msgctxt "game_options"
+msgid "ON GUN"
+msgstr "SUR LE PISTOLET"
+
+msgctxt "game_options"
+msgid "ON KEYBOARD"
+msgstr "SUR LE CLAVIER"
+
+msgctxt "game_options"
+msgid "TEST/SERVICE ON KEYBOARD"
+msgstr "TEST/SERVICE SUR LE CLAVIER"
+
+msgctxt "game_options"
+msgid "GUN 3 INDEX"
+msgstr "INDEX DU 3E PISTOLET"
+
+msgctxt "game_options"
+msgid "GUN 4 INDEX"
+msgstr "INDEX DU 4E PISTOLET"
+
+msgctxt "game_options"
+msgid "KEYBOARD INDEX"
+msgstr "INDEX DU CLAVIER"
+
+msgctxt "game_options"
+msgid "Force the keyboard to use if multiple keyboards are connected."
+msgstr "Forcer l'index du clavier si plusieurs claviers sont connectés."
+
+msgctxt "game_options"
+msgid "ENABLE RAWINPUT"
+msgstr "ACTIVER RAWINPUT"
+
+msgctxt "game_options"
+msgid "Force Rawinput, there should be ne need to force this to ON."
+msgstr "Forcer le pilote raw input, il n'y a pas de raison d'activer cette option."
+
+msgctxt "game_options"
+msgid "Enable crosshairs in shooting games, options (DS) are only compatible with DemulShooter."
+msgstr "Activer les cibles pour les jeux de tirs, les options (DS) ne sont compatibles que lorsque Demulshooter est actif."
+
+msgctxt "game_options"
+msgid "DISC NUMBER"
+msgstr "NUMÉRO DE DISQUE"
+
+msgctxt "game_options"
+msgid "In case of multidisc games, when using .m3u file, specify the disc number to run."
+msgstr "En cas de jeu multidisque, choisir quel disque du fichier m3u lancer."
+
+msgctxt "game_options"
+msgid "CARTRIDGE TYPE"
+msgstr "TYPE DE CARTOUCHE"
+
+msgctxt "game_options"
+msgid "GUN PORT"
+msgstr "PORT DU PISTOLET"
+
+msgctxt "game_options"
+msgid "Runs 'jgenesis-gui.exe' instead of cli version."
+msgstr "Démarrer la version gui de JGenesis au lieu de la version CLI."
+
+msgctxt "game_options"
+msgid "ADJUST ASPECT FOR DOUBLE SCREEN GAMES"
+msgstr "Ajuster le ratio d'aspect pour les jeux multi-écran."
+
+msgctxt "game_options"
+msgid "DETAIL TEXTURES"
+msgstr "TEXTURES DÉTAILLÉES"
+
+msgctxt "game_options"
+msgid "DISABLE CUTSCENES"
+msgstr "DÉSACTIVER LES VIDÉOS INTERMÉDIAIRES"
+
+msgctxt "game_options"
+msgid "INTERFACE LANGUAGE"
+msgstr "LANGUE DE L'INTERFACE"
+
+msgctxt "game_options"
+msgid "FORCE GAME REGION"
+msgstr "FORCER LA RÉGION DU JEU"
+
+msgctxt "game_options"
+msgid "GAME LANGUAGE"
+msgstr "LANGUE DU JEU"
+
+msgctxt "game_options"
+msgid "SUBTITLE LANGUAGE"
+msgstr "LANGUE DES SOUS-TITRES"
+
+msgctxt "game_options"
+msgid "CAPTURE MOUSE"
+msgstr "VEROUILLER LA SOURIS"
+
+msgctxt "game_options"
+msgid "Default ON."
+msgstr "Activé par défaut."
+
+msgctxt "game_options"
+msgid "Multi-Sampling Anti Aliasing level."
+msgstr "Niveau d'anti-crénelage appliqué."
+
+msgctxt "game_options"
+msgid "GAME TYPE"
+msgstr "TYPE DE JEU"
+
+msgctxt "game_options"
+msgid "FORCE SONIC CD"
+msgstr "FORCER SONIC CD"
+
+msgctxt "game_options"
+msgid "If the folder name contains 'soniccd', RetroBat will automatically run Sonic CD RSDK, use this to force it."
+msgstr "Si le nom de dossier contient 'soniccd', RetroBat lance automatiquement Sonic CD."
+
+msgctxt "game_options"
+msgid "ENABLE EAX"
+msgstr "ACTIVER EAX"
+
+msgctxt "game_options"
+msgid "PLAYER NAME"
+msgstr "NOM DU JOUEUR"
+
+msgctxt "game_options"
+msgid "HIDE HUD"
+msgstr "MASQUER ATH"
+
+msgctxt "game_options"
+msgid "SINDEN SOFTWARE PATH"
+msgstr "CHEMIN DU LOGICIEL SINDEN"
+
+msgctxt "game_options"
+msgid "Disable keyboard shortcuts and give full access of Keyboard to the core. Toggle with 'Scroll Lock' key."
+msgstr "Désactive les raccourcis clavier et donne un accès complet au clavier pour le core. Peut se désactiver avec la touche 'arrêt défil'."
+
+msgctxt "game_options"
+msgid "VIDEO STANDARD"
+msgstr "STANDARD VIDÉO"
+
+msgctxt "game_options"
+msgid "Enables switching between different video signals."
+msgstr "Choix du type de signal vidéo."
+
+msgctxt "game_options"
+msgid "AV PACK"
+msgstr "PACK AV"
+
+msgctxt "game_options"
+msgid "Select video mode (type of cable)."
+msgstr "Choix du type de câble vidéo."
+
+msgctxt "game_options"
+msgid "USE PAL 50HZ"
+msgstr "UTILISER PAL 50HZ"
+
+msgctxt "game_options"
+msgid "FRAMERATE LIMIT"
+msgstr "LIMITE DE FPS"
