@@ -718,6 +718,10 @@ msgid "TO BOTH"
 msgstr "LES DEUX"
 
 msgctxt "game_options"
+msgid "Launch MameHooker for outputs management"
+msgstr "Lancer MameHooker pour la gestion des sorties"
+
+msgctxt "game_options"
 msgid "HOST GAME"
 msgstr "MODE HÔTE"
 
