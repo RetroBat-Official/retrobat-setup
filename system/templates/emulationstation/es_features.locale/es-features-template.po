@@ -3725,6 +3725,14 @@ msgid "Hide in-game crosshair (game dependant)."
 msgstr ""
 
 msgctxt "game_options"
+msgid "DISABLE RESIZE"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Fix Demul bug (exiting fullscreen when shooting upper left corner), blocking all mouse inputs to Demul GUI."
+msgstr ""
+
+msgctxt "game_options"
 msgid "VERBOSE MODE"
 msgstr ""
 
