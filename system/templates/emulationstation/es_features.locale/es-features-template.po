@@ -3753,7 +3753,11 @@ msgid "TO BOTH"
 msgstr ""
 
 msgctxt "game_options"
-msgid "Launch MameHooker for outputs management"
+msgid "USE MAMEHOOKER"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Launch MameHooker for outputs management."
 msgstr ""
 
 msgctxt "game_options"
