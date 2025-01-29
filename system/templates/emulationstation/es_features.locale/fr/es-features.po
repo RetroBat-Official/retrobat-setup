@@ -666,6 +666,66 @@ msgid "NETWORK TYPE"
 msgstr "MODE RÉSEAU"
 
 msgctxt "game_options"
+msgid "OUTPUTS SETTINGS"
+msgstr "PARAMÈTRES DES SORTIES"
+
+msgctxt "game_options"
+msgid "DEMULSHOOTER"
+msgstr "DEMULSHOOTER"
+
+msgctxt "game_options"
+msgid "USE DEMULSHOOTER"
+msgstr "UTILISER DEMULSHOOTER"
+
+msgctxt "game_options"
+msgid "Launch DemulShooter for gun games."
+msgstr "Executer DemulShooter pour les jeux de tir."
+
+msgctxt "game_options"
+msgid "HIDE CROSSHAIR"
+msgstr "MASQUER LE VISEUR"
+
+msgctxt "game_options"
+msgid "Hide in-game crosshair (game dependant)."
+msgstr "Masquer le viseur du jeu (selon compatibilité)."
+
+msgctxt "game_options"
+msgid "DISABLE RESIZE"
+msgstr "DÉSACTIVER LE REDIMENSIONNEMENT"
+
+msgctxt "game_options"
+msgid "Fix Demul bug (exiting fullscreen when shooting upper left corner), blocking all mouse inputs to Demul GUI."
+msgstr "Corrigez le bug Demul (quitte le plein écran en tirant dans le coin supérieur gauche), ce qui bloquera toutes les entrées de la souris vers l'interface graphique de Demul."
+
+msgctxt "game_options"
+msgid "VERBOSE MODE"
+msgstr "MODE VERBEUX"
+
+msgctxt "game_options"
+msgid "Enable verbose mode for debugging."
+msgstr "Activer le mode verbeux pour le débogage."
+
+msgctxt "game_options"
+msgid "TO WINDOW"
+msgstr "VERS WINDOW"
+
+msgctxt "game_options"
+msgid "TO NETWORK"
+msgstr "VERS RÉSEAU"
+
+msgctxt "game_options"
+msgid "TO BOTH"
+msgstr "LES DEUX"
+
+msgctxt "game_options"
+msgid "USE MAMEHOOKER"
+msgstr "UTILSER MAMEHOOKER"
+
+msgctxt "game_options"
+msgid "Launch MameHooker for outputs management."
+msgstr "Executer MameHooker pour la gestion des sorties."
+
+msgctxt "game_options"
 msgid "HOST GAME"
 msgstr "MODE HÔTE"
 
@@ -4360,6 +4420,10 @@ msgstr ""
 msgctxt "game_options"
 msgid "OUTPUT GAME DATA"
 msgstr "SORTIR DES DONNÉES DE JEU"
+
+msgctxt "game_options"
+msgid "TO WINDOWS"
+msgstr "VERS WINDOWS"
 
 msgctxt "game_options"
 msgid "TO WINDOW"

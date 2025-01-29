@@ -178,6 +178,50 @@ msgid "Sync to exact content framerate. Only for G-Sync/FreeSync/HDMI-2.1-VRR co
 msgstr "Sincronizza con l'esatto framerate del contenuto. Solo per monitor compatibili con G-Sync/FreeSync/HDMI-2.1-VRR."
 
 msgctxt "game_options"
+msgid "OUTPUTS SETTINGS"
+msgstr "IMPOSTAZIONI USCITE"
+
+msgctxt "game_options"
+msgid "DEMULSHOOTER"
+msgstr "DEMULSHOOTER"
+
+msgctxt "game_options"
+msgid "USE DEMULSHOOTER"
+msgstr "USA DEMULSHOOTER"
+
+msgctxt "game_options"
+msgid "Launch DemulShooter for gun games."
+msgstr "Avvia DemulShooter per i giochi con la pistola."
+
+msgctxt "game_options"
+msgid "HIDE CROSSHAIR"
+msgstr "NASCONDI MIRINO"
+
+msgctxt "game_options"
+msgid "Hide in-game crosshair (game dependant)."
+msgstr "Nasconde il mirino del gioco (dipende dal gioco)."
+
+msgctxt "game_options"
+msgid "VERBOSE MODE"
+msgstr "MODALITÀ VERBOSE"
+
+msgctxt "game_options"
+msgid "Enable verbose mode for debugging."
+msgstr "Attiva la modalità verbose per il debug."
+
+msgctxt "game_options"
+msgid "TO WINDOW"
+msgstr "ALLA FINESTRA"
+
+msgctxt "game_options"
+msgid "TO NETWORK"
+msgstr "ALLA RETE"
+
+msgctxt "game_options"
+msgid "TO BOTH"
+msgstr "ENTRAMBI"
+
+msgctxt "game_options"
 msgid "SMOOTH GAMES (BILINEAR FILTERING)"
 msgstr "PIXEL AMMORBIDITI (FILTRO BILINEARE)"
 

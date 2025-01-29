@@ -3701,7 +3701,63 @@ msgid "TO WINDOWS"
 msgstr ""
 
 msgctxt "game_options"
+msgid "OUTPUTS SETTINGS"
+msgstr ""
+
+msgctxt "game_options"
+msgid "DEMULSHOOTER"
+msgstr ""
+
+msgctxt "game_options"
+msgid "USE DEMULSHOOTER"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Launch DemulShooter for gun games."
+msgstr ""
+
+msgctxt "game_options"
+msgid "HIDE CROSSHAIR"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Hide in-game crosshair (game dependant)."
+msgstr ""
+
+msgctxt "game_options"
+msgid "DISABLE RESIZE"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Fix Demul bug (exiting fullscreen when shooting upper left corner), blocking all mouse inputs to Demul GUI."
+msgstr ""
+
+msgctxt "game_options"
+msgid "VERBOSE MODE"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Enable verbose mode for debugging."
+msgstr ""
+
+msgctxt "game_options"
+msgid "TO WINDOW"
+msgstr ""
+
+msgctxt "game_options"
 msgid "TO NETWORK"
+msgstr ""
+
+msgctxt "game_options"
+msgid "TO BOTH"
+msgstr ""
+
+msgctxt "game_options"
+msgid "USE MAMEHOOKER"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Launch MameHooker for outputs management."
 msgstr ""
 
 msgctxt "game_options"

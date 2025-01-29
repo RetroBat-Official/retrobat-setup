@@ -777,6 +777,50 @@ msgid "Sync to exact content framerate. Only for G-Sync/FreeSync/HDMI-2.1-VRR co
 msgstr ""
 
 msgctxt "game_options"
+msgid "OUTPUTS SETTINGS"
+msgstr "USTAWIENIA WYJŚĆ"
+
+msgctxt "game_options"
+msgid "DEMULSHOOTER"
+msgstr "DEMULSHOOTER"
+
+msgctxt "game_options"
+msgid "USE DEMULSHOOTER"
+msgstr "UŻYJ DEMULSHOOTER"
+
+msgctxt "game_options"
+msgid "Launch DemulShooter for gun games."
+msgstr "Uruchom DemulShooter dla gier z pistoletem."
+
+msgctxt "game_options"
+msgid "HIDE CROSSHAIR"
+msgstr "UKRYJ CELOWNIK"
+
+msgctxt "game_options"
+msgid "Hide in-game crosshair (game dependant)."
+msgstr "Ukryj celownik w grze (zależy od gry)."
+
+msgctxt "game_options"
+msgid "VERBOSE MODE"
+msgstr "TRYB SZCZEGÓŁOWY"
+
+msgctxt "game_options"
+msgid "Enable verbose mode for debugging."
+msgstr "Włącz tryb szczegółowy do debugowania."
+
+msgctxt "game_options"
+msgid "TO WINDOW"
+msgstr "DO OKNA"
+
+msgctxt "game_options"
+msgid "TO NETWORK"
+msgstr "DO SIECI"
+
+msgctxt "game_options"
+msgid "TO BOTH"
+msgstr "DO OBU"
+
+msgctxt "game_options"
 msgid "RESAMPLER"
 msgstr ""
 

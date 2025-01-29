@@ -197,6 +197,50 @@ msgid "Sync to exact content framerate. Only for G-Sync/FreeSync/HDMI-2.1-VRR co
 msgstr ""
 
 msgctxt "game_options"
+msgid "OUTPUTS SETTINGS"
+msgstr ""
+
+msgctxt "game_options"
+msgid "DEMULSHOOTER"
+msgstr ""
+
+msgctxt "game_options"
+msgid "USE DEMULSHOOTER"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Launch DemulShooter for gun games."
+msgstr ""
+
+msgctxt "game_options"
+msgid "HIDE CROSSHAIR"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Hide in-game crosshair (game dependant)."
+msgstr "."
+
+msgctxt "game_options"
+msgid "VERBOSE MODE"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Enable verbose mode for debugging."
+msgstr "."
+
+msgctxt "game_options"
+msgid "TO WINDOW"
+msgstr ""
+
+msgctxt "game_options"
+msgid "TO NETWORK"
+msgstr ""
+
+msgctxt "game_options"
+msgid "TO BOTH"
+msgstr ""
+
+msgctxt "game_options"
 msgid "SMOOTH GAMES (BILINEAR FILTERING)"
 msgstr ""
 
