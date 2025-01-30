@@ -6182,8 +6182,6 @@ luigismansion_gun:
   mousemiddle_2: P2Button3 # P2 Grenades
   mouseright_1: P1Button2 # P1 Right Trigger
   mouseright_2: P2Button2 # P2 Right Trigger
-  mouseleft_a:  # P1 Left Trigger
-  mouseleft_b:  # P2 Left Trigger
   P1ButtonStart: kb_1 # P1 Start
   P2ButtonStart: kb_2 # P2 Start
   Service1: kb_S # Service
