@@ -4934,7 +4934,6 @@ umifresh:
   P1ButtonLeft: kb_Left # Pedal Left
   P1ButtonRight: kb_Right # Pedal Righ
   P1ButtonStart: kb_1 # P1 Start
-  mouseleft_a:  # P1 Start Trigger
   Service1: kb_S # Service
   Test: kb_T # Test
 
