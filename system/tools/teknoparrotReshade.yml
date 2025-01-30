@@ -4,8 +4,16 @@
 # type: opengl, d3d9, d3d10, d3d11 or dxgi
 # Example working for HOTD4
 #
-HOTD4:
+2spicy:
   path: tp_budgie
+  platform: x86
+  type: opengl
+AAA:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+afterdark2:
+  path: qumo2_en.exe
   platform: x86
   type: opengl
 AliensArmageddon:
@@ -13,11 +21,7 @@ AliensArmageddon:
   platform: x86
   type: opengl
 AliensExtermination:
-  path: aliens.exe;aliens dehasped.exe
-  platform: x86
-  type: opengl
-AAA:
-  path: elf_budgie
+  path: aliens dehasped.exe
   platform: x86
   type: opengl
 BBHWorld:
@@ -40,6 +44,14 @@ Castlevania:
   path: HCV.exe
   platform: x86
   type: d3d9
+eadp:
+  path: Game.exe
+  platform: x86
+  type: d3d9
+elevatoractioninvasion:
+  path: ESGame.exe
+  platform: x86
+  type: d3d9
 FarCryParadiseLost:
   path: FarCry_r.exe
   platform: x86
@@ -52,6 +64,26 @@ GaiaAttack4:
   path: game.exe
   platform: x86
   type: d3d9
+gg: 
+  path: RingGunR_RingWide.exe
+  platform: x86
+  type: d3d9
+ghostbusters:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+GSEVO:
+  path: tp_budgie
+  platform: x86
+  type: opengl
+GSEVOELF2:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+GundamSpiritsOfZeon:
+  path: game.exe
+  platform: x86
+  type: d3d9
 HauntedMuseum:
   path: game.exe
   platform: x86
@@ -60,12 +92,24 @@ HauntedMuseumII:
   path: game.exe
   platform: x86
   type: d3d9
-HOTDEX:
+HOTD4:
+  path: tp_budgie
+  platform: x86
+  type: opengl
+hotd4elf2:
   path: elf_budgie
   platform: x86
   type: opengl
 HOTD4SP:
   path: tp_budgie
+  platform: x86
+  type: opengl
+hotd4spelf2:
+  path: elf_budgie
+  platform: x86
+  type: opengl
+HOTDEX:
+  path: elf_budgie
   platform: x86
   type: opengl
 HOTDSD:
@@ -76,6 +120,10 @@ JurassicPark:
   path: elf_budgie
   platform: x86
   type: opengl
+lethalenforcers3:
+  path: game.exe
+  platform: x86
+  type: null
 LGI:
   path: LGI.exe
   platform: x86
@@ -88,6 +136,10 @@ LGJ:
   path: tp_budgie
   platform: x86
   type: opengl
+lgjs:
+  path: tp_budgie
+  platform: x86
+  type: opengl 
 LuigisMansion:
   path: VACUUM.exe
   platform: x86
@@ -96,10 +148,6 @@ MB:
   path: Launcher.exe
   platform: x86
   type: opengl
-GundamSpiritsOfZeon:
-  path: game.exe
-  platform: x86
-  type: d3d9
 MusicGunGun2:
   path: game.exe
   platform: x86
@@ -116,14 +164,14 @@ Primevil:
   path: elf_budgie
   platform: x86
   type: opengl
-Rambo:
-  path: tp_budgie
-  platform: x86
-  type: opengl
 RabbidsHollywood:
   path: Game.exe
   platform: x86
   type: d3d10
+Rambo:
+  path: tp_budgie
+  platform: x86
+  type: opengl
 SilentHill:
   path: KSHG_no_cursor.exe
   platform: x86
@@ -136,14 +184,14 @@ TargetTerrorGold:
   path: elf_budgie
   platform: x86
   type: opengl
-Terminator:
-  path: elf_budgie
-  platform: x86
-  type: opengl
 TC5:
   path: TimeCrisisGame-Win64-Shipping.exe
   platform: x86
   type: d3d9
+Terminator:
+  path: elf_budgie
+  platform: x86
+  type: opengl
 TombRaider:
   path: Game.exe
   platform: x86
