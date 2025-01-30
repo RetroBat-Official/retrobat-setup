@@ -635,17 +635,6 @@ kod:
   Right: dpright
   Attack: x
   Jump: a
-  Service: rightstick
-kod:
-  players: 3
-  Coin: back
-  Start: start
-  Up: dpup
-  Down: dpdown
-  Left: dpleft
-  Right: dpright
-  Attack: x
-  Jump: a
   Special: b
   Service: rightstick
 megaman:
@@ -7028,17 +7017,6 @@ nbbatman:
   Button 2: a
   Service: rightstick
 leaguemn:
-  players: 4
-  Coin: back
-  Start: start
-  Up: dpup
-  Down: dpdown
-  Left: dpleft
-  Right: dpright
-  Button 1: x
-  Button 2: a
-  Service: rightstick
-nbbatm:
   players: 4
   Coin: back
   Start: start
