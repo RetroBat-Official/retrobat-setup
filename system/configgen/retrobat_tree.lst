@@ -155,6 +155,9 @@ emulators\m2emulator\templatescfg\xinput
 emulators\mame
 emulators\mame\cfg
 emulators\mame\ini
+emulators\mandarine
+emulators\mandarine\user
+emulators\mandarine\user\config
 emulators\mednafen
 emulators\mesen
 emulators\mgba
@@ -256,6 +259,9 @@ saves\3ds\Citra\sdmc
 saves\3ds\lime3ds
 saves\3ds\lime3ds\nand
 saves\3ds\lime3ds\sdmc
+saves\3ds\mandarine
+saves\3ds\mandarine\nand
+saves\3ds\mandarine\sdmc
 saves\amiga
 saves\amiga\winuae
 saves\amstradcpc\capriceforever
@@ -375,6 +381,7 @@ screenshots\citron
 screenshots\corsixth
 screenshots\duckstation
 screenshots\lime3ds
+screenshots\mandarine
 screenshots\mednafen
 screenshots\Mupen64
 screenshots\pcsx2

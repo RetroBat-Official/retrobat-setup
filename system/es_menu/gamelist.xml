@@ -127,7 +127,7 @@
 		<marquee>./media/citra-logo.png</marquee>
 		<rating>0</rating>
 		<releasedate />
-		<developer>Citra Team</developer>
+		<developer>Pablomk7</developer>
 		<publisher>Citra Team</publisher>
 		<genre>Emulator</genre>
 		<playcount />
@@ -397,6 +397,23 @@
 		<marquee>./media/magicengine-logo.png</marquee>
 		<developer>David / Cédric Michel</developer>
 		<publisher />
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
+		<path>./mandarine.menu</path>
+		<name>Mandarine (3DS)</name>
+		<desc>Run Mandarine Emulator (Nintendo 3DS).</desc>
+		<image>./media/mandarine-logo.svg</image>
+		<marquee>./media/mandarine-logo.svg</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Mandarine Team</developer>
+		<publisher>Mandarine Team</publisher>
 		<genre>Emulator</genre>
 		<playcount />
 		<lastplayed />
