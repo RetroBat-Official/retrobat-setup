@@ -690,6 +690,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./shadps4.menu</path>
+		<name>ShadPS4</name>
+		<desc>Run ShadPS4 (Playstation 4).</desc>
+		<image>./media/shadps4-logo.png</image>
+		<marquee>./media/shadps4-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>ShadPS4 Team</developer>
+		<publisher />
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./simple64.menu</path>
 		<name>Simple64</name>
 		<desc>Run Simple64 (Nintendo 64).</desc>
