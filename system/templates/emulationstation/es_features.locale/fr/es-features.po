@@ -719,7 +719,7 @@ msgstr "LES DEUX"
 
 msgctxt "game_options"
 msgid "USE MAMEHOOKER"
-msgstr "UTILSER MAMEHOOKER"
+msgstr "UTILISER MAMEHOOKER"
 
 msgctxt "game_options"
 msgid "Launch MameHooker for outputs management."
