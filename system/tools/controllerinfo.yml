@@ -8,16 +8,25 @@
 # - mandarine (to replace GUID)
 # - mednafen (to replace GUID)
 # - mupen64 (to replace name)
+# - ryujinx (to replace GUID)
 # - simple64 (to replace name)
 # - sudachi (to replace GUID)
 # - suyu (to replace GUID)
 # - teknoparrot (to replace BindName of mouse/keyboards/guns)
 # - yuzu (to replace GUID)
+# --------------------------------------------------------------------------------------
+# How to use this file ?
 #
-# The root container is the guid from RetroBat, as found in es_input.cfg file
-# then create a container for the emulator you need replacement for
-# the target guid must be set after the 'guid' key
-# the target name (dolphin) must be set after the 'name' key
+# Indent is 2 spaces
+#
+# Example for the first entry:
+# The root container is the guid from RetroBat, as found in es_input.cfg file or in emulatorlauncher.log (eg 03000000c82d00000631000000007200)
+# then create a container for the emulator you need replacement for (eg. sudachi)
+# the target guid must be set after the 'guid' key (eg: guid: 03000000c82d00000631000014017801)
+# to get the target GUID, configure your controller directly within the emulator, and open the configuration file of the emulator to look for the controller guid
+# 
+# the target name (dolphin, mupen64 or simple64) must be set after the 'name' key
+#
 #
 ######### RETROBAT DEFAULT ################
 03000000c82d00000631000000007200:
@@ -59,13 +68,12 @@
   citra:
     guid: 0300938d5e040000ff02000000007200
 #
-############## User Provided #####################
+############## User Provided (from the community) #####################
 030000005e040000a102000000007200:
   name: (Xbox 360 Wireless Receiver for Windows)
-  multiGuid: true
   sudachi:
-    guid: 030000005e040000a102000010007801
-    guid2: 030000005e040000a102000005007801
+    guid: 030000005e040000a102000020007801
+#
 ############## Teknoparrot devide name update (to use for lightguns to override keyboard and mouse names) #############
 #teknoparrotdevicenames:
 #  VID_0079&PID_1802: TEST
