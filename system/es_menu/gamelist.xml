@@ -136,7 +136,7 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
-	<game>
+	<!--<game>
 		<path>./citra_canary.menu</path>
 		<name>Citra Canary(3DS)</name>
 		<desc>Run Citra Canary Emulator (Nintendo 3DS).</desc>
@@ -152,7 +152,7 @@
 		<gametime />
 		<lang>en</lang>
 		<region>wr</region>
-	</game>
+	</game>-->
 	<game>
 		<path>./citron.menu</path>
 		<name>Citron (Switch)</name>
@@ -1165,7 +1165,7 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
-	<game>
+	<!--<game>
 		<path>./yuzu-early-access.menu</path>
 		<name>Yuzu Early Access (Switch)</name>
 		<desc>Run Yuzu Early Access (Switch). This software is not provided by RetroBat.</desc>
@@ -1182,7 +1182,7 @@
 		<lang>en</lang>
 		<region>wr</region>
 	</game>
-	<!--<game>
+	<game>
 		<path>./zsnes-dos.menu</path>
 		<name>ZSNES</name>
 		<desc>A Super NES emulator pioneer running in DOSBox (for nostalgia and preservation).</desc>
