@@ -8278,6 +8278,14 @@ msgid "FORCE PLAYER 2 PAD INDEX"
 msgstr "FORCER L'INDEX DE LA MANETTE DU JOUEUR 2"
 
 msgctxt "game_options"
+msgid "FORCE PLAYER 3 PAD INDEX"
+msgstr "FORCER L'INDEX DE LA MANETTE DU JOUEUR 3"
+
+msgctxt "game_options"
+msgid "FORCE PLAYER 4 PAD INDEX"
+msgstr "FORCER L'INDEX DE LA MANETTE DU JOUEUR 4"
+
+msgctxt "game_options"
 msgid "Force P2 pad index, can be useful when using a controller on an arcade machine."
 msgstr "Forcer l'index de la manette pour le joueur 2, peut être utile pour les bornes d'arcade."
 
@@ -10440,3 +10448,83 @@ msgstr "UTILISER PAL 50HZ"
 msgctxt "game_options"
 msgid "FRAMERATE LIMIT"
 msgstr "LIMITE DE FPS"
+
+msgctxt "game_options"
+msgid "SINDEN IN JOYSTICK MODE"
+msgstr "SINDEN EN MODE JOYSTICK"
+
+msgctxt "game_options"
+msgid "When using a Sinden gun, switch gun to joystick mode."
+msgstr "Passer les Sinden Lightgun en mode Joystick."
+
+msgctxt "game_options"
+msgid "KILL SINDEN SOFTWARE"
+msgstr "STOPPER LE LOGICIEL SINDEN"
+
+msgctxt "game_options"
+msgid "When using a Sinden gun, kill the Lightgun software when game ends."
+msgstr "Fermer le logiciel Lightgun à la sortie d'un jeu."
+
+msgctxt "game_options"
+msgid "ALTERNATIVE HOTKEY LAYOUT"
+msgstr "DISPOSITION DE RACCOURCIS(HOTKEY) ALTERNATIFS"
+
+msgctxt "game_options"
+msgid "FULLSCREEN MODE"
+msgstr "TYPE DE PLEIN ÉCRAN"
+
+msgctxt "game_options"
+msgid "FULLSCREEN WINDOW"
+msgstr "PLEIN ÉCRAN FENÉTRÉ"
+
+msgctxt "game_options"
+msgid "USER NAME"
+msgstr "NOM D'UTILISATEUR"
+
+msgctxt "game_options"
+msgid "RSX FIFO ACCURACY"
+msgstr "PRÉCISION RSX FIFO"
+
+msgctxt "game_options"
+msgid "Fast is less accurate, ordered and atomic is accurate bul slower."
+msgstr "Rapide est moins précis, ordonné et atomique est précis mais moins rapide."
+
+msgctxt "game_options"
+msgid "FAST"
+msgstr "RAPIDE"
+
+msgctxt "game_options"
+msgid "ATOMIC"
+msgstr "ATOMIQUE"
+
+msgctxt "game_options"
+msgid "ORDERED AND ATOMIC"
+msgstr "ORDONNÉ ET ATOMIQUE"
+
+msgctxt "game_options"
+msgid "USE CUSTOM CONFIG"
+msgstr "UTILISER CONFIGURATION PAR JEU"
+
+msgctxt "game_options"
+msgid "Enable this setting to start game using game custom config."
+msgstr "Activer cette option pour laisser RPCS3 utiliser la configuration spécifique au jeu."
+
+msgctxt "game_options"
+msgid "USE LEFT STICK AS DPAD"
+msgstr "UTILISER LE STICK GAUCHE COMME D-PAD"
+
+msgctxt "game_options"
+msgid "FORCE 1 PLAYER ONLY"
+msgstr "FORCER 1 SEUL JOUEUR"
+
+msgctxt "game_options"
+msgid "RetroBat will configure only the controller for player 1."
+msgstr "RetroBat ne configurera que la manette du joueur 1."
+
+msgctxt "game_options"
+msgid "HIGH RES SCANOUT"
+msgstr "HIGH RES SCANOUT"
+
+msgctxt "game_options"
+msgid "Allows upscaling, requires at least SSAA 4X."
+msgstr "Permet la mise à l'échelle, nécessite à minima SSAA 4X."
