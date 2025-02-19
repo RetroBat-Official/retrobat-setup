@@ -1,0 +1,22 @@
+# This file is provided with RetroBat
+# It can be used to overwrite hotkeys per core or for all cores
+# Each container must be named by the core name to perform the overwrite only for specified core(s).
+# If no core container exists, the "default" container will be used.
+# The key represents the controller input key (a=SOUTH, b=EAST, Y=west, X=north, pageup=L1, pagedown=R1)
+# The value represents the shortcut to map to the key
+# Here are the default RetroBat values:
+#default:
+#  start: exit_emulator
+#  b: pause_toggle
+#  a: menu_toggle
+#  x: load_state
+#  y: save_state
+#  pageup: disk_eject_toggle
+#  pagedown: ai_service
+#  l2: disk_prev
+#  r2: disk_next
+#  r3: screenshot
+#  up: state_slot_increase
+#  down: state_slot_decrease
+#  left: rewind
+#  right: hold_fast_forward

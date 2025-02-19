@@ -4614,6 +4614,14 @@ msgid "4-WAYS JOYSTICK MODE"
 msgstr "MODE 4-DIRECTIONS"
 
 msgctxt "game_options"
+msgid "GAMEPAD MODE"
+msgstr "MODE MANETTE"
+
+msgctxt "game_options"
+msgid "NO CONFIGURATION"
+msgstr "NE PAS MODIFIER"
+
+msgctxt "game_options"
 msgid "4 WAY JOYSTICK EMULATION"
 msgstr "MODE 4-DIRECTIONS"
 
@@ -10450,12 +10458,12 @@ msgid "FRAMERATE LIMIT"
 msgstr "LIMITE DE FPS"
 
 msgctxt "game_options"
-msgid "SINDEN IN JOYSTICK MODE"
-msgstr "SINDEN EN MODE JOYSTICK"
+msgid "SINDEN BUTTONS CONFIGURATION"
+msgstr "CONFIGURATION BOUTONS SINDEN"
 
 msgctxt "game_options"
-msgid "When using a Sinden gun, switch gun to joystick mode."
-msgstr "Passer les Sinden Lightgun en mode Joystick."
+msgid "Define how to configure Sinden Gun."
+msgstr "Choix de la configuration des boutons du sinden lightgun."
 
 msgctxt "game_options"
 msgid "KILL SINDEN SOFTWARE"
@@ -10528,3 +10536,27 @@ msgstr "HIGH RES SCANOUT"
 msgctxt "game_options"
 msgid "Allows upscaling, requires at least SSAA 4X."
 msgstr "Permet la mise à l'échelle, nécessite à minima SSAA 4X."
+
+msgctxt "game_options"
+msgid "ANALOG TO DPAD MODE"
+msgstr "ANALOGIQUE VERS DPAD"
+
+msgctxt "game_options"
+msgid "Use Analog stick as D-PAD."
+msgstr "Utiliser un stick analogique comme d-pad."
+
+msgctxt "game_options"
+msgid "RIGHT ANALOG"
+msgstr "STICK DROITE"
+
+msgctxt "game_options"
+msgid "LEFT ANALOG"
+msgstr "STICK GAUCHE"
+
+msgctxt "game_options"
+msgid "RIGHT ANALOG (FORCED)"
+msgstr "STICK DROITE (FORCÉ)"
+
+msgctxt "game_options"
+msgid "LEFT ANALOG (FORCED)"
+msgstr "STICK GAUCHE (FORCÉ)"
