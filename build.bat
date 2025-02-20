@@ -12,8 +12,8 @@ setlocal EnableDelayedExpansion
 
 :: ---- BUILDER OPTION ----
 
-set retrobat_version=7.0.0
-set retroarch_version=1.19.1
+set retrobat_version=7.1.0
+set retroarch_version=1.20.0
 
 set get_batgui=0
 set get_batocera_ports=1
@@ -51,7 +51,7 @@ set setup_compiler=ISCC
 set deps_list=(git !setup_compiler! 7za wget curl)
 set submodules_list=(bios decorations system)
 set packages_list=(retrobat_binaries batgui emulationstation default_theme batocera_ports mega_bezels retroarch roms wiimotegun)
-set legacy_cores_list=(4do emuscv fake08 hatarib imageviewer mame2014 mame2016)
+set legacy_cores_list=(4do emuscv fake08 freej2me hatarib imageviewer mame2014 mame2016)
 set emulators_black_list=(3dsen lemonade pico8 retroarch ryujinx steam sudachi suyu teknoparrot yuzu yuzu-early-access)
 
 :: ---- GET STARTED ----
@@ -59,7 +59,7 @@ set emulators_black_list=(3dsen lemonade pico8 retroarch ryujinx steam sudachi s
 set script_type=builder
 set user_choice=0
 set git_branch=master
-set branch=stable
+set branch=beta
 set release_version=null
 set log_file=build.log
 set exit_timeout=0
