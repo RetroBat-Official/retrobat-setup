@@ -71,6 +71,10 @@
   name: Switch Pro Controller
   citron:
     guid: 050000007e0500000920000000006803
+03000000c82d00000631000000007200:
+  name: 8BitDo Receiver
+  sudachi:
+    guid: 03000000c82d00000631000000017801
 #
 ############## User Provided (from the community) #####################
 030000005e040000a102000000007200:
