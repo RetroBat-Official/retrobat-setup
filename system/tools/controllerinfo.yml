@@ -67,6 +67,10 @@
   name: Microsoft Xbox One
   citra:
     guid: 0300938d5e040000ff02000000007200
+030000007e0500000920000000006803:
+  name: Switch Pro Controller
+  citron:
+    guid: 050000007e0500000920000000006803
 #
 ############## User Provided (from the community) #####################
 030000005e040000a102000000007200:
