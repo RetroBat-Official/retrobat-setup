@@ -1,0 +1,1 @@
+start Altirra64.exe /portable
