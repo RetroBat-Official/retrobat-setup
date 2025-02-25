@@ -3,6 +3,8 @@
 \system\resources\emulationstation\splash.xml|\emulationstation\resources\splash.xml
 \system\resources\retrobat_logo.png|\emulationstation\resources\splash_retrobat.png
 \system\resources\retrobat_logo_old.svg|\emulationstation\resources\splash_retrobat.svg
+\system\templates\altirra\Altirra.ini|\emulators\altirra\Altirra.ini
+\system\templates\altirra\Configure altirra.bat|\emulators\altirra\Configure altirra.bat
 \system\templates\ares\settings.bml|\emulators\ares\settings.bml
 \system\templates\bigpemu\gamecontrollerdb.txt|\emulators\bigpemu\gamecontrollerdb.txt
 \system\templates\bigpemu\userdata\BigPEmuConfig.bigpcfg|\emulators\bigpemu\userdata\BigPEmuConfig.bigpcfg

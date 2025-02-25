@@ -1,6 +1,23 @@
 ﻿<?xml version="1.0"?>
 <gameList>
 	<game>
+		<path>./altirra.menu</path>
+		<name>Altirra (Atari 8-bits)</name>
+		<desc>Run Altirra Emulator (Atari 8-bits).</desc>
+		<image>./media/altirra-logo.png</image>
+		<marquee>./media/altirra-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Avery Lee</developer>
+		<publisher>Altirra Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./applewin.menu</path>
 		<name>AppleWin (Apple II)</name>
 		<desc>Run AppleWin Emulator (Apple II).</desc>

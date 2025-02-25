@@ -89,6 +89,7 @@ emulationstation\es_features.locale
 emulationstation\resources
 emulators
 emulators\3dsen
+emulators\altirra
 emulators\applewin
 emulators\arcadeflashweb
 emulators\ares
@@ -251,6 +252,7 @@ roms\sonicretro
 roms\sonicretro\sonic1
 roms\sonicretro\sonic2
 roms\sonicretro\soniccd
+roms\vpinball\roms
 saves
 saves\3ds
 saves\3ds\Citra
