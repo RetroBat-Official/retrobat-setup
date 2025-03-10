@@ -297,6 +297,8 @@ saves\mame\nvram
 saves\mame\states
 saves\mastersystem
 saves\mastersystem\kega-fusion
+saves\megacd
+saves\megacd\kega-fusion
 saves\megadrive
 saves\megadrive\kega-fusion
 saves\megadrive\mednafen
@@ -353,8 +355,6 @@ saves\saturn
 saves\saturn\kronos
 saves\saturn\mednafen
 saves\saturn\mednafen\sstates
-saves\segacd
-saves\segacd\kega-fusion
 saves\snes
 saves\snes\mednafen
 saves\snes\mednafen\sstates
