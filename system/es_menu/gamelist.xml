@@ -307,6 +307,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./gopher64.menu</path>
+		<name>Gopher64 (Nintendo 64)</name>
+		<desc>Run Gopher64.</desc>
+		<image>./media/gopher64-logo.png</image>
+		<marquee>./media/gopher64-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>loganmc10</developer>
+		<publisher></publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./hatari.menu</path>
 		<name>Hatari (Atari ST)</name>
 		<desc>Run Hatari.</desc>

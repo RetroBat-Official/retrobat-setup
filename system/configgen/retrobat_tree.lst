@@ -133,6 +133,9 @@ emulators\flycast
 emulators\flycast\data
 emulators\flycast\mappings
 emulators\fpinball
+emulators\gopher64
+emulators\gopher64\portable_data
+emulators\gopher64\portable_data\config
 emulators\gsplus
 emulators\gzdoom
 emulators\hatari
