@@ -127,6 +127,8 @@
 \system\templates\roms\ports\images.zip|\roms\ports
 \system\templates\roms\ports\xrick.zip|\roms\ports
 \system\templates\roms\ps3\example-to-edit.m3u.txt|\roms\ps3\example-to-edit.m3u.txt
+\system\templates\roms\singe\Framework.zip|\roms\singe
+\system\templates\roms\singe\FrameworkKimmy.zip|\roms\singe
 \system\templates\roms\wiiu\example-to-edit.m3u.txt|\roms\wiiu\example-to-edit.m3u.txt
 \system\templates\rpcs3\GuiConfigs\CurrentSettings.ini|\emulators\rpcs3\GuiConfigs\CurrentSettings.ini
 \system\templates\rpcs3\config.yml|\emulators\rpcs3\config.yml
