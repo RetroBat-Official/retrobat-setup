@@ -362,8 +362,16 @@ msgid "COMPRESSION"
 msgstr ""
 
 msgctxt "game_options"
+msgid "DECOMPRESSION PATH"
+msgstr "EMPLACEMENT DES FICHIERS DÉCOMPRESSÉS"
+
+msgctxt "game_options"
 msgid "DECOMPRESSION"
 msgstr "DÉCOMPRESSION"
+
+msgctxt "game_options"
+msgid "Change path for decompressed games (default is '\roms\.uncompressed')."
+msgstr "Modifier l'emplacement des fichiers décompressés (par défaut dans '\roms\.uncompressed')."
 
 msgctxt "game_options"
 msgid "ENABLE SUBTITLES"
@@ -1067,7 +1075,7 @@ msgstr "AFFICHAGE DES ÉLÉMENTS DE MENU RETROARCH"
 
 msgctxt "game_options"
 msgid "RETROACHIEVEMENTS HARDCORE MODE"
-msgstr "RETROACHIEVEMENTS MODE HARDCORE"
+msgstr "SUCCÉS MODE HARDCORE"
 
 msgctxt "game_options"
 msgid "SOFTWARE (APPROX)"
@@ -10106,6 +10114,18 @@ msgid "SOFTPATCHING"
 msgstr "SOFTPATCHING"
 
 msgctxt "game_options"
+msgid "RUMBLE MODE"
+msgstr "MODE DE VIBRATION"
+
+msgctxt "game_options"
+msgid "GENERIC"
+msgstr "GÉNÉRIQUE"
+
+msgctxt "game_options"
+msgid "TABLE WITH GENERIC FALLBACK"
+msgstr "TABLE OU GÉNÉRIQUE"
+
+msgctxt "game_options"
 msgid "Define if patch should be applied and where patch files are located, 'AUTO' will apply patches if they are located near rom with same name as rom file."
 msgstr "Permet d'activer les patchs et de sélectionner leur emplacement, utiliser 'AUTO' pour appliquer les patchs ayant le même nom de fichier que la rom de jeu et localisés dans le même dossier."
 
@@ -10560,3 +10580,111 @@ msgstr "STICK DROITE (FORCÉ)"
 msgctxt "game_options"
 msgid "LEFT ANALOG (FORCED)"
 msgstr "STICK GAUCHE (FORCÉ)"
+
+msgctxt "game_options"
+msgid "USE NVIDIA DEPTH BUFFER"
+msgstr "UTILISER TAMPON NVIDIA"
+
+msgctxt "game_options"
+msgid "Use alternative depth processing, to enable if there are graphics issues or a specific error message."
+msgstr "Une alternative pour gérer la profondeur, peut résoudre des problèmes graphiques."
+
+msgctxt "game_options"
+msgid "SOFTWARE VERTEX PROCESSING"
+msgstr "PROCESSEUR VERTEX LOGICIEL"
+
+msgctxt "game_options"
+msgid "Enable this option if encountering issues with an Intel graphics chip."
+msgstr "Activer cette option en cas de problème d'affichage avec une puce graphique Intel."
+
+msgctxt "game_options"
+msgid "LEVEL OF DETAIL"
+msgstr "NIVEAU DE DÉTAIL"
+
+msgctxt "game_options"
+msgid "AMBIENT OCCLUSION"
+msgstr "OCCLUSION AMBIANTE"
+
+msgctxt "game_options"
+msgid "SHARPEN IMAGE"
+msgstr "IMAGE PLUS NETTE"
+
+msgctxt "game_options"
+msgid "SUPERSAMPLING"
+msgstr "SURÉCHANTILLONAGE"
+
+msgctxt "game_options"
+msgid "DISABLE MUSIC"
+msgstr "DÉSACTIVER LA MUSIQUE"
+
+msgctxt "game_options"
+msgid "CABINET MODE"
+msgstr "MODE CABINET"
+
+msgctxt "game_options"
+msgid "COLORIZE DMD"
+msgstr "COLORISER LE DMD"
+
+msgctxt "game_options"
+msgid "HIDE GRILL"
+msgstr "MASQUER LA GRILLE"
+
+msgctxt "game_options"
+msgid "CAMERA FOLLOWS THE BALL"
+msgstr "LA CAMÉRA SUIT LA BILLE"
+
+msgctxt "game_options"
+msgid "CAMERA"
+msgstr "CAMÉRA"
+
+msgctxt "game_options"
+msgid "HIDE GAME ROOM"
+msgstr "MASQUER LA SALLE DE JEU"
+
+msgctxt "game_options"
+msgid "HIDE ORNAMENTS"
+msgstr "MASQUER LES ORNEMENTS"
+
+msgctxt "game_options"
+msgid "USE EXTERNAL DMD"
+msgstr "DMD EXTERNE"
+
+msgctxt "game_options"
+msgid "ENABLE VIRTUAL DMD"
+msgstr "ACTIVER DMD VIRTUEL"
+
+msgctxt "game_options"
+msgid "ENABLE ZEDMD"
+msgstr "ACTIVER ZEDMD"
+
+msgctxt "game_options"
+msgid "ENABLE PIXELCADE"
+msgstr "ACTIVER PIXELCADE"
+
+msgctxt "game_options"
+msgid "ENABLE PIN2DMD"
+msgstr "ENABLE PIN2DMD"
+
+msgctxt "game_options"
+msgid "WIIMOTE CONNECTION MODE"
+msgstr "MODE DE CONNEXION WIIMOTE"
+
+msgctxt "game_options"
+msgid "Define how you wiimote is connected to the DolphinBar."
+msgstr "Spécifier le mode de connection de la Wiimote à la DolphinBar."
+
+msgctxt "game_options"
+msgid "PREFER EXCLUSIVE FULLSCREEN"
+msgstr "PRÉFÉRER LE PLEIN ÉCRAN EXCLUSIF"
+
+msgctxt "game_options"
+msgid "When available, prefer exclusive fullscreen for emulators."
+msgstr "Lorsque l'émulateur le permet, active le mode plein écran exclusif."
+
+msgctxt "game_options"
+msgid "SYSTEM REGION"
+msgstr "RÉGION DU SYSTÈME"
+
+msgctxt "game_options"
+msgid "Define region, used for saves."
+msgstr "Région à utiliser pour le dossier des sauvegardes."
