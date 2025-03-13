@@ -45,6 +45,7 @@
 \system\templates\flycast\emu.cfg|\emulators\flycast\emu.cfg
 \system\templates\flycast\nvmem.zip|\emulators\flycast\data
 \system\templates\gemrb\GemRB.cfg|\emulators\gemrb\GemRB.cfg
+\system\templates\gopher64\config.json|\emulators\gopher64\portable_data\config\config.json
 \system\templates\gzdoom\gzdoom_portable.ini|\emulators\gzdoom\gzdoom_portable.ini
 \system\templates\hatari\hatari.cfg|\emulators\hatari\hatari.cfg
 \system\templates\hbmame\ctrlr\ds4_ds5.cfg|\saves\hbmame\ctrlr\ds4_ds5.cfg
@@ -56,6 +57,7 @@
 \system\templates\infos\portable.txt|\emulators\dolphin-emu\portable.txt
 \system\templates\infos\portable.txt|\emulators\dolphin-triforce\portable.txt
 \system\templates\infos\portable.txt|\emulators\duckstation\portable.txt
+\system\templates\infos\portable.txt|\emulators\gopher64\portable.txt
 \system\templates\infos\portable.txt|\emulators\mgba\portable.ini
 \system\templates\infos\portable.txt|\emulators\xenia-canary\portable.txt
 \system\templates\infos\portable.txt|\emulators\xenia\portable.txt
