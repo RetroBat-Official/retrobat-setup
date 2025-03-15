@@ -78,7 +78,6 @@
 \system\templates\mame\nvram.zip|\saves\mame\nvram
 \system\templates\mandarine\portable.txt|\emulators\mandarine\portable.txt
 \system\templates\mandarine\qt-config.ini|\emulators\mandarine\user\config\qt-config.ini
-\system\templates\melonds\melonDS.ini|\emulators\melonds\melonDS.ini
 \system\templates\mesen\settings.json|\emulators\mesen\settings.json
 \system\templates\mgba\config.ini|\emulators\mgba\config.ini
 \system\templates\mupen64\Config\GLideN64.ini|\emulators\mupen64\Config\GLideN64.ini
