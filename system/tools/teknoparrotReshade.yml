@@ -194,7 +194,7 @@ Terminator:
   type: opengl
 TombRaider:
   path: Game.exe
-  platform: x86
+  platform: x64
   type: d3d11
 Transformers:
   path: TR_Gun_R_Ring_dumped.exe 
