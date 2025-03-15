@@ -6272,6 +6272,41 @@ musicgungun2_gun:
   Service1: kb_S # Service
   Test: kb_T # Test
 
+nerf:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin 1
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: righttrigger  # Player 1 Trigger
+  P1Button2: lefttrigger  # Player 1 Shoulder
+  P1Button3: up  # Menu Up
+  P1Button4: down  # Menu Down
+  Analog0: rightstickleft  # Player 1 Gun X
+  Analog2: rightstickup  # Player 1 Gun Y
+  Coin2: select  # Coin 2
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: righttrigger  # Player 2 Trigger
+  P2Button2: lefttrigger  # Player 2 Shoulder
+  P2Button3: left  # Menu Left
+  P2Button4: right  # Menu Right
+  Analog4: rightstickleft  # Player 2 Gun X
+  Analog6: rightstickup  # Player 2 Gun Y
+
+nerf_gun:
+  # rawinput:
+  Test: kb_T                 # Test
+  Service1: kb_S            # Service
+  # Player 1
+  Coin1: kb_5               # Coin 1
+  P1ButtonStart: kb_1       # P1 Start
+  mouseleft_1: P1Button1    # Player 1 Trigger
+  mouseright_1: P1Button2   # Player 1 Shoulder
+  # Player 2
+  Coin2: kb_6               # Coin 2
+  P2ButtonStart: kb_2       # P2 Start
+  mouseleft_2: P2Button1    # Player 2 Trigger
+  mouseright_2: P2Button2   # Player 2 Shoulder
+
 og:
   Analog0: rightstickleft # Player 1 Gun X
   Analog2: rightstickup # Player 1 Gun Y
