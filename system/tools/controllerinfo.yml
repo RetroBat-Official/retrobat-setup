@@ -1,4 +1,5 @@
 # This file can be used to send the correct GUID or NAME for some emulators, currently the following emulators support this function
+# - azahar (to replace GUID)
 # - bigpemu (to replace GUID)
 # - cemu (to replace GUID)
 # - citra (to replace GUID)

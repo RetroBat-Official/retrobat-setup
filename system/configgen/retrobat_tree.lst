@@ -111,6 +111,9 @@ emulators\altirra
 emulators\applewin
 emulators\arcadeflashweb
 emulators\ares
+emulators\azahar
+emulators\azahar\user
+emulators\azahar\user\config
 emulators\bigpemu
 emulators\bigpemu\userdata
 emulators\bizhawk
@@ -277,6 +280,9 @@ roms\sonicretro\soniccd
 roms\vpinball\roms
 saves
 saves\3ds
+saves\3ds\azahar
+saves\3ds\azahar\nand
+saves\3ds\azahar\sdmc
 saves\3ds\Citra
 saves\3ds\Citra\nand
 saves\3ds\Citra\sdmc
@@ -399,6 +405,7 @@ saves\xbox360
 saves\xbox360\xenia
 screenshots
 screenshots\ares
+screenshots\azahar
 screenshots\capriceforever
 screenshots\citra
 screenshots\citron
