@@ -52,6 +52,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./azahar.menu</path>
+		<name>Azahar (3DS)</name>
+		<desc>Run Azahar Emulator (Nintendo 3DS).</desc>
+		<image>./media/azahar-logo.png</image>
+		<marquee>./media/azahar-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Azahar Team</developer>
+		<publisher>Azahar Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./bigpemu.menu</path>
 		<name>BigPEmu (Jaguar)</name>
 		<desc>Run BigPEmu Emulator (Jaguar).</desc>
