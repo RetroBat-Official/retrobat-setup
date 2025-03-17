@@ -1335,6 +1335,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./xroar.menu</path>
+		<name>XRoar (Dragon 32/64)</name>
+		<desc>Run XRoar Emulator (Dragon 32/64).</desc>
+		<image>./media/xroar-logo.png</image>
+		<marquee>./media/xroar-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Ciaran Anscomb</developer>
+		<publisher>xroar@6809.org.uk</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./yabasanshiro.menu</path>
 		<name>Yabasanshiro (Saturn)</name>
 		<desc>Run Yabasanshiro (Saturn).</desc>
