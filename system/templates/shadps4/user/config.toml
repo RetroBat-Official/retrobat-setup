@@ -1,69 +1,87 @@
+[General]
+isPS4Pro = false
+isTrophyPopupDisabled = false
+trophyNotificationDuration = 6.0
+playBGM = false
+BGMvolume = 50
+enableDiscordRPC = false
+logFilter = ""
+logType = "async"
+userName = "shadPS4"
+updateChannel = "Release"
+chooseHomeTab = "General"
+showSplash = false
+autoUpdate = false
+alwaysShowChangelog = false
+sideTrophy = "right"
+separateUpdateEnabled = false
+compatibilityEnabled = false
+checkCompatibilityOnStartup = false
+
 [Input]
-useSpecialPad = false
 cursorState = 1
 cursorHideTimeout = 5
 backButtonBehavior = "left"
+useSpecialPad = false
 specialPadClass = 1
-
-[General]
-isPS4Pro = false
-BGMvolume = 50
-logFilter = ""
-playBGM = false
-Fullscreen = false
-isTrophyPopupDisabled = false
-enableDiscordRPC = false
-logType = "async"
-userName = "RetroBat"
-updateChannel = "Release"
-showSplash = false
-autoUpdate = false
-separateUpdateEnabled = true
-compatibilityEnabled = true
-checkCompatibilityOnStartup = false
+isMotionControlsEnabled = true
+useUnifiedInputConfig = true
 
 [GPU]
-dumpShaders = false
-screenWidth = 800
-vblankDivider = 1
-screenHeight = 600
+screenWidth = 1280
+screenHeight = 720
 nullGpu = false
-patchShaders = true
 copyGPUBuffers = false
+dumpShaders = false
+patchShaders = true
+vblankDivider = 1
+Fullscreen = true
+allowHDR = false
+FullscreenMode = "Fullscreen (Borderless)"
 
 [Vulkan]
-validation_sync = false
 gpuId = -1
 validation = false
-crashDiagnostic = false
+validation_sync = false
 validation_gpu = false
+crashDiagnostic = false
+hostMarkers = false
+guestMarkers = false
 rdocEnable = false
-rdocMarkersEnable = false
-
-[Settings]
-consoleLanguage = 2
-
-[GUI]
-installDirs = []
-addonInstallDir = ""
-emulatorLanguage = "en"
-mw_width = 1280
-theme = 0
-mw_height = 720
-iconSize = 36
-sliderPos = 0
-iconSizeGrid = 69
-sliderPosGrid = 0
-geometry_x = 400
-gameTableMode = 0
-pkgDirs = []
-geometry_y = 400
-geometry_w = 1280
-geometry_h = 720
-elfDirs = []
-recentFiles = []
 
 [Debug]
 DebugDump = false
 CollectShader = false
+isSeparateLogFilesEnabled = false
+FPSColor = true
+
+[Keys]
+TrophyKey = ""
+
+[GUI]
+installDirs = []
+saveDataPath = ""
+loadGameSizeEnabled = true
+addonInstallDir = ""
+emulatorLanguage = "en_US"
+backgroundImageOpacity = 50
+showBackgroundImage = true
+mw_width = 1280
+mw_height = 720
+theme = 0
+iconSize = 36
+sliderPos = 0
+iconSizeGrid = 69
+sliderPosGrid = 0
+gameTableMode = 0
+geometry_x = 259
+geometry_y = 213
+geometry_w = 1280
+geometry_h = 720
+pkgDirs = []
+elfDirs = []
+recentFiles = []
+
+[Settings]
+consoleLanguage = 1
 
