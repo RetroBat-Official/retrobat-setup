@@ -10688,3 +10688,19 @@ msgstr "RÉGION DU SYSTÈME"
 msgctxt "game_options"
 msgid "Define region, used for saves."
 msgstr "Région à utiliser pour le dossier des sauvegardes."
+
+msgctxt "game_options"
+msgid "AUTOMATICALLY CREATE LOBBY"
+msgstr "CRÉER LE LOBBY AUTOMATIQUEMENT"
+
+msgctxt "game_options"
+msgid "Automatically creates a Netplay lobby when starting a game."
+msgstr "Créer automatiquement un lobby Netplay lors du démarrage du jeu."
+
+msgctxt "game_options"
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr "UNIQUEMENT LES JEUX AVEC SERVEUR RELAIS"
+
+msgctxt "game_options"
+msgid "Relay server games have a higher chance of successful entry."
+msgstr "Seuls les jeux utilisant un serveur relais sont affichés."
