@@ -437,3 +437,6 @@ system\resources
 system\scripts
 system\shaders
 system\templates
+tattoos
+tattoos\default
+tattoos\games

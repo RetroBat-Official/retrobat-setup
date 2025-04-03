@@ -159,6 +159,7 @@
 \system\templates\supermodel\NVRAM.zip|\emulators\supermodel\NVRAM
 \system\templates\supermodel\Supermodel.ini|\emulators\supermodel\Config\Supermodel.ini
 \system\templates\suyu\qt-config.ini|\emulators\suyu\user\config\qt-config.ini
+\system\templates\tattoos\README.md|\tattoos\README.md
 \system\templates\vita3k\config.yml|\emulators\vita3k\config.yml
 \system\templates\vita3k\user.xml|\saves\psvita\vita3k\ux0\user\00\user.xml
 \system\templates\winuae\winuae.ini|\emulators\winuae\winuae.ini
