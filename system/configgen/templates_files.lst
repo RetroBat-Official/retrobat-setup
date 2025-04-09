@@ -13,7 +13,6 @@
 \system\templates\bizhawk\config.ini|\emulators\bizhawk\config.ini
 \system\templates\capriceforever\Caprice.ini|\emulators\capriceforever\Caprice.ini
 \system\templates\capriceforever\Device.ini|\emulators\capriceforever\Device.ini
-\system\templates\cemu\settings.xml|\emulators\cemu\settings.xml
 \system\templates\cemu\portable\GraphicPacks.zip|\emulators\cemu\portable\graphicPacks
 \system\templates\cemu\portable\settings.xml|\emulators\cemu\portable\settings.xml
 \system\templates\cgenius\cgenius.cfg|\emulators\cgenius\cgenius.cfg
