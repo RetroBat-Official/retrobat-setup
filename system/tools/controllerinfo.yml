@@ -30,18 +30,34 @@
 #
 #
 ######### RETROBAT DEFAULT ################
-03000000c82d00000631000000007200:
-  name: 8BitDo Pro 2 USB
+0300B9695E0400008E02000000007200:
+  name: Xbox360 original controller, 8bitDo SN30 pro wired
+  citron:
+    guid: 030000005e0400008e02000014017801
   sudachi:
-    guid: 03000000c82d00000631000000017801
-  suyu:
-    guid: 03000000c82d00000631000014017801
+    guid: 030000005e0400008e02000014017801
+0300CCE85E0400008E02000000007200:
+  name: 8BitDo Pro 2 connected through usb
+  citron:
+    guid: 030000005e0400008e02000020017801
+  sudachi:
+    guid: 030000005e0400008e02000020017801
 030000005e0400008e02000000007200:
   name: Microsoft Xbox 360 USB
+  citron:
+    guid: 030000005e0400008e02000014017801
   sudachi:
     guid: 030000005e0400008e02000014017801
   suyu:
     guid: 030000005e0400008e02000014017801
+03000000c82d00000631000000007200:
+  name: 8BitDo Ultimate 2.4Ghz
+  citron:
+    guid: 03000000c82d00000631000014017801
+  sudachi:
+    guid: 03000000c82d00000631000014017801
+  suyu:
+    guid: 03000000c82d00000631000014017801
 030000005e040000130b000009057200:
   name: Microsoft Xbox Series X Controller
   bigpemu:
@@ -66,9 +82,21 @@
   name: Microsoft Xbox One
   citra:
     guid: 0300938d5e040000ff02000000007200
+#
+#SONY PLAYSTATION#
+030000004c050000cc09000000006800:
+  name: DS4 Wireless
+  sudachi:
+    guid: 050000004c050000cc09000000006800
+030000004c050000e60c000000006800:
+  name: Dualsense Wireless
+  sudachi:
+    guid: 050000004c050000e60c000000006800
+#
+#NINTENDO SWITCH PRO#
 030000007e0500000920000000006803:
   name: Switch Pro Controller
-  citron:
+  sudachi:
     guid: 050000007e0500000920000000006803
 #
 ############## User Provided (from the community) #####################
@@ -77,6 +105,6 @@
   sudachi:
     guid: 030000005e040000a102000020007801
 #
-############## Teknoparrot devide name update (to use for lightguns to override keyboard and mouse names) #############
+############## Teknoparrot device name update (to use for lightguns to override keyboard and mouse names) #############
 #teknoparrotdevicenames:
 #  VID_0079&PID_1802: TEST
