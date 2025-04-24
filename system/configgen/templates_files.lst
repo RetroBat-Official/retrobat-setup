@@ -1,6 +1,9 @@
 \system\resources\emulationstation\notice.pdf|\emulationstation\.emulationstation\notice.pdf
 \system\resources\emulationstation\progress.png|\emulationstation\resources\progress.png
 \system\resources\emulationstation\splash.xml|\emulationstation\resources\splash.xml
+\system\resources\inputmapping\retroarch_controller_hotkeys.yml|\user\inputmapping\retroarch_controller_hotkeys.yml
+\system\resources\inputmapping\retroarch_kb_hotkeys.yml|\user\inputmapping\retroarch_kb_hotkeys.yml
+\system\resources\inputmapping\teknoparrot.yml|\user\inputmapping\teknoparrot.yml
 \system\resources\retrobat_logo.png|\emulationstation\resources\splash_retrobat.png
 \system\resources\retrobat_logo_old.svg|\emulationstation\resources\splash_retrobat.svg
 \system\templates\altirra\Altirra.ini|\emulators\altirra\Altirra.ini
