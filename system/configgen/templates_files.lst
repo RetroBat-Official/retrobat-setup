@@ -1,9 +1,6 @@
 \system\resources\emulationstation\notice.pdf|\emulationstation\.emulationstation\notice.pdf
 \system\resources\emulationstation\progress.png|\emulationstation\resources\progress.png
 \system\resources\emulationstation\splash.xml|\emulationstation\resources\splash.xml
-\system\resources\inputmapping\retroarch_controller_hotkeys.yml|\user\inputmapping\retroarch_controller_hotkeys.yml
-\system\resources\inputmapping\retroarch_kb_hotkeys.yml|\user\inputmapping\retroarch_kb_hotkeys.yml
-\system\resources\inputmapping\teknoparrot.yml|\user\inputmapping\teknoparrot.yml
 \system\resources\retrobat_logo.png|\emulationstation\resources\splash_retrobat.png
 \system\resources\retrobat_logo_old.svg|\emulationstation\resources\splash_retrobat.svg
 \system\templates\altirra\Altirra.ini|\emulators\altirra\Altirra.ini
@@ -162,6 +159,7 @@
 \system\templates\supermodel\Supermodel.ini|\emulators\supermodel\Config\Supermodel.ini
 \system\templates\suyu\qt-config.ini|\emulators\suyu\user\config\qt-config.ini
 \system\templates\tattoos\README.md|\tattoos\README.md
+\system\templates\inputmapping\README.txt|\user\inputmapping\README.txt
 \system\templates\vita3k\config.yml|\emulators\vita3k\config.yml
 \system\templates\vita3k\user.xml|\saves\psvita\vita3k\ux0\user\00\user.xml
 \system\templates\winuae\winuae.ini|\emulators\winuae\winuae.ini
