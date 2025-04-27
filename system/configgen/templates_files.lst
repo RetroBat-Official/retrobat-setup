@@ -159,6 +159,7 @@
 \system\templates\supermodel\Supermodel.ini|\emulators\supermodel\Config\Supermodel.ini
 \system\templates\suyu\qt-config.ini|\emulators\suyu\user\config\qt-config.ini
 \system\templates\tattoos\README.md|\tattoos\README.md
+\system\templates\inputmapping\README.txt|\user\inputmapping\README.txt
 \system\templates\vita3k\config.yml|\emulators\vita3k\config.yml
 \system\templates\vita3k\user.xml|\saves\psvita\vita3k\ux0\user\00\user.xml
 \system\templates\winuae\winuae.ini|\emulators\winuae\winuae.ini
@@ -173,4 +174,5 @@
 \system\templates\yuzu\qt-config.ini|\emulators\yuzu\user\config\qt-config.ini
 \system\templates\zinc\renderer.cfg|\emulators\zinc\renderer.cfg
 \system\templates\zinc\zinc.cfg|\emulators\zinc\zinc.cfg
+\system\tools\SDL2.dll|\emulationstation\SDL2.dll
 \system\tools\SDL3.dll|\emulationstation\SDL3.dll
