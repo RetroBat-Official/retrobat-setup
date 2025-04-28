@@ -9703,4 +9703,218 @@ revx:
   Gun X: mouseaxis 0
   Gun Y: mouseaxis 1
   Service: rightstick
-#midway d_yunit
+narc:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: a
+  Button 2: b
+  Button 3: y
+  Button 4: x
+  Service Mode: rightstick
+mkla:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: b
+  Button 2: y
+  Button 3: rightshoulder
+  Button 4: a
+  Button 5: x
+  Button 6: leftshoulder
+  Service: rightstick
+mkprot:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: b
+  Button 2: y
+  Button 3: rightshoulder
+  Button 4: a
+  Button 5: x
+  Button 6: leftshoulder
+  Service: rightstick
+mkyturbo:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: b
+  Button 2: y
+  Button 3: rightshoulder
+  Button 4: a
+  Button 5: x
+  Button 6: leftshoulder
+  Service: rightstick
+mkrep:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: b
+  Button 2: y
+  Button 3: rightshoulder
+  Button 4: a
+  Button 5: x
+  Button 6: leftshoulder
+  Service: rightstick
+mknifty:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: b
+  Button 2: y
+  Button 3: rightshoulder
+  Button 4: a
+  Button 5: x
+  Button 6: leftshoulder
+  Service: rightstick
+mkyawdim:
+  players: 2
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: b
+  Button 2: y
+  Button 3: rightshoulder
+  Button 4: a
+  Button 5: x
+  Button 6: leftshoulder
+  Service: rightstick
+trog:
+  players: 4
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: a
+  Service: rightstick
+mazebl:
+  players: 4
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: a
+  Service: rightstick
+smashtv:
+  players: 2
+  Coin: back
+  Start: start
+  Stick Up: dpup
+  Stick Down: dpdown
+  Stick Left: dpleft
+  Stick Right: dpright
+  Fire Up: righty_up
+  Fire Down: righty_down
+  Fire Left: rightx_left
+  Fire Right: rightx_right
+  Service: rightstick
+shimpact:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: a
+  Service: rightstick
+hiimpact:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: a
+  Service: rightstick
+strkforc:
+  players: 4
+  Coin: back
+  Start: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Button 1: x
+  Button 2: a
+  Button 3: b
+  Service: rightstick
+totcarn:
+  players: 2
+  Coin: back
+  Start: start
+  Left Stick Up: lefty_up
+  Left Stick Down: lefty_down
+  Left Stick Left: leftx_left
+  Left Stick Right: leftx_right
+  Right Stick Up: righty_up
+  Right Stick Down: righty_down
+  Right Stick Left: rightx_left
+  Right Stick Right: rightx_right
+  Button 1: a
+  Service: rightstick
+term2:
+  players: 2
+  Coin: back
+  Start: start
+  Gun X: mouseaxis 0
+  Gun Y: mouseaxis 1
+  Button 1: a
+  Button 2: x
+  Service: rightstick
+1942:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up (Cocktail): dpup
+  Down (Cocktail): dpdown
+  Left (Cocktail): dpleft
+  Right (Cocktail): dpright
+  Fire 1 (Cocktail): x
+  Fire 2 (Cocktail): a
+  Service: leftstick
+1943:
+  players: 2
+  Coin 1: back
+  Coin 2: back
+  Start 1: start
+  Start 2: start
+  Up: dpup
+  Down: dpdown
+  Left: dpleft
+  Right: dpright
+  Fire 1: x
+  Fire 2: a
+#pre90s d_4enraya
