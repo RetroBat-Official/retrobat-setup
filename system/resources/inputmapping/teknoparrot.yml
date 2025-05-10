@@ -239,9 +239,9 @@ shiningforcecrossraid:
 
 spiderman:
   Coin1: select # P2 COINS
-  P1Button6: leftshoulder # P1 COINS
-  P1ButtonStart: start # P1 START / ACTION
-  P2ButtonStart: start # P2 START / ACTION
+  P1Button6: select # P1 COINS
+  P1ButtonStart: south # P1 START / ACTION
+  P2ButtonStart: south # P2 START / ACTION
   Service1: r3 # Test Select
   Test: l3 # Test Menu
 
@@ -1637,7 +1637,7 @@ millionarthurarcanablood:
   P1ButtonUp: up # Player 1 Up
   Service1: r3 # Service/Coin
   Test: l3 # Test
-
+  
 nitroplusblasterz:
   Coin1: select # Coin 1
   Coin2: select # Coin 2
@@ -3147,9 +3147,9 @@ cars:
   P1Button1: south # Flip
   P1Button2: east # Jump
   P1Button3: west # Chatter
-  P1Button4: north # Service
+  P1Button4: r3 # Service
   P1ButtonDown: down # Volume Down
-  P1ButtonStart: start # Boost / Start
+  P1ButtonStart: north # Boost / Start
   P1ButtonUp: up # Volume Up
   Test: l3 # Test
 
@@ -3158,7 +3158,7 @@ chasehq2:
   Analog6: righttrigger # Gas
   Analog8: lefttrigger # Brake
   Coin1: select # Coin
-  ExtensionOne3: start # Pato-Nitro
+  ExtensionOne3: south # Pato-Nitro
   P1ButtonDown: down # Shift-Nitro
   P1ButtonUp: up # Shift Low
   Service1: r3 # Service
@@ -6237,6 +6237,28 @@ medarunogunman_gun:
   mouseleft_2: P2Button1 # P2 Left Trigger
   mousemiddle_1: P1Button3 # P1 Grenades
   mousemiddle_2: P2Button3 # P2 Grenades
+  mouseright_1: P1Button2 # P1 Right Trigger
+  mouseright_2: P2Button2 # P2 Right Trigger
+  P1ButtonStart: kb_1 # P1 Start
+  P2ButtonStart: kb_2 # P2 Start
+  Service1: kb_S # Service
+  Test: kb_T # Test
+
+missionimpossible:
+  Analog0: rightstickleft # Player 1 Gun X
+  Analog2: rightstickup # Player 1 Gun Y
+  Analog4: rightstickleft # Player 2 Gun X
+  Analog6: rightstickup # Player 2 Gun Y
+  Coin1: select # Coin
+  P1Button1: righttrigger # Player 1 Gun Trigger
+  P1ButtonStart: start # Player 1 Start
+  P2Button1: righttrigger # Player 2 Gun Trigger
+  P2ButtonStart: start # Player 2 Start
+
+missionimpossible_gun:
+  Coin1: kb_5 # Coin 1
+  mouseleft_1: P1Button1 # P1 Left Trigger
+  mouseleft_2: P2Button1 # P2 Left Trigger
   mouseright_1: P1Button2 # P1 Right Trigger
   mouseright_2: P2Button2 # P2 Right Trigger
   P1ButtonStart: kb_1 # P1 Start
