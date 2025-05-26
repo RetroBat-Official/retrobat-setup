@@ -145,6 +145,9 @@ emulators\dolphin-triforce\User\Config
 emulators\dolphin-triforce\User\GameSettings
 emulators\dosbox
 emulators\duckstation
+emulators\eden
+emulators\eden\user
+emulators\eden\user\config
 emulators\eka2l1
 emulators\eka2l1\compat
 emulators\fbneo
@@ -413,6 +416,7 @@ screenshots\citra
 screenshots\citron
 screenshots\corsixth
 screenshots\duckstation
+screenshots\eden
 screenshots\lime3ds
 screenshots\mandarine
 screenshots\mednafen
