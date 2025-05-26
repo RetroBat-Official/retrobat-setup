@@ -273,6 +273,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./eden.menu</path>
+		<name>Eden (Switch)</name>
+		<desc>Run Eden (Switch). This software is not provided by RetroBat.</desc>
+		<image>./media/eden-logo.png</image>
+		<marquee>./media/eden-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>The Eden Team</developer>
+		<publisher />
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./eka2l1.menu</path>
 		<name>EKA2L1 (Symbian OS/N-Gage emulator)</name>
 		<desc>Run EKA2L1 (Symbian OS/N-Gage emulator).</desc>
