@@ -10704,3 +10704,31 @@ msgstr "UNIQUEMENT LES JEUX AVEC SERVEUR RELAIS"
 msgctxt "game_options"
 msgid "Relay server games have a higher chance of successful entry."
 msgstr "Seuls les jeux utilisant un serveur relais sont affichés."
+
+msgctxt "game_options"
+msgid "GBA ROM"
+msgstr "ROM GBA"
+
+msgctxt "game_options"
+msgid "If required, define GBA rom to use."
+msgstr "Indiquer la rom GBA à utiliser."
+
+msgctxt "game_options"
+msgid "GBA ROM PORT"
+msgstr "PORT ROM GBA"
+
+msgctxt "game_options"
+msgid "Select in which port to introduce the GBA rom, default 2."
+msgstr "Définir le port pour insérer la rom GBA, port 2 par défaut."
+
+msgctxt "game_options"
+msgid "Define type of controller emulated."
+msgstr "Définir le type de contrôleur émulé."
+
+msgctxt "game_options"
+msgid "ENABLE MICROPHONE"
+msgstr "ACTIVER LE MICROPHONE"
+
+msgctxt "game_options"
+msgid "Set this option to put microphone in slot B."
+msgstr "Activer cette option pour insérer le microphone dans le slot B."
