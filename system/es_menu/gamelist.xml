@@ -1403,6 +1403,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./ymir.menu</path>
+		<name>Ymir (Saturn)</name>
+		<desc>Run Ymir (Saturn).</desc>
+		<image>./media/ymir-logo.png</image>
+		<marquee>./media/ymir-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>StrikerX3</developer>
+		<publisher />
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./zinc.menu</path>
 		<name>Zinc</name>
 		<desc>Run Zinc FE.</desc>

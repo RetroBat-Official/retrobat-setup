@@ -1,0 +1,168 @@
+ConfigVersion = 2
+
+[Audio]
+InterpolationMode = 'Linear'
+Mute = false
+ThreadedSCSP = false
+Volume = 0.80000001192092896
+
+[CDBlock]
+ReadSpeed = 2
+
+[Cartridge]
+AutoLoadGameCarts = true
+Type = 'None'
+
+    [Cartridge.BackupRAM]
+    Capacity = '32Mbit'
+    ImagePath = ''
+
+    [Cartridge.DRAM]
+    Capacity = '32Mbit'
+
+    [Cartridge.ROM]
+    ImagePath = ''
+
+[General]
+BoostEmuThreadPriority = true
+BoostProcessPriority = true
+EnableRewindBuffer = false
+PreloadDiscImagesToRAM = false
+RewindCompressionLevel = 12
+
+    [General.PathOverrides]
+    BackupMemory = ''
+    Dumps = ''
+    ExportedBackups = ''
+    IPLROMImages = '..\..\bios'
+    PersistentState = ''
+    ROMCartImages = ''
+    SaveStates = ''
+
+[Hotkeys]
+DecreaseVolume = [ 'Ctrl+MinusUnderscore' ]
+DumpMemory = [ 'Ctrl+F11' ]
+EjectDisc = [ 'Ctrl+W' ]
+ForwardFrameStep = [ 'RightBracket' ]
+HardReset = [ 'Ctrl+R' ]
+IncreaseVolume = [ 'Ctrl+EqualsPlus' ]
+LoadDisc = [ 'Ctrl+O' ]
+OpenCloseTray = [ 'Ctrl+T' ]
+OpenSettings = [ 'F10' ]
+PauseResume = [ 'Pause', 'Ctrl+P' ]
+ResetButton = [ 'Shift+R' ]
+ReverseFrameStep = [ 'LeftBracket' ]
+Rewind = [ 'Backspace' ]
+SoftReset = [ 'Ctrl+Shift+R' ]
+ToggleDebugTrace = [ 'F11' ]
+ToggleFullScreen = [ 'Alt+Return' ]
+ToggleMute = [ 'Ctrl+M' ]
+ToggleRewindBuffer = [ 'F8' ]
+ToggleWindowedVideoOutput = [ 'F9' ]
+TurboSpeed = [ 'Tab', 'GamepadBack@0' ]
+TurboSpeedHold = [ 'GraveAccent' ]
+
+    [Hotkeys.SaveStates]
+    LoadState1 = [ 'Ctrl+Alpha1' ]
+    LoadState10 = [ 'Ctrl+Alpha0' ]
+    LoadState2 = [ 'Ctrl+Alpha2' ]
+    LoadState3 = [ 'Ctrl+Alpha3' ]
+    LoadState4 = [ 'Ctrl+Alpha4' ]
+    LoadState5 = [ 'Ctrl+Alpha5' ]
+    LoadState6 = [ 'Ctrl+Alpha6' ]
+    LoadState7 = [ 'Ctrl+Alpha7' ]
+    LoadState8 = [ 'Ctrl+Alpha8' ]
+    LoadState9 = [ 'Ctrl+Alpha9' ]
+    QuickLoadState = [ 'F3' ]
+    QuickSaveState = [ 'F2' ]
+    SaveState1 = [ 'Shift+Alpha1' ]
+    SaveState10 = [ 'Shift+Alpha0' ]
+    SaveState2 = [ 'Shift+Alpha2' ]
+    SaveState3 = [ 'Shift+Alpha3' ]
+    SaveState4 = [ 'Shift+Alpha4' ]
+    SaveState5 = [ 'Shift+Alpha5' ]
+    SaveState6 = [ 'Shift+Alpha6' ]
+    SaveState7 = [ 'Shift+Alpha7' ]
+    SaveState8 = [ 'Shift+Alpha8' ]
+    SaveState9 = [ 'Shift+Alpha9' ]
+    SelectState1 = [ 'Alpha1' ]
+    SelectState10 = [ 'Alpha0' ]
+    SelectState2 = [ 'Alpha2' ]
+    SelectState3 = [ 'Alpha3' ]
+    SelectState4 = [ 'Alpha4' ]
+    SelectState5 = [ 'Alpha5' ]
+    SelectState6 = [ 'Alpha6' ]
+    SelectState7 = [ 'Alpha7' ]
+    SelectState8 = [ 'Alpha8' ]
+    SelectState9 = [ 'Alpha9' ]
+
+[Input]
+GamepadAnalogToDigitalSensitivity = 0.20000000298023224
+GamepadLSDeadzone = 0.15000000596046448
+GamepadRSDeadzone = 0.15000000596046448
+
+    [Input.Port1]
+    PeripheralType = 'ControlPad'
+
+        [Input.Port1.ControlPadBinds]
+        A = [ 'J', 'GamepadX@0' ]
+        B = [ 'K', 'GamepadA@0' ]
+        C = [ 'L', 'GamepadB@0' ]
+        DPad = [ 'GamepadDPad@0', 'GamepadLeftStick@0' ]
+        Down = [ 'S' ]
+        L = [ 'Q', 'GamepadLeftTriggerButton@0' ]
+        Left = [ 'A' ]
+        R = [ 'E', 'GamepadRightTriggerButton@0' ]
+        Right = [ 'D' ]
+        Start = [ 'G', 'F', 'H', 'Return', 'GamepadStart@0' ]
+        Up = [ 'W' ]
+        X = [ 'U', 'GamepadLeftBumper@0' ]
+        Y = [ 'I', 'GamepadY@0' ]
+        Z = [ 'O', 'GamepadRightBumper@0' ]
+
+    [Input.Port2]
+    PeripheralType = 'None'
+
+        [Input.Port2.ControlPadBinds]
+        A = [ 'KeyPad1', 'GamepadX@1' ]
+        B = [ 'KeyPad2', 'GamepadA@1' ]
+        C = [ 'KeyPad3', 'GamepadB@1' ]
+        DPad = [ 'GamepadDPad@1', 'GamepadLeftStick@1' ]
+        Down = [ 'Down', 'End' ]
+        L = [ 'KeyPad7', 'Insert', 'GamepadLeftTriggerButton@1' ]
+        Left = [ 'Left', 'Delete' ]
+        R = [ 'KeyPad9', 'PageUp', 'GamepadRightTriggerButton@1' ]
+        Right = [ 'Right', 'PageDown' ]
+        Start = [ 'KeyPadEnter', 'GamepadStart@1' ]
+        Up = [ 'Up', 'Home' ]
+        X = [ 'KeyPad4', 'GamepadLeftBumper@1' ]
+        Y = [ 'KeyPad5', 'GamepadY@1' ]
+        Z = [ 'KeyPad6', 'GamepadRightBumper@1' ]
+
+[System]
+AutoDetectRegion = true
+EmulateSH2Cache = false
+InternalBackupRAMImagePath = '..\..\saves\saturn\ymir\state\bup-int.bin'
+PreferredRegionOrder = [ 'NorthAmerica', 'Japan' ]
+VideoStandard = 'NTSC'
+
+    [System.IPL]
+    Override = false
+    Path = ''
+    Variant = 'Saturn'
+
+    [System.RTC]
+    Mode = 'Host'
+
+        [System.RTC.Virtual]
+        HardResetStrategy = 'Preserve'
+        HardResetTimestamp = 757378800
+
+[Video]
+AutoResizeWindow = false
+DisplayVideoOutputInWindow = false
+ForceAspectRatio = true
+ForceIntegerScaling = false
+ForcedAspect = 1.3333333333333333
+FullScreen = false
+ThreadedVDP = true
