@@ -172,6 +172,7 @@
 \system\templates\xm6pro\XM6.ini|\emulators\xm6pro\XM6.ini
 \system\templates\xroar\gamecontrollerdb.txt|\emulators\xroar\gamecontrollerdb.txt
 \system\templates\xroar\xroar.conf|\emulators\xroar\xroar.conf
+\system\templates\ymir\Ymir.toml|\emulators\ymir\Ymir.toml
 \system\templates\yuzu\qt-config.ini|\emulators\yuzu\user\config\qt-config.ini
 \system\templates\zinc\renderer.cfg|\emulators\zinc\renderer.cfg
 \system\templates\zinc\zinc.cfg|\emulators\zinc\zinc.cfg
