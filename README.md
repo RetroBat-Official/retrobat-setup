@@ -78,5 +78,5 @@ Finally, the license which concerns the entire RetroBat project as a work, in pa
 - Facebook Group: https://social.retrobat.org/facebook
 - Wiki: https://wiki.retrobat.org/
 - You need help ? You found a bug ? Please visit RetroBat Forum: https://social.retrobat.org/forum
-- Join us on our Discord server: https://social.retrobat.org/discord
+- Join us on our Discord server: https://discord.gg/GVcPNxwzuT
 - <a class="twitter-timeline" href="https://twitter.com/RetroBat_Off?ref_src=twsrc%5Etfw">Tweets by RetroBat_Off</a>
