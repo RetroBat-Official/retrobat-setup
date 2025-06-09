@@ -61,6 +61,7 @@
 \system\templates\infos\portable.txt|\emulators\duckstation\portable.txt
 \system\templates\infos\portable.txt|\emulators\gopher64\portable.txt
 \system\templates\infos\portable.txt|\emulators\mgba\portable.ini
+\system\templates\infos\portable.txt|\emulators\play\portable.txt
 \system\templates\infos\portable.txt|\emulators\xenia-canary\portable.txt
 \system\templates\infos\portable.txt|\emulators\xenia\portable.txt
 \system\templates\jgenesis\jgenesis-config.toml|\emulators\jgenesis\jgenesis-config.toml
