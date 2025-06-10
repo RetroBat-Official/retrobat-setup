@@ -4,7 +4,8 @@
     <Preference Name="audio.spublockcount" Type="integer" Value="100" />
     <Preference Name="input.pad1.profile" Type="string" Value="default" />
     <Preference Name="iop.fileio.stdlogging" Type="boolean" Value="false" />
-    <Preference Name="log.showprints" Type="boolean" Value="false" />
+    <Preference Name="ps2.arcade.ioserver.enabled" Type="boolean" Value="false" />
+    <Preference Name="ps2.arcade.ioserver.port" Type="integer" Value="9876" />
     <Preference Name="ps2.arcaderoms.directory" Type="path" Value="Play Data Files\arcaderoms" />
     <Preference Name="ps2.cdrom0.path.v2" Type="path" Value="" />
     <Preference Name="ps2.hdd.directory" Type="path" Value="Play Data Files\vfs/hdd" />
@@ -23,9 +24,10 @@
     <Preference Name="s3.objectstream.accesskeyid" Type="string" Value="" />
     <Preference Name="s3.objectstream.secretaccesskey" Type="string" Value="" />
     <Preference Name="system.language" Type="integer" Value="0" />
+    <Preference Name="ui.filterbootabletype" Type="integer" Value="7" />
     <Preference Name="ui.pausewhenfocuslost" Type="boolean" Value="true" />
     <Preference Name="ui.showeecpuusage" Type="boolean" Value="false" />
     <Preference Name="ui.showexitconfirmation" Type="boolean" Value="false" />
-    <Preference Name="ui.sortmethod" Type="integer" Value="2" />
+    <Preference Name="ui.sortmethod.v2" Type="integer" Value="1" />
     <Preference Name="video.gshandler" Type="integer" Value="0" />
 </Config>
