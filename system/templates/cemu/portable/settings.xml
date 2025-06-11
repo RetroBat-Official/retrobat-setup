@@ -17,6 +17,7 @@
     <fullscreen>false</fullscreen>
     <proxy_server></proxy_server>
     <disable_screensaver>true</disable_screensaver>
+    <play_boot_sound>false</play_boot_sound>
     <console_language>1</console_language>
     <window_position>
         <x>-1</x>
@@ -40,13 +41,13 @@
     <show_icon_column>true</show_icon_column>
     <GameList>
         <style>0</style>
-        <order>{0, 1, 2, 3, 4, 5, 6, 7}</order>
-        <name_width>-3</name_width>
-        <version_width>-3</version_width>
-        <dlc_width>-3</dlc_width>
-        <game_time_width>-3</game_time_width>
-        <game_started_width>-3</game_started_width>
-        <region_width>-3</region_width>
+        <order>[0, 1, 2, 3, 4, 5, 6, 7, 8]</order>
+        <name_width>500</name_width>
+        <version_width>60</version_width>
+        <dlc_width>50</dlc_width>
+        <game_time_width>140</game_time_width>
+        <game_started_width>160</game_started_width>
+        <region_width>80</region_width>
         <title_id>0</title_id>
     </GameList>
     <RecentLaunchFiles/>
@@ -55,16 +56,44 @@
         <Entry>.\..\..\roms\wiiu</Entry>
     </GamePaths>
     <GameCache/>
-    <GraphicPack/>
+    <GraphicPack>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Workarounds/Brightness/rules.txt">
+            <Preset>
+                <category>Standard presets</category>
+                <preset>WiiU default - Brightness fix only</preset>
+            </Preset>
+            <Preset>
+                <category>Contrast</category>
+                <preset>No extra contrast (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Exposure and brightness fix</category>
+                <preset>No extra exposure - Only brightness fix</preset>
+            </Preset>
+            <Preset>
+                <category>Saturation - Darkens image</category>
+                <preset>No extra saturation (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Exposure after colour grading</category>
+                <preset>Default post exposure</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/KirbyRainbow_InvisibleLineFix/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/NewSuperMarioBrosU/Workarounds/CrashFix/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/SkylandersSwapForce/Workarounds/PortalStabilityFix/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Mods/HideOfflineLabel/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Mods/HudChangeTimeFromEmanual/rules.txt"/>
+    </GraphicPack>
     <Graphic>
-        <api>0</api>
+        <api>1</api>
         <device>00000000000000000000000000000000</device>
         <VSync>0</VSync>
         <GX2DrawdoneSync>true</GX2DrawdoneSync>
         <UpscaleFilter>1</UpscaleFilter>
         <DownscaleFilter>0</DownscaleFilter>
         <FullscreenScaling>0</FullscreenScaling>
-        <AsyncCompile>false</AsyncCompile>
+        <AsyncCompile>true</AsyncCompile>
         <vkAccurateBarriers>true</vkAccurateBarriers>
         <Overlay>
             <Position>0</Position>
@@ -117,5 +146,6 @@
     <EmulatedUsbDevices>
         <EmulateSkylanderPortal>false</EmulateSkylanderPortal>
         <EmulateInfinityBase>false</EmulateInfinityBase>
+        <EmulateDimensionsToypad>false</EmulateDimensionsToypad>
     </EmulatedUsbDevices>
 </content>
