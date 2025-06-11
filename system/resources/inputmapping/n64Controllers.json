@@ -3,7 +3,7 @@
     {
         "Emulator": "libretro",
         "Name": "Nintendo Switch Online N64 Controller",
-        "Guid": "030000007e050000192000000000680c",
+        "Guid": "030000007e050000192000000000680c, 030000007e050000192000001202680c",
         "Driver": "",
         "Mapping": {
             "analog_dpad_mode": "0",
@@ -49,13 +49,13 @@
     {
         "Emulator": "ares",
         "Name": "Nintendo Switch Online N64 Controller",
-        "Guid": "030000007e050000192000000000680c",
+        "Guid": "030000007e050000192000000000680c, 030000007e050000192000001202680c",
         "Driver": "",
         "Mapping": {
-            "Pad.Up": "3/11",
-            "Pad.Down": "3/12",
-            "Pad.Left": "3/13",
-            "Pad.Right": "3/14",
+            "Pad.Up": "1/1/Lo",
+            "Pad.Down": "1/1/Hi",
+            "Pad.Left": "1/0/Lo",
+            "Pad.Right": "1/0/Hi",
             "Select": "",
             "Start": "3/6",
             "A..South": "3/0",
@@ -81,7 +81,7 @@
     {
         "Emulator": "bizhawk",
         "Name": "Nintendo Switch Online N64 Controller",
-        "Guid": "030000007e050000192000000000680c",
+        "Guid": "030000007e050000192000000000680c, 030000007e050000192000001202680c",
         "Driver": "",
         "Mapping": {
             "A Up": "X AxisUp",
@@ -112,7 +112,7 @@
     {
         "Emulator": "mupen64",
         "Name": "Nintendo Switch Online N64 Controller",
-        "Guid": "030000007e050000192000000000680c",
+        "Guid": "030000007e050000192000000000680c, 030000007e050000192000001202680c",
         "Driver": "",
         "Mapping": {
             "A_InputType": "0",
@@ -226,7 +226,7 @@
     {
         "Emulator": "simple64",
         "Name": "Nintendo Switch Online N64 Controller",
-        "Guid": "030000007e050000192000000000680c",
+        "Guid": "030000007e050000192000000000680c, 030000007e050000192000001202680c",
         "Driver": "",
         "Mapping": {
             "A": "\"0,4\"",
@@ -252,7 +252,7 @@
     {
         "Emulator": "soh",
         "Name": "Nintendo Switch Online N64 Controller",
-        "Guid": "030000007e050000192000000000680c",
+        "Guid": "030000007e050000192000000000680c, 030000007e050000192000001202680c",
         "Driver": "",
         "Mapping": {
             "-512": "65536",
