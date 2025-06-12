@@ -5630,7 +5630,7 @@
   },
   "Preferences": {
     "Theme": "Light",
-    "AutomaticallyCheckForUpdates": true,
+    "AutomaticallyCheckForUpdates": false,
     "SingleInstance": true,
     "AutoLoadPatches": true,
     "PauseWhenInBackground": false,
