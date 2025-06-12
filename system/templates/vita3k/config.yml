@@ -13,6 +13,7 @@ show-info-bar: false
 apps-list-grid: false
 display-system-apps: true
 stretch_the_display_area: false
+fullscreen_hd_res_pixel_perfect: false
 show-live-area-screen: true
 icon-size: 64
 archive-log: false
@@ -93,6 +94,7 @@ user-lang: ""
 display-info-message: true
 show-welcome: false
 check-for-updates: false
+file-loading-delay: 0
 asia-font-support: false
 shader-cache: true
 spirv-shader: false
