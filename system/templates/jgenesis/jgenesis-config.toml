@@ -1,69 +1,101 @@
+config_version = "0.10.0"
 rom_search_dirs = []
 recent_open_list = []
 egui_theme = "SystemDefault"
+gui_window_width = 900.0
+gui_window_height = 675.0
 
 [common]
+audio_output_frequency = 48000
+mute_audio = false
 audio_sync = true
-audio_device_queue_size = 512
-internal_audio_buffer_size = 64
-audio_sync_threshold = 8192
+audio_dynamic_resampling_ratio = true
+audio_hardware_queue_size = 512
+audio_buffer_size = 2048
 audio_gain_db = 0.0
 save_path = "Custom"
 custom_save_path = 'C:\RetroBat\saves\megadrive\jgenesis'
 state_path = "Custom"
 custom_state_path = 'C:\RetroBat\saves\megadrive\jgenesis\sstates'
 launch_in_fullscreen = false
+fullscreen_mode = "Exclusive"
+initial_window_size = 3
 wgpu_backend = "Auto"
 vsync_mode = "Enabled"
+frame_time_sync = true
 auto_prescale = false
 prescale_factor = 3
 scanlines = "None"
 force_integer_height_scaling = false
 filter_mode = "Linear"
 preprocess_shader = "None"
+load_recent_state_at_launch = false
 fast_forward_multiplier = 2
 rewind_buffer_length_seconds = 10
-hide_cursor_over_window = false
+hide_mouse_cursor = "Fullscreen"
 
 [smsgg]
 remove_sprite_limit = false
 sms_aspect_ratio = "Ntsc"
 gg_aspect_ratio = "GgLcd"
-sms_region = "International"
 sms_timing_mode = "Ntsc"
 sms_model = "Sms2"
-sms_crop_vertical_border = false
+sms_crop_vertical_border = true
 sms_crop_left_border = false
 gg_use_sms_resolution = false
 fm_sound_unit_enabled = true
-overclock_z80 = false
+z80_divider = 15
+boot_from_bios = false
 
 [genesis]
-aspect_ratio = "Ntsc"
+aspect_ratio = "Auto"
 adjust_aspect_ratio_in_2x_resolution = true
 remove_sprite_limits = false
-emulate_non_linear_vdp_dac = false
+m68k_clock_divider = 7
+non_linear_color_scale = false
+deinterlace = true
 render_vertical_border = false
 render_horizontal_border = false
+plane_a_enabled = true
+plane_b_enabled = true
+window_enabled = true
+backdrop_enabled = true
+sprites_enabled = true
 quantize_ym2612_output = true
+opn2_busy_behavior = "Ym3438"
 emulate_ym2612_ladder_effect = true
+genesis_lpf_enabled = true
+genesis_lpf_cutoff = 3390
+ym2612_2nd_lpf_enabled = false
+ym2612_2nd_lpf_cutoff = 6725
 ym2612_enabled = true
 psg_enabled = true
 
 [sega_cd]
+pcm_interpolation = "None"
 enable_ram_cartridge = true
 load_disc_into_ram = false
+disc_drive_speed = 1
+sub_cpu_divider = 4
+pcm_lpf_enabled = true
+pcm_lpf_cutoff = 7973
+apply_genesis_lpf_to_pcm = false
+apply_genesis_lpf_to_cd_da = false
 pcm_enabled = true
 cd_audio_enabled = true
 
 [sega_32x]
 video_out = "Combined"
+apply_genesis_lpf_to_pwm = true
 pwm_enabled = true
+
 [nes]
 aspect_ratio = "Ntsc"
+ntsc_crop_vertical_overscan = true
 remove_sprite_limit = false
 pal_black_border = false
 silence_ultrasonic_triangle_output = false
+audio_resampler = "WindowedSinc"
 audio_60hz_hack = true
 allow_opposing_joypad_inputs = false
 
@@ -75,6 +107,7 @@ right = 0
 
 [snes]
 aspect_ratio = "Ntsc"
+deinterlace = true
 audio_interpolation = "Gaussian"
 audio_60hz_hack = true
 gsu_overclock_factor = 1
@@ -84,127 +117,364 @@ force_dmg_mode = false
 pretend_to_be_gba = false
 aspect_ratio = "SquarePixels"
 gb_palette = "GreenTint"
+gb_custom_palette = [
+    [
+    255,
+    255,
+    255,
+],
+    [
+    170,
+    170,
+    170,
+],
+    [
+    85,
+    85,
+    85,
+],
+    [
+    0,
+    0,
+    0,
+],
+]
 gbc_color_correction = "GbcLcd"
+audio_resampler = "WindowedSinc"
 audio_60hz_hack = false
 
-[inputs]
-genesis_p1_type = "SixButton"
-genesis_p2_type = "SixButton"
-nes_p2_type = "Gamepad"
-snes_p2_type = "Gamepad"
+[input]
 axis_deadzone = 8000
 
-[inputs.smsgg_keyboard]
-pause = "Return"
+[[input.smsgg.mapping_1.p1.up]]
+type = "Keyboard"
+key = "Up"
 
-[inputs.smsgg_keyboard.p1]
-up = "Up"
-left = "Left"
-right = "Right"
-down = "Down"
-button1 = "S"
-button2 = "A"
+[[input.smsgg.mapping_1.p1.left]]
+type = "Keyboard"
+key = "Left"
 
-[inputs.smsgg_keyboard.p2]
+[[input.smsgg.mapping_1.p1.right]]
+type = "Keyboard"
+key = "Right"
 
-[inputs.smsgg_joystick.p1]
+[[input.smsgg.mapping_1.p1.down]]
+type = "Keyboard"
+key = "Down"
 
-[inputs.smsgg_joystick.p2]
+[[input.smsgg.mapping_1.p1.button1]]
+type = "Keyboard"
+key = "S"
 
-[inputs.genesis_keyboard.p1]
-up = "Up"
-left = "Left"
-right = "Right"
-down = "Down"
-a = "A"
-b = "S"
-c = "D"
-x = "Q"
-y = "W"
-z = "E"
-start = "Return"
-mode = "Right Shift"
+[[input.smsgg.mapping_1.p1.button2]]
+type = "Keyboard"
+key = "A"
 
-[inputs.genesis_keyboard.p2]
+[input.smsgg.mapping_1.p2]
 
-[inputs.genesis_joystick.p1]
+[[input.smsgg.mapping_1.pause]]
+type = "Keyboard"
+key = "Return"
 
-[inputs.genesis_joystick.p2]
-[inputs.nes_keyboard.p1]
-up = "Up"
-left = "Left"
-right = "Right"
-down = "Down"
-a = "A"
-b = "S"
-start = "Return"
-select = "Right Shift"
+[input.smsgg.mapping_2.p1]
 
-[inputs.nes_keyboard.p2]
+[input.smsgg.mapping_2.p2]
 
-[inputs.nes_joystick.p1]
+[input.genesis]
+p1_type = "SixButton"
+p2_type = "SixButton"
 
-[inputs.nes_joystick.p2]
+[[input.genesis.mapping_1.p1.up]]
+type = "Keyboard"
+key = "Up"
 
-[inputs.nes_zapper]
-fire = "MouseLeft"
-force_offscreen = "MouseRight"
+[[input.genesis.mapping_1.p1.left]]
+type = "Keyboard"
+key = "Left"
 
-[inputs.snes_keyboard.p1]
-up = "Up"
-left = "Left"
-right = "Right"
-down = "Down"
-a = "S"
-b = "X"
-x = "A"
-y = "Z"
-l = "D"
-r = "C"
-start = "Return"
-select = "Right Shift"
+[[input.genesis.mapping_1.p1.right]]
+type = "Keyboard"
+key = "Right"
 
-[inputs.snes_keyboard.p2]
+[[input.genesis.mapping_1.p1.down]]
+type = "Keyboard"
+key = "Down"
 
-[inputs.snes_keyboard.super_scope]
-fire = "MouseLeft"
-cursor = "MouseRight"
-pause = "MouseMiddle"
+[[input.genesis.mapping_1.p1.a]]
+type = "Keyboard"
+key = "A"
 
-[inputs.snes_keyboard.super_scope.turbo_toggle]
-Keyboard = "T"
+[[input.genesis.mapping_1.p1.b]]
+type = "Keyboard"
+key = "S"
 
-[inputs.snes_joystick.p1]
+[[input.genesis.mapping_1.p1.c]]
+type = "Keyboard"
+key = "D"
 
-[inputs.snes_joystick.p2]
+[[input.genesis.mapping_1.p1.x]]
+type = "Keyboard"
+key = "Q"
 
-[inputs.snes_joystick.super_scope]
-fire = "MouseLeft"
-cursor = "MouseRight"
-pause = "MouseMiddle"
+[[input.genesis.mapping_1.p1.y]]
+type = "Keyboard"
+key = "W"
 
-[inputs.snes_joystick.super_scope.turbo_toggle]
-Keyboard = "T"
+[[input.genesis.mapping_1.p1.z]]
+type = "Keyboard"
+key = "E"
 
-[inputs.snes_super_scope]
-fire = "MouseLeft"
-cursor = "MouseRight"
-pause = "MouseMiddle"
+[[input.genesis.mapping_1.p1.start]]
+type = "Keyboard"
+key = "Return"
 
-[inputs.snes_super_scope.turbo_toggle]
-Keyboard = "T"
+[[input.genesis.mapping_1.p1.mode]]
+type = "Keyboard"
+key = "Shift"
 
-[inputs.gb_keyboard]
-up = "Up"
-left = "Left"
-right = "Right"
-down = "Down"
-a = "A"
-b = "S"
-start = "Return"
-select = "Right Shift"
+[input.genesis.mapping_1.p2]
 
-[inputs.gb_joystick]
+[input.genesis.mapping_2.p1]
+
+[input.genesis.mapping_2.p2]
+
+[input.nes]
+p2_type = "Gamepad"
+
+[[input.nes.mapping_1.p1.up]]
+type = "Keyboard"
+key = "Up"
+
+[[input.nes.mapping_1.p1.left]]
+type = "Keyboard"
+key = "Left"
+
+[[input.nes.mapping_1.p1.right]]
+type = "Keyboard"
+key = "Right"
+
+[[input.nes.mapping_1.p1.down]]
+type = "Keyboard"
+key = "Down"
+
+[[input.nes.mapping_1.p1.a]]
+type = "Keyboard"
+key = "A"
+
+[[input.nes.mapping_1.p1.b]]
+type = "Keyboard"
+key = "S"
+
+[[input.nes.mapping_1.p1.start]]
+type = "Keyboard"
+key = "Return"
+
+[[input.nes.mapping_1.p1.select]]
+type = "Keyboard"
+key = "Shift"
+
+[input.nes.mapping_1.p2]
+
+[[input.nes.mapping_1.zapper.fire]]
+type = "Mouse"
+button = "Left"
+
+[[input.nes.mapping_1.zapper.force_offscreen]]
+type = "Mouse"
+button = "Right"
+
+[input.nes.mapping_2.p1]
+
+[input.nes.mapping_2.p2]
+
+[input.nes.mapping_2.zapper]
+
+[input.snes]
+p2_type = "Gamepad"
+
+[[input.snes.mapping_1.p1.up]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Hat 0 Up"
+
+[[input.snes.mapping_1.p1.left]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Hat 0 Left"
+
+[[input.snes.mapping_1.p1.right]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Hat 0 Right"
+
+[[input.snes.mapping_1.p1.down]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Hat 0 Down"
+
+[[input.snes.mapping_1.p1.a]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 1"
+
+[[input.snes.mapping_1.p1.b]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 0"
+
+[[input.snes.mapping_1.p1.x]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 3"
+
+[[input.snes.mapping_1.p1.y]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 2"
+
+[[input.snes.mapping_1.p1.l]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 4"
+
+[[input.snes.mapping_1.p1.r]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 5"
+
+[[input.snes.mapping_1.p1.start]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 7"
+
+[[input.snes.mapping_1.p1.select]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 6"
+
+[input.snes.mapping_1.p2]
+
+[[input.snes.mapping_1.super_scope.fire]]
+type = "Mouse"
+button = "Left"
+
+[[input.snes.mapping_1.super_scope.cursor]]
+type = "Mouse"
+button = "Right"
+
+[[input.snes.mapping_1.super_scope.pause]]
+type = "Mouse"
+button = "Middle"
+
+[[input.snes.mapping_1.super_scope.turbo_toggle]]
+type = "Keyboard"
+key = "T"
+
+[input.snes.mapping_2.p1]
+
+[input.snes.mapping_2.p2]
+
+[input.snes.mapping_2.super_scope]
+
+[[input.game_boy.mapping_1.up]]
+type = "Keyboard"
+key = "Up"
+
+[[input.game_boy.mapping_1.left]]
+type = "Keyboard"
+key = "Left"
+
+[[input.game_boy.mapping_1.right]]
+type = "Keyboard"
+key = "Right"
+
+[[input.game_boy.mapping_1.down]]
+type = "Keyboard"
+key = "Down"
+
+[[input.game_boy.mapping_1.a]]
+type = "Keyboard"
+key = "A"
+
+[[input.game_boy.mapping_1.b]]
+type = "Keyboard"
+key = "S"
+
+[[input.game_boy.mapping_1.start]]
+type = "Keyboard"
+key = "Return"
+
+[[input.game_boy.mapping_1.select]]
+type = "Keyboard"
+key = "Shift"
+
+[input.game_boy.mapping_2]
+
+[[input.hotkeys.mapping_1.power_off]]
+type = "Keyboard"
+key = "Escape"
+
+[[input.hotkeys.mapping_1.exit]]
+type = "Keyboard"
+key = "Ctrl"
+
+[[input.hotkeys.mapping_1.exit]]
+type = "Keyboard"
+key = "Q"
+
+[[input.hotkeys.mapping_1.toggle_fullscreen]]
+type = "Keyboard"
+key = "F9"
+
+[[input.hotkeys.mapping_1.save_state]]
+type = "Keyboard"
+key = "F5"
+
+[[input.hotkeys.mapping_1.load_state]]
+type = "Keyboard"
+key = "F6"
+
+[[input.hotkeys.mapping_1.next_save_state_slot]]
+type = "Keyboard"
+key = "]"
+
+[[input.hotkeys.mapping_1.prev_save_state_slot]]
+type = "Keyboard"
+key = "["
+
+[[input.hotkeys.mapping_1.soft_reset]]
+type = "Keyboard"
+key = "F1"
+
+[[input.hotkeys.mapping_1.hard_reset]]
+type = "Keyboard"
+key = "F2"
+
+[[input.hotkeys.mapping_1.pause]]
+type = "Keyboard"
+key = "P"
+
+[[input.hotkeys.mapping_1.step_frame]]
+type = "Keyboard"
+key = "N"
+
+[[input.hotkeys.mapping_1.fast_forward]]
+type = "Keyboard"
+key = "Tab"
+
+[[input.hotkeys.mapping_1.rewind]]
+type = "Keyboard"
+key = "`"
+
+[[input.hotkeys.mapping_1.toggle_overclocking]]
+type = "Keyboard"
+key = ";"
+
+[[input.hotkeys.mapping_1.open_debugger]]
+type = "Keyboard"
+key = "'"
+
+[input.hotkeys.mapping_2]
 
 [list_filters]
 master_system = true
@@ -215,3 +485,4 @@ sega_32x = true
 nes = true
 snes = true
 game_boy = true
+game_boy_color = true
