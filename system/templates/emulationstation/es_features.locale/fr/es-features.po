@@ -10143,7 +10143,7 @@ msgstr "Sélectionner comment le raccourci 'avance rapide' fonctionne."
 
 msgctxt "game_options"
 msgid "FAST FORWARD RATIO"
-msgstr "VITESSE D'AVENCE RAPIDE"
+msgstr "VITESSE D'AVANCE RAPIDE"
 
 msgctxt "game_options"
 msgid "FAST FORWARD BEHAVIOR"
