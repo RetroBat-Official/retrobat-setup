@@ -120,6 +120,8 @@ emulators\bizhawk
 emulators\cemu
 emulators\cemu\portable
 emulators\cgenius
+emulators\chihiro
+emulators\chihiro\EmuDisk
 emulators\citra
 emulators\citra\user
 emulators\citra\user\config

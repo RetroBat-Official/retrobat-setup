@@ -27,6 +27,7 @@ Type = 'None'
 BoostEmuThreadPriority = true
 BoostProcessPriority = true
 EnableRewindBuffer = false
+PauseWhenUnfocused = false
 PreloadDiscImagesToRAM = false
 RewindCompressionLevel = 12
 
@@ -104,6 +105,26 @@ GamepadRSDeadzone = 0.15000000596046448
     [Input.Port1]
     PeripheralType = 'ControlPad'
 
+        [Input.Port1.AnalogPadBinds]
+        A = [ 'GamepadA@0' ]
+        AnalogL = [ 'GamepadLeftTrigger@0' ]
+        AnalogR = [ 'GamepadRightTrigger@0' ]
+        AnalogStick = [ 'GamepadLeftStick@0' ]
+        B = [ 'GamepadB@0' ]
+        C = [ 'GamepadRightBumper@0' ]
+        DPad = [ 'GamepadDPad@0' ]
+        Down = [ 'GamepadDpadDown@0' ]
+        L = [ 'GamepadLeftTriggerButton@0' ]
+        Left = [ 'GamepadDpadLeft@0' ]
+        R = [ 'GamepadRightTriggerButton@0' ]
+        Right = [ 'GamepadDpadRight@0' ]
+        Start = [ 'GamepadStart@0' ]
+        SwitchMode = [ 'GamepadLeftThumb@0' ]
+        Up = [ 'GamepadDpadUp@0' ]
+        X = [ 'GamepadX@0' ]
+        Y = [ 'GamepadY@0' ]
+        Z = [ 'GamepadLeftBumper@0' ]
+
         [Input.Port1.ControlPadBinds]
         A = [ 'J', 'GamepadX@0' ]
         B = [ 'K', 'GamepadA@0' ]
@@ -122,6 +143,26 @@ GamepadRSDeadzone = 0.15000000596046448
 
     [Input.Port2]
     PeripheralType = 'None'
+
+        [Input.Port2.AnalogPadBinds]
+        A = [ 'KeyPad1', 'GamepadX@1' ]
+        AnalogL = [ 'GamepadLeftTrigger@1' ]
+        AnalogR = [ 'GamepadRightTrigger@1' ]
+        AnalogStick = [ 'GamepadLeftStick@1' ]
+        B = [ 'KeyPad2', 'GamepadA@1' ]
+        C = [ 'KeyPad3', 'GamepadB@1' ]
+        DPad = [ 'GamepadDPad@1', 'GamepadLeftStick@1' ]
+        Down = [ 'Down', 'End' ]
+        L = [ 'KeyPad7', 'Insert' ]
+        Left = [ 'Left', 'Delete' ]
+        R = [ 'KeyPad9', 'PageUp' ]
+        Right = [ 'Right', 'PageDown' ]
+        Start = [ 'KeyPadEnter', 'GamepadStart@1' ]
+        SwitchMode = [ 'GamepadLeftThumb@1' ]
+        Up = [ 'Up', 'Home' ]
+        X = [ 'KeyPad4', 'GamepadLeftBumper@1' ]
+        Y = [ 'KeyPad5', 'GamepadY@1' ]
+        Z = [ 'KeyPad6', 'GamepadRightBumper@1' ]
 
         [Input.Port2.ControlPadBinds]
         A = [ 'KeyPad1', 'GamepadX@1' ]
