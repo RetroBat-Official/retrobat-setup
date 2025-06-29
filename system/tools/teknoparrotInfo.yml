@@ -1,4 +1,16 @@
-StreetFighterVTypeArcade:
-  executable: StreetFighterV.exe
+AlpineRacer:
+  executable: sdaemon.exe
+BlazBlueCalaminityTrigger:
+  executable: game.exe
+Deathsmiles2:
+  executable: game.exe
 Initial D Arcade Stage Zero Ver.2:
   profile: IDZv2TP
+Snowboarder:
+  executable: sdaemon.exe
+SonicDashExtreme:
+  executable: exe/SonicDash_R_Ring.exe
+StreetFighterVTypeArcade:
+  executable: StreetFighterV.exe
+VF5FS:
+  executable: vf5
