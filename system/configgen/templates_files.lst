@@ -88,8 +88,10 @@
 \system\templates\mupen64\Config\mupen64plus.cfg|\emulators\mupen64\Config\mupen64plus.cfg
 \system\templates\nosgba\NO$GBA.INI|\emulators\nosgba\NO$GBA.INI
 \system\templates\opengoal\config\OpenGOAL\jak1\misc\debug-settings.json|\emulators\opengoal\config\OpenGOAL\jak1\misc\debug-settings.json
+\system\templates\opengoal\config\OpenGOAL\jak1\settings\display-settings.json|\emulators\opengoal\config\OpenGOAL\jak1\settings\display-settings.json
 \system\templates\opengoal\config\OpenGOAL\jak1\settings\pc-settings.gc|\emulators\opengoal\config\OpenGOAL\jak1\settings\pc-settings.gc
 \system\templates\opengoal\config\OpenGOAL\jak2\misc\debug-settings.json|\emulators\opengoal\config\OpenGOAL\jak2\misc\debug-settings.json
+\system\templates\opengoal\config\OpenGOAL\jak2\settings\display-settings.json|\emulators\opengoal\config\OpenGOAL\jak2\settings\display-settings.json
 \system\templates\opengoal\config\OpenGOAL\jak2\settings\pc-settings.gc|\emulators\opengoal\config\OpenGOAL\jak2\settings\pc-settings.gc
 \system\templates\openjazz\openjazz.cfg|\emulators\openjazz\openjazz.cfg
 \system\templates\oricutron\oricutron.cfg|\emulators\oricutron\oricutron.cfg
