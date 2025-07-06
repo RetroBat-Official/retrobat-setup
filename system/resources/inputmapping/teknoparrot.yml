@@ -2793,6 +2793,462 @@ spicaadventurenxl:
   Service1: r3 # Service 1
   Test: l3 # Test
 
+############### PLAY! ###############
+
+acedriv3:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: south  # Enter
+  P1Button2: east  # View Change
+  P1Button3: west  # Gear Shift Up
+  P1Button4: north  # Gear Shift Down
+  P1ButtonUp: up  # Select Up
+  P1ButtonDown: down  # Select Down
+  Analog0: leftstickleft  # Wheel Axis Right
+  Analog2: righttrigger  # Gas
+  Analog4: lefttrigger  # Brake
+
+bldyr3b:
+  Test: l3  # Test
+  Service1: r3  # Service 1
+  Coin1: select  # Coin 1
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: west  # Player 1 Button 1
+  P1Button2: north  # Player 1 Button 2
+  P1Button3: south  # Player 1 Button 3
+  P1Button4: east  # Player 1 Button 4
+  P1Button5: rightshoulder  # Player 1 Button 5
+  P1Button6: leftshoulder  # Player 1 Button 6
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  Coin2: select  # Coin 2
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: west  # Player 2 Button 1
+  P2Button2: north  # Player 2 Button 2
+  P2Button3: south  # Player 2 Button 3
+  P2Button4: east  # Player 2 Button 4
+  P2Button5: rightshoulder  # Player 2 Button 5
+  P2Button6: leftshoulder  # Player 2 Button 6
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+
+  # Unmapped inputs:
+  Service2:   # Service 2
+
+fateulc:
+  Test: l3  # Test
+  Service1: r3  # Service 1
+  Coin1: select  # Coin 1
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: west  # Player 1 Light
+  P1Button2: north  # Player 1 Medium
+  P1Button3: south  # Player 1 Heavy
+  P1Button4: east  # Player 1 Parry/Evasion
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  Coin2: select  # Coin 2
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: west  # Player 2 Light
+  P2Button2: north  # Player 2 Medium
+  P2Button3: south  # Player 2 Heavy
+  P2Button4: east  # Player 2 Parry/Evasion
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+
+  # Unmapped inputs:
+  Service2:   # Service 2
+
+fghtjam:
+  Test: l3  # Test
+  Service1: r3  # Service 1
+  Coin1: select  # Coin 1
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: west  # Player 1 Button 1
+  P1Button2: north  # Player 1 Button 2
+  P1Button3: south  # Player 1 Button 3
+  P1Button4: east  # Player 1 Button 4
+  P1Button5: rightshoulder  # Player 1 Button 5
+  P1Button6: leftshoulder  # Player 1 Button 6
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  Coin2: select  # Coin 2
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: west  # Player 2 Button 1
+  P2Button2: north  # Player 2 Button 2
+  P2Button3: south  # Player 2 Button 3
+  P2Button4: east  # Player 2 Button 4
+  P2Button5: rightshoulder  # Player 2 Button 5
+  P2Button6: leftshoulder  # Player 2 Button 6
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+
+  # Unmapped inputs:
+  Service2:   # Service 2
+
+motogp2000:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1Button1: south  # Enter
+  P1Button2: east  # View Change
+  P1Button3: west  # Gear Shift Up
+  P1Button4: north  # Gear Shift Down
+  P1ButtonUp: up  # Select Up
+  P1ButtonDown: down  # Select Down
+  Analog0: leftstickleft  # Wheel Axis Right
+  Analog2: righttrigger  # Gas
+  Analog4: lefttrigger  # Brake
+
+motogp:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin1
+  P1Button1: start  # Start Button
+  P1Button2: east  # Volume Up
+  P1Button3: west  # Volume Down
+  P1ButtonUp: up  # Coin2
+  Analog0: leftstickleft  # Leaning Axis Right
+  Analog2: righttrigger  # Throttle
+  Analog4: lefttrigger  # Brake
+
+pacmanbr:
+  Test: l3  # Test
+  Coin1: select  # Coin 1
+  P1ButtonStart: start  # Player 1 Start
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  P2ButtonStart: start  # Player 2 Start
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+  JvsTwoP1ButtonStart: start  # Player 3 Start
+  JvsTwoP1ButtonUp: up  # Player 3 Up
+  JvsTwoP1ButtonDown: down  # Player 3 Down
+  JvsTwoP1ButtonLeft: left  # Player 3 Left
+  JvsTwoP1ButtonRight: right  # Player 3 Right
+  JvsTwoP2ButtonStart: start  # Player 4 Start
+  JvsTwoP2ButtonUp: up  # Player 4 Up
+  JvsTwoP2ButtonDown: down  # Player 4 Down
+  JvsTwoP2ButtonLeft: left  # Player 4 Left
+  JvsTwoP2ButtonRight: right  # Player 4 Right
+
+prdgp03:
+  Test: l3  # Test
+  Service1: r3  # Service 1
+  Coin1: select  # Coin 1
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: west  # Player 1 Left Punch
+  P1Button2: north  # Player 1 Right Punch
+  P1Button4: south  # Player 1 Left Kick
+  P1Button5: east  # Player 1 Right Kick
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  Coin2: select  # Coin 2
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: west  # Player 2 Left Punch
+  P2Button2: north  # Player 2 Right Punch
+  P2Button4: south  # Player 2 Left Kick
+  P2Button5: east  # Player 2 Right Kick
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+
+  # Unmapped inputs:
+  Service2:   # Service 2
+
+sbxc:
+  Test: l3  # Test
+  Service1: r3  # Service 1
+  Coin1: select  # Coin 1
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: west  # Player 1 Attack
+  P1Button2: north  # Player 1 Special
+  P1Button3: south  # Player 1 Launcher
+  P1Button4: east  # Player 1 Basara Arts
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  Coin2: select  # Coin 2
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: west  # Player 2 Attack
+  P2Button2: north  # Player 2 Special
+  P2Button3: south  # Player 2 Launcher
+  P2Button4: east  # Player 2 Basara Arts
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+
+  # Unmapped inputs:
+  Service2:   # Service 2
+
+soulclb3:
+  Test: l3  # Test
+  Service1: r3  # Service 1
+  Coin1: select  # Coin 1
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: west  # Player 1 Button 1
+  P1Button2: north  # Player 1 Button 2
+  P1Button3: south  # Player 1 Button 3
+  P1Button4: east  # Player 1 Button 4
+  P1Button5: rightshoulder  # Player 1 Button 5
+  P1Button6: leftshoulder  # Player 1 Button 6
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  Coin2: select  # Coin 2
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: west  # Player 2 Button 1
+  P2Button2: north  # Player 2 Button 2
+  P2Button3: south  # Player 2 Button 3
+  P2Button4: east  # Player 2 Button 4
+  P2Button5: rightshoulder  # Player 2 Button 5
+  P2Button6: leftshoulder  # Player 2 Button 6
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+
+  # Unmapped inputs:
+  Service2:   # Service 2
+
+superdbz:
+  Test: l3  # Test
+  Service1: r3  # Service 1
+  Coin1: select  # Coin 1
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: west  # Player 1 Light Attack
+  P1Button2: north  # Player 1 Heavy Attack
+  P1Button4: east  # Player 1 Guard
+  P1Button5: south  # Player 1 Jump
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  Coin2: select  # Coin 2
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: west  # Player 2 Light Attack
+  P2Button2: north  # Player 2 Heavy Attack
+  P2Button4: east  # Player 2 Guard
+  P2Button5: south  # Player 2 Jump
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+
+  # Unmapped inputs:
+  Service2:   # Service 2
+
+tekken4:
+  Test: l3  # Test
+  Service1: r3  # Service 1
+  Coin1: select  # Coin 1
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: west  # Player 1 Left Punch
+  P1Button2: north  # Player 1 Right Punch
+  P1Button4: south  # Player 1 Left Kick
+  P1Button5: east  # Player 1 Right Kick
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  Coin2: select  # Coin 2
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: west  # Player 2 Left Punch
+  P2Button2: north  # Player 2 Right Punch
+  P2Button4: south  # Player 2 Left Kick
+  P2Button5: east  # Player 2 Right Kick
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+
+  # Unmapped inputs:
+  Service2:   # Service 2
+
+tekken51:
+  Test: l3  # Test
+  Service1: r3  # Service 1
+  Coin1: select  # Coin 1
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: west  # Player 1 Left Punch
+  P1Button2: north  # Player 1 Right Punch
+  P1Button4: south  # Player 1 Left Kick
+  P1Button5: east  # Player 1 Right Kick
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  Coin2: select  # Coin 2
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: west  # Player 2 Left Punch
+  P2Button2: north  # Player 2 Right Punch
+  P2Button4: south  # Player 2 Left Kick
+  P2Button5: east  # Player 2 Right Kick
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+
+  # Unmapped inputs:
+  Service2:   # Service 2
+
+tekken5d:
+  Test: l3  # Test
+  Service1: r3  # Service 1
+  Coin1: select  # Coin 1
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: west  # Player 1 Left Punch
+  P1Button2: north  # Player 1 Right Punch
+  P1Button4: south  # Player 1 Left Kick
+  P1Button5: east  # Player 1 Right Kick
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  Coin2: select  # Coin 2
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: west  # Player 2 Left Punch
+  P2Button2: north  # Player 2 Right Punch
+  P2Button4: south  # Player 2 Left Kick
+  P2Button5: east  # Player 2 Right Kick
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+
+  # Unmapped inputs:
+  Service2:   # Service 2
+
+timecrs3:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1Button1: south  # Enter
+  P1Button2: righttrigger  # Gun Trigger
+  P1Button3: west  # Foot Pedal
+  P1ButtonUp: up  # Select Up
+  P1ButtonDown: down  # Select Down
+  Analog0: rightstickleft  # Player 1 Gun X
+  Analog2: rightstickup  # Player 1 Gun Y
+  
+timecrs3_gun:
+  # rawinput:
+  Test: kb_T                 # Test
+  Service1: kb_S            # Service
+  # Player 1
+  Coin1: kb_5               # Coin 1
+  P1ButtonStart: kb_1       # P1 Start
+  mouseleft_1: P1Button3    # P1 Left Trigger
+  mouseright_1: P1Button2   # P1 Right Trigger
+  mousemiddle_1: P1Button1  # P1 Grenades
+
+timecrs4:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1Button1: south  # Enter
+  P1Button3: west  # Foot Pedal
+  P1ButtonUp: up  # Select Up
+  P1ButtonDown: down  # Select Down
+  P1ButtonLeft: righttrigger  # Gun Trigger
+  Analog0: rightstickleft  # Player 1 Gun X
+  Analog2: rightstickup  # Player 1 Gun Y
+  
+timecrs4_gun:
+  # rawinput:
+  Test: kb_T                 # Test
+  Service1: kb_S            # Service
+  # Player 1
+  Coin1: kb_5               # Coin 1
+  P1ButtonStart: kb_1       # P1 Start
+  mouseleft_1: P1Button3    # P1 Left Trigger
+  mouseright_1: P1Button2   # P1 Right Trigger
+  mousemiddle_1: P1Button1  # P1 Grenades
+
+vnight:
+  Test: l3  # Test
+  Service1: r3  # Service 1
+  Coin1: select  # Coin 1
+  P1Button1: south  # Enter
+  P1Button2: righttrigger  # Player 1 Gun Trigger
+  P1Button3: start  # Player 1 Start
+  P1Button5: righttrigger  # Player 2 Gun Trigger
+  P1Button6: start  # Player 2 Start
+  P1ButtonUp: up  # Select Up
+  P1ButtonDown: down  # Select Down
+  Analog0: rightstickleft  # Player 1 Gun X
+  Analog2: rightstickup  # Player 1 Gun Y
+  Coin2: select  # Coin 2
+  Analog4: rightstickleft  # Player 2 Gun X
+  Analog6: rightstickup  # Player 2 Gun Y
+  
+ vnight_gun:
+  # rawinput:
+  Test: kb_T                 # Test
+  Service1: kb_S            # Service
+  # Player 1
+  Coin1: kb_5               # Coin 1
+  P1Button3: kb_1       # P1 Start
+  mouseleft_1: P1Button1    # P1 Left Trigger
+  mouseright_1: P1Button2   # P1 Right Trigger
+  mousemiddle_1: P1Button3  # P1 Grenades
+  # Player 2
+  Coin2: kb_6               # Coin 2
+  P1Button6: kb_2       # P2 Start
+  mouseright_2: P1Button5   # P2 Right Trigger
+  mousemiddle_2: P2Button3  # P2 Grenades
+
+wanganmd:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1Button1: south  # Enter
+  P1Button2: east  # View Change
+  P1Button3: west  # Gear Shift Up
+  P1Button4: north  # Gear Shift Down
+  P1ButtonUp: up  # Select Up
+  P1ButtonDown: down  # Select Down
+  Analog0: leftstickleft  # Wheel Axis Right
+  Analog2: righttrigger  # Gas
+  Analog4: lefttrigger  # Brake
+
+wanganmr:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1Button1: south  # Enter
+  P1Button2: east  # View Change
+  P1Button3: west  # Gear Shift Up
+  P1Button4: north  # Gear Shift Down
+  P1ButtonUp: up  # Select Up
+  P1ButtonDown: down  # Select Down
+  Analog0: leftstickleft  # Wheel Axis Right
+  Analog2: righttrigger  # Gas
+  Analog4: lefttrigger  # Brake
+
 ############### PUZZLE ###############
 
 3dcosplaymahjong:
@@ -7493,3 +7949,129 @@ skylanders:
   P1ButtonStart: start # P1 Touch/Click
   Test: l3 # Test
 
+############### TRIFORCE ###############
+
+fzeroax:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1ButtonStart: start  # Start
+  P1Button1: south  # Boost
+  P1Button4: north  # View Change 1
+  P1Button5: rightshoulder  # View Change 2
+  P1Button6: leftshoulder  # View Change 3
+  Analog0: leftstickleft  # Wheel Axis Right
+  Analog2: leftstickup  # Analog Y Down
+  P2Button2: east  # Paddle Right
+  ExtensionTwo12: south  # Paddle Left
+  Analog4: righttrigger  # Gas
+  Analog6: lefttrigger  # Brake
+  ExtensionOne11: up  # View Change 4
+
+fzeroaxmonster:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1ButtonStart: start  # Start
+  P1Button1: south  # Boost
+  P1Button4: north  # View Change 1
+  P1Button5: rightshoulder  # View Change 2
+  P1Button6: leftshoulder  # View Change 3
+  Analog0: leftstickleft  # Wheel Axis Right
+  Analog2: leftstickup  # Analog Y Down
+  P2Button2: east  # Paddle Right
+  ExtensionTwo12: south  # Paddle Left
+  Analog4: righttrigger  # Gas
+  Analog6: lefttrigger  # Brake
+  ExtensionOne11: up  # View Change 4
+
+gekitouproyakyuu:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: south  # Player 1 A Button
+  P1Button2: east  # Player 1 B Button
+  P1Button3: west  # Player 1 Gekitou Button
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: south  # Player 2 A Button
+  P2Button2: east  # Player 2 B Button
+  P2Button3: west  # Player 2 Gekitou Button
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+
+mariokartgp2:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1ButtonStart: start  # Start
+  P1Button1: south  # Item Button
+  P1Button2: east  # VS-Cancel Button
+  Analog0: leftstickleft  # Wheel Axis Right
+  Analog4: righttrigger  # Gas
+  Analog6: lefttrigger  # Brake
+
+mariokartgp:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1ButtonStart: start  # Start
+  P1Button1: south  # Item Button
+  P1Button2: east  # VS-Cancel Button
+  Analog0: leftstickleft  # Wheel Axis Right
+  Analog4: righttrigger  # Gas
+  Analog6: lefttrigger  # Brake
+
+virtuastriker3:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: south  # Player 1 Long Pass
+  P1Button2: east  # Player 1 Short Pass
+  P1Button3: west  # Player 1 Shoot
+  P1ButtonUp: up  # Player 1 Up
+  P1ButtonDown: down  # Player 1 Down
+  P1ButtonLeft: left  # Player 1 Left
+  P1ButtonRight: right  # Player 1 Right
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: south  # Player 2 Long Pass
+  P2Button2: east  # Player 2 Short Pass
+  P2Button3: west  # Player 2 Shoot
+  P2ButtonUp: up  # Player 2 Up
+  P2ButtonDown: down  # Player 2 Down
+  P2ButtonLeft: left  # Player 2 Left
+  P2ButtonRight: right  # Player 2 Right
+
+virtuastriker4:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: south  # Player 1 Long Pass
+  P1Button2: east  # Player 1 Short Pass
+  P1Button3: west  # Player 1 Shoot
+  ExtensionOne13: north  # Player 1 Dash
+  P1Button4: up  # Player 1 Tactics Up
+  P1Button5: rightshoulder  # Player 1 Tactics Middle
+  P1Button6: leftshoulder  # Player 1 Tactics Down
+  Analog0: leftstickleft  # Player 1 Analog X Right
+  Analog2: leftstickup  # Player 1 Analog Y Down
+  ExtensionOne11: down  # Player 1 IC-Card Lock
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: south  # Player 2 Long Pass
+  P2Button2: east  # Player 2 Short Pass
+  P2Button3: west  # Player 2 Shoot
+  ExtensionTwo13: north  # Player 2 Dash
+  P2Button4: up  # Player 2 Tactics Up
+  P2Button5: rightshoulder  # Player 2 Tactics Middle
+  P2Button6: leftshoulder  # Player 2 Tactics Down
+  Analog4: leftstickleft  # Player 2 Analog X Right
+  Analog6: leftstickup  # Player 2 Analog Y Down
+  ExtensionTwo11: down  # Player 2 IC-Card Lock
