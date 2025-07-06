@@ -2815,10 +2815,10 @@ bldyr3b:
   Service1: r3  # Service 1
   Coin1: select  # Coin 1
   P1ButtonStart: start  # Player 1 Start
-  P1Button1: west  # Player 1 Button 1
-  P1Button2: north  # Player 1 Button 2
-  P1Button3: south  # Player 1 Button 3
-  P1Button4: east  # Player 1 Button 4
+  P1Button1: south  # Player 1 Button 1
+  P1Button2: east  # Player 1 Button 2
+  P1Button3: west  # Player 1 Button 3
+  P1Button4: north  # Player 1 Button 4
   P1Button5: rightshoulder  # Player 1 Button 5
   P1Button6: leftshoulder  # Player 1 Button 6
   P1ButtonUp: up  # Player 1 Up
@@ -2827,10 +2827,10 @@ bldyr3b:
   P1ButtonRight: right  # Player 1 Right
   Coin2: select  # Coin 2
   P2ButtonStart: start  # Player 2 Start
-  P2Button1: west  # Player 2 Button 1
-  P2Button2: north  # Player 2 Button 2
-  P2Button3: south  # Player 2 Button 3
-  P2Button4: east  # Player 2 Button 4
+  P2Button1: south # Player 2 Button 1
+  P2Button2: east   # Player 2 Button 2
+  P2Button3: west  # Player 2 Button 3
+  P2Button4: north  # Player 2 Button 4
   P2Button5: rightshoulder  # Player 2 Button 5
   P2Button6: leftshoulder  # Player 2 Button 6
   P2ButtonUp: up  # Player 2 Up
@@ -2873,10 +2873,10 @@ fghtjam:
   Service1: r3  # Service 1
   Coin1: select  # Coin 1
   P1ButtonStart: start  # Player 1 Start
-  P1Button1: west  # Player 1 Button 1
-  P1Button2: north  # Player 1 Button 2
-  P1Button3: south  # Player 1 Button 3
-  P1Button4: east  # Player 1 Button 4
+  P1Button1: south  # Player 1 Button 1
+  P1Button2: east  # Player 1 Button 2
+  P1Button3: west  # Player 1 Button 3
+  P1Button4: north  # Player 1 Button 4
   P1Button5: rightshoulder  # Player 1 Button 5
   P1Button6: leftshoulder  # Player 1 Button 6
   P1ButtonUp: up  # Player 1 Up
@@ -2885,10 +2885,10 @@ fghtjam:
   P1ButtonRight: right  # Player 1 Right
   Coin2: select  # Coin 2
   P2ButtonStart: start  # Player 2 Start
-  P2Button1: west  # Player 2 Button 1
-  P2Button2: north  # Player 2 Button 2
-  P2Button3: south  # Player 2 Button 3
-  P2Button4: east  # Player 2 Button 4
+  P2Button1: south # Player 2 Button 1
+  P2Button2: east   # Player 2 Button 2
+  P2Button3: west  # Player 2 Button 3
+  P2Button4: north  # Player 2 Button 4
   P2Button5: rightshoulder  # Player 2 Button 5
   P2Button6: leftshoulder  # Player 2 Button 6
   P2ButtonUp: up  # Player 2 Up
@@ -3008,10 +3008,10 @@ soulclb3:
   Service1: r3  # Service 1
   Coin1: select  # Coin 1
   P1ButtonStart: start  # Player 1 Start
-  P1Button1: west  # Player 1 Button 1
-  P1Button2: north  # Player 1 Button 2
-  P1Button3: south  # Player 1 Button 3
-  P1Button4: east  # Player 1 Button 4
+  P1Button1: south  # Player 1 Button 1
+  P1Button2: east  # Player 1 Button 2
+  P1Button3: west  # Player 1 Button 3
+  P1Button4: north  # Player 1 Button 4
   P1Button5: rightshoulder  # Player 1 Button 5
   P1Button6: leftshoulder  # Player 1 Button 6
   P1ButtonUp: up  # Player 1 Up
@@ -3020,10 +3020,10 @@ soulclb3:
   P1ButtonRight: right  # Player 1 Right
   Coin2: select  # Coin 2
   P2ButtonStart: start  # Player 2 Start
-  P2Button1: west  # Player 2 Button 1
-  P2Button2: north  # Player 2 Button 2
-  P2Button3: south  # Player 2 Button 3
-  P2Button4: east  # Player 2 Button 4
+  P2Button1: south # Player 2 Button 1
+  P2Button2: east   # Player 2 Button 2
+  P2Button3: west  # Player 2 Button 3
+  P2Button4: north  # Player 2 Button 4
   P2Button5: rightshoulder  # Player 2 Button 5
   P2Button6: leftshoulder  # Player 2 Button 6
   P2ButtonUp: up  # Player 2 Up
@@ -3066,10 +3066,10 @@ tekken4:
   Service1: r3  # Service 1
   Coin1: select  # Coin 1
   P1ButtonStart: start  # Player 1 Start
-  P1Button1: west  # Player 1 Left Punch
-  P1Button2: north  # Player 1 Right Punch
-  P1Button4: south  # Player 1 Left Kick
-  P1Button5: east  # Player 1 Right Kick
+  P1Button1: south  # Player 1 Left Punch
+  P1Button2: east  # Player 1 Right Punch
+  P1Button4: west  # Player 1 Left Kick
+  P1Button5: north  # Player 1 Right Kick
   P1ButtonUp: up  # Player 1 Up
   P1ButtonDown: down  # Player 1 Down
   P1ButtonLeft: left  # Player 1 Left
@@ -3093,20 +3093,20 @@ tekken51:
   Service1: r3  # Service 1
   Coin1: select  # Coin 1
   P1ButtonStart: start  # Player 1 Start
-  P1Button1: west  # Player 1 Left Punch
-  P1Button2: north  # Player 1 Right Punch
-  P1Button4: south  # Player 1 Left Kick
-  P1Button5: east  # Player 1 Right Kick
+  P1Button1: south  # Player 1 Left Punch
+  P1Button2: east  # Player 1 Right Punch
+  P1Button4: west  # Player 1 Left Kick
+  P1Button5: north  # Player 1 Right Kick
   P1ButtonUp: up  # Player 1 Up
   P1ButtonDown: down  # Player 1 Down
   P1ButtonLeft: left  # Player 1 Left
   P1ButtonRight: right  # Player 1 Right
   Coin2: select  # Coin 2
   P2ButtonStart: start  # Player 2 Start
-  P2Button1: west  # Player 2 Left Punch
-  P2Button2: north  # Player 2 Right Punch
-  P2Button4: south  # Player 2 Left Kick
-  P2Button5: east  # Player 2 Right Kick
+  P2Button1: south  # Player 2 Left Punch
+  P2Button2: east  # Player 2 Right Punch
+  P2Button4: west  # Player 2 Left Kick
+  P2Button5: north  # Player 2 Right Kick
   P2ButtonUp: up  # Player 2 Up
   P2ButtonDown: down  # Player 2 Down
   P2ButtonLeft: left  # Player 2 Left
@@ -3120,20 +3120,20 @@ tekken5d:
   Service1: r3  # Service 1
   Coin1: select  # Coin 1
   P1ButtonStart: start  # Player 1 Start
-  P1Button1: west  # Player 1 Left Punch
-  P1Button2: north  # Player 1 Right Punch
-  P1Button4: south  # Player 1 Left Kick
-  P1Button5: east  # Player 1 Right Kick
+  P1Button1: south  # Player 1 Left Punch
+  P1Button2: east  # Player 1 Right Punch
+  P1Button4: west  # Player 1 Left Kick
+  P1Button5: north  # Player 1 Right Kick
   P1ButtonUp: up  # Player 1 Up
   P1ButtonDown: down  # Player 1 Down
   P1ButtonLeft: left  # Player 1 Left
   P1ButtonRight: right  # Player 1 Right
   Coin2: select  # Coin 2
   P2ButtonStart: start  # Player 2 Start
-  P2Button1: west  # Player 2 Left Punch
-  P2Button2: north  # Player 2 Right Punch
-  P2Button4: south  # Player 2 Left Kick
-  P2Button5: east  # Player 2 Right Kick
+  P2Button1: south  # Player 2 Left Punch
+  P2Button2: east  # Player 2 Right Punch
+  P2Button4: west  # Player 2 Left Kick
+  P2Button5: north  # Player 2 Right Kick
   P2ButtonUp: up  # Player 2 Up
   P2ButtonDown: down  # Player 2 Down
   P2ButtonLeft: left  # Player 2 Left
