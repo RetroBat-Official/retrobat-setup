@@ -446,8 +446,8 @@ system\resources
 system\scripts
 system\shaders
 system\templates
-tattoos
-tattoos\default
-tattoos\games
 user
 user\inputmapping
+user\tattoos
+user\tattoos\default
+user\tattoos\games
