@@ -3158,11 +3158,14 @@ timecrs3_gun:
   # rawinput:
   Test: kb_T                 # Test
   Service1: kb_S            # Service
+  P1ButtonUp:  kb_up	# Select Up
+  P1ButtonDown: kb_down	# Select Down
+  P1Button1: kb_enter   # Enter
   # Player 1
   Coin1: kb_5               # Coin 1
   P1ButtonStart: kb_1       # P1 Start
-  mouseleft_1: P1Button3    # P1 Left Trigger
-  mouseright_1: P1Button2   # P1 Right Trigger
+  mouseleft_1: P1Button2    # P1 Left Trigger
+  mouseright_1: P1Button3   # P1 Right Trigger
   mousemiddle_1: P1Button1  # P1 Grenades
 
 timecrs4:
@@ -3179,13 +3182,16 @@ timecrs4:
   
 timecrs4_gun:
   # rawinput:
-  Test: kb_T                 # Test
-  Service1: kb_S            # Service
+  Test: kb_T            # Test
+  Service1: kb_S        # Service
+  P1ButtonUp:  kb_up	# Select Up
+  P1ButtonDown: kb_down	# Select Down
+  P1Button1: kb_enter   # Enter
   # Player 1
   Coin1: kb_5               # Coin 1
   P1ButtonStart: kb_1       # P1 Start
-  mouseleft_1: P1Button3    # P1 Left Trigger
-  mouseright_1: P1Button2   # P1 Right Trigger
+  mouseleft_1: P1ButtonLeft    # P1 Left Trigger
+  mouseright_1: P1Button3   # P1 Right Trigger
   mousemiddle_1: P1Button1  # P1 Grenades
 
 vnight:
@@ -3212,14 +3218,12 @@ vnight:
   # Player 1
   Coin1: kb_5               # Coin 1
   P1Button3: kb_1       # P1 Start
-  mouseleft_1: P1Button1    # P1 Left Trigger
-  mouseright_1: P1Button2   # P1 Right Trigger
-  mousemiddle_1: P1Button3  # P1 Grenades
+  mouseleft_1: P1Button2    # P1 Left Trigger
+  mouseright_1: P1Button1   # P1 Right Trigger
   # Player 2
   Coin2: kb_6               # Coin 2
   P1Button6: kb_2       # P2 Start
-  mouseright_2: P1Button5   # P2 Right Trigger
-  mousemiddle_2: P2Button3  # P2 Grenades
+  mouseleft_1: P1Button5    # P1 Left Trigger
 
 wanganmd:
   Test: l3  # Test
