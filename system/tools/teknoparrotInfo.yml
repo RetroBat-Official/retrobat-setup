@@ -1,15 +1,25 @@
 AlpineRacer:
   executable: sdaemon.exe
+BattleFantasia:
+  executable: game.exe
 BlazBlueCalaminityTrigger:
+  executable: game.exe
+ChaosBreaker:
   executable: game.exe
 Deathsmiles2:
   executable: game.exe
+ID7:
+  executable: InitialD7_GLW_RE_SBYD.exe
 Initial D Arcade Stage Zero Ver.2:
   profile: IDZv2TP
+RaidenIII:
+  executable: game.exe
 Snowboarder:
   executable: sdaemon.exe
 SonicDashExtreme:
   executable: exe/SonicDash_R_Ring.exe
+StreetFighterIV:
+  executable: launcher.exe
 StreetFighterVTypeArcade:
   executable: StreetFighterV.exe
 VF5FS:
