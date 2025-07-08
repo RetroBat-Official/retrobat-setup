@@ -3185,7 +3185,7 @@ vnight:
   Analog4: rightstickleft  # Player 2 Gun X
   Analog6: rightstickup  # Player 2 Gun Y
   
- vnight_gun:
+vnight_gun:
   # rawinput:
   Test: kb_T                 # Test
   Service1: kb_S            # Service
