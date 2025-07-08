@@ -370,6 +370,32 @@
         }
     },
     {
+        "Emulator": "ymir",
+        "Name": "8BitDo M30 xinput",
+        "Guid": "030000005e040000e002000000007200",
+        "Driver": "",
+        "Mapping": {
+            "A": "GamepadA",
+            "B": "GamepadB",
+            "C": "GamepadRightTriggerButton",
+            "DPad": "GamepadDPad_GamepadLeftStick",
+            "Down": "GamepadDpadDown",
+            "L": "GamepadLeftBumper",
+            "Left": "GamepadDpadLeft",
+            "R": "GamepadLeftTriggerButton",
+            "Right": "GamepadDpadRight",
+            "Start": "GamepadStart",
+            "Up": "GamepadDpadUp",
+            "X": "GamepadX",
+            "Y": "GamepadY",
+            "Z": "GamepadRightBumper"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes",
+            "peripheral": "ControlPad"
+        }
+    },
+    {
         "Emulator": "libretro",
         "Name": "8BitDo M30 switch",
         "Guid": "030000007e0500000920000000006803",
@@ -539,6 +565,32 @@
         },
         "ControllerInfo": {
             "needActivationSwitch": "yes"
+        }
+    },
+    {
+        "Emulator": "ymir",
+        "Name": "8BitDo M30 switch",
+        "Guid": "030000007e0500000920000000006803",
+        "Driver": "",
+        "Mapping": {
+            "A": "GamepadB",
+            "B": "GamepadA",
+            "C": "GamepadRightBumper",
+            "DPad": "GamepadDPad_GamepadLeftStick",
+            "Down": "GamepadDpadDown",
+            "L": "GamepadLeftTriggerButton",
+            "Left": "GamepadDpadLeft",
+            "R": "GamepadRightTriggerButton",
+            "Right": "GamepadDpadRight",
+            "Start": "GamepadStart",
+            "Up": "GamepadDpadUp",
+            "X": "GamepadY",
+            "Y": "GamepadX",
+            "Z": "GamepadLeftBumper"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes",
+            "peripheral": "ControlPad"
         }
     },
     {
@@ -893,6 +945,32 @@
         },
         "ControllerInfo": {
             "needActivationSwitch": "yes"
+        }
+    },
+        {
+        "Emulator": "ymir",
+        "Name": "8BitDo M30 dinput",
+        "Guid": "03000000c82d00005106000000000000",
+        "Driver": "",
+        "Mapping": {
+            "A": "GamepadA",
+            "B": "GamepadB",
+            "C": "GamepadRightTriggerButton",
+            "DPad": "GamepadDPad_GamepadLeftStick",
+            "Down": "GamepadDpadDown",
+            "L": "GamepadLeftBumper",
+            "Left": "GamepadDpadLeft",
+            "R": "GamepadLeftTriggerButton",
+            "Right": "GamepadDpadRight",
+            "Start": "GamepadStart",
+            "Up": "GamepadDpadUp",
+            "X": "GamepadX",
+            "Y": "GamepadY",
+            "Z": "GamepadRightBumper"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "yes",
+            "peripheral": "ControlPad"
         }
     }
   ]

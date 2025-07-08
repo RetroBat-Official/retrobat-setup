@@ -2,7 +2,12 @@ ConfigVersion = 2
 
 [Audio]
 InterpolationMode = 'Linear'
+MidiInputPortId = ''
+MidiInputPortType = 'None'
+MidiOutputPortId = ''
+MidiOutputPortType = 'None'
 Mute = false
+StepGranularity = 0
 ThreadedSCSP = false
 Volume = 0.80000001192092896
 
@@ -15,13 +20,13 @@ Type = 'None'
 
     [Cartridge.BackupRAM]
     Capacity = '32Mbit'
-    ImagePath = ''
+    ImagePath = '.'
 
     [Cartridge.DRAM]
     Capacity = '32Mbit'
 
     [Cartridge.ROM]
-    ImagePath = ''
+    ImagePath = '.'
 
 [General]
 BoostEmuThreadPriority = true
@@ -32,13 +37,13 @@ PreloadDiscImagesToRAM = false
 RewindCompressionLevel = 12
 
     [General.PathOverrides]
-    BackupMemory = ''
+    BackupMemory = '..\..\saves\saturn\ymir\backup'
     Dumps = ''
     ExportedBackups = ''
     IPLROMImages = '..\..\bios'
-    PersistentState = ''
+    PersistentState = '..\..\saves\saturn\ymir\state'
     ROMCartImages = ''
-    SaveStates = ''
+    SaveStates = '..\..\saves\saturn\ymir\savestates'
 
 [Hotkeys]
 DecreaseVolume = [ 'Ctrl+MinusUnderscore' ]
@@ -50,17 +55,17 @@ IncreaseVolume = [ 'Ctrl+EqualsPlus' ]
 LoadDisc = [ 'Ctrl+O' ]
 OpenCloseTray = [ 'Ctrl+T' ]
 OpenSettings = [ 'F10' ]
-PauseResume = [ 'Pause', 'Ctrl+P' ]
+PauseResume = [ 'F6' ]
 ResetButton = [ 'Shift+R' ]
 ReverseFrameStep = [ 'LeftBracket' ]
-Rewind = [ 'Backspace' ]
+Rewind = [ 'F4' ]
 SoftReset = [ 'Ctrl+Shift+R' ]
 ToggleDebugTrace = [ 'F11' ]
 ToggleFullScreen = [ 'Alt+Return' ]
 ToggleMute = [ 'Ctrl+M' ]
 ToggleRewindBuffer = [ 'F8' ]
 ToggleWindowedVideoOutput = [ 'F9' ]
-TurboSpeed = [ 'Tab', 'GamepadBack@0' ]
+TurboSpeed = [ 'F5' ]
 TurboSpeedHold = [ 'GraveAccent' ]
 
     [Hotkeys.SaveStates]
@@ -184,12 +189,13 @@ GamepadRSDeadzone = 0.15000000596046448
 AutoDetectRegion = true
 EmulateSH2Cache = false
 InternalBackupRAMImagePath = '..\..\saves\saturn\ymir\state\bup-int.bin'
+InternalBackupRAMPerGame = true
 PreferredRegionOrder = [ 'NorthAmerica', 'Japan' ]
 VideoStandard = 'NTSC'
 
     [System.IPL]
-    Override = false
-    Path = ''
+    Override = true
+    Path = 'saturn_bios.bin'
     Variant = 'Saturn'
 
     [System.RTC]
@@ -201,9 +207,15 @@ VideoStandard = 'NTSC'
 
 [Video]
 AutoResizeWindow = false
+Deinterlace = false
 DisplayVideoOutputInWindow = false
+DoubleClickToFullScreen = false
 ForceAspectRatio = true
 ForceIntegerScaling = false
 ForcedAspect = 1.3333333333333333
 FullScreen = false
+IncludeVDP1InRenderThread = false
+OverrideUIScale = false
 ThreadedVDP = true
+TransparentMeshes = false
+UIScale = 1.0
