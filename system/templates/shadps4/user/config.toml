@@ -1,86 +1,66 @@
 [General]
-isPS4Pro = false
-isTrophyPopupDisabled = false
-trophyNotificationDuration = 6.0
-playBGM = false
-BGMvolume = 50
-enableDiscordRPC = false
-logFilter = ""
-logType = "async"
-userName = "shadPS4"
-updateChannel = "Release"
-chooseHomeTab = "General"
-showSplash = false
-autoUpdate = false
-alwaysShowChangelog = false
-sideTrophy = "right"
-separateUpdateEnabled = false
-compatibilityEnabled = false
 checkCompatibilityOnStartup = false
+chooseHomeTab = "General"
+compatibilityEnabled = false
+enableDiscordRPC = false
+isDevKit = false
+isPS4Pro = false
+isPSNSignedIn = false
+isTrophyPopupDisabled = false
+logFilter = ""
+logType = "sync"
+showSplash = false
+sideTrophy = "right"
+trophyNotificationDuration = 6.0
+userName = "shadPS4"
 
 [Input]
-cursorState = 1
 cursorHideTimeout = 5
-backButtonBehavior = "left"
-useSpecialPad = false
-specialPadClass = 1
+cursorState = 1
 isMotionControlsEnabled = true
+specialPadClass = 1
+useSpecialPad = false
 useUnifiedInputConfig = true
 
 [GPU]
-screenWidth = 1280
-screenHeight = 720
-nullGpu = false
-copyGPUBuffers = false
-dumpShaders = false
-patchShaders = true
-vblankDivider = 1
-Fullscreen = true
 allowHDR = false
+copyGPUBuffers = false
+directMemoryAccess = false
+dumpShaders = false
+Fullscreen = true
 FullscreenMode = "Fullscreen (Borderless)"
+nullGpu = false
+patchShaders = false
+readbacks = false
+screenHeight = 720
+screenWidth = 1280
+vblankDivider = 1
 
 [Vulkan]
-gpuId = -1
-validation = false
-validation_sync = false
-validation_gpu = false
 crashDiagnostic = false
-hostMarkers = false
+gpuId = -1
 guestMarkers = false
+hostMarkers = false
 rdocEnable = false
+validation = false
+validation_gpu = false
+validation_sync = false
 
 [Debug]
-DebugDump = false
 CollectShader = false
-isSeparateLogFilesEnabled = false
+DebugDump = false
 FPSColor = true
+isSeparateLogFilesEnabled = false
 
 [Keys]
 TrophyKey = ""
 
 [GUI]
-installDirs = []
-saveDataPath = ""
-loadGameSizeEnabled = true
 addonInstallDir = ""
-emulatorLanguage = "en_US"
-backgroundImageOpacity = 50
-showBackgroundImage = true
-mw_width = 1280
-mw_height = 720
-theme = 0
-iconSize = 36
-sliderPos = 0
-iconSizeGrid = 69
-sliderPosGrid = 0
-gameTableMode = 0
-geometry_x = 259
-geometry_y = 213
-geometry_w = 1280
-geometry_h = 720
-pkgDirs = []
-elfDirs = []
-recentFiles = []
+installDirs = []
+installDirsEnabled = [true]
+loadGameSizeEnabled = true
+saveDataPath = ""
 
 [Settings]
 consoleLanguage = 1
