@@ -144,6 +144,7 @@
 \system\templates\ryujinx\portable\Config.json|\saves\switch\ryujinx\portable\Config.json
 \system\templates\scummvm\scummvm.ini|\emulators\scummvm\scummvm.ini
 \system\templates\shadps4\user\config.toml|\emulators\shadps4\user\config.toml
+\system\templates\shadps4\user\qt_ui.ini|\emulators\shadps4\user\qt_ui.ini
 \system\templates\simple64\input-profiles.ini|\emulators\simple64\input-profiles.ini
 \system\templates\simple64\input-settings.ini|\emulators\simple64\input-settings.ini
 \system\templates\simple64\mupen64plus.cfg|\emulators\simple64\mupen64plus.cfg
@@ -180,5 +181,4 @@
 \system\templates\yuzu\qt-config.ini|\emulators\yuzu\user\config\qt-config.ini
 \system\templates\zinc\renderer.cfg|\emulators\zinc\renderer.cfg
 \system\templates\zinc\zinc.cfg|\emulators\zinc\zinc.cfg
-\system\tools\SDL2.dll|\emulationstation\SDL2.dll
 \system\tools\SDL3.dll|\emulationstation\SDL3.dll
