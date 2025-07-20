@@ -41,3 +41,27 @@ LogitechG29:
   GearN: button18
   Service: button10
   Test: button11
+ThrustmasterT300RSPS3:
+  DeportedShifter: true
+  Up: hatup
+  Down: hatdown
+  Left: hatleft
+  Right: hatright
+  Steer: axis0
+  Throttle: axis2
+  Brake: axis1
+  ShiftDown: button0
+  ShiftUp: button1
+  South: button5
+  East: button4
+  West: button3
+  North: button2
+  Start: button7
+  Select: button6
+  Gear1: button 1
+  Gear2: button 2
+  Gear3: button 3
+  Gear4: button 4
+  GearN: button 8
+  Service: button10
+  Test: button11
