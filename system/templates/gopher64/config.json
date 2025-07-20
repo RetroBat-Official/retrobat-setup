@@ -564,6 +564,7 @@
     "crt": false
   },
   "emulation": {
-    "overclock": false
+    "overclock": false,
+    "disable_expansion_pak": false
   }
 }
