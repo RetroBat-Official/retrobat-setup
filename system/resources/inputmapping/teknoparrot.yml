@@ -5749,6 +5749,44 @@ castlevania_gun:
   Service1: kb_S # Service
   Test: kb_T # Test
 
+coopers9:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: righttrigger  # Player 1 Trigger
+  Analog0: rightstickleft  # Player 1 Gun X
+  Analog2: rightstickup  # Player 1 Gun Y
+  P2ButtonStart: start  # Player 2 Start
+  P2Button1: righttrigger  # Player 2 Trigger
+  Analog4: rightstickleft  # Player 2 Gun X
+  Analog6: rightstickup  # Player 2 Gun Y
+
+coopers9_gun:
+  # rawinput:
+  Test: kb_T                 # Test
+  Service1: kb_S            # Service
+  # Player 1
+  Coin1: kb_5               # Coin 1
+  P1ButtonStart: kb_1       # P1 Start
+  mouseleft_1: P1Button1    # P1 Left Trigger
+  # Player 2
+  Coin2: kb_6               # Coin 2
+  P2ButtonStart: kb_2       # P2 Start
+  mouseleft_2: P2Button1    # P2 Left Trigger
+  
+  # Unmapped inputs:
+  P1LightGun:   # Player 1 Light Gun
+  P1RelativeDown:   # Player 1 Gun Y Down
+  P1RelativeLeft:   # Player 1 Gun X Left
+  P1RelativeRight:   # Player 1 Gun X Right
+  P1RelativeUp:   # Player 1 Gun Y Up
+  P2LightGun:   # Player 2 Light Gun
+  P2RelativeDown:   # Player 2 Gun Y Down
+  P2RelativeLeft:   # Player 2 Gun X Left
+  P2RelativeRight:   # Player 2 Gun X Right
+  P2RelativeUp:   # Player 2 Gun Y Up
+
 crossfirepaintball:
   Analog0: rightstickleft # P1 Gun X
   Analog2: rightstickup # P1 Gun Y
