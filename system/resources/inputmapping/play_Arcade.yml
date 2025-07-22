@@ -1,0 +1,47 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate specific input mappings in Play! for Arcade games
+# Each container must be named exactly the same as your game rom file (without the extension)
+# The elements listed are the buttons that will be mapped in the emulator (for Arcade)
+# The key represents the Play! configuration file button id
+# The value represents the target button within this list (linked with gamecontrollerdb file)
+# - leftx (use for left analog stick horizontal)
+# - lefty (use for left analog stick vertical)
+# - rightx (use for right analog stick horizontal)
+# - righty (use for right analog stick vertical)
+# - dpdown
+# - dpleft
+# - dpright
+# - dpup
+# - b (EAST face button)
+# - a (SOUTH face button)
+# - x (WEST face button)
+# - y (NORTH face button)
+# - leftshoulder
+# - lefttrigger
+# - leftstick
+# - rightshoulder
+# - righttrigger
+# - rightstick
+# - back (select)
+# - start
+default:
+  analog_left_x: leftx
+  analog_left_y: lefty
+  analog_right_x: rightx
+  analog_right_y: righty
+  circle: b
+  cross: a
+  dpad_down: dpdown
+  dpad_left: dpleft
+  dpad_right: dpright
+  dpad_up: dpup
+  l1: leftshoulder
+  l2: lefttrigger
+  l3: leftstick
+  r1: rightshoulder
+  r2: righttrigger
+  r3: rightstick
+  select: back
+  square: x
+  start: start
+  triangle: y
