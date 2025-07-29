@@ -4803,7 +4803,7 @@ contra:
   P2ButtonRight: right # Player 2 Right
   P2ButtonStart: start # Player 2 Start
   P2ButtonUp: up # Player 2 Up
-  Service1: r3 # Service / Coin
+  Service1: shift # Service / Coin
   Test: l3 # Test
 
 cottonrnr:
