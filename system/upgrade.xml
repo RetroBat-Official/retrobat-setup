@@ -121,8 +121,6 @@
     <rename path="emulators\OpenGOAL\jak1\settings\display-settings.json" to="emulators\OpenGOAL\jak1\settings\display-settings.json.old"/>
     <rename path="emulators\OpenGOAL\jak2\settings\pc-settings.gc" to="emulators\OpenGOAL\jak2\settings\pc-settings.gc.old"/>
     <rename path="emulators\OpenGOAL\jak2\settings\display-settings.json" to="emulators\OpenGOAL\jak2\settings\display-settings.json.old"/>
-    <rename path="emulators\pcsx2\inis\PCSX2.ini" to="emulators\pcsx2\inis\PCSX2.ini.old"/>
-    <rename path="emulators\ymir\Ymir.toml" to="emulators\ymir\Ymir.toml.old"/>
     <move path="saves\dolphin\User\Wii" to="saves\wii\dolphin-emu\User\Wii"/>
     <move path="saves\dolphin\User\GC\EUR" to="saves\gamecube\dolphin-emu\User\GC\EUR"/>
     <move path="saves\dolphin\User\GC\USA" to="saves\gamecube\dolphin-emu\User\GC\USA"/>
@@ -137,6 +135,7 @@
     <delete path="system\scripts\es-checkversion.cmd"/>
     <delete path="system\scripts\es-update.cmd"/>
   </actions>
-  <actions version="7.2.0-stable-win64">
+  <actions version="7.3.0-stable-win64">
+    <move path="emulators\xenia-manager" to="emulators\xenia-manager.old"/>
   </actions>
 </upgradeinfo>
