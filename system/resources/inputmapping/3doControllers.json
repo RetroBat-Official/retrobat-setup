@@ -68,7 +68,7 @@
             "input_disk_prev_btn": "9"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -139,7 +139,7 @@
             "input_disk_prev_btn": "4"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -210,7 +210,7 @@
             "input_disk_prev_btn": "4"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -281,7 +281,7 @@
             "input_disk_prev_btn": "nul"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
