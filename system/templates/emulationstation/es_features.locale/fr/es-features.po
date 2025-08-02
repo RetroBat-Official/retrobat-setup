@@ -10732,3 +10732,27 @@ msgstr "ACTIVER LE MICROPHONE"
 msgctxt "game_options"
 msgid "Set this option to put microphone in slot B."
 msgstr "Activer cette option pour insérer le microphone dans le slot B."
+
+msgctxt "game_options"
+msgid "WINDOWS GAMES"
+msgstr "JEUX WINDOWS"
+
+msgctxt "game_options"
+msgid "SCAN INSTALLED GAMES AT STARTUP"
+msgstr "SCANNER LES JEUX AU DÉMARRAGE"
+
+msgctxt "game_options"
+msgid "KEEP GAMES ADDED MANUALLY"
+msgstr "CONSERVER LES JEUX AJOUTÉS MANUELLEMENT"
+
+msgctxt "game_options"
+msgid "By default, RetroBat keeps sync between installed games and roms folder."
+msgstr "Par défaut, RetroBat synchronis les jeux installés avec les dossiers des stores."
+
+msgctxt "game_options"
+msgid "SAVE FORMAT"
+msgstr "FORMAT DES SAUVEGARDES"
+
+msgctxt "game_options"
+msgid "SYNC SAVES BETWEEN CORE AND STANDALONE"
+msgstr "SYNCHRONISER LES SAUVEGARDES DOLPHIN ET RETROARCH"
