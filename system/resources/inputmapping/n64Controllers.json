@@ -42,8 +42,7 @@
         },
         "ControllerInfo": {
             "input_analog_sensitivity": "1.500000",
-            "input_joypad_driver": "sdl2",
-            "comment": "not_working_for_now"
+            "switch_trigger": "9"
         }
     },
     {
@@ -76,6 +75,9 @@
             "R-Down": "0/5/Hi",
             "R-Left": "3/2",
             "R-Right": "3/4"
+        },
+        "ControllerInfo": {
+            "switch_trigger": "3/7"
         }
     },
     {
@@ -106,7 +108,8 @@
         "ControllerInfo": {
             "XInvert": "false",
             "YInvert": "false",
-            "dinput": "false"
+            "dinput": "false",
+            "switch_trigger": "LeftThumb"
         }
     },
     {
@@ -221,6 +224,9 @@
             "Hotkey_LoadState_Name": "misc1;x",
             "Hotkey_LoadState_Data": "15;2",
             "Hotkey_LoadState_ExtraData": "0;0"
+        },
+        "ControllerInfo": {
+            "switch_trigger": "0_leftstick_7_0"
         }
     },
     {
@@ -247,6 +253,9 @@
             "AxisRight": "\"0,5,1\"",
             "AxisUp": "\"1,5,-1\"",
             "AxisDown": "\"1,5,1\""
+        },
+        "ControllerInfo": {
+            "switch_trigger": "\"7,4\""
         }
     },
     {
@@ -275,6 +284,350 @@
             "7": "64",
             "8": "128",
             "9": "32"
+        },
+        "ControllerInfo": {
+            "switch_trigger": "516_0_7_8192"
+        }
+    },
+    {
+        "Emulator": "libretro",
+        "Name": "8BitDo N64 controller (dinput)",
+        "Guid": "03000000c82d00001930000000000000",
+        "Driver": "xinput",
+        "Mapping": {
+            "analog_dpad_mode": "0",
+            "a_btn": "nul",
+            "a_axis": "+5",
+            "b_btn": "0",
+            "b_axis": "nul",
+            "down_btn": "h0down",
+            "l2_btn": "8",
+            "l_btn": "6",
+            "l_x_minus_axis": "-0",
+            "l_x_plus_axis": "+0",
+            "l_y_minus_axis": "-1",
+            "l_y_plus_axis": "+1",
+            "left_btn": "h0left",
+            "r_btn": "7",
+            "r_x_minus_axis": "-2",
+            "r_x_plus_axis": "+2",
+            "r_y_minus_axis": "-5",
+            "r_y_plus_axis": "+5",
+            "right_btn": "h0right",
+            "select_btn": "10",
+            "start_btn": "11",
+            "up_btn": "h0up",
+            "x_axis": "-2",
+            "y_btn": "1"
+        },
+        "HotKeyMapping": {
+            "input_enable_hotkey_btn": "10",
+            "input_exit_emulator_btn": "11",
+            "input_pause_toggle_axis": "+5",
+            "input_menu_toggle_btn": "0",
+            "input_load_state_axis": "-2",
+            "input_save_state_btn": "1",
+            "input_ai_service_btn": "7",
+            "input_state_slot_decrease_btn": "h0down",
+            "input_state_slot_increase_btn": "h0up",
+            "input_rewind_btn": "h0left",
+            "input_hold_fast_forward_btn": "h0right"
+        },
+        "ControllerInfo": {
+            "switch_trigger": "9"
+        }
+    },
+    {
+        "Emulator": "libretro",
+        "Name": "8BitDo N64 controller (dinput)",
+        "Guid": "03000000c82d00001930000000000000",
+        "Driver": "dinput",
+        "Mapping": {
+            "analog_dpad_mode": "0",
+            "a_btn": "nul",
+            "a_axis": "+5",
+            "b_btn": "0",
+            "b_axis": "nul",
+            "down_btn": "h0down",
+            "l2_btn": "8",
+            "l_btn": "6",
+            "l_x_minus_axis": "-0",
+            "l_x_plus_axis": "+0",
+            "l_y_minus_axis": "-1",
+            "l_y_plus_axis": "+1",
+            "left_btn": "h0left",
+            "r_btn": "7",
+            "r_x_minus_axis": "-2",
+            "r_x_plus_axis": "+2",
+            "r_y_minus_axis": "-5",
+            "r_y_plus_axis": "+5",
+            "right_btn": "h0right",
+            "select_btn": "10",
+            "start_btn": "11",
+            "up_btn": "h0up",
+            "x_axis": "-2",
+            "y_btn": "1"
+        },
+        "HotKeyMapping": {
+            "input_enable_hotkey_btn": "10",
+            "input_exit_emulator_btn": "11",
+            "input_pause_toggle_axis": "+5",
+            "input_menu_toggle_btn": "0",
+            "input_load_state_axis": "-2",
+            "input_save_state_btn": "1",
+            "input_ai_service_btn": "7",
+            "input_state_slot_decrease_btn": "h0down",
+            "input_state_slot_increase_btn": "h0up",
+            "input_rewind_btn": "h0left",
+            "input_hold_fast_forward_btn": "h0right"
+        },
+        "ControllerInfo": {
+            "switch_trigger": "9"
+        }
+    },
+    {
+        "Emulator": "libretro",
+        "Name": "8BitDo N64 controller (dinput)",
+        "Guid": "03000000c82d00001930000000000000",
+        "Driver": "sdl2",
+        "Mapping": {
+            "analog_dpad_mode": "0",
+            "a_btn": "nul",
+            "a_axis": "+4",
+            "b_btn": "0",
+            "b_axis": "nul",
+            "down_btn": "h0down",
+            "l2_btn": "8",
+            "l_btn": "6",
+            "l_x_minus_axis": "-0",
+            "l_x_plus_axis": "+0",
+            "l_y_minus_axis": "-1",
+            "l_y_plus_axis": "+1",
+            "left_btn": "h0left",
+            "r_btn": "7",
+            "r_x_minus_axis": "-3",
+            "r_x_plus_axis": "+3",
+            "r_y_minus_axis": "-4",
+            "r_y_plus_axis": "+4",
+            "right_btn": "h0right",
+            "select_btn": "10",
+            "start_btn": "11",
+            "up_btn": "h0up",
+            "x_axis": "-3",
+            "y_btn": "1"
+        },
+        "HotKeyMapping": {
+            "input_enable_hotkey_btn": "10",
+            "input_exit_emulator_btn": "11",
+            "input_pause_toggle_axis": "+4",
+            "input_menu_toggle_btn": "0",
+            "input_load_state_axis": "-3",
+            "input_save_state_btn": "1",
+            "input_ai_service_btn": "7",
+            "input_state_slot_decrease_btn": "h0down",
+            "input_state_slot_increase_btn": "h0up",
+            "input_rewind_btn": "h0left",
+            "input_hold_fast_forward_btn": "h0right"
+        },
+        "ControllerInfo": {
+            "switch_trigger": "9"
+        }
+    },
+    {
+        "Emulator": "ares",
+        "Name": "8BitDo N64 controller (dinput)",
+        "Guid": "03000000c82d00001930000000000000",
+        "Driver": "",
+        "Mapping": {
+            "Pad.Up": "1/1/Lo",
+            "Pad.Down": "1/1/Hi",
+            "Pad.Left": "1/0/Lo",
+            "Pad.Right": "1/0/Hi",
+            "Select": "",
+            "Start": "3/11",
+            "A..South": "3/0",
+            "B..East": "",
+            "X..West": "3/1",
+            "Y..North": "",
+            "L-Bumper": "3/6",
+            "R-Bumper": "3/7",
+            "L-Trigger": "",
+            "R-Trigger": "3/8",
+            "L-Stick..Click": "",
+            "R-Stick..Click": "",
+            "L-Up": "0/1/Lo",
+            "L-Down": "0/1/Hi",
+            "L-Left": "0/0/Lo",
+            "L-Right": "0/0/Hi",
+            "R-Up": "0/4/Lo",
+            "R-Down": "0/4/Hi",
+            "R-Left": "0/3/Lo",
+            "R-Right": "0/3/Hi"
+        },
+        "ControllerInfo": {
+            "switch_trigger": "3/9"
+        }
+    },
+    {
+        "Emulator": "bizhawk",
+        "Name": "8BitDo N64 controller (dinput)",
+        "Guid": "03000000c82d00001930000000000000",
+        "Driver": "",
+        "Mapping": {
+            "DPad U": "POV0U",
+            "DPad D": "POV0D",
+            "DPad L": "POV0L",
+            "DPad R": "POV0R",
+            "Start": "B12",
+            "Z": "B9",
+            "B": "B2",
+            "A": "B1",
+            "C Up": "S-",
+            "C Down": "S+",
+            "C Left": "W-",
+            "C Right": "W+",
+            "L": "B7",
+            "R": "B8"
+        },
+        "ControllerInfo": {
+            "XInvert": "false",
+            "YInvert": "false",
+            "dinput": "true",
+            "switch_trigger": "B10"
+        }
+    },
+    {
+        "Emulator": "mupen64",
+        "Name": "8BitDo N64 controller (dinput)",
+        "Guid": "03000000c82d00001930000000000000",
+        "Driver": "",
+        "Mapping": {
+            "A_InputType": "2",
+            "A_Name": "button 0",
+            "A_Data": "0",
+            "A_ExtraData": "0",
+            "B_InputType": "2",
+            "B_Name": "button 1",
+            "B_Data": "1",
+            "B_ExtraData": "0",
+            "Start_InputType": "2",
+            "Start_Name": "button 11",
+            "Start_Data": "11",
+            "Start_ExtraData": "0",
+            "DpadUp_InputType": "4",
+            "DpadUp_Name": "hat 0:1",
+            "DpadUp_Data": "0",
+            "DpadUp_ExtraData": "1",
+            "DpadDown_InputType": "4",
+            "DpadDown_Name": "hat 0:4",
+            "DpadDown_Data": "0",
+            "DpadDown_ExtraData": "4",
+            "DpadLeft_InputType": "4",
+            "DpadLeft_Name": "hat 0:8",
+            "DpadLeft_Data": "0",
+            "DpadLeft_ExtraData": "8",
+            "DpadRight_InputType": "4",
+            "DpadRight_Name": "hat 0:2",
+            "DpadRight_Data": "0",
+            "DpadRight_ExtraData": "2",
+            "CButtonUp_InputType": "3",
+            "CButtonUp_Name": "axis 4-",
+            "CButtonUp_Data": "4",
+            "CButtonUp_ExtraData": "0",
+            "CButtonDown_InputType": "3",
+            "CButtonDown_Name": "axis 4+",
+            "CButtonDown_Data": "4",
+            "CButtonDown_ExtraData": "1",
+            "CButtonLeft_InputType": "3",
+            "CButtonLeft_Name": "axis 3-",
+            "CButtonLeft_Data": "3",
+            "CButtonLeft_ExtraData": "0",
+            "CButtonRight_InputType": "3",
+            "CButtonRight_Name": "axis 3+",
+            "CButtonRight_Data": "3",
+            "CButtonRight_ExtraData": "1",
+            "LeftTrigger_InputType": "2",
+            "LeftTrigger_Name": "button 6",
+            "LeftTrigger_Data": "6",
+            "LeftTrigger_ExtraData": "0",
+            "RightTrigger_InputType": "2",
+            "RightTrigger_Name": "button 7",
+            "RightTrigger_Data": "7",
+            "RightTrigger_ExtraData": "0",
+            "ZTrigger_InputType": "2",
+            "ZTrigger_Name": "button 8",
+            "ZTrigger_Data": "8",
+            "ZTrigger_ExtraData": "0",
+            "AnalogStickUp_InputType": "3",
+            "AnalogStickUp_Name": "axis 1-",
+            "AnalogStickUp_Data": "1",
+            "AnalogStickUp_ExtraData": "0",
+            "AnalogStickDown_InputType": "3",
+            "AnalogStickDown_Name": "axis 1+",
+            "AnalogStickDown_Data": "1",
+            "AnalogStickDown_ExtraData": "1",
+            "AnalogStickLeft_InputType": "3",
+            "AnalogStickLeft_Name": "axis 0-",
+            "AnalogStickLeft_Data": "0",
+            "AnalogStickLeft_ExtraData": "0",
+            "AnalogStickRight_InputType": "3",
+            "AnalogStickRight_Name": "axis 0+",
+            "AnalogStickRight_Data": "0",
+            "AnalogStickRight_ExtraData": "1"
+        },
+        "HotKeyMapping": {
+            "Hotkey_Exit_InputType": "2;2",
+            "Hotkey_Exit_Name": "button 10;button 11",
+            "Hotkey_Exit_Data": "10;11",
+            "Hotkey_Exit_ExtraData": "0;0",
+            "Hotkey_Resume_InputType": "2;3",
+            "Hotkey_Resume_Name": "button 10;axis 4+",
+            "Hotkey_Resume_Data": "10;4",
+            "Hotkey_Resume_ExtraData": "0;1",
+            "Hotkey_Screenshot_InputType": "2;2",
+            "Hotkey_Screenshot_Name": "button 10;button 8",
+            "Hotkey_Screenshot_Data": "10;8",
+            "Hotkey_Screenshot_ExtraData": "0;0",
+            "Hotkey_SaveState_InputType": "2;2",
+            "Hotkey_SaveState_Name": "button 10;button 1",
+            "Hotkey_SaveState_Data": "10;1",
+            "Hotkey_SaveState_ExtraData": "0;0",
+            "Hotkey_LoadState_InputType": "2;3",
+            "Hotkey_LoadState_Name": "button 10;axis 3-",
+            "Hotkey_LoadState_Data": "10;3",
+            "Hotkey_LoadState_ExtraData": "0;0"
+        },
+        "ControllerInfo": {
+            "switch_trigger": "2_button 9_9_0"
+        }
+    },
+    {
+        "Emulator": "simple64",
+        "Name": "8BitDo N64 controller (dinput)",
+        "Guid": "03000000c82d00001930000000000000",
+        "Driver": "",
+        "Mapping": {
+            "A": "\"0,4\"",
+            "B": "\"1,4\"",
+            "Z": "\"8,4\"",
+            "Start": "\"11,4\"",
+            "L": "\"6,4\"",
+            "R": "\"7,4\"",
+            "DPadL": "\"0,3,8\"",
+            "DPadR": "\"0,3,2\"",
+            "DPadU": "\"0,3,1\"",
+            "DPadD": "\"0,3,4\"",
+            "CLeft": "\"3,5,-1\"",
+            "CRight": "\"3,5,1\"",
+            "CUp": "\"4,5,-1\"",
+            "CDown": "\"4,5,1\"",
+            "AxisLeft": "\"0,5,-1\"",
+            "AxisRight": "\"0,5,1\"",
+            "AxisUp": "\"1,5,-1\"",
+            "AxisDown": "\"1,5,1\""
+        },
+        "ControllerInfo": {
+            "switch_trigger": "\"9,4\""
         }
     },
     {
