@@ -64,7 +64,7 @@
             "input_disk_prev_btn": "9"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -131,7 +131,7 @@
             "input_disk_prev_btn": "4"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -198,7 +198,7 @@
             "input_disk_prev_btn": "4"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -221,7 +221,7 @@
             "R-Bumper": "3/5"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -244,7 +244,7 @@
         },
         "ControllerInfo": {
             "dinput": "false",
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -267,8 +267,8 @@
             "mode": "Button 6"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes",
-            "mapping2": "yes"
+            "needActivationSwitch": "true",
+            "mapping2": "true"
         }
     },
     {
@@ -281,7 +281,7 @@
             "buttons_anal": "34,35,32,33,0,1,36,7,2,3,5,6,8,9,10,11"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -317,7 +317,7 @@
             "exit": "button_5_and_button_4"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -388,7 +388,7 @@
             "input_disk_prev_btn": "nul"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -411,7 +411,7 @@
             "R-Bumper": "3/9"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -434,7 +434,7 @@
         },
         "ControllerInfo": {
             "dinput": "false",
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -457,8 +457,8 @@
             "mode": "Button 4"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes",
-            "mapping2": "yes"
+            "needActivationSwitch": "true",
+            "mapping2": "true"
         }
     },
     {
@@ -471,7 +471,7 @@
             "buttons_anal": "34,35,32,33,1,0,5,9,3,2,4,8,8,9,10,11"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -761,7 +761,7 @@
             "mode": "Button 10"
         },
         "ControllerInfo": {
-            "mapping2": "yes"
+            "mapping2": "true"
         }
     },
     {

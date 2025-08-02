@@ -1263,7 +1263,7 @@
             "input_hold_fast_forward_btn": "h0right"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -1308,7 +1308,7 @@
             "input_hold_fast_forward_btn": "h0right"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -1353,7 +1353,7 @@
             "input_hold_fast_forward_btn": "14"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -1388,7 +1388,7 @@
             "R-Right": "3/8"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -1451,7 +1451,7 @@
             "XInvert": "false",
             "YInvert": "false",
             "dinput": "true",
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -1568,7 +1568,7 @@
             "Hotkey_LoadState_ExtraData": "0;0"
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     },
     {
@@ -1597,7 +1597,7 @@
             "AxisDown": "\"1,5,1\""
         },
         "ControllerInfo": {
-            "needActivationSwitch": "yes"
+            "needActivationSwitch": "true"
         }
     }
   ]
